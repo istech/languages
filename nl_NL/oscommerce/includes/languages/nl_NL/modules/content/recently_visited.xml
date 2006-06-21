@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<language>
+  <definitions>
+    <definition>
+      <key>recently_visited_title</key>
+      <value><![CDATA[Recently Visited Products]]></value>
+      <group>modules-content</group>
+    </definition>
+  </definitions>
+</language>
