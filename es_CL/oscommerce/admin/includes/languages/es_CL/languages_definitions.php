@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: languages.php 393 2006-01-20 22:54:31Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
@@ -10,22 +10,22 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Language Definitions');
+define('HEADING_TITLE', 'Definiciones del Lenguaje');
 
-define('TABLE_HEADING_DEFINITION_GROUPS', 'Definition Groups');
-define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Total Definitions');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_DEFINITION_GROUPS', 'Grupos de Definiciones');
+define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Total de Definiciones');
+define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new language definition with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Please select which definitions you would like to delete from the following group:');
+define('TEXT_INFO_INSERT_INTRO', 'Por favor ingresar la nueva definición del lenguaje con sus datos relacionados');
+define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_INFO_DELETE_INTRO', 'Por favor seleccionar las definiciones que usted quisiera borrar del grupo siguiente:');
 
-define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definition Key:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definition Value:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Group:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'New Group:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definición LLave:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definición Valor:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Grupo:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Nuevo Grupo:');
 
-define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'New Language Definition');
+define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Nueva Definición del Lenguaje');
 
-define('TEXT_BACK_TO_LANGUAGES', 'Back to Languages');
+define('TEXT_BACK_TO_LANGUAGES', 'Volver a Lenguajes');
 ?>

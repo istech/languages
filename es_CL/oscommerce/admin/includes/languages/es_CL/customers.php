@@ -1,43 +1,43 @@
 <?php
 /*
-  $Id: customers.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Customers');
-define('HEADING_TITLE_SEARCH', 'Search:');
+define('HEADING_TITLE', 'Clientes');
+define('HEADING_TITLE_SEARCH', 'Buscar:');
 
-define('TABLE_HEADING_FIRSTNAME', 'First Name');
-define('TABLE_HEADING_LASTNAME', 'Last Name');
-define('TABLE_HEADING_ACCOUNT_CREATED', 'Account Created');
-define('TABLE_HEADING_ACTION', 'Action');
-define('TABLE_HEADING_STATUS', 'Status');
+define('TABLE_HEADING_FIRSTNAME', 'Nombre');
+define('TABLE_HEADING_LASTNAME', 'Apellido');
+define('TABLE_HEADING_ACCOUNT_CREATED', 'Cuenta Creada');
+define('TABLE_HEADING_ACTION', 'Acción');
+define('TABLE_HEADING_STATUS', 'Estatus');
 
-define('TEXT_DATE_ACCOUNT_CREATED', 'Account Created:');
-define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_INFO_DATE_LAST_LOGON', 'Last Logon:');
-define('TEXT_INFO_NUMBER_OF_LOGONS', 'Number of Logons:');
-define('TEXT_INFO_COUNTRY', 'Country:');
-define('TEXT_INFO_NUMBER_OF_REVIEWS', 'Number of Reviews:');
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this customer?');
-define('TEXT_DELETE_REVIEWS', 'Delete %s review(s)');
-define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Delete Customer');
-define('TYPE_BELOW', 'Type below');
-define('PLEASE_SELECT', 'Select One');
-define('EMAIL_SUBJECT', 'Welcome to ' . STORE_NAME);
-define('EMAIL_GREET_MR', 'Dear Mr. %s,' . "\n\n");
-define('EMAIL_GREET_MS', 'Dear Ms. %s,' . "\n\n");
-define('EMAIL_GREET_NONE', 'Dear %s' . "\n\n");
-define('EMAIL_WELCOME', 'We welcome you to <b>' . STORE_NAME . '</b>.' . "\n\n");
-define('EMAIL_TEXT', 'You can now take part in the <b>various services</b> we have to offer you. Some of these services include:' . "\n\n" . '<li><b>Permanent Cart</b> - Any products added to your online cart remain there until you remove them, or check them out.' . "\n" . '<li><b>Address Book</b> - We can now deliver your products to another address other than yours! This is perfect to send birthday gifts direct to the birthday-person themselves.' . "\n" . '<li><b>Order History</b> - View your history of purchases that you have made with us.' . "\n" . '<li><b>Products Reviews</b> - Share your opinions on products with our other customers.' . "\n\n");
-define('EMAIL_CONTACT', 'For help with any of our online services, please email the store-owner: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
-define('EMAIL_PASSWORD', '<b>Note:</b> This account has been created for you by the store owner. The password to access this account is %s.' . "\n");
+define('TEXT_DATE_ACCOUNT_CREATED', 'Cuenta Creada:');
+define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Ultima Modificación:');
+define('TEXT_INFO_DATE_LAST_LOGON', 'Ultimo Ingreso:');
+define('TEXT_INFO_NUMBER_OF_LOGONS', 'Número de Ingresos:');
+define('TEXT_INFO_COUNTRY', 'País:');
+define('TEXT_INFO_NUMBER_OF_REVIEWS', 'Número de Comentarios:');
+define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este cliente?');
+define('TEXT_DELETE_REVIEWS', 'Borrar %s comentarioss');
+define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Borrar Cliente');
+define('TYPE_BELOW', 'Escriba abajo');
+define('PLEASE_SELECT', 'Eliga Uno');
+define('EMAIL_SUBJECT', 'Bienvenido a ' . STORE_NAME);
+define('EMAIL_GREET_MR', 'Sr. %s,' . "\n\n");
+define('EMAIL_GREET_MS', 'Sra. %s,' . "\n\n");
+define('EMAIL_GREET_NONE', 'Estimado %s' . "\n\n");
+define('EMAIL_WELCOME', 'Te damos la bienvenida a <b>' . STORE_NAME . '</b>.' . "\n\n");
+define('EMAIL_TEXT', 'Ahora puedes participar en los <b>varios servicios</b> que te ofrecemos. Algunos de estos servicios incluyen:' . "\n\n" . '<li><b>Carro de Compras Permanente</b> - Cualquier producto agregado a su carro de compras permanece allí hasta que lo quite, o lo compre.' . "\n" . '<li><b>Guía de Direcciónes</b> - ¡Ahora podemos entregar sus productos a otra dirección que la suya! Esto es perfecto para enviar los regalos directos a la persona de cumpleaños.' . "\n" . '<li><b>Historia de Pedidos</b> - Ver su historia de compras que ha hecho con nosotros.' . "\n" . '<li><b>Comentarios de Productos</b> - Compartir sus opiniones sobre productos con nuestros otros clientes.' . "\n\n");
+define('EMAIL_CONTACT', 'Para ayuda con cualquiera de nuestros servicios, por favor mande un email al dueño de la tienda: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
+define('EMAIL_PASSWORD', '<b>Nota:</b> Esta cuenta ha sido creada para usted por el dueño de la tienda. La contraseña para tener acceso a esta cuenta es %s.' . "\n");
 
-define('ENTRY_STATUS', 'Status:');
+define('ENTRY_STATUS', 'Estatus:');
 ?>

@@ -1,88 +1,88 @@
 <?php
 /*
-  $Id: banner_manager.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Banner Manager');
+define('HEADING_TITLE', 'Manager de Banderas');
 
-define('TABLE_HEADING_BANNERS', 'Banners');
-define('TABLE_HEADING_GROUPS', 'Groups');
-define('TABLE_HEADING_STATISTICS', 'Displays / Clicks');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_BANNERS', 'Banderas');
+define('TABLE_HEADING_GROUPS', 'Grupos');
+define('TABLE_HEADING_STATISTICS', 'Mostrado / Cliqueado');
+define('TABLE_HEADING_STATUS', 'Estatus');
+define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_BANNERS_TITLE', 'Banner Title:');
-define('TEXT_BANNERS_URL', 'Banner URL:');
-define('TEXT_BANNERS_GROUP', 'Banner Group:');
-define('TEXT_BANNERS_NEW_GROUP', ', or enter a new banner group below');
-define('TEXT_BANNERS_IMAGE', 'Image:');
-define('TEXT_BANNERS_IMAGE_LOCAL', ', or enter local file below');
-define('TEXT_BANNERS_IMAGE_TARGET', 'Image Target (Save To):');
-define('TEXT_BANNERS_HTML_TEXT', 'HTML Text:');
-define('TEXT_BANNERS_EXPIRES_ON', 'Expires On:');
-define('TEXT_BANNERS_OR_AT', ', or at');
-define('TEXT_BANNERS_IMPRESSIONS', 'impressions/views.');
-define('TEXT_BANNERS_SCHEDULED_AT', 'Scheduled At:');
-define('TEXT_BANNERS_STATUS', 'Status:');
-define('TEXT_BANNERS_BANNER_NOTE', '<b>Banner Notes:</b><ul><li>Use an image or HTML text for the banner - not both.</li><li>HTML Text has priority over an image</li></ul>');
-define('TEXT_BANNERS_INSERT_NOTE', '<b>Image Notes:</b><ul><li>Uploading directories must have proper user (write) permissions setup!</li><li>Do not fill out the \'Save To\' field if you are not uploading an image to the webserver (ie, you are using a local (serverside) image).</li><li>The \'Save To\' field must be an existing directory with an ending slash (eg, banners/).</li></ul>');
-define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Expiry Notes:</b><ul><li>Only one of the two fields should be submitted</li><li>If the banner is not to expire automatically, then leave these fields blank</li></ul>');
-define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Schedule Notes:</b><ul><li>If a schedule is set, the banner will be activated on that date.</li><li>All scheduled banners are marked as deactive until their date has arrived, to which they will then be marked active.</li></ul>');
+define('TEXT_BANNERS_TITLE', 'Titulo de la Bandera:');
+define('TEXT_BANNERS_URL', 'URL de la Bandera:');
+define('TEXT_BANNERS_GROUP', 'Grupo de la Bandera:');
+define('TEXT_BANNERS_NEW_GROUP', ', o ingresar un nuevo grupo de la bandera de abajo');
+define('TEXT_BANNERS_IMAGE', 'Imagen:');
+define('TEXT_BANNERS_IMAGE_LOCAL', ', o entrar a un archivo local de abajo');
+define('TEXT_BANNERS_IMAGE_TARGET', 'Destinación de la Imagen (Guardar Como):');
+define('TEXT_BANNERS_HTML_TEXT', 'HTML Texto:');
+define('TEXT_BANNERS_EXPIRES_ON', 'Expira En:');
+define('TEXT_BANNERS_OR_AT', ', o a');
+define('TEXT_BANNERS_IMPRESSIONS', 'impresiones/mostradas.');
+define('TEXT_BANNERS_SCHEDULED_AT', 'Programar En:');
+define('TEXT_BANNERS_STATUS', 'Estatus:');
+define('TEXT_BANNERS_BANNER_NOTE', '<b>Notas de la Bandera:</b><ul><li>Usar una imagen o el texto para la bandera - no ambas.</li><li>El texto de HTML tiene prioridad sobre una imagen</li></ul>');
+define('TEXT_BANNERS_INSERT_NOTE', '<b>Notas de la Imagen:</b><ul><li>¡Los directorios deben tener disposición apropiada de los permisos del usuario (escribir)!</li><li>No completar \'Guardar Como\' campo si no agregar una imagen al servidor web (EJ, si esta usando una imagen local (del servidor)).</li><li>El campo de \'Guardar Como\' debe ser un directorio existente con un eslach de la conclusión (ej., banderas/).</li></ul>');
+define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Notas de la Expiración:</b><ul><li>Solamente uno de los dos campos debe ser sometido</li><li>Si la bandera no se expira automáticamente, entonces deja estos campos en blanco</li></ul>');
+define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Nota de la Programación:</b><ul><li>Si se fija un horario, la bandera será activada esa fecha.</li><li>Todas las banderas programadas están marcadas como desactivadas hasta que su fecha ha llegado, a la cual entonces serán marcadas activas.</li></ul>');
 
-define('TEXT_BANNERS_DATE_ADDED', 'Date Added:');
-define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Scheduled At: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Expires At: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Expires At: <b>%s</b> impressions');
-define('TEXT_BANNERS_STATUS_CHANGE', 'Status Change: %s');
+define('TEXT_BANNERS_DATE_ADDED', 'Fecha Agregada:');
+define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Programar En: <b>%s</b>');
+define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Expira En: <b>%s</b>');
+define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Expira En: <b>%s</b> impresiones');
+define('TEXT_BANNERS_STATUS_CHANGE', 'Cambio Estatus: %s');
 
 define('TEXT_BANNERS_DATA', 'D<br />A<br />T<br />A');
-define('TEXT_BANNERS_LAST_3_DAYS', 'Last 3 Days');
-define('TEXT_BANNERS_BANNER_VIEWS', 'Banner Views');
-define('TEXT_BANNERS_BANNER_CLICKS', 'Banner Clicks');
+define('TEXT_BANNERS_LAST_3_DAYS', '3 Últimos Dias');
+define('TEXT_BANNERS_BANNER_VIEWS', 'Banderas Mostradas');
+define('TEXT_BANNERS_BANNER_CLICKS', 'Banderas Cliqueadas');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new banner with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this banner?');
-define('TEXT_INFO_DELETE_IMAGE', 'Delete banner image');
+define('TEXT_INFO_INSERT_INTRO', 'Por favor ingresar la bandera nueva con sus datos relacionados');
+define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar esta bandera?');
+define('TEXT_INFO_DELETE_IMAGE', 'Borrar imagen de la bandera');
 
-define('TEXT_INFO_HEADING_NEW_BANNER', 'New Banner');
+define('TEXT_INFO_HEADING_NEW_BANNER', 'Nueva Bandera');
 
-define('SUCCESS_BANNER_INSERTED', 'Success: The banner has been inserted.');
-define('SUCCESS_BANNER_UPDATED', 'Success: The banner has been updated.');
-define('SUCCESS_BANNER_REMOVED', 'Success: The banner has been removed.');
-define('SUCCESS_BANNER_STATUS_UPDATED', 'Success: The status of the banner has been updated.');
+define('SUCCESS_BANNER_INSERTED', 'Exito: Se ha insertado la bandera.');
+define('SUCCESS_BANNER_UPDATED', 'Exito: Se ha actualizado la bandera.');
+define('SUCCESS_BANNER_REMOVED', 'Exito: Se ha quitado la bandera.');
+define('SUCCESS_BANNER_STATUS_UPDATED', 'Exito: El estatus de la bandera se ha puesto al día.');
 
-define('ERROR_BANNER_TITLE_REQUIRED', 'Error: Banner title required.');
-define('ERROR_BANNER_GROUP_REQUIRED', 'Error: Banner group required.');
-define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: Target directory does not exist: %s');
-define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: Target directory is not writeable: %s');
-define('ERROR_IMAGE_DOES_NOT_EXIST', 'Error: Image does not exist.');
-define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Error: Image can not be removed.');
-define('ERROR_UNKNOWN_STATUS_FLAG', 'Error: Unknown status flag.');
+define('ERROR_BANNER_TITLE_REQUIRED', 'Error: Título de la bandera requerida.');
+define('ERROR_BANNER_GROUP_REQUIRED', 'Error: Grupo de la bandera requerida.');
+define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio no existe: %s');
+define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: El directorio no es escribible: %s');
+define('ERROR_IMAGE_DOES_NOT_EXIST', 'Error: Imagen no existe.');
+define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Error: No se puede quitar la imagen.');
+define('ERROR_UNKNOWN_STATUS_FLAG', 'Error: Estatus desconocido.');
 
-define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Error: Graphs directory does not exist. Please create a \'graphs\' directory inside \'images\'.');
-define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Error: Graphs directory is not writeable.');
+define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de los gráficos no existe. Por favor crear \'graphs\' interior del directorio \'images\'.');
+define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Error: El directorio de los gráficos no es escribible.');
 
-define('TABLE_HEADING_SOURCE', 'Source');
-define('TABLE_HEADING_VIEWS', 'Views');
-define('TABLE_HEADING_CLICKS', 'Clicks');
+define('TABLE_HEADING_SOURCE', 'Fuente');
+define('TABLE_HEADING_VIEWS', 'Comentarios');
+define('TABLE_HEADING_CLICKS', 'Cliqueadas');
 
-define('TEXT_BANNERS_DAILY_STATISTICS', '%s Daily Statistics For %s %s');
-define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Monthly Statistics For %s');
-define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Yearly Statistics');
+define('TEXT_BANNERS_DAILY_STATISTICS', '%s Estadísticas diarias para %s %s');
+define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Estadísticas mensuales para %s');
+define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Estadísticas anuales');
 
-define('STATISTICS_TYPE_DAILY', 'Daily');
-define('STATISTICS_TYPE_MONTHLY', 'Monthly');
-define('STATISTICS_TYPE_YEARLY', 'Yearly');
+define('STATISTICS_TYPE_DAILY', 'Diario');
+define('STATISTICS_TYPE_MONTHLY', 'Mensual');
+define('STATISTICS_TYPE_YEARLY', 'Anual');
 
-define('TITLE_TYPE', 'Type:');
-define('TITLE_YEAR', 'Year:');
-define('TITLE_MONTH', 'Month:');
+define('TITLE_TYPE', 'Tipo:');
+define('TITLE_YEAR', 'Año:');
+define('TITLE_MONTH', 'Mes:');
 ?>

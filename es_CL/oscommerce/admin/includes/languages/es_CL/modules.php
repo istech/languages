@@ -1,25 +1,25 @@
 <?php
 /*
-  $Id: modules.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE_MODULES_PAYMENT', 'Payment Modules');
-define('HEADING_TITLE_MODULES_SHIPPING', 'Shipping Modules');
-define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Order Total Modules');
+define('HEADING_TITLE_MODULES_PAYMENT', 'Módulos de Pago');
+define('HEADING_TITLE_MODULES_SHIPPING', 'Módulos de Envío');
+define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Módulo del Total del Pedido');
 
-define('TABLE_HEADING_MODULES', 'Modules');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_MODULES', 'Módulos');
+define('TABLE_HEADING_SORT_ORDER', 'Orden de Sorteo');
+define('TABLE_HEADING_STATUS', 'Estatus');
+define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_MODULE_DIRECTORY', 'Module Directory:');
+define('TEXT_MODULE_DIRECTORY', 'Directorio de Módulos:');
 
-define('INFO_MODULE_UNINSTALL_INTRO', 'Are you sure you want to uninstall this module?<br /><br />(All module parameters would then be removed)');
+define('INFO_MODULE_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(Todos los parámetros del módulo seran quitados)');
 ?>

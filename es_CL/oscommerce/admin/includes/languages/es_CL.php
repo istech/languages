@@ -1,11 +1,11 @@
 <?php
 /*
-  $Id: en_US.php 608 2006-07-05 10:56:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
@@ -13,20 +13,20 @@
 // look in your $PATH_LOCALE/locale directory for available locales
 // or execute 'locale -a' on the server.
 // Examples:
-// on Linux try 'en_US'
-// on FreeBSD try 'en_US.ISO_8859-1'
-// on Windows try 'en', or 'English'
-define('LANGUAGE_LOCALE', 'en_US');
+// on Linux try 'es_CL'
+// on FreeBSD try 'es_CL.ISO_8859-15'
+// on Windows try 'es', or 'Spanish'
+define('LANGUAGE_LOCALE', 'es_CL');
 
-define('DATE_FORMAT_SHORT', '%m/%d/%Y');  // this is used for strftime()
+define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
-define('DATE_FORMAT', 'm/d/Y'); // this is used for date()
-define('PHP_DATE_TIME_FORMAT', 'm/d/Y H:i:s'); // this is used for date()
+define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
+define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // this is used for date()
 define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
 
 ////
 // Return date in raw format
-// $date should be in format mm/dd/yyyy
+// $date should be in format dd/mm/yyyy
 // raw date is in format YYYYMMDD, or DDMMYYYY
 function tep_date_raw($date, $reverse = false) {
   if ($reverse) {
@@ -40,300 +40,300 @@ define('NUMERIC_DECIMAL_SEPARATOR', '.');
 define('NUMERIC_THOUSANDS_SEPARATOR', ',');
 
 // Global entries for the <html> tag
-define('HTML_PARAMS','xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="en" lang="en"');
+define('HTML_PARAMS','xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="es" lang="es"');
 
 // charset for web pages and emails
-define('CHARSET', 'iso-8859-1');
+define('CHARSET', 'iso-8859-15');
 
 // page title
 define('TITLE', 'osCommerce');
 
 // header text in includes/header.php
-define('HEADER_TITLE_HELP', 'Help');
-define('HEADER_TITLE_OSCOMMERCE_SUPPORT_SITE', 'osCommerce Support Site');
-define('HEADER_TITLE_ONLINE_CATALOG', 'Online Catalog');
-define('HEADER_TITLE_LANGUAGES', 'Languages');
+define('HEADER_TITLE_HELP', 'Ayuda');
+define('HEADER_TITLE_OSCOMMERCE_SUPPORT_SITE', 'osCommerce Sitio de Soporte');
+define('HEADER_TITLE_ONLINE_CATALOG', 'Catálogo');
+define('HEADER_TITLE_LANGUAGES', 'Lenguajes');
 
-define('BOX_CONNECTION_PROTECTED', 'You are protected by a %s secure SSL connection.');
-define('BOX_CONNECTION_UNPROTECTED', 'You are <font color="#ff0000">not</font> protected by a secure SSL connection.');
-define('BOX_CONNECTION_UNKNOWN', 'unknown');
+define('BOX_CONNECTION_PROTECTED', 'Una conexión segura del SSL de %s le protege.');
+define('BOX_CONNECTION_UNPROTECTED', 'Una conexión segura del SSL <font color="#ff0000">no</font> le protege.');
+define('BOX_CONNECTION_UNKNOWN', 'desconocido');
 
 // text for gender
-define('MALE', 'Male');
-define('FEMALE', 'Female');
+define('MALE', 'Masculino');
+define('FEMALE', 'Femenino');
 
 // text for date of birth example
-define('DOB_FORMAT_STRING', 'mm/dd/yyyy');
+define('DOB_FORMAT_STRING', 'dd/mm/AAAA');
 
-define('BOX_CONFIGURATION_ADMINISTRATORS', 'Administrators');
+define('BOX_CONFIGURATION_ADMINISTRATORS', 'Administradores');
 
 // configuration box text in includes/boxes/configuration.php
-define('BOX_HEADING_CONFIGURATION', 'Configuration');
-define('BOX_CONFIGURATION_MYSTORE', 'My Store');
-define('BOX_CONFIGURATION_LOGGING', 'Logging');
+define('BOX_HEADING_CONFIGURATION', 'Configuración');
+define('BOX_CONFIGURATION_MYSTORE', 'Mi Tienda');
+define('BOX_CONFIGURATION_LOGGING', 'Loging');
 define('BOX_CONFIGURATION_CACHE', 'Cache');
-define('BOX_CONFIGURATION_SERVICES', 'Services');
-define('BOX_CONFIGURATION_CREDIT_CARD_TYPES', 'Credit Card Types');
+define('BOX_CONFIGURATION_SERVICES', 'Servicios');
+define('BOX_CONFIGURATION_CREDIT_CARD_TYPES', 'Tipos de Tarjeta de Crédito');
 
 // modules box text in includes/boxes/modules.php
-define('BOX_HEADING_MODULES', 'Modules');
-define('BOX_MODULES_PAYMENT', 'Payment');
-define('BOX_MODULES_SHIPPING', 'Shipping');
-define('BOX_MODULES_ORDER_TOTAL', 'Order Total');
+define('BOX_HEADING_MODULES', 'Módulos');
+define('BOX_MODULES_PAYMENT', 'Pagos');
+define('BOX_MODULES_SHIPPING', 'Envíos');
+define('BOX_MODULES_ORDER_TOTAL', 'Total del Pedido');
 
 // categories box text in includes/boxes/catalog.php
-define('BOX_HEADING_CATALOG', 'Catalog');
-define('BOX_CATALOG_CATEGORIES', 'Categories');
-define('BOX_CATALOG_PRODUCTS', 'Products');
-define('BOX_CATALOG_CATEGORIES_PRODUCTS_ATTRIBUTES', 'Products Attributes');
-define('BOX_CATALOG_MANUFACTURERS', 'Manufacturers');
-define('BOX_CATALOG_REVIEWS', 'Reviews');
-define('BOX_CATALOG_SPECIALS', 'Specials');
-define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Products Expected');
+define('BOX_HEADING_CATALOG', 'Catálogo');
+define('BOX_CATALOG_CATEGORIES', 'Categorías');
+define('BOX_CATALOG_PRODUCTS', 'Productos');
+define('BOX_CATALOG_CATEGORIES_PRODUCTS_ATTRIBUTES', 'Atributos de Productos');
+define('BOX_CATALOG_MANUFACTURERS', 'Fabricantes');
+define('BOX_CATALOG_REVIEWS', 'Comentarios');
+define('BOX_CATALOG_SPECIALS', 'Especiales');
+define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Productos Esperados');
 
 // customers box text in includes/boxes/customers.php
-define('BOX_HEADING_CUSTOMERS', 'Customers');
-define('BOX_CUSTOMERS_CUSTOMERS', 'Customers');
-define('BOX_CUSTOMERS_ORDERS', 'Orders');
+define('BOX_HEADING_CUSTOMERS', 'Clientes');
+define('BOX_CUSTOMERS_CUSTOMERS', 'Clientes');
+define('BOX_CUSTOMERS_ORDERS', 'Pedidos');
 
 // taxes box text in includes/boxes/taxes.php
-define('BOX_HEADING_LOCATION_AND_TAXES', 'Locations / Taxes');
-define('BOX_TAXES_COUNTRIES', 'Countries');
-define('BOX_TAXES_ZONES', 'Zones');
-define('BOX_TAXES_GEO_ZONES', 'Tax Zones');
-define('BOX_TAXES_TAX_CLASSES', 'Tax Classes');
+define('BOX_HEADING_LOCATION_AND_TAXES', 'Localizaciones / Impuestos');
+define('BOX_TAXES_COUNTRIES', 'Países');
+define('BOX_TAXES_ZONES', 'Zonas');
+define('BOX_TAXES_GEO_ZONES', 'Zonas de Impuesto');
+define('BOX_TAXES_TAX_CLASSES', 'Clases de Impuesto');
 
 // reports box text in includes/boxes/reports.php
-define('BOX_HEADING_REPORTS', 'Reports');
-define('BOX_REPORTS_STATISTICS', 'Statistics');
+define('BOX_HEADING_REPORTS', 'Raportes');
+define('BOX_REPORTS_STATISTICS', 'Estadisticas');
 
 // tools text in includes/boxes/tools.php
-define('BOX_HEADING_TOOLS', 'Tools');
-define('BOX_TOOLS_BACKUP', 'Database Backup');
-define('BOX_TOOLS_BANNER_MANAGER', 'Banner Manager');
+define('BOX_HEADING_TOOLS', 'Herramientas');
+define('BOX_TOOLS_BACKUP', 'Respaldar Base de Datos');
+define('BOX_TOOLS_BANNER_MANAGER', 'Manager de Banderas');
 define('BOX_TOOLS_CACHE', 'Cache Control');
-define('BOX_TOOLS_IMAGES', 'Images');
-define('BOX_TOOLS_FILE_MANAGER', 'File Manager');
-define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Newsletter Manager');
-define('BOX_TOOLS_SERVER_INFO', 'Server Info');
-define('BOX_TOOLS_WHOS_ONLINE', 'Who\'s Online');
+define('BOX_TOOLS_IMAGES', 'Imagenes');
+define('BOX_TOOLS_FILE_MANAGER', 'Manager de Archivos');
+define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Manager de Boletín');
+define('BOX_TOOLS_SERVER_INFO', 'Información del Servidor');
+define('BOX_TOOLS_WHOS_ONLINE', 'Quién es en Línea');
 
 // localizaion box text in includes/boxes/localization.php
 define('BOX_HEADING_LOCALIZATION', 'Localization');
-define('BOX_LOCALIZATION_CURRENCIES', 'Currencies');
-define('BOX_LOCALIZATION_LANGUAGES', 'Languages');
-define('BOX_LOCALIZATION_ORDERS_STATUS', 'Orders Status');
-define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Weight Classes');
-define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Image Groups');
+define('BOX_LOCALIZATION_CURRENCIES', 'Valutas');
+define('BOX_LOCALIZATION_LANGUAGES', 'Lenguajes');
+define('BOX_LOCALIZATION_ORDERS_STATUS', 'Estatus del Pedidos');
+define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Clases de Peso');
+define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Grupos de Imágenes');
 
-define('BOX_HEADING_LOGOFF', 'Logoff');
+define('BOX_HEADING_LOGOFF', 'Salir');
 
 // javascript messages
-define('JS_ERROR', 'Errors have occured during the process of your form!\nPlease make the following corrections:\n\n');
-define('JS_OPTIONS_VALUE_PRICE', '* The new product atribute needs a price value\n');
-define('JS_OPTIONS_VALUE_PRICE_PREFIX', '* The new product atribute needs a price prefix\n');
-define('JS_PRODUCTS_NAME', '* The new product needs a name\n');
-define('JS_PRODUCTS_DESCRIPTION', '* The new product needs a description\n');
-define('JS_PRODUCTS_PRICE', '* The new product needs a price value\n');
-define('JS_PRODUCTS_WEIGHT', '* The new product needs a weight value\n');
-define('JS_PRODUCTS_QUANTITY', '* The new product needs a quantity value\n');
-define('JS_PRODUCTS_MODEL', '* The new product needs a model value\n');
-define('JS_PRODUCTS_IMAGE', '* The new product needs an image value\n');
-define('JS_SPECIALS_PRODUCTS_PRICE', '* A new price for this product needs to be set\n');
-define('JS_ORDER_DOES_NOT_EXIST', 'Order Number %s does not exist!');
+define('JS_ERROR', '¡Errores han ocurrido durante el proceso de su formulario!\nPor favor haga las correcciones siguientes:\n\n');
+define('JS_OPTIONS_VALUE_PRICE', '* El atributo del producto nuevo necesita un valor del precio\n');
+define('JS_OPTIONS_VALUE_PRICE_PREFIX', '* El atributo del producto nuevo necesita un prefijo del precio\n');
+define('JS_PRODUCTS_NAME', '* El producto nuevo necesita un nombre\n');
+define('JS_PRODUCTS_DESCRIPTION', '* El producto nuevo necesita una descripción\n');
+define('JS_PRODUCTS_PRICE', '* El producto nuevo necesita un valor del precio\n');
+define('JS_PRODUCTS_WEIGHT', '* El producto nuevo necesita un valor del peso\n');
+define('JS_PRODUCTS_QUANTITY', '* El producto nuevo necesita un valor de la cantidad\n');
+define('JS_PRODUCTS_MODEL', '* El producto nuevo necesita un valor modelo\n');
+define('JS_PRODUCTS_IMAGE', '* El producto nuevo necesita un valor de la imagen\n');
+define('JS_SPECIALS_PRODUCTS_PRICE', '* Un nuevo precio para este producto necesita ser fijado\n');
+define('JS_ORDER_DOES_NOT_EXIST', '¡El Número del Pedido número %s no existe!');
 
 define('CATEGORY_PERSONAL', 'Personal');
-define('CATEGORY_ADDRESS', 'Address');
-define('CATEGORY_CONTACT', 'Contact');
-define('CATEGORY_COMPANY', 'Company');
-define('CATEGORY_OPTIONS', 'Options');
+define('CATEGORY_ADDRESS', 'Dirección');
+define('CATEGORY_CONTACT', 'Contacto');
+define('CATEGORY_COMPANY', 'Empresa');
+define('CATEGORY_OPTIONS', 'Optiones');
 
-define('ENTRY_GENDER', 'Gender:');
-define('ENTRY_GENDER_ERROR', 'Please select your Gender.');
-define('ENTRY_FIRST_NAME', 'First Name:');
-define('ENTRY_FIRST_NAME_ERROR', 'Your First Name must contain a minimum of ' . ACCOUNT_FIRST_NAME . ' characters.');
-define('ENTRY_LAST_NAME', 'Last Name:');
-define('ENTRY_LAST_NAME_ERROR', 'Your Last Name must contain a minimum of ' . ACCOUNT_LAST_NAME . ' characters.');
-define('ENTRY_DATE_OF_BIRTH', 'Date of Birth:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', 'Your Date of Birth must be set correctly.');
-define('ENTRY_EMAIL_ADDRESS', 'E-Mail Address:');
-define('ENTRY_EMAIL_ADDRESS_ERROR', 'Your E-Mail Address must contain a minimum of ' . ACCOUNT_EMAIL_ADDRESS . ' characters.');
-define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Your E-Mail Address does not appear to be valid - please make any necessary corrections.');
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Your E-Mail Address already exists in our records - please log in with the e-mail address or create an account with a different address.');
-define('ENTRY_COMPANY', 'Company Name:');
-define('ENTRY_COMPANY_ERROR', 'Your Company Name must contain a minimum of ' . ACCOUNT_COMPANY . ' characters.');
-define('ENTRY_STREET_ADDRESS', 'Street Address:');
-define('ENTRY_STREET_ADDRESS_ERROR', 'Your Street Address must contain a minimum of ' . ACCOUNT_STREET_ADDRESS . ' characters.');
-define('ENTRY_SUBURB', 'Suburb:');
-define('ENTRY_SUBURB_ERROR', 'Your Suburb must contain a minimum of ' . ACCOUNT_SUBURB . ' characters.');
-define('ENTRY_POST_CODE', 'Post Code:');
-define('ENTRY_POST_CODE_ERROR', 'Your Post Code must contain a minimum of ' . ACCOUNT_POST_CODE . ' characters.');
-define('ENTRY_CITY', 'City:');
-define('ENTRY_CITY_ERROR', 'Your City must contain a minimum of ' . ACCOUNT_CITY . ' characters.');
-define('ENTRY_STATE', 'State/Province:');
-define('ENTRY_STATE_ERROR', 'Your State must contain a minimum of ' . ACCOUNT_STATE . ' characters.');
-define('ENTRY_STATE_ERROR_SELECT', 'Please select a state from the States pull down menu.');
-define('ENTRY_COUNTRY', 'Country:');
-define('ENTRY_COUNTRY_ERROR', 'You must select a country from the Countries pull down menu.');
-define('ENTRY_TELEPHONE_NUMBER', 'Telephone Number:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Your Telephone Number must contain a minimum of ' . ACCOUNT_TELEPHONE . ' characters.');
-define('ENTRY_FAX_NUMBER', 'Fax Number:');
-define('ENTRY_FAX_NUMBER_ERROR', 'Your Fax Number must contain a minium of ' . ACCOUNT_FAX . ' characters.');
-define('ENTRY_NEWSLETTER', 'Newsletter:');
-define('ENTRY_NEWSLETTER_YES', 'Subscribed');
-define('ENTRY_NEWSLETTER_NO', 'Unsubscribed');
-define('ENTRY_PASSWORD', 'Password:');
-define('ENTRY_PASSWORD_ERROR', 'Your Password must contain a minimum of ' . ACCOUNT_PASSWORD . ' characters.');
-define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'The Password Confirmation must match your Password.');
-define('ENTRY_PASSWORD_CONFIRMATION', 'Password Confirmation:');
+define('ENTRY_GENDER', 'Sexo:');
+define('ENTRY_GENDER_ERROR', 'Por favor elige Sexo.');
+define('ENTRY_FIRST_NAME', 'Nombre:');
+define('ENTRY_FIRST_NAME_ERROR', 'Su Nombre debe contener un mínimo de ' . ACCOUNT_FIRST_NAME . ' caracteres.');
+define('ENTRY_LAST_NAME', 'Apellido:');
+define('ENTRY_LAST_NAME_ERROR', 'Su Apellido debe contener un mínimo de ' . ACCOUNT_LAST_NAME . ' caracteres.');
+define('ENTRY_DATE_OF_BIRTH', 'Fecha de Nacimiento:');
+define('ENTRY_DATE_OF_BIRTH_ERROR', 'Su Fecha de Nacimiento se debe fijarse correctamente.');
+define('ENTRY_EMAIL_ADDRESS', 'Dirección E-Mail:');
+define('ENTRY_EMAIL_ADDRESS_ERROR', 'Su Dirección E-mail debe contener un mínimo de ' . ACCOUNT_EMAIL_ADDRESS . ' caracteres.');
+define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Su Dirección E-mail no esta válida - por favor hacer cualquier corrección necesaria.');
+define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Su dirección E-mail existe ya en nuestros expedientes - por favor abrir una sesión con la dirección E-mail o crear una cuenta con una diversa dirección.');
+define('ENTRY_COMPANY', 'Nombre de Empresa:');
+define('ENTRY_COMPANY_ERROR', 'Su Nombre de Empresa debe contener un mínimo de ' . ACCOUNT_COMPANY . ' caracteres.');
+define('ENTRY_STREET_ADDRESS', 'Nombre de la Calle:');
+define('ENTRY_STREET_ADDRESS_ERROR', 'Su Nombre de la Calle debe contener un mínimo de ' . ACCOUNT_STREET_ADDRESS . ' caracteres.');
+define('ENTRY_SUBURB', 'Suburbio:');
+define('ENTRY_SUBURB_ERROR', 'Su Suburbio debe contener un mínimo de ' . ACCOUNT_SUBURB . ' caracteres.');
+define('ENTRY_POST_CODE', 'Código Postal:');
+define('ENTRY_POST_CODE_ERROR', 'Su Código Postal debe contener un mínimo de ' . ACCOUNT_POST_CODE . ' caracteres.');
+define('ENTRY_CITY', 'Ciudad:');
+define('ENTRY_CITY_ERROR', 'Su Ciudad debe contener un mínimo de ' . ACCOUNT_CITY . ' caracteres.');
+define('ENTRY_STATE', 'Provincia:');
+define('ENTRY_STATE_ERROR', 'Su Provincia debe contener un mínimo de ' . ACCOUNT_STATE . ' caracteres.');
+define('ENTRY_STATE_ERROR_SELECT', 'Por favor elige una provincia del menú.');
+define('ENTRY_COUNTRY', 'País:');
+define('ENTRY_COUNTRY_ERROR', 'Debes seleccionar un país de los países menú.');
+define('ENTRY_TELEPHONE_NUMBER', 'Número de Teléfono:');
+define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Su Número de Teléfono debe contener un mínimo de ' . ACCOUNT_TELEPHONE . ' caracteres.');
+define('ENTRY_FAX_NUMBER', 'Número de Fax:');
+define('ENTRY_FAX_NUMBER_ERROR', 'Su Número de Fax debe contener un mínimo de ' . ACCOUNT_FAX . ' caracteres.');
+define('ENTRY_NEWSLETTER', 'Boletínes:');
+define('ENTRY_NEWSLETTER_YES', 'Subscrito');
+define('ENTRY_NEWSLETTER_NO', 'Sin Subscripción');
+define('ENTRY_PASSWORD', 'Contraseña:');
+define('ENTRY_PASSWORD_ERROR', 'Su Contraseña debe contener un mínimo de ' . ACCOUNT_PASSWORD . ' caracteres.');
+define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'La Confirmación de Contraseña debe coincidir con su Contraseña.');
+define('ENTRY_PASSWORD_CONFIRMATION', 'Confirmación de Contraseña:');
 
 // images
-define('IMAGE_ANI_SEND_EMAIL', 'Sending E-Mail');
-define('IMAGE_APPROVE', 'Approve');
-define('IMAGE_BACK', 'Back');
-define('IMAGE_BACKUP', 'Backup');
-define('IMAGE_BOX_REMOVE', 'Remove Box');
-define('IMAGE_CANCEL', 'Cancel');
-define('IMAGE_CONFIGURE', 'Configure');
-define('IMAGE_CONFIRM', 'Confirm');
-define('IMAGE_COPY', 'Copy');
-define('IMAGE_COPY_TO', 'Copy To');
-define('IMAGE_DETAILS', 'Details');
-define('IMAGE_DELETE', 'Delete');
-define('IMAGE_EDIT', 'Edit');
-define('IMAGE_EDIT_DEFINITIONS', 'Edit Definitions');
+define('IMAGE_ANI_SEND_EMAIL', 'Mandar E-Mail');
+define('IMAGE_APPROVE', 'Approvar');
+define('IMAGE_BACK', 'Atrás');
+define('IMAGE_BACKUP', 'Respaldar');
+define('IMAGE_BOX_REMOVE', 'Quitar Box');
+define('IMAGE_CANCEL', 'Cancelar');
+define('IMAGE_CONFIGURE', 'Configurar');
+define('IMAGE_CONFIRM', 'Confirmar');
+define('IMAGE_COPY', 'Copiar');
+define('IMAGE_COPY_TO', 'Copiar A');
+define('IMAGE_DETAILS', 'Detalles');
+define('IMAGE_DELETE', 'Borrar');
+define('IMAGE_EDIT', 'Editar');
+define('IMAGE_EDIT_DEFINITIONS', 'Editar Definiciones');
 define('IMAGE_EMAIL', 'Email');
-define('IMAGE_EXECUTE', 'Execute');
-define('IMAGE_EXPORT', 'Export');
-define('IMAGE_FILE_MANAGER', 'File Manager');
-define('IMAGE_ICON_STATUS_GREEN', 'Active');
-define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Set Active');
-define('IMAGE_ICON_STATUS_RED', 'Inactive');
-define('IMAGE_ICON_STATUS_RED_LIGHT', 'Set Inactive');
-define('IMAGE_ICON_INFO', 'Info');
-define('IMAGE_IMPORT', 'Import');
-define('IMAGE_INSERT', 'Insert');
-define('IMAGE_LOCK', 'Lock');
-define('IMAGE_LOGIN', 'Login');
-define('IMAGE_MODULE_INSTALL', 'Install Module');
-define('IMAGE_MODULE_REMOVE', 'Remove Module');
-define('IMAGE_MOVE', 'Move');
-define('IMAGE_NEW_BANNER', 'New Banner');
-define('IMAGE_NEW_CATEGORY', 'New Category');
-define('IMAGE_NEW_COUNTRY', 'New Country');
-define('IMAGE_NEW_CURRENCY', 'New Currency');
-define('IMAGE_NEW_FILE', 'New File');
-define('IMAGE_NEW_FOLDER', 'New Folder');
-define('IMAGE_NEW_LANGUAGE', 'New Language');
-define('IMAGE_NEW_NEWSLETTER', 'New Newsletter');
-define('IMAGE_NEW_PRODUCT', 'New Product');
-define('IMAGE_NEW_TAX_CLASS', 'New Tax Class');
-define('IMAGE_NEW_TAX_RATE', 'New Tax Rate');
-define('IMAGE_NEW_TAX_ZONE', 'New Tax Zone');
-define('IMAGE_NEW_ZONE', 'New Zone');
-define('IMAGE_ORDERS', 'Orders');
-define('IMAGE_ORDERS_INVOICE', 'Invoice');
-define('IMAGE_ORDERS_PACKINGSLIP', 'Packing Slip');
-define('IMAGE_PREVIEW', 'Preview');
-define('IMAGE_REJECT', 'Reject');
-define('IMAGE_RESTORE', 'Restore');
-define('IMAGE_RESET', 'Reset');
-define('IMAGE_SAVE', 'Save');
-define('IMAGE_SEARCH', 'Search');
-define('IMAGE_SELECT', 'Select');
-define('IMAGE_SEND', 'Send');
-define('IMAGE_SEND_EMAIL', 'Send Email');
-define('IMAGE_UNLOCK', 'Unlock');
-define('IMAGE_UPDATE', 'Update');
-define('IMAGE_UPDATE_CURRENCIES', 'Update Exchange Rate');
-define('IMAGE_UPLOAD', 'Upload');
+define('IMAGE_EXECUTE', 'Executar');
+define('IMAGE_EXPORT', 'Exportar');
+define('IMAGE_FILE_MANAGER', 'Manager de Archivo');
+define('IMAGE_ICON_STATUS_GREEN', 'Activo');
+define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Fijar Activo');
+define('IMAGE_ICON_STATUS_RED', 'Inactivo');
+define('IMAGE_ICON_STATUS_RED_LIGHT', 'Fijar Inactivo');
+define('IMAGE_ICON_INFO', 'Información');
+define('IMAGE_IMPORT', 'Importar');
+define('IMAGE_INSERT', 'Insertar');
+define('IMAGE_LOCK', 'Cerrar');
+define('IMAGE_LOGIN', 'Ingresar');
+define('IMAGE_MODULE_INSTALL', 'Instalar Módulo');
+define('IMAGE_MODULE_REMOVE', 'Quitar Módulo');
+define('IMAGE_MOVE', 'Mover');
+define('IMAGE_NEW_BANNER', 'Nueva Bandera');
+define('IMAGE_NEW_CATEGORY', 'Nueva Categoría');
+define('IMAGE_NEW_COUNTRY', 'Nuevo País');
+define('IMAGE_NEW_CURRENCY', 'Nueva Valuta');
+define('IMAGE_NEW_FILE', 'Nuevo Archivo');
+define('IMAGE_NEW_FOLDER', 'Nuevo Carpeta');
+define('IMAGE_NEW_LANGUAGE', 'Nueva Lenguaje');
+define('IMAGE_NEW_NEWSLETTER', 'Nuevo Boletín');
+define('IMAGE_NEW_PRODUCT', 'Nuevo Producto');
+define('IMAGE_NEW_TAX_CLASS', 'Nueva Clase de Impuesto');
+define('IMAGE_NEW_TAX_RATE', 'Nuevo Impuesto Fiscal');
+define('IMAGE_NEW_TAX_ZONE', 'Nueva Zona de Impuesto');
+define('IMAGE_NEW_ZONE', 'Nueva Zona');
+define('IMAGE_ORDERS', 'Pedidos');
+define('IMAGE_ORDERS_INVOICE', 'Factura');
+define('IMAGE_ORDERS_PACKINGSLIP', 'Resbalón');
+define('IMAGE_PREVIEW', 'Muestra');
+define('IMAGE_REJECT', 'Rechazo');
+define('IMAGE_RESTORE', 'Restaurar');
+define('IMAGE_RESET', 'Reajustar');
+define('IMAGE_SAVE', 'Guardar');
+define('IMAGE_SEARCH', 'Buscar');
+define('IMAGE_SELECT', 'Seleccionar');
+define('IMAGE_SEND', 'Mandar');
+define('IMAGE_SEND_EMAIL', 'Mandar Email');
+define('IMAGE_UNLOCK', 'Abrir');
+define('IMAGE_UPDATE', 'Actualizar');
+define('IMAGE_UPDATE_CURRENCIES', 'Actualización del Cambio de la Valuta');
+define('IMAGE_UPLOAD', 'Subir');
 
-define('ICON_CROSS', 'False');
-define('ICON_CURRENT_FOLDER', 'Current Folder');
-define('ICON_DELETE', 'Delete');
+define('ICON_CROSS', 'Falso');
+define('ICON_CURRENT_FOLDER', 'Carpeta Actual');
+define('ICON_DELETE', 'Borrar');
 define('ICON_ERROR', 'Error');
-define('ICON_FILE', 'File');
-define('ICON_FILE_DOWNLOAD', 'Download');
-define('ICON_FOLDER', 'Folder');
-define('ICON_LOCKED', 'Locked');
-define('ICON_PREVIOUS_LEVEL', 'Previous Level');
-define('ICON_PREVIEW', 'Preview');
-define('ICON_STATISTICS', 'Statistics');
-define('ICON_SUCCESS', 'Success');
-define('ICON_TICK', 'True');
-define('ICON_UNLOCKED', 'Unlocked');
-define('ICON_WARNING', 'Warning');
+define('ICON_FILE', 'Archivo');
+define('ICON_FILE_DOWNLOAD', 'Descargar');
+define('ICON_FOLDER', 'Carpeta');
+define('ICON_LOCKED', 'Cerrado');
+define('ICON_PREVIOUS_LEVEL', 'Nivel anterior');
+define('ICON_PREVIEW', 'Muestra');
+define('ICON_STATISTICS', 'Estadística');
+define('ICON_SUCCESS', 'Exito');
+define('ICON_TICK', 'Verdad');
+define('ICON_UNLOCKED', 'Abierto');
+define('ICON_WARNING', 'Advertencia');
 
-define('BUTTON_CANCEL', 'Cancel');
-define('BUTTON_BACK', 'Back');
-define('BUTTON_DELETE', 'Delete');
-define('BUTTON_INSERT', 'Insert');
+define('BUTTON_CANCEL', 'Cancelar');
+define('BUTTON_BACK', 'Atrás');
+define('BUTTON_DELETE', 'Borrar');
+define('BUTTON_INSERT', 'Insertar');
 define('BUTTON_OK', 'OK');
-define('BUTTON_SAVE', 'Save');
-define('BUTTON_SEND', 'Send');
+define('BUTTON_SAVE', 'Guardar');
+define('BUTTON_SEND', 'Mandar');
 
-define('ICON_FILES', 'Files');
-define('ICON_ORDERS', 'Orders');
-define('ICON_PRODUCTS', 'Products');
+define('ICON_FILES', 'Archivos');
+define('ICON_ORDERS', 'Pedidos');
+define('ICON_PRODUCTS', 'Productos');
 
 // constants for use in tep_prev_next_display function
 define('TEXT_RESULT_PAGE', 'Page&nbsp;%s&nbsp;of&nbsp;%d');
-define('TEXT_DISPLAY_NUMBER_OF_ADMINISTRATORS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> administrators)');
-define('TEXT_DISPLAY_NUMBER_OF_BANNERS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> banners)');
-define('TEXT_DISPLAY_NUMBER_OF_CATEGORIES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> categories)');
-define('TEXT_DISPLAY_NUMBER_OF_COUNTRIES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> countries)');
-define('TEXT_DISPLAY_NUMBER_OF_CREDIT_CARDS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> credit cards)');
-define('TEXT_DISPLAY_NUMBER_OF_CUSTOMERS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> customers)');
-define('TEXT_DISPLAY_NUMBER_OF_CURRENCIES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> currencies)');
-define('TEXT_DISPLAY_NUMBER_OF_LANGUAGES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> languages)');
-define('TEXT_DISPLAY_NUMBER_OF_MANUFACTURERS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> manufacturers)');
-define('TEXT_DISPLAY_NUMBER_OF_NEWSLETTERS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> newsletters)');
-define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> orders)');
-define('TEXT_DISPLAY_NUMBER_OF_ORDERS_STATUS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> orders status)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> product attributes)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES_GROUPS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> product attributes groups)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> products)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_EXPECTED', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> products expected)');
-define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> product reviews)');
-define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> products on special)');
-define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> tax classes)');
-define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> tax zones)');
-define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> tax rates)');
-define('TEXT_DISPLAY_NUMBER_OF_WEIGHT_CLASSES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> weight classes)');
-define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> zones)');
+define('TEXT_DISPLAY_NUMBER_OF_ADMINISTRATORS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> administradores)');
+define('TEXT_DISPLAY_NUMBER_OF_BANNERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> banderas)');
+define('TEXT_DISPLAY_NUMBER_OF_CATEGORIES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> categorías)');
+define('TEXT_DISPLAY_NUMBER_OF_COUNTRIES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> paises)');
+define('TEXT_DISPLAY_NUMBER_OF_CREDIT_CARDS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> tarjetas de crédito)');
+define('TEXT_DISPLAY_NUMBER_OF_CUSTOMERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> clientes)');
+define('TEXT_DISPLAY_NUMBER_OF_CURRENCIES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> valutas)');
+define('TEXT_DISPLAY_NUMBER_OF_LANGUAGES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> lenguajes)');
+define('TEXT_DISPLAY_NUMBER_OF_MANUFACTURERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> fabricantes)');
+define('TEXT_DISPLAY_NUMBER_OF_NEWSLETTERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> boletínes)');
+define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> pedidos)');
+define('TEXT_DISPLAY_NUMBER_OF_ORDERS_STATUS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> estatus de los pedidos)');
+define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> atributos del producto)');
+define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES_GROUPS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> grupo de atributos del producto)');
+define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> productos)');
+define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_EXPECTED', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> productos esperados)');
+define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> comentarios de productos)');
+define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> productos en especial)');
+define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> clases de impuesto)');
+define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> zonas de impuesto)');
+define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> impuestos fiscales)');
+define('TEXT_DISPLAY_NUMBER_OF_WEIGHT_CLASSES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> clases de peso)');
+define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> zonas)');
 
 define('PREVNEXT_BUTTON_PREV', '&lt;&lt;');
 define('PREVNEXT_BUTTON_NEXT', '&gt;&gt;');
 
-define('TEXT_DEFAULT', 'default');
-define('TEXT_SET_DEFAULT', 'Set as default');
-define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">* Required</span>');
-define('TEXT_IMAGE_NONEXISTENT', 'IMAGE DOES NOT EXIST');
+define('TEXT_DEFAULT', 'predeterminado');
+define('TEXT_SET_DEFAULT', 'Fijar como predeterminado');
+define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">* Requerido</span>');
+define('TEXT_IMAGE_NONEXISTENT', 'IMAGEN NO EXISTE');
 
-define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Error: There is currently no default currency set. Please set one at: Administration Tool->Localization->Currencies');
+define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Error: Actualmente no hay una valuta predeterminada. Poe favor fijar una en: Administración ->Localización->Valutas');
 
-define('TEXT_CACHE_CATEGORIES', 'Categories Box');
-define('TEXT_CACHE_MANUFACTURERS', 'Manufacturers Box');
-define('TEXT_CACHE_ALSO_PURCHASED', 'Also Purchased Module');
+define('TEXT_CACHE_CATEGORIES', 'Categorías');
+define('TEXT_CACHE_MANUFACTURERS', 'Fabricantes');
+define('TEXT_CACHE_ALSO_PURCHASED', 'Los Más Comprados');
 
-define('TEXT_NONE', '--none--');
+define('TEXT_NONE', '--ningúno--');
 define('TEXT_TOP', 'Top');
-define('TEXT_TRUE', 'True');
-define('TEXT_FALSE', 'False');
-define('TEXT_OPTIONAL', 'Voluntary');
+define('TEXT_TRUE', 'Verdad');
+define('TEXT_FALSE', 'Falso');
+define('TEXT_OPTIONAL', 'Voluntario');
 
-define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Error: Destination does not exist.');
-define('ERROR_DESTINATION_NOT_WRITEABLE', 'Error: Destination not writeable.');
-define('ERROR_FILE_NOT_REMOVEABLE', 'Error: I can not remove this file. Please set the right user permissions on: %s');
-define('ERROR_FILE_NOT_SAVED', 'Error: File upload not saved.');
-define('ERROR_FILETYPE_NOT_ALLOWED', 'Error: File upload type not allowed.');
-define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Success: File upload saved successfully.');
-define('WARNING_NO_FILE_UPLOADED', 'Warning: No file uploaded.');
-define('WARNING_FILE_UPLOADS_DISABLED', 'Warning: File uploads are disabled in the php.ini configuration file.');
+define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Error: Destinación no existe.');
+define('ERROR_DESTINATION_NOT_WRITEABLE', 'Error: Destinación no es escribible.');
+define('ERROR_FILE_NOT_REMOVEABLE', 'Error: No puede quitar este archivo. Por favor fijar los permisos del usuario en: %s');
+define('ERROR_FILE_NOT_SAVED', 'Error: Archivo subido no guardadao.');
+define('ERROR_FILETYPE_NOT_ALLOWED', 'Error: Tipo del archivo subido no permitido.');
+define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Exito: El archivo subido se ha guardado con éxito.');
+define('WARNING_NO_FILE_UPLOADED', 'Advertencia: Ningún archivo se ha subido.');
+define('WARNING_FILE_UPLOADS_DISABLED', 'Advertencia: Los archivos subidos se inhabilitaron en el archivo de la configuración de php.ini.');
 
-define('SUCCESS_DB_ROWS_UPDATED', 'Success: Entry successfully updated!');
-define('WARNING_DB_ROWS_NOT_UPDATED', 'Warning: Entry not updated due to the data content being the same.');
-define('ERROR_DB_ROWS_NOT_UPDATED', 'Error: Entry not updated due to an error.');
+define('SUCCESS_DB_ROWS_UPDATED', 'Exito: ¡Entrada actualizada con éxito!');
+define('WARNING_DB_ROWS_NOT_UPDATED', 'Advertencia: Entrada no sera actualizada debido a los datos contentidos son iguales.');
+define('ERROR_DB_ROWS_NOT_UPDATED', 'Error: Entrada no acualizada debido a un error.');
 
 define('MAXIMUM_FILE_UPLOAD_SIZE', '(Max: %s)');
 ?>

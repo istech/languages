@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Images');
+define('HEADING_TITLE', 'Imagenes');
 
-define('TABLE_HEADING_MODULES', 'Modules');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_MODULES', 'Módulos');
+define('TABLE_HEADING_ACTION', 'Acción');
 ?>

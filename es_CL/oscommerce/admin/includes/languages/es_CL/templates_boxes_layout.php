@@ -5,35 +5,35 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2005 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Template Boxes Layout');
+define('HEADING_TITLE', 'Disposición de Boxes de Plantillas');
 
 define('TABLE_HEADING_BOXES', 'Boxes');
-define('TABLE_HEADING_TEMPLATES', 'Templates');
-define('TABLE_HEADING_PAGES', 'Content Pages');
-define('TABLE_HEADING_PAGE_SPECIFIC', 'Page Specific');
-define('TABLE_HEADING_GROUP', 'Group');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_TEMPLATES', 'Plantillas');
+define('TABLE_HEADING_PAGES', 'Páginas Contenidas');
+define('TABLE_HEADING_PAGE_SPECIFIC', 'Página Específica');
+define('TABLE_HEADING_GROUP', 'Grupo');
+define('TABLE_HEADING_SORT_ORDER', 'Orden de Sorteo');
+define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'New Box Layout');
+define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'Nueva Disposición del Box');
 
 define('TEXT_INFO_BOXES', 'Boxes:');
-define('TEXT_INFO_PAGES', 'Content Pages:');
-define('TEXT_INFO_PAGE_SPECIFIC', 'Page Specific');
-define('TEXT_INFO_GROUP', 'Group:');
-define('TEXT_INFO_GROUP_NEW', 'New Group:');
-define('TEXT_INFO_SORT_ORDER', 'Sort Order:');
+define('TEXT_INFO_PAGES', 'Páginas Contenidas:');
+define('TEXT_INFO_PAGE_SPECIFIC', 'Página Específica');
+define('TEXT_INFO_GROUP', 'Grupo:');
+define('TEXT_INFO_GROUP_NEW', 'Nuevo Grupo:');
+define('TEXT_INFO_SORT_ORDER', 'Orden de Sorteo :');
 
-define('TEXT_PLEASE_SELECT', '--Please Select--');
+define('TEXT_PLEASE_SELECT', '--Por Favor Seleccionar--');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new box layout with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to remove this box layout from the template?');
+define('TEXT_INFO_INSERT_INTRO', 'Por favor ingresar la nueva disposición del box con sus datos relacionados');
+define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar esta disposición del box de la plantilla?');
 
-define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Warning: The default template can not be removed. Please set another template as the default, and try again.');
+define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Advertencia: La plantilla predeterminada no puede ser quitada. Por favor fijar otra plantilla como el predeterminada, y intente otra vez.');
 ?>

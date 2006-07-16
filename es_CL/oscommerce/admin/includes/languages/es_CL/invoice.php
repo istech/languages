@@ -1,30 +1,30 @@
 <?php
 /*
-  $Id: invoice.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('TABLE_HEADING_COMMENTS', 'Comments');
-define('TABLE_HEADING_PRODUCTS_MODEL', 'Model');
-define('TABLE_HEADING_PRODUCTS', 'Products');
-define('TABLE_HEADING_TAX', 'Tax');
+define('TABLE_HEADING_COMMENTS', 'Commentarios');
+define('TABLE_HEADING_PRODUCTS_MODEL', 'Modelo');
+define('TABLE_HEADING_PRODUCTS', 'Productos');
+define('TABLE_HEADING_TAX', 'Impuesto');
 define('TABLE_HEADING_TOTAL', 'Total');
-define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Price (ex)');
-define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Price (inc)');
+define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Precio (ex)');
+define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Precio (inc)');
 define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Total (ex)');
 define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Total (inc)');
 
-define('ENTRY_SOLD_TO', 'SOLD TO:');
-define('ENTRY_SHIP_TO', 'SHIP TO:');
-define('ENTRY_PAYMENT_METHOD', 'Payment Method:');
+define('ENTRY_SOLD_TO', 'VENDIDO A:');
+define('ENTRY_SHIP_TO', 'ENTREGADO A:');
+define('ENTRY_PAYMENT_METHOD', 'Forma de Pago:');
 define('ENTRY_SUB_TOTAL', 'Sub-Total:');
-define('ENTRY_TAX', 'Tax:');
-define('ENTRY_SHIPPING', 'Shipping:');
+define('ENTRY_TAX', 'Impuesto:');
+define('ENTRY_SHIPPING', 'Envío:');
 define('ENTRY_TOTAL', 'Total:');
 ?>

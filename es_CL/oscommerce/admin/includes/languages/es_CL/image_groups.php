@@ -10,22 +10,22 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Image Groups');
+define('HEADING_TITLE', 'Grupos de Imagenes');
 
-define('TABLE_HEADING_IMAGE_GROUPS', 'Image Groups');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_IMAGE_GROUPS', 'Grupos de Imagenes');
+define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new image group with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this image group? (Images must be manually removed)');
+define('TEXT_INFO_INSERT_INTRO', 'Por favor inscribir un nuevo grupo de imagenes con sus datos relacionados');
+define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este grupo de imagenes? (Las imágenes deben ser borradas manualmente)');
 
-define('TEXT_IMAGE_GROUP_TITLE', 'Title:');
-define('TEXT_IMAGE_GROUP_CODE', 'Code:');
-define('TEXT_IMAGE_GROUP_WIDTH', 'Width:');
-define('TEXT_IMAGE_GROUP_HEIGHT', 'Height:');
-define('TEXT_IMAGE_GROUP_FORCE_SIZE', 'Force Size:');
+define('TEXT_IMAGE_GROUP_TITLE', 'Título:');
+define('TEXT_IMAGE_GROUP_CODE', 'Código:');
+define('TEXT_IMAGE_GROUP_WIDTH', 'Ancho:');
+define('TEXT_IMAGE_GROUP_HEIGHT', 'Alto:');
+define('TEXT_IMAGE_GROUP_FORCE_SIZE', 'Tamaño Forzado:');
 
-define('TEXT_INFO_HEADING_NEW_IMAGE_GROUP', 'New Image Group');
+define('TEXT_INFO_HEADING_NEW_IMAGE_GROUP', 'Nuevo Grupo de Imagenes');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Warning: The default image group can not be removed. Please set another group as the default, and try again.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: El grupo predeterminado de las imagenes no puede ser quitado. Por favor fijar otro grupo como la predeterminada, y intente otra vez.');
 ?>

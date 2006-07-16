@@ -1,33 +1,33 @@
 <?php
 /*
-  $Id: credit_cards.php 554 2006-04-29 16:26:53Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Credit Card Types');
+define('HEADING_TITLE', 'Tipo de Tarjetas de Crédito');
 
-define('TABLE_HEADING_CREDIT_CARD_CODE', 'Card Code');
-define('TABLE_HEADING_CREDIT_CARD_NAME', 'Card Name');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_CREDIT_CARD_CODE', 'Código de la Tarjeta');
+define('TABLE_HEADING_CREDIT_CARD_NAME', 'Nombre de la Tarjeta');
+define('TABLE_HEADING_SORT_ORDER', 'Orden de Sorteo');
+define('TABLE_HEADING_STATUS', 'Estatus');
+define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_HEADING_NEW_CREDIT_CARD', 'New Credit Card');
+define('TEXT_HEADING_NEW_CREDIT_CARD', 'Nueva Tarjeta de Crédito');
 
-define('TEXT_CREDIT_CARD_NAME', 'Card Name:');
-define('TEXT_CREDIT_CARD_PATTERN', 'Card Number Pattern:');
-define('TEXT_SORT_ORDER', 'Sort Order:');
-define('TEXT_STATUS', 'Status:');
+define('TEXT_CREDIT_CARD_NAME', 'Nombre de la Tarjeta:');
+define('TEXT_CREDIT_CARD_PATTERN', 'Patrón del número de tarjeta:');
+define('TEXT_SORT_ORDER', 'Orden de Sorteo:');
+define('TEXT_STATUS', 'Estatus:');
 
-define('TEXT_NEW_INTRO', 'Please fill out the following information for the new credit card');
-define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this credit card?');
+define('TEXT_NEW_INTRO', 'Por favor completar la información siguiente para la nueva tarjeta de crédito');
+define('TEXT_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar esta tarjeta de crédito?');
 
-define('ERROR_CREDIT_CARD_NAME', 'Error: Credit Card name cannot be blank');
+define('ERROR_CREDIT_CARD_NAME', 'Error: El nombre de la tarjeta de crédito no puede estar en blanco');
 ?>

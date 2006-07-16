@@ -1,18 +1,18 @@
 <?php
 /*
-  $Id: email.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
   define('MODULE_NEWSLETTER_EMAIL_TITLE', 'E-Mail');
 
-  define('MODULE_NEWSLETTER_EMAIL_TEXT_TOTAL_RECIPIENTS', 'Recipients receiving email: %s');
+  define('MODULE_NEWSLETTER_EMAIL_TEXT_TOTAL_RECIPIENTS', 'Recipientes que reciben el email: %s');
 
-  define('MODULE_NEWSLETTER_EMAIL_TEXT_ALL_CUSTOMERS', '-- All Customers --');
+  define('MODULE_NEWSLETTER_EMAIL_TEXT_ALL_CUSTOMERS', '-- Todos los Clientes --');
 ?>

@@ -5,20 +5,20 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2005 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Templates');
+define('HEADING_TITLE', 'Plantillas');
 
-define('TABLE_HEADING_TEMPLATES', 'Templates');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_TEMPLATES', 'Plantillas');
+define('TABLE_HEADING_STATUS', 'Estatus');
+define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_TEMPLATE_DIRECTORY', 'Template Directory:');
+define('TEXT_TEMPLATE_DIRECTORY', 'Directorio de Plantilla:');
 
-define('INFO_TEMPLATE_UNINSTALL_INTRO', 'Are you sure you want to uninstall this template?<br /><br />(All template parameters would then be removed)');
+define('INFO_TEMPLATE_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(Todos los parámetros del módulo seran quitados)');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Warning: The default template can not be removed. Please set another template as the default, and try again.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: La plantilla predeterminada no puede ser quitada. Por favor fijar otra plantilla como el predeterminada, y intente otra vez.');
 ?>

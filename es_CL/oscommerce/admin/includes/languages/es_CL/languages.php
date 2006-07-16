@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: languages.php 417 2006-01-27 11:40:10Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
@@ -10,38 +10,38 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Languages');
+define('HEADING_TITLE', 'Lenguajes');
 
-define('TABLE_HEADING_LANGUAGE_NAME', 'Language');
-define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Total Definitions');
-define('TABLE_HEADING_LANGUAGE_CODE', 'Code');
-define('TABLE_HEADING_DEFINITION_GROUPS', 'Definition Groups');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_LANGUAGE_NAME', 'Lenguaje');
+define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Definiciones Totales');
+define('TABLE_HEADING_LANGUAGE_CODE', 'Código');
+define('TABLE_HEADING_DEFINITION_GROUPS', 'Grupos de Definición');
+define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_IMPORT_INTRO', 'Please select which language to import and the type of import to perform');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_EXPORT_INTRO', 'Please select which groups to export:');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this language?');
+define('TEXT_INFO_IMPORT_INTRO', 'Por favor seleccionar qué lenguaje desea importar y el tipo de importación');
+define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_INFO_EXPORT_INTRO', 'Por favor seleccionar que grupo desea exportar:');
+define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este lenguaje?');
 
-define('TEXT_INFO_LANGUAGE_NAME', 'Name:');
-define('TEXT_INFO_LANGUAGE_CODE', 'Code:');
-define('TEXT_INFO_LANGUAGE_LOCALE', 'Locale:');
-define('TEXT_INFO_LANGUAGE_CHARSET', 'Character Set:');
-define('TEXT_INFO_LANGUAGE_DATE_FORMAT_SHORT', 'Date Format (Short):');
-define('TEXT_INFO_LANGUAGE_DATE_FORMAT_LONG', 'Date Format (Long):');
-define('TEXT_INFO_LANGUAGE_TIME_FORMAT', 'Time Format:');
-define('TEXT_INFO_LANGUAGE_TEXT_DIRECTION', 'Text Direction:');
-define('TEXT_INFO_LANGUAGE_IMAGE', 'Image:');
-define('TEXT_INFO_LANGUAGE_DEFAULT_CURRENCY', 'Default Currency:');
-define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_DECIMAL', 'Numeric Decimal Separator');
-define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_THOUSANDS', 'Numeric Thousands Separator');
-define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Sort Order:');
+define('TEXT_INFO_LANGUAGE_NAME', 'Nombre:');
+define('TEXT_INFO_LANGUAGE_CODE', 'Código:');
+define('TEXT_INFO_LANGUAGE_LOCALE', 'Local:');
+define('TEXT_INFO_LANGUAGE_CHARSET', 'Caracteres:');
+define('TEXT_INFO_LANGUAGE_DATE_FORMAT_SHORT', 'Formato de Fecha (Corto):');
+define('TEXT_INFO_LANGUAGE_DATE_FORMAT_LONG', 'Formato de Fecha (Largo):');
+define('TEXT_INFO_LANGUAGE_TIME_FORMAT', 'Formato de Tiempo:');
+define('TEXT_INFO_LANGUAGE_TEXT_DIRECTION', 'Dirección del Texto:');
+define('TEXT_INFO_LANGUAGE_IMAGE', 'Imagen:');
+define('TEXT_INFO_LANGUAGE_DEFAULT_CURRENCY', 'Valuta Predeterminada:');
+define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_DECIMAL', 'Separador Numérico Decimal ');
+define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_THOUSANDS', 'Separador Numérico Millares');
+define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Orden de Sorteo:');
 
-define('TEXT_INFO_HEADING_IMPORT_LANGUAGE', 'Import Language');
+define('TEXT_INFO_HEADING_IMPORT_LANGUAGE', 'Lenguaje de la Importación');
 
-define('TEXT_INFO_SELECT_LANGUAGE', 'Select Language:');
-define('TEXT_INFO_SELECT_IMPORT_TYPE', 'Type of Import:');
-define('TEXT_INFO_EXPORT_WITH_DATA', 'Export with language data');
+define('TEXT_INFO_SELECT_LANGUAGE', 'Eligir Lenguaje:');
+define('TEXT_INFO_SELECT_IMPORT_TYPE', 'Tipo de Importación:');
+define('TEXT_INFO_EXPORT_WITH_DATA', 'Exportación con datos del lenguaje');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Warning: The default language can not be removed. Please set another language as the default, and try again.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: El lenguaje del predeterminado no puede ser quitada. Por favor fijar otro lenguaje como el predeterminado, y intente otra vez.');
 ?>

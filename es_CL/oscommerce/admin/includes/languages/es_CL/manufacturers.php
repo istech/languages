@@ -1,43 +1,43 @@
 <?php
 /*
-  $Id: manufacturers.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Manufacturers');
+define('HEADING_TITLE', 'Fabricantes');
 
-define('TABLE_HEADING_MANUFACTURERS', 'Manufacturers');
-define('TABLE_HEADING_URL_CLICKS', 'URL CLicks');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_MANUFACTURERS', 'Fabricantes');
+define('TABLE_HEADING_URL_CLICKS', 'URL CLiqueadas');
+define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_HEADING_NEW_MANUFACTURER', 'New Manufacturer');
-define('TEXT_HEADING_EDIT_MANUFACTURER', 'Edit Manufacturer');
-define('TEXT_HEADING_DELETE_MANUFACTURER', 'Delete Manufacturer');
+define('TEXT_HEADING_NEW_MANUFACTURER', 'Nuevo Fabricante');
+define('TEXT_HEADING_EDIT_MANUFACTURER', 'Editar Fabricante');
+define('TEXT_HEADING_DELETE_MANUFACTURER', 'Borrar Fabricante');
 
-define('TEXT_MANUFACTURERS', 'Manufacturers:');
-define('TEXT_DATE_ADDED', 'Date Added:');
-define('TEXT_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_PRODUCTS', 'Products:');
+define('TEXT_MANUFACTURERS', 'Fabricantes:');
+define('TEXT_DATE_ADDED', 'Fecha Agregada:');
+define('TEXT_LAST_MODIFIED', 'Ultima Modificación:');
+define('TEXT_PRODUCTS', 'Productos:');
 
-define('TEXT_NEW_INTRO', 'Please fill out the following information for the new manufacturer');
-define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
+define('TEXT_NEW_INTRO', 'Por favor completar la información siguiente para el fabricante nuevo');
+define('TEXT_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
 
-define('TEXT_MANUFACTURERS_NAME', 'Manufacturers Name:');
-define('TEXT_MANUFACTURERS_IMAGE', 'Manufacturers Image:');
-define('TEXT_MANUFACTURERS_URL', 'Manufacturers URL:');
+define('TEXT_MANUFACTURERS_NAME', 'Nombre del Fabricante:');
+define('TEXT_MANUFACTURERS_IMAGE', 'Imagen del Fabricante:');
+define('TEXT_MANUFACTURERS_URL', 'URL del Fabricante:');
 
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this manufacturer?');
-define('TEXT_DELETE_IMAGE', 'Delete manufacturers image?');
-define('TEXT_DELETE_PRODUCTS', 'Delete products from this manufacturer? (including product reviews, products on special, upcoming products)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>WARNING:</b> There are %s products still linked to this manufacturer!');
+define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este fabricante?');
+define('TEXT_DELETE_IMAGE', '¿Borrar la imagen del fabricante?');
+define('TEXT_DELETE_PRODUCTS', '¿Borrar productos de este fabricante? (incluyendo comentarios del producto, productos en especiales, próximos productos)');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> ¡Hay %s productos que todavía estan ligados a este fabricante!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: I can not write to this directory. Please set the right user permissions on: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Error: Directory does not exist: %s');
-define('ERROR_MANUFACTURER_NAME', 'Error: Manufacturers name cannot be blank');
+define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: No puede escribir a este directorio. Por favor fijar los permisos del usuario: %s');
+define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Error: Directorio no existe: %s');
+define('ERROR_MANUFACTURER_NAME', 'Error: Nombre del fabricante no puede estar en blanco');
 ?>
