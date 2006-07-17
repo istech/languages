@@ -3,42 +3,42 @@
   <definitions>
     <definition>
       <key>payment_cc_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Kreditkort]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_description</key>
-      <value><![CDATA[Credit Card Test Info:<br /><br />CC#: 4111111111111111<br />Expiry: Any]]></value>
+      <value><![CDATA[Kreditkort test Info:<br /><br />CC#: 4111111111111111<br />Udløbsdato: Hvilken som helst]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_type</key>
-      <value><![CDATA[Credit Card Type:]]></value>
+      <value><![CDATA[Kreditkorttype:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Kreditkortejer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Kreditkortnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Kreditkortudløbsdato:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* Ejernavnet på kreditkortet skal være mindst %s tegn.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Kreditkort nummeret skal være på mindst %s tegn.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

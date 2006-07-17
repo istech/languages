@@ -10,24 +10,24 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Credit Card Types');
+define('HEADING_TITLE', 'Kreditkorttyper');
 
-define('TABLE_HEADING_CREDIT_CARD_CODE', 'Card Code');
-define('TABLE_HEADING_CREDIT_CARD_NAME', 'Card Name');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
+define('TABLE_HEADING_CREDIT_CARD_CODE', 'Kreditkortkode');
+define('TABLE_HEADING_CREDIT_CARD_NAME', 'Kreditkortnavn');
+define('TABLE_HEADING_SORT_ORDER', 'Sortering');
 define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ACTION', 'Handling');
 
-define('TEXT_HEADING_NEW_CREDIT_CARD', 'New Credit Card');
+define('TEXT_HEADING_NEW_CREDIT_CARD', 'Nyt kreditkort');
 
-define('TEXT_CREDIT_CARD_NAME', 'Card Name:');
-define('TEXT_CREDIT_CARD_PATTERN', 'Card Number Pattern:');
-define('TEXT_SORT_ORDER', 'Sort Order:');
+define('TEXT_CREDIT_CARD_NAME', 'Kreditkortnavn:');
+define('TEXT_CREDIT_CARD_PATTERN', 'Kreditkort nummer mønster:');
+define('TEXT_SORT_ORDER', 'Sortering:');
 define('TEXT_STATUS', 'Status:');
 
-define('TEXT_NEW_INTRO', 'Please fill out the following information for the new credit card');
-define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this credit card?');
+define('TEXT_NEW_INTRO', 'Udfyld venligst følgende information for det nye kreditkort');
+define('TEXT_EDIT_INTRO', 'Lav venligst nødvendige ændringer');
+define('TEXT_DELETE_INTRO', 'Er du sikker på du vil slette dette kreditkort?');
 
-define('ERROR_CREDIT_CARD_NAME', 'Error: Credit Card name cannot be blank');
+define('ERROR_CREDIT_CARD_NAME', 'FEJL: Kreditkortnavn kan ikke være blankt');
 ?>

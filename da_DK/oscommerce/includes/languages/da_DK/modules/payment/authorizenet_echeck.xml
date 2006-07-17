@@ -8,132 +8,132 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_description</key>
-      <value><![CDATA[Authorize.net eCheck Transactions]]></value>
+      <value><![CDATA[Authorize.net eCheck transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_method_title</key>
-      <value><![CDATA[Bank/Check Account]]></value>
+      <value><![CDATA[Bank-/checkkonto]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_owner</key>
-      <value><![CDATA[Account Owner:]]></value>
+      <value><![CDATA[Kontoejer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type</key>
-      <value><![CDATA[Account Type:]]></value>
+      <value><![CDATA[Kontotype:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type_checking</key>
-      <value><![CDATA[Checking]]></value>
+      <value><![CDATA[Checkkonto]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type_business_checking</key>
-      <value><![CDATA[Business Checking]]></value>
+      <value><![CDATA[Business checkkonto]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type_savings</key>
-      <value><![CDATA[Savings]]></value>
+      <value><![CDATA[Opsparingskonto]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_number</key>
-      <value><![CDATA[Account Number:]]></value>
+      <value><![CDATA[Kontonummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_bank_name</key>
-      <value><![CDATA[Bank Name:]]></value>
+      <value><![CDATA[Banknavn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_routing_code</key>
-      <value><![CDATA[Routing Code:]]></value>
+      <value><![CDATA[Routing kode:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_tax_id</key>
-      <value><![CDATA[Tax ID or SSN:]]></value>
+      <value><![CDATA[CPR/CVR nr:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type</key>
-      <value><![CDATA[Organization Type:]]></value>
+      <value><![CDATA[Organisationstype:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type_individual</key>
-      <value><![CDATA[Individual]]></value>
+      <value><![CDATA[Privat]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type_business</key>
-      <value><![CDATA[Business]]></value>
+      <value><![CDATA[Erhverv]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_owner</key>
-      <value><![CDATA[* Please enter the owners name of the bank account.]]></value>
+      <value><![CDATA[* Venligst udfyld ejernavn for bankkontoen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_account_number</key>
-      <value><![CDATA[* Please enter the account number of the bank account.]]></value>
+      <value><![CDATA[* Venligst udfyld kontonummer for bankkontoen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_bank_name</key>
-      <value><![CDATA[* Please enter the bank name of the bank account.]]></value>
+      <value><![CDATA[* Venligst udfyld banknavnet for bankkontoen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_routing_code</key>
-      <value><![CDATA[* The bank routing code must consist of %s numbers.]]></value>
+      <value><![CDATA[* Bank routing koden kal være på mindst %s tegn.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_tax_id</key>
-      <value><![CDATA[* The tax ID or SSN must consist of %s numbers.]]></value>
+      <value><![CDATA[* CPR/CVR nummeret skal være på mindst %s tegn.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_general</key>
-      <value><![CDATA[There was a problem processing this bank account. Please check the account information and try again.]]></value>
+      <value><![CDATA[Der var opstod problemer i behandlingen af denne bankkonto. Kontrollér venligst konto informationerne og prøv igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_routing_code</key>
-      <value><![CDATA[The bank routing code must consist of %s numbers. Please check the account information and try again.]]></value>
+      <value><![CDATA[The bank routing code must consist of %s numbers. Kontrollér venligst konto informationerne og prøv igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_invalid_routing_code</key>
-      <value><![CDATA[There was a problem processing the bank routing code. Please check the account information and try again.]]></value>
+      <value><![CDATA[Der var opstod problemer i behandlingen af routing koden. Kontrollér venligst konto informationerne og prøv igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_invalid_account</key>
-      <value><![CDATA[There was a problem processing the bank account number. Please check the account information and try again.]]></value>
+      <value><![CDATA[Der var opstod problemer i behandlingen af kontonummeret. Kontrollér venligst konto informationerne og prøv igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_tax_id</key>
-      <value><![CDATA[The tax ID or SSN must consist of %s numbers. Please check the account information and try again.]]></value>
+      <value><![CDATA[CPR/CVR skal bestå af mindst %s tegn. Kontrollér venligst konto informationerne og prøv igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_invalid_tax_id</key>
-      <value><![CDATA[There was a problem processing the tax ID or SSN. Please check the account information and try again.]]></value>
+      <value><![CDATA[Der var opstod problemer i behandlingen af CPR/CVR nummeret. Kontrollér venligst konto informationerne og prøv igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_confirmation_message</key>
-      <value><![CDATA[By confirming this order I authorize %s to charge my %s account on %s for the amount of %s for the items in this order.]]></value>
+      <value><![CDATA[Ved at bekræfte denne ordre tillader jeg at %s på %s kontoen hos %s opkræver det følgende beløb på %s som betaling for varer/service på denne ordre.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

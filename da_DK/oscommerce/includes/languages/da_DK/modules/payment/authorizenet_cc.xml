@@ -3,82 +3,82 @@
   <definitions>
     <definition>
       <key>payment_authorizenet_cc_title</key>
-      <value><![CDATA[Authorize.net Credit Card]]></value>
+      <value><![CDATA[Authorize.net kreditkort]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_description</key>
-      <value><![CDATA[Authorize.net Credit Card Transactions]]></value>
+      <value><![CDATA[Authorize.net kreditkort transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_method_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Kreditkort]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Kreditkort ejer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Kreditkort nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Kreditkort udløbsdato:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_cvc</key>
-      <value><![CDATA[Credit Card Check Number (CVC):]]></value>
+      <value><![CDATA[Kreditkort kontrolcifre:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* Kreditkortets ejernavn skal være på mindst %s tegn.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Kreditkortnummeret skal være på mindst %s tegn.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_not_accepted</key>
-      <value><![CDATA[* This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[* Denne type kreditkort understøttes ikke. Prøv venligst et andet kort eller betalingsmetode.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_cvc</key>
-      <value><![CDATA[* The credit card check number (CVC) must be at least 3 characters.]]></value>
+      <value><![CDATA[* Kreditkortets kontrolcifre skal være på mindst 3 tegn.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_general</key>
-      <value><![CDATA[There was a problem processing this credit card. Please check the card information and try again.]]></value>
+      <value><![CDATA[Der opstod et problem ved behandlingen af kreditkortet. Undersøg venligst kreditkortets oplysninger og prøv igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_not_accepted</key>
-      <value><![CDATA[This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Denne type kreditkort understøttes ikke. Prøv venligst et andet kort eller betalingsmetode.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_invalid_expiration_date</key>
-      <value><![CDATA[The credit card expiration date is invalid. Please check the card information and try again.]]></value>
+      <value><![CDATA[Kreditkortets udløbsdato er ikke korrekt. Undersøg venligst kreditkortets oplysninger og prøv igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_expired</key>
-      <value><![CDATA[The credit card has expired. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Kreditkortet er udløbet. Undersøg venligst kreditkortets oplysninger og prøv igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_unknown_card</key>
-      <value><![CDATA[This is an unknown credit card which cannot be processed. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Dette er en ukendt type kreditkort og kan ikke benyttes. Prøv venligst et andet kort eller betalingsmetode.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

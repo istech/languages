@@ -3,27 +3,27 @@
   <definitions>
     <definition>
       <key>box_ordering_steps_heading</key>
-      <value><![CDATA[Ordering Steps]]></value>
+      <value><![CDATA[Bestillingstrin]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_ordering_steps_delivery</key>
-      <value><![CDATA[Shipping Information]]></value>
+      <value><![CDATA[Forsendelsesinformation]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_ordering_steps_payment</key>
-      <value><![CDATA[Payment Information]]></value>
+      <value><![CDATA[Betalingsinformation]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_ordering_steps_confirmation</key>
-      <value><![CDATA[Confirmation]]></value>
+      <value><![CDATA[Bekræftelse]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_ordering_steps_complete</key>
-      <value><![CDATA[Finished!]]></value>
+      <value><![CDATA[Færdig!]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>
