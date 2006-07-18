@@ -37,7 +37,7 @@ define('EMAIL_GREET_NONE', 'Kære %s' . "\n\n");
 define('EMAIL_WELCOME', 'Vi byder dig velkommen til <b>' . STORE_NAME . '</b>.' . "\n\n");
 define('EMAIL_TEXT', 'Du kan nu tage del i <b>flere services</b> vi kan tilbyde dig. Nogle af dem er:' . "\n\n" . '<li><b>Permanent indkøbskurv</b> - Alle produkter der bliver lagt i din kurv indtil du fjerner dem eller gennemfører en handel.' . "\n" . '<li><b>Adresse Bog</b> - Vi kan tilbyde alternativ leveringsadresser! Send fødselsdagsgaven direkte tilfødeselaren.' . "\n" . '<li><b>Ordrehistorik</b> - Se de gamle ordre du har lagt hos os.' . "\n" . '<li><b>Produktanmeldelser</b> - Del dine erfaringer og meninger om et produkt med andre kunder.' . "\n\n");
 define('EMAIL_CONTACT', 'Hvis du skal bruge hjælp med nogle af vores online services, send da en mail til butiksejeren: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
-define('EMAIL_PASSWORD', '<b>Bemærk:</b> Denne konto er blevet oprettet af butikejeren. Dit password til kontoen er  %s.' . "\n");
+define('EMAIL_PASSWORD', '<b>Bemærk:</b> Denne konto er blevet oprettet af butikejeren. Dit kodeord til kontoen er  %s.' . "\n");
 
 define('ENTRY_STATUS', 'Status:');
 ?>
