@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>order_total_subtotal_description</key>
-      <value><![CDATA[Order Sub-Total]]></value>
+      <value><![CDATA[Sub-Total del Pedido]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>

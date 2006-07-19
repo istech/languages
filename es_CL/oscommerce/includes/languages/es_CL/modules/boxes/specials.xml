@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <language>
   <definitions>
     <definition>
       <key>box_specials_heading</key>
-      <value><![CDATA[Specials]]></value>
+      <value><![CDATA[Especiales]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <language>
   <definitions>
     <definition>
       <key>shipping_flat_title</key>
-      <value><![CDATA[Flat Rate]]></value>
+      <value><![CDATA[Tarifa Plana]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_flat_description</key>
-      <value><![CDATA[Flat Rate]]></value>
+      <value><![CDATA[Tarifa Plana]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_flat_method</key>
-      <value><![CDATA[Best Way]]></value>
+      <value><![CDATA[La Mejor Forma]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

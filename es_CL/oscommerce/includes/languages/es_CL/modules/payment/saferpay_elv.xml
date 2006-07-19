@@ -3,42 +3,42 @@
   <definitions>
     <definition>
       <key>payment_saferpay_elv_title</key>
-      <value><![CDATA[Saferpay Bank Transfer]]></value>
+      <value><![CDATA[Saferpay Transferancia de Banco]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_description</key>
-      <value><![CDATA[Saferpay Bank Transfer Transactions]]></value>
+      <value><![CDATA[Saferpay Transacciónes de Transferencia de Banco]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_method_title</key>
-      <value><![CDATA[Bank Transfer]]></value>
+      <value><![CDATA[Transferencia de Banco]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_owner</key>
-      <value><![CDATA[Account Owner Name:]]></value>
+      <value><![CDATA[Nombre del Dueño de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_account_number</key>
-      <value><![CDATA[Account Number:]]></value>
+      <value><![CDATA[Número de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_code</key>
-      <value><![CDATA[Bank Code:]]></value>
+      <value><![CDATA[Código del Banco:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_js_error</key>
-      <value><![CDATA[* All fields required.]]></value>
+      <value><![CDATA[* Todos los campos requiridos.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_error_general</key>
-      <value><![CDATA[There was a problem processing this bank account. Please check the account information and try again.]]></value>
+      <value><![CDATA[Había un problema que procesaba esta cuenta bancaria. Por favor controlar la información de la cuenta e intente otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

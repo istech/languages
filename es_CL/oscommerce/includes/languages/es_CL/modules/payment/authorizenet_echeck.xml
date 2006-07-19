@@ -8,22 +8,22 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_description</key>
-      <value><![CDATA[Authorize.net eCheck Transactions]]></value>
+      <value><![CDATA[Authorize.net eCheck Transacciones]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_method_title</key>
-      <value><![CDATA[Bank/Check Account]]></value>
+      <value><![CDATA[Cuenta del Banco/Cheque]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_owner</key>
-      <value><![CDATA[Account Owner:]]></value>
+      <value><![CDATA[Dueño de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type</key>
-      <value><![CDATA[Account Type:]]></value>
+      <value><![CDATA[Tipo de Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -38,32 +38,32 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type_savings</key>
-      <value><![CDATA[Savings]]></value>
+      <value><![CDATA[Ahorros]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_number</key>
-      <value><![CDATA[Account Number:]]></value>
+      <value><![CDATA[Número de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_bank_name</key>
-      <value><![CDATA[Bank Name:]]></value>
+      <value><![CDATA[Nombre del Banco:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_routing_code</key>
-      <value><![CDATA[Routing Code:]]></value>
+      <value><![CDATA[Código de Routing:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_tax_id</key>
-      <value><![CDATA[Tax ID or SSN:]]></value>
+      <value><![CDATA[ID de Impuesto o SSN:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type</key>
-      <value><![CDATA[Organization Type:]]></value>
+      <value><![CDATA[Tipo de Organización:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -78,22 +78,22 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_owner</key>
-      <value><![CDATA[* Please enter the owners name of the bank account.]]></value>
+      <value><![CDATA[* Por favor escribir el nombre del dueño de la cuenta bancaria.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_account_number</key>
-      <value><![CDATA[* Please enter the account number of the bank account.]]></value>
+      <value><![CDATA[* Por favor escribir el número de la cuenta bancaria.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_bank_name</key>
-      <value><![CDATA[* Please enter the bank name of the bank account.]]></value>
+      <value><![CDATA[* Por favor escribir el nombre del banco de la cuenta bancaria.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_routing_code</key>
-      <value><![CDATA[* The bank routing code must consist of %s numbers.]]></value>
+      <value><![CDATA[* El código del routing del banco debe consistir de %s números.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

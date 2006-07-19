@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -13,7 +13,7 @@
     </definition>
     <definition>
       <key>payment_chronopay_method_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

@@ -3,47 +3,47 @@
   <definitions>
     <definition>
       <key>payment_ogone_directlink_cc_title</key>
-      <value><![CDATA[Ogone DirectLink Credit Card]]></value>
+      <value><![CDATA[Tarjeta de Crédito Ogone DirectLink]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_description</key>
-      <value><![CDATA[Ogone DirectLink Credit Card Transactions]]></value>
+      <value><![CDATA[Tarjeta de Crédito Ogone DirectLink Transacciones]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_method_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Número de Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Fecha de vencimiento de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_credit_card_cvc</key>
-      <value><![CDATA[Credit Card Check Number (CVC):]]></value>
+      <value><![CDATA[Número de Control de la Tarjeta de Crédito (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* El nombre del dueño de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* El número de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -53,7 +53,7 @@
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_js_credit_card_cvc</key>
-      <value><![CDATA[* The credit card check number (CVC) must be at least 3 characters.]]></value>
+      <value><![CDATA[* El número de Control de la Tarjeta de Crédito (CVC) debe tener por lo menos 3 caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

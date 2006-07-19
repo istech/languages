@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <language>
   <definitions>
     <definition>
       <key>box_tell_a_friend_heading</key>
-      <value><![CDATA[Tell a Friend]]></value>
+      <value><![CDATA[Digale a un Amigo]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_tell_a_friend_text</key>
-      <value><![CDATA[Tell someone you know about this product.]]></value>
+      <value><![CDATA[Digale a alguien que conoces sobre este producto.]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

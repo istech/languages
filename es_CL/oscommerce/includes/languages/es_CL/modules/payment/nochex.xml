@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_nochex_description</key>
-      <value><![CDATA[NOCHEX<br />Requires the GBP currency.]]></value>
+      <value><![CDATA[NOCHEX<br />Requiere la valuta GBP.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

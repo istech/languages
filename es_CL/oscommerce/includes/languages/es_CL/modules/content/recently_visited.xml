@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <language>
   <definitions>
     <definition>
       <key>recently_visited_title</key>
-      <value><![CDATA[Recently Visited Products]]></value>
+      <value><![CDATA[Productos Recientemente Visitados]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>

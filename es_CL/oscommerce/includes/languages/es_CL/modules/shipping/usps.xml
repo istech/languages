@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,12 +8,12 @@
     </definition>
     <definition>
       <key>shipping_usps_description</key>
-      <value><![CDATA[United States Postal Service<br /><br />You will need to have registered an account with USPS at http://www.uspsprioritymail.com/et_regcert.html to use this module<br /><br />USPS expects you to use pounds as weight measure for your products.]]></value>
+      <value><![CDATA[United States Postal Service<br /><br />Necesitarás haber registrado una cuenta con USPS en http://www.uspsprioritymail.com/et_regcert.html para usar este módulo<br /><br />USPS espera que utilices libras como medida del peso para sus productos.]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_usps_error</key>
-      <value><![CDATA[An error occured with the USPS shipping calculations.<br />If you prefer to use USPS as your shipping method, please contact the store owner.]]></value>
+      <value><![CDATA[Un error ocurrió con los cálculos del envío de USPS.<br />Si prefieres usar USPS como su forma del envío, por favor contacta el dueño de la tienda.]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

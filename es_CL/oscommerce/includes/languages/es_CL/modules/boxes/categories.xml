@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <language>
   <definitions>
     <definition>
       <key>box_categories_heading</key>
-      <value><![CDATA[Categories]]></value>
+      <value><![CDATA[Categorías]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

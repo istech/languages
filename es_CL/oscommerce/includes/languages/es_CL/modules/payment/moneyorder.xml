@@ -3,22 +3,22 @@
   <definitions>
     <definition>
       <key>payment_moneyorder_title</key>
-      <value><![CDATA[Check/Money Order]]></value>
+      <value><![CDATA[Pedido de Cheque/Dinero]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_moneyorder_description</key>
-      <value><![CDATA[Make Payable To:&nbsp;%s<br /><br />Send To:<br />%s<br /><br />Your order will not ship until we receive payment.]]></value>
+      <value><![CDATA[Hacer Pagable A:&nbsp;%s<br /><br />Mandar A:<br />%s<br /><br />Tu pedido no se enviará hasta que recibimos el pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_moneyorder_email_footer</key>
-      <value><![CDATA[Make Payable To: %s
+      <value><![CDATA[Hacer Pagable A: %s
 
-Send To:
+Mandar A:
 %
 
-Your order will not ship until we receive payment.]]></value>
+Tu pedido no se enviará hasta que recibimos el pago.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>
