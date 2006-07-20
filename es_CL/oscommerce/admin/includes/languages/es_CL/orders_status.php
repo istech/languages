@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -13,11 +13,11 @@
 define('HEADING_TITLE', 'Pedidos estatus');
 
 define('TABLE_HEADING_ORDERS_STATUS', 'Pedidos estatus');
-define('TABLE_HEADING_ACTION', 'Acción');
+define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
 define('TEXT_INFO_INSERT_INTRO', 'Por favor ingresar el nuevo estatus de los pedidos con sus datos relacionados');
 define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
-define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este estatus del pedido?');
+define('TEXT_INFO_DELETE_INTRO', 'Â¿Esta seguro que quiere borrar este estatus del pedido?');
 
 define('TEXT_INFO_ORDERS_STATUS_NAME', 'Estatus del Pedido:');
 

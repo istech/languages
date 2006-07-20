@@ -1,4 +1,4 @@
-<?php
+Ôªø<?php
 /*
   $Id: $
 
@@ -17,27 +17,27 @@ define('TABLE_HEADING_LANGUAGE', 'Lenguaje');
 define('TABLE_HEADING_RATING', 'Rating');
 define('TABLE_HEADING_DATE_ADDED', 'Fecha Agregada');
 define('TABLE_HEADING_STATUS', 'Estatus');
-define('TABLE_HEADING_ACTION', 'AcciÛn');
+define('TABLE_HEADING_ACTION', 'Acci√≥n');
 
 define('ENTRY_PRODUCT', 'Producto:');
 define('ENTRY_FROM', 'De:');
 define('ENTRY_DATE', 'Fecha:');
 define('ENTRY_REVIEW', 'Comentario:');
-define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTA:</b></font></small>&nbsp;°El HTML no se traduce!&nbsp;');
+define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTA:</b></font></small>&nbsp;¬°El HTML no se traduce!&nbsp;');
 define('ENTRY_RATING', 'Rating:');
 
-define('TEXT_INFO_DELETE_REVIEW_INTRO', 'øEsta seguro que quiere borrar este comentario?');
+define('TEXT_INFO_DELETE_REVIEW_INTRO', '¬øEsta seguro que quiere borrar este comentario?');
 
 define('TEXT_INFO_DATE_ADDED', 'Fecha Agregada:');
-define('TEXT_INFO_LAST_MODIFIED', 'Ultima ModificaciÛn:');
-define('TEXT_INFO_IMAGE_NONEXISTENT', 'IMAGEN NO EXISTE');
+define('TEXT_INFO_LAST_MODIFIED', 'Ultima Modificaci√≥n:');
+define('TEXT_INFO_IMAGE_NONEXISTENT', 'IM√ÅGEN NO EXISTE');
 define('TEXT_INFO_REVIEW_AUTHOR', 'Autor:');
 define('TEXT_INFO_REVIEW_RATING', 'Rating:');
 define('TEXT_INFO_REVIEW_READ', 'Leer:');
-define('TEXT_INFO_REVIEW_SIZE', 'TamaÒo:');
+define('TEXT_INFO_REVIEW_SIZE', 'Tama√±o:');
 define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Rating Mediano:');
 
-define('TEXT_OF_5_STARS', '°%s de 5 Estrellas!');
+define('TEXT_OF_5_STARS', '¬°%s de 5 Estrellas!');
 define('TEXT_GOOD', '<small><font color="#ff0000"><b>BUENO</b></font></small>');
 define('TEXT_BAD', '<small><font color="#ff0000"><b>MALO</b></font></small>');
 define('TEXT_INFO_HEADING_DELETE_REVIEW', 'Borrar Comentario');

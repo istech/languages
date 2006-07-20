@@ -1,4 +1,4 @@
-<?php
+Ôªø<?php
 /*
   $Id: $
 
@@ -16,9 +16,9 @@
 
   define('TAB_GENERAL', 'General');
   define('TAB_DATA', 'Datos');
-  define('TAB_IMAGES', 'Imagenes');
+  define('TAB_IMAGES', 'Im√°genes');
   define('TAB_ATTRIBUTES', 'Atributos');
-  define('TAB_CATEGORIES', 'CategorÌas');
+  define('TAB_CATEGORIES', 'Categor√≠as');
 
   define('FIELDSET_ASSIGNED_ATTRIBUTES', 'Atributos Asignadas');
 
@@ -26,19 +26,19 @@
   define('TABLE_HEADING_PRICE', 'Precio');
   define('TABLE_HEADING_QUANTITY', 'Cantidad');
   define('TABLE_HEADING_STATUS', 'Estatus');
-  define('TABLE_HEADING_ACTION', 'AcciÛn');
+  define('TABLE_HEADING_ACTION', 'Acci√≥n');
 
   define('TEXT_NEW_PRODUCT', 'Nuevo Producto');
-  define('TEXT_CATEGORIES', 'CategorÌas:');
+  define('TEXT_CATEGORIES', 'Categor√≠as:');
 
   define('TEXT_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
 
-  define('TEXT_INFO_COPY_TO_INTRO', 'Por favor elegir una nueva categorÌa que deseas copiar este producto a');
-  define('TEXT_INFO_CURRENT_CATEGORIES', 'Actuales CategorÌas:');
+  define('TEXT_INFO_COPY_TO_INTRO', 'Por favor elegir una nueva categor√≠a que deseas copiar este producto a');
+  define('TEXT_INFO_CURRENT_CATEGORIES', 'Actuales Categor√≠as:');
 
-  define('TEXT_DELETE_PRODUCT_INTRO', 'øEsta seguro que quiere borrar este producto permanentemente?');
+  define('TEXT_DELETE_PRODUCT_INTRO', '¬øEsta seguro que quiere borrar este producto permanentemente?');
 
-  define('TEXT_MOVE_PRODUCTS_INTRO', 'Por favor seleccionar la categorÌa usted desea residir en <b>%s</b>');
+  define('TEXT_MOVE_PRODUCTS_INTRO', 'Por favor seleccionar la categor√≠a usted desea residir en <b>%s</b>');
   define('TEXT_MOVE', 'Mover <b>%s</b> a:');
 
   define('TEXT_PRODUCTS_STATUS', 'Estaus de los Productos:');
@@ -47,12 +47,12 @@
   define('TEXT_PRODUCT_NOT_AVAILABLE', 'Sin Stock');
   define('TEXT_PRODUCTS_MANUFACTURER', 'Fabricante de Productos:');
   define('TEXT_PRODUCTS_NAME', 'Nombre de Productos:');
-  define('TEXT_PRODUCTS_DESCRIPTION', 'DescripciÛn de Productos:');
+  define('TEXT_PRODUCTS_DESCRIPTION', 'Descripci√≥n de Productos:');
   define('TEXT_PRODUCTS_QUANTITY', 'Cantidad de Productos:');
   define('TEXT_PRODUCTS_MODEL', 'Modelo de Productos:');
   define('TEXT_PRODUCTS_KEYWORD', 'Palabra clave de los productos:');
   define('TEXT_PRODUCTS_TAGS', 'Etiquetas de Productos:');
-  define('TEXT_PRODUCTS_IMAGE', 'Im·genes de Productos:');
+  define('TEXT_PRODUCTS_IMAGE', 'Im√°genes de Productos:');
   define('TEXT_PRODUCTS_URL', 'URL: de Productos');
   define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(sin http://)</small>');
   define('TEXT_PRODUCTS_TAX_CLASS', 'Clase de Impuesto:');
@@ -60,15 +60,15 @@
   define('TEXT_PRODUCTS_PRICE_GROSS', 'Precio de Productos (Bruto):');
   define('TEXT_PRODUCTS_WEIGHT', 'Peso de Productos:');
 
-  define('TEXT_PRODUCT_DATE_ADDED', 'Este producto fue agregado a nuestro cat·logo el %s.');
-  define('TEXT_PRODUCT_DATE_AVAILABLE', 'Este producto estar· en stock en %s.');
-  define('TEXT_PRODUCT_MORE_INFORMATION', 'Para m·s informaciÛn, por favor visitar este productos <a href="http://%s" target="blank"><u>p·gina web</u></a>.');
+  define('TEXT_PRODUCT_DATE_ADDED', 'Este producto fue agregado a nuestro cat√°logo el %s.');
+  define('TEXT_PRODUCT_DATE_AVAILABLE', 'Este producto estar√° en stock en %s.');
+  define('TEXT_PRODUCT_MORE_INFORMATION', 'Para m√°s informaci√≥n, por favor visitar este productos <a href="http://%s" target="blank"><u>p√°gina web</u></a>.');
 
   define('TEXT_HOW_TO_COPY', 'Forma de Copiar:');
   define('TEXT_COPY_AS_LINK', 'Link producto');
   define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
 
-  define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Error: No puede ligar productos en la misma categorÌa.');
-  define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: El directorio de las im·genes del cat·logo no es escribible: ' . realpath('../images'));
-  define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de las im·genes del cat·logo no existe: ' . realpath('../images'));
+  define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Error: No puede ligar productos en la misma categor√≠a.');
+  define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: El directorio de las im√°genes del cat√°logo no es escribible: ' . realpath('../images'));
+  define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de las im√°genes del cat√°logo no existe: ' . realpath('../images'));
 ?>

@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -10,27 +10,27 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Quien es en línea');
+define('HEADING_TITLE', 'QuiÃ©n es en lÃ­nea');
 
-define('TABLE_HEADING_ONLINE', 'En Línea');
+define('TABLE_HEADING_ONLINE', 'En LÃ­nea');
 define('TABLE_HEADING_CUSTOMER_ID', 'ID');
 define('TABLE_HEADING_FULL_NAME', 'Nombre');
-define('TABLE_HEADING_IP_ADDRESS', 'Dirección IP');
+define('TABLE_HEADING_IP_ADDRESS', 'DirecciÃ³n IP');
 define('TABLE_HEADING_LAST_CLICK', 'Ultimo Click');
 define('TABLE_HEADING_LAST_PAGE_URL', 'Ultimo URL');
 define('TABLE_HEADING_SHOPPING_CART_TOTAL', 'Total');
-define('TABLE_HEADING_ACTION', 'Acción');
+define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
-define('TEXT_SESSION_ID', 'Session ID:');
-define('TEXT_TIME_ONLINE', 'Tiempo en línea:');
+define('TEXT_SESSION_ID', 'SesiÃ³n ID:');
+define('TEXT_TIME_ONLINE', 'Tiempo en lÃ­nea:');
 define('TEXT_CUSTOMER_ID', 'Cliente ID:');
 define('TEXT_CUSTOMER_NAME', 'Nombre del cliente:');
-define('TEXT_IP_ADDRESS', 'Dirección IP:');
+define('TEXT_IP_ADDRESS', 'DirecciÃ³n IP:');
 define('TEXT_ENTRY_TIME', 'Entro:');
 define('TEXT_LAST_CLICK', 'Ultimo Click:');
-define('TEXT_LAST_PAGE_URL', 'Ultima Página URL:');
-define('TEXT_SHOPPING_CART_PRODUCTS', 'Productos En Carro de Compras:');
-define('TEXT_SHOPPING_CART_TOTAL', 'Total del Carro de Compras:');
+define('TEXT_LAST_PAGE_URL', 'Ultima PÃ¡gina URL:');
+define('TEXT_SHOPPING_CART_PRODUCTS', 'Productos En Carro:');
+define('TEXT_SHOPPING_CART_TOTAL', 'Total del Carro:');
 
-define('TEXT_DISPLAY_NUMBER_OF_WHOS_ONLINE', 'Actualmente hay %s clientes en línea');
+define('TEXT_DISPLAY_NUMBER_OF_WHOS_ONLINE', 'Actualmente hay %s clientes en lÃ­nea');
 ?>

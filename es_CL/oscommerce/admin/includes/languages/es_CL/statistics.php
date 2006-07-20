@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -10,9 +10,9 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Estadísticas');
+define('HEADING_TITLE', 'EstadÃ­sticas');
 
-define('TABLE_HEADING_MODULES', 'Módulos');
+define('TABLE_HEADING_MODULES', 'MÃ³dulos');
 
-define('TEXT_MODULE_DIRECTORY', 'Directorio del Módulo:');
+define('TEXT_MODULE_DIRECTORY', 'Directorio del MÃ³dulo:');
 ?>

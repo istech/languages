@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -14,7 +14,7 @@ define('HEADING_TITLE', 'Productos Esperados');
 
 define('TABLE_HEADING_PRODUCTS', 'Productos');
 define('TABLE_HEADING_DATE_EXPECTED', 'Fecha Esperada');
-define('TABLE_HEADING_ACTION', 'Acci�n');
+define('TABLE_HEADING_ACTION', 'Acción');
 
 define('TEXT_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
 

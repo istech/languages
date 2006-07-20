@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -10,11 +10,11 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_IMAGE_RESIZE', 'Ajustar Imágenes');
+define('MODULE_IMAGE_RESIZE', 'Ajustar ImÃ¡genes');
 
 define('MODULE_IMAGE_RESIZE_GROUPS', 'Grupos');
-define('MODULE_IMAGE_RESIZE_NUMBER_OF_IMAGES', 'Número de Imágenes Ajustadas');
+define('MODULE_IMAGE_RESIZE_NUMBER_OF_IMAGES', 'NÃºmero de ImÃ¡genes Ajustadas');
 
 define('MODULE_IMAGE_RESIZE_PROCESS_GROUPS', 'Grupos');
-define('MODULE_IMAGE_RESIZE_OVERWRITE_IMAGES', 'Sobreescribir Imágenes Existentes');
+define('MODULE_IMAGE_RESIZE_OVERWRITE_IMAGES', 'Sobreescribir ImÃ¡genes Existentes');
 ?>

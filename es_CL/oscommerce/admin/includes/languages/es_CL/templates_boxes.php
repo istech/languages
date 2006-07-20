@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -11,14 +11,14 @@
 */
 
 define('HEADING_TITLE_MODULES_BOXES', 'Boxes');
-define('HEADING_TITLE_MODULES_CONTENT', 'Módulos de Contenido');
+define('HEADING_TITLE_MODULES_CONTENT', 'MÃ³dulos de Contenido');
 
 define('TABLE_HEADING_MODULES_BOXES', 'Boxes');
-define('TABLE_HEADING_MODULES_CONTENT', 'Módulos de Contenido');
+define('TABLE_HEADING_MODULES_CONTENT', 'MÃ³dulos de Contenido');
 define('TABLE_HEADING_STATUS', 'Estatus');
-define('TABLE_HEADING_ACTION', 'Acción');
+define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
 define('TEXT_DIRECTORY', 'Directorio:');
 
-define('INFO_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(Todos los parámetros del módulo entonces serían quitados)');
+define('INFO_UNINSTALL_INTRO', 'Â¿Esta seguro que quiere desinstalar este mÃ³dulo?<br /><br />(Todos los parÃ¡metros del mÃ³dulo entonces serÃ­an quitados)');
 ?>

@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -13,15 +13,15 @@
 define('HEADING_TITLE', 'Administradores');
 
 define('TABLE_HEADING_ADMINISTRATORS', 'Administradores');
-define('TABLE_HEADING_ACTION', 'Acción');
+define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
 define('TEXT_HEADING_NEW_ADMINISTRATOR', 'Nuevo Administrador');
 
-define('TEXT_NEW_INTRO', 'Por favor completar la información para el nuevo administrador');
+define('TEXT_NEW_INTRO', 'Por favor completar la informaciÃ³n para el nuevo administrador');
 define('TEXT_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
 
 define('TEXT_ADMINISTRATOR_USERNAME', 'Nombre del Administrador:');
-define('TEXT_ADMINISTRATOR_PASSWORD', 'Contraseña del Administrador:');
+define('TEXT_ADMINISTRATOR_PASSWORD', 'ContraseÃ±a del Administrador:');
 
-define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este administrador?');
+define('TEXT_DELETE_INTRO', 'Â¿Esta seguro que quiere borrar este administrador?');
 ?>

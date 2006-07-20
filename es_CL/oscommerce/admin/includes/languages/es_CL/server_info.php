@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -10,19 +10,19 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Información del Servidor');
+  define('HEADING_TITLE', 'InformaciÃ³n del Servidor');
 
-  define('TITLE_SERVER_HOST', 'Anfitrión del Server:');
+  define('TITLE_SERVER_HOST', 'AnfitriÃ³n del Server:');
   define('TITLE_SERVER_OS', 'Sistema Operativo del Servidor:');
   define('TITLE_SERVER_DATE', 'Fecha del Server:');
-  define('TITLE_SERVER_UP_TIME', 'Tiempo en línea del Server:');
+  define('TITLE_SERVER_UP_TIME', 'Tiempo en lÃ­nea del Server:');
   define('TITLE_HTTP_SERVER', 'Servidor HTTP:');
-  define('TITLE_PHP_VERSION', 'Versión PHP:');
+  define('TITLE_PHP_VERSION', 'VersiÃ³n PHP:');
   define('TITLE_ZEND_VERSION', 'Zend:');
-  define('TITLE_DATABASE_HOST', 'Anfitrión de la Base de Datos:');
+  define('TITLE_DATABASE_HOST', 'AnfitriÃ³n de la Base de Datos:');
   define('TITLE_DATABASE', 'Base de Datos:');
   define('TITLE_DATABASE_DATE', 'Fecha del Base de Datos:');
-  define('TITLE_DATABASE_UP_TIME', 'Tiempo en línea de la Base de Datos:');
+  define('TITLE_DATABASE_UP_TIME', 'Tiempo en lÃ­nea de la Base de Datos:');
 
-  define('TEXT_MORE_INFORMATION', 'más información');
+  define('TEXT_MORE_INFORMATION', 'mÃ¡s informaciÃ³n');
 ?>

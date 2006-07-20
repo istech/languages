@@ -10,34 +10,34 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Categorías');
+  define('HEADING_TITLE', 'CategorÃ­as');
   define('HEADING_TITLE_SEARCH', 'Buscar:');
   define('HEADING_TITLE_GOTO', 'Ir A:');
 
-  define('TABLE_HEADING_CATEGORIES', 'Categorías');
-  define('TABLE_HEADING_ACTION', 'Acción');
+  define('TABLE_HEADING_CATEGORIES', 'CategorÃ­as');
+  define('TABLE_HEADING_ACTION', 'AcciÃ³n');
   define('TABLE_HEADING_STATUS', 'Estatus');
 
   define('TEXT_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
-  define('TEXT_EDIT_CATEGORIES_NAME', 'Nombre de la Categoría:');
-  define('TEXT_EDIT_CATEGORIES_IMAGE', 'Imagen de la Categoría:');
+  define('TEXT_EDIT_CATEGORIES_NAME', 'Nombre de la CategorÃ­a:');
+  define('TEXT_EDIT_CATEGORIES_IMAGE', 'ImÃ¡gen de la CategorÃ­a:');
   define('TEXT_EDIT_SORT_ORDER', ' Orden de Sorteo:');
 
-  define('TEXT_INFO_HEADING_NEW_CATEGORY', 'Nueva Categoría');
+  define('TEXT_INFO_HEADING_NEW_CATEGORY', 'Nueva CategorÃ­a');
 
-  define('TEXT_DELETE_CATEGORY_INTRO', '¿Esta seguro que quiere borrar esta categoría?');
-  define('TEXT_DELETE_WARNING_CHILDS', '<b>ADVERTENCIA:</b> ¡Hay %s (sub-)categorías que todavía están ligadas a esta categoría!');
-  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> Hay %s productos que todavía están ligadas a esta categoría!');
+  define('TEXT_DELETE_CATEGORY_INTRO', 'Â¿Esta seguro que quiere borrar esta categorÃ­a?');
+  define('TEXT_DELETE_WARNING_CHILDS', '<b>ADVERTENCIA:</b> Â¡Hay %s (sub-)categorÃ­as que todavÃ­a estÃ¡n ligadas a esta categorÃ­a!');
+  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> Â¡Hay %s productos que todavÃ­a estÃ¡n ligadas a esta categorÃ­a!');
 
-  define('TEXT_MOVE_CATEGORIES_INTRO', 'Por favor seleccionar la categoría que usted desea <b>%s</b> para residir en');
+  define('TEXT_MOVE_CATEGORIES_INTRO', 'Por favor seleccionar la categorÃ­a que usted desea <b>%s</b> para residir en');
   define('TEXT_MOVE', 'Mover <b>%s</b> a:');
 
-  define('TEXT_NEW_CATEGORY_INTRO', 'Por favor completar la información para la nueva categoría');
-  define('TEXT_CATEGORIES_NAME', 'Nombre de la Categoría:');
-  define('TEXT_CATEGORIES_IMAGE', 'Imagen de la Categoría');
+  define('TEXT_NEW_CATEGORY_INTRO', 'Por favor completar la informaciÃ³n para la nueva categorÃ­a');
+  define('TEXT_CATEGORIES_NAME', 'Nombre de la CategorÃ­a:');
+  define('TEXT_CATEGORIES_IMAGE', 'ImÃ¡gen de la CategorÃ­a');
   define('TEXT_SORT_ORDER', 'Orden de Sorteo:');
 
-  define('EMPTY_CATEGORY', 'Categoría Vacía');
+  define('EMPTY_CATEGORY', 'CategorÃ­a VacÃ­a');
 
-  define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Error: La categoría no se puede mover a una subcategoría.');
+  define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Error: La categorÃ­a no se puede mover a una subcategorÃ­a.');
 ?>

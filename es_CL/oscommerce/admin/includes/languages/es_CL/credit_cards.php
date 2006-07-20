@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -10,24 +10,24 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Tipo de Tarjetas de Crédito');
+define('HEADING_TITLE', 'Tipo de Tarjetas de CrÃ©dito');
 
-define('TABLE_HEADING_CREDIT_CARD_CODE', 'Código de la Tarjeta');
+define('TABLE_HEADING_CREDIT_CARD_CODE', 'CÃ³digo de la Tarjeta');
 define('TABLE_HEADING_CREDIT_CARD_NAME', 'Nombre de la Tarjeta');
 define('TABLE_HEADING_SORT_ORDER', 'Orden de Sorteo');
 define('TABLE_HEADING_STATUS', 'Estatus');
-define('TABLE_HEADING_ACTION', 'Acción');
+define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
-define('TEXT_HEADING_NEW_CREDIT_CARD', 'Nueva Tarjeta de Crédito');
+define('TEXT_HEADING_NEW_CREDIT_CARD', 'Nueva Tarjeta de CrÃ©dito');
 
 define('TEXT_CREDIT_CARD_NAME', 'Nombre de la Tarjeta:');
-define('TEXT_CREDIT_CARD_PATTERN', 'Patrón del número de tarjeta:');
+define('TEXT_CREDIT_CARD_PATTERN', 'PatrÃ³n del nÃºmero de tarjeta:');
 define('TEXT_SORT_ORDER', 'Orden de Sorteo:');
 define('TEXT_STATUS', 'Estatus:');
 
-define('TEXT_NEW_INTRO', 'Por favor completar la información siguiente para la nueva tarjeta de crédito');
+define('TEXT_NEW_INTRO', 'Por favor completar la informaciÃ³n siguiente para la nueva tarjeta de crÃ©dito');
 define('TEXT_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
-define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar esta tarjeta de crédito?');
+define('TEXT_DELETE_INTRO', 'Â¿Esta seguro que quiere borrar esta tarjeta de crÃ©dito?');
 
-define('ERROR_CREDIT_CARD_NAME', 'Error: El nombre de la tarjeta de crédito no puede estar en blanco');
+define('ERROR_CREDIT_CARD_NAME', 'Error: El nombre de la tarjeta de crÃ©dito no puede estar en blanco');
 ?>

@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -14,9 +14,9 @@ define('HEADING_TITLE', 'Servicios');
 
 define('TABLE_HEADING_SERVICES', 'Servicios');
 define('TABLE_HEADING_STATUS', 'Estatus');
-define('TABLE_HEADING_ACTION', 'Acción');
+define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
-define('TEXT_MODULE_DIRECTORY', 'Directorio del Módulo:');
+define('TEXT_MODULE_DIRECTORY', 'Directorio del MÃ³dulo:');
 
-define('TEXT_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(todos los parámetros del módulo serían quitados)');
+define('TEXT_UNINSTALL_INTRO', 'Â¿Esta seguro que quiere desinstalar este mÃ³dulo?<br /><br />(todos los parÃ¡metros del mÃ³dulo serÃ­an quitados)');
 ?>

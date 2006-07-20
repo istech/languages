@@ -14,12 +14,12 @@
 
   define('TABLE_HEADING_CACHE', 'Cache Blocks');
   define('TABLE_HEADING_TOTAL', 'Total');
-  define('TABLE_HEADING_LAST_MODIFIED', 'Ultima Modificación');
-  define('TABLE_HEADING_ACTION', 'Acción');
+  define('TABLE_HEADING_LAST_MODIFIED', 'Ultima ModificaciÃ³n');
+  define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
   define('TEXT_FILE_DOES_NOT_EXIST', 'Archivo no existe');
   define('TEXT_CACHE_DIRECTORY', 'Directorio Cache:');
 
-  define('ERROR_CACHE_DIRECTORY_DOES_NOT_EXIST', 'Error:  Directorio Cache no existe. Por favor fijar esta configuración->Cache.');
+  define('ERROR_CACHE_DIRECTORY_DOES_NOT_EXIST', 'Error:  Directorio Cache no existe. Por favor fijar esta configuraciÃ³n->Cache.');
   define('ERROR_CACHE_DIRECTORY_NOT_WRITEABLE', 'Error: Directorio Cache no es escribible.');
 ?>

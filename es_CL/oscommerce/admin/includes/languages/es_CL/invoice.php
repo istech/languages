@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -25,6 +25,6 @@ define('ENTRY_SHIP_TO', 'ENTREGADO A:');
 define('ENTRY_PAYMENT_METHOD', 'Forma de Pago:');
 define('ENTRY_SUB_TOTAL', 'Sub-Total:');
 define('ENTRY_TAX', 'Impuesto:');
-define('ENTRY_SHIPPING', 'Env�o:');
+define('ENTRY_SHIPPING', 'Envío:');
 define('ENTRY_TOTAL', 'Total:');
 ?>

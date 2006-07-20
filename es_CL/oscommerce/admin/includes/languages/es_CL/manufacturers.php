@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -14,7 +14,7 @@ define('HEADING_TITLE', 'Fabricantes');
 
 define('TABLE_HEADING_MANUFACTURERS', 'Fabricantes');
 define('TABLE_HEADING_URL_CLICKS', 'URL CLiqueadas');
-define('TABLE_HEADING_ACTION', 'Acción');
+define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
 define('TEXT_HEADING_NEW_MANUFACTURER', 'Nuevo Fabricante');
 define('TEXT_HEADING_EDIT_MANUFACTURER', 'Editar Fabricante');
@@ -22,20 +22,20 @@ define('TEXT_HEADING_DELETE_MANUFACTURER', 'Borrar Fabricante');
 
 define('TEXT_MANUFACTURERS', 'Fabricantes:');
 define('TEXT_DATE_ADDED', 'Fecha Agregada:');
-define('TEXT_LAST_MODIFIED', 'Ultima Modificación:');
+define('TEXT_LAST_MODIFIED', 'Ultima ModificaciÃ³n:');
 define('TEXT_PRODUCTS', 'Productos:');
 
-define('TEXT_NEW_INTRO', 'Por favor completar la información siguiente para el fabricante nuevo');
+define('TEXT_NEW_INTRO', 'Por favor completar la informaciÃ³n siguiente para el fabricante nuevo');
 define('TEXT_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
 
 define('TEXT_MANUFACTURERS_NAME', 'Nombre del Fabricante:');
-define('TEXT_MANUFACTURERS_IMAGE', 'Imagen del Fabricante:');
+define('TEXT_MANUFACTURERS_IMAGE', 'ImÃ¡gen del Fabricante:');
 define('TEXT_MANUFACTURERS_URL', 'URL del Fabricante:');
 
-define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este fabricante?');
-define('TEXT_DELETE_IMAGE', '¿Borrar la imagen del fabricante?');
-define('TEXT_DELETE_PRODUCTS', '¿Borrar productos de este fabricante? (incluyendo comentarios del producto, productos en especiales, próximos productos)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> ¡Hay %s productos que todavía estan ligados a este fabricante!');
+define('TEXT_DELETE_INTRO', 'Â¿Esta seguro que quiere borrar este fabricante?');
+define('TEXT_DELETE_IMAGE', 'Â¿Borrar la imÃ¡gen del fabricante?');
+define('TEXT_DELETE_PRODUCTS', 'Â¿Borrar productos de este fabricante? (incluyendo comentarios del producto, productos en especiales, prÃ³ximos productos)');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> Â¡Hay %s productos que todavÃ­a estan ligados a este fabricante!');
 
 define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: No puede escribir a este directorio. Por favor fijar los permisos del usuario: %s');
 define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Error: Directorio no existe: %s');

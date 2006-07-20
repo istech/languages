@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -13,22 +13,22 @@
   define('HEADING_TITLE', 'Manager de Archivos');
 
   define('TABLE_HEADING_FILENAME', 'Nombre');
-  define('TABLE_HEADING_SIZE', 'Tamaño');
+  define('TABLE_HEADING_SIZE', 'TamaÃ±o');
   define('TABLE_HEADING_PERMISSIONS', 'Permisos');
   define('TABLE_HEADING_USER', 'Usario');
   define('TABLE_HEADING_GROUP', 'Grupo');
   define('TABLE_HEADING_WRITEABLE', 'Escribible');
-  define('TABLE_HEADING_LAST_MODIFIED', 'Ultima Modificación');
-  define('TABLE_HEADING_ACTION', 'Acción');
+  define('TABLE_HEADING_LAST_MODIFIED', 'Ultima ModificaciÃ³n');
+  define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
   define('TEXT_INFO_HEADING_UPLOAD', 'Subir');
   define('TEXT_FILE_NAME', 'Archivo:');
-  define('TEXT_FILE_SIZE', 'Tamaño:');
+  define('TEXT_FILE_SIZE', 'TamaÃ±o:');
   define('TEXT_FILE_CONTENTS', 'Contenido:');
-  define('TEXT_LAST_MODIFIED', 'Ultima Modificación:');
+  define('TEXT_LAST_MODIFIED', 'Ultima ModificaciÃ³n:');
   define('TEXT_NEW_FOLDER', 'Nuevo Directorio');
   define('TEXT_NEW_FOLDER_INTRO', 'Ingresar el nombre para la carpeta nueva:');
-  define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este archivo?');
+  define('TEXT_DELETE_INTRO', 'Â¿Esta seguro que quiere borrar este archivo?');
   define('TEXT_UPLOAD_INTRO', 'Por favor seleccionar los archivos para subir.');
 
   define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: No puede escribir a este directorio. Por favor fijar los permisos del usuario: %s');

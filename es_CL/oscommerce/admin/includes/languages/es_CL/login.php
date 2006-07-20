@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -12,10 +12,10 @@
 
 define('HEADING_TITLE', 'Ingresar');
 
-define('TEXT_INFO_HEADING_LOGIN', 'Ingresar a la administración');
+define('TEXT_INFO_HEADING_LOGIN', 'Ingresar a la administraciÃ³n');
 
-define('TEXT_INFO_INTRO', 'Por favor usar este formulario para ingresar a la administración.');
+define('TEXT_INFO_INTRO', 'Por favor usar este formulario para ingresar a la administraciÃ³n.');
 
 define('TEXT_INFO_USER_NAME', 'Nombre:');
-define('TEXT_INFO_USER_PASSWORD', 'Contraseña:');
+define('TEXT_INFO_USER_PASSWORD', 'ContraseÃ±a:');
 ?>

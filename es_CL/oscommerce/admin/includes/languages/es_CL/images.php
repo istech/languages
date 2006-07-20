@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Imagenes');
+define('HEADING_TITLE', 'Imágenes');
 
-define('TABLE_HEADING_MODULES', 'M�dulos');
-define('TABLE_HEADING_ACTION', 'Acci�n');
+define('TABLE_HEADING_MODULES', 'Módulos');
+define('TABLE_HEADING_ACTION', 'Acción');
 ?>

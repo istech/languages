@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -10,16 +10,16 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE_MODULES_PAYMENT', 'Módulos de Pago');
-define('HEADING_TITLE_MODULES_SHIPPING', 'Módulos de Envío');
-define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Módulo del Total del Pedido');
+define('HEADING_TITLE_MODULES_PAYMENT', 'MÃ³dulos de Pago');
+define('HEADING_TITLE_MODULES_SHIPPING', 'MÃ³dulos de EnvÃ­o');
+define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'MÃ³dulo del Total del Pedido');
 
-define('TABLE_HEADING_MODULES', 'Módulos');
+define('TABLE_HEADING_MODULES', 'MÃ³dulos');
 define('TABLE_HEADING_SORT_ORDER', 'Orden de Sorteo');
 define('TABLE_HEADING_STATUS', 'Estatus');
-define('TABLE_HEADING_ACTION', 'Acción');
+define('TABLE_HEADING_ACTION', 'AcciÃ³n');
 
-define('TEXT_MODULE_DIRECTORY', 'Directorio de Módulos:');
+define('TEXT_MODULE_DIRECTORY', 'Directorio de MÃ³dulos:');
 
-define('INFO_MODULE_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(Todos los parámetros del módulo seran quitados)');
+define('INFO_MODULE_UNINSTALL_INTRO', 'Â¿Esta seguro que quiere desinstalar este mÃ³dulo?<br /><br />(Todos los parÃ¡metros del mÃ³dulo seran quitados)');
 ?>

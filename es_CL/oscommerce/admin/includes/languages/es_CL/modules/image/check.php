@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_IMAGE_CHECK', 'Controlar Imágenes');
+define('MODULE_IMAGE_CHECK', 'Controlar ImÃ¡genes');
 
 define('MODULE_IMAGE_CHECK_GROUPS', 'Grupos');
-define('MODULE_IMAGE_CHECK_RESULTS', 'Imágenes Existentes / Imágenes Totales');
+define('MODULE_IMAGE_CHECK_RESULTS', 'ImÃ¡genes Existentes / ImÃ¡genes Totales');
 ?>
