@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>recently_visited_title</key>
-      <value><![CDATA[Recently Visited Products]]></value>
+      <value><![CDATA[I prodotti che ha visto di recente]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>

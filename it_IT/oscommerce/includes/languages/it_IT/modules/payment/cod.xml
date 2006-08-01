@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>payment_cod_title</key>
-      <value><![CDATA[Cash on Delivery]]></value>
+      <value><![CDATA[Pagamento alla consegna]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cod_description</key>
-      <value><![CDATA[Cash on Delivery]]></value>
+      <value><![CDATA[Pagamento alla consegna]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cod_method_title</key>
-      <value><![CDATA[Cash on Delivery]]></value>
+      <value><![CDATA[Pagamento alla consegna]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>order_total_tax_title</key>
-      <value><![CDATA[Tax]]></value>
+      <value><![CDATA[Tassa]]></value>
       <group>modules-order_total</group>
     </definition>
     <definition>
       <key>order_total_tax_description</key>
-      <value><![CDATA[Order Tax]]></value>
+      <value><![CDATA[Tassa ordine]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>

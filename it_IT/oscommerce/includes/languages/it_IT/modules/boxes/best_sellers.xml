@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>box_best_sellers_heading</key>
-      <value><![CDATA[Best Sellers]]></value>
+      <value><![CDATA[I più venduti]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

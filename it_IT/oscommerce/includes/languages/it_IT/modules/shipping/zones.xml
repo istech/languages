@@ -3,27 +3,27 @@
   <definitions>
     <definition>
       <key>shipping_zones_title</key>
-      <value><![CDATA[Zone Rates]]></value>
+      <value><![CDATA[Per zona]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_zones_description</key>
-      <value><![CDATA[Zone Based Rates]]></value>
+      <value><![CDATA[Per zona]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_zones_method</key>
-      <value><![CDATA[Shipping to]]></value>
+      <value><![CDATA[Spedisci a]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_zones_invalid_zone</key>
-      <value><![CDATA[No shipping available to the selected country]]></value>
+      <value><![CDATA[Nessuna tariffa di spedizione disponibile per la zona selezionata]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_zones_undefined_rate</key>
-      <value><![CDATA[The shipping rate cannot be determined at this time]]></value>
+      <value><![CDATA[Le spese di spedizione non possono essere calcolate]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

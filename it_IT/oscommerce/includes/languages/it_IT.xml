@@ -3,8 +3,8 @@
   <data>
     <title><![CDATA[Italiano]]></title>
     <code><![CDATA[it_IT]]></code>
-    <locale><![CDATA[it_IT,it_IT.ISO8859-15,italiano]]></locale>
-    <character_set><![CDATA[iso-8859-15]]></character_set>
+    <locale><![CDATA[it_IT.UTF-8,it_IT,italian]]></locale>
+    <character_set><![CDATA[utf-8]]></character_set>
     <text_direction><![CDATA[ltr]]></text_direction>
     <date_format_short><![CDATA[%d/%m/%Y]]></date_format_short>
     <date_format_long><![CDATA[%A %d %B, %Y]]></date_format_long>
@@ -16,7 +16,7 @@
   <definitions>
     <definition>
       <key>my_account</key>
-      <value><![CDATA[Il mio conto]]></value>
+      <value><![CDATA[Il mio Account]]></value>
       <group>general</group>
     </definition>
     <definition>
