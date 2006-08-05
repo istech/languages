@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
 <language>
   <data>
     <title><![CDATA[Castellano]]></title>
@@ -10,8 +10,8 @@
     <date_format_long><![CDATA[%A %d %B, %Y]]></date_format_long>
     <time_format><![CDATA[%H:%M:%S]]></time_format>
     <default_currency><![CDATA[CLP]]></default_currency>
-    <numerical_decimal_separator><![CDATA[.]]></numerical_decimal_separator>
-    <numerical_thousands_separator><![CDATA[,]]></numerical_thousands_separator>
+    <numerical_decimal_separator><![CDATA[,]]></numerical_decimal_separator>
+    <numerical_thousands_separator><![CDATA[.]]></numerical_thousands_separator>
   </data>
   <definitions>
     <definition>
@@ -61,7 +61,7 @@
     </definition>
     <definition>
       <key>pull_down_default</key>
-      <value><![CDATA[Por Favor, Elija]]></value>
+      <value><![CDATA[Selecciona]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -76,12 +76,12 @@
     </definition>
     <definition>
       <key>form_required_information</key>
-      <value><![CDATA[* Información requerida]]></value>
+      <value><![CDATA[* InformaciÃ³n requerida]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_current_page</key>
-      <value><![CDATA[Página %s de %d]]></value>
+      <value><![CDATA[PÃ¡gina %s de %d]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -106,17 +106,17 @@
     </definition>
     <definition>
       <key>result_set_next_page</key>
-      <value><![CDATA[[Proximót&nbsp;&gt;&gt;]]]></value>
+      <value><![CDATA[[ProximÃ³t&nbsp;&gt;&gt;]]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_address</key>
-      <value><![CDATA[Agregar Dirección]]></value>
+      <value><![CDATA[Agregar DirecciÃ³n]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_back</key>
-      <value><![CDATA[Atrás]]></value>
+      <value><![CDATA[AtrÃ¡s]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -126,7 +126,7 @@
     </definition>
     <definition>
       <key>button_change_address</key>
-      <value><![CDATA[Cambiar Dirección]]></value>
+      <value><![CDATA[Cambiar DirecciÃ³n]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -211,7 +211,7 @@
     </definition>
     <definition>
       <key>index_text</key>
-      <value><![CDATA[Esta es una instalación predeterminada de la solución de la tienda del e-comercio del osCommerce, productos demostrados están para los propósitos de demostración,<b>ningun producto comprado no será entregado ni tampoco será cobrado.</b>.Cualquier información considerada en estos productos debe ser tratada como ficticia.]]></value>
+      <value><![CDATA[Esta es una instalaciÃ³n predeterminada de la soluciÃ³n de la tienda del e-comercio del osCommerce, productos demostrados estÃ¡n para los propÃ³sitos de demostraciÃ³n,<b>ningun producto comprado no serÃ¡ entregado ni tampoco serÃ¡ cobrado.</b>.Cualquier informaciÃ³n considerada en estos productos debe ser tratada como ficticia.]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -256,7 +256,7 @@
     </definition>
     <definition>
       <key>no_products_in_category</key>
-      <value><![CDATA[No hay productos disponibles en esta categoría.]]></value>
+      <value><![CDATA[No hay productos disponibles en esta categorÃ­a.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -266,7 +266,7 @@
     </definition>
     <definition>
       <key>filter_all_categories</key>
-      <value><![CDATA[Todas Categorías]]></value>
+      <value><![CDATA[Todas CategorÃ­as]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -276,12 +276,12 @@
     </definition>
     <definition>
       <key>greeting_guest</key>
-      <value><![CDATA[¡Bienvenido! <a href="%s">Ingresar</a> y ver <a href="%s">que hay de nuevo</a> desde su última visita.]]></value>
+      <value><![CDATA[Â¡Bienvenido! <a href="%s">Ingresar</a> y ver <a href="%s">que hay de nuevo</a> desde su Ãºltima visita.]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>greeting_customer</key>
-      <value><![CDATA[¡Bienvenido %s! ¡Ver <a href="%s">que hay de nuevo</a> desde su última visita!]]></value>
+      <value><![CDATA[Â¡Bienvenido %s! Â¡Ver <a href="%s">que hay de nuevo</a> desde su Ãºltima visita!]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -316,7 +316,7 @@
     </definition>
     <definition>
       <key>breadcrumb_edit_password</key>
-      <value><![CDATA[Cambiar Contraseña]]></value>
+      <value><![CDATA[Cambiar ContraseÃ±a]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -331,7 +331,7 @@
     </definition>
     <definition>
       <key>breadcrumb_newsletters</key>
-      <value><![CDATA[Boletín]]></value>
+      <value><![CDATA[BoletÃ­n]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -366,7 +366,7 @@
     </definition>
     <definition>
       <key>breadcrumb_password_forgotten</key>
-      <value><![CDATA[Contraseña Olvidada]]></value>
+      <value><![CDATA[ContraseÃ±a Olvidada]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -386,12 +386,12 @@
     </definition>
     <definition>
       <key>account_edit_heading</key>
-      <value><![CDATA[Información De Mi Cuenta]]></value>
+      <value><![CDATA[InformaciÃ³n De Mi Cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_password_heading</key>
-      <value><![CDATA[Contraseña De Mi Cuenta]]></value>
+      <value><![CDATA[ContraseÃ±a De Mi Cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -406,7 +406,7 @@
     </definition>
     <definition>
       <key>newsletters_heading</key>
-      <value><![CDATA[Mi Subscripcion Del Boletín]]></value>
+      <value><![CDATA[Mi Subscripcion Del BoletÃ­n]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -441,7 +441,7 @@
     </definition>
     <definition>
       <key>create_account_success_heading</key>
-      <value><![CDATA[¡Su Cuenta Ha Sido Creada!]]></value>
+      <value><![CDATA[Â¡Su Cuenta Ha Sido Creada!]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -451,7 +451,7 @@
     </definition>
     <definition>
       <key>login_new_customer_text</key>
-      <value><![CDATA[Soy un nuevo cliente y todavía no tengo una cuenta aquí.<br /><br />Creando una cuenta podrás aprovechar esta tienda haciendo compras más rápidamente, ser mantenido actualizado en el estatus de un pedido, y no perder de vista los pedidos que has hecho.]]></value>
+      <value><![CDATA[Soy un nuevo cliente y todavÃ­a no tengo una cuenta aquÃ­.<br /><br />Creando una cuenta podrÃ¡s aprovechar esta tienda haciendo compras mÃ¡s rÃ¡pidamente, ser mantenido actualizado en el estatus de un pedido, y no perder de vista los pedidos que has hecho.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -461,17 +461,17 @@
     </definition>
     <definition>
       <key>login_returning_customer_text</key>
-      <value><![CDATA[Soy un cliente habitual y tengo ya una cuenta aquí.]]></value>
+      <value><![CDATA[Soy un cliente habitual y tengo ya una cuenta aquÃ­.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_returning_customer_password_forgotten</key>
-      <value><![CDATA[¿Contraseña olvidada? <a href="%s">Haga click aquí</a>.]]></value>
+      <value><![CDATA[Â¿ContraseÃ±a olvidada? <a href="%s">Haga click aquÃ­</a>.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_login_no_match</key>
-      <value><![CDATA[No hay concordancia para la dirección y/o la contraseña del e-mail. Por favor intente otra vez.]]></value>
+      <value><![CDATA[No hay concordancia para la direcciÃ³n y/o la contraseÃ±a del e-mail. Por favor intente otra vez.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -481,7 +481,7 @@
     </definition>
     <definition>
       <key>sign_out_text</key>
-      <value><![CDATA[Salio con éxito de su cuenta. Se ha guardado y será restaurado su carro la próxima vez que ingreses.<br /><br />Ahora es seguro salir de este sitio.]]></value>
+      <value><![CDATA[Salio con Ã©xito de su cuenta. Se ha guardado y serÃ¡ restaurado su carro la prÃ³xima vez que ingreses.<br /><br />Ahora es seguro salir de este sitio.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -491,12 +491,12 @@
     </definition>
     <definition>
       <key>information_title</key>
-      <value><![CDATA[Información]]></value>
+      <value><![CDATA[InformaciÃ³n]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>my_account_information</key>
-      <value><![CDATA[Ver o cambiar la información de mi cuenta.]]></value>
+      <value><![CDATA[Ver o cambiar la informaciÃ³n de mi cuenta.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -506,7 +506,7 @@
     </definition>
     <definition>
       <key>my_account_password</key>
-      <value><![CDATA[Cambiar la contraseña de mi cuenta.]]></value>
+      <value><![CDATA[Cambiar la contraseÃ±a de mi cuenta.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -526,7 +526,7 @@
     </definition>
     <definition>
       <key>my_notifications_newsletters</key>
-      <value><![CDATA[Subscribir y quitar subscribción del boletin.]]></value>
+      <value><![CDATA[Subscribir y quitar subscribciÃ³n del boletin.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -536,12 +536,12 @@
     </definition>
     <definition>
       <key>my_password_title</key>
-      <value><![CDATA[Mi Contraseña]]></value>
+      <value><![CDATA[Mi ContraseÃ±a]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_number</key>
-      <value><![CDATA[Número del Pedido:]]></value>
+      <value><![CDATA[NÃºmero del Pedido:]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -576,7 +576,7 @@
     </definition>
     <definition>
       <key>no_orders_made_yet</key>
-      <value><![CDATA[No has hecho ninguna compra todavía.]]></value>
+      <value><![CDATA[No has hecho ninguna compra todavÃ­a.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -616,12 +616,12 @@
     </definition>
     <definition>
       <key>newsletter_subscriptions_heading</key>
-      <value><![CDATA[Mi Subscripcion de Boletín]]></value>
+      <value><![CDATA[Mi Subscripcion de BoletÃ­n]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_general</key>
-      <value><![CDATA[Boletín De Noticias General]]></value>
+      <value><![CDATA[BoletÃ­n De Noticias General]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -636,12 +636,12 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications_description</key>
-      <value><![CDATA[La lista de la notificación del producto permite que le permanezcas actualizado en productos que el hallazgo de interest.<br /><br />To sea actualizado en todos los cambios del producto, elige <b>Global Notificación Del Producto</b>.]]></value>
+      <value><![CDATA[La lista de la notificaciÃ³n del producto permite que le permanezcas actualizado en productos que el hallazgo de interest.<br /><br />To sea actualizado en todos los cambios del producto, elige <b>Global NotificaciÃ³n Del Producto</b>.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global</key>
-      <value><![CDATA[Global Notificación del Producto]]></value>
+      <value><![CDATA[Global NotificaciÃ³n del Producto]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -651,27 +651,27 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications_products</key>
-      <value><![CDATA[Notificación del Producto]]></value>
+      <value><![CDATA[NotificaciÃ³n del Producto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_description</key>
-      <value><![CDATA[Quitando una notificación del producto, desmarcar el producto y haze click en Continuar.]]></value>
+      <value><![CDATA[Quitando una notificaciÃ³n del producto, desmarcar el producto y haze click en Continuar.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_none</key>
-      <value><![CDATA[Actualmente no hay productos marcados para ser notificado de.<br /><br />Para agregar los productos a su lista de notificación del producto, haze click en el link de la notificación detallada disponible en la página de la información de producto.]]></value>
+      <value><![CDATA[Actualmente no hay productos marcados para ser notificado de.<br /><br />Para agregar los productos a su lista de notificaciÃ³n del producto, haze click en el link de la notificaciÃ³n detallada disponible en la pÃ¡gina de la informaciÃ³n de producto.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>primary_address_title</key>
-      <value><![CDATA[Dirección Primaria]]></value>
+      <value><![CDATA[DirecciÃ³n Primaria]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>primary_address_description</key>
-      <value><![CDATA[Esta dirección pre-seleccionada se usa como el envío y de  facturación para los pedidos hechos en esta tienda.<br /><br />Esta dirección también se usa como la base para el producto y los cálculos del impuesto del servicio.]]></value>
+      <value><![CDATA[Esta direcciÃ³n pre-seleccionada se usa como el envÃ­o y de  facturaciÃ³n para los pedidos hechos en esta tienda.<br /><br />Esta direcciÃ³n tambiÃ©n se usa como la base para el producto y los cÃ¡lculos del impuesto del servicio.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -681,62 +681,62 @@
     </definition>
     <definition>
       <key>primary_address_marker</key>
-      <value><![CDATA[(dirección primario)]]></value>
+      <value><![CDATA[(direcciÃ³n primario)]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_maximum_entries</key>
-      <value><![CDATA[<font color="#ff0000"><b>NOTA:</b></font> Un máximo de %s entradas de mis direcciónes es permitidas.]]></value>
+      <value><![CDATA[<font color="#ff0000"><b>NOTA:</b></font> Un mÃ¡ximo de %s entradas de mis direcciÃ³nes es permitidas.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_address_title</key>
-      <value><![CDATA[Borrar Dirección]]></value>
+      <value><![CDATA[Borrar DirecciÃ³n]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_address_description</key>
-      <value><![CDATA[¿Esta seguro que quiere borrar la dirección seleccionada de sus direcciónes?]]></value>
+      <value><![CDATA[Â¿Esta seguro que quiere borrar la direcciÃ³n seleccionada de sus direcciÃ³nes?]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_new_address_title</key>
-      <value><![CDATA[Dirección Nueva]]></value>
+      <value><![CDATA[DirecciÃ³n Nueva]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>selected_address_title</key>
-      <value><![CDATA[Dirección Seleccionada]]></value>
+      <value><![CDATA[DirecciÃ³n Seleccionada]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>set_as_primary</key>
-      <value><![CDATA[Fijar como dirección primaria.]]></value>
+      <value><![CDATA[Fijar como direcciÃ³n primaria.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_terms_heading</key>
-      <value><![CDATA[Política de Privacidad]]></value>
+      <value><![CDATA[PolÃ­tica de Privacidad]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_terms_description</key>
-      <value><![CDATA[Por favor reconocer la conveniencia con nuestra política de privacidad marcando el box siguiente. La política de privacidad puede ser leído <a href="%s">aquí</a>.]]></value>
+      <value><![CDATA[Por favor reconocer la conveniencia con nuestra polÃ­tica de privacidad marcando el box siguiente. La polÃ­tica de privacidad puede ser leÃ­do <a href="%s">aquÃ­</a>.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_terms_confirm</key>
-      <value><![CDATA[He leído y he convenido la política de privacidad.]]></value>
+      <value><![CDATA[He leÃ­do y he convenido la polÃ­tica de privacidad.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>password_forgotten_heading</key>
-      <value><![CDATA[Contraseña Olvidada]]></value>
+      <value><![CDATA[ContraseÃ±a Olvidada]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>password_forgotten</key>
-      <value><![CDATA[Si le has olvidado de su contraseña, escribe lu dirección del e-mail abajo y le enviaremos un e-mail que contiene su nueva contraseña.]]></value>
+      <value><![CDATA[Si le has olvidado de su contraseÃ±a, escribe lu direcciÃ³n del e-mail abajo y le enviaremos un e-mail que contiene su nueva contraseÃ±a.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -750,14 +750,14 @@
 
 Ahora puedes participar en los varios servicios que ofrecemos a usted. Algunos de estos servicios incluyen:
 
-<li>Carro Permanente - Cualquier producto agregado al carro permanece allí hasta que lo quite, o lo compre.
-<li>Sus Direcciones - ¡Ahora podemos entregar sus productos a otra dirección que la suya! Esto es perfecto para enviar los regalos directo a la persona de cumpleaños.
+<li>Carro Permanente - Cualquier producto agregado al carro permanece allÃ­ hasta que lo quite, o lo compre.
+<li>Sus Direcciones - Â¡Ahora podemos entregar sus productos a otra direcciÃ³n que la suya! Esto es perfecto para enviar los regalos directo a la persona de cumpleaÃ±os.
 <li>Historia del Pedido - Ver su historia de compras que has hecho con nosotros.
 <li>Comentarios del Productos - Compartir sus opiniones sobre productos con nuestros otros clientes.
 
-Para ayuda de cualquiera de nuestros servicios, por favor mande un email al dueño de la tienda: %s.
+Para ayuda de cualquiera de nuestros servicios, por favor mande un email al dueÃ±o de la tienda: %s.
 
-Nota: Este dirección email nos fue dado por uno de nuestros clientes. Si no ingreso para ser cliente, por favor mande un email al dueño de la tienda.]]></value>
+Nota: Este direcciÃ³n email nos fue dado por uno de nuestros clientes. Si no ingreso para ser cliente, por favor mande un email al dueÃ±o de la tienda.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -777,115 +777,115 @@ Nota: Este dirección email nos fue dado por uno de nuestros clientes. Si no ingr
     </definition>
     <definition>
       <key>email_password_reminder_subject</key>
-      <value><![CDATA[Recordatorio de Contraseña a %s]]></value>
+      <value><![CDATA[Recordatorio de ContraseÃ±a a %s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>email_password_reminder_body</key>
-      <value><![CDATA[Una nueva contraseña fue pedida de %s.
+      <value><![CDATA[Una nueva contraseÃ±a fue pedida de %s.
 
-Su nueva contraseña a %s es:
+Su nueva contraseÃ±a a %s es:
 
 %s
 
-Para ayuda con cualquiera de nuestros servicios, por favor mande un email al dueño de la tienda: %s.
+Para ayuda con cualquiera de nuestros servicios, por favor mande un email al dueÃ±o de la tienda: %s.
 
-Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por favor notificar al dueño de la tienda cuanto antes.]]></value>
+Nota: Si no solicito esta acciÃ³n vÃ­a nuestra pÃ¡gina contraseÃ±a olvidada, por favor notificar al dueÃ±o de la tienda cuanto antes.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_account_created</key>
-      <value><![CDATA[¡Felicitaciones! ¡Tu nueva cuenta se ha creado con éxito! Ahora puedes aprovechar los privilegios del cliente de realzar su experiencia de las compras con nosotros. Si tiene cualquier pregunta sobre la operación de esta tienda, por favor mande un email al <a href="%s">dueño de la tienda</a>.<br /><br />Una confirmación se ha enviado al email proporcionado. Si no la has recibido dentro de la hora, por favor contactenos.]]></value>
+      <value><![CDATA[Â¡Felicitaciones! Â¡Tu nueva cuenta se ha creado con Ã©xito! Ahora puedes aprovechar los privilegios del cliente de realzar su experiencia de las compras con nosotros. Si tiene cualquier pregunta sobre la operaciÃ³n de esta tienda, por favor mande un email al <a href="%s">dueÃ±o de la tienda</a>.<br /><br />Una confirmaciÃ³n se ha enviado al email proporcionado. Si no la has recibido dentro de la hora, por favor contactenos.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_account_updated</key>
-      <value><![CDATA[¡Su cuenta se ha actualizado con éxito!]]></value>
+      <value><![CDATA[Â¡Su cuenta se ha actualizado con Ã©xito!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_password_updated</key>
-      <value><![CDATA[¡Su contraseña de la cuenta se ha actualizado con éxito!]]></value>
+      <value><![CDATA[Â¡Su contraseÃ±a de la cuenta se ha actualizado con Ã©xito!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_newsletter_updated</key>
-      <value><![CDATA[¡Su subscripcion de boletín se ha actualizado con éxito!]]></value>
+      <value><![CDATA[Â¡Su subscripcion de boletÃ­n se ha actualizado con Ã©xito!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_notifications_updated</key>
-      <value><![CDATA[¡Sus notificaciones del producto se han actualizado con éxito!]]></value>
+      <value><![CDATA[Â¡Sus notificaciones del producto se han actualizado con Ã©xito!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_address_book_entry_deleted</key>
-      <value><![CDATA[La dirección seleccionada se ha quitado con éxito de tus direcciónes.]]></value>
+      <value><![CDATA[La direcciÃ³n seleccionada se ha quitado con Ã©xito de tus direcciÃ³nes.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_address_book_entry_updated</key>
-      <value><![CDATA[Sus direcciones se han actualizado con éxito.]]></value>
+      <value><![CDATA[Sus direcciones se han actualizado con Ã©xito.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_password_forgotten_sent</key>
-      <value><![CDATA[Exito: Una nueva contraseña se ha enviado a su dirección e-mail.]]></value>
+      <value><![CDATA[Exito: Una nueva contraseÃ±a se ha enviado a su direcciÃ³n e-mail.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>warning_primary_address_deletion</key>
-      <value><![CDATA[La dirección primaria no puede ser borrada. Por favor fijar otra dirección como la dirección primaria y intente otra vez.]]></value>
+      <value><![CDATA[La direcciÃ³n primaria no puede ser borrada. Por favor fijar otra direcciÃ³n como la direcciÃ³n primaria y intente otra vez.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_current_password_not_matching</key>
-      <value><![CDATA[Su contraseña actual no coincide nuestros expedientes. Por favor intente otra vez.]]></value>
+      <value><![CDATA[Su contraseÃ±a actual no coincide nuestros expedientes. Por favor intente otra vez.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_address_book_entry_non_existing</key>
-      <value><![CDATA[La entrada de mis direcciónes no existe.]]></value>
+      <value><![CDATA[La entrada de mis direcciÃ³nes no existe.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_address_book_full</key>
-      <value><![CDATA[Mis direcciones esta llena. Por favor borrar una dirección innecesaria para guardar una nueva.]]></value>
+      <value><![CDATA[Mis direcciones esta llena. Por favor borrar una direcciÃ³n innecesaria para guardar una nueva.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_password_forgotten_no_email_address_found</key>
-      <value><![CDATA[Error: La dirección e-mail no fue encontrada en nuestros expedientes, por favor intente otra vez.]]></value>
+      <value><![CDATA[Error: La direcciÃ³n e-mail no fue encontrada en nuestros expedientes, por favor intente otra vez.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>warning_install_directory_exists</key>
-      <value><![CDATA[El directorio de la instalación existe en: %s. Por favor borrar este directorio por razones de seguridad.]]></value>
+      <value><![CDATA[El directorio de la instalaciÃ³n existe en: %s. Por favor borrar este directorio por razones de seguridad.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_config_file_writeable</key>
-      <value><![CDATA[Puedo escribir al archivo de la configuración: %s. Esto es un riesgo potencial de la seguridad - por favor fijar los permisos del usuario en este archivo.]]></value>
+      <value><![CDATA[Puedo escribir al archivo de la configuraciÃ³n: %s. Esto es un riesgo potencial de la seguridad - por favor fijar los permisos del usuario en este archivo.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_session_directory_non_existent</key>
-      <value><![CDATA[El directorio de las sesiones no existe: %s. Las sesiones no funcionarán hasta que se cree este directorio.]]></value>
+      <value><![CDATA[El directorio de las sesiones no existe: %s. Las sesiones no funcionarÃ¡n hasta que se cree este directorio.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_session_directory_not_writeable</key>
-      <value><![CDATA[No puedo escribir al directorio de las sesiones: %s. Las sesiones no funcionarán hasta que se fijen los permisos del usuario.]]></value>
+      <value><![CDATA[No puedo escribir al directorio de las sesiones: %s. Las sesiones no funcionarÃ¡n hasta que se fijen los permisos del usuario.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_session_auto_start</key>
-      <value><![CDATA[session.auto_start se permite - por favor quitar este función del php en php.ini y reiniciar el servidor web.]]></value>
+      <value><![CDATA[session.auto_start se permite - por favor quitar este funciÃ³n del php en php.ini y reiniciar el servidor web.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_download_directory_non_existent</key>
-      <value><![CDATA[El directorio de los productos descargables no existe: %s. Los productos descargables no funcionarán hasta que este es un directorio válido.]]></value>
+      <value><![CDATA[El directorio de los productos descargables no existe: %s. Los productos descargables no funcionarÃ¡n hasta que este es un directorio vÃ¡lido.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -900,12 +900,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>breadcrumb_checkout_shipping</key>
-      <value><![CDATA[Forma de Envío]]></value>
+      <value><![CDATA[Forma de EnvÃ­o]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_shipping_address</key>
-      <value><![CDATA[Dirección de Envío]]></value>
+      <value><![CDATA[DirecciÃ³n de EnvÃ­o]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -915,17 +915,17 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>breadcrumb_checkout_payment_address</key>
-      <value><![CDATA[Dirección de Pago]]></value>
+      <value><![CDATA[DirecciÃ³n de Pago]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_confirmation</key>
-      <value><![CDATA[Confirmación]]></value>
+      <value><![CDATA[ConfirmaciÃ³n]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_success</key>
-      <value><![CDATA[¡Exito!]]></value>
+      <value><![CDATA[Â¡Exito!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -935,12 +935,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>shipping_method_heading</key>
-      <value><![CDATA[Forma de Envío]]></value>
+      <value><![CDATA[Forma de EnvÃ­o]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shipping_address_heading</key>
-      <value><![CDATA[Dirección de Envío]]></value>
+      <value><![CDATA[DirecciÃ³n de EnvÃ­o]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -955,32 +955,32 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>confirmation_heading</key>
-      <value><![CDATA[Confirmación]]></value>
+      <value><![CDATA[ConfirmaciÃ³n]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>success_heading</key>
-      <value><![CDATA[¡Se Ha Procesado Su Pedido!]]></value>
+      <value><![CDATA[Â¡Se Ha Procesado Su Pedido!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shipping_address_title</key>
-      <value><![CDATA[Dirección de Envío]]></value>
+      <value><![CDATA[DirecciÃ³n de EnvÃ­o]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_shipping_destination</key>
-      <value><![CDATA[Por favor elega de sus direcciones a donde quisieras que los artículos fueran entregados.]]></value>
+      <value><![CDATA[Por favor elega de sus direcciones a donde quisieras que los artÃ­culos fueran entregados.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>selected_shipping_destination</key>
-      <value><![CDATA[Esta es la dirección seleccionada actualmente del envío a donde los artículos en este pedido serán entregados.]]></value>
+      <value><![CDATA[Esta es la direcciÃ³n seleccionada actualmente del envÃ­o a donde los artÃ­culos en este pedido serÃ¡n entregados.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>current_shipping_address_title</key>
-      <value><![CDATA[Dirección de Envío:]]></value>
+      <value><![CDATA[DirecciÃ³n de EnvÃ­o:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -990,17 +990,17 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>shipping_method_title</key>
-      <value><![CDATA[Forma de Envío]]></value>
+      <value><![CDATA[Forma de EnvÃ­o]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_shipping_method</key>
-      <value><![CDATA[Por favor seleccionar la forma preferida que desea usar para el envío de este pedido.]]></value>
+      <value><![CDATA[Por favor seleccionar la forma preferida que desea usar para el envÃ­o de este pedido.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>only_one_shipping_method_available</key>
-      <value><![CDATA[Este es actualmente la única forma del envío disponible para usar en este pedido.]]></value>
+      <value><![CDATA[Este es actualmente la Ãºnica forma del envÃ­o disponible para usar en este pedido.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1010,57 +1010,57 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>address_book_entries_title</key>
-      <value><![CDATA[Entradas de Mis Direcciónes]]></value>
+      <value><![CDATA[Entradas de Mis DirecciÃ³nes]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_shipping_destination</key>
-      <value><![CDATA[Por favor seleccionar la dirección preferida del envío si los artículos de este pedido van a ser entregados en otra parte.]]></value>
+      <value><![CDATA[Por favor seleccionar la direcciÃ³n preferida del envÃ­o si los artÃ­culos de este pedido van a ser entregados en otra parte.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_billing_destination</key>
-      <value><![CDATA[Por favor seleccionar la dirección preferida de la facturación si la factura de este pedido va a ser entregada en otra parte.]]></value>
+      <value><![CDATA[Por favor seleccionar la direcciÃ³n preferida de la facturaciÃ³n si la factura de este pedido va a ser entregada en otra parte.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_shipping_address_title</key>
-      <value><![CDATA[Nueva Dirección De Envío]]></value>
+      <value><![CDATA[Nueva DirecciÃ³n De EnvÃ­o]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_shipping_address</key>
-      <value><![CDATA[Por favor usa el formulario siguiente para crear una nueva dirección del envío para usar en este pedido.]]></value>
+      <value><![CDATA[Por favor usa el formulario siguiente para crear una nueva direcciÃ³n del envÃ­o para usar en este pedido.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_billing_address_title</key>
-      <value><![CDATA[Nueva Dirección De La Facturación]]></value>
+      <value><![CDATA[Nueva DirecciÃ³n De La FacturaciÃ³n]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_billing_address</key>
-      <value><![CDATA[Por favor usa el formulario siguiente para crear una nueva dirección de la facturación para usar en este pedido.]]></value>
+      <value><![CDATA[Por favor usa el formulario siguiente para crear una nueva direcciÃ³n de la facturaciÃ³n para usar en este pedido.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>billing_address_title</key>
-      <value><![CDATA[Dirección De La Facturación]]></value>
+      <value><![CDATA[DirecciÃ³n De La FacturaciÃ³n]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>selected_billing_destination</key>
-      <value><![CDATA[Esta es la dirección de la facturación seleccionada actualmente a donde la factura de este pedido será entregada.]]></value>
+      <value><![CDATA[Esta es la direcciÃ³n de la facturaciÃ³n seleccionada actualmente a donde la factura de este pedido serÃ¡ entregada.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_billing_destination</key>
-      <value><![CDATA[Por favor elegir de su guía de direcciónes a donde quisiera que la factura fuera enviada.]]></value>
+      <value><![CDATA[Por favor elegir de su guÃ­a de direcciÃ³nes a donde quisiera que la factura fuera enviada.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>current_billing_address_title</key>
-      <value><![CDATA[Dirección De La Facturación:]]></value>
+      <value><![CDATA[DirecciÃ³n De La FacturaciÃ³n:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1070,7 +1070,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_shipping</key>
-      <value><![CDATA[para seleccionar la forma preferida del envío.]]></value>
+      <value><![CDATA[para seleccionar la forma preferida del envÃ­o.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1085,7 +1085,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>shopping_cart_empty</key>
-      <value><![CDATA[¡Su Carro esta vacío!]]></value>
+      <value><![CDATA[Â¡Su Carro esta vacÃ­o!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1110,17 +1110,17 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>order_conditions_title</key>
-      <value><![CDATA[Términos y Condiciones]]></value>
+      <value><![CDATA[TÃ©rminos y Condiciones]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_description</key>
-      <value><![CDATA[Por favor reconocer los términos y condiciones limitados a este pedido marcando el box siguiente. Los términos y condiciones pueden ser leídos <a href="%s"><u>aquí</u></a>.]]></value>
+      <value><![CDATA[Por favor reconocer los tÃ©rminos y condiciones limitados a este pedido marcando el box siguiente. Los tÃ©rminos y condiciones pueden ser leÃ­dos <a href="%s"><u>aquÃ­</u></a>.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_acknowledge</key>
-      <value><![CDATA[He leído y he convenido los términos y condiciones limitados a este pedido.]]></value>
+      <value><![CDATA[He leÃ­do y he convenido los tÃ©rminos y condiciones limitados a este pedido.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1135,27 +1135,27 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>only_one_payment_method_available</key>
-      <value><![CDATA[Este es actualmente la única forma disponible del pago para usar en este pedido.]]></value>
+      <value><![CDATA[Este es actualmente la Ãºnica forma disponible del pago para usar en este pedido.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>free_shipping_title</key>
-      <value><![CDATA[Envío Gratis]]></value>
+      <value><![CDATA[EnvÃ­o Gratis]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>free_shipping_description</key>
-      <value><![CDATA[Envío gratis por los pedidos sobre %s]]></value>
+      <value><![CDATA[EnvÃ­o gratis por los pedidos sobre %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_delivery_address_title</key>
-      <value><![CDATA[Dirección De La Entrega]]></value>
+      <value><![CDATA[DirecciÃ³n De La Entrega]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_shipping_method_title</key>
-      <value><![CDATA[Forma de Envió]]></value>
+      <value><![CDATA[Forma de EnviÃ³]]></value>
       <group>order</group>
     </definition>
     <definition>
@@ -1175,7 +1175,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>order_billing_address_title</key>
-      <value><![CDATA[Dirección De La Facturación]]></value>
+      <value><![CDATA[DirecciÃ³n De La FacturaciÃ³n]]></value>
       <group>order</group>
     </definition>
     <definition>
@@ -1185,7 +1185,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>order_payment_information_title</key>
-      <value><![CDATA[Información del Pago]]></value>
+      <value><![CDATA[InformaciÃ³n del Pago]]></value>
       <group>order</group>
     </definition>
     <definition>
@@ -1205,7 +1205,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>email_order_order_number</key>
-      <value><![CDATA[Pedido Número: %s]]></value>
+      <value><![CDATA[Pedido NÃºmero: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1230,12 +1230,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>email_order_delivery_address</key>
-      <value><![CDATA[Dirección de Entrega]]></value>
+      <value><![CDATA[DirecciÃ³n de Entrega]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_billing_address</key>
-      <value><![CDATA[Dirección De La Facturación]]></value>
+      <value><![CDATA[DirecciÃ³n De La FacturaciÃ³n]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1250,7 +1250,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>order_processed_successfully</key>
-      <value><![CDATA[¡Su pedido se ha procesado con éxito! Sus productos llegarán su destinación dentro de 2-5 días hábiles.]]></value>
+      <value><![CDATA[Â¡Su pedido se ha procesado con Ã©xito! Sus productos llegarÃ¡n su destinaciÃ³n dentro de 2-5 dÃ­as hÃ¡biles.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1260,27 +1260,27 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>view_order_history</key>
-      <value><![CDATA[Puedes ver su historia del pedido yendo a la página <a href="%s">Mi Cuenta</a> y seleccionar <a href="%s">Historia</a>.]]></value>
+      <value><![CDATA[Puedes ver su historia del pedido yendo a la pÃ¡gina <a href="%s">Mi Cuenta</a> y seleccionar <a href="%s">Historia</a>.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>contact_store_owner</key>
-      <value><![CDATA[Por favor dirigir cualquier pregunta que tengas al <a href="%s">dueño de la tienda</a>.]]></value>
+      <value><![CDATA[Por favor dirigir cualquier pregunta que tengas al <a href="%s">dueÃ±o de la tienda</a>.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>thanks_for_shopping_with_us</key>
-      <value><![CDATA[¡Gracias por hacer compras con nosotros!]]></value>
+      <value><![CDATA[Â¡Gracias por hacer compras con nosotros!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>download_footer</key>
-      <value><![CDATA[También puedes descargar sus productos en un rato más tarde de %s]]></value>
+      <value><![CDATA[TambiÃ©n puedes descargar sus productos en un rato mÃ¡s tarde de %s]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>breadcrumb_information</key>
-      <value><![CDATA[Información]]></value>
+      <value><![CDATA[InformaciÃ³n]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1300,7 +1300,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>breadcrumb_shipping</key>
-      <value><![CDATA[Envío]]></value>
+      <value><![CDATA[EnvÃ­o]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1320,12 +1320,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>info_heading</key>
-      <value><![CDATA[Información y Ayuda]]></value>
+      <value><![CDATA[InformaciÃ³n y Ayuda]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_conditions_heading</key>
-      <value><![CDATA[Términos y Condiciones]]></value>
+      <value><![CDATA[TÃ©rminos y Condiciones]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1335,12 +1335,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>info_privacy_heading</key>
-      <value><![CDATA[Política de Privacidad]]></value>
+      <value><![CDATA[PolÃ­tica de Privacidad]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_shipping_heading</key>
-      <value><![CDATA[Envío y Devolución]]></value>
+      <value><![CDATA[EnvÃ­o y DevoluciÃ³n]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1360,27 +1360,27 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>conditions</key>
-      <value><![CDATA[Ponga aquí la información requerida.]]></value>
+      <value><![CDATA[Ponga aquÃ­ la informaciÃ³n requerida.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact</key>
-      <value><![CDATA[Ponga aquí la información requerida.]]></value>
+      <value><![CDATA[Ponga aquÃ­ la informaciÃ³n requerida.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>privacy</key>
-      <value><![CDATA[Ponga aquí la información requerida.]]></value>
+      <value><![CDATA[Ponga aquÃ­ la informaciÃ³n requerida.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>shipping</key>
-      <value><![CDATA[Ponga aquí la información requerida.]]></value>
+      <value><![CDATA[Ponga aquÃ­ la informaciÃ³n requerida.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>cookie_usage</key>
-      <value><![CDATA[Hemos detectado que su navegador no apoya las galletas, o se ha inactivado las galletas.<br /><br />Para continuar haciendo compras, le animamos a que actives las galletas en su navegador.<br /><br />Para navegadores <b>Internet Explorer</b>, por favor seguir estas instrucciones:<br /><ol><li>Haga click en el menu de las herramientas, y seleccionar las Opciones del Internet</li><li>Seleccionar la lengüeta de Seguridad, y reajustar el nivel de la seguridad al Medio</li></ol>Hemos tomado esta medida de seguridad para su ventaja, y nos disculpamos anticipadamente si se causa algunas inconveniencias.<br /><br />Por favor contactar al dueño de la tienda si tienes cualquiera pregunta referente a este requisito, o continuar comprando productos fuera de línea.]]></value>
+      <value><![CDATA[Hemos detectado que su navegador no apoya las galletas, o se ha inactivado las galletas.<br /><br />Para continuar haciendo compras, le animamos a que actives las galletas en su navegador.<br /><br />Para navegadores <b>Internet Explorer</b>, por favor seguir estas instrucciones:<br /><ol><li>Haga click en el menu de las herramientas, y seleccionar las Opciones del Internet</li><li>Seleccionar la lengÃ¼eta de Seguridad, y reajustar el nivel de la seguridad al Medio</li></ol>Hemos tomado esta medida de seguridad para su ventaja, y nos disculpamos anticipadamente si se causa algunas inconveniencias.<br /><br />Por favor contactar al dueÃ±o de la tienda si tienes cualquiera pregunta referente a este requisito, o continuar comprando productos fuera de lÃ­nea.]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1390,12 +1390,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>contact_title</key>
-      <value><![CDATA[Información de Contacto]]></value>
+      <value><![CDATA[InformaciÃ³n de Contacto]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_store_address_title</key>
-      <value><![CDATA[Dirección de la Tienda]]></value>
+      <value><![CDATA[DirecciÃ³n de la Tienda]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1405,7 +1405,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>contact_email_address_title</key>
-      <value><![CDATA[Dirección Email:]]></value>
+      <value><![CDATA[DirecciÃ³n Email:]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1415,7 +1415,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>contact_email_sent_successfully</key>
-      <value><![CDATA[Su consulta se ha enviado con éxito al dueño de la tienda.]]></value>
+      <value><![CDATA[Su consulta se ha enviado con Ã©xito al dueÃ±o de la tienda.]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1430,7 +1430,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>sitemap_account_edit</key>
-      <value><![CDATA[Información de la Cuenta]]></value>
+      <value><![CDATA[InformaciÃ³n de la Cuenta]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1445,7 +1445,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>sitemap_account_notifications</key>
-      <value><![CDATA[Subscripcion del Boletín]]></value>
+      <value><![CDATA[Subscripcion del BoletÃ­n]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1460,7 +1460,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>sitemap_advanced_search</key>
-      <value><![CDATA[Búsqueda Avanzada]]></value>
+      <value><![CDATA[BÃºsqueda Avanzada]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1550,7 +1550,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>product_not_found</key>
-      <value><![CDATA[¡Producto no encontrado!]]></value>
+      <value><![CDATA[Â¡Producto no encontrado!]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1560,7 +1560,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>go_to_external_products_webpage</key>
-      <value><![CDATA[Para más información, por favor visitar las <a href="%s" target="_blank">página web</a>de los productos.]]></value>
+      <value><![CDATA[Para mÃ¡s informaciÃ³n, por favor visitar las <a href="%s" target="_blank">pÃ¡gina web</a>de los productos.]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1600,7 +1600,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>rating_of_5_stars</key>
-      <value><![CDATA[¡%s de 5 Estrellas!]]></value>
+      <value><![CDATA[Â¡%s de 5 Estrellas!]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1655,7 +1655,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_email_address</key>
-      <value><![CDATA[Su Dirección E-Mail:]]></value>
+      <value><![CDATA[Su DirecciÃ³n E-Mail:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1665,7 +1665,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por fav
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_email_address</key>
-      <value><![CDATA[La Dirección E-Mail De Su Amigo:]]></value>
+      <value><![CDATA[La DirecciÃ³n E-Mail De Su Amigo:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1746,27 +1746,27 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>advanced_search_heading</key>
-      <value><![CDATA[Búsqueda Avanzada]]></value>
+      <value><![CDATA[BÃºsqueda Avanzada]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_results_heading</key>
-      <value><![CDATA[Resultados de la Búsqueda]]></value>
+      <value><![CDATA[Resultados de la BÃºsqueda]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_criteria_title</key>
-      <value><![CDATA[Criterios de la Búsqueda]]></value>
+      <value><![CDATA[Criterios de la BÃºsqueda]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_categories</key>
-      <value><![CDATA[Categorías:]]></value>
+      <value><![CDATA[CategorÃ­as:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_recursive</key>
-      <value><![CDATA[Incluye Subcategorías]]></value>
+      <value><![CDATA[Incluye SubcategorÃ­as]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1901,7 +1901,7 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_first_name_error</key>
-      <value><![CDATA[Su Nombre debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su Nombre debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1911,7 +1911,7 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_last_name_error</key>
-      <value><![CDATA[Su Apellido debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su Apellido debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1926,12 +1926,12 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_email_address</key>
-      <value><![CDATA[Dirección E-Mail:]]></value>
+      <value><![CDATA[DirecciÃ³n E-Mail:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_error</key>
-      <value><![CDATA[Su E-mail debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su E-mail debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1951,17 +1951,17 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_company_error</key>
-      <value><![CDATA[Su Nombre de Empresa debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su Nombre de Empresa debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address</key>
-      <value><![CDATA[Dirección de la Calle:]]></value>
+      <value><![CDATA[DirecciÃ³n de la Calle:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address_error</key>
-      <value><![CDATA[Su Dirección de la Calle debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su DirecciÃ³n de la Calle debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1971,17 +1971,17 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_suburb_error</key>
-      <value><![CDATA[Su Suburbio debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su Suburbio debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code</key>
-      <value><![CDATA[Código Postal:]]></value>
+      <value><![CDATA[CÃ³digo Postal:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code_error</key>
-      <value><![CDATA[Su Código Postal debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su CÃ³digo Postal debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1991,7 +1991,7 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_city_error</key>
-      <value><![CDATA[Su Ciudad debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su Ciudad debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2001,92 +2001,92 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_state_error</key>
-      <value><![CDATA[Su Provincia debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su Provincia debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_select_pull_down_error</key>
-      <value><![CDATA[Debe seleccionar un país del menú de los paises.]]></value>
+      <value><![CDATA[Debe seleccionar un paÃ­s del menÃº de los paises.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_country</key>
-      <value><![CDATA[País:]]></value>
+      <value><![CDATA[PaÃ­s:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_country_error</key>
-      <value><![CDATA[Debe seleccionar un país del menú de los países.]]></value>
+      <value><![CDATA[Debe seleccionar un paÃ­s del menÃº de los paÃ­ses.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_telephone_number</key>
-      <value><![CDATA[Número de Teléfono:]]></value>
+      <value><![CDATA[NÃºmero de TelÃ©fono:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_telephone_number_error</key>
-      <value><![CDATA[Su Número de Teléfono debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su NÃºmero de TelÃ©fono debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_fax_number</key>
-      <value><![CDATA[Número de Fax:]]></value>
+      <value><![CDATA[NÃºmero de Fax:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_fax_number_error</key>
-      <value><![CDATA[Su Número de Fax debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su NÃºmero de Fax debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_newsletter</key>
-      <value><![CDATA[Boletín:]]></value>
+      <value><![CDATA[BoletÃ­n:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password</key>
-      <value><![CDATA[Contraseña:]]></value>
+      <value><![CDATA[ContraseÃ±a:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_error</key>
-      <value><![CDATA[Su Contraseña debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su ContraseÃ±a debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_mismatch_with_confirmation</key>
-      <value><![CDATA[La Confirmación de la Contraseña debe coincidir con su Contraseña.]]></value>
+      <value><![CDATA[La ConfirmaciÃ³n de la ContraseÃ±a debe coincidir con su ContraseÃ±a.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_confirmation</key>
-      <value><![CDATA[Confirmación de la Contraseña:]]></value>
+      <value><![CDATA[ConfirmaciÃ³n de la ContraseÃ±a:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current</key>
-      <value><![CDATA[Contraseña Actual:]]></value>
+      <value><![CDATA[ContraseÃ±a Actual:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current_error</key>
-      <value><![CDATA[Su Contraseña debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su ContraseÃ±a debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new</key>
-      <value><![CDATA[Nueva Contraseña:]]></value>
+      <value><![CDATA[Nueva ContraseÃ±a:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_error</key>
-      <value><![CDATA[Su Contraseña nueva debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su ContraseÃ±a nueva debe contener un mÃ­nimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_mismatch_with_confirmation_error</key>
-      <value><![CDATA[La Confirmación De La Contraseña debe coincidir con su nueva Contraseña.]]></value>
+      <value><![CDATA[La ConfirmaciÃ³n De La ContraseÃ±a debe coincidir con su nueva ContraseÃ±a.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2106,7 +2106,7 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>credit_card_number_error</key>
-      <value><![CDATA[El número de la tarjeta de crédito es invalido.<br/>Por favor revise el número y intente otra vez.]]></value>
+      <value><![CDATA[El nÃºmero de la tarjeta de crÃ©dito es invalido.<br/>Por favor revise el nÃºmero y intente otra vez.]]></value>
       <group>general</group>
     </definition>
   </definitions>

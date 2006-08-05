@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+ï»¿<?xml version="1.0" encoding="iso-8859-15"?>
 <language>
   <definitions>
     <definition>
@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_2checkout_description</key>
-      <value><![CDATA[[Información de prueba para la Tarjeta de Crédito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
+      <value><![CDATA[[InformaciÃ³n de prueba para la Tarjeta de CrÃ©dito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,47 +18,47 @@
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner</key>
-      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[DueÃ±o de la Tarjeta de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_first_name</key>
-      <value><![CDATA[Nombre del dueño de la Tarjete de Crédito:]]></value>
+      <value><![CDATA[Nombre del dueÃ±o de la Tarjete de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_last_name</key>
-      <value><![CDATA[Apellido del dueño de la Tarjete de Crédito:]]></value>
+      <value><![CDATA[Apellido del dueÃ±o de la Tarjete de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_number</key>
-      <value><![CDATA[Número de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[NÃºmero de la Tarjeta de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Fecha de vencimiento de la Tarjeta de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_checknumber</key>
-      <value><![CDATA[Número de control de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[NÃºmero de control de la Tarjeta de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_checknumber_location</key>
-      <value><![CDATA[(localizado en la parte posteriora de la tarjeta de crédito)]]></value>
+      <value><![CDATA[(localizado en la parte posteriora de la tarjeta de crÃ©dito)]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_js_credit_card_number</key>
-      <value><![CDATA[* El número de la tarjeta de crédito debe tener por lo menos %s caracteres.]></value>
+      <value><![CDATA[* El nÃºmero de la tarjeta de crÃ©dito debe tener por lo menos %s caracteres.]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_error_message</key>
-      <value><![CDATA[Ha habido un error en el proceso con tu tarjeta de crédito. Por favor intente otra vez.]]></value>
+      <value><![CDATA[Ha habido un error en el proceso con tu tarjeta de crÃ©dito. Por favor intente otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 /*
   $Id: $
 
@@ -12,15 +12,15 @@
 
 page_title_welcome = Bienvenido a osCommerce 3.0a3pre!
 
-page_heading_installation_type = Tipo de Instalación
+page_heading_installation_type = Tipo de InstalaciÃ³n
 
 title_language = Lenguaje:
 
-text_welcome = <p style="background-color: #ff6633; padding: 5px; border: 1px #000 solid;">Ten cuidado que éste es una versión alfa del desarrollo que no debe ser utilizada para el uso de producción.</p><p>osCommerce es una solución open source del e-comercio debajo en el desarrollo que va de la comunidad open source. Su instalación característica es embalada hacia fuera-de-la-caja y permite los dueños de la tienda que instalen, funcionen, y mantengan sus tiendas en línea con esfuerzo mínimo y sin costos implicados.</p><p>osCommerce combinar la solucion open source para proporcionar una plataforma libre y abierta del desarrollo, que incluye un lenguaje <i>poderoso</i> de PHP, el <i>estabil</i> servidor web de Apache, y el <i>rápido</i> servidor de base de datos MySQL.</p><p>Sin restricciones o requisitos especiales, osCommerce se pueden instalar en cualquier servidor web con PHP4 o PHP5 permetido, en cualquier ambiente que soportan PHP y MySQL, que incluye Linux, Solaris, BSD, y Microsoft Windows ambientes.</p>
-text_installation_type = Por favor elegir la forma de la instalación para continuar.
+text_welcome = <p style="background-color: #ff6633; padding: 5px; border: 1px #000 solid;">Ten cuidado que Ã©ste es una versiÃ³n alfa del desarrollo que no debe ser utilizada para el uso de producciÃ³n.</p><p>osCommerce es una soluciÃ³n open source del e-comercio debajo en el desarrollo que va de la comunidad open source. Su instalaciÃ³n caracterstica es embalada hacia fuera-de-la-caja y permite los dueos de la tienda que instalen, funcionen, y mantengan sus tiendas en lÃ­nea con esfuerzo mÃ­nimo y sin costos implicados.</p><p>osCommerce combinar la solucion open source para proporcionar una plataforma libre y abierta del desarrollo, que incluye un lenguaje <i>poderoso</i> de PHP, el <i>estabil</i> servidor web de Apache, y el <i>rpido</i> servidor de base de datos MySQL.</p><p>Sin restricciones o requisitos especiales, osCommerce se pueden instalar en cualquier servidor web con PHP4 o PHP5 permetido, en cualquier ambiente que soportan PHP y MySQL, que incluye Linux, Solaris, BSD, y Microsoft Windows ambientes.</p>
+text_installation_type = Por favor elegir la forma de la instalaciÃ³n para continuar.
 
 box_server_title = Capacidades del Servidor
-box_server_php_version = Versión PHP
+box_server_php_version = VersiÃ³n PHP
 box_server_php_settings = Configuracion PHP
 box_server_register_globals = register_globals
 box_server_magic_quotes = magic_quotes
@@ -35,8 +35,8 @@ box_server_openssl = OpenSSL
 box_server_on = On
 box_server_off = Off
 
-error_configuration_file_not_writeable = <p>El server web al parecer no se puede escribir los parámetros de la tienda a su archivo de la configuración debido a los problemas del permiso del archivo.</p><p>El archivo de la configuración se localiza en:</p><p>%s</p>
-error_configuration_file_alternate_method = <p>Alternativamente la posibilidad para copiar los parámetros de la configuración al archivo de la configuración también se proporciona manualmente en el final del procedimiento de instalación.</p>
+error_configuration_file_not_writeable = <p>El server web al parecer no se puede escribir los parÃ¡metros de la tienda a su archivo de la configuraciÃ³n debido a los problemas del permiso del archivo.</p><p>El archivo de la configuraciÃ³n se localiza en:</p><p>%s</p>
+error_configuration_file_alternate_method = <p>Alternativamente la posibilidad para copiar los parÃ¡metros de la configuraciÃ³n al archivo de la configuraciÃ³n tambiÃ©n se proporciona manualmente en el final del procedimiento de instalaciÃ³n.</p>
 
 image_button_install = Instalar
 image_button_upgrade = Actualizar

@@ -1,44 +1,44 @@
-<?xml version="1.0" encoding="utf-8"?>
+ï»¿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>payment_cc_title</key>
-      <value><![CDATA[Tarjeta de Crédito]]></value>
+      <value><![CDATA[Tarjeta de CrÃ©dito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_description</key>
-      <value><![CDATA[Información de prueba para la Tarjeta de Crédito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
+      <value><![CDATA[InformaciÃ³n de prueba para la Tarjeta de CrÃ©dito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_type</key>
-      <value><![CDATA[Tipo de Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Tipo de Tarjeta de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[DueÃ±o de la Tarjeta de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_number</key>
-      <value><![CDATA[Número de Tarjeta de Crédito:]]></value>
+      <value><![CDATA[NÃºmero de Tarjeta de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Fecha de vencimiento de la Tarjeta de CrÃ©dito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_js_credit_card_owner</key>
-      <value><![CDATA[* El nombre del dueño de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
+      <value><![CDATA[* El nombre del dueÃ±o de la tarjeta de crÃ©dito debe tener por lo menos %s caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_js_credit_card_number</key>
-      <value><![CDATA[* El número de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
+      <value><![CDATA[* El nÃºmero de la tarjeta de crÃ©dito debe tener por lo menos %s caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

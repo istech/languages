@@ -36,8 +36,8 @@ define('EMAIL_GREET_MS', 'Sra. %s,' . "\n\n");
 define('EMAIL_GREET_NONE', 'Estimado %s' . "\n\n");
 define('EMAIL_WELCOME', 'Le damos la bienvenida a <b>' . STORE_NAME . '</b>.' . "\n\n");
 define('EMAIL_TEXT', 'Ahora puedes participar en los <b>varios servicios</b> que le ofrecemos. Algunos de estos servicios incluyen:' . "\n\n" . '<li><b>Carro de Compras Permanente</b> - Cualquier producto agregado a su carro permanece allí hasta que lo quite, o lo compre.' . "\n" . '<li><b>Mis Direcciones</b> - Ahora podemos entregar sus productos a otra dirección que la suya! Esto es perfecto para enviar los regalos directos a la persona de cumpleaños.' . "\n" . '<li><b>Historia de Pedidos</b> - Ver su historia de compras que ha hecho con nosotros.' . "\n" . '<li><b>Comentarios de Productos</b> - Compartir sus opiniones sobre productos con nuestros otros clientes.' . "\n\n");
-define('EMAIL_CONTACT', 'Para ayuda con cualquiera de nuestros servicios, por favor mande un email al dueo de la tienda: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
-define('EMAIL_PASSWORD', '<b>Nota:</b> Esta cuenta ha sido creada para usted por el duñeo de la tienda. La contraseña para tener acceso a esta cuenta es %s.' . "\n");
+define('EMAIL_CONTACT', 'Para ayuda con cualquiera de nuestros servicios, por favor mande un email al dueño de la tienda: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
+define('EMAIL_PASSWORD', '<b>Nota:</b> Esta cuenta ha sido creada para usted por el dueño de la tienda. La contraseña para tener acceso a esta cuenta es %s.' . "\n");
 
 define('ENTRY_STATUS', 'Estatus:');
 ?>

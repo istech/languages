@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,12 +8,12 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_description</key>
-      <value><![CDATA[Saferpay Credit Card Transaccioóse]]></value>
+      <value><![CDATA[Saferpay Tarjeta de Crédito Transacciones]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_method_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -38,47 +38,47 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* El nombre del dueño de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s caracteres.]]></value>
+      <value><![CDATA[* El número de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_js_credit_card_not_accepted</key>
-      <value><![CDATA[* This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[* Este tipo de tarjeta de crédito no se acepta. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_js_credit_card_cvc</key>
-      <value><![CDATA[* El número de Control de la Tarjeta de Crédito (CVC) debe tener por lo menos 3 caracteres.]]></value>
+      <value><![CDATA[* El número de control de la tarjeta de crédito (CVC) debe tener por lo menos 3 caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_general</key>
-      <value><![CDATA[There was a problem processing this credit card. Please check the card information and try again.]]></value>
+      <value><![CDATA[Había un problema que procesaba esta tarjeta de crédito. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_not_accepted</key>
-      <value><![CDATA[This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Este tipo de tarjeta de crédito no se acepta. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_62</key>
-      <value><![CDATA[The credit card expiration date is invalid. Please check the card information and try again.]]></value>
+      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_63</key>
-      <value><![CDATA[The credit card has expired. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[La tarjeta de crédito ha expirado. Por favor intentar otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_64</key>
-      <value><![CDATA[This is an unknown credit card which cannot be processed. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Esta es una tarjeta de crédito desconocida que no puede ser procesada. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>
