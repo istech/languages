@@ -10,8 +10,6 @@
   Released under the GNU General Public License
 */
 
-define('LANGUAGE_LOCALE', 'es_CL');
-
 define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
 define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
 define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
@@ -30,8 +28,8 @@ function tep_date_raw($date, $reverse = false) {
   }
 }
 
-define('NUMERIC_DECIMAL_SEPARATOR', '.');
-define('NUMERIC_THOUSANDS_SEPARATOR', ',');
+define('NUMERIC_DECIMAL_SEPARATOR', ',');
+define('NUMERIC_THOUSANDS_SEPARATOR', '.');
 
 // page title
 define('TITLE', 'osCommerce');
