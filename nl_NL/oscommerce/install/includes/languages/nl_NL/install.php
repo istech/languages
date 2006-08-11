@@ -7,82 +7,82 @@
 #
 # Released under the GNU General Public License
 
-page_title_installation = New Installation
+page_title_installation = Nieuwe installatie
 
 page_heading_step_1 = Database Server
 page_heading_step_2 = Web Server
-page_heading_step_3 = Online Store Settings
-page_heading_step_4 = Finished!
+page_heading_step_3 = Online winkelinstellingen
+page_heading_step_4 = Klaar!
 
-text_installation = <p>This web-based installation routine will correctly setup and configure osCommerce to run on this server.</p><p>Please following the on-screen instructions that will take you through the database server, web server, and store configuration options. If help is needed at any stage, please consult the documentation or seek help at the community support forums.</p>
-text_successful_installation = The installation and configuration was successful!
+text_installation = <p>De installatieroutine zal osCommerce op een juiste wijze installeren en configureren voor gebruik op deze server.</p><p>Volgt u aub. de aanwijzingen op het scherm welke u zullen helpen bij het instellen van de database server, de web server, en de winkelconfiguratie opties. Indien u op enig moment toch hulp nodig heeft raadpleegt u de documentatie danwel verzoekt u om hulp/uitleg op onze support forums.</p>
+text_successful_installation = De installatie en configuratie is succesvol verlopen!
 
 param_database_server = Database Server
-param_database_server_description = The address of the database server in the form of a hostname or IP address.
-param_database_username = Username
-param_database_username_description = The username used to connect to the database server.
-param_database_password = Password
-param_database_password_description = The password that is used together with the username to connect to the database server.
-param_database_name = Database Name
-param_database_name_description = The name of the database to hold the data in.
-param_database_type = Database Type
-param_database_type_description = The database server software that is used.
-param_database_prefix = Database Table Prefix
-param_database_prefix_description = The prefix to use for the database tables.
+param_database_server_description = Het adres van de database server in de vorm van een hostnaam of IP adres.
+param_database_username = Gebruikersnaam
+param_database_username_description = De gebruikersnaam welke wordt gebruikt om contact te leggen met de database server.
+param_database_password = Wachtwoord
+param_database_password_description = Het wachtwoord dat wordt gebruikt in combinatie met de gebruikersnaam om conctact te leggen met de database server.
+param_database_name = Databasenaam
+param_database_name_description = De naam van de database waar uw gegevens in worden opgeslagen.
+param_database_type = Database type
+param_database_type_description = De database server software welke wordt gebruikt.
+param_database_prefix = Databasetabel voorvoegsel
+param_database_prefix_description = Het voorvoegsel te gebruiken voor de database tabellen.
 
-param_database_import_sample_data = Import Sample Data
-param_database_import_sample_data_description = Inserting sample data into the database is recommended for first time installations.
+param_database_import_sample_data = Importeer voorbeelddata
+param_database_import_sample_data_description = Het invoegen van voorbeelddata in de database wordt aanbevolen bij een eerste installatie.
 
-param_web_address = WWW Address
-param_web_address_description = The web address to the online store.
-param_web_root_directory = Webserver Root Directory
-param_web_root_directory_description = The directory where the online store is installed on the server.
-param_web_work_directory = Work Directory
-param_web_work_directory_description = The working directory for temporarily created files. This directory should be located outside the public webserver root directory for security reasons. (Shared hosting servers should not use /tmp/)
+param_web_address = WWW adres
+param_web_address_description = Het webadres naar de online webwinkel.
+param_web_root_directory = Webserver Root Map
+param_web_root_directory_description = De map waar de online webwinkel is geinstalleerd op de server.
+param_web_work_directory = Werkmap
+param_web_work_directory_description = De werkmap voor tijdelijke bestanden. Deze map kan het best buiten de root map geplaatst worden vanwege veiligheidsredenen. (gedeelde hosting servers moeten niet gebruik maken van de map /tmp/)
 
-param_store_name = Store Name
-param_store_name_description = The name of the online store that is presented to the public.
-param_store_owner_name = Store Owner Name
-param_store_owner_name_description = The name of the store owner that is presented to the public.
-param_store_owner_email_address = Store Owner E-Mail Address
-param_store_owner_email_address_description = The e-mail address of the store owner that is presented to the public.
-param_administrator_username = Administrator Username
-param_administrator_username_description = The administrator username to use for the administration tool.
-param_administrator_password = Administrator Password
-param_administrator_password_description = The password to use for the administrator account.
+param_store_name = Winkelnaam
+param_store_name_description = De naam van de online winkel zoals deze naar de bezoekers toe wordt gepresenteerd.
+param_store_owner_name = Naam winkeleigenaar
+param_store_owner_name_description = De naam van de winkeleigenaar zoals deze naar de bezoekers toe wordt gepresenteerd.
+param_store_owner_email_address = E-mailadres winkeleigenaar
+param_store_owner_email_address_description = Het E-mailadres van de winkeleigenaar zoals deze naar de bezoekers toe zal worden gebruikt.
+param_administrator_username = Administratie gebruikersnaam
+param_administrator_username_description = De administratie gebruikersnaam voor gebruik van de administratieve gereedschappen.
+param_administrator_password = Administratie wachtwoord
+param_administrator_password_description = Het wachtwoord te gebruiken voor de administratie gebruikersnaam.
 
 box_steps_step_1 = Database Server
 box_steps_step_2 = Web Server
-box_steps_step_3 = Online Store Settings
-box_steps_step_4 = Finished!
+box_steps_step_3 = Online winkelinstellingen
+box_steps_step_4 = Klaar!
 
 box_info_step_1_title = Step 1: Database Server
-box_info_step_1_text = <p>The database server stores the content of the online store such as product information, customer information, and the orders that have been made.</p><p>Please consult your server administrator if your database server parameters are not yet known.</p>
+box_info_step_1_text = <p>De database server slaat de gegevens op van de online winkel zoals bijvoorbeeld produktinformatie, klantinformatie, en de bestellingen die geplaatst zijn.</p><p>Raadpleeg aub. uw server administrateur indien uw database server gegevens nog onbekend voor u zijn.</p>
 
 box_info_step_2_title = Step 2: Web Server
-box_info_step_2_text = <p>The web server takes care of serving the pages of the online store to the visitors and customers. The web server parameters make sure the links to the pages point to the correct location.</p><p>Temporary files such as session data and cache files are stored in the work directory. It is important that this directory is located outside the web server root directory and is protected from public access.</p>
+box_info_step_2_text = <p>De web server heeft tot taak om de verschillende pagina\'s van uw online winkel te tonen aan bezoekers en klanten. De web server instellingen zorgen ervoor dat de links voor de diverse pagina's naar de juiste lokatie wijzen.</p><p>Tijdelijke bestanden zoals sessie gegevens en cache bestanden worden bewaard in de werkmap. Het is belangrijk dat deze map buiten de root map is gelegen en op deze wijze is beschermd tegen publieke toegang.</p>
 
-box_info_step_3_title = Step 3: Online Store Settings
-box_info_step_3_text = <p>Here you can define the name of your online store, and the contact information for the store owner.</p><p>The administrator username and password are used to log into the protected administration tool section.</p>
+box_info_step_3_title = Step 3: Online winkelinstellingen
+box_info_step_3_text = <p>Hier kunt u oa. de naam van uw online winkel en de contact informatie naar de winkeleigenaar definiëren.</p><p>De administratie gebruikersnaam en wachtwoord wordt gebruikt om in te loggen in het beveiligde administratie gedeelte.</p>
 
-box_info_step_4_title = Step 4: Finished!
-box_info_step_4_text = <p>Congratulations on installing and configuring osCommerce as your online store solution!</p><p>We hope you all the best with your online store and welcome you to join and participate in our community.</p><p align="right">- The osCommerce Team</p>
+box_info_step_4_title = Step 4: Klaar!
+box_info_step_4_text = <p>Gefeliciteerd met het installeren en configureren van osCommerce als uw online webwinkel!</p><p>Wij wensen u het allerbeste met uw online webwinkel en hopen dat wij u ook mogen verwelkomen in onze gemeenschap.</p><p align="right">- Het osCommerce Team</p>
 
-error_configuration_file_not_writeable = <p>The webserver was not able to write the online store parameters to its configuration file due to file permission problems.</p><p>Please verify the permissions of the configuration file to allow the webserver to write to it, and try again by clicking on the Retry button below.</p><p>The configuration file is located at:</p><p>%s</p>
-error_configuration_file_alternate_method = <p>Alternatively you can copy and save the contents of the textbox below to the configuration file by hand.</p>
+error_configuration_file_not_writeable = <p>De web server was niet in staat de winkelinstellingen naar het configuratiebestand te schrijven tengevolge van problemen met de bestandsrechten.</p><p>Controleert u aub. de bestandsrechten op het configuratiebestand zodat de web server ernaar toe mag schrijven en probeer het nog een keer door op de \'Opnieuw\' knop te drukken.</p><p>Het configuratiebestand kunt u vinden onder:</p><p>%s</p>
+error_configuration_file_alternate_method = <p>Als alternatief kunt u de inhoud van de tekstbox hieronder kopiëren en handmatig toevoegen en opslaan in het configuratiebestand.</p>
 
-rpc_database_connection_test = Testing database connection..
-rpc_database_connection_error = There was a problem connecting to the database server. The following error had occured:</p><p><b>%s</b></p><p>Please verify the connection parameters and try again.
-rpc_database_connected = Successfully connected to the database.
-rpc_database_importing = The database structure is now being imported. Please be patient during this procedure.
-rpc_database_imported = Database imported successfully.
-rpc_database_import_error = There was a problem importing the database. The following error had occured:</p><p><b>%s</b></p><p>Please verify the connection parameters and try again.
+rpc_database_connection_test = Testen database verbinding..
+rpc_database_connection_error = Er is een probleem met de verbinding naar uw database server. De volgende fout is opgetreden:</p><p><b>%s</b></p><p>Controleert u aub. de verbindingsinstellingen en probeer het opnieuw.
+rpc_database_connected = Succesvol verbonden met de database.
+rpc_database_importing = De database structuur wordt nu geimporteerd. Hebt u aub. geduld tijdens dit proces.
+rpc_database_imported = Database succesvol geimporteerd.
+rpc_database_import_error = Er is een probleem opgetreden tijdens het importeren in de database. De volgende fout is opgetreden:</p><p><b>%s</b></p><p>Controleert u aub. de verbindingsinstellingen en probeer het opnieuw.
 
-rpc_work_directory_test = Testing work directory..
-rpc_work_directory_error_non_existent = There was a problem accessing the working directory. The following error had occured:<br /><br /><b>The directory does not exist:<br /><br />%s</b><br /><br />Please verify the directory and try again.
-rpc_work_directory_error_not_writeable = There was a problem accessing the working directory. The following error had occured:<br /><br /><b>The webserver does not have write permissions to the directory:<br /><br />%s</b><br /><br />Please verify the permissions of the directory and try again.
-rpc_work_directory_configured = Working directory successfully configured.
+rpc_work_directory_test = Testen werkmap..
+rpc_work_directory_error_non_existent = Er is een probleem met de toegang tot uw werkmap. De volgende fout is opgetreden:<br /><br /><b>De map bestaat niet:<br /><br />%s</b><br /><br />Controleer aub. de map en probeer het opnieuw.
+rpc_work_directory_error_not_writeable = Er is een probleem met de toegang tot uw werkmap. De volgende fout is opgetreden:<br /><br /><b>De web server heeft geen schrijfrechtenvoor de werkmap:<br /><br />%s</b><br /><br />Controleer aub. de bestandsrechten op uw werkmap en probeer het opnieuw.
+rpc_work_directory_configured = Werkmap is succesvol geconfigureerd.
 
-rpc_database_sample_data_importing = The sample data is now being imported into the database. Please be patient during this procedure.
-rpc_database_sample_data_imported = Database sample data imported successfully.
-rpc_database_sample_data_import_error = There was a problem importing the database sample data. The following error had occured:</p><p><b>%s</b></p><p>Please verify the database server and try again.
+rpc_database_sample_data_importing = De voorbeelddata wordt nu in uw database geimporteerd. Hebt u aub. geduld tijdens dit proces.
+rpc_database_sample_data_imported = Database voorbeelddata succesvol geimporteerd.
+rpc_database_sample_data_import_error = Er is een probleem met het importeren van de voorbeelddata in uw database. De volgende fout is opgetreden:</p><p><b>%s</b></p><p>Controleert u aub. de database server en probeer het opnieuw.
