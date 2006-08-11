@@ -10,10 +10,10 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_ORDERS_TITLE', 'Latest Orders');
+  define('MODULE_SUMMARY_ORDERS_TITLE', 'Laatste bestellingen');
 
-  define('MODULE_SUMMARY_ORDERS_HEADING_ORDERS', 'Orders');
-  define('MODULE_SUMMARY_ORDERS_HEADING_TOTAL', 'Total');
-  define('MODULE_SUMMARY_ORDERS_HEADING_DATE', 'Date');
+  define('MODULE_SUMMARY_ORDERS_HEADING_ORDERS', 'Bestellingen');
+  define('MODULE_SUMMARY_ORDERS_HEADING_TOTAL', 'Totaal');
+  define('MODULE_SUMMARY_ORDERS_HEADING_DATE', 'Datum');
   define('MODULE_SUMMARY_ORDERS_HEADING_STATUS', 'Status');
 ?>

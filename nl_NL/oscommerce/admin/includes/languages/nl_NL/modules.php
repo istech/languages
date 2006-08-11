@@ -10,16 +10,16 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE_MODULES_PAYMENT', 'Payment Modules');
-define('HEADING_TITLE_MODULES_SHIPPING', 'Shipping Modules');
-define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Order Total Modules');
+define('HEADING_TITLE_MODULES_PAYMENT', 'Betalingsmodulen');
+define('HEADING_TITLE_MODULES_SHIPPING', 'Verzendingsmodulen');
+define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Bestellingstotaal modulen');
 
-define('TABLE_HEADING_MODULES', 'Modules');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
+define('TABLE_HEADING_MODULES', 'Modulen');
+define('TABLE_HEADING_SORT_ORDER', 'Sorteervolgorde');
 define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ACTION', 'Actie');
 
-define('TEXT_MODULE_DIRECTORY', 'Module Directory:');
+define('TEXT_MODULE_DIRECTORY', 'Module map:');
 
-define('INFO_MODULE_UNINSTALL_INTRO', 'Are you sure you want to uninstall this module?<br /><br />(All module parameters would then be removed)');
+define('INFO_MODULE_UNINSTALL_INTRO', 'Weet u zeker dat u deze module wilt deinstalleren?<br /><br />(alle module gegevens worden hierbij verwijderd)');
 ?>

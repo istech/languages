@@ -10,27 +10,27 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Product Attributes');
+  define('HEADING_TITLE', 'Produktoptie\'s');
 
-  define('TABLE_HEADING_ATTRIBUTE_GROUPS', 'Attribute Groups');
-  define('TABLE_HEADING_TOTAL_ENTRIES', 'Total Entries');
-  define('TABLE_HEADING_ACTION', 'Action');
-  define('TABLE_HEADING_ENTRIES', 'Entries');
+  define('TABLE_HEADING_ATTRIBUTE_GROUPS', 'Optiegroepen');
+  define('TABLE_HEADING_TOTAL_ENTRIES', 'Totale waarden');
+  define('TABLE_HEADING_ACTION', 'Actie');
+  define('TABLE_HEADING_ENTRIES', 'Waarden');
 
-  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_GROUP', 'New Attribute Group');
-  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_ENTRY', 'New Attribute Entry');
+  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_GROUP', 'Nieuwe optiegroep');
+  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_ENTRY', 'Nieuwe optiewaarde');
 
-  define('TEXT_INFO_ATTRIBUTE_GROUP_NAME', 'Attribute Group Name:');
-  define('TEXT_INFO_ATTRIBUTE_ENTRY_NAME', 'Attribute Entry Name:');
+  define('TEXT_INFO_ATTRIBUTE_GROUP_NAME', 'Naam optiegroep:');
+  define('TEXT_INFO_ATTRIBUTE_ENTRY_NAME', 'Naam optiewaarde:');
 
-  define('TEXT_INFO_INSERT_ATTRIBUTE_INTRO', 'Please enter the new Attribute Group information');
-  define('TEXT_INFO_DELETE_ATTRIBUTE_INTRO', 'Are you sure you want to delete this Attribute Group?');
-  define('TEXT_INFO_INSERT_ATTRIBUTE_ENTRY_INTRO', 'Please enter the new Attribute Entry information');
-  define('TEXT_INFO_DELETE_ATTRIBUTE_ENTRY_INTRO', 'Are you sure you want to delete this Attribute Entry?');
-  define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
+  define('TEXT_INFO_INSERT_ATTRIBUTE_INTRO', 'Vul aub. de nieuwe optiegroepsinformatie in');
+  define('TEXT_INFO_DELETE_ATTRIBUTE_INTRO', 'Weet u zeker dat u deze optiegroep wilt verwijderen?');
+  define('TEXT_INFO_INSERT_ATTRIBUTE_ENTRY_INTRO', 'Vul aub. de nieuwe optiewaardeinformatie in');
+  define('TEXT_INFO_DELETE_ATTRIBUTE_ENTRY_INTRO', 'Weet u zeker dat u deze optiewaarde wilt verwijderen?');
+  define('TEXT_INFO_EDIT_INTRO', 'Maak aub. de benodigde wijzigingen');
 
-  define('TEXT_INFO_DELETE_ATTRIBUTE_GROUP_PROHIBITED', 'Warning: This Attribute Group cannot be deleted as it is currently assigned to %s products.');
-  define('TEXT_INFO_DELETE_ATTRIBUTE_GROUP_WARNING', 'Warning: This Attribute Group has %s entries assigned which would also be deleted.');
+  define('TEXT_INFO_DELETE_ATTRIBUTE_GROUP_PROHIBITED', 'Waarschuwing: Deze optiegroep kan niet worden verwijderd omdat deze is gekoppeld aan %s produkten.');
+  define('TEXT_INFO_DELETE_ATTRIBUTE_GROUP_WARNING', 'Waarschuwing: Deze optiegroep heeft %s optiewaarden gekoppeld welke ook zullen worden verwijderd.');
 
-  define('TEXT_INFO_DELETE_ATTRIBUTE_ENTRY_PROHIBITED', 'Warning: This Attribute Entry cannot be deleted as it is currently assigned to %s products.');
+  define('TEXT_INFO_DELETE_ATTRIBUTE_ENTRY_PROHIBITED', 'Waarschuwing: Deze optiewaardekan niet worden verwijderd omdat deze is gekoppeld aan %s produkten.');
 ?>

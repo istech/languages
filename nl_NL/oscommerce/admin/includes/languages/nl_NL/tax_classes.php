@@ -10,35 +10,35 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Tax Classes');
+define('HEADING_TITLE', 'BTW klassen');
 
-define('TABLE_HEADING_TAX_CLASSES', 'Tax Classes');
-define('TABLE_HEADING_TAX_RATES_TOTAL', 'Defined Tax Rates');
+define('TABLE_HEADING_TAX_CLASSES', 'BTW klassen');
+define('TABLE_HEADING_TAX_RATES_TOTAL', 'Gedefinieerde BTW percentages');
 
-define('TABLE_HEADING_TAX_RATE_PRIORITY', 'Priority');
+define('TABLE_HEADING_TAX_RATE_PRIORITY', 'Prioriteit');
 define('TABLE_HEADING_ZONE', 'Zone');
-define('TABLE_HEADING_TAX_RATE', 'Tax Rate');
+define('TABLE_HEADING_TAX_RATE', 'BTW percentage');
 
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ACTION', 'Actie');
 
-define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'New Tax Class');
-define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'New Tax Rate');
+define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'Nieuwe BTW klasse');
+define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'Nieuw BTW percentage');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new tax class with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this tax class?');
+define('TEXT_INFO_INSERT_INTRO', 'Vul aub. de nieuwe BTW klasse met de gerelateerde gegevens in');
+define('TEXT_INFO_EDIT_INTRO', 'Maakt u aub. de benodigde wijzigingen');
+define('TEXT_INFO_DELETE_INTRO', 'Weet u zeker dat u deze BTW klasse wilt verwijderen?');
 
-define('TEXT_INFO_CLASS_TITLE', 'Tax Class Title:');
-define('TEXT_INFO_CLASS_DESCRIPTION', 'Description:');
+define('TEXT_INFO_CLASS_TITLE', 'Titel BTW klasse:');
+define('TEXT_INFO_CLASS_DESCRIPTION', 'Beschrijving:');
 
 define('TEXT_INFO_ZONE_NAME', 'Zone:');
-define('TEXT_INFO_TAX_RATE', 'Tax Rate (%):');
-define('TEXT_INFO_TAX_RATE_PRIORITY', 'Priority:');
-define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Description:');
+define('TEXT_INFO_TAX_RATE', 'BTW percentage (%):');
+define('TEXT_INFO_TAX_RATE_PRIORITY', 'Prioriteit:');
+define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Beschrijving:');
 
-define('TEXT_INFO_DATE_ADDED', 'Date Added:');
-define('TEXT_INFO_LAST_MODIFIED', 'Last Modified:');
+define('TEXT_INFO_DATE_ADDED', 'Datum toegevoegd:');
+define('TEXT_INFO_LAST_MODIFIED', 'Laatst gewijzigd:');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Warning: This Tax Class cannot be deleted as it is currently assigned to one or more products.');
-define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Warning: This Tax Class has %s tax rate(s) assigned which would also be deleted.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Waarschuwing: Deze BTW klasse kan niet worden verwijderd omdat deze momenteel is gekoppeld aan één of meerdere produkten.');
+define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Waarschuwing: Deze BTW klasse heeft %s BTW percentage\'s gekoppeld welke ook zullen worden verwijderd.');
 ?>

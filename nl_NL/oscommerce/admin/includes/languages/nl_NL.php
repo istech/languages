@@ -97,11 +97,11 @@ define('BOX_CUSTOMERS_CUSTOMERS', 'Klanten');
 define('BOX_CUSTOMERS_ORDERS', 'Bestellingen');
 
 // taxes box text in includes/boxes/taxes.php
-define('BOX_HEADING_LOCATION_AND_TAXES', 'Lokaties / Belastingen');
+define('BOX_HEADING_LOCATION_AND_TAXES', 'Lokaties / BTW');
 define('BOX_TAXES_COUNTRIES', 'Landen');
 define('BOX_TAXES_ZONES', 'Gebieden');
-define('BOX_TAXES_GEO_ZONES', 'Belasting Gebieden');
-define('BOX_TAXES_TAX_CLASSES', 'Belasting Groepen');
+define('BOX_TAXES_GEO_ZONES', 'BTW gebieden');
+define('BOX_TAXES_TAX_CLASSES', 'BTW groepen');
 
 // reports box text in includes/boxes/reports.php
 define('BOX_HEADING_REPORTS', 'Rapporten');
@@ -225,9 +225,9 @@ define('IMAGE_NEW_FOLDER', 'Nieuwe map');
 define('IMAGE_NEW_LANGUAGE', 'Nieuwe taal');
 define('IMAGE_NEW_NEWSLETTER', 'Nieuwe nieuwsbrief');
 define('IMAGE_NEW_PRODUCT', 'Nieuw produkt');
-define('IMAGE_NEW_TAX_CLASS', 'Nieuwe belastingklasse');
-define('IMAGE_NEW_TAX_RATE', 'Nieuw belastingtarief');
-define('IMAGE_NEW_TAX_ZONE', 'Nieuwe belastingzone');
+define('IMAGE_NEW_TAX_CLASS', 'Nieuwe BTW klasse');
+define('IMAGE_NEW_TAX_RATE', 'Nieuw BTW tarief');
+define('IMAGE_NEW_TAX_ZONE', 'Nieuwe BTW zone');
 define('IMAGE_NEW_ZONE', 'Nieuwe zone');
 define('IMAGE_ORDERS', 'Bestellingen');
 define('IMAGE_ORDERS_INVOICE', 'Rekening');
@@ -294,9 +294,9 @@ define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Toont <b>%d</b> tot <b>%d</b> (van <b
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_EXPECTED', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> verwachte produkten)');
 define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> produktbeoordelingen)');
 define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> produkten in de aanbieding)');
-define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> belastingklassen)');
-define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> belastinggebieden)');
-define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> belastingtarieven)');
+define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> BTW klassen)');
+define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> BTW gebieden)');
+define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> BTW tarieven)');
 define('TEXT_DISPLAY_NUMBER_OF_WEIGHT_CLASSES', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> gewichtsklassen)');
 define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> zones)');
 

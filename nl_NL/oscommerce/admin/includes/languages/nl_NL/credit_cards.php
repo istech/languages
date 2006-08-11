@@ -10,24 +10,24 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Credit Card Types');
+define('HEADING_TITLE', 'Kredietkaart Typen');
 
-define('TABLE_HEADING_CREDIT_CARD_CODE', 'Card Code');
-define('TABLE_HEADING_CREDIT_CARD_NAME', 'Card Name');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
+define('TABLE_HEADING_CREDIT_CARD_CODE', 'Kaart code');
+define('TABLE_HEADING_CREDIT_CARD_NAME', 'Kaart naam');
+define('TABLE_HEADING_SORT_ORDER', 'Sorteervolgorde');
 define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ACTION', 'Actie');
 
-define('TEXT_HEADING_NEW_CREDIT_CARD', 'New Credit Card');
+define('TEXT_HEADING_NEW_CREDIT_CARD', 'Nieuwe kredietkaart');
 
-define('TEXT_CREDIT_CARD_NAME', 'Card Name:');
-define('TEXT_CREDIT_CARD_PATTERN', 'Card Number Pattern:');
-define('TEXT_SORT_ORDER', 'Sort Order:');
+define('TEXT_CREDIT_CARD_NAME', 'Kaart naam:');
+define('TEXT_CREDIT_CARD_PATTERN', 'Kaartnummer patroon:');
+define('TEXT_SORT_ORDER', 'Sorteervolgorde:');
 define('TEXT_STATUS', 'Status:');
 
-define('TEXT_NEW_INTRO', 'Please fill out the following information for the new credit card');
-define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this credit card?');
+define('TEXT_NEW_INTRO', 'Vult u aub. de volgende informatie in voor de nieuwe kredietkaart');
+define('TEXT_EDIT_INTRO', 'Maakt u aub. de benodigde wijzigingen');
+define('TEXT_DELETE_INTRO', 'Weet u zeker dat u deze kredietkaart wilt verwijderen?');
 
-define('ERROR_CREDIT_CARD_NAME', 'Error: Credit Card name cannot be blank');
+define('ERROR_CREDIT_CARD_NAME', 'Fout: De kredietkaart naam moet ingevuld worden');
 ?>

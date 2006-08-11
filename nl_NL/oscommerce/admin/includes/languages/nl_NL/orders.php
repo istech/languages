@@ -10,74 +10,74 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Orders');
+define('HEADING_TITLE', 'Bestellingen');
 
-define('SEARCH_ORDER_ID', 'Order ID:');
-define('SEARCH_CUSTOMER_ID', 'Customer ID:');
+define('SEARCH_ORDER_ID', 'Bestelling ID:');
+define('SEARCH_CUSTOMER_ID', 'Klant ID:');
 define('SEARCH_STATUS', 'Status:');
 
-define('TABLE_HEADING_COMMENTS', 'Comments');
-define('TABLE_HEADING_CUSTOMERS', 'Customers');
-define('TABLE_HEADING_ORDER_TOTAL', 'Order Total');
-define('TABLE_HEADING_DATE_PURCHASED', 'Date Purchased');
+define('TABLE_HEADING_COMMENTS', 'Opmerkingen');
+define('TABLE_HEADING_CUSTOMERS', 'Klanten');
+define('TABLE_HEADING_ORDER_TOTAL', 'Totaal bestelling');
+define('TABLE_HEADING_DATE_PURCHASED', 'Datum aankoop');
 define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
-define('TABLE_HEADING_QUANTITY', 'Qty.');
+define('TABLE_HEADING_ACTION', 'Actie');
+define('TABLE_HEADING_QUANTITY', 'Aantal.');
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Model');
-define('TABLE_HEADING_PRODUCTS', 'Products');
-define('TABLE_HEADING_TAX', 'Tax');
-define('TABLE_HEADING_TOTAL', 'Total');
-define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Price (ex)');
-define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Price (inc)');
-define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Total (ex)');
-define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Total (inc)');
+define('TABLE_HEADING_PRODUCTS', 'Produkten');
+define('TABLE_HEADING_TAX', 'BTW');
+define('TABLE_HEADING_TOTAL', 'Totaal');
+define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Prijs (excl.)');
+define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Prijs (incl.)');
+define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Totaal (excl.)');
+define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Totaal (incl.)');
 
-define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Customer Notified');
-define('TABLE_HEADING_DATE_ADDED', 'Date Added');
+define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Klant ingelicht');
+define('TABLE_HEADING_DATE_ADDED', 'Datum toegevoegd');
 
-define('ENTRY_CUSTOMER', 'Customer:');
-define('ENTRY_SOLD_TO', 'SOLD TO:');
-define('ENTRY_DELIVERY_TO', 'Delivery To:');
-define('ENTRY_SHIP_TO', 'SHIP TO:');
-define('ENTRY_SHIPPING_ADDRESS', 'Shipping Address:');
-define('ENTRY_BILLING_ADDRESS', 'Billing Address:');
-define('ENTRY_PAYMENT_METHOD', 'Payment Method:');
-define('ENTRY_CREDIT_CARD_TYPE', 'Credit Card Type:');
-define('ENTRY_CREDIT_CARD_OWNER', 'Credit Card Owner:');
-define('ENTRY_CREDIT_CARD_NUMBER', 'Credit Card Number:');
-define('ENTRY_CREDIT_CARD_EXPIRES', 'Credit Card Expires:');
-define('ENTRY_SUB_TOTAL', 'Sub-Total:');
-define('ENTRY_TAX', 'Tax:');
-define('ENTRY_SHIPPING', 'Shipping:');
-define('ENTRY_TOTAL', 'Total:');
-define('ENTRY_DATE_PURCHASED', 'Date Purchased:');
+define('ENTRY_CUSTOMER', 'Klant:');
+define('ENTRY_SOLD_TO', 'Verkocht aan:');
+define('ENTRY_DELIVERY_TO', 'Levering aan:');
+define('ENTRY_SHIP_TO', 'Verzending aan:');
+define('ENTRY_SHIPPING_ADDRESS', 'Verzendingsadres:');
+define('ENTRY_BILLING_ADDRESS', 'Factuuradres:');
+define('ENTRY_PAYMENT_METHOD', 'Betalingsmethode:');
+define('ENTRY_CREDIT_CARD_TYPE', 'Type kredietkaart:');
+define('ENTRY_CREDIT_CARD_OWNER', 'Eigenaar kredietkaart:');
+define('ENTRY_CREDIT_CARD_NUMBER', 'Nummer kredietkaart:');
+define('ENTRY_CREDIT_CARD_EXPIRES', 'Kredietkaart verloopt op:');
+define('ENTRY_SUB_TOTAL', 'Sub-totaal:');
+define('ENTRY_TAX', 'BTW:');
+define('ENTRY_SHIPPING', 'Verzending:');
+define('ENTRY_TOTAL', 'Totaal:');
+define('ENTRY_DATE_PURCHASED', 'Datum aankoop:');
 define('ENTRY_STATUS', 'Status:');
-define('ENTRY_POST_TRANSACTION_ACTIONS', 'Post Transaction Actions:');
-define('ENTRY_DATE_LAST_UPDATED', 'Date Last Updated:');
-define('ENTRY_NOTIFY_CUSTOMER', 'Notify Customer:');
-define('ENTRY_NOTIFY_COMMENTS', 'Append Comments:');
-define('ENTRY_NEW_COMMENT', 'New Comment:');
+define('ENTRY_POST_TRANSACTION_ACTIONS', 'Post transactie acties:');
+define('ENTRY_DATE_LAST_UPDATED', 'Datum laatst gewijzigd:');
+define('ENTRY_NOTIFY_CUSTOMER', 'Verwittig klant:');
+define('ENTRY_NOTIFY_COMMENTS', 'Opmerkingen toevoegen:');
+define('ENTRY_NEW_COMMENT', 'Nieuwe opmerking:');
 define('ENTRY_PRINTABLE', 'Print Invoice');
 
-define('TEXT_INFO_HEADING_DELETE_ORDER', 'Delete Order');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this order?');
-define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', 'Restock product quantity');
-define('TEXT_DATE_ORDER_CREATED', 'Date Created:');
-define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_INFO_PAYMENT_METHOD', 'Payment Method:');
+define('TEXT_INFO_HEADING_DELETE_ORDER', 'Verwijder bestelling');
+define('TEXT_INFO_DELETE_INTRO', 'Weet u zeker dat u deze bestelling wilt verwijderen?');
+define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', 'Voorraad produkt bijwerken');
+define('TEXT_DATE_ORDER_CREATED', 'Datum aangemaakt:');
+define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Laatst gewijzigd:');
+define('TEXT_INFO_PAYMENT_METHOD', 'Betalingswijze:');
 
-define('TEXT_ALL_ORDERS', 'All Orders');
-define('TEXT_NO_ORDER_HISTORY', 'No Order History Available');
+define('TEXT_ALL_ORDERS', 'Alle bestellingen');
+define('TEXT_NO_ORDER_HISTORY', 'Geen bestellingsgeschiedenis beschikbaar');
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
-define('EMAIL_TEXT_SUBJECT', 'Order Update');
-define('EMAIL_TEXT_ORDER_NUMBER', 'Order Number:');
-define('EMAIL_TEXT_INVOICE_URL', 'Detailed Invoice:');
-define('EMAIL_TEXT_DATE_ORDERED', 'Date Ordered:');
-define('EMAIL_TEXT_STATUS_UPDATE', 'Your order has been updated to the following status.' . "\n\n" . 'New status: %s' . "\n\n" . 'Please reply to this email if you have any questions.' . "\n");
-define('EMAIL_TEXT_COMMENTS_UPDATE', 'The comments for your order are' . "\n\n%s\n\n");
+define('EMAIL_TEXT_SUBJECT', 'Wijziging bestelling');
+define('EMAIL_TEXT_ORDER_NUMBER', 'Bestellingsnummer:');
+define('EMAIL_TEXT_INVOICE_URL', 'Gedetailleerde rekening:');
+define('EMAIL_TEXT_DATE_ORDERED', 'Bestellingsdatum:');
+define('EMAIL_TEXT_STATUS_UPDATE', 'Uw bestelling is gewijzigd naar de volgende status.' . "\n\n" . 'Nieuwe status: %s' . "\n\n" . 'Reageer aub. op deze e-mail indien u vragen heeft.' . "\n");
+define('EMAIL_TEXT_COMMENTS_UPDATE', 'De opmerkingen bij uw bestelling zijn' . "\n\n%s\n\n");
 
-define('ERROR_ORDER_DOES_NOT_EXIST', 'Error: Order does not exist.');
-define('SUCCESS_ORDER_UPDATED', 'Success: Order has been successfully updated.');
-define('WARNING_ORDER_NOT_UPDATED', 'Warning: Nothing to change. The order was not updated.');
+define('ERROR_ORDER_DOES_NOT_EXIST', 'Fout: Bestelling bestaat niet.');
+define('SUCCESS_ORDER_UPDATED', 'Succes: De bestelling is succesvol gewijzigd.');
+define('WARNING_ORDER_NOT_UPDATED', 'Waarschuwing: Niets te wijzigen. De bestelling is niet gewijzigd.');
 ?>

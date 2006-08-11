@@ -21,7 +21,7 @@
   define('TEXT_EDIT_INTRO', 'Maakt u aub. de benodigde wijzigingen');
   define('TEXT_EDIT_CATEGORIES_NAME', 'Categorie naam:');
   define('TEXT_EDIT_CATEGORIES_IMAGE', 'Categorie plaatje:');
-  define('TEXT_EDIT_SORT_ORDER', 'Sorteer volgorde:');
+  define('TEXT_EDIT_SORT_ORDER', 'Sorteervolgorde:');
 
   define('TEXT_INFO_HEADING_NEW_CATEGORY', 'Nieuwe categorie');
 
@@ -35,7 +35,7 @@
   define('TEXT_NEW_CATEGORY_INTRO', 'Vult u aub. de volgende informatie in voor de nieuwe categorie');
   define('TEXT_CATEGORIES_NAME', 'Categorie naam:');
   define('TEXT_CATEGORIES_IMAGE', 'Categorie plaatje:');
-  define('TEXT_SORT_ORDER', 'Sorteer volgorde:');
+  define('TEXT_SORT_ORDER', 'Sorteervolgorde:');
 
   define('EMPTY_CATEGORY', 'Lege categorie');
 

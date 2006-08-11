@@ -10,34 +10,34 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Manufacturers');
+define('HEADING_TITLE', 'Fabrikanten');
 
-define('TABLE_HEADING_MANUFACTURERS', 'Manufacturers');
-define('TABLE_HEADING_URL_CLICKS', 'URL CLicks');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_MANUFACTURERS', 'Fabrikanten');
+define('TABLE_HEADING_URL_CLICKS', 'URL kliks');
+define('TABLE_HEADING_ACTION', 'Actie');
 
-define('TEXT_HEADING_NEW_MANUFACTURER', 'New Manufacturer');
-define('TEXT_HEADING_EDIT_MANUFACTURER', 'Edit Manufacturer');
-define('TEXT_HEADING_DELETE_MANUFACTURER', 'Delete Manufacturer');
+define('TEXT_HEADING_NEW_MANUFACTURER', 'Nieuwe fabrikant');
+define('TEXT_HEADING_EDIT_MANUFACTURER', 'Wijzig fabrikant');
+define('TEXT_HEADING_DELETE_MANUFACTURER', 'Verwijder fabrikant');
 
-define('TEXT_MANUFACTURERS', 'Manufacturers:');
-define('TEXT_DATE_ADDED', 'Date Added:');
-define('TEXT_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_PRODUCTS', 'Products:');
+define('TEXT_MANUFACTURERS', 'Fabrikanten:');
+define('TEXT_DATE_ADDED', 'Datum toegevoegd:');
+define('TEXT_LAST_MODIFIED', 'Laatst gewijzigd:');
+define('TEXT_PRODUCTS', 'Produkten:');
 
-define('TEXT_NEW_INTRO', 'Please fill out the following information for the new manufacturer');
-define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
+define('TEXT_NEW_INTRO', 'Vul aub. de benodigde informatie in voor de nieuwe fabrikant');
+define('TEXT_EDIT_INTRO', 'Maak aub. de benodigde wijzigingen');
 
-define('TEXT_MANUFACTURERS_NAME', 'Manufacturers Name:');
-define('TEXT_MANUFACTURERS_IMAGE', 'Manufacturers Image:');
-define('TEXT_MANUFACTURERS_URL', 'Manufacturers URL:');
+define('TEXT_MANUFACTURERS_NAME', 'Fabrikantnaam:');
+define('TEXT_MANUFACTURERS_IMAGE', 'Fabrikant plaatje:');
+define('TEXT_MANUFACTURERS_URL', 'Fabrikant URL:');
 
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this manufacturer?');
-define('TEXT_DELETE_IMAGE', 'Delete manufacturers image?');
-define('TEXT_DELETE_PRODUCTS', 'Delete products from this manufacturer? (including product reviews, products on special, upcoming products)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>WARNING:</b> There are %s products still linked to this manufacturer!');
+define('TEXT_DELETE_INTRO', 'Weet u zeker dat u deze fabrikant wilt verwijderen?');
+define('TEXT_DELETE_IMAGE', 'Verwijder fabrikant plaatje?');
+define('TEXT_DELETE_PRODUCTS', 'Verwijder de produkten van deze fabrikant? (inclusief produktbeoordelingen, aanbiedingen en verwachte produkten)');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>Waarschuwing:</b> Er zijn nog %s produkten gekoppeld aan deze fabrikant!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: I can not write to this directory. Please set the right user permissions on: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Error: Directory does not exist: %s');
-define('ERROR_MANUFACTURER_NAME', 'Error: Manufacturers name cannot be blank');
+define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Fout: Er kan niet naar de map geschreven worden. Plaats aub. de juiste toegangsrechten op: %s');
+define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Fout: Map bestaat niet: %s');
+define('ERROR_MANUFACTURER_NAME', 'Fout: Fabrikantnaam moet ingevuld worden');
 ?>

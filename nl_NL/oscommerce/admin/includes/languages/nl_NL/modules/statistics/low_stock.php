@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_STATISTICS_LOW_STOCK_TITLE', 'Low Stock');
+define('MODULE_STATISTICS_LOW_STOCK_TITLE', 'Geringe voorraad');
 
-define('MODULE_STATISTICS_LOW_STOCK_TABLE_HEADING_PRODUCTS', 'Products');
-define('MODULE_STATISTICS_LOW_STOCK_TABLE_HEADING_LEVEL', 'Stock Level');
+define('MODULE_STATISTICS_LOW_STOCK_TABLE_HEADING_PRODUCTS', 'Produkten');
+define('MODULE_STATISTICS_LOW_STOCK_TABLE_HEADING_LEVEL', 'Voorraadniveau');
 ?>

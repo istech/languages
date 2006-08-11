@@ -14,9 +14,9 @@ define('HEADING_TITLE', 'Services');
 
 define('TABLE_HEADING_SERVICES', 'Services');
 define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ACTION', 'Actie');
 
-define('TEXT_MODULE_DIRECTORY', 'Module Directory:');
+define('TEXT_MODULE_DIRECTORY', 'Module map:');
 
-define('TEXT_UNINSTALL_INTRO', 'Are you sure you want to uninstall this module?<br /><br />(All module parameters would then be removed)');
+define('TEXT_UNINSTALL_INTRO', 'Weet u zeker dat u deze module wilt deinstalleren?<br /><br />(alle module gegevens worden hierbij verwijderd)');
 ?>

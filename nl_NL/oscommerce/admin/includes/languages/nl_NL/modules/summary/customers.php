@@ -10,9 +10,9 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_CUSTOMERS_TITLE', 'Newest Customers');
+  define('MODULE_SUMMARY_CUSTOMERS_TITLE', 'Nieuwste klanten');
 
-  define('MODULE_SUMMARY_CUSTOMERS_HEADING_CUSTOMERS', 'Customers');
-  define('MODULE_SUMMARY_CUSTOMERS_HEADING_DATE', 'Date');
+  define('MODULE_SUMMARY_CUSTOMERS_HEADING_CUSTOMERS', 'Klanten');
+  define('MODULE_SUMMARY_CUSTOMERS_HEADING_DATE', 'Datum');
   define('MODULE_SUMMARY_CUSTOMERS_HEADING_STATUS', 'Status');
 ?>

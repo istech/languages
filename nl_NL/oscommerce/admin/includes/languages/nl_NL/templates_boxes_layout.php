@@ -14,26 +14,26 @@ define('HEADING_TITLE', 'Template Boxes Layout');
 
 define('TABLE_HEADING_BOXES', 'Boxes');
 define('TABLE_HEADING_TEMPLATES', 'Templates');
-define('TABLE_HEADING_PAGES', 'Content Pages');
-define('TABLE_HEADING_PAGE_SPECIFIC', 'Page Specific');
-define('TABLE_HEADING_GROUP', 'Group');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_PAGES', 'Content paginas');
+define('TABLE_HEADING_PAGE_SPECIFIC', 'Pagina specifiek');
+define('TABLE_HEADING_GROUP', 'Groep');
+define('TABLE_HEADING_SORT_ORDER', 'Sorteervolgorde');
+define('TABLE_HEADING_ACTION', 'Actie');
 
-define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'New Box Layout');
+define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'Nieuwe box layout');
 
 define('TEXT_INFO_BOXES', 'Boxes:');
-define('TEXT_INFO_PAGES', 'Content Pages:');
-define('TEXT_INFO_PAGE_SPECIFIC', 'Page Specific');
-define('TEXT_INFO_GROUP', 'Group:');
-define('TEXT_INFO_GROUP_NEW', 'New Group:');
-define('TEXT_INFO_SORT_ORDER', 'Sort Order:');
+define('TEXT_INFO_PAGES', 'Content paginas:');
+define('TEXT_INFO_PAGE_SPECIFIC', 'Pagina specifiek');
+define('TEXT_INFO_GROUP', 'Groep:');
+define('TEXT_INFO_GROUP_NEW', 'Nieuwe groep:');
+define('TEXT_INFO_SORT_ORDER', 'Sorteervolgorde:');
 
-define('TEXT_PLEASE_SELECT', '--Please Select--');
+define('TEXT_PLEASE_SELECT', '--Selecteer--');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new box layout with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to remove this box layout from the template?');
+define('TEXT_INFO_INSERT_INTRO', 'Vul aub. de nieuwe box layout met de gerelateerde gegevens in');
+define('TEXT_INFO_EDIT_INTRO', 'Maakt u aub. de benodigde wijzigingen');
+define('TEXT_INFO_DELETE_INTRO', 'Weet u zeker dat u de box layout van de template wilt verwijderen?');
 
-define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Warning: The default template can not be removed. Please set another template as the default, and try again.');
+define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Waarschuwing: De standaard template kan niet worden verwijderd. Selecteer aub. een andere default template en probeer het opnieuw.');
 ?>

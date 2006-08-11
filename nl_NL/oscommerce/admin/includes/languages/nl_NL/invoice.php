@@ -10,21 +10,21 @@
   Released under the GNU General Public License
 */
 
-define('TABLE_HEADING_COMMENTS', 'Comments');
+define('TABLE_HEADING_COMMENTS', 'Opmerkingen');
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Model');
-define('TABLE_HEADING_PRODUCTS', 'Products');
-define('TABLE_HEADING_TAX', 'Tax');
-define('TABLE_HEADING_TOTAL', 'Total');
-define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Price (ex)');
-define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Price (inc)');
-define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Total (ex)');
-define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Total (inc)');
+define('TABLE_HEADING_PRODUCTS', 'Produkten');
+define('TABLE_HEADING_TAX', 'BTW');
+define('TABLE_HEADING_TOTAL', 'Totaal');
+define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Prijs (excl.)');
+define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Prijs (incl.)');
+define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Totaal (excl.)');
+define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Totaal (incl.)');
 
-define('ENTRY_SOLD_TO', 'SOLD TO:');
-define('ENTRY_SHIP_TO', 'SHIP TO:');
-define('ENTRY_PAYMENT_METHOD', 'Payment Method:');
-define('ENTRY_SUB_TOTAL', 'Sub-Total:');
-define('ENTRY_TAX', 'Tax:');
-define('ENTRY_SHIPPING', 'Shipping:');
-define('ENTRY_TOTAL', 'Total:');
+define('ENTRY_SOLD_TO', 'Verkocht aan:');
+define('ENTRY_SHIP_TO', 'Verzending aan:');
+define('ENTRY_PAYMENT_METHOD', 'Betalingsmethode:');
+define('ENTRY_SUB_TOTAL', 'Sub-totaal:');
+define('ENTRY_TAX', 'BTW:');
+define('ENTRY_SHIPPING', 'Verzending:');
+define('ENTRY_TOTAL', 'Totaal:');
 ?>

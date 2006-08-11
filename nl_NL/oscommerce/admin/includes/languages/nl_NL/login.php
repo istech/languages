@@ -10,12 +10,12 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Login');
+define('HEADING_TITLE', 'Inloggen');
 
-define('TEXT_INFO_HEADING_LOGIN', 'Log Into The Administration Tool');
+define('TEXT_INFO_HEADING_LOGIN', 'Inloggen beheersmodule');
 
-define('TEXT_INFO_INTRO', 'Please use the following form to log into the administration tool.');
+define('TEXT_INFO_INTRO', 'Gebruik aub. het volgende formulier om in te loggen in de beheersmodule.');
 
-define('TEXT_INFO_USER_NAME', 'Name:');
-define('TEXT_INFO_USER_PASSWORD', 'Password:');
+define('TEXT_INFO_USER_NAME', 'Naam:');
+define('TEXT_INFO_USER_PASSWORD', 'Wachtwoord:');
 ?>
