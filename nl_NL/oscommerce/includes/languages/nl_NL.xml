@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="iso-8859-15"?>
 <language>
   <data>
-    <title><![CDATA[English]]></title>
-    <code><![CDATA[en_US]]></code>
-    <locale><![CDATA[en_US,en_US.ISO8859-15,english]]></locale>
+    <title><![CDATA[Dutch]]></title>
+    <code><![CDATA[nl_NL]]></code>
+    <locale><![CDATA[nl_NL,nl_NL.ISO8859-15,dutch]]></locale>
     <character_set><![CDATA[iso-8859-15]]></character_set>
     <text_direction><![CDATA[ltr]]></text_direction>
-    <date_format_short><![CDATA[%m/%d/%Y]]></date_format_short>
+    <date_format_short><![CDATA[%d/%m/%Y]]></date_format_short>
     <date_format_long><![CDATA[%A %d %B, %Y]]></date_format_long>
     <time_format><![CDATA[%H:%M:%S]]></time_format>
-    <default_currency><![CDATA[USD]]></default_currency>
-    <numerical_decimal_separator><![CDATA[.]]></numerical_decimal_separator>
-    <numerical_thousands_separator><![CDATA[,]]></numerical_thousands_separator>
+    <default_currency><![CDATA[EUR]]></default_currency>
+    <numerical_decimal_separator><![CDATA[,]]></numerical_decimal_separator>
+    <numerical_thousands_separator><![CDATA[.]]></numerical_thousands_separator>
   </data>
   <definitions>
     <definition>
       <key>my_account</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Mijn klantenprofiel]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>cart_contents</key>
-      <value><![CDATA[Cart Contents]]></value>
+      <value><![CDATA[Inhoud winkelwagen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>checkout</key>
-      <value><![CDATA[Checkout]]></value>
+      <value><![CDATA[Afrekenen]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -36,167 +36,167 @@
     </definition>
     <definition>
       <key>breadcrumb_shop</key>
-      <value><![CDATA[Online Shop]]></value>
+      <value><![CDATA[Online winkel]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>sign_in</key>
-      <value><![CDATA[Sign In]]></value>
+      <value><![CDATA[Inloggen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>sign_out</key>
-      <value><![CDATA[Sign Out]]></value>
+      <value><![CDATA[Uitloggen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>gender_male</key>
-      <value><![CDATA[Male]]></value>
+      <value><![CDATA[Man]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>gender_female</key>
-      <value><![CDATA[Female]]></value>
+      <value><![CDATA[Vrouw]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>pull_down_default</key>
-      <value><![CDATA[Please Select]]></value>
+      <value><![CDATA[Selecteer aub.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>js_error</key>
-      <value><![CDATA[Errors have occured during the process of your form.\n\nPlease make the following corrections:\n\n]]></value>
+      <value><![CDATA[Er hebben zich fouten voorgedaan bij het controleren van uw formuliergegevens.\n\nMaakt u aub. de volgende aanpassingen:\n\n]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>js_error_already_submitted</key>
-      <value><![CDATA[This form has already been submitted. Please press Ok and wait for this process to be completed.]]></value>
+      <value><![CDATA[Dit formulier is reeds verstuurd. Drukt u aub. op Ok en wacht tot het proces is afgerond.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>form_required_information</key>
-      <value><![CDATA[* Required information]]></value>
+      <value><![CDATA[* Verplichte informatie]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_current_page</key>
-      <value><![CDATA[Page %s of %d]]></value>
+      <value><![CDATA[Pagina %s van %d]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_products</key>
-      <value><![CDATA[Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> products)]]></value>
+      <value><![CDATA[Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> produkten)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_orders</key>
-      <value><![CDATA[Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> orders)]]></value>
+      <value><![CDATA[Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> bestellingen)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_reviews</key>
-      <value><![CDATA[Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> reviews)]]></value>
+      <value><![CDATA[Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> beoordelingen)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_previous_page</key>
-      <value><![CDATA[[&lt;&lt;&nbsp;Prev]]]></value>
+      <value><![CDATA[[&lt;&lt;&nbsp;Vorige]]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_next_page</key>
-      <value><![CDATA[[Next&nbsp;&gt;&gt;]]]></value>
+      <value><![CDATA[[Volgende&nbsp;&gt;&gt;]]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_address</key>
-      <value><![CDATA[Add Address]]></value>
+      <value><![CDATA[Toevoegen adres]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_back</key>
-      <value><![CDATA[Back]]></value>
+      <value><![CDATA[Terug]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_buy_now</key>
-      <value><![CDATA[Buy Now]]></value>
+      <value><![CDATA[Koop Nu]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_change_address</key>
-      <value><![CDATA[Change Address]]></value>
+      <value><![CDATA[Wijzig adres]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_checkout</key>
-      <value><![CDATA[Checkout]]></value>
+      <value><![CDATA[Afrekenen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_confirm_order</key>
-      <value><![CDATA[Confirm Order]]></value>
+      <value><![CDATA[Bevestig bestelling]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_continue</key>
-      <value><![CDATA[Continue]]></value>
+      <value><![CDATA[Verder]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_delete</key>
-      <value><![CDATA[Delete]]></value>
+      <value><![CDATA[Verwijder]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_edit</key>
-      <value><![CDATA[Edit]]></value>
+      <value><![CDATA[Wijzig]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_view</key>
-      <value><![CDATA[View]]></value>
+      <value><![CDATA[Bekijk]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_sign_in</key>
-      <value><![CDATA[Sign In]]></value>
+      <value><![CDATA[Inloggen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_to_cart</key>
-      <value><![CDATA[Add to Shopping Cart]]></value>
+      <value><![CDATA[Voeg toe aan winkelwagen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_reviews</key>
-      <value><![CDATA[Reviews]]></value>
+      <value><![CDATA[Beoordelingen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_search</key>
-      <value><![CDATA[Search]]></value>
+      <value><![CDATA[Zoeken]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_update_cart</key>
-      <value><![CDATA[Update Shopping Cart]]></value>
+      <value><![CDATA[Bijwerken winkelwagen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_write_review</key>
-      <value><![CDATA[Write Review]]></value>
+      <value><![CDATA[Schrijf beoordeling]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>icon_in_cart</key>
-      <value><![CDATA[Add to Shopping Cart]]></value>
+      <value><![CDATA[Voeg toe aan winkelwagen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>tax_rate_unknown</key>
-      <value><![CDATA[Tax rate unknown]]></value>
+      <value><![CDATA[BTW percentage onbekend]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -206,7 +206,7 @@
     </definition>
     <definition>
       <key>index_heading</key>
-      <value><![CDATA[Welcome to %s!]]></value>
+      <value><![CDATA[Welkom bij %s!]]></value>
       <group>index</group>
     </definition>
     <definition>
