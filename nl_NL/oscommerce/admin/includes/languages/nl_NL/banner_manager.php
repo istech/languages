@@ -13,76 +13,76 @@
 define('HEADING_TITLE', 'Banner Manager');
 
 define('TABLE_HEADING_BANNERS', 'Banners');
-define('TABLE_HEADING_GROUPS', 'Groups');
-define('TABLE_HEADING_STATISTICS', 'Displays / Clicks');
+define('TABLE_HEADING_GROUPS', 'Groepen');
+define('TABLE_HEADING_STATISTICS', 'Vertoningen / Kliks');
 define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ACTION', 'Actie');
 
-define('TEXT_BANNERS_TITLE', 'Banner Title:');
+define('TEXT_BANNERS_TITLE', 'Banner Titel:');
 define('TEXT_BANNERS_URL', 'Banner URL:');
-define('TEXT_BANNERS_GROUP', 'Banner Group:');
-define('TEXT_BANNERS_NEW_GROUP', ', or enter a new banner group below');
-define('TEXT_BANNERS_IMAGE', 'Image:');
-define('TEXT_BANNERS_IMAGE_LOCAL', ', or enter local file below');
-define('TEXT_BANNERS_IMAGE_TARGET', 'Image Target (Save To):');
-define('TEXT_BANNERS_HTML_TEXT', 'HTML Text:');
-define('TEXT_BANNERS_EXPIRES_ON', 'Expires On:');
-define('TEXT_BANNERS_OR_AT', ', or at');
-define('TEXT_BANNERS_IMPRESSIONS', 'impressions/views.');
-define('TEXT_BANNERS_SCHEDULED_AT', 'Scheduled At:');
+define('TEXT_BANNERS_GROUP', 'Banner Groep:');
+define('TEXT_BANNERS_NEW_GROUP', ', of voeg hieronder een nieuwe banner groep in');
+define('TEXT_BANNERS_IMAGE', 'Plaatje:');
+define('TEXT_BANNERS_IMAGE_LOCAL', ', of vul hieronder een lokale bestandsnaam in');
+define('TEXT_BANNERS_IMAGE_TARGET', 'Plaatje doel (Bewaren als):');
+define('TEXT_BANNERS_HTML_TEXT', 'HTML tekst:');
+define('TEXT_BANNERS_EXPIRES_ON', 'Verloopt op:');
+define('TEXT_BANNERS_OR_AT', ', of op');
+define('TEXT_BANNERS_IMPRESSIONS', 'impressies/bekeken.');
+define('TEXT_BANNERS_SCHEDULED_AT', 'Voorgeprogrammeerd voor:');
 define('TEXT_BANNERS_STATUS', 'Status:');
-define('TEXT_BANNERS_BANNER_NOTE', '<b>Banner Notes:</b><ul><li>Use an image or HTML text for the banner - not both.</li><li>HTML Text has priority over an image</li></ul>');
-define('TEXT_BANNERS_INSERT_NOTE', '<b>Image Notes:</b><ul><li>Uploading directories must have proper user (write) permissions setup!</li><li>Do not fill out the \'Save To\' field if you are not uploading an image to the webserver (ie, you are using a local (serverside) image).</li><li>The \'Save To\' field must be an existing directory with an ending slash (eg, banners/).</li></ul>');
-define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Expiry Notes:</b><ul><li>Only one of the two fields should be submitted</li><li>If the banner is not to expire automatically, then leave these fields blank</li></ul>');
-define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Schedule Notes:</b><ul><li>If a schedule is set, the banner will be activated on that date.</li><li>All scheduled banners are marked as deactive until their date has arrived, to which they will then be marked active.</li></ul>');
+define('TEXT_BANNERS_BANNER_NOTE', '<b>Banner opmerkingen:</b><ul><li>Gebruik een plaatje of HTML tekst voor de banner - niet beide.</li><li>HTML tekst heeft een hogere prioriteit als een plaatje</li></ul>');
+define('TEXT_BANNERS_INSERT_NOTE', '<b>Plaatje opmerkingen:</b><ul><li>Upload mappen moeten correcte toegangsinstellingen hebben (schrijfrechten)!</li><li>Vul niet het \'Bewaren als\' veld in indien u niet het plaatje upload naar de (bijv. u maakt gebruik van een lokaal plaatje).</li><li>De \'Bewaar als\' veld moet een bestaande map zijn eindigend met een \'/\'(bijv. banners/).</li></ul>');
+define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Aflopings opmerkingen:</b><ul><li>U hoeft slecht één van de twee velden in te vullen</li><li>Indien de banner niet automatisch af hoeft te lopen laat deze velden dan leeg</li></ul>');
+define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Voorprogrammerings notities:</b><ul><li>Indien een voorprogrammering is gezet wordt de banner op die dag geactiveerd.</li><li>Alle voorgeprogrammeerde banners zijn als niet-actief gemarkeerd totdat de ingestelde dag is aangebroken en ze als actief worden gemarkeerd.</li></ul>');
 
-define('TEXT_BANNERS_DATE_ADDED', 'Date Added:');
-define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Scheduled At: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Expires At: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Expires At: <b>%s</b> impressions');
-define('TEXT_BANNERS_STATUS_CHANGE', 'Status Change: %s');
+define('TEXT_BANNERS_DATE_ADDED', 'Datum toegevoegd:');
+define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Voorgeprogrammeerd voor: <b>%s</b>');
+define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Loopt af op: <b>%s</b>');
+define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Loopt af bij: <b>%s</b> impressies');
+define('TEXT_BANNERS_STATUS_CHANGE', 'Status verandering: %s');
 
 define('TEXT_BANNERS_DATA', 'D<br />A<br />T<br />A');
-define('TEXT_BANNERS_LAST_3_DAYS', 'Last 3 Days');
-define('TEXT_BANNERS_BANNER_VIEWS', 'Banner Views');
-define('TEXT_BANNERS_BANNER_CLICKS', 'Banner Clicks');
+define('TEXT_BANNERS_LAST_3_DAYS', 'Laatste 3 dagen');
+define('TEXT_BANNERS_BANNER_VIEWS', 'Banners bekeken');
+define('TEXT_BANNERS_BANNER_CLICKS', 'Banners geklikt');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new banner with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this banner?');
-define('TEXT_INFO_DELETE_IMAGE', 'Delete banner image');
+define('TEXT_INFO_INSERT_INTRO', 'Voegt u aub. de nieuwe banner met de bijbehorende gegevens in');
+define('TEXT_INFO_EDIT_INTRO', 'Maakt u aub. de benodigde wijzigingen');
+define('TEXT_INFO_DELETE_INTRO', 'Weet u zeker dat u deze banner wilt verwijderen?');
+define('TEXT_INFO_DELETE_IMAGE', 'Verwijder banner plaatje');
 
-define('TEXT_INFO_HEADING_NEW_BANNER', 'New Banner');
+define('TEXT_INFO_HEADING_NEW_BANNER', 'Nieuwe banner');
 
-define('SUCCESS_BANNER_INSERTED', 'Success: The banner has been inserted.');
-define('SUCCESS_BANNER_UPDATED', 'Success: The banner has been updated.');
-define('SUCCESS_BANNER_REMOVED', 'Success: The banner has been removed.');
-define('SUCCESS_BANNER_STATUS_UPDATED', 'Success: The status of the banner has been updated.');
+define('SUCCESS_BANNER_INSERTED', 'Succes: De banner is ingevoegd.');
+define('SUCCESS_BANNER_UPDATED', 'Succes: De banner is bijgewerkt.');
+define('SUCCESS_BANNER_REMOVED', 'Succes: De banner is verwijderd.');
+define('SUCCESS_BANNER_STATUS_UPDATED', 'Succes: De status van de banner is bijgewerkt.');
 
-define('ERROR_BANNER_TITLE_REQUIRED', 'Error: Banner title required.');
-define('ERROR_BANNER_GROUP_REQUIRED', 'Error: Banner group required.');
-define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: Target directory does not exist: %s');
-define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: Target directory is not writeable: %s');
-define('ERROR_IMAGE_DOES_NOT_EXIST', 'Error: Image does not exist.');
-define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Error: Image can not be removed.');
-define('ERROR_UNKNOWN_STATUS_FLAG', 'Error: Unknown status flag.');
+define('ERROR_BANNER_TITLE_REQUIRED', 'Fout: Banner titel verplicht.');
+define('ERROR_BANNER_GROUP_REQUIRED', 'Fout: Banner groep verplicht.');
+define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fout: Doel map bestaat niet: %s');
+define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fout: Doel map is niet beschrijfbaar: %s');
+define('ERROR_IMAGE_DOES_NOT_EXIST', 'Foutje: Plaatje bestaat niet.');
+define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Foutje: Plaatje kan niet verwijderd worden.');
+define('ERROR_UNKNOWN_STATUS_FLAG', 'Foutje: Onbekende status.');
 
-define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Error: Graphs directory does not exist. Please create a \'graphs\' directory inside \'images\'.');
-define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Error: Graphs directory is not writeable.');
+define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Fout: Graphs map bestaat niet. Maakt u aub. een map genaamd \'graphs\'  aan onder de map \'images\'.');
+define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Fout: De Graphs map is niet beschrijfbaar (geen schrijfrechten).');
 
-define('TABLE_HEADING_SOURCE', 'Source');
-define('TABLE_HEADING_VIEWS', 'Views');
-define('TABLE_HEADING_CLICKS', 'Clicks');
+define('TABLE_HEADING_SOURCE', 'Bron');
+define('TABLE_HEADING_VIEWS', 'Bekeken');
+define('TABLE_HEADING_CLICKS', 'Kliks');
 
-define('TEXT_BANNERS_DAILY_STATISTICS', '%s Daily Statistics For %s %s');
-define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Monthly Statistics For %s');
-define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Yearly Statistics');
+define('TEXT_BANNERS_DAILY_STATISTICS', '%s Dagelijkse statistieken voor %s %s');
+define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Maandelijkse statistieken voor %s');
+define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Jaarlijkse statistieken');
 
-define('STATISTICS_TYPE_DAILY', 'Daily');
-define('STATISTICS_TYPE_MONTHLY', 'Monthly');
-define('STATISTICS_TYPE_YEARLY', 'Yearly');
+define('STATISTICS_TYPE_DAILY', 'Dagelijks');
+define('STATISTICS_TYPE_MONTHLY', 'Maandelijks');
+define('STATISTICS_TYPE_YEARLY', 'Jaarlijks');
 
 define('TITLE_TYPE', 'Type:');
-define('TITLE_YEAR', 'Year:');
-define('TITLE_MONTH', 'Month:');
+define('TITLE_YEAR', 'Jaar:');
+define('TITLE_MONTH', 'Maand:');
 ?>

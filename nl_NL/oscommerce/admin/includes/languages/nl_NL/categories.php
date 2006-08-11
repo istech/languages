@@ -10,34 +10,34 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Categories');
-  define('HEADING_TITLE_SEARCH', 'Search:');
-  define('HEADING_TITLE_GOTO', 'Go To:');
+  define('HEADING_TITLE', 'Categoriën');
+  define('HEADING_TITLE_SEARCH', 'Zoeken:');
+  define('HEADING_TITLE_GOTO', 'Ga naar:');
 
-  define('TABLE_HEADING_CATEGORIES', 'Categories');
-  define('TABLE_HEADING_ACTION', 'Action');
+  define('TABLE_HEADING_CATEGORIES', 'Categoriën');
+  define('TABLE_HEADING_ACTION', 'Actie');
   define('TABLE_HEADING_STATUS', 'Status');
 
-  define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
-  define('TEXT_EDIT_CATEGORIES_NAME', 'Category Name:');
-  define('TEXT_EDIT_CATEGORIES_IMAGE', 'Category Image:');
-  define('TEXT_EDIT_SORT_ORDER', 'Sort Order:');
+  define('TEXT_EDIT_INTRO', 'Maakt u aub. de benodigde wijzigingen');
+  define('TEXT_EDIT_CATEGORIES_NAME', 'Categorie naam:');
+  define('TEXT_EDIT_CATEGORIES_IMAGE', 'Categorie plaatje:');
+  define('TEXT_EDIT_SORT_ORDER', 'Sorteer volgorde:');
 
-  define('TEXT_INFO_HEADING_NEW_CATEGORY', 'New Category');
+  define('TEXT_INFO_HEADING_NEW_CATEGORY', 'Nieuwe categorie');
 
-  define('TEXT_DELETE_CATEGORY_INTRO', 'Are you sure you want to delete this category?');
-  define('TEXT_DELETE_WARNING_CHILDS', '<b>WARNING:</b> There are %s (child-)categories still linked to this category!');
-  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>WARNING:</b> There are %s products still linked to this category!');
+  define('TEXT_DELETE_CATEGORY_INTRO', 'Weet u zeker dat u deze categorie wilt verwijderen?');
+  define('TEXT_DELETE_WARNING_CHILDS', '<b>Waarschuwing:</b> Er zijn %s (sub-)categoriën gekoppeld aan deze categorie!');
+  define('TEXT_DELETE_WARNING_PRODUCTS', '<b>Waarschuwing:</b> Er zijn %s produkten gekoppeld aan deze categorie!');
 
-  define('TEXT_MOVE_CATEGORIES_INTRO', 'Please select which category you wish <b>%s</b> to reside in');
-  define('TEXT_MOVE', 'Move <b>%s</b> to:');
+  define('TEXT_MOVE_CATEGORIES_INTRO', 'Selecteert u aub. de categorie in welke u wenst <b>%s</b> te verblijven');
+  define('TEXT_MOVE', 'Verplaats <b>%s</b> naar:');
 
-  define('TEXT_NEW_CATEGORY_INTRO', 'Please fill out the following information for the new category');
-  define('TEXT_CATEGORIES_NAME', 'Category Name:');
-  define('TEXT_CATEGORIES_IMAGE', 'Category Image:');
-  define('TEXT_SORT_ORDER', 'Sort Order:');
+  define('TEXT_NEW_CATEGORY_INTRO', 'Vult u aub. de volgende informatie in voor de nieuwe categorie');
+  define('TEXT_CATEGORIES_NAME', 'Categorie naam:');
+  define('TEXT_CATEGORIES_IMAGE', 'Categorie plaatje:');
+  define('TEXT_SORT_ORDER', 'Sorteer volgorde:');
 
-  define('EMPTY_CATEGORY', 'Empty Category');
+  define('EMPTY_CATEGORY', 'Lege categorie');
 
-  define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Error: Category cannot be moved into child category.');
+  define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Fout: Categorie kan niet verplaatst worden naar de sub-categorie.');
 ?>
