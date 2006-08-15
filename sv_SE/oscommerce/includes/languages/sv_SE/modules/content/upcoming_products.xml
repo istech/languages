@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<language>
+  <definitions>
+    <definition>
+      <key>upcoming_products_title</key>
+      <value><![CDATA[Upcoming Products]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>upcoming_products_date_expected_title</key>
+      <value><![CDATA[Date Expected]]></value>
+      <group>modules-content</group>
+    </definition>
+  </definitions>
+</language>
