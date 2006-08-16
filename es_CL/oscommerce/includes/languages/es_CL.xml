@@ -61,7 +61,7 @@
     </definition>
     <definition>
       <key>pull_down_default</key>
-      <value><![CDATA[Selecciona]]></value>
+      <value><![CDATA[Seleccionar]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -211,7 +211,7 @@
     </definition>
     <definition>
       <key>index_text</key>
-      <value><![CDATA[Esta es una instalación predeterminada de la solución de la tienda del e-comercio del osCommerce, productos demostrados están para los propósitos de demostración,<b>ningun producto comprado no será entregado ni tampoco será cobrado.</b>.Cualquier información considerada en estos productos debe ser tratada como ficticia.]]></value>
+      <value><![CDATA[Esta es una instalación predeterminada de la solución de la tienda del e-comercio del osCommerce, productos demostrados están para los propósitos de demostración, <b>ningun producto comprado no será entregado ni tampoco será cobrado</b>.Cualquier información considerada en estos productos debe ser tratada como ficticia.]]></value>
       <group>index</group>
     </definition>
     <definition>

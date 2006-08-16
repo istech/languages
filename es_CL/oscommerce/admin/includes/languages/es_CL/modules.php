@@ -19,7 +19,5 @@ define('TABLE_HEADING_SORT_ORDER', 'Orden de Sorteo');
 define('TABLE_HEADING_STATUS', 'Estatus');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_MODULE_DIRECTORY', 'Directorio de Módulos:');
-
 define('INFO_MODULE_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(Todos los parámetros del módulo seran quitados)');
 ?>
