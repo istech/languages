@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: en_US.php 654 2006-07-19 20:28:32Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
