@@ -1,44 +1,44 @@
 <?php
 /*
-  $Id: tax_classes.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Tax Classes');
+define('HEADING_TITLE', 'Skatteklasser');
 
-define('TABLE_HEADING_TAX_CLASSES', 'Tax Classes');
-define('TABLE_HEADING_TAX_RATES_TOTAL', 'Defined Tax Rates');
+define('TABLE_HEADING_TAX_CLASSES', 'Skatteklasser');
+define('TABLE_HEADING_TAX_RATES_TOTAL', 'Bestämda Skattesatser');
 
-define('TABLE_HEADING_TAX_RATE_PRIORITY', 'Priority');
-define('TABLE_HEADING_ZONE', 'Zone');
-define('TABLE_HEADING_TAX_RATE', 'Tax Rate');
+define('TABLE_HEADING_TAX_RATE_PRIORITY', 'Prioritering');
+define('TABLE_HEADING_ZONE', 'Zon');
+define('TABLE_HEADING_TAX_RATE', 'Skattesats');
 
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'New Tax Class');
-define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'New Tax Rate');
+define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'Ny Skatteklass');
+define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'Ny Skattesats');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new tax class with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this tax class?');
+define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange ny skatteklass med relevanta data');
+define('TEXT_INFO_EDIT_INTRO', 'Var vänlig gör de nödvändiga ändringarna');
+define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna skatteklass?');
 
-define('TEXT_INFO_CLASS_TITLE', 'Tax Class Title:');
-define('TEXT_INFO_CLASS_DESCRIPTION', 'Description:');
+define('TEXT_INFO_CLASS_TITLE', 'Titel på Skatteklass:');
+define('TEXT_INFO_CLASS_DESCRIPTION', 'Beskrivning:');
 
-define('TEXT_INFO_ZONE_NAME', 'Zone:');
-define('TEXT_INFO_TAX_RATE', 'Tax Rate (%):');
-define('TEXT_INFO_TAX_RATE_PRIORITY', 'Priority:');
-define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Description:');
+define('TEXT_INFO_ZONE_NAME', 'Zon:');
+define('TEXT_INFO_TAX_RATE', 'Skattesats (%):');
+define('TEXT_INFO_TAX_RATE_PRIORITY', 'Prioritering:');
+define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Beskrivning:');
 
-define('TEXT_INFO_DATE_ADDED', 'Date Added:');
-define('TEXT_INFO_LAST_MODIFIED', 'Last Modified:');
+define('TEXT_INFO_DATE_ADDED', 'Tillagd Den:');
+define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Warning: This Tax Class cannot be deleted as it is currently assigned to one or more products.');
-define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Warning: This Tax Class has %s tax rate(s) assigned which would also be deleted.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Denna skatteklass kan ej tas bort eftersom den för närvarande används av en eller flera produkter.');
+define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Varning: Denna skatteklass har %s tilldelade skattesatser som också kommer att tas bort.');
 ?>

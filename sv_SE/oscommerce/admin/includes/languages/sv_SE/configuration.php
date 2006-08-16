@@ -1,20 +1,20 @@
 <?php
 /*
-  $Id: configuration.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('TABLE_HEADING_CONFIGURATION_TITLE', 'Title');
-define('TABLE_HEADING_CONFIGURATION_VALUE', 'Value');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_CONFIGURATION_TITLE', 'Titel');
+define('TABLE_HEADING_CONFIGURATION_VALUE', 'Värde');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DATE_ADDED', 'Date Added:');
-define('TEXT_INFO_LAST_MODIFIED', 'Last Modified:');
+define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+define('TEXT_INFO_DATE_ADDED', 'Tillagd Den:');
+define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
 ?>

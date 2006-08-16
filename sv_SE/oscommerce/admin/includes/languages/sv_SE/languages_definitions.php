@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: languages.php 393 2006-01-20 22:54:31Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
@@ -10,22 +10,22 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Language Definitions');
+define('HEADING_TITLE', 'Språk Definitioner');
 
-define('TABLE_HEADING_DEFINITION_GROUPS', 'Definition Groups');
-define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Total Definitions');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_DEFINITION_GROUPS', 'Definitions Grupper');
+define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Antal Definitioner');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new language definition with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Please select which definitions you would like to delete from the following group:');
+define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange det nya språket med relevanta data');
+define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+define('TEXT_INFO_DELETE_INTRO', 'Var vänlig och välj de definitioner du vill ta bort från den följande gruppen:');
 
-define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definition Key:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definition Value:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Group:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'New Group:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definitions Nyckel:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definitions Värde:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Grupp:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Ny Grupp:');
 
-define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'New Language Definition');
+define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Ny Språk Definition');
 
-define('TEXT_BACK_TO_LANGUAGES', 'Back to Languages');
+define('TEXT_BACK_TO_LANGUAGES', 'Tillbaka till Språk');
 ?>

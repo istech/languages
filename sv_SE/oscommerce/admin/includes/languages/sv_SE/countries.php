@@ -1,34 +1,34 @@
 <?php
 /*
-  $Id: countries.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Countries');
+define('HEADING_TITLE', 'Länder');
 
-define('TABLE_HEADING_COUNTRY_NAME', 'Country');
-define('TABLE_HEADING_COUNTRY_CODES', 'ISO Codes');
-define('TABLE_HEADING_ZONES_TOTAL', 'Defined Zones');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_COUNTRY_NAME', 'Land');
+define('TABLE_HEADING_COUNTRY_CODES', 'ISO Koder');
+define('TABLE_HEADING_ZONES_TOTAL', 'Definerade Zoner');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_COUNTRY_NAME', 'Name:');
-define('TEXT_INFO_COUNTRY_CODE_2', 'ISO Code (2):');
-define('TEXT_INFO_COUNTRY_CODE_3', 'ISO Code (3):');
-define('TEXT_INFO_ADDRESS_FORMAT', 'Address Format:');
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new country with its related data');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this country?');
-define('TEXT_INFO_HEADING_NEW_COUNTRY', 'New Country');
-define('TEXT_INFO_HEADING_EDIT_COUNTRY', 'Edit Country');
-define('TEXT_INFO_HEADING_DELETE_COUNTRY', 'Delete Country');
+define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+define('TEXT_INFO_COUNTRY_NAME', 'Namn:');
+define('TEXT_INFO_COUNTRY_CODE_2', 'ISO Kod (2):');
+define('TEXT_INFO_COUNTRY_CODE_3', 'ISO Kod (3):');
+define('TEXT_INFO_ADDRESS_FORMAT', 'Adressformat:');
+define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange det nya landet med relevanta data');
+define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort landet?');
+define('TEXT_INFO_HEADING_NEW_COUNTRY', 'Nytt Land');
+define('TEXT_INFO_HEADING_EDIT_COUNTRY', 'Editera Land');
+define('TEXT_INFO_HEADING_DELETE_COUNTRY', 'Ta bort Land');
 
-define('TEXT_INFO_DELETE_PROHIBITED_ADDRESS_BOOK', 'Warning: This Country cannot be deleted as it is currently assigned to %s address book entries.');
-define('TEXT_INFO_DELETE_PROHIBITED_TAX_ZONES', 'Warning: This Country cannot be deleted as it is currently assigned to %s tax zone(s).');
-define('TEXT_INFO_DELETE_COUNTRIES_WARNING', 'Warning: This Country has %s zone(s) assigned which would also be deleted.');
+define('TEXT_INFO_DELETE_PROHIBITED_ADDRESS_BOOK', 'Varning: Detta land kan ej tas bort eftersom det för nuvarande finns i %s adressböcker.');
+define('TEXT_INFO_DELETE_PROHIBITED_TAX_ZONES', 'Varning: Detta land kan ej tas bort eftersom det för nuvarande finns i %s skattezon(er).');
+define('TEXT_INFO_DELETE_COUNTRIES_WARNING', 'Varning: Detta land har %s zon(er) som också kommer att tas bort.');
 ?>

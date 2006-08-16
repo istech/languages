@@ -1,83 +1,83 @@
 <?php
 /*
-  $Id: orders.php 554 2006-04-29 16:26:53Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Orders');
+define('HEADING_TITLE', 'Ordrar');
 
 define('SEARCH_ORDER_ID', 'Order ID:');
-define('SEARCH_CUSTOMER_ID', 'Customer ID:');
+define('SEARCH_CUSTOMER_ID', 'Kund ID:');
 define('SEARCH_STATUS', 'Status:');
 
-define('TABLE_HEADING_COMMENTS', 'Comments');
-define('TABLE_HEADING_CUSTOMERS', 'Customers');
+define('TABLE_HEADING_COMMENTS', 'Kommentarer');
+define('TABLE_HEADING_CUSTOMERS', 'Kunder');
 define('TABLE_HEADING_ORDER_TOTAL', 'Order Total');
-define('TABLE_HEADING_DATE_PURCHASED', 'Date Purchased');
+define('TABLE_HEADING_DATE_PURCHASED', 'Köpt Den');
 define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
-define('TABLE_HEADING_QUANTITY', 'Qty.');
+define('TABLE_HEADING_ACTION', 'Funktion');
+define('TABLE_HEADING_QUANTITY', 'Antal');
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Model');
-define('TABLE_HEADING_PRODUCTS', 'Products');
-define('TABLE_HEADING_TAX', 'Tax');
+define('TABLE_HEADING_PRODUCTS', 'Produkter');
+define('TABLE_HEADING_TAX', 'Skatt');
 define('TABLE_HEADING_TOTAL', 'Total');
-define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Price (ex)');
-define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Price (inc)');
-define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Total (ex)');
-define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Total (inc)');
+define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Pris (exkl)');
+define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Pris (inkl)');
+define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Total (exkl)');
+define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Total (inkl)');
 
-define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Customer Notified');
-define('TABLE_HEADING_DATE_ADDED', 'Date Added');
+define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Kund Informerad');
+define('TABLE_HEADING_DATE_ADDED', 'Tillagd');
 
-define('ENTRY_CUSTOMER', 'Customer:');
-define('ENTRY_SOLD_TO', 'SOLD TO:');
-define('ENTRY_DELIVERY_TO', 'Delivery To:');
-define('ENTRY_SHIP_TO', 'SHIP TO:');
-define('ENTRY_SHIPPING_ADDRESS', 'Shipping Address:');
-define('ENTRY_BILLING_ADDRESS', 'Billing Address:');
-define('ENTRY_PAYMENT_METHOD', 'Payment Method:');
-define('ENTRY_CREDIT_CARD_TYPE', 'Credit Card Type:');
-define('ENTRY_CREDIT_CARD_OWNER', 'Credit Card Owner:');
-define('ENTRY_CREDIT_CARD_NUMBER', 'Credit Card Number:');
-define('ENTRY_CREDIT_CARD_EXPIRES', 'Credit Card Expires:');
+define('ENTRY_CUSTOMER', 'Kund:');
+define('ENTRY_SOLD_TO', 'SÅLD TILL:');
+define('ENTRY_DELIVERY_TO', 'Levererad Till:');
+define('ENTRY_SHIP_TO', 'SKICKAD TILL:');
+define('ENTRY_SHIPPING_ADDRESS', 'Fraktadress:');
+define('ENTRY_BILLING_ADDRESS', 'Fakureringsadress:');
+define('ENTRY_PAYMENT_METHOD', 'Betalningsform:');
+define('ENTRY_CREDIT_CARD_TYPE', 'Kreditkort:');
+define('ENTRY_CREDIT_CARD_OWNER', 'Kreditkortsinnehavare:');
+define('ENTRY_CREDIT_CARD_NUMBER', 'Kreditkortsnummer:');
+define('ENTRY_CREDIT_CARD_EXPIRES', 'Kreditkortets giltlighetstid:');
 define('ENTRY_SUB_TOTAL', 'Sub-Total:');
-define('ENTRY_TAX', 'Tax:');
-define('ENTRY_SHIPPING', 'Shipping:');
+define('ENTRY_TAX', 'Skatt:');
+define('ENTRY_SHIPPING', 'Frakt:');
 define('ENTRY_TOTAL', 'Total:');
-define('ENTRY_DATE_PURCHASED', 'Date Purchased:');
+define('ENTRY_DATE_PURCHASED', 'Köpt Den:');
 define('ENTRY_STATUS', 'Status:');
-define('ENTRY_POST_TRANSACTION_ACTIONS', 'Post Transaction Actions:');
-define('ENTRY_DATE_LAST_UPDATED', 'Date Last Updated:');
-define('ENTRY_NOTIFY_CUSTOMER', 'Notify Customer:');
-define('ENTRY_NOTIFY_COMMENTS', 'Append Comments:');
-define('ENTRY_NEW_COMMENT', 'New Comment:');
-define('ENTRY_PRINTABLE', 'Print Invoice');
+define('ENTRY_POST_TRANSACTION_ACTIONS', 'Efter Transaktionshändelser:');
+define('ENTRY_DATE_LAST_UPDATED', 'Senast Updaterad:');
+define('ENTRY_NOTIFY_CUSTOMER', 'Informera Kund:');
+define('ENTRY_NOTIFY_COMMENTS', 'Lägg Till Kommentar:');
+define('ENTRY_NEW_COMMENT', 'Ny Kommentar:');
+define('ENTRY_PRINTABLE', 'Skriv Ut Faktura');
 
-define('TEXT_INFO_HEADING_DELETE_ORDER', 'Delete Order');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this order?');
-define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', 'Restock product quantity');
-define('TEXT_DATE_ORDER_CREATED', 'Date Created:');
-define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_INFO_PAYMENT_METHOD', 'Payment Method:');
+define('TEXT_INFO_HEADING_DELETE_ORDER', 'Ta bort Order');
+define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort ordern?');
+define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', 'Återställ produktkvantitet');
+define('TEXT_DATE_ORDER_CREATED', 'Skapad Den:');
+define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Senaste Ändring:');
+define('TEXT_INFO_PAYMENT_METHOD', 'Betalningform:');
 
-define('TEXT_ALL_ORDERS', 'All Orders');
-define('TEXT_NO_ORDER_HISTORY', 'No Order History Available');
+define('TEXT_ALL_ORDERS', 'Alla Ordrar');
+define('TEXT_NO_ORDER_HISTORY', 'Ingen tillgänglig orderhistorik');
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
-define('EMAIL_TEXT_SUBJECT', 'Order Update');
-define('EMAIL_TEXT_ORDER_NUMBER', 'Order Number:');
-define('EMAIL_TEXT_INVOICE_URL', 'Detailed Invoice:');
-define('EMAIL_TEXT_DATE_ORDERED', 'Date Ordered:');
-define('EMAIL_TEXT_STATUS_UPDATE', 'Your order has been updated to the following status.' . "\n\n" . 'New status: %s' . "\n\n" . 'Please reply to this email if you have any questions.' . "\n");
-define('EMAIL_TEXT_COMMENTS_UPDATE', 'The comments for your order are' . "\n\n%s\n\n");
+define('EMAIL_TEXT_SUBJECT', 'Order Updatering');
+define('EMAIL_TEXT_ORDER_NUMBER', 'Order Nummer:');
+define('EMAIL_TEXT_INVOICE_URL', 'Detaljerad Faktura:');
+define('EMAIL_TEXT_DATE_ORDERED', 'Orderdatum:');
+define('EMAIL_TEXT_STATUS_UPDATE', 'Din order har blivit updaterad till följande status.' . "\n\n" . 'Ny status: %s' . "\n\n" . 'Var vänlig och svara på detta brev om du har några frågor.' . "\n");
+define('EMAIL_TEXT_COMMENTS_UPDATE', 'Dina kommentarer till ordern är' . "\n\n%s\n\n");
 
-define('ERROR_ORDER_DOES_NOT_EXIST', 'Error: Order does not exist.');
-define('SUCCESS_ORDER_UPDATED', 'Success: Order has been successfully updated.');
-define('WARNING_ORDER_NOT_UPDATED', 'Warning: Nothing to change. The order was not updated.');
+define('ERROR_ORDER_DOES_NOT_EXIST', 'Fel: Ordern existerar ej.');
+define('SUCCESS_ORDER_UPDATED', 'Utfört: Ordern har updaterats.');
+define('WARNING_ORDER_NOT_UPDATED', 'Varning: Inget att ändra. Ordern updaterades ej.');
 ?>

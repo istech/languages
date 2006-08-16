@@ -10,22 +10,22 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Image Groups');
+define('HEADING_TITLE', 'Bildgrupper');
 
-define('TABLE_HEADING_IMAGE_GROUPS', 'Image Groups');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_IMAGE_GROUPS', 'Bildgrupper');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new image group with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this image group? (Images must be manually removed)');
+define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya bildgruppen med relevanta data');
+define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort bildgruppen? (Bilder måste tas bort manuellt)');
 
-define('TEXT_IMAGE_GROUP_TITLE', 'Title:');
-define('TEXT_IMAGE_GROUP_CODE', 'Code:');
-define('TEXT_IMAGE_GROUP_WIDTH', 'Width:');
-define('TEXT_IMAGE_GROUP_HEIGHT', 'Height:');
-define('TEXT_IMAGE_GROUP_FORCE_SIZE', 'Force Size:');
+define('TEXT_IMAGE_GROUP_TITLE', 'Titel:');
+define('TEXT_IMAGE_GROUP_CODE', 'Kod:');
+define('TEXT_IMAGE_GROUP_WIDTH', 'Bredd:');
+define('TEXT_IMAGE_GROUP_HEIGHT', 'Höjd:');
+define('TEXT_IMAGE_GROUP_FORCE_SIZE', 'Tvinga Storlek:');
 
-define('TEXT_INFO_HEADING_NEW_IMAGE_GROUP', 'New Image Group');
+define('TEXT_INFO_HEADING_NEW_IMAGE_GROUP', 'Ny Bildgrupp');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Warning: The default image group can not be removed. Please set another group as the default, and try again.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standard bildgruppen kan ej tas bort. Var vänlig och välj en annan grupp som standard och försök igen.');
 ?>

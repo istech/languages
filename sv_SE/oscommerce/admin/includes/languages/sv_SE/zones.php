@@ -1,32 +1,32 @@
 <?php
 /*
-  $Id: zones.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Zones');
+define('HEADING_TITLE', 'Zoner');
 
-define('TABLE_HEADING_COUNTRY_NAME', 'Country');
-define('TABLE_HEADING_ZONE_NAME', 'Zones');
-define('TABLE_HEADING_ZONE_CODE', 'Code');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_COUNTRY_NAME', 'Land');
+define('TABLE_HEADING_ZONE_NAME', 'Zoner');
+define('TABLE_HEADING_ZONE_CODE', 'Kod');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_ZONES_NAME', 'Zones Name:');
-define('TEXT_INFO_ZONES_CODE', 'Zones Code:');
-define('TEXT_INFO_COUNTRY_NAME', 'Country:');
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new zone with its related data');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this zone?');
-define('TEXT_INFO_HEADING_NEW_ZONE', 'New Zone');
-define('TEXT_INFO_HEADING_EDIT_ZONE', 'Edit Zone');
-define('TEXT_INFO_HEADING_DELETE_ZONE', 'Delete Zone');
+define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+define('TEXT_INFO_ZONES_NAME', 'Zon Namn:');
+define('TEXT_INFO_ZONES_CODE', 'Zon Kod:');
+define('TEXT_INFO_COUNTRY_NAME', 'Land:');
+define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya zonen med relevanta data');
+define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort zonen?');
+define('TEXT_INFO_HEADING_NEW_ZONE', 'Ny Zon');
+define('TEXT_INFO_HEADING_EDIT_ZONE', 'Editera Zon');
+define('TEXT_INFO_HEADING_DELETE_ZONE', 'Ta bort Zon');
 
-define('TEXT_INFO_DELETE_PROHIBITED_ADDRESS_BOOK', 'Warning: This Zone cannot be deleted as it is currently assigned to %s address book entries.');
-define('TEXT_INFO_DELETE_PROHIBITED_TAX_ZONES', 'Warning: This Zone cannot be deleted as it is currently assigned to %s tax zone(s).');
+define('TEXT_INFO_DELETE_PROHIBITED_ADDRESS_BOOK', 'Varning: Denna Zonen kan ej tas bort eftersom den för närvarande är länkad till %s adressboksposter.');
+define('TEXT_INFO_DELETE_PROHIBITED_TAX_ZONES', 'Varning: Denna Zonen kan ej tas bort eftersom den för närvarande är länkad till %s skattezon(er).');
 ?>

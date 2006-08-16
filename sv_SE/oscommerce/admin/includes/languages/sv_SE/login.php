@@ -5,17 +5,17 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2005 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Login');
+define('HEADING_TITLE', 'Logga in');
 
-define('TEXT_INFO_HEADING_LOGIN', 'Log Into The Administration Tool');
+define('TEXT_INFO_HEADING_LOGIN', 'Logga In Som Administratör');
 
-define('TEXT_INFO_INTRO', 'Please use the following form to log into the administration tool.');
+define('TEXT_INFO_INTRO', 'Var vänlig och använd följande formulär för att logga in som administratör.');
 
-define('TEXT_INFO_USER_NAME', 'Name:');
-define('TEXT_INFO_USER_PASSWORD', 'Password:');
+define('TEXT_INFO_USER_NAME', 'Namn:');
+define('TEXT_INFO_USER_PASSWORD', 'Lösenord:');
 ?>

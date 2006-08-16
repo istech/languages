@@ -1,17 +1,17 @@
 <?php
 /*
-  $Id: low_stock.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('MODULE_STATISTICS_LOW_STOCK_TITLE', 'Low Stock');
+define('MODULE_STATISTICS_LOW_STOCK_TITLE', 'Lågt Lager');
 
-define('MODULE_STATISTICS_LOW_STOCK_TABLE_HEADING_PRODUCTS', 'Products');
-define('MODULE_STATISTICS_LOW_STOCK_TABLE_HEADING_LEVEL', 'Stock Level');
+define('MODULE_STATISTICS_LOW_STOCK_TABLE_HEADING_PRODUCTS', 'Produkter');
+define('MODULE_STATISTICS_LOW_STOCK_TABLE_HEADING_LEVEL', 'Lager Nivå');
 ?>

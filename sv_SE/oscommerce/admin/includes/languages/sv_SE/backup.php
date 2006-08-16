@@ -1,49 +1,49 @@
 <?php
 /*
-  $Id: backup.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2002 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Database Backup Manager');
+define('HEADING_TITLE', 'Databashanteraren för Säkerhetskopior');
 
-define('TABLE_HEADING_TITLE', 'Title');
-define('TABLE_HEADING_FILE_DATE', 'Date');
-define('TABLE_HEADING_FILE_SIZE', 'Size');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_TITLE', 'Titel');
+define('TABLE_HEADING_FILE_DATE', 'Datum');
+define('TABLE_HEADING_FILE_SIZE', 'Storlek');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_HEADING_NEW_BACKUP', 'New Backup');
-define('TEXT_INFO_HEADING_RESTORE_LOCAL', 'Restore Local');
-define('TEXT_INFO_NEW_BACKUP', 'Do not interrupt the backup process which might take a couple of minutes.');
-define('TEXT_INFO_UNPACK', '<br /><br />(after unpacking the file from the archive)');
-define('TEXT_INFO_RESTORE', 'Do not interrupt the restoration process.<br /><br />The larger the backup, the longer this process takes!<br /><br />If possible, use the mysql client.<br /><br />For example:<br /><br /><b>mysql -h' . DB_SERVER . ' -u' . DB_SERVER_USERNAME . ' -p ' . DB_DATABASE . ' < %s </b> %s');
-define('TEXT_INFO_RESTORE_LOCAL', 'Do not interrupt the restoration process.<br /><br />The larger the backup, the longer this process takes!');
-define('TEXT_INFO_RESTORE_LOCAL_RAW_FILE', 'The file uploaded must be a raw sql (text) file.');
-define('TEXT_INFO_DATE', 'Date:');
-define('TEXT_INFO_SIZE', 'Size:');
-define('TEXT_INFO_COMPRESSION', 'Compression:');
-define('TEXT_INFO_USE_GZIP', 'Use GZIP');
-define('TEXT_INFO_USE_ZIP', 'Use ZIP');
-define('TEXT_INFO_USE_NO_COMPRESSION', 'No Compression (Pure SQL)');
-define('TEXT_INFO_DOWNLOAD_ONLY', 'Download only (do not store server side)');
-define('TEXT_INFO_BEST_THROUGH_HTTPS', 'Best through a HTTPS connection');
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this backup?');
-define('TEXT_NO_EXTENSION', 'None');
-define('TEXT_BACKUP_DIRECTORY', 'Backup Directory:');
-define('TEXT_LAST_RESTORATION', 'Last Restoration:');
-define('TEXT_FORGET', '(<u>forget</u>)');
+define('TEXT_INFO_HEADING_NEW_BACKUP', 'Ny Säkerhetskopia');
+define('TEXT_INFO_HEADING_RESTORE_LOCAL', 'Återställ Lokal');
+define('TEXT_INFO_NEW_BACKUP', 'Avbryt ej säkerhetskopieringen vilket kan ta ett par minuter.');
+define('TEXT_INFO_UNPACK', '<br /><br />(efter uppackning av fil från arkivet)');
+define('TEXT_INFO_RESTORE', 'Avbryt ej återställandet.<br /><br />Större säkerhetskopia innebär längre processtid!<br /><br />Om möjligt, använd mysql klienten.<br /><br />Till exampel:<br /><br /><b>mysql -h' . DB_SERVER . ' -u' . DB_SERVER_USERNAME . ' -p ' . DB_DATABASE . ' < %s </b> %s');
+define('TEXT_INFO_RESTORE_LOCAL', 'Avbryt ej återställningsprocessen.<br /><br />Större säkerhetskopia innebär längre processtid!');
+define('TEXT_INFO_RESTORE_LOCAL_RAW_FILE', 'Den uppladdade filen måste vara en rå sql (text) fil.');
+define('TEXT_INFO_DATE', 'Datum:');
+define('TEXT_INFO_SIZE', 'Storlek:');
+define('TEXT_INFO_COMPRESSION', 'Komprimering:');
+define('TEXT_INFO_USE_GZIP', 'Använd GZIP');
+define('TEXT_INFO_USE_ZIP', 'Använd ZIP');
+define('TEXT_INFO_USE_NO_COMPRESSION', 'Ingen Komprimering (Ren SQL)');
+define('TEXT_INFO_DOWNLOAD_ONLY', 'Endast nedladdning (spara ej på serversidan)');
+define('TEXT_INFO_BEST_THROUGH_HTTPS', 'Bäst genom en HTTPS anslutning');
+define('TEXT_DELETE_INTRO', 'Är du säker på att du vill ta bort säkerhetskopian?');
+define('TEXT_NO_EXTENSION', 'Ingen');
+define('TEXT_BACKUP_DIRECTORY', 'Mapp för Säkerhetskopia:');
+define('TEXT_LAST_RESTORATION', 'Sista Återställning:');
+define('TEXT_FORGET', '(<u>glöm</u>)');
 
-define('ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST', 'Error: Backup directory does not exist. Please set this in configure.php.');
-define('ERROR_BACKUP_DIRECTORY_NOT_WRITEABLE', 'Error: Backup directory is not writeable.');
-define('ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE', 'Error: Download link not acceptable.');
+define('ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST', 'Fel: Mappen för säkerhetskopior existerar ej. Var vänlig och ändra detta i configure.php.');
+define('ERROR_BACKUP_DIRECTORY_NOT_WRITEABLE', 'Fel: Mappen för säkerhetskopior är skrivskyddad.');
+define('ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE', 'Fel: Länk för nedladdning oacceptabel.');
 
-define('SUCCESS_LAST_RESTORE_CLEARED', 'Success: The last restoration date has been cleared.');
-define('SUCCESS_DATABASE_SAVED', 'Success: The database has been saved.');
-define('SUCCESS_DATABASE_RESTORED', 'Success: The database has been restored.');
-define('SUCCESS_BACKUP_DELETED', 'Success: The backup has been removed.');
+define('SUCCESS_LAST_RESTORE_CLEARED', 'Utfört: Datum för den senaste återställningen rensat.');
+define('SUCCESS_DATABASE_SAVED', 'Utfört: Databasen har sparats.');
+define('SUCCESS_DATABASE_RESTORED', 'Utfört: Databasen har återställts.');
+define('SUCCESS_BACKUP_DELETED', 'Utfört: Säkerhetskopian har tagits bort.');
 ?>

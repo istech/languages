@@ -10,11 +10,11 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_IMAGE_RESIZE', 'Resize Images');
+define('MODULE_IMAGE_RESIZE', 'Omforma Bilder');
 
-define('MODULE_IMAGE_RESIZE_GROUPS', 'Groups');
-define('MODULE_IMAGE_RESIZE_NUMBER_OF_IMAGES', 'Number of Images Resized');
+define('MODULE_IMAGE_RESIZE_GROUPS', 'Grupper');
+define('MODULE_IMAGE_RESIZE_NUMBER_OF_IMAGES', 'Antal Omformade Bilder');
 
-define('MODULE_IMAGE_RESIZE_PROCESS_GROUPS', 'Groups');
-define('MODULE_IMAGE_RESIZE_OVERWRITE_IMAGES', 'Overwrite Existing Images');
+define('MODULE_IMAGE_RESIZE_PROCESS_GROUPS', 'Grupper');
+define('MODULE_IMAGE_RESIZE_OVERWRITE_IMAGES', 'Ersätt Existerande Bilder');
 ?>

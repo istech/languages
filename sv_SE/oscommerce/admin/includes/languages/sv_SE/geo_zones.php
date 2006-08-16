@@ -1,52 +1,52 @@
 <?php
 /*
-  $Id: geo_zones.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Tax Zones');
+define('HEADING_TITLE', 'Skattezoner');
 
-define('TABLE_HEADING_TAX_ZONES', 'Tax Zones');
-define('TABLE_HEADING_TOTAL_ENTRIES', 'Entries');
-define('TABLE_HEADING_COUNTRY', 'Country');
-define('TABLE_HEADING_COUNTRY_ZONE', 'Zone');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_TAX_ZONES', 'Skattezoner');
+define('TABLE_HEADING_TOTAL_ENTRIES', 'Poster');
+define('TABLE_HEADING_COUNTRY', 'Land');
+define('TABLE_HEADING_COUNTRY_ZONE', 'Zon');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_HEADING_NEW_ZONE', 'New Zone');
-define('TEXT_INFO_NEW_ZONE_INTRO', 'Please enter the new zone information');
+define('TEXT_INFO_HEADING_NEW_ZONE', 'Ny Zon');
+define('TEXT_INFO_NEW_ZONE_INTRO', 'Var vänlig och ange den nya zoninformation');
 
-define('TEXT_INFO_HEADING_EDIT_ZONE', 'Edit Zone');
-define('TEXT_INFO_EDIT_ZONE_INTRO', 'Please make any necessary changes');
+define('TEXT_INFO_HEADING_EDIT_ZONE', 'Editera Zon');
+define('TEXT_INFO_EDIT_ZONE_INTRO', 'Var vänlig och gör nödvändiga ändringar');
 
-define('TEXT_INFO_HEADING_DELETE_ZONE', 'Delete Zone');
-define('TEXT_INFO_DELETE_ZONE_INTRO', 'Are you sure you want to delete this zone?');
+define('TEXT_INFO_HEADING_DELETE_ZONE', 'Ta bort Zon');
+define('TEXT_INFO_DELETE_ZONE_INTRO', 'Är du säker att du vill ta bort zonen?');
 
-define('TEXT_INFO_HEADING_NEW_SUB_ZONE', 'New Sub Zone');
-define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'Please enter the new sub zone information');
+define('TEXT_INFO_HEADING_NEW_SUB_ZONE', 'Ny underzon');
+define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'Var vänlig och ange den nya underzonsinformationen');
 
-define('TEXT_INFO_HEADING_EDIT_SUB_ZONE', 'Edit Sub Zone');
-define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'Please make any necessary changes');
+define('TEXT_INFO_HEADING_EDIT_SUB_ZONE', 'Editera Underzon');
+define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'Var vänlig och gör nödvändiga ändringar');
 
-define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', 'Delete Sub Zone');
-define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', 'Are you sure you want to delete this sub zone?');
+define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', 'Ta bort Underzon');
+define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', 'Är du säker att du vill ta bort underzonen?');
 
-define('TEXT_INFO_DATE_ADDED', 'Date Added:');
-define('TEXT_INFO_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_INFO_ZONE_NAME', 'Zone Name:');
-define('TEXT_INFO_NUMBER_ZONES', 'Number of Zones:');
-define('TEXT_INFO_ZONE_DESCRIPTION', 'Description:');
-define('TEXT_INFO_COUNTRY', 'Country:');
-define('TEXT_INFO_COUNTRY_ZONE', 'Zone:');
-define('TYPE_BELOW', 'All Zones');
-define('PLEASE_SELECT', 'All Zones');
-define('TEXT_ALL_COUNTRIES', 'All Countries');
+define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
+define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
+define('TEXT_INFO_ZONE_NAME', 'Zon Namn:');
+define('TEXT_INFO_NUMBER_ZONES', 'Antal Zoner:');
+define('TEXT_INFO_ZONE_DESCRIPTION', 'Beskrivning:');
+define('TEXT_INFO_COUNTRY', 'Land:');
+define('TEXT_INFO_COUNTRY_ZONE', 'Zon:');
+define('TYPE_BELOW', 'Alla Zoner');
+define('PLEASE_SELECT', 'Alla Zoner');
+define('TEXT_ALL_COUNTRIES', 'Alla Länder');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Warning: This Tax Zone cannot be deleted as it is currently assigned to one or more tax rates.');
-define('TEXT_INFO_DELETE_ZONE_WARNING', 'Warning: This Tax Zone has %s zone(s) assigned which would also be deleted.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Skattezonen kan ej tas bort eftersom den är länkad till en eller fler skattesatser.');
+define('TEXT_INFO_DELETE_ZONE_WARNING', 'Varning: Skattezonen har %s zon(er) länkade som också kommer att tas bort.');
 ?>

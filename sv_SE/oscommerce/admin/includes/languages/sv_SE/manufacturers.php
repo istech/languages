@@ -1,43 +1,43 @@
 <?php
 /*
-  $Id: manufacturers.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Manufacturers');
+define('HEADING_TITLE', 'Tillverkare');
 
-define('TABLE_HEADING_MANUFACTURERS', 'Manufacturers');
-define('TABLE_HEADING_URL_CLICKS', 'URL CLicks');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_MANUFACTURERS', 'Tillverkare');
+define('TABLE_HEADING_URL_CLICKS', 'URL KLickningar');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_HEADING_NEW_MANUFACTURER', 'New Manufacturer');
-define('TEXT_HEADING_EDIT_MANUFACTURER', 'Edit Manufacturer');
-define('TEXT_HEADING_DELETE_MANUFACTURER', 'Delete Manufacturer');
+define('TEXT_HEADING_NEW_MANUFACTURER', 'Ny Tillverkare');
+define('TEXT_HEADING_EDIT_MANUFACTURER', 'Editera Tillverkare');
+define('TEXT_HEADING_DELETE_MANUFACTURER', 'Ta bort Tillverkare');
 
-define('TEXT_MANUFACTURERS', 'Manufacturers:');
-define('TEXT_DATE_ADDED', 'Date Added:');
-define('TEXT_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_PRODUCTS', 'Products:');
+define('TEXT_MANUFACTURERS', 'Tillverkare:');
+define('TEXT_DATE_ADDED', 'Tillagd:');
+define('TEXT_LAST_MODIFIED', 'Senast Ändrad:');
+define('TEXT_PRODUCTS', 'Produkter:');
 
-define('TEXT_NEW_INTRO', 'Please fill out the following information for the new manufacturer');
-define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
+define('TEXT_NEW_INTRO', 'Var vänlig och ange följande information för ny tillverkare');
+define('TEXT_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
 
-define('TEXT_MANUFACTURERS_NAME', 'Manufacturers Name:');
-define('TEXT_MANUFACTURERS_IMAGE', 'Manufacturers Image:');
-define('TEXT_MANUFACTURERS_URL', 'Manufacturers URL:');
+define('TEXT_MANUFACTURERS_NAME', 'Tillverkarens Namn:');
+define('TEXT_MANUFACTURERS_IMAGE', 'Tillverkarens Bild:');
+define('TEXT_MANUFACTURERS_URL', 'Tillverkarens URL:');
 
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this manufacturer?');
-define('TEXT_DELETE_IMAGE', 'Delete manufacturers image?');
-define('TEXT_DELETE_PRODUCTS', 'Delete products from this manufacturer? (including product reviews, products on special, upcoming products)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>WARNING:</b> There are %s products still linked to this manufacturer!');
+define('TEXT_DELETE_INTRO', 'Är du säker att du vill ta bort tillverkaren?');
+define('TEXT_DELETE_IMAGE', 'Ta bort tillverkarens bild?');
+define('TEXT_DELETE_PRODUCTS', 'ta bort varorna från denna tillverkare? (inklusive produktkommentarer, specialvaror, kommande varor)');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>VARNING:</b> Det finns fortfarande %s varor länkade till tillverkaren!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: I can not write to this directory. Please set the right user permissions on: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Error: Directory does not exist: %s');
-define('ERROR_MANUFACTURER_NAME', 'Error: Manufacturers name cannot be blank');
+define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Fel: Jag kan ej skriva till denna mapp. Var vänlig och ändra användarrättigheterna vid: %s');
+define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Fel: Mappen existerar ej: %s');
+define('ERROR_MANUFACTURER_NAME', 'Fel: Tillverkarens namn kan inte vara blankt');
 ?>

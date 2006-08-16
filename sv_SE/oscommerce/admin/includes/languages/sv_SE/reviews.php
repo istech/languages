@@ -1,44 +1,44 @@
 <?php
 /*
-  $Id: reviews.php 410 2006-01-26 09:17:09Z hpdl $
+  $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2004 osCommerce
+  Copyright (c) 2006 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Reviews');
+define('HEADING_TITLE', 'Kommentarer');
 
-define('TABLE_HEADING_PRODUCTS', 'Products');
-define('TABLE_HEADING_LANGUAGE', 'Language');
-define('TABLE_HEADING_RATING', 'Rating');
-define('TABLE_HEADING_DATE_ADDED', 'Date Added');
+define('TABLE_HEADING_PRODUCTS', 'Varor');
+define('TABLE_HEADING_LANGUAGE', 'Språk');
+define('TABLE_HEADING_RATING', 'Betyg');
+define('TABLE_HEADING_DATE_ADDED', 'Tillagd Den');
 define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('ENTRY_PRODUCT', 'Product:');
-define('ENTRY_FROM', 'From:');
-define('ENTRY_DATE', 'Date:');
-define('ENTRY_REVIEW', 'Review:');
-define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTE:</b></font></small>&nbsp;HTML is not translated!&nbsp;');
-define('ENTRY_RATING', 'Rating:');
+define('ENTRY_PRODUCT', 'Produkter:');
+define('ENTRY_FROM', 'Från:');
+define('ENTRY_DATE', 'Datum:');
+define('ENTRY_REVIEW', 'Kommentar:');
+define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>KOMMENTAR:</b></font></small>&nbsp;HTML översätts ej!&nbsp;');
+define('ENTRY_RATING', 'Betyg:');
 
-define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Are you sure you want to delete this review?');
+define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Är du säker att du vill ta bort denna kommentar?');
 
-define('TEXT_INFO_DATE_ADDED', 'Date Added:');
-define('TEXT_INFO_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_INFO_IMAGE_NONEXISTENT', 'IMAGE DOES NOT EXIST');
-define('TEXT_INFO_REVIEW_AUTHOR', 'Author:');
-define('TEXT_INFO_REVIEW_RATING', 'Rating:');
-define('TEXT_INFO_REVIEW_READ', 'Read:');
-define('TEXT_INFO_REVIEW_SIZE', 'Size:');
-define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Average Rating:');
+define('TEXT_INFO_DATE_ADDED', 'Tillagd Den:');
+define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
+define('TEXT_INFO_IMAGE_NONEXISTENT', 'BILD EXISTERAR EJ');
+define('TEXT_INFO_REVIEW_AUTHOR', 'Författare:');
+define('TEXT_INFO_REVIEW_RATING', 'Betyg:');
+define('TEXT_INFO_REVIEW_READ', 'Läs:');
+define('TEXT_INFO_REVIEW_SIZE', 'Storlek:');
+define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Medelbetyg:');
 
-define('TEXT_OF_5_STARS', '%s of 5 Stars!');
-define('TEXT_GOOD', '<small><font color="#ff0000"><b>GOOD</b></font></small>');
-define('TEXT_BAD', '<small><font color="#ff0000"><b>BAD</b></font></small>');
-define('TEXT_INFO_HEADING_DELETE_REVIEW', 'Delete Review');
+define('TEXT_OF_5_STARS', '%s av 5 Stjärnor!');
+define('TEXT_GOOD', '<small><font color="#ff0000"><b>BRA</b></font></small>');
+define('TEXT_BAD', '<small><font color="#ff0000"><b>DÅLIG</b></font></small>');
+define('TEXT_INFO_HEADING_DELETE_REVIEW', 'Ta bort kommentar');
 ?>
