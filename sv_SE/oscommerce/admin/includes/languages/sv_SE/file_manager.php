@@ -28,12 +28,12 @@
   define('TEXT_LAST_MODIFIED', 'Senast Ändrad:');
   define('TEXT_NEW_FOLDER', 'Ny Mapp');
   define('TEXT_NEW_FOLDER_INTRO', 'Skriv in namnet på den nya mappen:');
-  define('TEXT_DELETE_INTRO', 'Är du säker på att du vill ta bort filen?');
+  define('TEXT_DELETE_INTRO', 'Är du säker på att du vill ta bort denna fil?');
   define('TEXT_UPLOAD_INTRO', 'Var vänlig och välj fil att ladda upp.');
 
-  define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Fel: Jag kan inte skriva till denna mappen. Var vänlig och ändra användarrättigheterna vid: %s');
-  define('ERROR_FILE_NOT_WRITEABLE', 'Fel: Jag kan inte skriva till filen. Var vänlig och ändra användarrättigheterna vid: %s');
-  define('ERROR_DIRECTORY_NOT_REMOVEABLE', 'Fel: Jag kan inte ta bort mappen. Var vänlig och ändra användarrättigheterna vid: %s');
+  define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Fel: Jag kan inte skriva till denna mapp. Var vänlig och ändra användarrättigheterna vid: %s');
+  define('ERROR_FILE_NOT_WRITEABLE', 'Fel: Jag kan inte skriva till denna fil. Var vänlig och ändra användarrättigheterna vid: %s');
+  define('ERROR_DIRECTORY_NOT_REMOVEABLE', 'Fel: Jag kan inte ta bort denna mapp. Var vänlig och ändra användarrättigheterna vid: %s');
   define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Fel: Mappen existerar inte: %s');
   define('ERROR_DIRECTORY_EXISTS', 'Fel: Mappen existerar redan: %s');
 ?>

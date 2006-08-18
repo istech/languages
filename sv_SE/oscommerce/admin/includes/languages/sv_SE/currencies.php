@@ -35,11 +35,11 @@ define('TEXT_INFO_CURRENCY_VALUE', 'Värde:');
 define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . '<br /><small>(behöver en manuell updatering av valutans värde)</small>');
 define('TEXT_INFO_SERVICE_TERMS', 'Genom att använda den valda tjänsten för valuta updatering accepterar du även tjänstens användningsvillkor.');
 
-define('TEXT_INFO_CURRENCY_UPDATED', 'Valutakursen för %s (%s) blev updaterad via %s.');
+define('TEXT_INFO_CURRENCY_UPDATED', 'Valutakursen för %s (%s) blev uppdaterad via %s.');
 
 define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Varning: Standardvalutan kan inte tas bort. Var vänlig och välj en annan valuta som standardvaluta och försök igen.');
-define('ERROR_CURRENCY_INVALID', 'Fel: Valutakursen för %s (%s) var ej updaterad via %s. Är det en giltlig valutakod?');
+define('ERROR_CURRENCY_INVALID', 'Fel: Valutakursen för %s (%s) blev ej uppdaterad via %s. Är det en giltlig valutakod?');
 define('WARNING_PRIMARY_SERVER_FAILED', 'Varning: Den primära valutakursservern (%s) misslyckades för %s (%s) - försöker med den sekundära servern.');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standard valutan kan inte tas bort. Var vänlig och välj en annan valuta som standardvaluta och försök igen.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standardvalutan kan inte tas bort. Var vänlig och välj en annan valuta som standardvaluta och försök igen.');
 ?>

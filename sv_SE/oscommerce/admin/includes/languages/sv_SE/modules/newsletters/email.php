@@ -12,7 +12,7 @@
 
   define('MODULE_NEWSLETTER_EMAIL_TITLE', 'E-Post');
 
-  define('MODULE_NEWSLETTER_EMAIL_TEXT_TOTAL_RECIPIENTS', 'Epost mottagare: %s');
+  define('MODULE_NEWSLETTER_EMAIL_TEXT_TOTAL_RECIPIENTS', 'Epostmottagare: %s');
 
   define('MODULE_NEWSLETTER_EMAIL_TEXT_ALL_CUSTOMERS', '-- Alla Kunder --');
 ?>

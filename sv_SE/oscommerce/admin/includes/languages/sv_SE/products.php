@@ -36,7 +36,7 @@
   define('TEXT_INFO_COPY_TO_INTRO', 'Var vänlig och välj en ny kategori som du vill kopiera denna produkt till');
   define('TEXT_INFO_CURRENT_CATEGORIES', 'Nuvarande Kategori:');
 
-  define('TEXT_DELETE_PRODUCT_INTRO', 'Är du säker att du vill permanent ta bort denna produkt?');
+  define('TEXT_DELETE_PRODUCT_INTRO', 'Är du säker att du vill ta bort denna produkt permanent?');
 
   define('TEXT_MOVE_PRODUCTS_INTRO', 'Var vänlig och välj vilken kategori som du vill lägga <b>%s</b> i');
   define('TEXT_MOVE', 'Flytta <b>%s</b> till:');
@@ -49,16 +49,16 @@
   define('TEXT_PRODUCTS_NAME', 'Produktnamn:');
   define('TEXT_PRODUCTS_DESCRIPTION', 'Produktbeskrivning:');
   define('TEXT_PRODUCTS_QUANTITY', 'Produktkvantitet:');
-  define('TEXT_PRODUCTS_MODEL', 'Produktmodel:');
+  define('TEXT_PRODUCTS_MODEL', 'Produktmodell:');
   define('TEXT_PRODUCTS_KEYWORD', 'Nyckelord för Produkten:');
   define('TEXT_PRODUCTS_TAGS', 'Produktflaggor:');
   define('TEXT_PRODUCTS_IMAGE', 'Produktbild:');
   define('TEXT_PRODUCTS_URL', 'Produktens URL:');
   define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(utan http://)</small>');
   define('TEXT_PRODUCTS_TAX_CLASS', 'Skatteklass:');
-  define('TEXT_PRODUCTS_PRICE_NET', 'Produktens Pris (Netto):');
-  define('TEXT_PRODUCTS_PRICE_GROSS', 'Produktens Pris (Brutto):');
-  define('TEXT_PRODUCTS_WEIGHT', 'Produktens Vikt:');
+  define('TEXT_PRODUCTS_PRICE_NET', 'Produktpris (Netto):');
+  define('TEXT_PRODUCTS_PRICE_GROSS', 'Produktenspris (Brutto):');
+  define('TEXT_PRODUCTS_WEIGHT', 'Produktvikt:');
 
   define('TEXT_PRODUCT_DATE_ADDED', 'Denna produkt blev tillagd i vår katalog den %s.');
   define('TEXT_PRODUCT_DATE_AVAILABLE', 'Denna produkt kommer att finnas i lager den %s.');

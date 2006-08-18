@@ -25,14 +25,14 @@ define('TEXT_DATE_ADDED', 'Tillagd:');
 define('TEXT_LAST_MODIFIED', 'Senast Ändrad:');
 define('TEXT_PRODUCTS', 'Produkter:');
 
-define('TEXT_NEW_INTRO', 'Var vänlig och ange följande information för ny tillverkare');
+define('TEXT_NEW_INTRO', 'Var vänlig och ange följande information för den nya tillverkaren');
 define('TEXT_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
 
 define('TEXT_MANUFACTURERS_NAME', 'Tillverkarens Namn:');
 define('TEXT_MANUFACTURERS_IMAGE', 'Tillverkarens Bild:');
 define('TEXT_MANUFACTURERS_URL', 'Tillverkarens URL:');
 
-define('TEXT_DELETE_INTRO', 'Är du säker att du vill ta bort tillverkaren?');
+define('TEXT_DELETE_INTRO', 'Är du säker att du vill ta bort denna tillverkaren?');
 define('TEXT_DELETE_IMAGE', 'Ta bort tillverkarens bild?');
 define('TEXT_DELETE_PRODUCTS', 'ta bort varorna från denna tillverkare? (inklusive produktkommentarer, specialvaror, kommande varor)');
 define('TEXT_DELETE_WARNING_PRODUCTS', '<b>VARNING:</b> Det finns fortfarande %s varor länkade till tillverkaren!');

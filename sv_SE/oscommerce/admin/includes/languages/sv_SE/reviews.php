@@ -12,10 +12,10 @@
 
 define('HEADING_TITLE', 'Kommentarer');
 
-define('TABLE_HEADING_PRODUCTS', 'Varor');
+define('TABLE_HEADING_PRODUCTS', 'Produkter');
 define('TABLE_HEADING_LANGUAGE', 'Språk');
 define('TABLE_HEADING_RATING', 'Betyg');
-define('TABLE_HEADING_DATE_ADDED', 'Tillagd Den');
+define('TABLE_HEADING_DATE_ADDED', 'Tillagd');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Funktion');
 
@@ -23,12 +23,12 @@ define('ENTRY_PRODUCT', 'Produkter:');
 define('ENTRY_FROM', 'Från:');
 define('ENTRY_DATE', 'Datum:');
 define('ENTRY_REVIEW', 'Kommentar:');
-define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>KOMMENTAR:</b></font></small>&nbsp;HTML översätts ej!&nbsp;');
+define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTERINGAR:</b></font></small>&nbsp;HTML översätts ej!&nbsp;');
 define('ENTRY_RATING', 'Betyg:');
 
 define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Är du säker att du vill ta bort denna kommentar?');
 
-define('TEXT_INFO_DATE_ADDED', 'Tillagd Den:');
+define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
 define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
 define('TEXT_INFO_IMAGE_NONEXISTENT', 'BILD EXISTERAR EJ');
 define('TEXT_INFO_REVIEW_AUTHOR', 'Författare:');

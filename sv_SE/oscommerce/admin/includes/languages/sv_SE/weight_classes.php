@@ -16,7 +16,7 @@ define('TABLE_HEADING_WEIGHT_CLASSES_TITLE', 'Beskrivning');
 define('TABLE_HEADING_WEIGHT_CLASSES_UNIT', 'Enhet');
 define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange ny viktklass med relevanta data');
+define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya viktklassen med relevanta data');
 define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
 define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna viktklass?');
 

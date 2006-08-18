@@ -31,7 +31,7 @@ define('TEXT_INFO_SORT_ORDER', 'Sorteringsordning:');
 
 define('TEXT_PLEASE_SELECT', '--Var Vänlig Välj--');
 
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya boxdesign med relevanta data');
+define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya boxdesignen med relevanta data');
 define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
 define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna boxdesign från mallen?');
 

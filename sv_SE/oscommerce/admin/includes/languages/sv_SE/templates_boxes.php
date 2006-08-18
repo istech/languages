@@ -20,5 +20,5 @@ define('TABLE_HEADING_ACTION', 'Funktion');
 
 define('TEXT_DIRECTORY', 'Mapp:');
 
-define('INFO_UNINSTALL_INTRO', 'Är du säker att du vill avinstallera denna modul?<br /><br />(Alla modulparameterar kommer förloras)');
+define('INFO_UNINSTALL_INTRO', 'Är du säker att du vill avinstallera denna modul?<br /><br />(Alla modulparametrar kommer förloras)');
 ?>

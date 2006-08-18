@@ -24,7 +24,7 @@ define('TABLE_HEADING_ACTION', 'Funktion');
 define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'Ny Skatteklass');
 define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'Ny Skattesats');
 
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange ny skatteklass med relevanta data');
+define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya skatteklassen med relevanta data');
 define('TEXT_INFO_EDIT_INTRO', 'Var vänlig gör de nödvändiga ändringarna');
 define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna skatteklass?');
 
@@ -36,9 +36,9 @@ define('TEXT_INFO_TAX_RATE', 'Skattesats (%):');
 define('TEXT_INFO_TAX_RATE_PRIORITY', 'Prioritering:');
 define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Beskrivning:');
 
-define('TEXT_INFO_DATE_ADDED', 'Tillagd Den:');
+define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
 define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
 
 define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Denna skatteklass kan ej tas bort eftersom den för närvarande används av en eller flera produkter.');
-define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Varning: Denna skatteklass har %s tilldelade skattesatser som också kommer att tas bort.');
+define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Varning: Denna Skatteklass har %s tilldelade skattesatser som också kommer att tas bort.');
 ?>
