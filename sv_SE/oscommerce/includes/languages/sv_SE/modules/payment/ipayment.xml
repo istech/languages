@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,57 +8,57 @@
     </definition>
     <definition>
       <key>payment_ipayment_description</key>
-      <value><![CDATA[Credit Card Test Info:<br /><br />CC#: 4111111111111111<br />Expiry: Any]]></value>
+      <value><![CDATA[Kreditkort Test Info:<br /><br />CC#: 4111111111111111<br />Giltlighetstid: Vad som helst]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_error_heading</key>
-      <value><![CDATA[There has been an error processing your credit card]]></value>
+      <value><![CDATA[Ett fel uppstod vid bearbetning av ditt kreditkort]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_error_message</key>
-      <value><![CDATA[Please check your credit card details!]]></value>
+      <value><![CDATA[Var vänlig och kontrollera dina kreditkortsuppgifter!]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Kreditkortsinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Kreditkortsnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Kreditkortets Giltlighetstid:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_checknumber</key>
-      <value><![CDATA[Credit Card Checknumber:]]></value>
+      <value><![CDATA[Kreditkortets Kontrollnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_checknumber_location</key>
-      <value><![CDATA[(located at the back of the credit card)]]></value>
+      <value><![CDATA[(hittas på kreditkortets baksida)]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* Kreditkortsinnehavarens namn måste innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Kreditkortsnummret måst innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_type</key>
-      <value><![CDATA[Credit Card Type:]]></value>
+      <value><![CDATA[Kreditkortstyp:]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

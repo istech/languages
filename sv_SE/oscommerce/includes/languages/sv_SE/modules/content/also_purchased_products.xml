@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>customers_also_purchased_title</key>
-      <value><![CDATA[Customers who bought this product also purchased]]></value>
+      <value><![CDATA[Kunder som köpt denna produkt köpte även]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>

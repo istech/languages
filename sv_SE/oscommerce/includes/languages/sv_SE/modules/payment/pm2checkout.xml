@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,57 +8,57 @@
     </definition>
     <definition>
       <key>payment_2checkout_description</key>
-      <value><![CDATA[Credit Card Test Info:<br /><br />CC#: 4111111111111111<br />Expiry: Any]]></value>
+      <value><![CDATA[Kreditkort Test Info:<br /><br />CC#: 4111111111111111<br />Giltlighetstid: Vad som helst]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_cart_type</key>
-      <value><![CDATA[Type:]]></value>
+      <value><![CDATA[Typ:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Kreditkortsinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_first_name</key>
-      <value><![CDATA[Credit Card Owner First Name:]]></value>
+      <value><![CDATA[Kreditkortsinnehavarens förnamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_last_name</key>
-      <value><![CDATA[Credit Card Owner Last Name:]]></value>
+      <value><![CDATA[Kreditkortsinnehavarens Efternamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Kreditkortsnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Kreditkortets Giltlighetstid:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_checknumber</key>
-      <value><![CDATA[Credit Card Checknumber:]]></value>
+      <value><![CDATA[Kreditkortets Kontrollnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_checknumber_location</key>
-      <value><![CDATA[(located at the back of the credit card)]]></value>
+      <value><![CDATA[(finns på kreditkortets baksida)]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Kreditkortsnummret måste innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_error_message</key>
-      <value><![CDATA[There has been an error processing your credit card. Please try again.]]></value>
+      <value><![CDATA[Ett fel uppstod vid bearbetningen av ditt kreditkort. Var vänlig och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

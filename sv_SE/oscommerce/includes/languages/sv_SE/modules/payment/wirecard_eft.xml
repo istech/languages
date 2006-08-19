@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,72 +8,72 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_description</key>
-      <value><![CDATA[Wire Card EFT Transactions]]></value>
+      <value><![CDATA[Wire Card EFT Transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_method_title</key>
-      <value><![CDATA[Bank Transfer]]></value>
+      <value><![CDATA[Banköverföring]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner</key>
-      <value><![CDATA[Account Owner Name:]]></value>
+      <value><![CDATA[Kontoinnehavaren:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_firstname</key>
-      <value><![CDATA[Account Owner First Name:]]></value>
+      <value><![CDATA[Kontoinnehavarens Förnamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_lastname</key>
-      <value><![CDATA[Account Owner Last Name:]]></value>
+      <value><![CDATA[Kontoinnehavarens Efternamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type</key>
-      <value><![CDATA[Account Type:]]></value>
+      <value><![CDATA[Kontotyp:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type_checking</key>
-      <value><![CDATA[Checking]]></value>
+      <value><![CDATA[Check]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type_savings</key>
-      <value><![CDATA[Savings]]></value>
+      <value><![CDATA[Spar]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_account_number</key>
-      <value><![CDATA[Account Number:]]></value>
+      <value><![CDATA[Kontonummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_code</key>
-      <value><![CDATA[Bank Code:]]></value>
+      <value><![CDATA[Bankkod:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_check_number</key>
-      <value><![CDATA[Check Number:]]></value>
+      <value><![CDATA[Kontrollnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_id_number</key>
-      <value><![CDATA[Identification Number:]]></value>
+      <value><![CDATA[Identifikationsnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_js_error</key>
-      <value><![CDATA[* All fields required.]]></value>
+      <value><![CDATA[* Alla fält nödvändiga.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_error_general</key>
-      <value><![CDATA[There was a problem processing this bank account. Please check the account information and try again.]]></value>
+      <value><![CDATA[Det uppstod ett fel vid bearbetningen av detta bankkonto. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

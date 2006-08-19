@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,14 +8,14 @@
     </definition>
     <definition>
       <key>payment_moneyorder_description</key>
-      <value><![CDATA[Make Payable To:&nbsp;%s<br /><br />Send To:<br />%s<br /><br />Your order will not ship until we receive payment.]]></value>
+      <value><![CDATA[Betalbar Till:&nbsp;%s<br /><br />Skickas Till:<br />%s<br /><br />Din order kommer ej skickas innan vi mottager betalningen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_moneyorder_email_footer</key>
-      <value><![CDATA[Make Payable To: %s
+      <value><![CDATA[Gör Betalbar Till: %s
 
-Send To:
+Skickas Till:
 %
 
 Your order will not ship until we receive payment.]]></value>

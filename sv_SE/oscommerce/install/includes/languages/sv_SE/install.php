@@ -1,4 +1,4 @@
-# $Id: install.php 466 2006-03-05 16:34:20Z hpdl $
+# $Id: $
 #
 # osCommerce, Open Source E-Commerce Solutions
 # http://www.oscommerce.com
@@ -7,17 +7,17 @@
 #
 # Released under the GNU General Public License
 
-page_title_installation = New Installation
+page_title_installation = Ny Installation
 
-page_heading_step_1 = Database Server
-page_heading_step_2 = Web Server
-page_heading_step_3 = Online Store Settings
-page_heading_step_4 = Finished!
+page_heading_step_1 = Databasserver
+page_heading_step_2 = Webserver
+page_heading_step_3 = Online Affärsinställningar
+page_heading_step_4 = Klar!
 
-text_installation = <p>This web-based installation routine will correctly setup and configure osCommerce to run on this server.</p><p>Please following the on-screen instructions that will take you through the database server, web server, and store configuration options. If help is needed at any stage, please consult the documentation or seek help at the community support forums.</p>
-text_successful_installation = The installation and configuration was successful!
+text_installation = <p>Denna web-baserade installation kommer på ett korrekt sätt att konfigurera osCommerce till att köras på denna server.</p><p>Var vänlig och följ instruktionerna som kommer leda dig genom databasservern, webservern, och affärskonfigurationen. Om du vid något tillfälle behöver hjälp, var vänlig och läs dokumentationen eller sök hjälp via supportforumet.</p>
+text_successful_installation = Installation och konfiguration väl utfört!
 
-param_database_server = Database Server
+param_database_server = Databasserver
 param_database_server_description = The address of the database server in the form of a hostname or IP address.
 param_database_username = Username
 param_database_username_description = The username used to connect to the database server.
@@ -30,10 +30,10 @@ param_database_type_description = The database server software that is used.
 param_database_prefix = Database Table Prefix
 param_database_prefix_description = The prefix to use for the database tables.
 
-param_database_import_sample_data = Import Sample Data
+param_database_import_sample_data = Importera Exempeldata
 param_database_import_sample_data_description = Inserting sample data into the database is recommended for first time installations.
 
-param_web_address = WWW Address
+param_web_address = WWW Adress
 param_web_address_description = The web address to the online store.
 param_web_root_directory = Webserver Root Directory
 param_web_root_directory_description = The directory where the online store is installed on the server.
@@ -54,18 +54,18 @@ param_administrator_password_description = The password to use for the administr
 box_steps_step_1 = Database Server
 box_steps_step_2 = Web Server
 box_steps_step_3 = Online Store Settings
-box_steps_step_4 = Finished!
+box_steps_step_4 = Klar!
 
-box_info_step_1_title = Step 1: Database Server
+box_info_step_1_title = Steg 1: Databasserver
 box_info_step_1_text = <p>The database server stores the content of the online store such as product information, customer information, and the orders that have been made.</p><p>Please consult your server administrator if your database server parameters are not yet known.</p>
 
-box_info_step_2_title = Step 2: Web Server
+box_info_step_2_title = Steg 2: Webserver
 box_info_step_2_text = <p>The web server takes care of serving the pages of the online store to the visitors and customers. The web server parameters make sure the links to the pages point to the correct location.</p><p>Temporary files such as session data and cache files are stored in the work directory. It is important that this directory is located outside the web server root directory and is protected from public access.</p>
 
-box_info_step_3_title = Step 3: Online Store Settings
+box_info_step_3_title = Steg 3: Online Affärsinställningar
 box_info_step_3_text = <p>Here you can define the name of your online store, and the contact information for the store owner.</p><p>The administrator username and password are used to log into the protected administration tool section.</p>
 
-box_info_step_4_title = Step 4: Finished!
+box_info_step_4_title = Steg 4: Klar!
 box_info_step_4_text = <p>Congratulations on installing and configuring osCommerce as your online store solution!</p><p>We hope you all the best with your online store and welcome you to join and participate in our community.</p><p align="right">- The osCommerce Team</p>
 
 error_configuration_file_not_writeable = <p>The webserver was not able to write the online store parameters to its configuration file due to file permission problems.</p><p>Please verify the permissions of the configuration file to allow the webserver to write to it, and try again by clicking on the Retry button below.</p><p>The configuration file is located at:</p><p>%s</p>

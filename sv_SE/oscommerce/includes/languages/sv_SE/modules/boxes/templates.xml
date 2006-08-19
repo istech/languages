@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>box_templates_heading</key>
-      <value><![CDATA[Templates]]></value>
+      <value><![CDATA[Mallar]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

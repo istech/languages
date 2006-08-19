@@ -1,84 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>payment_wirecard_cc_title</key>
-      <value><![CDATA[Wire Card Credit Card]]></value>
+      <value><![CDATA[Wire Card Kreditkort]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_description</key>
-      <value><![CDATA[Wire Card Credit Card Transactions]]></value>
+      <value><![CDATA[Wire Card Kreditkortstransaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_method_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Kreditkort]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Kreditkortsinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Kreditkortsnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Kreditkortets Giltlighetstid:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_credit_card_cvc</key>
-      <value><![CDATA[Credit Card Check Number (CVC):]]></value>
+      <value><![CDATA[Kredit
+Credit Card Check Number (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* Kredikortsinnehavarens namn måste innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Kreditkortsnummret måste innehålla %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_js_credit_card_not_accepted</key>
-      <value><![CDATA[* This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[* Detta kreditkortet är ej accepterat. Var vänlig och försök igen med ett annat kort eller betalsätt.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_js_credit_card_cvc</key>
-      <value><![CDATA[* The credit card check number (CVC) must be at least 3 characters.]]></value>
+      <value><![CDATA[* Kreditkortets Kontrollnummer (CVC) måste innehålla minst 3 tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_error_general</key>
-      <value><![CDATA[There was a problem processing this credit card. Please check the card information and try again.]]></value>
+      <value><![CDATA[Det uppstod ett problem vid bearbetningen av detta kreditkort. Var vänlig och kontrollera kortuppgifterna och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_error_not_accepted</key>
-      <value><![CDATA[This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Detta kreditkort är ej accepterat. Var vänlig och försök igen med ett annat kort eller betalsätt.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_error_20071</key>
-      <value><![CDATA[The credit card expiration date is invalid. Please check the card information and try again.]]></value>
+      <value><![CDATA[Detta kreditkorts giltlighetstid är ej giltllig. Var vänlig och kontrollera kortuppgifterna och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_error_33</key>
-      <value><![CDATA[The credit card has expired. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Kreditkortet är ej giltligt. Var vänlig och försök med ett annat kort eller betalsätt.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_error_unkown_card</key>
-      <value><![CDATA[This is an unknown credit card which cannot be processed. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Detta är ett okänt kreditkort som inte kan bearbetas. Var vänlig och försök igen med ett annat kort eller betalsätt.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -13,37 +13,37 @@
     </definition>
     <definition>
       <key>payment_psigate_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Kreditkortsinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Kreditkortsnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Kreditkortets Giltlighetstid:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_type</key>
-      <value><![CDATA[Type:]]></value>
+      <value><![CDATA[Typ:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least ' . CC_NUMBER_MIN_LENGTH . ' characters.\n]]></value>
+      <value><![CDATA[* Kreditkortsnummret måste innehålla minst %s tecken.\n]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_error_message</key>
-      <value><![CDATA[There has been an error processing your credit card. Please try again.]]></value>
+      <value><![CDATA[Fel uppstod vid bearbetningen av ditt kreditkort. Var vänlig och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_error</key>
-      <value><![CDATA[Credit Card Error!]]></value>
+      <value><![CDATA[Kreditkortsfel!]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

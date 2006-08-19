@@ -1,29 +1,29 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>box_ordering_steps_heading</key>
-      <value><![CDATA[Ordering Steps]]></value>
+      <value><![CDATA[Beställningssteg]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_ordering_steps_delivery</key>
-      <value><![CDATA[Shipping Information]]></value>
+      <value><![CDATA[Fraktinformation]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_ordering_steps_payment</key>
-      <value><![CDATA[Payment Information]]></value>
+      <value><![CDATA[Betalningsinformation]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_ordering_steps_confirmation</key>
-      <value><![CDATA[Confirmation]]></value>
+      <value><![CDATA[Bekräftning]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_ordering_steps_complete</key>
-      <value><![CDATA[Finished!]]></value>
+      <value><![CDATA[Klart!]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

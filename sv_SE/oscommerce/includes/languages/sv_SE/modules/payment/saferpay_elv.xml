@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_elv_description</key>
-      <value><![CDATA[Saferpay Bank Transfer Transactions]]></value>
+      <value><![CDATA[Saferpay Bank Transfer Transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,27 +18,27 @@
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_owner</key>
-      <value><![CDATA[Account Owner Name:]]></value>
+      <value><![CDATA[Kontoinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_account_number</key>
-      <value><![CDATA[Account Number:]]></value>
+      <value><![CDATA[Kontonummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_code</key>
-      <value><![CDATA[Bank Code:]]></value>
+      <value><![CDATA[Bankkod:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_js_error</key>
-      <value><![CDATA[* All fields required.]]></value>
+      <value><![CDATA[* Alla fält är nödvändiga.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_error_general</key>
-      <value><![CDATA[There was a problem processing this bank account. Please check the account information and try again.]]></value>
+      <value><![CDATA[Det uppstod ett problem vid bearbetningen av detta bankkonto. Var vänlig och kontrollera kontouppgifterna och förösk igen.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

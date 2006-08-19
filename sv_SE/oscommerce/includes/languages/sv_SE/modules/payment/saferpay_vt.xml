@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,17 +8,17 @@
     </definition>
     <definition>
       <key>payment_saferpay_vt_description</key>
-      <value><![CDATA[Saferpay Virtual Terminal Transactions]]></value>
+      <value><![CDATA[Saferpay Virtual Terminal Transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_vt_method_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Kreditkort]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_vt_error_general</key>
-      <value><![CDATA[There was a problem processing this order. Please check the billing information and try again.]]></value>
+      <value><![CDATA[Det uppstod ett probelm vid bearbetningen av denna order. Var vänlig och kontrollera betalinformationen och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>
