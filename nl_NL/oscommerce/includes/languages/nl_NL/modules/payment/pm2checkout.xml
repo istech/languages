@@ -8,57 +8,57 @@
     </definition>
     <definition>
       <key>payment_2checkout_description</key>
-      <value><![CDATA[Credit Card Test Info:<br /><br />CC#: 4111111111111111<br />Expiry: Any]]></value>
+      <value><![CDATA[Creditcard test info:<br /><br />CC#: 4111111111111111<br />Verloopt: Any]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_cart_type</key>
-      <value><![CDATA[Type:]]></value>
+      <value><![CDATA[Type creditcard:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Naam op creditcard:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_first_name</key>
-      <value><![CDATA[Credit Card Owner First Name:]]></value>
+      <value><![CDATA[Voornaam op creditcard:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_last_name</key>
-      <value><![CDATA[Credit Card Owner Last Name:]]></value>
+      <value><![CDATA[Achternaam op creditcard:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Creditcard nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Creditcard verloopt op:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_checknumber</key>
-      <value><![CDATA[Credit Card Checknumber:]]></value>
+      <value><![CDATA[Creditcard verificatie code (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_checknumber_location</key>
-      <value><![CDATA[(located at the back of the credit card)]]></value>
+      <value><![CDATA[(op de achterkant van uw creditcard)]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Het creditcardnummer moet minstens uit %s cijfers bestaan.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_error_message</key>
-      <value><![CDATA[There has been an error processing your credit card. Please try again.]]></value>
+      <value><![CDATA[Er is een probleem met het verwerken van deze creditcard. Controleer de gegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

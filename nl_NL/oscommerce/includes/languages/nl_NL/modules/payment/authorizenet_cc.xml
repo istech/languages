@@ -3,82 +3,82 @@
   <definitions>
     <definition>
       <key>payment_authorizenet_cc_title</key>
-      <value><![CDATA[Authorize.net Credit Card]]></value>
+      <value><![CDATA[Authorize.net creditcard]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_description</key>
-      <value><![CDATA[Authorize.net Credit Card Transactions]]></value>
+      <value><![CDATA[Authorize.net creditcard Transacties]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_method_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Creditcard]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Creditcard eigenaar:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Creditcard nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Creditcard verloopt op:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_cvc</key>
-      <value><![CDATA[Credit Card Check Number (CVC):]]></value>
+      <value><![CDATA[Creditcard verificatie code (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* De naam op de creditcard moet minstens %s karakters lang zijn.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Het creditcardnummer moet minstens uit %s cijfers bestaan.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_not_accepted</key>
-      <value><![CDATA[* This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[* Deze creditcard is geweigerd. Probeer het met een andere creditcard of kies een andere betaal methode.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_cvc</key>
-      <value><![CDATA[* The credit card check number (CVC) must be at least 3 characters.]]></value>
+      <value><![CDATA[* De creditcard CVC (Card Validation Code) verificatie code moet 3 karakters lang zijn.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_general</key>
-      <value><![CDATA[There was a problem processing this credit card. Please check the card information and try again.]]></value>
+      <value><![CDATA[Er is een probleem met de gegevens van deze creditcard. Controleer de gegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_not_accepted</key>
-      <value><![CDATA[This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Deze creditcard is geweigerd. Probeer het met een andere creditcard of kies een andere betaal methode.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_invalid_expiration_date</key>
-      <value><![CDATA[The credit card expiration date is invalid. Please check the card information and try again.]]></value>
+      <value><![CDATA[De creditcard verval datum is incorrect. Controleer de gegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_expired</key>
-      <value><![CDATA[The credit card has expired. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[De creditcard is verlopen. Probeer het met een andere creditcard of kies een andere betaal methode.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_unknown_card</key>
-      <value><![CDATA[This is an unknown credit card which cannot be processed. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Dit creditcard type wordt niet geaccepteerd. Probeer het met een andere creditcard of kies een andere betaal methode.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

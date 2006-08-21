@@ -13,12 +13,12 @@
     </definition>
     <definition>
       <key>payment_saferpay_vt_method_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Creditcard]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_vt_error_general</key>
-      <value><![CDATA[There was a problem processing this order. Please check the billing information and try again.]]></value>
+      <value><![CDATA[Er is een probleem met de gegevens. Controleer de betaalinformatie en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

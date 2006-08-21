@@ -13,67 +13,67 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_method_title</key>
-      <value><![CDATA[Bank Transfer]]></value>
+      <value><![CDATA[Overboeking]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner</key>
-      <value><![CDATA[Account Owner Name:]]></value>
+      <value><![CDATA[Namm van rekeninghouder:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_firstname</key>
-      <value><![CDATA[Account Owner First Name:]]></value>
+      <value><![CDATA[Voornaam van rekeninghouder:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_lastname</key>
-      <value><![CDATA[Account Owner Last Name:]]></value>
+      <value><![CDATA[Achternaam van rekeninghouder:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type</key>
-      <value><![CDATA[Account Type:]]></value>
+      <value><![CDATA[Rekeningtype:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type_checking</key>
-      <value><![CDATA[Checking]]></value>
+      <value><![CDATA[Controleren]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type_savings</key>
-      <value><![CDATA[Savings]]></value>
+      <value><![CDATA[Sparen]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_account_number</key>
-      <value><![CDATA[Account Number:]]></value>
+      <value><![CDATA[Rekening nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_code</key>
-      <value><![CDATA[Bank Code:]]></value>
+      <value><![CDATA[Bank code:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_check_number</key>
-      <value><![CDATA[Check Number:]]></value>
+      <value><![CDATA[Controle nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_id_number</key>
-      <value><![CDATA[Identification Number:]]></value>
+      <value><![CDATA[Identificatie nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_js_error</key>
-      <value><![CDATA[* All fields required.]]></value>
+      <value><![CDATA[* Alle velden verplicht.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_error_general</key>
-      <value><![CDATA[There was a problem processing this bank account. Please check the account information and try again.]]></value>
+      <value><![CDATA[Er is een probleem met de gegevens van deze bankrekening. Controleer de gegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

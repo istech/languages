@@ -3,22 +3,22 @@
   <definitions>
     <definition>
       <key>payment_moneyorder_title</key>
-      <value><![CDATA[Check/Money Order]]></value>
+      <value><![CDATA[Vooruit betalen]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_moneyorder_description</key>
-      <value><![CDATA[Make Payable To:&nbsp;%s<br /><br />Send To:<br />%s<br /><br />Your order will not ship until we receive payment.]]></value>
+      <value><![CDATA[Betaal aan:&nbsp;%s<br /><br />Verzenden aan:<br />%s<br /><br />Uw bestelling wordt verzonden nadat de betaling bij ons binnen is.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_moneyorder_email_footer</key>
-      <value><![CDATA[Make Payable To: %s
+      <value><![CDATA[Betaal aan: %s
 
-Send To:
+Verzenden aan:
 %
 
-Your order will not ship until we receive payment.]]></value>
+Uw bestelling wordt verzonden nadat de betaling bij ons binnen is.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

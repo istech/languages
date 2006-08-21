@@ -13,32 +13,32 @@
     </definition>
     <definition>
       <key>payment_saferpay_elv_method_title</key>
-      <value><![CDATA[Bank Transfer]]></value>
+      <value><![CDATA[Overboeking]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_owner</key>
-      <value><![CDATA[Account Owner Name:]]></value>
+      <value><![CDATA[Naam van rekeninghouder:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_account_number</key>
-      <value><![CDATA[Account Number:]]></value>
+      <value><![CDATA[Rekeningnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_code</key>
-      <value><![CDATA[Bank Code:]]></value>
+      <value><![CDATA[Bank code:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_js_error</key>
-      <value><![CDATA[* All fields required.]]></value>
+      <value><![CDATA[* Alle velden verplicht.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_error_general</key>
-      <value><![CDATA[There was a problem processing this bank account. Please check the account information and try again.]]></value>
+      <value><![CDATA[Er is een probleem met de gegevens van deze bankrekening. Controleer de gegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

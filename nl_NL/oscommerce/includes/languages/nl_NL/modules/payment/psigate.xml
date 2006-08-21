@@ -8,42 +8,42 @@
     </definition>
     <definition>
       <key>payment_psigate_description</key>
-      <value><![CDATA[Credit Card Test Info:<br /><br />CC#: 4111111111111111<br />Expiry: Any]]></value>
-      <group>modules-payment</group>
+      <value><![CDATA[Creditcard test info:<br /><br />CC#: 4111111111111111<br />Verloopt: Any]]></value>
+     <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Naam op creditcard:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Creditcard nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Creditcard verloopt op:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_type</key>
-      <value><![CDATA[Type:]]></value>
+      <value><![CDATA[Type creditcard:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least ' . CC_NUMBER_MIN_LENGTH . ' characters.\n]]></value>
+      <value><![CDATA[* Het creditcardnummer moet minstens uit ' . CC_NUMBER_MIN_LENGTH . ' cijfers bestaan.\n]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_error_message</key>
-      <value><![CDATA[There has been an error processing your credit card. Please try again.]]></value>
+      <value><![CDATA[Er is een probleem met het verwerken van deze creditcard. Controleer de gegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_error</key>
-      <value><![CDATA[Credit Card Error!]]></value>
+      <value><![CDATA[Creditcard Fout!]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

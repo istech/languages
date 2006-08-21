@@ -8,57 +8,57 @@
     </definition>
     <definition>
       <key>payment_ipayment_description</key>
-      <value><![CDATA[Credit Card Test Info:<br /><br />CC#: 4111111111111111<br />Expiry: Any]]></value>
+      <value><![CDATA[Creditcard test info:<br /><br />CC#: 4111111111111111<br />Verloopt: Any]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_error_heading</key>
-      <value><![CDATA[There has been an error processing your credit card]]></value>
+      <value><![CDATA[Er is een fout opgetreden bij het verwerken van de creditcard gegevens]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_error_message</key>
-      <value><![CDATA[Please check your credit card details!]]></value>
+      <value><![CDATA[Controlleer uw creditcard gegevens!]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Naam op creditcard:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Creditcard nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Creditcard verloopt op:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_checknumber</key>
-      <value><![CDATA[Credit Card Checknumber:]]></value>
+      <value><![CDATA[Creditcard verificatie code (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_checknumber_location</key>
-      <value><![CDATA[(located at the back of the credit card)]]></value>
+      <value><![CDATA[(op de achterkant van uw creditcard)]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* De naam op de creditcard moet minstens %s karakters lang zijn.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Het creditcardnummer moet minstens uit %s cijfers bestaan.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_type</key>
-      <value><![CDATA[Credit Card Type:]]></value>
+      <value><![CDATA[Type creditcard:]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>
