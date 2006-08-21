@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>box_tell_a_friend_heading</key>
-      <value><![CDATA[Tell a Friend]]></value>
+      <value><![CDATA[Vertel een vriend(in)]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_tell_a_friend_text</key>
-      <value><![CDATA[Tell someone you know about this product.]]></value>
+      <value><![CDATA[Vertel een bekende over dit artikel.]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>
