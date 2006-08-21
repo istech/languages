@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>order_total_subtotal_title</key>
-      <value><![CDATA[Sub-Total]]></value>
+      <value><![CDATA[Sub-Totaal]]></value>
       <group>modules-order_total</group>
     </definition>
     <definition>
       <key>order_total_subtotal_description</key>
-      <value><![CDATA[Order Sub-Total]]></value>
+      <value><![CDATA[Sub-Totaal bestelling]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>
