@@ -8,12 +8,12 @@
     </definition>
     <definition>
       <key>shipping_usps_description</key>
-      <value><![CDATA[United States Postal Service<br /><br />You will need to have registered an account with USPS at http://www.uspsprioritymail.com/et_regcert.html to use this module<br /><br />USPS expects you to use pounds as weight measure for your products.]]></value>
+      <value><![CDATA[United States Postal Service<br /><br />U heeft een geregistreerd account nodig bij USPS (http://www.uspsprioritymail.com/et_regcert.html) om van deze module gebruik te kunnen maken.<br /><br />USPS verwacht dat de gewichtseenheid voor uw producten ponden is.]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_usps_error</key>
-      <value><![CDATA[An error occured with the USPS shipping calculations.<br />If you prefer to use USPS as your shipping method, please contact the store owner.]]></value>
+      <value><![CDATA[Er is een fout opgetreden bij de USPS verzendkosten berekening.<br />Als u USPS als verzend methode wilt gebruiken neem dan contact op met de winkel eigenaar.]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

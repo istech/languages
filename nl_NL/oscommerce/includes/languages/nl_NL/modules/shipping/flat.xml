@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>shipping_flat_title</key>
-      <value><![CDATA[Flat Rate]]></value>
+      <value><![CDATA[Vast tarief]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_flat_description</key>
-      <value><![CDATA[Flat Rate]]></value>
+      <value><![CDATA[Vast tarief]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>

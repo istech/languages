@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>shipping_free_title</key>
-      <value><![CDATA[Free Shipping]]></value>
+      <value><![CDATA[Gratis verzenden]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_free_description</key>
-      <value><![CDATA[Free Shipping]]></value>
+      <value><![CDATA[Gratis verzenden]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
