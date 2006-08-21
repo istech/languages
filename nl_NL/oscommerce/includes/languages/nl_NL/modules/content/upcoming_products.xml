@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>upcoming_products_title</key>
-      <value><![CDATA[Upcoming Products]]></value>
+      <value><![CDATA[Verwachte artikel(en)]]></value>
       <group>modules-content</group>
     </definition>
     <definition>
       <key>upcoming_products_date_expected_title</key>
-      <value><![CDATA[Date Expected]]></value>
+      <value><![CDATA[Datum]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>
