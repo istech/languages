@@ -221,528 +221,528 @@
     </definition>
     <definition>
       <key>listing_model_heading</key>
-      <value><![CDATA[Model]]></value>
+      <value><![CDATA[Artikelmodel]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_products_heading</key>
-      <value><![CDATA[Products]]></value>
+      <value><![CDATA[Artikelnaam]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_manufacturer_heading</key>
-      <value><![CDATA[Manufacturer]]></value>
+      <value><![CDATA[Fabrikant]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_quantity_heading</key>
-      <value><![CDATA[Quantity]]></value>
+      <value><![CDATA[Aantal]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_price_heading</key>
-      <value><![CDATA[Price]]></value>
+      <value><![CDATA[Prijs]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_weight_heading</key>
-      <value><![CDATA[Weight]]></value>
+      <value><![CDATA[Gewicht]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_buy_now_heading</key>
-      <value><![CDATA[Buy Now]]></value>
+      <value><![CDATA[Bestel NU]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>no_products_in_category</key>
-      <value><![CDATA[There are no products available in this category.]]></value>
+      <value><![CDATA[Er bevinden zich geen artikelen in deze categorie.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_show</key>
-      <value><![CDATA[Show:]]></value>
+      <value><![CDATA[Toon:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_all_categories</key>
-      <value><![CDATA[All Categories]]></value>
+      <value><![CDATA[Alle categorieën]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_all_manufacturers</key>
-      <value><![CDATA[All Manufacturers]]></value>
+      <value><![CDATA[Alle fabrikanten]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>greeting_guest</key>
-      <value><![CDATA[Welcome! <a href="%s">Sign in</a> and see <a href="%s">what's new</a> since your last visit.]]></value>
+      <value><![CDATA[Welkom <span class="greetUser">Bezoeker !</span><BR>Wilt u <a href="%s"><u>inloggen</u></a>? Of wilt u zich als nieuwe klant <a href="%s"><u>Aanmelden</u></a> ?<BR>Kijkt u rustig rond, u hoeft alleen in te loggen of u als nieuwe klant aan te melden wanneer u besluit een bestelling te plaatsen ! Uw winkelwagen wordt automatisch overgenomen nadat u inlogt of zich als nieuwe klant aanmeldt.]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>greeting_customer</key>
-      <value><![CDATA[Welcome back %s! Take a look at <a href="%s">what is new</a> since your last visit!]]></value>
+      <value><![CDATA[Welkom terug <span class="greetUser">%s !</span> Wilt u de <a href="%s"><u>nieuwe artikelen</u></a> zien die beschikbaar zijn?]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>listing_sort_ascendingly</key>
-      <value><![CDATA[Sort by %s ascendingly]]></value>
+      <value><![CDATA[Sorteer artikelen %s oplopend]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_sort_descendingly</key>
-      <value><![CDATA[Sort by %s descendingly]]></value>
+      <value><![CDATA[Sorteer artikelen %s aflopend]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>breadcrumb_sign_in</key>
-      <value><![CDATA[Sign In]]></value>
-      <group>account</group>
+      <value><![CDATA[Aanmelden]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_sign_out</key>
-      <value><![CDATA[Sign Out]]></value>
-      <group>account</group>
+      <value><![CDATA[Afmelden]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_my_account</key>
-      <value><![CDATA[My Account]]></value>
-      <group>account</group>
+      <value><![CDATA[Mijn klantenprofiel]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_account</key>
-      <value><![CDATA[Edit Account]]></value>
-      <group>account</group>
+      <value><![CDATA[Wijzig klantenprofiel]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_password</key>
-      <value><![CDATA[Change Password]]></value>
-      <group>account</group>
+      <value><![CDATA[Wijzig wachtwoord]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_my_orders</key>
-      <value><![CDATA[Orders]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestellings]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_order_information</key>
-      <value><![CDATA[Order #%s]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestelling #%s]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_newsletters</key>
-      <value><![CDATA[Newsletters]]></value>
-      <group>account</group>
+      <value><![CDATA[Nieuwsbrief]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_notifications</key>
-      <value><![CDATA[Notifications]]></value>
-      <group>account</group>
+      <value><![CDATA[Notificaties]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book</key>
-      <value><![CDATA[Address Book]]></value>
-      <group>account</group>
+      <value><![CDATA[Adresboek]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_add_entry</key>
-      <value><![CDATA[Add Entry]]></value>
-      <group>account</group>
+      <value><![CDATA[Adres toevoegen]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_edit_entry</key>
-      <value><![CDATA[Edit Entry]]></value>
-      <group>account</group>
+      <value><![CDATA[Wijzig adres]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_delete_entry</key>
-      <value><![CDATA[Delete Entry]]></value>
-      <group>account</group>
+      <value><![CDATA[Verwijder adres]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_create_account</key>
-      <value><![CDATA[Create an Account]]></value>
-      <group>account</group>
+      <value><![CDATA[Klantenprofiel aanmaken]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>breadcrumb_password_forgotten</key>
-      <value><![CDATA[Password Forgotten]]></value>
-      <group>account</group>
+      <value><![CDATA[Wachtwoord vergeten]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>sign_in_heading</key>
-      <value><![CDATA[Welcome, Please Sign In]]></value>
-      <group>account</group>
+      <value><![CDATA[Welkom bezoeker! Wilt u zich aanmelden?]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>sign_out_heading</key>
-      <value><![CDATA[Sign Out From Your Account]]></value>
-      <group>account</group>
+      <value><![CDATA[Afmelden van mijn klantenprofiel]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
-      <key>account_heading</key>
-      <value><![CDATA[My Account]]></value>
-      <group>account</group>
+      <key>klantenprofiel_heading</key>
+      <value><![CDATA[Mijn klantenprofiel]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
-      <key>account_edit_heading</key>
-      <value><![CDATA[My Account Information]]></value>
-      <group>account</group>
+      <key>klantenprofiel_edit_heading</key>
+      <value><![CDATA[Mijn klantenprofiel informatie]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
-      <key>account_password_heading</key>
-      <value><![CDATA[My Account Password]]></value>
-      <group>account</group>
+      <key>klantenprofiel_password_heading</key>
+      <value><![CDATA[Mijn klantenprofiel wachtwoord]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>orders_heading</key>
-      <value><![CDATA[My Orders]]></value>
-      <group>account</group>
+      <value><![CDATA[Mijn bestellingen]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_information_heading</key>
-      <value><![CDATA[Order #%s]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestelling #%s]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletters_heading</key>
-      <value><![CDATA[My Newsletter Subscriptions]]></value>
-      <group>account</group>
+      <value><![CDATA[Abonnement op onze nieuwsbrief]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>notifications_heading</key>
-      <value><![CDATA[My Product Notifications]]></value>
-      <group>account</group>
+      <value><![CDATA[Mijn artikel notificatie]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>address_book_heading</key>
-      <value><![CDATA[My Address Book]]></value>
-      <group>account</group>
+      <value><![CDATA[Mijn persoonlijk adresboek]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>address_book_add_entry_heading</key>
-      <value><![CDATA[New Address Book Entry]]></value>
-      <group>account</group>
+      <value><![CDATA[Nieuw adres]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>address_book_edit_entry_heading</key>
-      <value><![CDATA[Edit Address Book Entry]]></value>
-      <group>account</group>
+      <value><![CDATA[Adres wijzigen]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>address_book_delete_entry_heading</key>
-      <value><![CDATA[Remove Address Book Entry]]></value>
-      <group>account</group>
+      <value><![CDATA[Verwijder adres]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>create_account_heading</key>
-      <value><![CDATA[Create an Account]]></value>
-      <group>account</group>
+      <value><![CDATA[Klantenprofiel aanmaken]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>create_account_success_heading</key>
-      <value><![CDATA[Your Account Has Been Created!]]></value>
-      <group>account</group>
+      <value><![CDATA[Gefeliciteerd! Uw klantenprofiel is succesvol aangemaakt!]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>login_new_customer_heading</key>
-      <value><![CDATA[New Customer]]></value>
-      <group>account</group>
+      <value><![CDATA[Nieuwe klant]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>login_new_customer_text</key>
-      <value><![CDATA[I am a new customer and do not yet have an account here.<br /><br />By creating an account you will be able to take advantage of this store by shopping faster, be kept up to date on the status of an order, and keep track of the orders you have made.]]></value>
-      <group>account</group>
+      <value><![CDATA[Door uw klantgegevens op te geven kunt u sneller winkelen en kunt u profiteren van kortingen en speciale aanbiedingen die alleen voor geregistreerde klanten gelden.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>login_returning_customer_heading</key>
-      <value><![CDATA[Returning Customer]]></value>
-      <group>account</group>
+      <value><![CDATA[Terugkerende klant]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>login_returning_customer_text</key>
-      <value><![CDATA[I am a returning customer and already have an account here.]]></value>
-      <group>account</group>
+      <value><![CDATA[Ik ben een terugkerende klant en ik heb reeds een klantenprofiel.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>login_returning_customer_password_forgotten</key>
-      <value><![CDATA[Password forgotten? <a href="%s">Click here</a>.]]></value>
-      <group>account</group>
+      <value><![CDATA[Wachtwoord vergeten? <a href="%s">Klik hier.</a>.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>error_login_no_match</key>
-      <value><![CDATA[There was no match for the e-mail address and/or password. Please try again.]]></value>
-      <group>account</group>
+      <value><![CDATA[Geen overeenkomstig 'e-mail adres' en/of 'wachtwoord'. Probeer het nog eens.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>date_added_to_shopping_cart</key>
-      <value><![CDATA[Date Added: %s]]></value>
+      <value><![CDATA[Dit artikel is op %s toegevoegd.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>sign_out_text</key>
-      <value><![CDATA[You have sign out successfully from your account. Your shopping cart has been saved and will be restored the next time you sign on again.<br /><br />It is now safe to leave this site.]]></value>
-      <group>account</group>
+      <value><![CDATA[U bent uitgelogd.<br><br>De inhoud van uw winkelwagen is bewaard voor de volgende keer.<br /><br />U kun nu veilig de winkel verlaten.]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>my_account_title</key>
-      <value><![CDATA[My Account]]></value>
-      <group>account</group>
+      <value><![CDATA[Mijn klantenprofiel]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>information_title</key>
-      <value><![CDATA[Information]]></value>
+      <value><![CDATA[Informatie]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>my_account_information</key>
-      <value><![CDATA[View or change my account information.]]></value>
-      <group>account</group>
+      <value><![CDATA[Bekijk of verander mijn klantgegevens.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>my_account_address_book</key>
-      <value><![CDATA[View or change entries in my address book.]]></value>
-      <group>account</group>
+      <value><![CDATA[Bekijk of verander adresgegevens van personen uit mijn adreslijst.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>my_account_password</key>
-      <value><![CDATA[Change my account password.]]></value>
-      <group>account</group>
+      <value><![CDATA[Verander mijn wachtwoord.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>my_orders_title</key>
-      <value><![CDATA[My Orders]]></value>
-      <group>account</group>
+      <value><![CDATA[Mijn bestellingen]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>my_orders_view</key>
-      <value><![CDATA[View the orders I have made.]]></value>
-      <group>account</group>
+      <value><![CDATA[ekijk de bestellingen die ik heb geplaatst.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>my_notifications_title</key>
-      <value><![CDATA[My Notifications]]></value>
-      <group>account</group>
+      <value><![CDATA[Mijn notificaties]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>my_notifications_newsletters</key>
-      <value><![CDATA[Subscribe and unsubscribe from newsletters.]]></value>
-      <group>account</group>
+      <value><![CDATA[Abonneren op nieuwsbrieven.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>my_notifications_products</key>
-      <value><![CDATA[View and change my product notifications list.]]></value>
-      <group>account</group>
+      <value><![CDATA[Bekijk of verander mijn artikel notificatielijst.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>my_password_title</key>
-      <value><![CDATA[My Password]]></value>
-      <group>account</group>
+      <value><![CDATA[Mijn wachtwoord]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_number</key>
-      <value><![CDATA[Order Number:]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestelnummer:]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_status</key>
-      <value><![CDATA[Order Status:]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestel status:]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_date</key>
-      <value><![CDATA[Order Date:]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestel datum:]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_shipped_to</key>
-      <value><![CDATA[Shipped To:]]></value>
-      <group>account</group>
+      <value><![CDATA[Verzonden naar:]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_billed_to</key>
-      <value><![CDATA[Billed To:]]></value>
-      <group>account</group>
+      <value><![CDATA[Gefactureerd aan:]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_products</key>
-      <value><![CDATA[Products:]]></value>
-      <group>account</group>
+      <value><![CDATA[Artikelen:]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_cost</key>
-      <value><![CDATA[Order Cost:]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestelkosten:]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>no_orders_made_yet</key>
-      <value><![CDATA[You have not made any purchases yet.]]></value>
-      <group>account</group>
+      <value><![CDATA[U heeft nog niets besteld.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_number_heading</key>
-      <value><![CDATA[Order #%s]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestelling #%s]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_date_heading</key>
-      <value><![CDATA[Order Date:]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestel datum:]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_total_heading</key>
-      <value><![CDATA[Order Total:]]></value>
-      <group>account</group>
+      <value><![CDATA[Bestelling Total:]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>order_history_heading</key>
-      <value><![CDATA[Order History]]></value>
-      <group>account</group>
+      <value><![CDATA[Status bestelling]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>download_heading</key>
       <value><![CDATA[Download links]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>download_link_expires</key>
-      <value><![CDATA[Link expires: %s]]></value>
-      <group>account</group>
+      <value><![CDATA[Link verloopt op: %s]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>download_counter_remaining</key>
-      <value><![CDATA[downloads remaining]]></value>
-      <group>account</group>
+      <value><![CDATA[downloads over]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_subscriptions_heading</key>
-      <value><![CDATA[My Newletter Subscriptions]]></value>
-      <group>account</group>
+      <value><![CDATA[Abonnement op onze nieuwsbrief]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_general</key>
-      <value><![CDATA[General Newletter]]></value>
-      <group>account</group>
+      <value><![CDATA[Algemene nieuwsbrief]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_general_description</key>
-      <value><![CDATA[Including store news, new products, special offers, and other promotional announcements.]]></value>
-      <group>account</group>
+      <value><![CDATA[Inclusief winkelnieuws, nieuwe producten en aanbiedingen.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications</key>
-      <value><![CDATA[My Product Notifications]]></value>
-      <group>account</group>
+      <value><![CDATA[Mijn artikel notificatielijst]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_description</key>
-      <value><![CDATA[The product notification list allows you to stay up to date on products you find of interest.<br /><br />To be up to date on all product changes, select <b>Global Product Notifications</b>.]]></value>
-      <group>account</group>
+      <value><![CDATA[The product notification list allows you to stay up to datum on products you find of interest.<br /><br />To be up to datum on all product changes, select <b>Global Product Notifications</b>.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global</key>
       <value><![CDATA[Global Product Notifications]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global_description</key>
       <value><![CDATA[Recieve notifications on all available products.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products</key>
       <value><![CDATA[Product Notifications]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_description</key>
       <value><![CDATA[To remove a product notification, clear the products checkbox and click on Continue.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_none</key>
       <value><![CDATA[There are currently no products marked to be notified on.<br /><br />To add products to your product notification list, click on the notification link available on the detailed product information page.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>primary_address_title</key>
       <value><![CDATA[Primary Address]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>primary_address_description</key>
-      <value><![CDATA[This address is used as the pre-selected shipping and billing address for orders placed on this store.<br /><br />This address is also used as the base for product and service tax calculations.]]></value>
-      <group>account</group>
+      <value><![CDATA[This address is used as the pre-selected shipping and billing address for bestellingen placed on this store.<br /><br />This address is also used as the base for product and service tax calculations.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>address_book_title</key>
-      <value><![CDATA[Address Book Entries]]></value>
-      <group>account</group>
+      <value><![CDATA[adresboek Entries]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>primary_address_marker</key>
       <value><![CDATA[(primary address)]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>address_book_maximum_entries</key>
-      <value><![CDATA[<font color="#ff0000"><b>NOTE:</b></font> A maximum of %s address book entries allowed.]]></value>
-      <group>account</group>
+      <value><![CDATA[<font color="#ff0000"><b>NOTE:</b></font> A maximum of %s adresboek entries allowed.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>address_book_delete_address_title</key>
       <value><![CDATA[Delete Address]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>address_book_delete_address_description</key>
-      <value><![CDATA[Are you sure you would like to delete the selected address from your address book?]]></value>
-      <group>account</group>
+      <value><![CDATA[Are you sure you would like to delete the selected address from your adresboek?]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>address_book_new_address_title</key>
       <value><![CDATA[New Address]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>selected_address_title</key>
       <value><![CDATA[Selected Address]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>set_as_primary</key>
       <value><![CDATA[Set as primary address.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>create_account_terms_heading</key>
       <value><![CDATA[Privacy Statement]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>create_account_terms_description</key>
       <value><![CDATA[Please acknowledge you agree with our privacy statement by ticking the following box. The privacy statement can be read <a href="%s">here</a>.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>create_account_terms_confirm</key>
       <value><![CDATA[I have read and agreed to your privacy statement.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>password_forgotten_heading</key>
       <value><![CDATA[Password Forgotten]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>password_forgotten</key>
-      <value><![CDATA[If you've forgotten your password, enter your e-mail address below and we'll send you an e-mail message containing your new password.]]></value>
-      <group>account</group>
+      <value><![CDATA[If you've forgotten your wachtwoord, enter your e-mail address below and we'll send you an e-mail message containing your new wachtwoord.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>email_create_account_subject</key>
       <value><![CDATA[Welcome to %s]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>email_create_account_body</key>
@@ -751,14 +751,14 @@
 You can now take part in the various services we have on offer for you. Some of these services include:
 
 <li>Permanent Cart - Any products added to your online cart remain there until you remove them, or check them out.
-<li>Address Book - We can now deliver your products to another address other than yours! This is perfect to send birthday gifts direct to the birthday-person themselves.
+<li>adresboek - We can now deliver your products to another address other than yours! This is perfect to send birthday gifts direct to the birthday-person themselves.
 <li>Order History - View your history of purchases that you have made with us.
 <li>Products Reviews - Share your opinions on products with our other customers.
 
 For help with any of our online services, please email the store-owner: %s.
 
 Note: This email address was given to us by one of our customers. If you did not signup to be a member, please send an email to the store owner.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>email_addressing_gender_male</key>
@@ -778,85 +778,85 @@ Note: This email address was given to us by one of our customers. If you did not
     <definition>
       <key>email_password_reminder_subject</key>
       <value><![CDATA[Password Reminder to %s]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>email_password_reminder_body</key>
-      <value><![CDATA[A new password was requested from %s.
+      <value><![CDATA[A new wachtwoord was requested from %s.
 
-Your new password to %s is:
+Your new wachtwoord to %s is:
 
 %s
 
 For help with any of our online services, please email the store-owner: %s.
 
-Note: If you did not request this action via our password forgotten page, please notify the store owner as soon as possible.]]></value>
-      <group>account</group>
+Note: If you did not request this action via our wachtwoord forgotten page, please notify the store owner as soon as possible.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>success_account_created</key>
-      <value><![CDATA[Congratulations! Your new account has been successfully created! You can now take advantage of member privileges to enhance your online shopping experience with us. If you have any questions about the operation of this online shop, please email the <a href="%s">store owner</a>.<br /><br />A confirmation has been sent to the provided email address. If you have not received it within the hour, please contact us.]]></value>
-      <group>account</group>
+      <value><![CDATA[Congratulations! Your new klantenprofiel has been successfully created! You can now take advantage of member privileges to enhance your online shopping experience with us. If you have any questions about the operation of this online shop, please email the <a href="%s">store owner</a>.<br /><br />A confirmation has been sent to the provided email address. If you have not received it within the hour, please contact us.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>success_account_updated</key>
-      <value><![CDATA[Your account has been successfully updated!]]></value>
-      <group>account</group>
+      <value><![CDATA[Your klantenprofiel has been successfully updated!]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>success_password_updated</key>
-      <value><![CDATA[Your account password has been successfully updated!]]></value>
-      <group>account</group>
+      <value><![CDATA[Your klantenprofiel wachtwoord has been successfully updated!]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>success_newsletter_updated</key>
       <value><![CDATA[Your newsletter subscriptions have been successfully updated!]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>success_notifications_updated</key>
       <value><![CDATA[Your product notifications have been successfully updated!]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>success_address_book_entry_deleted</key>
-      <value><![CDATA[The selected address has been successfully removed from your address book.]]></value>
-      <group>account</group>
+      <value><![CDATA[The selected address has been successfully removed from your adresboek.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>success_address_book_entry_updated</key>
-      <value><![CDATA[Your address book has been successfully updated.]]></value>
-      <group>account</group>
+      <value><![CDATA[Your adresboek has been successfully updated.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>success_password_forgotten_sent</key>
-      <value><![CDATA[Success: A new password has been sent to your e-mail address.]]></value>
-      <group>account</group>
+      <value><![CDATA[Success: A new wachtwoord has been sent to your e-mail address.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>warning_primary_address_deletion</key>
       <value><![CDATA[The primary address cannot be deleted. Please set another address as the primary address and try again.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>error_current_password_not_matching</key>
-      <value><![CDATA[Your current password does not match our records. Please try again.]]></value>
-      <group>account</group>
+      <value><![CDATA[Your current wachtwoord does not match our records. Please try again.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>error_address_book_entry_non_existing</key>
-      <value><![CDATA[The address book entry does not exist.]]></value>
-      <group>account</group>
+      <value><![CDATA[The adresboek entry does not exist.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>error_address_book_full</key>
-      <value><![CDATA[Your address book is full. Please delete an unneeded address to save a new one.]]></value>
-      <group>account</group>
+      <value><![CDATA[Your adresboek is full. Please delete an unneeded address to save a new one.]]></value>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>error_password_forgotten_no_email_address_found</key>
       <value><![CDATA[Error: The E-Mail Address was not found in our records, please try again.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>warning_install_directory_exists</key>
@@ -960,7 +960,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>success_heading</key>
-      <value><![CDATA[Your Order Has Been Processed!]]></value>
+      <value><![CDATA[Your bestelling Has Been Processed!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -970,12 +970,12 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>choose_shipping_destination</key>
-      <value><![CDATA[Please choose from your address book where you would like the items to be delivered to.]]></value>
+      <value><![CDATA[Please choose from your adresboek where you would like the items to be delivered to.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>selected_shipping_destination</key>
-      <value><![CDATA[This is the currently selected shipping address where the items in this order will be delivered to.]]></value>
+      <value><![CDATA[This is the currently selected shipping address where the items in this bestelling will be delivered to.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -995,32 +995,32 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>choose_shipping_method</key>
-      <value><![CDATA[Please select the preferred shipping method to use on this order.]]></value>
+      <value><![CDATA[Please select the preferred shipping method to use on this bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>only_one_shipping_method_available</key>
-      <value><![CDATA[This is currently the only shipping method available to use on this order.]]></value>
+      <value><![CDATA[This is currently the only shipping method available to use on this bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>add_comment_to_order_title</key>
-      <value><![CDATA[Add A Note To This Order]]></value>
+      <value><![CDATA[Add A Note To This bestelling]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>address_book_entries_title</key>
-      <value><![CDATA[Address Book Entries]]></value>
+      <value><![CDATA[adresboek Entries]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_shipping_destination</key>
-      <value><![CDATA[Please select the preferred shipping address if the items in this order are to be delivered elsewhere.]]></value>
+      <value><![CDATA[Please select the preferred shipping address if the items in this bestelling are to be delivered elsewhere.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_billing_destination</key>
-      <value><![CDATA[Please select the preferred billing address if the invoice to this order is to be delivered elsewhere.]]></value>
+      <value><![CDATA[Please select the preferred billing address if the invoice to this bestelling is to be delivered elsewhere.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1030,7 +1030,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>new_shipping_address</key>
-      <value><![CDATA[Please use the following form to create a new shipping address to use for this order.]]></value>
+      <value><![CDATA[Please use the following form to create a new shipping address to use for this bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1040,7 +1040,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>new_billing_address</key>
-      <value><![CDATA[Please use the following form to create a new billing address to use for this order.]]></value>
+      <value><![CDATA[Please use the following form to create a new billing address to use for this bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1050,12 +1050,12 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>selected_billing_destination</key>
-      <value><![CDATA[This is the currently selected billing address where the invoice to this order will be delivered to.]]></value>
+      <value><![CDATA[This is the currently selected billing address where the invoice to this bestelling will be delivered to.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_billing_destination</key>
-      <value><![CDATA[Please choose from your address book where you would like the invoice to be sent to.]]></value>
+      <value><![CDATA[Please choose from your adresboek where you would like the invoice to be sent to.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1080,7 +1080,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_confirmation</key>
-      <value><![CDATA[to confirm this order.]]></value>
+      <value><![CDATA[to confirm this bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1115,12 +1115,12 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>order_conditions_description</key>
-      <value><![CDATA[Please acknowledge the terms and conditions bound to this order by ticking the following box. The terms and conditions can be read <a href="%s"><u>here</u></a>.]]></value>
+      <value><![CDATA[Please acknowledge the terms and conditions bound to this bestelling by ticking the following box. The terms and conditions can be read <a href="%s"><u>here</u></a>.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_acknowledge</key>
-      <value><![CDATA[I have read and agreed to the terms and conditions bound to this order.]]></value>
+      <value><![CDATA[I have read and agreed to the terms and conditions bound to this bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1130,12 +1130,12 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>choose_payment_method</key>
-      <value><![CDATA[Please select the preferred payment method to use on this order.]]></value>
+      <value><![CDATA[Please select the preferred payment method to use on this bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>only_one_payment_method_available</key>
-      <value><![CDATA[This is currently the only payment method available to use on this order.]]></value>
+      <value><![CDATA[This is currently the only payment method available to use on this bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1145,7 +1145,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>free_shipping_description</key>
-      <value><![CDATA[Free shipping for orders over %s]]></value>
+      <value><![CDATA[Free shipping for bestellingen over %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1190,7 +1190,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>order_comments_title</key>
-      <value><![CDATA[Comments Added To Your Order]]></value>
+      <value><![CDATA[Comments Added To Your bestelling]]></value>
       <group>order</group>
     </definition>
     <definition>
@@ -1200,12 +1200,12 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>email_order_subject</key>
-      <value><![CDATA[Order Process]]></value>
+      <value><![CDATA[Bestelling Process]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_order_number</key>
-      <value><![CDATA[Order Number: %s]]></value>
+      <value><![CDATA[Bestelling Number: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1215,12 +1215,12 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>email_order_date_ordered</key>
-      <value><![CDATA[Date Ordered: %s]]></value>
+      <value><![CDATA[Date bestellinged: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_status</key>
-      <value><![CDATA[Order Status: %s]]></value>
+      <value><![CDATA[Bestelling Status: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1250,7 +1250,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>order_processed_successfully</key>
-      <value><![CDATA[Your order has been successfully processed! Your products will arrive at their destination within 2-5 working days.]]></value>
+      <value><![CDATA[Your bestelling has been successfully processed! Your products will arrive at their destination within 2-5 working days.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1260,7 +1260,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>view_order_history</key>
-      <value><![CDATA[You can view your order history by going to the <a href="%s">My Account</a> page and by clicking on <a href="%s">History</a>.]]></value>
+      <value><![CDATA[You can view your bestelling history by going to the <a href="%s">My klantenprofiel</a> page and by clicking on <a href="%s">History</a>.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1385,7 +1385,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>ssl_check</key>
-      <value><![CDATA[We have detected that your browser has generated a different SSL Session ID used throughout our secure pages.<br /><br />For security measures you will need to logon to your account again to continue shopping online.<br /><br />Some browsers such as Konqueror 3.1 does not have the capability of generating a secure SSL Session ID automatically which we require. If you use such a browser, we recommend switching to another browser such as <a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>, <a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>, or <a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>, to continue your online shopping experience.<br /><br />We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.<br /><br />Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.]]></value>
+      <value><![CDATA[We have detected that your browser has generated a different SSL Session ID used throughout our secure pages.<br /><br />For security measures you will need to logon to your klantenprofiel again to continue shopping online.<br /><br />Some browsers such as Konqueror 3.1 does not have the capability of generating a secure SSL Session ID automatically which we require. If you use such a browser, we recommend switching to another browser such as <a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>, <a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>, or <a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>, to continue your online shopping experience.<br /><br />We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.<br /><br />Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1425,22 +1425,22 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>sitemap_account</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Mijn klantenprofiel]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_edit</key>
-      <value><![CDATA[Account Information]]></value>
+      <value><![CDATA[klantenprofiel Information]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_address_book</key>
-      <value><![CDATA[Address Book]]></value>
+      <value><![CDATA[adresboek]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_history</key>
-      <value><![CDATA[Order History]]></value>
+      <value><![CDATA[Bestelling History]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1495,7 +1495,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>ssl_check_box_contents</key>
-      <value><![CDATA[We validate the SSL Session ID automatically generated by your browser on every secure page request made to this server.<br /><br />This validation assures that it is you who is navigating on this site with your account and not somebody else.]]></value>
+      <value><![CDATA[We validate the SSL Session ID automatically generated by your browser on every secure page request made to this server.<br /><br />This validation assures that it is you who is navigating on this site with your klantenprofiel and not somebody else.]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1821,17 +1821,17 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>error_search_invalid_from_date</key>
-      <value><![CDATA[Invalid From Date.]]></value>
+      <value><![CDATA[Invalid From datum.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_to_date</key>
-      <value><![CDATA[Invalid To Date.]]></value>
+      <value><![CDATA[Invalid To datum.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_to_date_less_than_from_date</key>
-      <value><![CDATA[To Date must be greater than or equal to From Date.]]></value>
+      <value><![CDATA[To datum must be greater than or equal to From datum.]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1866,23 +1866,23 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>js_no_payment_module_selected</key>
-      <value><![CDATA[* Please select a payment method for your order.]]></value>
+      <value><![CDATA[* Please select a payment method for your bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_no_payment_module_selected</key>
-      <value><![CDATA[Please select a payment method for your order.]]></value>
+      <value><![CDATA[Please select a payment method for your bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_conditions_not_accepted</key>
-      <value><![CDATA[Please confirm the terms and conditions bound to this order by ticking the box below.]]></value>
+      <value><![CDATA[Please confirm the terms and conditions bound to this bestelling by ticking the box below.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_privacy_statement_not_accepted</key>
       <value><![CDATA[Please confirm the privacy statement by ticking the box below.]]></value>
-      <group>account</group>
+      <group>klantenprofiel</group>
     </definition>
     <definition>
       <key>field_customer_gender</key>
@@ -1921,7 +1921,7 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_date_of_birth_error</key>
-      <value><![CDATA[Your Date of Birth must be set correctly.]]></value>
+      <value><![CDATA[Your datum of Birth must be set correctly.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1941,7 +1941,7 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_email_address_exists_error</key>
-      <value><![CDATA[Your E-Mail Address already exists in our records - please log in with the e-mail address or create an account with a different address.]]></value>
+      <value><![CDATA[Your E-Mail Address already exists in our records - please log in with the e-mail address or create an klantenprofiel with a different address.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2051,12 +2051,12 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_password_error</key>
-      <value><![CDATA[Your Password must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Your wachtwoord must contain a minimum of %s characters.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_mismatch_with_confirmation</key>
-      <value><![CDATA[The Password Confirmation must match your Password.]]></value>
+      <value><![CDATA[The wachtwoord Confirmation must match your wachtwoord.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2066,27 +2066,27 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_password_current</key>
-      <value><![CDATA[Current Password:]]></value>
+      <value><![CDATA[Current wachtwoord:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current_error</key>
-      <value><![CDATA[Your Password must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Your wachtwoord must contain a minimum of %s characters.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new</key>
-      <value><![CDATA[New Password:]]></value>
+      <value><![CDATA[New wachtwoord:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_error</key>
-      <value><![CDATA[Your new Password must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Your new wachtwoord must contain a minimum of %s characters.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_mismatch_with_confirmation_error</key>
-      <value><![CDATA[The Password Confirmation must match your new Password.]]></value>
+      <value><![CDATA[The wachtwoord Confirmation must match your new wachtwoord.]]></value>
       <group>general</group>
     </definition>
     <definition>
