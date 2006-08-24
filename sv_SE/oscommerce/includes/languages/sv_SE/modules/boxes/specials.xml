@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>box_specials_heading</key>
-      <value><![CDATA[Specialerbjudanden]]></value>
+      <value><![CDATA[Kampanjer]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

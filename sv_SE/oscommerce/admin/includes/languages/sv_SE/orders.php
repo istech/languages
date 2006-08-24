@@ -42,7 +42,7 @@ define('ENTRY_SHIP_TO', 'SKICKAD TILL:');
 define('ENTRY_SHIPPING_ADDRESS', 'Leveransadress:');
 define('ENTRY_BILLING_ADDRESS', 'Fakureringsadress:');
 define('ENTRY_PAYMENT_METHOD', 'Betalningsform:');
-define('ENTRY_CREDIT_CARD_TYPE', 'Kreditkort:');
+define('ENTRY_CREDIT_CARD_TYPE', 'Kreditkorttyp:');
 define('ENTRY_CREDIT_CARD_OWNER', 'Kreditkortsinnehavare:');
 define('ENTRY_CREDIT_CARD_NUMBER', 'Kreditkortsnummer:');
 define('ENTRY_CREDIT_CARD_EXPIRES', 'Kreditkortets giltlighetstid:');

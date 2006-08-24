@@ -34,8 +34,8 @@ define('TEXT_MANUFACTURERS_URL', 'Tillverkarens URL:');
 
 define('TEXT_DELETE_INTRO', 'Är du säker att du vill ta bort denna tillverkaren?');
 define('TEXT_DELETE_IMAGE', 'Ta bort tillverkarens bild?');
-define('TEXT_DELETE_PRODUCTS', 'ta bort varorna från denna tillverkare? (inklusive produktkommentarer, specialvaror, kommande varor)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>VARNING:</b> Det finns fortfarande %s varor länkade till tillverkaren!');
+define('TEXT_DELETE_PRODUCTS', 'ta bort produkterna från denna tillverkare? (inklusive produktkommentarer, specialerbjudande, kommande produkter)');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>VARNING:</b> Det finns fortfarande %s produkter länkade till tillverkaren!');
 
 define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Fel: Jag kan ej skriva till denna mapp. Var vänlig och ändra användarrättigheterna vid: %s');
 define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Fel: Mappen existerar ej: %s');

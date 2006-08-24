@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -9,27 +9,6 @@
 
   Released under the GNU General Public License
 */
-
-define('DATE_FORMAT_SHORT', '%Y/%m/%d');  // this is used for strftime()
-define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
-define('DATE_FORMAT', 'Y/m/d'); // this is used for date()
-define('PHP_DATE_TIME_FORMAT', 'Y/m/d H:i:s'); // this is used for date()
-define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
-
-////
-// Return date in raw format
-// $date should be in format mm/dd/yyyy
-// raw date is in format YYYYMMDD, or DDMMYYYY
-function tep_date_raw($date, $reverse = false) {
-  if ($reverse) {
-    return substr($date, 3, 2) . substr($date, 0, 2) . substr($date, 6, 4);
-  } else {
-    return substr($date, 6, 4) . substr($date, 0, 2) . substr($date, 3, 2);
-  }
-}
-
-define('NUMERIC_DECIMAL_SEPARATOR', ',');
-define('NUMERIC_THOUSANDS_SEPARATOR', '.');
 
 // page title
 define('TITLE', 'osCommerce');
@@ -59,7 +38,7 @@ define('BOX_CONFIGURATION_MYSTORE', 'Min Affär');
 define('BOX_CONFIGURATION_LOGGING', 'Loggning');
 define('BOX_CONFIGURATION_CACHE', 'Cache');
 define('BOX_CONFIGURATION_SERVICES', 'Tjänster');
-define('BOX_CONFIGURATION_CREDIT_CARD_TYPES', 'Kreditkort');
+define('BOX_CONFIGURATION_CREDIT_CARD_TYPES', 'Kreditkortstyper');
 
 // modules box text in includes/boxes/modules.php
 define('BOX_HEADING_MODULES', 'Moduler');
@@ -74,7 +53,7 @@ define('BOX_CATALOG_PRODUCTS', 'Produkter');
 define('BOX_CATALOG_CATEGORIES_PRODUCTS_ATTRIBUTES', 'Produktattribut');
 define('BOX_CATALOG_MANUFACTURERS', 'Tillverkare');
 define('BOX_CATALOG_REVIEWS', 'Kommentarer');
-define('BOX_CATALOG_SPECIALS', 'Specialerbjudande');
+define('BOX_CATALOG_SPECIALS', 'Kampanjer');
 define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Kommande Varor');
 
 // customers box text in includes/boxes/customers.php
@@ -196,8 +175,8 @@ define('IMAGE_ICON_STATUS_GREEN', 'Aktiv');
 define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Aktivera');
 define('IMAGE_ICON_STATUS_RED', 'Inaktiv');
 define('IMAGE_ICON_STATUS_RED_LIGHT', 'Inaktivera');
-define('IMAGE_ICON_INFO', 'Info');
 define('IMAGE_IMPORT', 'Importera');
+define('IMAGE_INFO', 'Information');
 define('IMAGE_INSERT', 'Infoga');
 define('IMAGE_LOCK', 'Lås');
 define('IMAGE_LOGIN', 'Logga in');
@@ -262,7 +241,6 @@ define('ICON_FILES', 'Filer');
 define('ICON_ORDERS', 'Ordrar');
 define('ICON_PRODUCTS', 'Produkter');
 
-// constants for use in tep_prev_next_display function
 define('TEXT_RESULT_PAGE', 'Sida&nbsp;%s&nbsp;av&nbsp;%d');
 define('TEXT_DISPLAY_NUMBER_OF_ADMINISTRATORS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> administratörer)');
 define('TEXT_DISPLAY_NUMBER_OF_BANNERS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> reklambanderoller)');
@@ -281,7 +259,7 @@ define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES_GROUPS', 'Visar <b>%d</b> till
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> produkter)');
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_EXPECTED', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kommande produkter)');
 define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> produktkommentarer)');
-define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> produkter till specialpris)');
+define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> specialerbjudande)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skatteklasser)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skattezoner)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skattesatser)');

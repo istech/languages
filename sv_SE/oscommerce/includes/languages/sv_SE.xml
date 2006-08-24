@@ -1470,7 +1470,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>sitemap_specials</key>
-      <value><![CDATA[Specialerbjudanden]]></value>
+      <value><![CDATA[Kampanjer]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1505,7 +1505,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>breadcrumb_specials</key>
-      <value><![CDATA[Specialerbjudanden]]></value>
+      <value><![CDATA[Kampanjer]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1540,7 +1540,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>specials_heading</key>
-      <value><![CDATA[Specialerbjudanden]]></value>
+      <value><![CDATA[Kampanjer]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -2107,6 +2107,11 @@ Din vänn, %s, tror att du är intresserad av %s från %s.]]></value>
     <definition>
       <key>credit_card_number_error</key>
       <value><![CDATA[Kreditkortsnummret är ogiltligt.<br />Var vänlig och kontrollera nummret och försök igen.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>maximum_file_upload_size</key>
+      <value><![CDATA[(Max: %s)]]></value>
       <group>general</group>
     </definition>
   </definitions>

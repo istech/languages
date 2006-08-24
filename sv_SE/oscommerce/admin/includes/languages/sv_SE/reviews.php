@@ -23,7 +23,7 @@ define('ENTRY_PRODUCT', 'Produkter:');
 define('ENTRY_FROM', 'Från:');
 define('ENTRY_DATE', 'Datum:');
 define('ENTRY_REVIEW', 'Kommentar:');
-define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTERINGAR:</b></font></small>&nbsp;HTML översätts ej!&nbsp;');
+define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTERING:</b></font></small>&nbsp;HTML översätts ej!&nbsp;');
 define('ENTRY_RATING', 'Betyg:');
 
 define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Är du säker att du vill ta bort denna kommentar?');
