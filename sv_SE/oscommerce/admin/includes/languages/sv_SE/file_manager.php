@@ -18,15 +18,15 @@
   define('TABLE_HEADING_USER', 'Användare');
   define('TABLE_HEADING_GROUP', 'Grupp');
   define('TABLE_HEADING_WRITEABLE', 'Skrivbar');
-  define('TABLE_HEADING_LAST_MODIFIED', 'Senast Ändrad');
+  define('TABLE_HEADING_LAST_MODIFIED', 'Senast ändrad');
   define('TABLE_HEADING_ACTION', 'Funktion');
 
   define('TEXT_INFO_HEADING_UPLOAD', 'Uppladdning');
   define('TEXT_FILE_NAME', 'Filnamn:');
   define('TEXT_FILE_SIZE', 'Storlek:');
   define('TEXT_FILE_CONTENTS', 'Innehåll:');
-  define('TEXT_LAST_MODIFIED', 'Senast Ändrad:');
-  define('TEXT_NEW_FOLDER', 'Ny Mapp');
+  define('TEXT_LAST_MODIFIED', 'Senast ändrad:');
+  define('TEXT_NEW_FOLDER', 'Ny mapp');
   define('TEXT_NEW_FOLDER_INTRO', 'Skriv in namnet på den nya mappen:');
   define('TEXT_DELETE_INTRO', 'Är du säker på att du vill ta bort denna fil?');
   define('TEXT_UPLOAD_INTRO', 'Var vänlig och välj fil att ladda upp.');

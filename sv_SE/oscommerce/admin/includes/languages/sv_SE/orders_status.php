@@ -21,9 +21,9 @@ define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna orders
 
 define('TEXT_INFO_ORDERS_STATUS_NAME', 'Orderstatus:');
 
-define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'Ny Orderstatus');
+define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'Ny orderstatus');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standard orderstatusen kan ej tas bort. Var vänlig och välj en annan orderstatus som standard och försök igen.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standardorderstatusen kan ej tas bort. Var vänlig och välj en annan orderstatus som standard och försök igen.');
 define('TEXT_INFO_DELETE_PROHIBITED_ORDERS', 'Varning: Denna orderstatus är för närvarande använd i %s ordrar och kan ej tas bort.');
 define('TEXT_INFO_DELETE_PROHIBITED_HISTORY', 'Varning: Denna orderstatus är för närvarande använd i orderstatushistorik i %s ordrar och kan ej tas bort.');
 ?>

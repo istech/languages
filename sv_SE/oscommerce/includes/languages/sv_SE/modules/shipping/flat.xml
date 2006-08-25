@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>shipping_flat_title</key>
-      <value><![CDATA[Fast Avgift]]></value>
+      <value><![CDATA[Fast avgift]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_flat_description</key>
-      <value><![CDATA[Fast Avgift]]></value>
+      <value><![CDATA[Fast avgift]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_flat_method</key>
-      <value><![CDATA[Bästa Möjliga]]></value>
+      <value><![CDATA[Bästa möjliga]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

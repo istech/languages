@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_secpay_description</key>
-      <value><![CDATA[Kreditkort Test Info:<br /><br />CC#: 4444333322221111<br />Expiry: Any]]></value>
+      <value><![CDATA[Kreditkortstestinfo:<br /><br />CC#: 4444333322221111<br />Giltlighetstid: Vad som helst]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

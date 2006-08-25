@@ -29,15 +29,15 @@ define('ENTRY_RATING', 'Betyg:');
 define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Är du säker att du vill ta bort denna kommentar?');
 
 define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
-define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
+define('TEXT_INFO_LAST_MODIFIED', 'Senast ändrad:');
 define('TEXT_INFO_IMAGE_NONEXISTENT', 'BILD EXISTERAR EJ');
 define('TEXT_INFO_REVIEW_AUTHOR', 'Författare:');
 define('TEXT_INFO_REVIEW_RATING', 'Betyg:');
-define('TEXT_INFO_REVIEW_READ', 'Läs:');
+define('TEXT_INFO_REVIEW_READ', 'Läst:');
 define('TEXT_INFO_REVIEW_SIZE', 'Storlek:');
 define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Medelbetyg:');
 
-define('TEXT_OF_5_STARS', '%s av 5 Stjärnor!');
+define('TEXT_OF_5_STARS', '%s av 5 stjärnor!');
 define('TEXT_GOOD', '<small><font color="#ff0000"><b>BRA</b></font></small>');
 define('TEXT_BAD', '<small><font color="#ff0000"><b>DÅLIG</b></font></small>');
 define('TEXT_INFO_HEADING_DELETE_REVIEW', 'Ta bort kommentar');

@@ -27,9 +27,9 @@ define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Ny valuta');
 
 define('TEXT_INFO_CURRENCY_TITLE', 'Titel:');
 define('TEXT_INFO_CURRENCY_CODE', 'Kod:');
-define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Vänster Symbol:');
-define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Höger Symbol:');
-define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Antal Decimaler:');
+define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Vänstersymbol:');
+define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Högersymbol:');
+define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Antal decimaler:');
 define('TEXT_INFO_CURRENCY_VALUE', 'Värde:');
 
 define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . '<br /><small>(behöver en manuell updatering av valutans värde)</small>');

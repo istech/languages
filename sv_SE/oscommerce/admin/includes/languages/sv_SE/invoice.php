@@ -22,7 +22,7 @@ define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Total (ink)');
 
 define('ENTRY_SOLD_TO', 'SÅLD TILL:');
 define('ENTRY_SHIP_TO', 'SKICKAD TILL:');
-define('ENTRY_PAYMENT_METHOD', 'Betalningsätt:');
+define('ENTRY_PAYMENT_METHOD', 'Betalningform:');
 define('ENTRY_SUB_TOTAL', 'Sub-Total:');
 define('ENTRY_TAX', 'Skatt:');
 define('ENTRY_SHIPPING', 'Leverans:');

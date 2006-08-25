@@ -12,7 +12,7 @@
 
 define('HEADING_TITLE', 'Logga in');
 
-define('TEXT_INFO_HEADING_LOGIN', 'Logga In I Administrationsverktyget');
+define('TEXT_INFO_HEADING_LOGIN', 'Logga in i administrationsverktyget');
 
 define('TEXT_INFO_INTRO', 'Var vänlig och använd följande formulär för att logga in i administrationsverktyget.');
 

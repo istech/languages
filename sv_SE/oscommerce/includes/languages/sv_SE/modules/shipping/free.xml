@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>shipping_free_title</key>
-      <value><![CDATA[Fri Leverans]]></value>
+      <value><![CDATA[Fri leverans]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_free_description</key>
-      <value><![CDATA[Fri Leverans]]></value>
+      <value><![CDATA[Fri leverans]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_free_method</key>
-      <value><![CDATA[Bästa Möjliga]]></value>
+      <value><![CDATA[Bästa möjliga]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

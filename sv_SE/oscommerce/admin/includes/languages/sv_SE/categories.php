@@ -12,7 +12,7 @@
 
   define('HEADING_TITLE', 'Kategorier');
   define('HEADING_TITLE_SEARCH', 'Sök:');
-  define('HEADING_TITLE_GOTO', 'Gå Till:');
+  define('HEADING_TITLE_GOTO', 'Gå till:');
 
   define('TABLE_HEADING_CATEGORIES', 'Kategorier');
   define('TABLE_HEADING_ACTION', 'Funktion');
@@ -23,7 +23,7 @@
   define('TEXT_EDIT_CATEGORIES_IMAGE', 'Kategoribild:');
   define('TEXT_EDIT_SORT_ORDER', 'Sorteringsordning:');
 
-  define('TEXT_INFO_HEADING_NEW_CATEGORY', 'Ny Kategori');
+  define('TEXT_INFO_HEADING_NEW_CATEGORY', 'Ny kategori');
 
   define('TEXT_DELETE_CATEGORY_INTRO', 'Är du säker att du vill ta bort denna kategori?');
   define('TEXT_DELETE_WARNING_CHILDS', '<b>VARNING:</b> Det finns fortfarande %s underkategorier länkade till denna kategori!');
@@ -37,7 +37,7 @@
   define('TEXT_CATEGORIES_IMAGE', 'Kategoribild:');
   define('TEXT_SORT_ORDER', 'Sorteringsordning:');
 
-  define('EMPTY_CATEGORY', 'Tom Kategori');
+  define('EMPTY_CATEGORY', 'Tom kategori');
 
   define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Fel: Kategorin kan ej flyttas till underkatalog.');
 ?>

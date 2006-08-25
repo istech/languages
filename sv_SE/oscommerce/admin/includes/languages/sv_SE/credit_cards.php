@@ -18,10 +18,10 @@ define('TABLE_HEADING_SORT_ORDER', 'Sorteringsordning');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_HEADING_NEW_CREDIT_CARD', 'Nytt Kreditkort');
+define('TEXT_HEADING_NEW_CREDIT_CARD', 'Nytt kreditkort');
 
 define('TEXT_CREDIT_CARD_NAME', 'Kortnamn:');
-define('TEXT_CREDIT_CARD_PATTERN', 'Kort Nummer Mönster:');
+define('TEXT_CREDIT_CARD_PATTERN', 'Kortnummermönster:');
 define('TEXT_SORT_ORDER', 'Sorteringsordning:');
 define('TEXT_STATUS', 'Status:');
 

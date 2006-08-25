@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_IMAGE_CHECK', 'Kontrollera Bilder');
+define('MODULE_IMAGE_CHECK', 'Kontrollera bilder');
 
 define('MODULE_IMAGE_CHECK_GROUPS', 'Grupper');
-define('MODULE_IMAGE_CHECK_RESULTS', 'Existerande Bilder / Totalt Bilder');
+define('MODULE_IMAGE_CHECK_RESULTS', 'Existerande bilder / Totalt bilder');
 ?>

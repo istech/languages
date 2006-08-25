@@ -12,7 +12,7 @@
 
 define('HEADING_TITLE_MODULES_PAYMENT', 'Betalningsmoduler');
 define('HEADING_TITLE_MODULES_SHIPPING', 'Leveransmoduler');
-define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Order Total Moduler');
+define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Order total moduler');
 
 define('TABLE_HEADING_MODULES', 'Moduler');
 define('TABLE_HEADING_SORT_ORDER', 'Sortingsordning');

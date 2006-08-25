@@ -13,7 +13,7 @@
     </definition>
     <definition>
       <key>box_reviews_stars_rating</key>
-      <value><![CDATA[%s av 5 Stjärnor!]]></value>
+      <value><![CDATA[%s av 5 stjärnor!]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

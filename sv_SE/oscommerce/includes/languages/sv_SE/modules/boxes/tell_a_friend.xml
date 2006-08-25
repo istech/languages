@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>box_tell_a_friend_heading</key>
-      <value><![CDATA[Tipsa en Vän]]></value>
+      <value><![CDATA[Tipsa en vän]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>

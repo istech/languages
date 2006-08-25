@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>payment_saferpay_vt_title</key>
-      <value><![CDATA[Saferpay Virtual Terminal]]></value>
+      <value><![CDATA[Saferpay virtual terminal]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_vt_description</key>
-      <value><![CDATA[Saferpay Virtual Terminal Transaktioner]]></value>
+      <value><![CDATA[Saferpay virtual terminal transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

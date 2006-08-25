@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>payment_cod_title</key>
-      <value><![CDATA[Kontant vid Leverans]]></value>
+      <value><![CDATA[Kontant vid leverans]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cod_description</key>
-      <value><![CDATA[Kontant vid Leverans]]></value>
+      <value><![CDATA[Kontant vid leverans]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cod_method_title</key>
-      <value><![CDATA[Kontant vid Leverans]]></value>
+      <value><![CDATA[Kontant vid leverans]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_2checkout_description</key>
-      <value><![CDATA[Kreditkort Test Info:<br /><br />CC#: 4111111111111111<br />Giltlighetstid: Vad som helst]]></value>
+      <value><![CDATA[Kreditkortstestinfo:<br /><br />CC#: 4111111111111111<br />Giltlighetstid: Vad som helst]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -28,7 +28,7 @@
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_last_name</key>
-      <value><![CDATA[Kreditkortsinnehavarens Efternamn:]]></value>
+      <value><![CDATA[Kreditkortsinnehavarens efternamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -38,12 +38,12 @@
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_expiry_date</key>
-      <value><![CDATA[Kreditkortets Giltlighetstid:]]></value>
+      <value><![CDATA[Kreditkortets giltlighetstid:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_checknumber</key>
-      <value><![CDATA[Kreditkortets Kontrollnummer:]]></value>
+      <value><![CDATA[Kreditkortets kontrollnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

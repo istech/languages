@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>new_products_title</key>
-      <value><![CDATA[Nya Produkter]]></value>
+      <value><![CDATA[Nya produkter]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>

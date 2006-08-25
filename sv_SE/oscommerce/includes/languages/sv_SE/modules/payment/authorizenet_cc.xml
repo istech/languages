@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>payment_authorizenet_cc_title</key>
-      <value><![CDATA[Authorize.net Kreditkort]]></value>
+      <value><![CDATA[Authorize.net kreditkort]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_description</key>
-      <value><![CDATA[Authorize.net Kreditkortstransaktioner]]></value>
+      <value><![CDATA[Authorize.net kreditkortstransaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -33,7 +33,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_cvc</key>
-      <value><![CDATA[Kreditkortets Kontrollnummer (CVC):]]></value>
+      <value><![CDATA[Kreditkortets kontrollnummer (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -48,12 +48,12 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_not_accepted</key>
-      <value><![CDATA[* Detta kreditkortet är ej accepterat. Var vänlig och försök med ett annat kort eller betalsätt.]]></value>
+      <value><![CDATA[* Detta kreditkortet är ej accepterat. Var vänlig och försök med ett annat kort eller betalform.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_cvc</key>
-      <value><![CDATA[* Kreditkortets Kontrollnummer (CVC) måste vara 3 tecken.]]></value>
+      <value><![CDATA[* Kreditkortets kontrollnummer (CVC) måste vara 3 tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -73,12 +73,12 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_expired</key>
-      <value><![CDATA[Kreditkortet är ej giltligt. Var vänlig och försök med ett annat kort eller betalsätt.]]></value>
+      <value><![CDATA[Kreditkortet är ej giltligt. Var vänlig och försök med ett annat kort eller betalform.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_unknown_card</key>
-      <value><![CDATA[Detta är ett okänt kreditkort som inte kan användas. Var vänlig och försök med ett annat kort eller betalsätt.]]></value>
+      <value><![CDATA[Detta är ett okänt kreditkort som inte kan användas. Var vänlig och försök med ett annat kort eller betalform.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

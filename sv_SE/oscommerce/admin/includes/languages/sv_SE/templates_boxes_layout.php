@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Mall Boxdesign');
+define('HEADING_TITLE', 'Mall boxdesign');
 
 define('TABLE_HEADING_BOXES', 'Boxar');
 define('TABLE_HEADING_TEMPLATES', 'Mallar');
@@ -20,16 +20,16 @@ define('TABLE_HEADING_GROUP', 'Grupp');
 define('TABLE_HEADING_SORT_ORDER', 'Sorteringsordning');
 define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'Ny Boxdesign');
+define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'Ny boxdesign');
 
 define('TEXT_INFO_BOXES', 'Boxar:');
 define('TEXT_INFO_PAGES', 'Sidoinnehåll:');
 define('TEXT_INFO_PAGE_SPECIFIC', 'Sidospecifik');
 define('TEXT_INFO_GROUP', 'Grupp:');
-define('TEXT_INFO_GROUP_NEW', 'Ny Grupp:');
+define('TEXT_INFO_GROUP_NEW', 'Ny grupp:');
 define('TEXT_INFO_SORT_ORDER', 'Sorteringsordning:');
 
-define('TEXT_PLEASE_SELECT', '--Var Vänlig Välj--');
+define('TEXT_PLEASE_SELECT', '--Var vänlig välj--');
 
 define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya boxdesignen med relevanta data');
 define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');

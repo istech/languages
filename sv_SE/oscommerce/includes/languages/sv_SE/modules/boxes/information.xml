@@ -13,17 +13,17 @@
     </definition>
     <definition>
       <key>box_information_conditions</key>
-      <value><![CDATA[Användningsvillkor]]></value>
+      <value><![CDATA[AnvÃ¤ndningsvillkor]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_information_shipping</key>
-      <value><![CDATA[Leverans och Retur]]></value>
+      <value><![CDATA[Leverans och retur]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_information_contact</key>
-      <value><![CDATA[Kontakta Oss]]></value>
+      <value><![CDATA[Kontakta oss]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>

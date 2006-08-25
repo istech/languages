@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_description</key>
-      <value><![CDATA[Authorize.net eCheck Transaktioner]]></value>
+      <value><![CDATA[Authorize.net eCheck transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -53,7 +53,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_routing_code</key>
-      <value><![CDATA[Routing Kod:]]></value>
+      <value><![CDATA[Routing kod:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -108,7 +108,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_routing_code</key>
-      <value><![CDATA[Clearingsnummret måste innehålla %s nummers. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
+      <value><![CDATA[Clearingsnummret måste innehålla %s nummer. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

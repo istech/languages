@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_ORDERS_TITLE', 'Senaste Ordrar');
+  define('MODULE_SUMMARY_ORDERS_TITLE', 'Senaste ordrar');
 
   define('MODULE_SUMMARY_ORDERS_HEADING_ORDERS', 'Ordrar');
   define('MODULE_SUMMARY_ORDERS_HEADING_TOTAL', 'Total');

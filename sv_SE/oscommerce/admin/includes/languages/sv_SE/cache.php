@@ -10,11 +10,11 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Cache Kontroll');
+  define('HEADING_TITLE', 'Cachekontroll');
 
-  define('TABLE_HEADING_CACHE', 'Cache Blockeringar');
+  define('TABLE_HEADING_CACHE', 'Cacheblockeringar');
   define('TABLE_HEADING_TOTAL', 'Total');
-  define('TABLE_HEADING_LAST_MODIFIED', 'Senast Ändrad');
+  define('TABLE_HEADING_LAST_MODIFIED', 'Senast ändrad');
   define('TABLE_HEADING_ACTION', 'Funktion');
 
   define('TEXT_FILE_DOES_NOT_EXIST', 'Fil existerar ej');

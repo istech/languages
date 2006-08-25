@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_STATISTICS_PRODUCTS_VIEWED_TITLE', 'Mest Visade Produkter');
+define('MODULE_STATISTICS_PRODUCTS_VIEWED_TITLE', 'Mest visade produkter');
 
 define('MODULE_STATISTICS_PRODUCTS_VIEWED_TABLE_HEADING_NUMBER', 'Nr.');
 define('MODULE_STATISTICS_PRODUCTS_VIEWED_TABLE_HEADING_PRODUCTS', 'Produkter');

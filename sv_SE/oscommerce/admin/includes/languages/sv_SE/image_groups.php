@@ -23,9 +23,9 @@ define('TEXT_IMAGE_GROUP_TITLE', 'Titel:');
 define('TEXT_IMAGE_GROUP_CODE', 'Kod:');
 define('TEXT_IMAGE_GROUP_WIDTH', 'Bredd:');
 define('TEXT_IMAGE_GROUP_HEIGHT', 'Höjd:');
-define('TEXT_IMAGE_GROUP_FORCE_SIZE', 'Tvinga Storlek:');
+define('TEXT_IMAGE_GROUP_FORCE_SIZE', 'Tvinga storlek:');
 
-define('TEXT_INFO_HEADING_NEW_IMAGE_GROUP', 'Ny Bildgrupp');
+define('TEXT_INFO_HEADING_NEW_IMAGE_GROUP', 'Ny bildgrupp');
 
 define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standard bildgruppen kan ej tas bort. Var vänlig och välj en annan grupp som standard och försök igen.');
 ?>

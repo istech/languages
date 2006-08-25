@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>box_whats_new_heading</key>
-      <value><![CDATA[Nya Produkter]]></value>
+      <value><![CDATA[Nya produkter]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>
