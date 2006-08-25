@@ -10,27 +10,6 @@
   Released under the GNU General Public License
 */
 
-define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
-define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
-define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
-define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // this is used for date()
-define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
-
-////
-// Return date in raw format
-// $date should be in format dd/mm/yyyy
-// raw date is in format YYYYMMDD, or DDMMYYYY
-function tep_date_raw($date, $reverse = false) {
-  if ($reverse) {
-    return substr($date, 3, 2) . substr($date, 0, 2) . substr($date, 6, 4);
-  } else {
-    return substr($date, 6, 4) . substr($date, 0, 2) . substr($date, 3, 2);
-  }
-}
-
-define('NUMERIC_DECIMAL_SEPARATOR', ',');
-define('NUMERIC_THOUSANDS_SEPARATOR', '.');
-
 // page title
 define('TITLE', 'osCommerce');
 
@@ -196,8 +175,8 @@ define('IMAGE_ICON_STATUS_GREEN', 'Activo');
 define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Fijar Activo');
 define('IMAGE_ICON_STATUS_RED', 'Inactivo');
 define('IMAGE_ICON_STATUS_RED_LIGHT', 'Fijar Inactivo');
-define('IMAGE_ICON_INFO', 'Información');
 define('IMAGE_IMPORT', 'Importar');
+define('IMAGE_INFO', 'Información');
 define('IMAGE_INSERT', 'Insertar');
 define('IMAGE_LOCK', 'Cerrar');
 define('IMAGE_LOGIN', 'Ingresar');
@@ -262,7 +241,6 @@ define('ICON_FILES', 'Archivos');
 define('ICON_ORDERS', 'Pedidos');
 define('ICON_PRODUCTS', 'Productos');
 
-// constants for use in tep_prev_next_display function
 define('TEXT_RESULT_PAGE', 'Page&nbsp;%s&nbsp;of&nbsp;%d');
 define('TEXT_DISPLAY_NUMBER_OF_ADMINISTRATORS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> administradores)');
 define('TEXT_DISPLAY_NUMBER_OF_BANNERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> banderas)');
@@ -320,6 +298,4 @@ define('WARNING_FILE_UPLOADS_DISABLED', 'Advertencia: Los archivos subidos se in
 define('SUCCESS_DB_ROWS_UPDATED', 'Exito: Entrada actualizada con éxito!');
 define('WARNING_DB_ROWS_NOT_UPDATED', 'Advertencia: Entrada no sera actualizada debido a los datos contentidos son iguales.');
 define('ERROR_DB_ROWS_NOT_UPDATED', 'Error: Entrada no actualizada debido a un error.');
-
-define('MAXIMUM_FILE_UPLOAD_SIZE', '(Max: %s)');
 ?>

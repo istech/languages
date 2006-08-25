@@ -259,7 +259,7 @@ define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES_GROUPS', 'Visar <b>%d</b> till
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> produkter)');
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_EXPECTED', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kommande produkter)');
 define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> produktkommentarer)');
-define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> specialerbjudande)');
+define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kampanjer)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skatteklasser)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skattezoner)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skattesatser)');
@@ -296,6 +296,6 @@ define('WARNING_NO_FILE_UPLOADED', 'Varning: Ingen fil uppladdad.');
 define('WARNING_FILE_UPLOADS_DISABLED', 'Varning: Uppladdning av filer är avaktiverat i php.ini konfigurationsfil.');
 
 define('SUCCESS_DB_ROWS_UPDATED', 'Utfört: Post updaterad!');
-define('WARNING_DB_ROWS_NOT_UPDATED', 'Varning: Post ej updaterad på grund av att innehållet är det samma.');
+define('WARNING_DB_ROWS_NOT_UPDATED', 'Varning: Post ej updaterad på grund av att innehållet är detsamma.');
 define('ERROR_DB_ROWS_NOT_UPDATED', 'Fel: Post ej updaterad på grund av ett fel.');
 ?>
