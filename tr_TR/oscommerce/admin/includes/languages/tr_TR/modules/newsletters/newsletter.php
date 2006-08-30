@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_NEWSLETTER_NEWSLETTER_TITLE', 'Newsletter');
+  define('MODULE_NEWSLETTER_NEWSLETTER_TITLE', 'Haber Postası');
 
-  define('MODULE_NEWSLETTER_NEWSLETTER_TEXT_TOTAL_RECIPIENTS', 'Recipients receiving newsletter: %s');
+  define('MODULE_NEWSLETTER_NEWSLETTER_TEXT_TOTAL_RECIPIENTS', 'Haber Postası alıcılarından Kabul Edenler: %s');
 ?>

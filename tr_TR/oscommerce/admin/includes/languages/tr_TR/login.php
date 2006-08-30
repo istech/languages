@@ -10,12 +10,12 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Login');
+define('HEADING_TITLE', 'Giriş');
 
-define('TEXT_INFO_HEADING_LOGIN', 'Log Into The Administration Tool');
+define('TEXT_INFO_HEADING_LOGIN', 'Yönetim Araçları içine gir');
 
-define('TEXT_INFO_INTRO', 'Please use the following form to log into the administration tool.');
+define('TEXT_INFO_INTRO', 'Lütfen takip eden formu kullanarak yönetim araçları içine giriniz.');
 
-define('TEXT_INFO_USER_NAME', 'Name:');
-define('TEXT_INFO_USER_PASSWORD', 'Password:');
+define('TEXT_INFO_USER_NAME', 'İsim:');
+define('TEXT_INFO_USER_PASSWORD', 'Parola:');
 ?>

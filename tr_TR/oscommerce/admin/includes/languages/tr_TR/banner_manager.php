@@ -10,79 +10,79 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Banner Manager');
+define('HEADING_TITLE', 'Reklam Yöneticisi');
 
-define('TABLE_HEADING_BANNERS', 'Banners');
-define('TABLE_HEADING_GROUPS', 'Groups');
-define('TABLE_HEADING_STATISTICS', 'Displays / Clicks');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_BANNERS', 'Reklamlar');
+define('TABLE_HEADING_GROUPS', 'Gruplar');
+define('TABLE_HEADING_STATISTICS', 'Görünenler / Tıklananlar');
+define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_BANNERS_TITLE', 'Banner Title:');
-define('TEXT_BANNERS_URL', 'Banner URL:');
-define('TEXT_BANNERS_GROUP', 'Banner Group:');
-define('TEXT_BANNERS_NEW_GROUP', ', or enter a new banner group below');
-define('TEXT_BANNERS_IMAGE', 'Image:');
-define('TEXT_BANNERS_IMAGE_LOCAL', ', or enter local file below');
-define('TEXT_BANNERS_IMAGE_TARGET', 'Image Target (Save To):');
-define('TEXT_BANNERS_HTML_TEXT', 'HTML Text:');
-define('TEXT_BANNERS_EXPIRES_ON', 'Expires On:');
-define('TEXT_BANNERS_OR_AT', ', or at');
-define('TEXT_BANNERS_IMPRESSIONS', 'impressions/views.');
-define('TEXT_BANNERS_SCHEDULED_AT', 'Scheduled At:');
-define('TEXT_BANNERS_STATUS', 'Status:');
-define('TEXT_BANNERS_BANNER_NOTE', '<b>Banner Notes:</b><ul><li>Use an image or HTML text for the banner - not both.</li><li>HTML Text has priority over an image</li></ul>');
-define('TEXT_BANNERS_INSERT_NOTE', '<b>Image Notes:</b><ul><li>Uploading directories must have proper user (write) permissions setup!</li><li>Do not fill out the \'Save To\' field if you are not uploading an image to the webserver (ie, you are using a local (serverside) image).</li><li>The \'Save To\' field must be an existing directory with an ending slash (eg, banners/).</li></ul>');
-define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Expiry Notes:</b><ul><li>Only one of the two fields should be submitted</li><li>If the banner is not to expire automatically, then leave these fields blank</li></ul>');
-define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Schedule Notes:</b><ul><li>If a schedule is set, the banner will be activated on that date.</li><li>All scheduled banners are marked as deactive until their date has arrived, to which they will then be marked active.</li></ul>');
+define('TEXT_BANNERS_TITLE', 'Reklam Başlığı:');
+define('TEXT_BANNERS_URL', 'Reklam URL:');
+define('TEXT_BANNERS_GROUP', 'Reklam Grubu:');
+define('TEXT_BANNERS_NEW_GROUP', ', yada aşağıya yeni bir reklam grubu gir.');
+define('TEXT_BANNERS_IMAGE', 'Resim:');
+define('TEXT_BANNERS_IMAGE_LOCAL', ', yada aşağıya yerel dosyayı gir.');
+define('TEXT_BANNERS_IMAGE_TARGET', 'Resim Hedefe (Kaydet):');
+define('TEXT_BANNERS_HTML_TEXT', 'HTML Yazı:');
+define('TEXT_BANNERS_EXPIRES_ON', 'Süre Bitiş Tarihi:');
+define('TEXT_BANNERS_OR_AT', ', veya ');
+define('TEXT_BANNERS_IMPRESSIONS', 'izlenimler/etkiler.');
+define('TEXT_BANNERS_SCHEDULED_AT', 'Tarife Ata:');
+define('TEXT_BANNERS_STATUS', 'Durumlar:');
+define('TEXT_BANNERS_BANNER_NOTE', '<b>Reklam Notları:</b><ul><li>Bu reklam için bir resim veya HTML metni kullanın - herikisi birden değil.</li><li>HTML Metni bir resimden daha önceliklidir.</li></ul>');
+define('TEXT_BANNERS_INSERT_NOTE', '<b>Resim Notları:</b><ul><li>Yukarı yüklenecek dizin kullanıcıya özel (yazma) iznine sahip olmadır! </li><li>Eğer bu web sunucusuna bir resim yukarı yüklemiyorsanız (önr: yerel (sunucu tarafında) bir resim kullanıyorsan) bu \'Hedefe Kaydet\' alanını doldurmayın.</li><li>Bu \'Hedefe Kaydet\' alanı bir düz yarma ile biten (örn: reklamlar/) bir dizin olmalıdır.</li></ul>');
+define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Süre Bitim Notları:</b><ul><li>iki alandan yalnız biri gönderilebilir.</li><li>Eğer bu reklamın otomatik süresi bitmiyorsa, o zaman bu alanları boş bırakın</li></ul>');
+define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Tarife Notları:</b><ul><li>Eğer bir tarife ayarlanırsa, bu reklam o tarihde aktif olacaktır.</li><li>Tüm tarifeli reklamlar kendi tarihlerine varıncaya kadar aktif degildir, sonra zamanı gelenler aktif işaretli olcaktır.</li></ul>');
 
-define('TEXT_BANNERS_DATE_ADDED', 'Date Added:');
-define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Scheduled At: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Expires At: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Expires At: <b>%s</b> impressions');
+define('TEXT_BANNERS_DATE_ADDED', 'Tarihinde Eklendi:');
+define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Tarifelendi: <b>%s</b>');
+define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Son Kullanma Süresi: <b>%s</b>');
+define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Son Kullanma Süresi: <b>%s</b> izlenim/etki');
 define('TEXT_BANNERS_STATUS_CHANGE', 'Status Change: %s');
 
 define('TEXT_BANNERS_DATA', 'D<br />A<br />T<br />A');
-define('TEXT_BANNERS_LAST_3_DAYS', 'Last 3 Days');
-define('TEXT_BANNERS_BANNER_VIEWS', 'Banner Views');
-define('TEXT_BANNERS_BANNER_CLICKS', 'Banner Clicks');
+define('TEXT_BANNERS_LAST_3_DAYS', 'Son 3 Gün');
+define('TEXT_BANNERS_BANNER_VIEWS', 'Reklam Gösterimleri');
+define('TEXT_BANNERS_BANNER_CLICKS', 'Reklam Tıklamaları');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new banner with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this banner?');
-define('TEXT_INFO_DELETE_IMAGE', 'Delete banner image');
+define('TEXT_INFO_INSERT_INTRO', 'Lütfen yeni reklam ile ilgili veri giriniz');
+define('TEXT_INFO_EDIT_INTRO', 'Lütfen gerekli tüm değişiklikleri yapınız');
+define('TEXT_INFO_DELETE_INTRO', 'Bu reklamı silmek istediğinie emin misiniz?');
+define('TEXT_INFO_DELETE_IMAGE', 'Reklam resimini sil');
 
-define('TEXT_INFO_HEADING_NEW_BANNER', 'New Banner');
+define('TEXT_INFO_HEADING_NEW_BANNER', 'Yeni Reklam');
 
-define('SUCCESS_BANNER_INSERTED', 'Success: The banner has been inserted.');
-define('SUCCESS_BANNER_UPDATED', 'Success: The banner has been updated.');
-define('SUCCESS_BANNER_REMOVED', 'Success: The banner has been removed.');
-define('SUCCESS_BANNER_STATUS_UPDATED', 'Success: The status of the banner has been updated.');
+define('SUCCESS_BANNER_INSERTED', 'Başarılı: Bu reklam eklendi.');
+define('SUCCESS_BANNER_UPDATED', 'Başarılı: Bu reklam güncellendi.');
+define('SUCCESS_BANNER_REMOVED', 'Başarılı: Bu reklam kaldırıldı..');
+define('SUCCESS_BANNER_STATUS_UPDATED', 'Başarılı: Bu reklamın durumu güncellendi.');
 
-define('ERROR_BANNER_TITLE_REQUIRED', 'Error: Banner title required.');
-define('ERROR_BANNER_GROUP_REQUIRED', 'Error: Banner group required.');
-define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: Target directory does not exist: %s');
-define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: Target directory is not writeable: %s');
-define('ERROR_IMAGE_DOES_NOT_EXIST', 'Error: Image does not exist.');
-define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Error: Image can not be removed.');
-define('ERROR_UNKNOWN_STATUS_FLAG', 'Error: Unknown status flag.');
+define('ERROR_BANNER_TITLE_REQUIRED', 'Hata: Reklam başlığı gerekli.');
+define('ERROR_BANNER_GROUP_REQUIRED', 'Hata: Reklam grubu gerekli.');
+define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Hata: Hedef dizin yok: %s');
+define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Hata: Hedef dizin yazılabilir değil: %s');
+define('ERROR_IMAGE_DOES_NOT_EXIST', 'Hata: Resim yok.');
+define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Hata: Resimi kaldırılamıyor.');
+define('ERROR_UNKNOWN_STATUS_FLAG', 'Hata: Bilinmeyen durum bayrağı.');
 
-define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Error: Graphs directory does not exist. Please create a \'graphs\' directory inside \'images\'.');
-define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Error: Graphs directory is not writeable.');
+define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Hata: Graphs dizini yok. Lütfen \'images\' dizini içinde bir \'graphs\' dizini yapın.');
+define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Hata: Graphs dizini yazılabilir değil.');
 
-define('TABLE_HEADING_SOURCE', 'Source');
-define('TABLE_HEADING_VIEWS', 'Views');
-define('TABLE_HEADING_CLICKS', 'Clicks');
+define('TABLE_HEADING_SOURCE', 'Kaynak');
+define('TABLE_HEADING_VIEWS', 'Gosterimler');
+define('TABLE_HEADING_CLICKS', 'Tıklamalar');
 
-define('TEXT_BANNERS_DAILY_STATISTICS', '%s Daily Statistics For %s %s');
-define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Monthly Statistics For %s');
-define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Yearly Statistics');
+define('TEXT_BANNERS_DAILY_STATISTICS', '%s Günlük İstatistikler için  %s %s');
+define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Aylık İstatistikler için %s');
+define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Yıllık İstatistikler');
 
-define('STATISTICS_TYPE_DAILY', 'Daily');
-define('STATISTICS_TYPE_MONTHLY', 'Monthly');
-define('STATISTICS_TYPE_YEARLY', 'Yearly');
+define('STATISTICS_TYPE_DAILY', 'Günlük');
+define('STATISTICS_TYPE_MONTHLY', 'Aylık');
+define('STATISTICS_TYPE_YEARLY', 'Yıllık');
 
-define('TITLE_TYPE', 'Type:');
-define('TITLE_YEAR', 'Year:');
-define('TITLE_MONTH', 'Month:');
+define('TITLE_TYPE', 'Tip:');
+define('TITLE_YEAR', 'Yıl:');
+define('TITLE_MONTH', 'Ay:');
 ?>

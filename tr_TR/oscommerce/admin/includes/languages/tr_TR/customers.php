@@ -10,34 +10,34 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Customers');
-define('HEADING_TITLE_SEARCH', 'Search:');
+define('HEADING_TITLE', 'Müşteriler');
+define('HEADING_TITLE_SEARCH', 'Ara:');
 
-define('TABLE_HEADING_FIRSTNAME', 'First Name');
-define('TABLE_HEADING_LASTNAME', 'Last Name');
-define('TABLE_HEADING_ACCOUNT_CREATED', 'Account Created');
-define('TABLE_HEADING_ACTION', 'Action');
-define('TABLE_HEADING_STATUS', 'Status');
+define('TABLE_HEADING_FIRSTNAME', 'İlk İsim');
+define('TABLE_HEADING_LASTNAME', 'Son İsim');
+define('TABLE_HEADING_ACCOUNT_CREATED', 'Hesap Açıldı');
+define('TABLE_HEADING_ACTION', 'Eylem');
+define('TABLE_HEADING_STATUS', 'Durumlar');
 
-define('TEXT_DATE_ACCOUNT_CREATED', 'Account Created:');
-define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_INFO_DATE_LAST_LOGON', 'Last Logon:');
-define('TEXT_INFO_NUMBER_OF_LOGONS', 'Number of Logons:');
-define('TEXT_INFO_COUNTRY', 'Country:');
-define('TEXT_INFO_NUMBER_OF_REVIEWS', 'Number of Reviews:');
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this customer?');
-define('TEXT_DELETE_REVIEWS', 'Delete %s review(s)');
-define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Delete Customer');
-define('TYPE_BELOW', 'Type below');
-define('PLEASE_SELECT', 'Select One');
-define('EMAIL_SUBJECT', 'Welcome to ' . STORE_NAME);
-define('EMAIL_GREET_MR', 'Dear Mr. %s,' . "\n\n");
-define('EMAIL_GREET_MS', 'Dear Ms. %s,' . "\n\n");
-define('EMAIL_GREET_NONE', 'Dear %s' . "\n\n");
-define('EMAIL_WELCOME', 'We welcome you to <b>' . STORE_NAME . '</b>.' . "\n\n");
-define('EMAIL_TEXT', 'You can now take part in the <b>various services</b> we have to offer you. Some of these services include:' . "\n\n" . '<li><b>Permanent Cart</b> - Any products added to your online cart remain there until you remove them, or check them out.' . "\n" . '<li><b>Address Book</b> - We can now deliver your products to another address other than yours! This is perfect to send birthday gifts direct to the birthday-person themselves.' . "\n" . '<li><b>Order History</b> - View your history of purchases that you have made with us.' . "\n" . '<li><b>Products Reviews</b> - Share your opinions on products with our other customers.' . "\n\n");
-define('EMAIL_CONTACT', 'For help with any of our online services, please email the store-owner: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
-define('EMAIL_PASSWORD', '<b>Note:</b> This account has been created for you by the store owner. The password to access this account is %s.' . "\n");
+define('TEXT_DATE_ACCOUNT_CREATED', 'Hesap Açıldı:');
+define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'En Son Değiştirildi:');
+define('TEXT_INFO_DATE_LAST_LOGON', 'En Son Girildi:');
+define('TEXT_INFO_NUMBER_OF_LOGONS', 'Girişlerin Sayısı:');
+define('TEXT_INFO_COUNTRY', 'Ülke:');
+define('TEXT_INFO_NUMBER_OF_REVIEWS', 'Yorumların Sayısı:');
+define('TEXT_DELETE_INTRO', 'Bu müşteriyi silmek istediğinize emin misiniz?');
+define('TEXT_DELETE_REVIEWS', '%s Yorum(lar)ı Sil');
+define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Müşteriyi Sil');
+define('TYPE_BELOW', 'Aşağı Yaz');
+define('PLEASE_SELECT', 'Birini Seç');
+define('EMAIL_SUBJECT', STORE_NAME . ' mağazamıza hoş geldiniz.');
+define('EMAIL_GREET_MR', 'Sayın Bay %s,' . "\n\n");
+define('EMAIL_GREET_MS', 'Sayın Bayan. %s,' . "\n\n");
+define('EMAIL_GREET_NONE', 'Sayın %s' . "\n\n");
+define('EMAIL_WELCOME', 'Biz <b>' . STORE_NAME . '</b>\'den size hoş gediniz diyoruz.' . "\n\n");
+define('EMAIL_TEXT', 'Şimdi size <b>çeşitli servisler</b> içinden bir kaç bölümünü sunabiliriz. Bu servislermizden bazılarınin içerdikleri:' . "\n\n" . '<li><b>Daimi Alışveriş Sepeti</b> - Herhangi bir ürünü çevrimiçi sepetinize eklediginizde siz bunları kaldırana kadar veya onların hesabını görünceye kadar saklı kalır.' . "\n" . '<li><b>Adres Defteri</b> - Biz şu anda sizin adınıza ürününüzü başka adrese yada sizin başka adresinize teslim edebiliriz! Doğum günü olan kişinin kendisine doğum günü hediyesi direkt göndermenin en iyi yoludur.' . "\n" . '<li><b>Sipariş Geçmişi</b> - Bizim ile yapmış olduğunuz satın alma işlemlerinizi görün.' . "\n" . '<li><b>Ürün Yorumları</b> - Ürünler hakkındaki fikirlerinizi diğer müşterilerle paylaşın.' . "\n\n");
+define('EMAIL_CONTACT', 'Çevrimiçi herhangi bir servisimiz ile yardım için, lütfen mağaza sahibine eposta gönderin: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
+define('EMAIL_PASSWORD', '<b>Not:</b> Bu hesap sizin için mağaza sahibi ile açıldı. Bu hesabinıza erişmek için parolanız : %s.' . "\n");
 
-define('ENTRY_STATUS', 'Status:');
+define('ENTRY_STATUS', 'Durumlar:');
 ?>

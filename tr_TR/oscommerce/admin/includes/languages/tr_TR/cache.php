@@ -10,16 +10,16 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Cache Control');
+  define('HEADING_TITLE', 'Önbellek Kontrolü');
 
-  define('TABLE_HEADING_CACHE', 'Cache Blocks');
-  define('TABLE_HEADING_TOTAL', 'Total');
-  define('TABLE_HEADING_LAST_MODIFIED', 'Last Modified');
-  define('TABLE_HEADING_ACTION', 'Action');
+  define('TABLE_HEADING_CACHE', 'Önbellek Blokları');
+  define('TABLE_HEADING_TOTAL', 'Toplam');
+  define('TABLE_HEADING_LAST_MODIFIED', 'En Son Değişti');
+  define('TABLE_HEADING_ACTION', 'Eylem');
 
-  define('TEXT_FILE_DOES_NOT_EXIST', 'File does not exist');
-  define('TEXT_CACHE_DIRECTORY', 'Cache Directory:');
+  define('TEXT_FILE_DOES_NOT_EXIST', 'Dosya yok');
+  define('TEXT_CACHE_DIRECTORY', 'Önbellek Dizini:');
 
-  define('ERROR_CACHE_DIRECTORY_DOES_NOT_EXIST', 'Error: Cache directory does not exist. Please set this Configuration->Cache.');
-  define('ERROR_CACHE_DIRECTORY_NOT_WRITEABLE', 'Error: Cache directory is not writeable.');
+  define('ERROR_CACHE_DIRECTORY_DOES_NOT_EXIST', 'Hata: Önbellek dizini yok. Lütfen Configuration->Cache\'i ayarlayınız.');
+  define('ERROR_CACHE_DIRECTORY_NOT_WRITEABLE', 'Hata: Önbellek dizini yazılabilir değil.');
 ?>

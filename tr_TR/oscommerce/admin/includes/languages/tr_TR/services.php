@@ -10,13 +10,13 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Services');
+define('HEADING_TITLE', 'Hizmetler');
 
-define('TABLE_HEADING_SERVICES', 'Services');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_SERVICES', 'Hizmetler');
+define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_MODULE_DIRECTORY', 'Module Directory:');
+define('TEXT_MODULE_DIRECTORY', 'Modül Dizini:');
 
-define('TEXT_UNINSTALL_INTRO', 'Are you sure you want to uninstall this module?<br /><br />(All module parameters would then be removed)');
+define('TEXT_UNINSTALL_INTRO', 'Bu modülün kurulumunu kaldırmak istediğinize emin misiniz?<br /><br />(Tüm modül değiştirgeleri de kaldırlılacaktır)');
 ?>

@@ -10,35 +10,35 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Reviews');
+define('HEADING_TITLE', 'Yorumlar');
 
-define('TABLE_HEADING_PRODUCTS', 'Products');
-define('TABLE_HEADING_LANGUAGE', 'Language');
-define('TABLE_HEADING_RATING', 'Rating');
-define('TABLE_HEADING_DATE_ADDED', 'Date Added');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_PRODUCTS', 'Ürünler');
+define('TABLE_HEADING_LANGUAGE', 'Dil');
+define('TABLE_HEADING_RATING', 'Değerlendirme');
+define('TABLE_HEADING_DATE_ADDED', 'Tarihinde Eklendi');
+define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('ENTRY_PRODUCT', 'Product:');
-define('ENTRY_FROM', 'From:');
-define('ENTRY_DATE', 'Date:');
-define('ENTRY_REVIEW', 'Review:');
-define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTE:</b></font></small>&nbsp;HTML is not translated!&nbsp;');
-define('ENTRY_RATING', 'Rating:');
+define('ENTRY_PRODUCT', 'Ürün:');
+define('ENTRY_FROM', 'Kimden:');
+define('ENTRY_DATE', 'Tarih:');
+define('ENTRY_REVIEW', 'Yorum:');
+define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOT:</b></font></small>&nbsp;HTML biçimlendirilmez!&nbsp;');
+define('ENTRY_RATING', 'Değerlendirme:');
 
-define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Are you sure you want to delete this review?');
+define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Bu yorumu silmek istediğinize emin misiniz?');
 
-define('TEXT_INFO_DATE_ADDED', 'Date Added:');
-define('TEXT_INFO_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_INFO_IMAGE_NONEXISTENT', 'IMAGE DOES NOT EXIST');
-define('TEXT_INFO_REVIEW_AUTHOR', 'Author:');
-define('TEXT_INFO_REVIEW_RATING', 'Rating:');
-define('TEXT_INFO_REVIEW_READ', 'Read:');
-define('TEXT_INFO_REVIEW_SIZE', 'Size:');
-define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Average Rating:');
+define('TEXT_INFO_DATE_ADDED', 'Tarihinde Eklendi:');
+define('TEXT_INFO_LAST_MODIFIED', 'En Son Değiştirildi:');
+define('TEXT_INFO_IMAGE_NONEXISTENT', 'RESİM YOK');
+define('TEXT_INFO_REVIEW_AUTHOR', 'Yazar:');
+define('TEXT_INFO_REVIEW_RATING', 'Oran:');
+define('TEXT_INFO_REVIEW_READ', 'Okunma:');
+define('TEXT_INFO_REVIEW_SIZE', 'Büyüklük:');
+define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Ortalama Değerlendirme:');
 
-define('TEXT_OF_5_STARS', '%s of 5 Stars!');
-define('TEXT_GOOD', '<small><font color="#ff0000"><b>GOOD</b></font></small>');
-define('TEXT_BAD', '<small><font color="#ff0000"><b>BAD</b></font></small>');
-define('TEXT_INFO_HEADING_DELETE_REVIEW', 'Delete Review');
+define('TEXT_OF_5_STARS', '5 üzerinden %s Yıldız!');
+define('TEXT_GOOD', '<small><font color="#ff0000"><b>İYİ</b></font></small>');
+define('TEXT_BAD', '<small><font color="#ff0000"><b>KÖTÜ</b></font></small>');
+define('TEXT_INFO_HEADING_DELETE_REVIEW', 'Yorumu Sil');
 ?>

@@ -10,15 +10,15 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE_MODULES_BOXES', 'Boxes');
-define('HEADING_TITLE_MODULES_CONTENT', 'Content Modules');
+define('HEADING_TITLE_MODULES_BOXES', 'Kurular');
+define('HEADING_TITLE_MODULES_CONTENT', 'İçerik Modülleri');
 
-define('TABLE_HEADING_MODULES_BOXES', 'Boxes');
-define('TABLE_HEADING_MODULES_CONTENT', 'Content Modules');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_MODULES_BOXES', 'Kutular');
+define('TABLE_HEADING_MODULES_CONTENT', 'İçerik Modülleri');
+define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_DIRECTORY', 'Directory:');
+define('TEXT_DIRECTORY', 'Dizin:');
 
-define('INFO_UNINSTALL_INTRO', 'Are you sure you want to uninstall this module?<br /><br />(All module parameters would then be removed)');
+define('INFO_UNINSTALL_INTRO', 'Bu modülün kurulumunu kaldırmak istediğinize emin misiniz?<br /><br />(Tüm modül değiştirgeleri de kaldırlılacaktır)');
 ?>

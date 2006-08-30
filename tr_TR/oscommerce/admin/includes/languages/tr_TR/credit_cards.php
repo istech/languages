@@ -10,24 +10,24 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Credit Card Types');
+define('HEADING_TITLE', 'Kredi Kartı Tipleri');
 
-define('TABLE_HEADING_CREDIT_CARD_CODE', 'Card Code');
-define('TABLE_HEADING_CREDIT_CARD_NAME', 'Card Name');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_CREDIT_CARD_CODE', 'Kart Kodu');
+define('TABLE_HEADING_CREDIT_CARD_NAME', 'Kart İsmi');
+define('TABLE_HEADING_SORT_ORDER', 'Sıralama Düzeni');
+define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_HEADING_NEW_CREDIT_CARD', 'New Credit Card');
+define('TEXT_HEADING_NEW_CREDIT_CARD', 'Yeni Kredi Kartı');
 
-define('TEXT_CREDIT_CARD_NAME', 'Card Name:');
-define('TEXT_CREDIT_CARD_PATTERN', 'Card Number Pattern:');
-define('TEXT_SORT_ORDER', 'Sort Order:');
-define('TEXT_STATUS', 'Status:');
+define('TEXT_CREDIT_CARD_NAME', 'Kart İsmi:');
+define('TEXT_CREDIT_CARD_PATTERN', 'Kart Numarası Deseni:');
+define('TEXT_SORT_ORDER', 'Sıralama Düzeni:');
+define('TEXT_STATUS', 'Durumlar:');
 
-define('TEXT_NEW_INTRO', 'Please fill out the following information for the new credit card');
-define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this credit card?');
+define('TEXT_NEW_INTRO', 'Bu yeni kredi kartı için lütfen aşağıdaki bilgileri doldurunuz');
+define('TEXT_EDIT_INTRO', 'Lütfen gerekli değişiklerden herhangi birini yapınız');
+define('TEXT_DELETE_INTRO', 'Bu kredi kartını silmek istediğinize emin misiniz?');
 
-define('ERROR_CREDIT_CARD_NAME', 'Error: Credit Card name cannot be blank');
+define('ERROR_CREDIT_CARD_NAME', 'Hata: Kredi Kartı ismi boş olamaz');
 ?>

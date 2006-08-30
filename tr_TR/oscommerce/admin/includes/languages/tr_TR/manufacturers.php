@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: manufacturers.php 887 2006-08-30 14:23:50Z hpdl $
+  $Id: manufacturers.php 410 2006-01-26 09:17:09Z hpdl $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
@@ -10,34 +10,34 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Manufacturers');
+define('HEADING_TITLE', 'Üreticiler');
 
-define('TABLE_HEADING_MANUFACTURERS', 'Manufacturers');
-define('TABLE_HEADING_URL_CLICKS', 'URL CLicks');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_MANUFACTURERS', 'Üreticiler');
+define('TABLE_HEADING_URL_CLICKS', 'URL Tıklamaları');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_HEADING_NEW_MANUFACTURER', 'New Manufacturer');
-define('TEXT_HEADING_EDIT_MANUFACTURER', 'Edit Manufacturer');
-define('TEXT_HEADING_DELETE_MANUFACTURER', 'Delete Manufacturer');
+define('TEXT_HEADING_NEW_MANUFACTURER', 'Yeni Üretici');
+define('TEXT_HEADING_EDIT_MANUFACTURER', 'Üretici Düzelt');
+define('TEXT_HEADING_DELETE_MANUFACTURER', 'Üretici Sil');
 
-define('TEXT_MANUFACTURERS', 'Manufacturers:');
-define('TEXT_DATE_ADDED', 'Date Added:');
-define('TEXT_LAST_MODIFIED', 'Last Modified:');
-define('TEXT_PRODUCTS', 'Products:');
+define('TEXT_MANUFACTURERS', 'Üreticiler:');
+define('TEXT_DATE_ADDED', 'Tarihinde Eklendi:');
+define('TEXT_LAST_MODIFIED', 'En Son Değişti:');
+define('TEXT_PRODUCTS', 'Ürünler:');
 
-define('TEXT_NEW_INTRO', 'Please fill out the following information for the new manufacturer');
-define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
+define('TEXT_NEW_INTRO', 'Lütfen yeni üretici için takip eden bilgileri doldurunuz');
+define('TEXT_EDIT_INTRO', 'Lütfen gerekli tüm değişiklikleri yapınız');
 
-define('TEXT_MANUFACTURERS_NAME', 'Manufacturers Name:');
-define('TEXT_MANUFACTURERS_IMAGE', 'Manufacturers Image:');
-define('TEXT_MANUFACTURERS_URL', 'Manufacturers URL:');
+define('TEXT_MANUFACTURERS_NAME', 'Üretici İsimleri:');
+define('TEXT_MANUFACTURERS_IMAGE', 'Üretici Resimleri:');
+define('TEXT_MANUFACTURERS_URL', 'Üretici URL\'leri:');
 
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this manufacturer?');
-define('TEXT_DELETE_IMAGE', 'Delete manufacturers image?');
-define('TEXT_DELETE_PRODUCTS', 'Delete products from this manufacturer? (including product reviews, products on special, upcoming products)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>WARNING:</b> There are %s products still linked to this manufacturer!');
+define('TEXT_DELETE_INTRO', 'Bu üreticiyi silmek istediğinize emin misiniz?');
+define('TEXT_DELETE_IMAGE', 'Üretici resmini sil?');
+define('TEXT_DELETE_PRODUCTS', 'Ürünleri bu üreticiden sil? (ürün yorumları, indirimdeki ürünler ve yakında gelcek ürünleri içerir)');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>UYARI:</b> Bu üreticiye halen bağlı olan %s ürün var!');
 
-define('ERROR_MANUFACTURER_NAME', 'Error: Manufacturers name cannot be blank');
-define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: Manufacturer images directory is not writeable: ' . realpath('../images/manufacturers'));
-define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: Manufacturer images directory does not exist: ' . realpath('../images/manufacturers'));
+define('ERROR_MANUFACTURER_NAME', 'Hata: Üretiçi ismi boş olamaz');
+define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Hata: Üreticiler resim dizini yazılabilir degil: ' . realpath('../images/manufacturers'));
+define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Hata: Üreticiler resim dizini yok: ' . realpath('../images/manufacturers'));
 ?>

@@ -10,22 +10,22 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Language Definitions');
+define('HEADING_TITLE', 'Dil Tanımlamaları');
 
-define('TABLE_HEADING_DEFINITION_GROUPS', 'Definition Groups');
-define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Total Definitions');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_DEFINITION_GROUPS', 'Tanımlama Grubu');
+define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Toplam Tanımlamalar');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new language definition with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Please select which definitions you would like to delete from the following group:');
+define('TEXT_INFO_INSERT_INTRO', 'Lütfen yeni dil tanımlaması ile ilgili veri giriniz');
+define('TEXT_INFO_EDIT_INTRO', 'Lütfen gerekli tüm değişiklikleri yapınız');
+define('TEXT_INFO_DELETE_INTRO', 'Lütfen takip eden grubdan hangi tanımlamaları silmek istiyorsanız seçiniz:');
 
-define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definition Key:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definition Value:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Group:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'New Group:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Tanımlama Anahtarı:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'TAnımlama Değeri:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Grub:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Yeni Grub:');
 
-define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'New Language Definition');
+define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Yeni Dil Tanımlaması');
 
-define('TEXT_BACK_TO_LANGUAGES', 'Back to Languages');
+define('TEXT_BACK_TO_LANGUAGES', 'Dillere Geri Dön');
 ?>

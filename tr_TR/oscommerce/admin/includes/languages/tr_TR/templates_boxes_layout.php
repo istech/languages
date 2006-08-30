@@ -10,30 +10,30 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Template Boxes Layout');
+define('HEADING_TITLE', 'Şablon Kutuları Yerleşimi');
 
-define('TABLE_HEADING_BOXES', 'Boxes');
-define('TABLE_HEADING_TEMPLATES', 'Templates');
-define('TABLE_HEADING_PAGES', 'Content Pages');
-define('TABLE_HEADING_PAGE_SPECIFIC', 'Page Specific');
-define('TABLE_HEADING_GROUP', 'Group');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_BOXES', 'Kutular');
+define('TABLE_HEADING_TEMPLATES', 'Şablonlar');
+define('TABLE_HEADING_PAGES', 'İçerik Sayfaları');
+define('TABLE_HEADING_PAGE_SPECIFIC', 'Sayfaya Has(Özgü)');
+define('TABLE_HEADING_GROUP', 'Grup');
+define('TABLE_HEADING_SORT_ORDER', 'Sıralama Düzeni');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'New Box Layout');
+define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'Yeni Kutu Yerleşimi');
 
-define('TEXT_INFO_BOXES', 'Boxes:');
-define('TEXT_INFO_PAGES', 'Content Pages:');
-define('TEXT_INFO_PAGE_SPECIFIC', 'Page Specific');
-define('TEXT_INFO_GROUP', 'Group:');
-define('TEXT_INFO_GROUP_NEW', 'New Group:');
-define('TEXT_INFO_SORT_ORDER', 'Sort Order:');
+define('TEXT_INFO_BOXES', 'Kutular:');
+define('TEXT_INFO_PAGES', 'İçerik Sayfaları:');
+define('TEXT_INFO_PAGE_SPECIFIC', 'Sayfaya Has(Özgü)');
+define('TEXT_INFO_GROUP', 'Grup:');
+define('TEXT_INFO_GROUP_NEW', 'Yeni Gurup:');
+define('TEXT_INFO_SORT_ORDER', 'Sıralama Düzeni:');
 
-define('TEXT_PLEASE_SELECT', '--Please Select--');
+define('TEXT_PLEASE_SELECT', '--Lütfen Seçin--');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new box layout with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to remove this box layout from the template?');
+define('TEXT_INFO_INSERT_INTRO', 'Lütfen yeni kutu yerleşimi ile ilgili vergi giriniz');
+define('TEXT_INFO_EDIT_INTRO', 'Lütfen gerekli tüm değişiklikleri yapınız');
+define('TEXT_INFO_DELETE_INTRO', 'Bu kutu yerleşimini şablondan kaldırmak istediğinize emin misiniz?');
 
-define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Warning: The default template can not be removed. Please set another template as the default, and try again.');
+define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Uyarı: Varsayılan şablon kaldırılamaz. Lütfen diğer bir şablonu varsayılan olarak ayarlayın ve tekrar deneyiniz.');
 ?>

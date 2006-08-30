@@ -10,18 +10,18 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Administrators');
+define('HEADING_TITLE', 'Yöneticiler');
 
-define('TABLE_HEADING_ADMINISTRATORS', 'Administrators');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ADMINISTRATORS', 'Yöneticiler');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_HEADING_NEW_ADMINISTRATOR', 'New Administrator');
+define('TEXT_HEADING_NEW_ADMINISTRATOR', 'Yeni Yönetici');
 
-define('TEXT_NEW_INTRO', 'Please fill out the following information for the new administrator');
-define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
+define('TEXT_NEW_INTRO', 'Lütfen yeni yönetici için aşağıdaki bilgileri dodurun.');
+define('TEXT_EDIT_INTRO', 'Lütfen gerekli değişiklikleri yapın.');
 
-define('TEXT_ADMINISTRATOR_USERNAME', 'Administrator Name:');
-define('TEXT_ADMINISTRATOR_PASSWORD', 'Administrator Password:');
+define('TEXT_ADMINISTRATOR_USERNAME', 'Yöntici İsmi:');
+define('TEXT_ADMINISTRATOR_PASSWORD', 'Yönetici Parolası:');
 
-define('TEXT_DELETE_INTRO', 'Are you sure you want to delete this administrator?');
+define('TEXT_DELETE_INTRO', 'Bu yöneticiyi silmek istediğinize eminmisiniz?');
 ?>

@@ -10,27 +10,27 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Who\'s Online');
+define('HEADING_TITLE', 'Kimler Çevrimiçi');
 
-define('TABLE_HEADING_ONLINE', 'Online');
-define('TABLE_HEADING_CUSTOMER_ID', 'ID');
-define('TABLE_HEADING_FULL_NAME', 'Full Name');
-define('TABLE_HEADING_IP_ADDRESS', 'IP Address');
-define('TABLE_HEADING_LAST_CLICK', 'Last Click');
-define('TABLE_HEADING_LAST_PAGE_URL', 'Last URL');
-define('TABLE_HEADING_SHOPPING_CART_TOTAL', 'Total');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ONLINE', 'Çevrimiçi');
+define('TABLE_HEADING_CUSTOMER_ID', 'Kimlik');
+define('TABLE_HEADING_FULL_NAME', 'Tam İsim');
+define('TABLE_HEADING_IP_ADDRESS', 'IP Adresi');
+define('TABLE_HEADING_LAST_CLICK', 'En Son Tıklama');
+define('TABLE_HEADING_LAST_PAGE_URL', 'En Son URL');
+define('TABLE_HEADING_SHOPPING_CART_TOTAL', 'Toplam');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_SESSION_ID', 'Session ID:');
-define('TEXT_TIME_ONLINE', 'Time Online:');
-define('TEXT_CUSTOMER_ID', 'Customer ID:');
-define('TEXT_CUSTOMER_NAME', 'Customer Name:');
-define('TEXT_IP_ADDRESS', 'IP Address:');
-define('TEXT_ENTRY_TIME', 'Entry Time:');
-define('TEXT_LAST_CLICK', 'Last Click:');
-define('TEXT_LAST_PAGE_URL', 'Last Page URL:');
-define('TEXT_SHOPPING_CART_PRODUCTS', 'Products In Shopping Cart:');
-define('TEXT_SHOPPING_CART_TOTAL', 'Shopping Cart Total:');
+define('TEXT_SESSION_ID', 'Oturum Kimliği:');
+define('TEXT_TIME_ONLINE', 'Çevrimiçi Süresi:');
+define('TEXT_CUSTOMER_ID', 'Müşteri Kimliği:');
+define('TEXT_CUSTOMER_NAME', 'Müşteri İsmi:');
+define('TEXT_IP_ADDRESS', 'IP Adresi:');
+define('TEXT_ENTRY_TIME', 'Giriş Zamanı:');
+define('TEXT_LAST_CLICK', 'En Son Tıklama:');
+define('TEXT_LAST_PAGE_URL', 'En Son Sayfa URL:');
+define('TEXT_SHOPPING_CART_PRODUCTS', 'Ürün(ler)) Alışveriş Sepetinde:');
+define('TEXT_SHOPPING_CART_TOTAL', 'Alışveriş Sepeti Toplam:');
 
-define('TEXT_DISPLAY_NUMBER_OF_WHOS_ONLINE', 'There are currently %s customers online');
+define('TEXT_DISPLAY_NUMBER_OF_WHOS_ONLINE', 'Halen %s çevrimiçi müşteri var');
 ?>

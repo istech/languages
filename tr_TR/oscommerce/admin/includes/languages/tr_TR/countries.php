@@ -10,25 +10,25 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Countries');
+define('HEADING_TITLE', 'Ülkeler');
 
-define('TABLE_HEADING_COUNTRY_NAME', 'Country');
-define('TABLE_HEADING_COUNTRY_CODES', 'ISO Codes');
-define('TABLE_HEADING_ZONES_TOTAL', 'Defined Zones');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_COUNTRY_NAME', 'Ülke');
+define('TABLE_HEADING_COUNTRY_CODES', 'ISO Kodları');
+define('TABLE_HEADING_ZONES_TOTAL', 'Tanımlı Bölgeler');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_COUNTRY_NAME', 'Name:');
-define('TEXT_INFO_COUNTRY_CODE_2', 'ISO Code (2):');
-define('TEXT_INFO_COUNTRY_CODE_3', 'ISO Code (3):');
-define('TEXT_INFO_ADDRESS_FORMAT', 'Address Format:');
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new country with its related data');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this country?');
-define('TEXT_INFO_HEADING_NEW_COUNTRY', 'New Country');
-define('TEXT_INFO_HEADING_EDIT_COUNTRY', 'Edit Country');
-define('TEXT_INFO_HEADING_DELETE_COUNTRY', 'Delete Country');
+define('TEXT_INFO_EDIT_INTRO', 'Lütfen gerekli tüm değişiklikleri yapınız');
+define('TEXT_INFO_COUNTRY_NAME', 'İsim:');
+define('TEXT_INFO_COUNTRY_CODE_2', 'ISO Kod (2):');
+define('TEXT_INFO_COUNTRY_CODE_3', 'ISO Kod (3):');
+define('TEXT_INFO_ADDRESS_FORMAT', 'Adres Biçimi:');
+define('TEXT_INFO_INSERT_INTRO', 'Lütfen bu yeni ülke ile ilgili veri giriniz');
+define('TEXT_INFO_DELETE_INTRO', 'Bu ülkeyi silmek istediğinize emin misiniz?');
+define('TEXT_INFO_HEADING_NEW_COUNTRY', 'Yeni Ülke');
+define('TEXT_INFO_HEADING_EDIT_COUNTRY', 'Ülke Düzelt');
+define('TEXT_INFO_HEADING_DELETE_COUNTRY', 'Ülke Sil');
 
-define('TEXT_INFO_DELETE_PROHIBITED_ADDRESS_BOOK', 'Warning: This Country cannot be deleted as it is currently assigned to %s address book entries.');
-define('TEXT_INFO_DELETE_PROHIBITED_TAX_ZONES', 'Warning: This Country cannot be deleted as it is currently assigned to %s tax zone(s).');
-define('TEXT_INFO_DELETE_COUNTRIES_WARNING', 'Warning: This Country has %s zone(s) assigned which would also be deleted.');
+define('TEXT_INFO_DELETE_PROHIBITED_ADDRESS_BOOK', 'Uyarı: Bu ülke silinemez çünkü halen %s adres defteri girişinde atlıdır.');
+define('TEXT_INFO_DELETE_PROHIBITED_TAX_ZONES', 'Uyarı: Bu ülke silinemez çünkü halen %s vergi bolgesinde atalıdır.');
+define('TEXT_INFO_DELETE_COUNTRIES_WARNING', 'Uyarı: Bu ülkeye atalı olan %s böge(ler) dahi silinecektir.');
 ?>

@@ -10,10 +10,10 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_ORDERS_TITLE', 'Latest Orders');
+  define('MODULE_SUMMARY_ORDERS_TITLE', 'En Son Siparişler');
 
-  define('MODULE_SUMMARY_ORDERS_HEADING_ORDERS', 'Orders');
-  define('MODULE_SUMMARY_ORDERS_HEADING_TOTAL', 'Total');
-  define('MODULE_SUMMARY_ORDERS_HEADING_DATE', 'Date');
-  define('MODULE_SUMMARY_ORDERS_HEADING_STATUS', 'Status');
+  define('MODULE_SUMMARY_ORDERS_HEADING_ORDERS', 'Siparişler');
+  define('MODULE_SUMMARY_ORDERS_HEADING_TOTAL', 'Toplam');
+  define('MODULE_SUMMARY_ORDERS_HEADING_DATE', 'Tarih');
+  define('MODULE_SUMMARY_ORDERS_HEADING_STATUS', 'Durumlar');
 ?>

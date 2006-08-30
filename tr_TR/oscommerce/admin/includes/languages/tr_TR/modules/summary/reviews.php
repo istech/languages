@@ -10,10 +10,10 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_REVIEWS_TITLE', 'Latest Reviews');
+  define('MODULE_SUMMARY_REVIEWS_TITLE', 'En Son Yorumlar');
 
-  define('MODULE_SUMMARY_REVIEWS_HEADING_PRODUCTS', 'Products');
-  define('MODULE_SUMMARY_REVIEWS_HEADING_LANGUAGE', 'Language');
-  define('MODULE_SUMMARY_REVIEWS_HEADING_RATING', 'Rating');
-  define('MODULE_SUMMARY_REVIEWS_HEADING_DATE', 'Date');
+  define('MODULE_SUMMARY_REVIEWS_HEADING_PRODUCTS', 'Ürünler');
+  define('MODULE_SUMMARY_REVIEWS_HEADING_LANGUAGE', 'Dil');
+  define('MODULE_SUMMARY_REVIEWS_HEADING_RATING', 'Değerlendirme');
+  define('MODULE_SUMMARY_REVIEWS_HEADING_DATE', 'Tarih');
 ?>

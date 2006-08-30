@@ -10,36 +10,36 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Currencies');
+define('HEADING_TITLE', 'Para Birimleri');
 
-define('TABLE_HEADING_CURRENCY_NAME', 'Currency');
-define('TABLE_HEADING_CURRENCY_CODES', 'Code');
-define('TABLE_HEADING_CURRENCY_VALUE', 'Value');
-define('TABLE_HEADING_CURRENCY_EXAMPLE', 'Example');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_CURRENCY_NAME', 'Para');
+define('TABLE_HEADING_CURRENCY_CODES', 'Kod');
+define('TABLE_HEADING_CURRENCY_VALUE', 'Değer');
+define('TABLE_HEADING_CURRENCY_EXAMPLE', 'Örnek');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new currency with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this currency?');
-define('TEXT_INFO_UPDATE_SERVICE_INTRO', 'Please select the currency update service to use.');
+define('TEXT_INFO_INSERT_INTRO', 'Lütfen yeni para birimi ile ilgili veri giriniz');
+define('TEXT_INFO_EDIT_INTRO', 'Lütfen gerekli tüm değişiklikleri yapınız');
+define('TEXT_INFO_DELETE_INTRO', 'Bu para birini silmek istediğinize eminmisiniz?');
+define('TEXT_INFO_UPDATE_SERVICE_INTRO', 'Lütfen para birimi günvelleme hizmetini seçerek kullanınız.');
 
-define('TEXT_INFO_HEADING_NEW_CURRENCY', 'New Currency');
+define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Yeni Para Birimi ');
 
-define('TEXT_INFO_CURRENCY_TITLE', 'Title:');
-define('TEXT_INFO_CURRENCY_CODE', 'Code:');
-define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Symbol Left:');
-define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Symbol Right:');
-define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Decimal Places:');
-define('TEXT_INFO_CURRENCY_VALUE', 'Value:');
+define('TEXT_INFO_CURRENCY_TITLE', 'Başlık:');
+define('TEXT_INFO_CURRENCY_CODE', 'Kod:');
+define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Sol Sembol:');
+define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Sağ Sembol:');
+define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Ondalık Basamak:');
+define('TEXT_INFO_CURRENCY_VALUE', 'Değer:');
 
-define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . '<br /><small>(requires a manual update of currency values)</small>');
-define('TEXT_INFO_SERVICE_TERMS', 'By using the selected currency update service you are agreeing to the terms and conditions of the service involved.');
+define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . '<br /><small>(Para Birimi değeri için bir elle güncelleme gerekli.)</small>');
+define('TEXT_INFO_SERVICE_TERMS', 'Seçilmiş para birimi güncelleme hizmetini kullanarak söz konusu servisin terim ve şartlarını kabulleniyorsunuz.');
 
-define('TEXT_INFO_CURRENCY_UPDATED', 'The exchange rate for %s (%s) was updated successfully via %s.');
+define('TEXT_INFO_CURRENCY_UPDATED', '%s (%s) için bu değişim oranı %s yolu ile başarıyla güncellendi.');
 
-define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Warning: The default currency can not be removed. Please set another currency as the default and try again.');
-define('ERROR_CURRENCY_INVALID', 'Error: The exchange rate for %s (%s) was not updated via %s. Is it a valid currency code?');
-define('WARNING_PRIMARY_SERVER_FAILED', 'Warning: The primary exchange rate server (%s) failed for %s (%s) - trying the secondary exchange rate server.');
+define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Uyarı: Bu varsayılan para birimi kaldırılamaz. Lütfen başka para birimini varsayılan olarak ayarlayın ve tekrar deneyiniz.');
+define('ERROR_CURRENCY_INVALID', 'Hata:  %s (%s) için bu değişim oranı %s yoluyla güncellenemedi. Bu gecerli bir para birimi kodu mudur?');
+define('WARNING_PRIMARY_SERVER_FAILED', 'Uyarı: %s (%s) için birincil oran değişim sunucusu (%s) başarısız oldu - ikinci oran değişim sunucusunu deneyin.');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Warning: The default currency can not be removed. Please set another currency as the default and try again.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Uyarı: Bu varsayılan parabirimi kaldırılamaz. Lütfen başka para birimini varsayılan olarak ayarlayın ve tekrar deneyiniz.');
 ?>

@@ -10,35 +10,35 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Tax Classes');
+define('HEADING_TITLE', 'Vergi Sınıfları');
 
-define('TABLE_HEADING_TAX_CLASSES', 'Tax Classes');
-define('TABLE_HEADING_TAX_RATES_TOTAL', 'Defined Tax Rates');
+define('TABLE_HEADING_TAX_CLASSES', 'Vergi Sınıfları');
+define('TABLE_HEADING_TAX_RATES_TOTAL', 'Tanımlı Vergi Oranı');
 
-define('TABLE_HEADING_TAX_RATE_PRIORITY', 'Priority');
-define('TABLE_HEADING_ZONE', 'Zone');
-define('TABLE_HEADING_TAX_RATE', 'Tax Rate');
+define('TABLE_HEADING_TAX_RATE_PRIORITY', 'Öncelik');
+define('TABLE_HEADING_ZONE', 'Bölge');
+define('TABLE_HEADING_TAX_RATE', 'Vergi Oranı');
 
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_ACTION', ':Eylem');
 
-define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'New Tax Class');
-define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'New Tax Rate');
+define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'Yeni Vergi Sınıfı');
+define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'Yeni Vergi Oranı');
 
-define('TEXT_INFO_INSERT_INTRO', 'Please enter the new tax class with its related data');
-define('TEXT_INFO_EDIT_INTRO', 'Please make any necessary changes');
-define('TEXT_INFO_DELETE_INTRO', 'Are you sure you want to delete this tax class?');
+define('TEXT_INFO_INSERT_INTRO', 'Lütfen yeni vergi sınıfı ile ilgili veri giriniz');
+define('TEXT_INFO_EDIT_INTRO', 'Lütfen gerekli tüm değişiklikleri yapınız');
+define('TEXT_INFO_DELETE_INTRO', 'Bu vergi sınıfını silmek istediğinize emin misiniz?');
 
-define('TEXT_INFO_CLASS_TITLE', 'Tax Class Title:');
-define('TEXT_INFO_CLASS_DESCRIPTION', 'Description:');
+define('TEXT_INFO_CLASS_TITLE', 'Vergi Sınıfı Başlık:');
+define('TEXT_INFO_CLASS_DESCRIPTION', 'Açıklama:');
 
-define('TEXT_INFO_ZONE_NAME', 'Zone:');
-define('TEXT_INFO_TAX_RATE', 'Tax Rate (%):');
-define('TEXT_INFO_TAX_RATE_PRIORITY', 'Priority:');
-define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Description:');
+define('TEXT_INFO_ZONE_NAME', 'Bölge:');
+define('TEXT_INFO_TAX_RATE', 'Vergi Oranı (%):');
+define('TEXT_INFO_TAX_RATE_PRIORITY', 'Öncelekik:');
+define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Açıklama:');
 
-define('TEXT_INFO_DATE_ADDED', 'Date Added:');
-define('TEXT_INFO_LAST_MODIFIED', 'Last Modified:');
+define('TEXT_INFO_DATE_ADDED', 'Tarihinde Eklendi:');
+define('TEXT_INFO_LAST_MODIFIED', 'En Son Değiştirildi:');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Warning: This Tax Class cannot be deleted as it is currently assigned to one or more products.');
-define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Warning: This Tax Class has %s tax rate(s) assigned which would also be deleted.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Uyarı: Bir veya daha fazla ürün halen atanmış durunma iken bu vergi sınıfı silinemez.');
+define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Uyarı: Bu vergi sınıfına atalı olan %s vergi oran(lar)ı silinecektir.');
 ?>

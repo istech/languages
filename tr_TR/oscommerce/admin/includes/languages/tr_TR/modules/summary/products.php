@@ -10,10 +10,10 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_PRODUCTS_TITLE', 'Latest Products');
+  define('MODULE_SUMMARY_PRODUCTS_TITLE', 'En Son Ürünler');
 
-  define('MODULE_SUMMARY_PRODUCTS_HEADING_PRODUCTS', 'Products');
-  define('MODULE_SUMMARY_PRODUCTS_HEADING_PRICE', 'Price');
-  define('MODULE_SUMMARY_PRODUCTS_HEADING_DATE', 'Date');
-  define('MODULE_SUMMARY_PRODUCTS_HEADING_STATUS', 'Status');
+  define('MODULE_SUMMARY_PRODUCTS_HEADING_PRODUCTS', 'Ürünler');
+  define('MODULE_SUMMARY_PRODUCTS_HEADING_PRICE', 'Fiyat');
+  define('MODULE_SUMMARY_PRODUCTS_HEADING_DATE', 'Tarih');
+  define('MODULE_SUMMARY_PRODUCTS_HEADING_STATUS', 'Durumlar');
 ?>

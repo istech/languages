@@ -10,14 +10,14 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE_MODULES_PAYMENT', 'Payment Modules');
-define('HEADING_TITLE_MODULES_SHIPPING', 'Shipping Modules');
-define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Order Total Modules');
+define('HEADING_TITLE_MODULES_PAYMENT', 'Ödeme Modülleri');
+define('HEADING_TITLE_MODULES_SHIPPING', 'Kargo Modülleri');
+define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Sipariş Toplamı Modülleri');
 
-define('TABLE_HEADING_MODULES', 'Modules');
-define('TABLE_HEADING_SORT_ORDER', 'Sort Order');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Action');
+define('TABLE_HEADING_MODULES', 'Modüller');
+define('TABLE_HEADING_SORT_ORDER', 'Sıralama Düzeni');
+define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('INFO_MODULE_UNINSTALL_INTRO', 'Are you sure you want to uninstall this module?<br /><br />(All module parameters would then be removed)');
+define('INFO_MODULE_UNINSTALL_INTRO', 'Bu modülün kurulumunu kaldırmak istediğinize eminmisiniz?<br /><br />(Tüm modül değiştirgeleri de kaldırlılacak)');
 ?>

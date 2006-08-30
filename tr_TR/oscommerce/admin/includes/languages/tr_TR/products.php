@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: products.php 885 2006-08-30 14:02:08Z hpdl $
+  $Id: products.php 608 2006-07-05 10:56:09Z hpdl $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
@@ -10,65 +10,65 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Products');
-  define('HEADING_TITLE_SEARCH', 'Search:');
-  define('HEADING_TITLE_GOTO', 'Go To:');
+  define('HEADING_TITLE', 'Ürünler');
+  define('HEADING_TITLE_SEARCH', 'Ara:');
+  define('HEADING_TITLE_GOTO', 'Git:');
 
-  define('TAB_GENERAL', 'General');
-  define('TAB_DATA', 'Data');
-  define('TAB_IMAGES', 'Images');
-  define('TAB_ATTRIBUTES', 'Attributes');
-  define('TAB_CATEGORIES', 'Categories');
+  define('TAB_GENERAL', 'Genel');
+  define('TAB_DATA', 'Tarih');
+  define('TAB_IMAGES', 'Resimler');
+  define('TAB_ATTRIBUTES', 'Öznitelikler');
+  define('TAB_CATEGORIES', 'Kategoriler');
 
-  define('FIELDSET_ASSIGNED_ATTRIBUTES', 'Assigned Attributes');
+  define('FIELDSET_ASSIGNED_ATTRIBUTES', 'Atanmış Öznitelikler');
 
-  define('TABLE_HEADING_PRODUCTS', 'Products');
-  define('TABLE_HEADING_PRICE', 'Price');
-  define('TABLE_HEADING_QUANTITY', 'Quantity');
-  define('TABLE_HEADING_STATUS', 'Status');
-  define('TABLE_HEADING_ACTION', 'Action');
+  define('TABLE_HEADING_PRODUCTS', 'Ürünler');
+  define('TABLE_HEADING_PRICE', 'Fiyat');
+  define('TABLE_HEADING_QUANTITY', 'Miktar');
+  define('TABLE_HEADING_STATUS', 'Durumlar');
+  define('TABLE_HEADING_ACTION', 'Eylem');
 
-  define('TEXT_NEW_PRODUCT', 'New Product');
-  define('TEXT_CATEGORIES', 'Categories:');
+  define('TEXT_NEW_PRODUCT', 'Yeni Ürün');
+  define('TEXT_CATEGORIES', 'Kategoriler:');
 
-  define('TEXT_EDIT_INTRO', 'Please make any necessary changes');
+  define('TEXT_EDIT_INTRO', 'Lütfen gerekli tüm değişiklikleri yapınız');
 
-  define('TEXT_INFO_COPY_TO_INTRO', 'Please choose a new category you wish to copy this product to');
-  define('TEXT_INFO_CURRENT_CATEGORIES', 'Current Categories:');
+  define('TEXT_INFO_COPY_TO_INTRO', 'Lütfen bu ürünü kopyalamak istediğiniz yeni kategortiyi seçiniz');
+  define('TEXT_INFO_CURRENT_CATEGORIES', 'Mevcut Kategorisi:');
 
-  define('TEXT_DELETE_PRODUCT_INTRO', 'Are you sure you want to permanently delete this product?');
+  define('TEXT_DELETE_PRODUCT_INTRO', 'Bu ürünü daimi olarak silmek istediğinize emin misiniz?');
 
-  define('TEXT_MOVE_PRODUCTS_INTRO', 'Please select which category you wish <b>%s</b> to reside in');
-  define('TEXT_MOVE', 'Move <b>%s</b> to:');
+  define('TEXT_MOVE_PRODUCTS_INTRO', 'Lütfen <b>%s</b> ürününü içine yerleştirmeği dilediğiniz hangi kategoriyse seçiniz');
+  define('TEXT_MOVE', 'Taşı <b>%s</b> buraya:');
 
-  define('TEXT_PRODUCTS_STATUS', 'Products Status:');
-  define('TEXT_PRODUCTS_DATE_AVAILABLE', 'Date Available:');
-  define('TEXT_PRODUCT_AVAILABLE', 'In Stock');
-  define('TEXT_PRODUCT_NOT_AVAILABLE', 'Out of Stock');
-  define('TEXT_PRODUCTS_MANUFACTURER', 'Products Manufacturer:');
-  define('TEXT_PRODUCTS_NAME', 'Products Name:');
-  define('TEXT_PRODUCTS_DESCRIPTION', 'Products Description:');
-  define('TEXT_PRODUCTS_QUANTITY', 'Products Quantity:');
-  define('TEXT_PRODUCTS_MODEL', 'Products Model:');
-  define('TEXT_PRODUCTS_KEYWORD', 'Products Keyword:');
-  define('TEXT_PRODUCTS_TAGS', 'Products Tags:');
-  define('TEXT_PRODUCTS_IMAGE', 'Products Image:');
-  define('TEXT_PRODUCTS_URL', 'Products URL:');
-  define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(without http://)</small>');
-  define('TEXT_PRODUCTS_TAX_CLASS', 'Tax Class:');
-  define('TEXT_PRODUCTS_PRICE_NET', 'Products Price (Net):');
-  define('TEXT_PRODUCTS_PRICE_GROSS', 'Products Price (Gross):');
-  define('TEXT_PRODUCTS_WEIGHT', 'Products Weight:');
+  define('TEXT_PRODUCTS_STATUS', 'Ürün Durumu:');
+  define('TEXT_PRODUCTS_DATE_AVAILABLE', 'Elde Edilebilirlilik Tarihi:');
+  define('TEXT_PRODUCT_AVAILABLE', 'Stokta var');
+  define('TEXT_PRODUCT_NOT_AVAILABLE', 'Stokta yok');
+  define('TEXT_PRODUCTS_MANUFACTURER', 'Ürün Üretiticisi:');
+  define('TEXT_PRODUCTS_NAME', 'Ürün İsmi:');
+  define('TEXT_PRODUCTS_DESCRIPTION', 'Ürün Açıklaması:');
+  define('TEXT_PRODUCTS_QUANTITY', 'Ürün Miktarı:');
+  define('TEXT_PRODUCTS_MODEL', 'Ürün Modeli:');
+  define('TEXT_PRODUCTS_KEYWORD', 'Ürün Anahtar Kelimeleri(*):');
+  define('TEXT_PRODUCTS_TAGS', 'Ürün Tagları(*):');
+  define('TEXT_PRODUCTS_IMAGE', 'Ürün Resimi:');
+  define('TEXT_PRODUCTS_URL', 'Ürün URL:');
+  define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(http:// kullanmadan)</small>');
+  define('TEXT_PRODUCTS_TAX_CLASS', 'Vergi Sınıfı:');
+  define('TEXT_PRODUCTS_PRICE_NET', 'Ürün Fiyatı (Net):');
+  define('TEXT_PRODUCTS_PRICE_GROSS', 'Ürün Fiyatı (Bürüt):');
+  define('TEXT_PRODUCTS_WEIGHT', 'Ürün Ağırlığı:');
 
-  define('TEXT_PRODUCT_DATE_ADDED', 'This product was added to our catalog on %s.');
-  define('TEXT_PRODUCT_DATE_AVAILABLE', 'This product will be in stock on %s.');
-  define('TEXT_PRODUCT_MORE_INFORMATION', 'For more information, please visit this products <a href="http://%s" target="blank"><u>webpage</u></a>.');
+  define('TEXT_PRODUCT_DATE_ADDED', 'Bu ürün %s katalogumuza tarihinde eklenmiştir.');
+  define('TEXT_PRODUCT_DATE_AVAILABLE', 'Bu ürün % de stoklarımızda olacaktır.');
+  define('TEXT_PRODUCT_MORE_INFORMATION', 'Daha fazla bilgi için, lütfen bu ürünün <a href="http://%s" target="blank"><u>web sayfasını</u></a> ziyaret ediniz.');
 
-  define('TEXT_HOW_TO_COPY', 'Copy Method:');
-  define('TEXT_COPY_AS_LINK', 'Link product');
-  define('TEXT_COPY_AS_DUPLICATE', 'Duplicate product');
+  define('TEXT_HOW_TO_COPY', 'Kopya Yöntemi:');
+  define('TEXT_COPY_AS_LINK', 'Bağ Ürün');
+  define('TEXT_COPY_AS_DUPLICATE', 'Teksir Ürün');
 
-  define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Error: Can not link products in the same category.');
-  define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: Product images directory is not writeable: ' . realpath('../images/products'));
-  define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: Product images directory does not exist: ' . realpath('../images/products'));
+  define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Hata: bağ ürün aynı kategoride yapılamaz.');
+  define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Hata: Katalog images dizini yazılabilir degil: ' . realpath('../images'));
+  define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Hata: Katalog images dizini yok: ' . realpath('../images'));
 ?>
