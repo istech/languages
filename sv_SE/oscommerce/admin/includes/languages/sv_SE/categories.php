@@ -40,4 +40,6 @@
   define('EMPTY_CATEGORY', 'Tom kategori');
 
   define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Fel: Kategorin kan ej flyttas till underkatalog.');
+  define('ERROR_CATEGORIES_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fel: Kategoribildsmappen är skrivskyddad: ' . realpath('../images/categories'));
+  define('ERROR_CATEGORIES_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fel: Kategoribildsmappen existerar ej: ' . realpath('../images/categories'));
 ?>

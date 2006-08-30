@@ -37,7 +37,7 @@ define('TEXT_DELETE_IMAGE', 'Ta bort tillverkarens bild?');
 define('TEXT_DELETE_PRODUCTS', 'ta bort produkterna från denna tillverkare? (inklusive produktkommentarer, kampanjer, kommande produkter)');
 define('TEXT_DELETE_WARNING_PRODUCTS', '<b>VARNING:</b> Det finns fortfarande %s produkter länkade till tillverkaren!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Fel: Jag kan ej skriva till denna mapp. Var vänlig och ändra användarrättigheterna vid: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Fel: Mappen existerar ej: %s');
-define('ERROR_MANUFACTURER_NAME', 'Fel: Tillverkarens namn kan inte vara blankt');
+define('ERROR_MANUFACTURER_NAME', 'Fel: Tillverkarens namn kan ej vara blankt.');
+define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fel: Tillverkarbildmappen är skrivskyddad: ' . realpath('../images/manufacturers'));
+define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fel: Tillverkarbildmappen existerar ej: ' . realpath('../images/manufacturers'));
 ?>

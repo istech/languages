@@ -163,6 +163,7 @@ define('IMAGE_CONFIGURE', 'Konfigurera');
 define('IMAGE_CONFIRM', 'Bekräfta');
 define('IMAGE_COPY', 'Kopiera');
 define('IMAGE_COPY_TO', 'Kopiera till');
+define('IMAGE_DEFAULT', 'Standard');
 define('IMAGE_DETAILS', 'Detaljer');
 define('IMAGE_DELETE', 'Ta bort');
 define('IMAGE_EDIT', 'Editera');
