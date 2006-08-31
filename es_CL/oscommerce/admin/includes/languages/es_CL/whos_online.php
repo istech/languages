@@ -12,11 +12,11 @@
 
 define('HEADING_TITLE', 'Quién es en línea');
 
-define('TABLE_HEADING_ONLINE', 'En Línea');
+define('TABLE_HEADING_ONLINE', 'En línea');
 define('TABLE_HEADING_CUSTOMER_ID', 'ID');
 define('TABLE_HEADING_FULL_NAME', 'Nombre');
 define('TABLE_HEADING_IP_ADDRESS', 'Dirección IP');
-define('TABLE_HEADING_LAST_CLICK', 'Ultimo Click');
+define('TABLE_HEADING_LAST_CLICK', 'Ultimo click');
 define('TABLE_HEADING_LAST_PAGE_URL', 'Ultimo URL');
 define('TABLE_HEADING_SHOPPING_CART_TOTAL', 'Total');
 define('TABLE_HEADING_ACTION', 'Acción');
@@ -27,10 +27,10 @@ define('TEXT_CUSTOMER_ID', 'Cliente ID:');
 define('TEXT_CUSTOMER_NAME', 'Nombre del cliente:');
 define('TEXT_IP_ADDRESS', 'Dirección IP:');
 define('TEXT_ENTRY_TIME', 'Entro:');
-define('TEXT_LAST_CLICK', 'Ultimo Click:');
+define('TEXT_LAST_CLICK', 'Ultimo click:');
 define('TEXT_LAST_PAGE_URL', 'Ultima Página URL:');
-define('TEXT_SHOPPING_CART_PRODUCTS', 'Productos En Carro:');
-define('TEXT_SHOPPING_CART_TOTAL', 'Total del Carro:');
+define('TEXT_SHOPPING_CART_PRODUCTS', 'Productos en carro:');
+define('TEXT_SHOPPING_CART_TOTAL', 'Total del carro:');
 
 define('TEXT_DISPLAY_NUMBER_OF_WHOS_ONLINE', 'Actualmente hay %s clientes en línea');
 ?>

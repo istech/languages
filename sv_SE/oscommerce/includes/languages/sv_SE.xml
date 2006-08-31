@@ -1139,16 +1139,6 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
       <group>checkout</group>
     </definition>
     <definition>
-      <key>free_shipping_title</key>
-      <value><![CDATA[Fri leverans]]></value>
-      <group>checkout</group>
-    </definition>
-    <definition>
-      <key>free_shipping_description</key>
-      <value><![CDATA[Fri leverans för ordrar över %s]]></value>
-      <group>checkout</group>
-    </definition>
-    <definition>
       <key>order_delivery_address_title</key>
       <value><![CDATA[Leveransadress]]></value>
       <group>order</group>

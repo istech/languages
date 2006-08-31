@@ -23,12 +23,12 @@ define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
 define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar esta valuta?');
 define('TEXT_INFO_UPDATE_SERVICE_INTRO', 'Por favor seleccionar el servicio para usar de la actualización de la valuta.');
 
-define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Nueva Valuta');
+define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Nueva valuta');
 
 define('TEXT_INFO_CURRENCY_TITLE', 'Título:');
 define('TEXT_INFO_CURRENCY_CODE', 'Código:');
-define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Símbolo Izquierda:');
-define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Símbolo Derecha:');
+define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Símbolo izquierda:');
+define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Símbolo derecha:');
 define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Decimales:');
 define('TEXT_INFO_CURRENCY_VALUE', 'Valor:');
 

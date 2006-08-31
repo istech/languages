@@ -10,18 +10,18 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Manager de Boletínes');
+  define('HEADING_TITLE', 'Manager de boletínes');
 
   define('TABLE_HEADING_NEWSLETTERS', 'Boletínes');
   define('TABLE_HEADING_SIZE', 'Tamaño');
   define('TABLE_HEADING_MODULE', 'Módulo');
   define('TABLE_HEADING_SENT', 'Enviado');
   define('TABLE_HEADING_ACTION', 'Acción');
-  define('TABLE_HEADING_EMAIL_ADDRESS', 'Dirección E-Mail');
-  define('TABLE_HEADING_DATE_SENT', 'Fecha Enviado');
+  define('TABLE_HEADING_EMAIL_ADDRESS', 'Dirección e-mail');
+  define('TABLE_HEADING_DATE_SENT', 'Fecha enviado');
 
   define('TEXT_NEWSLETTER_MODULE', 'Módulo:');
-  define('TEXT_NEWSLETTER_TITLE', 'Título del Boletín:');
+  define('TEXT_NEWSLETTER_TITLE', 'Título del boletín:');
   define('TEXT_NEWSLETTER_CONTENT', 'Contenido:');
 
   define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este boletín?');

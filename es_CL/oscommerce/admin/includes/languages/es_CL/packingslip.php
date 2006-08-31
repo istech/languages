@@ -16,5 +16,5 @@ define('TABLE_HEADING_PRODUCTS', 'Productos');
 
 define('ENTRY_SOLD_TO', 'VENDIDO A:');
 define('ENTRY_SHIP_TO', 'ENVIADO A:');
-define('ENTRY_PAYMENT_METHOD', 'Forma de Pago:');
+define('ENTRY_PAYMENT_METHOD', 'Forma de pago:');
 ?>

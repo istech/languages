@@ -16,12 +16,12 @@
   <definitions>
     <definition>
       <key>my_account</key>
-      <value><![CDATA[Mi Cuenta]]></value>
+      <value><![CDATA[Mi cuenta]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>cart_contents</key>
-      <value><![CDATA[Contenido del Carro]]></value>
+      <value><![CDATA[Contenido del carro]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -111,7 +111,7 @@
     </definition>
     <definition>
       <key>button_add_address</key>
-      <value><![CDATA[Agregar Dirección]]></value>
+      <value><![CDATA[Agregar dirección]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -121,12 +121,12 @@
     </definition>
     <definition>
       <key>button_buy_now</key>
-      <value><![CDATA[Compre Ahora]]></value>
+      <value><![CDATA[Compre ahora]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_change_address</key>
-      <value><![CDATA[Cambiar Dirección]]></value>
+      <value><![CDATA[Cambiar dirección]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -136,7 +136,7 @@
     </definition>
     <definition>
       <key>button_confirm_order</key>
-      <value><![CDATA[Confirmar Pedido]]></value>
+      <value><![CDATA[Confirmar pedido]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -166,7 +166,7 @@
     </definition>
     <definition>
       <key>button_add_to_cart</key>
-      <value><![CDATA[Agregar al Carro]]></value>
+      <value><![CDATA[Agregar al carro]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -181,17 +181,17 @@
     </definition>
     <definition>
       <key>button_update_cart</key>
-      <value><![CDATA[Actualizar Carro]]></value>
+      <value><![CDATA[Actualizar carro]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_write_review</key>
-      <value><![CDATA[Escribe Comentario]]></value>
+      <value><![CDATA[Escribe comentario]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>icon_in_cart</key>
-      <value><![CDATA[Agregar al Carro]]></value>
+      <value><![CDATA[Agregar al carro]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -251,7 +251,7 @@
     </definition>
     <definition>
       <key>listing_buy_now_heading</key>
-      <value><![CDATA[Compre Ahora]]></value>
+      <value><![CDATA[Compre ahora]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -266,12 +266,12 @@
     </definition>
     <definition>
       <key>filter_all_categories</key>
-      <value><![CDATA[Todas Categorías]]></value>
+      <value><![CDATA[Todas categorías]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_all_manufacturers</key>
-      <value><![CDATA[Todas Fabricantes]]></value>
+      <value><![CDATA[Todas fabricantes]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -306,17 +306,17 @@
     </definition>
     <definition>
       <key>breadcrumb_my_account</key>
-      <value><![CDATA[Mi Cuenta]]></value>
+      <value><![CDATA[Mi cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_account</key>
-      <value><![CDATA[Editar Cuenta]]></value>
+      <value><![CDATA[Editar cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_password</key>
-      <value><![CDATA[Cambiar Contraseña]]></value>
+      <value><![CDATA[Cambiar contraseña]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -341,62 +341,62 @@
     </definition>
     <definition>
       <key>breadcrumb_address_book</key>
-      <value><![CDATA[Mis Direcciones]]></value>
+      <value><![CDATA[Mis direcciones]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_add_entry</key>
-      <value><![CDATA[Agregar Entrada]]></value>
+      <value><![CDATA[Agregar entrada]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_edit_entry</key>
-      <value><![CDATA[Editar Entrada]]></value>
+      <value><![CDATA[Editar entrada]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_delete_entry</key>
-      <value><![CDATA[Borrar Entrada]]></value>
+      <value><![CDATA[Borrar entrada]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_create_account</key>
-      <value><![CDATA[Crear una Cuenta]]></value>
+      <value><![CDATA[Crear una cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_password_forgotten</key>
-      <value><![CDATA[Contraseña Olvidada]]></value>
+      <value><![CDATA[Contraseña olvidada]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>sign_in_heading</key>
-      <value><![CDATA[Bienvenido, Por Favor Ingresar]]></value>
+      <value><![CDATA[Bienvenido, por favor ingresar]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>sign_out_heading</key>
-      <value><![CDATA[Salir De Su Cuenta]]></value>
+      <value><![CDATA[Salir de su cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_heading</key>
-      <value><![CDATA[Mi Cuenta]]></value>
+      <value><![CDATA[Mi cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_edit_heading</key>
-      <value><![CDATA[Información De Mi Cuenta]]></value>
+      <value><![CDATA[Información de mi cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_password_heading</key>
-      <value><![CDATA[Contraseña De Mi Cuenta]]></value>
+      <value><![CDATA[Contraseña de mi cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>orders_heading</key>
-      <value><![CDATA[Mis Pedidos]]></value>
+      <value><![CDATA[Mis pedidos]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -406,32 +406,32 @@
     </definition>
     <definition>
       <key>newsletters_heading</key>
-      <value><![CDATA[Mi Subscripcion Del Boletín]]></value>
+      <value><![CDATA[Mi Subscripcion del boletín]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>notifications_heading</key>
-      <value><![CDATA[Mi Notificacion Del Producto]]></value>
+      <value><![CDATA[Mi Notificacion del producto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_heading</key>
-      <value><![CDATA[Mis Direcciones]]></value>
+      <value><![CDATA[Mis direcciones]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_add_entry_heading</key>
-      <value><![CDATA[Nueva Entrada De Mis Direcciones]]></value>
+      <value><![CDATA[Nueva Entrada de mis direcciones]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_edit_entry_heading</key>
-      <value><![CDATA[Editar Entrada De Mis Direcciones]]></value>
+      <value><![CDATA[Editar Entrada de mis direcciones]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_entry_heading</key>
-      <value><![CDATA[Borrar Entrada De Mis Direcciones]]></value>
+      <value><![CDATA[Borrar Entrada de mis direcciones]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -441,12 +441,12 @@
     </definition>
     <definition>
       <key>create_account_success_heading</key>
-      <value><![CDATA[¡Su Cuenta Ha Sido Creada!]]></value>
+      <value><![CDATA[¡Su cuenta ha sido creada!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_new_customer_heading</key>
-      <value><![CDATA[Nuevo Cliente]]></value>
+      <value><![CDATA[Nuevo cliente]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -456,7 +456,7 @@
     </definition>
     <definition>
       <key>login_returning_customer_heading</key>
-      <value><![CDATA[Cliente Habitual]]></value>
+      <value><![CDATA[Cliente habitual]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -476,7 +476,7 @@
     </definition>
     <definition>
       <key>date_added_to_shopping_cart</key>
-      <value><![CDATA[Fecha Agregada: %s]]></value>
+      <value><![CDATA[Fecha agregada: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -486,7 +486,7 @@
     </definition>
     <definition>
       <key>my_account_title</key>
-      <value><![CDATA[Mi Cuenta]]></value>
+      <value><![CDATA[Mi cuenta]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -511,7 +511,7 @@
     </definition>
     <definition>
       <key>my_orders_title</key>
-      <value><![CDATA[Mis Pedidos]]></value>
+      <value><![CDATA[Mis pedidos]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -521,7 +521,7 @@
     </definition>
     <definition>
       <key>my_notifications_title</key>
-      <value><![CDATA[Mis Notificaciones]]></value>
+      <value><![CDATA[Mis notificaciones]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -536,32 +536,32 @@
     </definition>
     <definition>
       <key>my_password_title</key>
-      <value><![CDATA[Mi Contraseña]]></value>
+      <value><![CDATA[Mi contraseña]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_number</key>
-      <value><![CDATA[Número del Pedido:]]></value>
+      <value><![CDATA[Número del pedido:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_status</key>
-      <value><![CDATA[Estatus del Pedido:]]></value>
+      <value><![CDATA[Estatus del pedido:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_date</key>
-      <value><![CDATA[Fecha del Pedido:]]></value>
+      <value><![CDATA[Fecha del pedido:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_shipped_to</key>
-      <value><![CDATA[Enviado A:]]></value>
+      <value><![CDATA[Enviado a:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_billed_to</key>
-      <value><![CDATA[Mandado La Cuenta A:]]></value>
+      <value><![CDATA[Mandado la cuenta a:]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -571,7 +571,7 @@
     </definition>
     <definition>
       <key>order_cost</key>
-      <value><![CDATA[Costo del Pedido:]]></value>
+      <value><![CDATA[Costo del pedido:]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -586,17 +586,17 @@
     </definition>
     <definition>
       <key>order_date_heading</key>
-      <value><![CDATA[Fecha del Pedido:]]></value>
+      <value><![CDATA[Fecha del pedido:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_total_heading</key>
-      <value><![CDATA[Total del Pedido:]]></value>
+      <value><![CDATA[Total del pedido:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_history_heading</key>
-      <value><![CDATA[Historia del Pedido]]></value>
+      <value><![CDATA[Historia del pedido]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -616,12 +616,12 @@
     </definition>
     <definition>
       <key>newsletter_subscriptions_heading</key>
-      <value><![CDATA[Mi Subscripcion de Boletín]]></value>
+      <value><![CDATA[Mi subscripcion de boletín]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_general</key>
-      <value><![CDATA[Boletín De Noticias General]]></value>
+      <value><![CDATA[Boletín de noticias general]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -631,17 +631,17 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications</key>
-      <value><![CDATA[Mi Notificacion del Producto]]></value>
+      <value><![CDATA[Mi notificacion del producto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_description</key>
-      <value><![CDATA[La lista de la notificación del producto permite que le permanezcas actualizado en productos que el hallazgo de interest.<br /><br />To sea actualizado en todos los cambios del producto, elige <b>Global Notificación Del Producto</b>.]]></value>
+      <value><![CDATA[La lista de la notificación del producto permite que le permanezcas actualizado en productos que el hallazgo de interest.<br /><br />To sea actualizado en todos los cambios del producto, elige <b>global notificación del producto</b>.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global</key>
-      <value><![CDATA[Global Notificación del Producto]]></value>
+      <value><![CDATA[Global notificación del producto]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -651,7 +651,7 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications_products</key>
-      <value><![CDATA[Notificación del Producto]]></value>
+      <value><![CDATA[Notificación del producto]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -666,7 +666,7 @@
     </definition>
     <definition>
       <key>primary_address_title</key>
-      <value><![CDATA[Dirección Primaria]]></value>
+      <value><![CDATA[Dirección primaria]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -676,7 +676,7 @@
     </definition>
     <definition>
       <key>address_book_title</key>
-      <value><![CDATA[Entradas De Mis Direcciones]]></value>
+      <value><![CDATA[Entradas de mis direcciones]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -691,7 +691,7 @@
     </definition>
     <definition>
       <key>address_book_delete_address_title</key>
-      <value><![CDATA[Borrar Dirección]]></value>
+      <value><![CDATA[Borrar dirección]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -701,12 +701,12 @@
     </definition>
     <definition>
       <key>address_book_new_address_title</key>
-      <value><![CDATA[Dirección Nueva]]></value>
+      <value><![CDATA[Dirección nueva]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>selected_address_title</key>
-      <value><![CDATA[Dirección Seleccionada]]></value>
+      <value><![CDATA[Dirección seleccionada]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -716,7 +716,7 @@
     </definition>
     <definition>
       <key>create_account_terms_heading</key>
-      <value><![CDATA[Política de Privacidad]]></value>
+      <value><![CDATA[Política de privacidad]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -731,7 +731,7 @@
     </definition>
     <definition>
       <key>password_forgotten_heading</key>
-      <value><![CDATA[Contraseña Olvidada]]></value>
+      <value><![CDATA[Contraseña olvidada]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -750,10 +750,10 @@
 
 Ahora puedes participar en los varios servicios que ofrecemos a usted. Algunos de estos servicios incluyen:
 
-<li>Carro Permanente - Cualquier producto agregado al carro permanece allí hasta que lo quite, o lo compre.
-<li>Sus Direcciones - ¡Ahora podemos entregar sus productos a otra dirección que la suya! Esto es perfecto para enviar los regalos directo a la persona de cumpleaños.
-<li>Historia del Pedido - Ver su historia de compras que has hecho con nosotros.
-<li>Comentarios del Productos - Compartir sus opiniones sobre productos con nuestros otros clientes.
+<li>Carro permanente - Cualquier producto agregado al carro permanece allí hasta que lo quite, o lo compre.
+<li>Sus direcciones - ¡Ahora podemos entregar sus productos a otra dirección que la suya! Esto es perfecto para enviar los regalos directo a la persona de cumpleaños.
+<li>Historia del pedido - Ver su historia de compras que has hecho con nosotros.
+<li>Comentarios del productos - Compartir sus opiniones sobre productos con nuestros otros clientes.
 
 Para ayuda de cualquiera de nuestros servicios, por favor mande un email al dueño de la tienda: %s.
 
@@ -777,7 +777,7 @@ Nota: Este dirección email nos fue dado por uno de nuestros clientes. Si no ing
     </definition>
     <definition>
       <key>email_password_reminder_subject</key>
-      <value><![CDATA[Recordatorio de Contraseña a %s]]></value>
+      <value><![CDATA[Recordatorio de contraseña a %s]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -900,22 +900,22 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>breadcrumb_checkout_shipping</key>
-      <value><![CDATA[Forma de Envío]]></value>
+      <value><![CDATA[Forma de envío]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_shipping_address</key>
-      <value><![CDATA[Dirección de Envío]]></value>
+      <value><![CDATA[Dirección de envío]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_payment</key>
-      <value><![CDATA[Forma de Pago]]></value>
+      <value><![CDATA[Forma de pago]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_payment_address</key>
-      <value><![CDATA[Dirección de Pago]]></value>
+      <value><![CDATA[Dirección de pago]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -935,22 +935,22 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>shipping_method_heading</key>
-      <value><![CDATA[Forma de Envío]]></value>
+      <value><![CDATA[Forma de envío]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shipping_address_heading</key>
-      <value><![CDATA[Dirección de Envío]]></value>
+      <value><![CDATA[Dirección de envío]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>payment_method_heading</key>
-      <value><![CDATA[Forma de Pago]]></value>
+      <value><![CDATA[Forma de pago]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>payment_address_heading</key>
-      <value><![CDATA[Forma de Pago]]></value>
+      <value><![CDATA[Forma de pago]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -960,12 +960,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>success_heading</key>
-      <value><![CDATA[¡Se Ha Procesado Su Pedido!]]></value>
+      <value><![CDATA[¡Se ha procesado su pedido!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shipping_address_title</key>
-      <value><![CDATA[Dirección de Envío]]></value>
+      <value><![CDATA[Dirección de envío]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -980,17 +980,17 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>current_shipping_address_title</key>
-      <value><![CDATA[Dirección de Envío:]]></value>
+      <value><![CDATA[Dirección de envío:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>please_select</key>
-      <value><![CDATA[Por Favor, Eliga]]></value>
+      <value><![CDATA[Por favor, eliga]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shipping_method_title</key>
-      <value><![CDATA[Forma de Envío]]></value>
+      <value><![CDATA[Forma de envío]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1005,12 +1005,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>add_comment_to_order_title</key>
-      <value><![CDATA[Agregar Una Nota A Este Pedido]]></value>
+      <value><![CDATA[Agregar una nota a este pedido]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>address_book_entries_title</key>
-      <value><![CDATA[Entradas de Mis Direcciónes]]></value>
+      <value><![CDATA[Entradas de mis direcciónes]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1025,7 +1025,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>new_shipping_address_title</key>
-      <value><![CDATA[Nueva Dirección De Envío]]></value>
+      <value><![CDATA[Nueva dirección de envío]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1035,7 +1035,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>new_billing_address_title</key>
-      <value><![CDATA[Nueva Dirección De La Facturación]]></value>
+      <value><![CDATA[Nueva dirección de la facturación]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1045,7 +1045,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>billing_address_title</key>
-      <value><![CDATA[Dirección De La Facturación]]></value>
+      <value><![CDATA[Dirección de la facturación]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1060,12 +1060,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>current_billing_address_title</key>
-      <value><![CDATA[Dirección De La Facturación:]]></value>
+      <value><![CDATA[Dirección de la facturación:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_title</key>
-      <value><![CDATA[Continuar El Procedimiento A Caja]]></value>
+      <value><![CDATA[Continuar el procedimiento a caja]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1085,7 +1085,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>shopping_cart_empty</key>
-      <value><![CDATA[¡Su Carro esta vacío!]]></value>
+      <value><![CDATA[¡Su carro esta vacío!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1110,7 +1110,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>order_conditions_title</key>
-      <value><![CDATA[Términos y Condiciones]]></value>
+      <value><![CDATA[Términos y condiciones]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1125,7 +1125,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>payment_method_title</key>
-      <value><![CDATA[Forma del Pago]]></value>
+      <value><![CDATA[Forma del pago]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1139,23 +1139,13 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
       <group>checkout</group>
     </definition>
     <definition>
-      <key>free_shipping_title</key>
-      <value><![CDATA[Envío Gratis]]></value>
-      <group>checkout</group>
-    </definition>
-    <definition>
-      <key>free_shipping_description</key>
-      <value><![CDATA[Envío gratis por los pedidos sobre %s]]></value>
-      <group>checkout</group>
-    </definition>
-    <definition>
       <key>order_delivery_address_title</key>
-      <value><![CDATA[Dirección De La Entrega]]></value>
+      <value><![CDATA[Dirección de la entrega]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_shipping_method_title</key>
-      <value><![CDATA[Forma de Envió]]></value>
+      <value><![CDATA[Forma de envió]]></value>
       <group>order</group>
     </definition>
     <definition>
@@ -1175,22 +1165,22 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>order_billing_address_title</key>
-      <value><![CDATA[Dirección De La Facturación]]></value>
+      <value><![CDATA[Dirección de la facturación]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_payment_method_title</key>
-      <value><![CDATA[Forma de Pago]]></value>
+      <value><![CDATA[Forma de pago]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_payment_information_title</key>
-      <value><![CDATA[Información del Pago]]></value>
+      <value><![CDATA[Información del pago]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_comments_title</key>
-      <value><![CDATA[Comentarios Agregados A Su Pedido]]></value>
+      <value><![CDATA[Comentarios agregados a su pedido]]></value>
       <group>order</group>
     </definition>
     <definition>
@@ -1200,27 +1190,27 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>email_order_subject</key>
-      <value><![CDATA[Proceso del Pedido]]></value>
+      <value><![CDATA[Proceso del pedido]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_order_number</key>
-      <value><![CDATA[Pedido Número: %s]]></value>
+      <value><![CDATA[Pedido número: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_invoice_url</key>
-      <value><![CDATA[Factura Detallada: %s]]></value>
+      <value><![CDATA[Factura detallada: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_date_ordered</key>
-      <value><![CDATA[Fecha del Pedido: %s]]></value>
+      <value><![CDATA[Fecha del pedido: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_status</key>
-      <value><![CDATA[Estatus del Pedido: %s]]></value>
+      <value><![CDATA[Estatus del pedido: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1230,17 +1220,17 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>email_order_delivery_address</key>
-      <value><![CDATA[Dirección de Entrega]]></value>
+      <value><![CDATA[Dirección de entrega]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_billing_address</key>
-      <value><![CDATA[Dirección De La Facturación]]></value>
+      <value><![CDATA[Dirección de la facturación]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_payment_method</key>
-      <value><![CDATA[Forma del Pago]]></value>
+      <value><![CDATA[Forma del pago]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1305,27 +1295,27 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>breadcrumb_sitemap</key>
-      <value><![CDATA[Mapa de Sitio]]></value>
+      <value><![CDATA[Mapa de sitio]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_cookie_usage</key>
-      <value><![CDATA[Uso de Galleta]]></value>
+      <value><![CDATA[Uso de galleta]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_ssl_check</key>
-      <value><![CDATA[Control de Seguridad]]></value>
+      <value><![CDATA[Control de seguridad]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_heading</key>
-      <value><![CDATA[Información y Ayuda]]></value>
+      <value><![CDATA[Información y ayuda]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_conditions_heading</key>
-      <value><![CDATA[Términos y Condiciones]]></value>
+      <value><![CDATA[Términos y condiciones]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1335,27 +1325,27 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>info_privacy_heading</key>
-      <value><![CDATA[Política de Privacidad]]></value>
+      <value><![CDATA[Política de privacidad]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_shipping_heading</key>
-      <value><![CDATA[Envío y Devolución]]></value>
+      <value><![CDATA[Envío y devolución]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_sitemap_heading</key>
-      <value><![CDATA[Mapa de Sitio]]></value>
+      <value><![CDATA[Mapa de sitio]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_cookie_usage_heading</key>
-      <value><![CDATA[Uso de Galleta]]></value>
+      <value><![CDATA[Uso de galleta]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_ssl_check_heading</key>
-      <value><![CDATA[Control de Seguridad]]></value>
+      <value><![CDATA[Control de seguridad]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1390,12 +1380,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>contact_title</key>
-      <value><![CDATA[Información de Contacto]]></value>
+      <value><![CDATA[Información de contacto]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_store_address_title</key>
-      <value><![CDATA[Dirección de la Tienda]]></value>
+      <value><![CDATA[Dirección de la tienda]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1405,7 +1395,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>contact_email_address_title</key>
-      <value><![CDATA[Dirección Email:]]></value>
+      <value><![CDATA[Dirección email:]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1420,32 +1410,32 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>contact_email_subject</key>
-      <value><![CDATA[Consulta Contacto]]></value>
+      <value><![CDATA[Consulta contacto]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account</key>
-      <value><![CDATA[Mi Cuenta]]></value>
+      <value><![CDATA[Mi cuenta]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_edit</key>
-      <value><![CDATA[Información de la Cuenta]]></value>
+      <value><![CDATA[Información de la cuenta]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_address_book</key>
-      <value><![CDATA[Mis Direcciones]]></value>
+      <value><![CDATA[Mis direcciones]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_history</key>
-      <value><![CDATA[Historia del Pedido]]></value>
+      <value><![CDATA[Historia del pedido]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_notifications</key>
-      <value><![CDATA[Subscripcion del Boletín]]></value>
+      <value><![CDATA[Subscripcion del boletín]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1460,12 +1450,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>sitemap_advanced_search</key>
-      <value><![CDATA[Búsqueda Avanzada]]></value>
+      <value><![CDATA[Búsqueda avanzada]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_products_new</key>
-      <value><![CDATA[Productos Nuevos]]></value>
+      <value><![CDATA[Productos nuevos]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1480,7 +1470,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>cookie_usage_box_heading</key>
-      <value><![CDATA[Privacidad y Seguridad de la Galleta]]></value>
+      <value><![CDATA[Privacidad y seguridad de la galleta]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1490,7 +1480,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>ssl_check_box_heading</key>
-      <value><![CDATA[Privacidad y Seguridad]]></value>
+      <value><![CDATA[Privacidad y seguridad]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1500,7 +1490,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>breadcrumb_new_products</key>
-      <value><![CDATA[Productos Nuevos]]></value>
+      <value><![CDATA[Productos nuevos]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1515,12 +1505,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>breadcrumb_reviews_new</key>
-      <value><![CDATA[Comentario Nuevo]]></value>
+      <value><![CDATA[Comentario nuevo]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_tell_a_friend</key>
-      <value><![CDATA[Digale A Un Amigo]]></value>
+      <value><![CDATA[Digale a un amigo]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1535,7 +1525,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>new_products_heading</key>
-      <value><![CDATA[Productos Nuevos]]></value>
+      <value><![CDATA[Productos nuevos]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1555,7 +1545,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>number_of_product_reviews</key>
-      <value><![CDATA[Comentarios Actuales:]]></value>
+      <value><![CDATA[Comentarios actuales:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1570,7 +1560,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>product_attributes</key>
-      <value><![CDATA[Opciones Disponibles:]]></value>
+      <value><![CDATA[Opciones disponibles:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1580,7 +1570,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>date_added</key>
-      <value><![CDATA[Fecha Agregada:]]></value>
+      <value><![CDATA[Fecha agregada:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1595,12 +1585,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>average_rating</key>
-      <value><![CDATA[Rating Mediano:]]></value>
+      <value><![CDATA[Rating mediano:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>rating_of_5_stars</key>
-      <value><![CDATA[¡%s de 5 Estrellas!]]></value>
+      <value><![CDATA[¡%s de 5 estrellas!]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1610,7 +1600,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>new_review_title</key>
-      <value><![CDATA[Comentario Nuevo]]></value>
+      <value><![CDATA[Comentario nuevo]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1635,37 +1625,37 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>customer_details_title</key>
-      <value><![CDATA[Sus Detalles]]></value>
+      <value><![CDATA[Sus detalles]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>friend_details_title</key>
-      <value><![CDATA[Los Detalles De Su Amigo]]></value>
+      <value><![CDATA[Los detalles de su amigo]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>tell_a_friend_message</key>
-      <value><![CDATA[Su Mensaje]]></value>
+      <value><![CDATA[Su mensaje]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_name</key>
-      <value><![CDATA[Su Nombre:]]></value>
+      <value><![CDATA[Su nombre:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_email_address</key>
-      <value><![CDATA[Su Dirección E-Mail:]]></value>
+      <value><![CDATA[Su dirección e-mail:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_name</key>
-      <value><![CDATA[El Nombre De Su Amigo:]]></value>
+      <value><![CDATA[El nombre de su amigo:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_email_address</key>
-      <value><![CDATA[La Dirección E-Mail De Su Amigo:]]></value>
+      <value><![CDATA[La dirección e-mail de su amigo:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1746,17 +1736,17 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>advanced_search_heading</key>
-      <value><![CDATA[Búsqueda Avanzada]]></value>
+      <value><![CDATA[Búsqueda avanzada]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_results_heading</key>
-      <value><![CDATA[Resultados de la Búsqueda]]></value>
+      <value><![CDATA[Resultados de la búsqueda]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_criteria_title</key>
-      <value><![CDATA[Criterios de la Búsqueda]]></value>
+      <value><![CDATA[Criterios de la búsqueda]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1766,7 +1756,7 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_search_recursive</key>
-      <value><![CDATA[Incluye Subcategorías]]></value>
+      <value><![CDATA[Incluye subcategorías]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1776,32 +1766,32 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_search_price_from</key>
-      <value><![CDATA[Precio Desde:]]></value>
+      <value><![CDATA[Precio desde:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_price_to</key>
-      <value><![CDATA[Precio Hasta:]]></value>
+      <value><![CDATA[Precio hasta:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_from</key>
-      <value><![CDATA[Fecha Desde:]]></value>
+      <value><![CDATA[Fecha desde:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_to</key>
-      <value><![CDATA[Fecha Hasta:]]></value>
+      <value><![CDATA[Fecha hasta:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_tips</key>
-      <value><![CDATA[Search Help]]></value>
+      <value><![CDATA[Ayuda buscar]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_heading</key>
-      <value><![CDATA[Ayuda Buscar]]></value>
+      <value><![CDATA[Ayuda buscar]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1811,7 +1801,7 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>close_window</key>
-      <value><![CDATA[Cerrar Ventana]]></value>
+      <value><![CDATA[Cerrar ventana]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1821,27 +1811,27 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>error_search_invalid_from_date</key>
-      <value><![CDATA[Fecha de Partir Invalida.]]></value>
+      <value><![CDATA[Fecha de partir invalida.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_to_date</key>
-      <value><![CDATA[Hasta Fecha Invalida.]]></value>
+      <value><![CDATA[Hasta fecha invalida.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_to_date_less_than_from_date</key>
-      <value><![CDATA[To Date must be greater than or equal to From Date.]]></value>
+      <value><![CDATA[Fecha hasta debe ser mayor o igual a la fecha desde.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_from_not_numeric</key>
-      <value><![CDATA[Price From must be a number.]]></value>
+      <value><![CDATA[Precio desde, debe ser un número.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_to_not_numeric</key>
-      <value><![CDATA[Price To must be a number.]]></value>
+      <value><![CDATA[Precio hasta debe ser un número.]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1891,7 +1881,7 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_gender_error</key>
-      <value><![CDATA[Por favor eliga su Sexo.]]></value>
+      <value><![CDATA[Por favor eliga su sexo.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1901,7 +1891,7 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_first_name_error</key>
-      <value><![CDATA[Su Nombre debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su nombre debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1911,27 +1901,27 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_last_name_error</key>
-      <value><![CDATA[Su Apellido debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su apellido debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_date_of_birth</key>
-      <value><![CDATA[Fecha de Nacimiento:]]></value>
+      <value><![CDATA[Fecha de nacimiento:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_date_of_birth_error</key>
-      <value><![CDATA[Su Fecha de Nacimiento debe ser fijado correctamente.]]></value>
+      <value><![CDATA[Su Fecha de nacimiento debe ser fijado correctamente.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address</key>
-      <value><![CDATA[Dirección E-Mail:]]></value>
+      <value><![CDATA[Dirección e-mail:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_error</key>
-      <value><![CDATA[Su E-mail debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su e-mail debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1946,22 +1936,22 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_company</key>
-      <value><![CDATA[Nombre de Empresa:]]></value>
+      <value><![CDATA[Nombre de empresa:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_company_error</key>
-      <value><![CDATA[Su Nombre de Empresa debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su Nombre de empresa debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address</key>
-      <value><![CDATA[Dirección de la Calle:]]></value>
+      <value><![CDATA[Dirección de la calle:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address_error</key>
-      <value><![CDATA[Su Dirección de la Calle debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su dirección de la calle debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1971,17 +1961,17 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_suburb_error</key>
-      <value><![CDATA[Su Suburbio debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su suburbio debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code</key>
-      <value><![CDATA[Código Postal:]]></value>
+      <value><![CDATA[Código postal:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code_error</key>
-      <value><![CDATA[Su Código Postal debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su código postal debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1991,7 +1981,7 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_city_error</key>
-      <value><![CDATA[Su Ciudad debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su ciudad debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2001,7 +1991,7 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_state_error</key>
-      <value><![CDATA[Su Provincia debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su provincia debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2021,22 +2011,22 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_telephone_number</key>
-      <value><![CDATA[Número de Teléfono:]]></value>
+      <value><![CDATA[Número de teléfono:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_telephone_number_error</key>
-      <value><![CDATA[Su Número de Teléfono debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su número de teléfono debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_fax_number</key>
-      <value><![CDATA[Número de Fax:]]></value>
+      <value><![CDATA[Número de fax:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_fax_number_error</key>
-      <value><![CDATA[Su Número de Fax debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su número de fax debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2051,32 +2041,32 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_password_error</key>
-      <value><![CDATA[Su Contraseña debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su contraseña debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_mismatch_with_confirmation</key>
-      <value><![CDATA[La Confirmación de la Contraseña debe coincidir con su Contraseña.]]></value>
+      <value><![CDATA[La confirmación de la contraseña debe coincidir con su contraseña.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_confirmation</key>
-      <value><![CDATA[Confirmación de la Contraseña:]]></value>
+      <value><![CDATA[Confirmación de la contraseña:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current</key>
-      <value><![CDATA[Contraseña Actual:]]></value>
+      <value><![CDATA[Contraseña actual:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current_error</key>
-      <value><![CDATA[Su Contraseña debe contener un mínimo de %s caracteres.]]></value>
+      <value><![CDATA[Su contraseña debe contener un mínimo de %s caracteres.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new</key>
-      <value><![CDATA[Nueva Contraseña:]]></value>
+      <value><![CDATA[Nueva contraseña:]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2086,7 +2076,7 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_password_new_mismatch_with_confirmation_error</key>
-      <value><![CDATA[La Confirmación De La Contraseña debe coincidir con su nueva Contraseña.]]></value>
+      <value><![CDATA[La confirmación de la contraseña debe coincidir con su nueva contraseña.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2101,7 +2091,7 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>review_date_added</key>
-      <value><![CDATA[Fecha Agregada: %s]]></value>
+      <value><![CDATA[Fecha agregada: %s]]></value>
       <group>products</group>
     </definition>
     <definition>

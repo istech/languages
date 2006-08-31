@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_ORDERS_TITLE', 'Ultimos Pedidos');
+  define('MODULE_SUMMARY_ORDERS_TITLE', 'Ultimos pedidos');
 
   define('MODULE_SUMMARY_ORDERS_HEADING_ORDERS', 'Pedidos');
   define('MODULE_SUMMARY_ORDERS_HEADING_TOTAL', 'Total');

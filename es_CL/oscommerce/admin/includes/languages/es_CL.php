@@ -15,7 +15,7 @@ define('TITLE', 'osCommerce');
 
 // header text in includes/header.php
 define('HEADER_TITLE_HELP', 'Ayuda');
-define('HEADER_TITLE_OSCOMMERCE_SUPPORT_SITE', 'osCommerce Sitio de Soporte');
+define('HEADER_TITLE_OSCOMMERCE_SUPPORT_SITE', 'osCommerce sitio de soporte');
 define('HEADER_TITLE_ONLINE_CATALOG', 'Catálogo');
 define('HEADER_TITLE_LANGUAGES', 'Lenguajes');
 
@@ -34,27 +34,27 @@ define('BOX_CONFIGURATION_ADMINISTRATORS', 'Administradores');
 
 // configuration box text in includes/boxes/configuration.php
 define('BOX_HEADING_CONFIGURATION', 'Configuración');
-define('BOX_CONFIGURATION_MYSTORE', 'Mi Tienda');
+define('BOX_CONFIGURATION_MYSTORE', 'Mi tienda');
 define('BOX_CONFIGURATION_LOGGING', 'Loging');
 define('BOX_CONFIGURATION_CACHE', 'Cache');
 define('BOX_CONFIGURATION_SERVICES', 'Servicios');
-define('BOX_CONFIGURATION_CREDIT_CARD_TYPES', 'Tipos de Tarjeta de Crédito');
+define('BOX_CONFIGURATION_CREDIT_CARD_TYPES', 'Tipos de tarjeta de crédito');
 
 // modules box text in includes/boxes/modules.php
 define('BOX_HEADING_MODULES', 'Módulos');
 define('BOX_MODULES_PAYMENT', 'Pagos');
 define('BOX_MODULES_SHIPPING', 'Envíos');
-define('BOX_MODULES_ORDER_TOTAL', 'Total del Pedido');
+define('BOX_MODULES_ORDER_TOTAL', 'Total del pedido');
 
 // categories box text in includes/boxes/catalog.php
 define('BOX_HEADING_CATALOG', 'Catálogo');
 define('BOX_CATALOG_CATEGORIES', 'Categorías');
 define('BOX_CATALOG_PRODUCTS', 'Productos');
-define('BOX_CATALOG_CATEGORIES_PRODUCTS_ATTRIBUTES', 'Atributos de Productos');
+define('BOX_CATALOG_CATEGORIES_PRODUCTS_ATTRIBUTES', 'Atributos de productos');
 define('BOX_CATALOG_MANUFACTURERS', 'Fabricantes');
 define('BOX_CATALOG_REVIEWS', 'Comentarios');
 define('BOX_CATALOG_SPECIALS', 'Especiales');
-define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Productos Esperados');
+define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Productos esperados');
 
 // customers box text in includes/boxes/customers.php
 define('BOX_HEADING_CUSTOMERS', 'Clientes');
@@ -65,8 +65,8 @@ define('BOX_CUSTOMERS_ORDERS', 'Pedidos');
 define('BOX_HEADING_LOCATION_AND_TAXES', 'Localizaciones / Impuestos');
 define('BOX_TAXES_COUNTRIES', 'Paises');
 define('BOX_TAXES_ZONES', 'Zonas');
-define('BOX_TAXES_GEO_ZONES', 'Zonas de Impuesto');
-define('BOX_TAXES_TAX_CLASSES', 'Clases de Impuesto');
+define('BOX_TAXES_GEO_ZONES', 'Zonas de impuesto');
+define('BOX_TAXES_TAX_CLASSES', 'Clases de impuesto');
 
 // reports box text in includes/boxes/reports.php
 define('BOX_HEADING_REPORTS', 'Raportes');
@@ -74,22 +74,22 @@ define('BOX_REPORTS_STATISTICS', 'Estadísticas');
 
 // tools text in includes/boxes/tools.php
 define('BOX_HEADING_TOOLS', 'Herramientas');
-define('BOX_TOOLS_BACKUP', 'Respaldar Base de Datos');
-define('BOX_TOOLS_BANNER_MANAGER', 'Manager de Banderas');
-define('BOX_TOOLS_CACHE', 'Cache Control');
+define('BOX_TOOLS_BACKUP', 'Respaldar base de datos');
+define('BOX_TOOLS_BANNER_MANAGER', 'Manager de banderas');
+define('BOX_TOOLS_CACHE', 'Cache control');
 define('BOX_TOOLS_IMAGES', 'Imágenes');
-define('BOX_TOOLS_FILE_MANAGER', 'Manager de Archivos');
-define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Manager de Boletín');
-define('BOX_TOOLS_SERVER_INFO', 'Información del Servidor');
-define('BOX_TOOLS_WHOS_ONLINE', 'Quién es en Línea');
+define('BOX_TOOLS_FILE_MANAGER', 'Manager de archivos');
+define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Manager de boletín');
+define('BOX_TOOLS_SERVER_INFO', 'Información del servidor');
+define('BOX_TOOLS_WHOS_ONLINE', 'Quién es en línea');
 
 // localizaion box text in includes/boxes/localization.php
 define('BOX_HEADING_LOCALIZATION', 'Localization');
 define('BOX_LOCALIZATION_CURRENCIES', 'Valutas');
 define('BOX_LOCALIZATION_LANGUAGES', 'Lenguajes');
-define('BOX_LOCALIZATION_ORDERS_STATUS', 'Estatus del Pedidos');
-define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Clases de Peso');
-define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Grupos de Imágenes');
+define('BOX_LOCALIZATION_ORDERS_STATUS', 'Estatus del pedidos');
+define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Clases de peso');
+define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Grupos de imágenes');
 
 define('BOX_HEADING_LOGOFF', 'Salir');
 
@@ -114,88 +114,89 @@ define('CATEGORY_COMPANY', 'Empresa');
 define('CATEGORY_OPTIONS', 'Opciones');
 
 define('ENTRY_GENDER', 'Sexo:');
-define('ENTRY_GENDER_ERROR', 'Por favor eliga Sexo.');
+define('ENTRY_GENDER_ERROR', 'Por favor eliga sexo.');
 define('ENTRY_FIRST_NAME', 'Nombre:');
-define('ENTRY_FIRST_NAME_ERROR', 'Su Nombre debe contener un mínimo de ' . ACCOUNT_FIRST_NAME . ' caracteres.');
+define('ENTRY_FIRST_NAME_ERROR', 'Su nombre debe contener un mínimo de ' . ACCOUNT_FIRST_NAME . ' caracteres.');
 define('ENTRY_LAST_NAME', 'Apellido:');
-define('ENTRY_LAST_NAME_ERROR', 'Su Apellido debe contener un mínimo de ' . ACCOUNT_LAST_NAME . ' caracteres.');
-define('ENTRY_DATE_OF_BIRTH', 'Fecha de Nacimiento:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', 'Su Fecha de Nacimiento se debe fijarse correctamente.');
-define('ENTRY_EMAIL_ADDRESS', 'Dirección E-Mail:');
-define('ENTRY_EMAIL_ADDRESS_ERROR', 'Su Dirección E-mail debe contener un mínimo de ' . ACCOUNT_EMAIL_ADDRESS . ' caracteres.');
-define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Su Dirección E-mail no esta válida - por favor hacer cualquier corrección necesaria.');
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Su dirección E-mail existe ya en nuestros expedientes - por favor abrir una sesión con la dirección E-mail o crear una cuenta con una diversa dirección.');
-define('ENTRY_COMPANY', 'Nombre de Empresa:');
-define('ENTRY_COMPANY_ERROR', 'Su Nombre de Empresa debe contener un mínimo de ' . ACCOUNT_COMPANY . ' caracteres.');
-define('ENTRY_STREET_ADDRESS', 'Nombre de Calle:');
-define('ENTRY_STREET_ADDRESS_ERROR', 'Su Nombre de Calle debe contener un mínimo de ' . ACCOUNT_STREET_ADDRESS . ' caracteres.');
+define('ENTRY_LAST_NAME_ERROR', 'Su apellido debe contener un mínimo de ' . ACCOUNT_LAST_NAME . ' caracteres.');
+define('ENTRY_DATE_OF_BIRTH', 'Fecha de nacimiento:');
+define('ENTRY_DATE_OF_BIRTH_ERROR', 'Su Fecha de nacimiento se debe fijarse correctamente.');
+define('ENTRY_EMAIL_ADDRESS', 'Dirección e-mail:');
+define('ENTRY_EMAIL_ADDRESS_ERROR', 'Su dirección e-mail debe contener un mínimo de ' . ACCOUNT_EMAIL_ADDRESS . ' caracteres.');
+define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Su dirección e-mail no esta válida - por favor hacer cualquier corrección necesaria.');
+define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Su dirección e-mail existe ya en nuestros expedientes - por favor abrir una sesión con la dirección e-mail o crear una cuenta con una diversa dirección.');
+define('ENTRY_COMPANY', 'Nombre de empresa:');
+define('ENTRY_COMPANY_ERROR', 'Su nombre de empresa debe contener un mínimo de ' . ACCOUNT_COMPANY . ' caracteres.');
+define('ENTRY_STREET_ADDRESS', 'Nombre de calle:');
+define('ENTRY_STREET_ADDRESS_ERROR', 'Su nombre de calle debe contener un mínimo de ' . ACCOUNT_STREET_ADDRESS . ' caracteres.');
 define('ENTRY_SUBURB', 'Suburbio:');
-define('ENTRY_SUBURB_ERROR', 'Su Suburbio debe contener un mínimo de ' . ACCOUNT_SUBURB . ' caracteres.');
-define('ENTRY_POST_CODE', 'Código Postal:');
-define('ENTRY_POST_CODE_ERROR', 'Su Código Postal debe contener un mínimo de ' . ACCOUNT_POST_CODE . ' caracteres.');
+define('ENTRY_SUBURB_ERROR', 'Su suburbio debe contener un mínimo de ' . ACCOUNT_SUBURB . ' caracteres.');
+define('ENTRY_POST_CODE', 'Código postal:');
+define('ENTRY_POST_CODE_ERROR', 'Su código Postal debe contener un mínimo de ' . ACCOUNT_POST_CODE . ' caracteres.');
 define('ENTRY_CITY', 'Ciudad:');
-define('ENTRY_CITY_ERROR', 'Su Ciudad debe contener un mínimo de ' . ACCOUNT_CITY . ' caracteres.');
+define('ENTRY_CITY_ERROR', 'Su ciudad debe contener un mínimo de ' . ACCOUNT_CITY . ' caracteres.');
 define('ENTRY_STATE', 'Provincia:');
-define('ENTRY_STATE_ERROR', 'Su Provincia debe contener un mínimo de ' . ACCOUNT_STATE . ' caracteres.');
+define('ENTRY_STATE_ERROR', 'Su provincia debe contener un mínimo de ' . ACCOUNT_STATE . ' caracteres.');
 define('ENTRY_STATE_ERROR_SELECT', 'Por favor eliga una provincia del menú.');
 define('ENTRY_COUNTRY', 'País:');
 define('ENTRY_COUNTRY_ERROR', 'Debes seleccionar un país de los paises menú.');
-define('ENTRY_TELEPHONE_NUMBER', 'Número de Telfono:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Su Número de Telfono debe contener un mínimo de ' . ACCOUNT_TELEPHONE . ' caracteres.');
-define('ENTRY_FAX_NUMBER', 'Número de Fax:');
-define('ENTRY_FAX_NUMBER_ERROR', 'Su Número de Fax debe contener un mínimo de ' . ACCOUNT_FAX . ' caracteres.');
+define('ENTRY_TELEPHONE_NUMBER', 'Número de telefono:');
+define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Su número de telefono debe contener un mínimo de ' . ACCOUNT_TELEPHONE . ' caracteres.');
+define('ENTRY_FAX_NUMBER', 'Número de fax:');
+define('ENTRY_FAX_NUMBER_ERROR', 'Su número de fax debe contener un mínimo de ' . ACCOUNT_FAX . ' caracteres.');
 define('ENTRY_NEWSLETTER', 'Boletínes:');
 define('ENTRY_NEWSLETTER_YES', 'Subscrito');
-define('ENTRY_NEWSLETTER_NO', 'Sin Subscripción');
+define('ENTRY_NEWSLETTER_NO', 'Sin subscripción');
 define('ENTRY_PASSWORD', 'Contraseña:');
-define('ENTRY_PASSWORD_ERROR', 'Su Contraseña debe contener un mínimo de ' . ACCOUNT_PASSWORD . ' caracteres.');
-define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'La Confirmación de Contraseña debe coincidir con su Contraseña.');
-define('ENTRY_PASSWORD_CONFIRMATION', 'Confirmar Contraseña:');
+define('ENTRY_PASSWORD_ERROR', 'Su contraseña debe contener un mínimo de ' . ACCOUNT_PASSWORD . ' caracteres.');
+define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'La confirmación de contraseña debe coincidir con su contraseña.');
+define('ENTRY_PASSWORD_CONFIRMATION', 'Confirmar contraseña:');
 
 // images
-define('IMAGE_ANI_SEND_EMAIL', 'Mandar E-Mail');
+define('IMAGE_ANI_SEND_EMAIL', 'Mandar e-mail');
 define('IMAGE_APPROVE', 'Approvar');
 define('IMAGE_BACK', 'Atrás');
 define('IMAGE_BACKUP', 'Respaldar');
-define('IMAGE_BOX_REMOVE', 'Quitar Box');
+define('IMAGE_BOX_REMOVE', 'Quitar box');
 define('IMAGE_CANCEL', 'Cancelar');
 define('IMAGE_CONFIGURE', 'Configurar');
 define('IMAGE_CONFIRM', 'Confirmar');
 define('IMAGE_COPY', 'Copiar');
-define('IMAGE_COPY_TO', 'Copiar A');
+define('IMAGE_COPY_TO', 'Copiar a');
+define('IMAGE_DEFAULT', 'Predeterminado');
 define('IMAGE_DETAILS', 'Detalles');
 define('IMAGE_DELETE', 'Borrar');
 define('IMAGE_EDIT', 'Editar');
-define('IMAGE_EDIT_DEFINITIONS', 'Editar Definiciones');
+define('IMAGE_EDIT_DEFINITIONS', 'Editar definiciones');
 define('IMAGE_EMAIL', 'Email');
 define('IMAGE_EXECUTE', 'Executar');
 define('IMAGE_EXPORT', 'Exportar');
-define('IMAGE_FILE_MANAGER', 'Manager de Archivo');
+define('IMAGE_FILE_MANAGER', 'Manager de archivo');
 define('IMAGE_ICON_STATUS_GREEN', 'Activo');
-define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Fijar Activo');
+define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Fijar activo');
 define('IMAGE_ICON_STATUS_RED', 'Inactivo');
-define('IMAGE_ICON_STATUS_RED_LIGHT', 'Fijar Inactivo');
+define('IMAGE_ICON_STATUS_RED_LIGHT', 'Fijar inactivo');
 define('IMAGE_IMPORT', 'Importar');
 define('IMAGE_INFO', 'Información');
 define('IMAGE_INSERT', 'Insertar');
 define('IMAGE_LOCK', 'Cerrar');
 define('IMAGE_LOGIN', 'Ingresar');
-define('IMAGE_MODULE_INSTALL', 'Instalar Módulo');
-define('IMAGE_MODULE_REMOVE', 'Quitar Módulo');
+define('IMAGE_MODULE_INSTALL', 'Instalar módulo');
+define('IMAGE_MODULE_REMOVE', 'Quitar módulo');
 define('IMAGE_MOVE', 'Mover');
-define('IMAGE_NEW_BANNER', 'Nueva Bandera');
-define('IMAGE_NEW_CATEGORY', 'Nueva Categoría');
-define('IMAGE_NEW_COUNTRY', 'Nuevo País');
-define('IMAGE_NEW_CURRENCY', 'Nueva Valuta');
-define('IMAGE_NEW_FILE', 'Nuevo Archivo');
-define('IMAGE_NEW_FOLDER', 'Nuevo Carpeta');
-define('IMAGE_NEW_LANGUAGE', 'Nueva Lenguaje');
-define('IMAGE_NEW_NEWSLETTER', 'Nuevo Boletín');
-define('IMAGE_NEW_PRODUCT', 'Nuevo Producto');
-define('IMAGE_NEW_TAX_CLASS', 'Nueva Clase de Impuesto');
-define('IMAGE_NEW_TAX_RATE', 'Nuevo Impuesto Fiscal');
-define('IMAGE_NEW_TAX_ZONE', 'Nueva Zona de Impuesto');
-define('IMAGE_NEW_ZONE', 'Nueva Zona');
+define('IMAGE_NEW_BANNER', 'Nueva bandera');
+define('IMAGE_NEW_CATEGORY', 'Nueva categoría');
+define('IMAGE_NEW_COUNTRY', 'Nuevo país');
+define('IMAGE_NEW_CURRENCY', 'Nueva valuta');
+define('IMAGE_NEW_FILE', 'Nuevo archivo');
+define('IMAGE_NEW_FOLDER', 'Nuevo carpeta');
+define('IMAGE_NEW_LANGUAGE', 'Nueva lenguaje');
+define('IMAGE_NEW_NEWSLETTER', 'Nuevo boletín');
+define('IMAGE_NEW_PRODUCT', 'Nuevo producto');
+define('IMAGE_NEW_TAX_CLASS', 'Nueva clase de impuesto');
+define('IMAGE_NEW_TAX_RATE', 'Nuevo impuesto fiscal');
+define('IMAGE_NEW_TAX_ZONE', 'Nueva zona de impuesto');
+define('IMAGE_NEW_ZONE', 'Nueva zona');
 define('IMAGE_ORDERS', 'Pedidos');
 define('IMAGE_ORDERS_INVOICE', 'Factura');
 define('IMAGE_ORDERS_PACKINGSLIP', 'Resbalón');
@@ -207,14 +208,14 @@ define('IMAGE_SAVE', 'Guardar');
 define('IMAGE_SEARCH', 'Buscar');
 define('IMAGE_SELECT', 'Seleccionar');
 define('IMAGE_SEND', 'Mandar');
-define('IMAGE_SEND_EMAIL', 'Mandar Email');
+define('IMAGE_SEND_EMAIL', 'Mandar email');
 define('IMAGE_UNLOCK', 'Abrir');
 define('IMAGE_UPDATE', 'Actualizar');
-define('IMAGE_UPDATE_CURRENCIES', 'Actualización del Cambio de la Valuta');
+define('IMAGE_UPDATE_CURRENCIES', 'Actualización del cambio de la valuta');
 define('IMAGE_UPLOAD', 'Subir');
 
 define('ICON_CROSS', 'Falso');
-define('ICON_CURRENT_FOLDER', 'Carpeta Actual');
+define('ICON_CURRENT_FOLDER', 'Carpeta actual');
 define('ICON_DELETE', 'Borrar');
 define('ICON_ERROR', 'Error');
 define('ICON_FILE', 'Archivo');
@@ -278,7 +279,7 @@ define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Error: Actualmente no hay una valut
 
 define('TEXT_CACHE_CATEGORIES', 'Categorías');
 define('TEXT_CACHE_MANUFACTURERS', 'Fabricantes');
-define('TEXT_CACHE_ALSO_PURCHASED', 'Más Comprados');
+define('TEXT_CACHE_ALSO_PURCHASED', 'Más comprados');
 
 define('TEXT_NONE', '--ningúno--');
 define('TEXT_TOP', 'Top');

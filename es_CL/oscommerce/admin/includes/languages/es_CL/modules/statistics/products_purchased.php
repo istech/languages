@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TITLE', 'Mejores Productos Comprados');
+define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TITLE', 'Mejores productos comprados');
 
 define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TABLE_HEADING_NUMBER', 'Nr.');
 define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TABLE_HEADING_PRODUCTS', 'Productos');

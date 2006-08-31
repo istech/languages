@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_IMAGE_CHECK', 'Controlar Imágenes');
+define('MODULE_IMAGE_CHECK', 'Controlar imágenes');
 
 define('MODULE_IMAGE_CHECK_GROUPS', 'Grupos');
-define('MODULE_IMAGE_CHECK_RESULTS', 'Imágenes Existentes / Imágenes Totales');
+define('MODULE_IMAGE_CHECK_RESULTS', 'Imágenes existentes / Imágenes totales');
 ?>

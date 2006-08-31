@@ -11,10 +11,10 @@
 */
 
 define('HEADING_TITLE_MODULES_BOXES', 'Boxes');
-define('HEADING_TITLE_MODULES_CONTENT', 'Módulos de Contenido');
+define('HEADING_TITLE_MODULES_CONTENT', 'Módulos de contenido');
 
 define('TABLE_HEADING_MODULES_BOXES', 'Boxes');
-define('TABLE_HEADING_MODULES_CONTENT', 'Módulos de Contenido');
+define('TABLE_HEADING_MODULES_CONTENT', 'Módulos de contenido');
 define('TABLE_HEADING_STATUS', 'Estatus');
 define('TABLE_HEADING_ACTION', 'Acción');
 

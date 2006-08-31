@@ -19,9 +19,9 @@ define('TEXT_INFO_INSERT_INTRO', 'Por favor ingresar el nuevo estatus de los ped
 define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
 define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este estatus del pedido?');
 
-define('TEXT_INFO_ORDERS_STATUS_NAME', 'Estatus del Pedido:');
+define('TEXT_INFO_ORDERS_STATUS_NAME', 'Estatus del pedido:');
 
-define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'Nuevo Estatus del Pedido');
+define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'Nuevo estatus del pedido');
 
 define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: El estatus predeterminado del pedido no puede ser quitado. Por favor fijar otro estado del pedido como el predeterminado, y intente otra vez.');
 define('TEXT_INFO_DELETE_PROHIBITED_ORDERS', 'Advertencia: Este estatus del pedido se usa actualmene en %s pedidos y no puede ser quitado.');

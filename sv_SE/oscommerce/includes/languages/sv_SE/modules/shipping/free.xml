@@ -12,8 +12,8 @@
       <group>modules-shipping</group>
     </definition>
     <definition>
-      <key>shipping_free_method</key>
-      <value><![CDATA[Bästa möjliga]]></value>
+      <key>shipping_free_for_amount</key> 
+      <value><![CDATA[för ordrar över %s]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>
