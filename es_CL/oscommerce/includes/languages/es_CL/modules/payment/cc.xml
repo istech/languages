@@ -12,8 +12,8 @@
       <group>modules-payment</group>
     </definition>
     <definition>
-      <key>payment_cc_credit_card_type</key>
-      <value><![CDATA[Tipo de Tarjeta de Crédito:]]></value>
+      <key>payment_cc_method_title</key>
+      <value><![CDATA[Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -39,6 +39,36 @@
     <definition>
       <key>payment_cc_js_credit_card_number</key>
       <value><![CDATA[* El número de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_js_credit_card_not_accepted</key>
+      <value><![CDATA[* Este tipo de tarjeta de crédito no se acepta. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_general</key>
+      <value><![CDATA[There was a problem processing this credit card. Please check the card information and try again.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_not_accepted</key>
+      <value><![CDATA[Este tipo de tarjeta de crédito no se acepta. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_invalid_expiration_date</key>
+      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_expired</key>
+      <value><![CDATA[La tarjeta de crédito ha expirado. Por favor intentar otra vez con otra tarjeta o forma de pago.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_unknown_card</key>
+      <value><![CDATA[Esta es una tarjeta de crédito desconocida que no puede ser procesada. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>
