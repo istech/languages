@@ -31,7 +31,6 @@ define('TEXT_INFO_LANGUAGE_DATE_FORMAT_SHORT', 'Datumformat (Kort):');
 define('TEXT_INFO_LANGUAGE_DATE_FORMAT_LONG', 'Datumformat (Långt):');
 define('TEXT_INFO_LANGUAGE_TIME_FORMAT', 'Tidsformat:');
 define('TEXT_INFO_LANGUAGE_TEXT_DIRECTION', 'Textriktning:');
-define('TEXT_INFO_LANGUAGE_IMAGE', 'Bild:');
 define('TEXT_INFO_LANGUAGE_DEFAULT_CURRENCY', 'Standardvaluta:');
 define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_DECIMAL', 'Numerisk decimalavskiljare');
 define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_THOUSANDS', 'Numerisk tusendelsavskiljare');
