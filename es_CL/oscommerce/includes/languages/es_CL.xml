@@ -1841,37 +1841,37 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>error_search_invalid_keywords</key>
-      <value><![CDATA[Invalid keywords.]]></value>
+      <value><![CDATA[Palabras claves inválidas.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>js_review_text</key>
-      <value><![CDATA[* The Review Text must have at least %s characters.]]></value>
+      <value><![CDATA[* El texto del comentario debe tener por lo menos %s caracteres.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>js_review_rating</key>
-      <value><![CDATA[* You must rate the product for your review.]]></value>
+      <value><![CDATA[* Debes clasificar el producto para su comentario.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>js_no_payment_module_selected</key>
-      <value><![CDATA[* Please select a payment method for your order.]]></value>
+      <value><![CDATA[* Por favor seleccionar una forma del pago para su pedido.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_no_payment_module_selected</key>
-      <value><![CDATA[Please select a payment method for your order.]]></value>
+      <value><![CDATA[Por favor seleccionar una forma del pago para su pedido.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_conditions_not_accepted</key>
-      <value><![CDATA[Please confirm the terms and conditions bound to this order by ticking the box below.]]></value>
+      <value><![CDATA[Por favor confirmar los términos y condiciones limitados a este pedido marcando el box abajo.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_privacy_statement_not_accepted</key>
-      <value><![CDATA[Please confirm the privacy statement by ticking the box below.]]></value>
+      <value><![CDATA[Por favor confirmar la política de privacidad marcando el box abajo.]]></value>
       <group>account</group>
     </definition>
     <definition>
