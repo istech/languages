@@ -71,4 +71,5 @@
   define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Hata: bağ ürün aynı kategoride yapılamaz.');
   define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Hata: Katalog images dizini yazılabilir degil: ' . realpath('../images'));
   define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Hata: Katalog images dizini yok: ' . realpath('../images'));
+  define('ERROR_IMAGE_PROCESSOR_NOT_AVAILABLE', 'Hata: ImageMagicks "dönüştürücü" programı kullanılabilir değil iken ürün resmi işlenemedi. Yapılandırma -> Program Yerleri içinde bu tanımlanabilir.');
 ?>
