@@ -23,7 +23,7 @@ define('TEXT_SPECIALS_SPECIAL_PRICE_GROSS', 'Precio especial (Bruto):');
 define('TEXT_SPECIALS_STATUS', 'Estatus:');
 define('TEXT_SPECIALS_START_DATE', 'Fecha del comienzo:');
 define('TEXT_SPECIALS_EXPIRES_DATE', 'Fecha del venciemiento:');
-define('TEXT_SPECIALS_PRICE_TIP', '<b>Notas Especials:</b><ul><li>Puede ingresar un porcentaje para deducir en el campo de Precio especiales, ejemplo: <b>20%</b></li><li>Si ingresa un precio nuevo, el separador decimal debe ser un \'.\' (décimal-punto), ejemplo: <b>49.99</b></li><li>Dejar la fecha de vencimiento vacía para ninguna expiración</li></ul>');
+define('TEXT_SPECIALS_PRICE_TIP', '<b>Notas especials:</b><ul><li>Puede ingresar un porcentaje para deducir en el campo de Precio especiales, ejemplo: <b>20%</b></li><li>Si ingresa un precio nuevo, el separador decimal debe ser un \'.\' (décimal-punto), ejemplo: <b>49.99</b></li><li>Dejar la fecha de vencimiento vacía para ninguna expiración</li></ul>');
 
 define('TEXT_INFO_DATE_ADDED', 'Fecha agregada:');
 define('TEXT_INFO_LAST_MODIFIED', 'Ultima modificación:');

@@ -105,7 +105,7 @@ define('JS_PRODUCTS_QUANTITY', '* El producto nuevo necesita un valor de la cant
 define('JS_PRODUCTS_MODEL', '* El producto nuevo necesita un valor modelo\n');
 define('JS_PRODUCTS_IMAGE', '* El producto nuevo necesita un valor de la imágen\n');
 define('JS_SPECIALS_PRODUCTS_PRICE', '* Un nuevo precio para este producto necesita ser fijado\n');
-define('JS_ORDER_DOES_NOT_EXIST', 'El Número del Pedido número %s no existe!');
+define('JS_ORDER_DOES_NOT_EXIST', 'El número del pedido número %s no existe!');
 
 define('CATEGORY_PERSONAL', 'Personal');
 define('CATEGORY_ADDRESS', 'Dirección');
@@ -132,7 +132,7 @@ define('ENTRY_STREET_ADDRESS_ERROR', 'Su nombre de calle debe contener un mínim
 define('ENTRY_SUBURB', 'Suburbio:');
 define('ENTRY_SUBURB_ERROR', 'Su suburbio debe contener un mínimo de ' . ACCOUNT_SUBURB . ' caracteres.');
 define('ENTRY_POST_CODE', 'Código postal:');
-define('ENTRY_POST_CODE_ERROR', 'Su código Postal debe contener un mínimo de ' . ACCOUNT_POST_CODE . ' caracteres.');
+define('ENTRY_POST_CODE_ERROR', 'Su código postal debe contener un mínimo de ' . ACCOUNT_POST_CODE . ' caracteres.');
 define('ENTRY_CITY', 'Ciudad:');
 define('ENTRY_CITY_ERROR', 'Su ciudad debe contener un mínimo de ' . ACCOUNT_CITY . ' caracteres.');
 define('ENTRY_STATE', 'Provincia:');
