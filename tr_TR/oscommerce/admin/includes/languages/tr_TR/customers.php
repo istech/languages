@@ -17,7 +17,7 @@ define('TABLE_HEADING_FIRSTNAME', 'İlk İsim');
 define('TABLE_HEADING_LASTNAME', 'Son İsim');
 define('TABLE_HEADING_ACCOUNT_CREATED', 'Hesap Açıldı');
 define('TABLE_HEADING_ACTION', 'Eylem');
-define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_STATUS', 'Durum');
 
 define('TEXT_DATE_ACCOUNT_CREATED', 'Hesap Açıldı:');
 define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'En Son Değiştirildi:');
@@ -39,5 +39,5 @@ define('EMAIL_TEXT', 'Şimdi size <b>çeşitli servisler</b> içinden bir kaç b
 define('EMAIL_CONTACT', 'Çevrimiçi herhangi bir servisimiz ile yardım için, lütfen mağaza sahibine eposta gönderin: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
 define('EMAIL_PASSWORD', '<b>Not:</b> Bu hesap sizin için mağaza sahibi ile açıldı. Bu hesabinıza erişmek için parolanız : %s.' . "\n");
 
-define('ENTRY_STATUS', 'Durumlar:');
+define('ENTRY_STATUS', 'Durum:');
 ?>

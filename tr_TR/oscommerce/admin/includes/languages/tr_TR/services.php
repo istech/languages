@@ -13,7 +13,7 @@
 define('HEADING_TITLE', 'Hizmetler');
 
 define('TABLE_HEADING_SERVICES', 'Hizmetler');
-define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_STATUS', 'Durum');
 define('TABLE_HEADING_ACTION', 'Eylem');
 
 define('TEXT_MODULE_DIRECTORY', 'Modül Dizini:');

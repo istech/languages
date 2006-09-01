@@ -15,7 +15,7 @@ define('HEADING_TITLE', 'Kredi Kartı Tipleri');
 define('TABLE_HEADING_CREDIT_CARD_CODE', 'Kart Kodu');
 define('TABLE_HEADING_CREDIT_CARD_NAME', 'Kart İsmi');
 define('TABLE_HEADING_SORT_ORDER', 'Sıralama Düzeni');
-define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_STATUS', 'Durum');
 define('TABLE_HEADING_ACTION', 'Eylem');
 
 define('TEXT_HEADING_NEW_CREDIT_CARD', 'Yeni Kredi Kartı');
@@ -23,7 +23,7 @@ define('TEXT_HEADING_NEW_CREDIT_CARD', 'Yeni Kredi Kartı');
 define('TEXT_CREDIT_CARD_NAME', 'Kart İsmi:');
 define('TEXT_CREDIT_CARD_PATTERN', 'Kart Numarası Deseni:');
 define('TEXT_SORT_ORDER', 'Sıralama Düzeni:');
-define('TEXT_STATUS', 'Durumlar:');
+define('TEXT_STATUS', 'Durum:');
 
 define('TEXT_NEW_INTRO', 'Bu yeni kredi kartı için lütfen aşağıdaki bilgileri doldurunuz');
 define('TEXT_EDIT_INTRO', 'Lütfen gerekli değişiklerden herhangi birini yapınız');

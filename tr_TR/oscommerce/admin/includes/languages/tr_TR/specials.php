@@ -14,13 +14,13 @@ define('HEADING_TITLE', 'İndirimdekiler');
 
 define('TABLE_HEADING_PRODUCTS', 'Ürünler');
 define('TABLE_HEADING_PRODUCTS_PRICE', 'Ürün Fiyatı');
-define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_STATUS', 'Durum');
 define('TABLE_HEADING_ACTION', 'Eylem');
 
 define('TEXT_SPECIALS_PRODUCT', 'Ürün:');
 define('TEXT_SPECIALS_SPECIAL_PRICE_NET', 'Özel Fiyat (Net):');
 define('TEXT_SPECIALS_SPECIAL_PRICE_GROSS', 'Özel Fiyat (Bürüt):');
-define('TEXT_SPECIALS_STATUS', 'Durumlar:');
+define('TEXT_SPECIALS_STATUS', 'Durum:');
 define('TEXT_SPECIALS_START_DATE', 'Başlama Tarihi:');
 define('TEXT_SPECIALS_EXPIRES_DATE', 'Son Erme Tarihi:');
 define('TEXT_SPECIALS_PRICE_TIP', '<b>Özel Notlar:</b><ul><li>You can enter a percentage to deduct in the Specials Price field, for example: <b>20%</b></li><li>If you enter a new price, the decimal separator must be a \'.\' (decimal-point), example: <b>49.99</b></li><li>Leave the expiry date empty for no expiration</li></ul>');

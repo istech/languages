@@ -14,13 +14,13 @@ define('HEADING_TITLE', 'Siparişler');
 
 define('SEARCH_ORDER_ID', 'Sipariş Kimlik:');
 define('SEARCH_CUSTOMER_ID', 'Müşteri Kimlik:');
-define('SEARCH_STATUS', 'Durumlar:');
+define('SEARCH_STATUS', 'Durum:');
 
 define('TABLE_HEADING_COMMENTS', 'Açıklamalar');
 define('TABLE_HEADING_CUSTOMERS', 'Müşteriler');
 define('TABLE_HEADING_ORDER_TOTAL', 'Sipariş Toplamı');
 define('TABLE_HEADING_DATE_PURCHASED', 'Tarihinde Satıldı');
-define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_STATUS', 'Durum');
 define('TABLE_HEADING_ACTION', 'Eylem');
 define('TABLE_HEADING_QUANTITY', 'Miktar');
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Model');
@@ -51,7 +51,7 @@ define('ENTRY_TAX', 'Vergi:');
 define('ENTRY_SHIPPING', 'Shipping:');
 define('ENTRY_TOTAL', 'Toplam:');
 define('ENTRY_DATE_PURCHASED', 'Tarihinde Satıldı:');
-define('ENTRY_STATUS', 'Durumlar:');
+define('ENTRY_STATUS', 'Durum:');
 define('ENTRY_POST_TRANSACTION_ACTIONS', 'Post Transaction Actions:');
 define('ENTRY_DATE_LAST_UPDATED', 'Tarihinde En Son Güncellendi:');
 define('ENTRY_NOTIFY_CUSTOMER', 'Müşteri Bildirisi:');

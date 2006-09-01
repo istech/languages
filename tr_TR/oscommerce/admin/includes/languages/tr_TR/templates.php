@@ -13,7 +13,7 @@
 define('HEADING_TITLE', 'Şablonlar');
 
 define('TABLE_HEADING_TEMPLATES', 'Şablonlar');
-define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_STATUS', 'Durum');
 define('TABLE_HEADING_ACTION', 'Eylem');
 
 define('INFO_TEMPLATE_UNINSTALL_INTRO', 'Bu şablonun kurulumunu kaldırmak istediğinize emin misiniz?<br /><br />(Tüm şablon değişkeleride kaldırılaçaktır)');

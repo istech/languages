@@ -16,7 +16,7 @@
 
   define('TABLE_HEADING_CATEGORIES', 'Kategoriler');
   define('TABLE_HEADING_ACTION', 'Eylem');
-  define('TABLE_HEADING_STATUS', 'Durumlar');
+  define('TABLE_HEADING_STATUS', 'Durum');
 
   define('TEXT_EDIT_INTRO', 'Lütfen gerekli değişiklerden herhangi birini yapınız');
   define('TEXT_EDIT_CATEGORIES_NAME', 'Kategori İsmi:');

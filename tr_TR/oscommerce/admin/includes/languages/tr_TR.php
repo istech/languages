@@ -244,7 +244,7 @@ define('ICON_PRODUCTS', 'Ürünler');
 define('TEXT_RESULT_PAGE', 'Page&nbsp;%s&nbsp;of&nbsp;%d');
 define('TEXT_DISPLAY_NUMBER_OF_ADMINISTRATORS', 'Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> yöneticiden)');
 define('TEXT_DISPLAY_NUMBER_OF_BANNERS', 'Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> reklam)');
-define('TEXT_DISPLAY_NUMBER_OF_CATEGORIES', 'Gösterilen <b>%d</b> - <b>%d</b> (toplamda <b>%d</b> kategori)');
+define('TEXT_DISPLAY_NUMBER_OF_CATEGORIES', 'Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> kategoriden)');
 define('TEXT_DISPLAY_NUMBER_OF_COUNTRIES', 'Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> ülkeden)');
 define('TEXT_DISPLAY_NUMBER_OF_CREDIT_CARDS', 'Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> kredi kartından)');
 define('TEXT_DISPLAY_NUMBER_OF_CUSTOMERS', 'Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> müşteriden)');

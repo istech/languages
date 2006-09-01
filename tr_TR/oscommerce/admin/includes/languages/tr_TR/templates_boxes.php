@@ -15,7 +15,7 @@ define('HEADING_TITLE_MODULES_CONTENT', 'İçerik Modülleri');
 
 define('TABLE_HEADING_MODULES_BOXES', 'Kutular');
 define('TABLE_HEADING_MODULES_CONTENT', 'İçerik Modülleri');
-define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_STATUS', 'Durum');
 define('TABLE_HEADING_ACTION', 'Eylem');
 
 define('TEXT_DIRECTORY', 'Dizin:');

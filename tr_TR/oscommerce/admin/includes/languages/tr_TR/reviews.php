@@ -16,7 +16,7 @@ define('TABLE_HEADING_PRODUCTS', 'Ürünler');
 define('TABLE_HEADING_LANGUAGE', 'Dil');
 define('TABLE_HEADING_RATING', 'Değerlendirme');
 define('TABLE_HEADING_DATE_ADDED', 'Tarihinde Eklendi');
-define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_STATUS', 'Durum');
 define('TABLE_HEADING_ACTION', 'Eylem');
 
 define('ENTRY_PRODUCT', 'Ürün:');

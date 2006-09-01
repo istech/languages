@@ -10,16 +10,16 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Sipariş Durumları');
+define('HEADING_TITLE', 'Sipariş Durumu');
 
-define('TABLE_HEADING_ORDERS_STATUS', 'Sipariş Durumları');
+define('TABLE_HEADING_ORDERS_STATUS', 'Sipariş Durumu');
 define('TABLE_HEADING_ACTION', 'Eylem');
 
-define('TEXT_INFO_INSERT_INTRO', 'Lütfen yeni sipariş durumları ile ilgili veri giriniz');
+define('TEXT_INFO_INSERT_INTRO', 'Lütfen yeni sipariş durumu ile ilgili veri giriniz');
 define('TEXT_INFO_EDIT_INTRO', 'Lütfen gerekli tüm değişiklikleri yapınız');
 define('TEXT_INFO_DELETE_INTRO', 'Bu sipariş durumunu silmek istediğinize emin misiniz?');
 
-define('TEXT_INFO_ORDERS_STATUS_NAME', 'Sipariş Durumları:');
+define('TEXT_INFO_ORDERS_STATUS_NAME', 'Sipariş Durumu:');
 
 define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'Yeni Sipariş Durumu');
 

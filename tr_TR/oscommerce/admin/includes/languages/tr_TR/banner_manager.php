@@ -15,7 +15,7 @@ define('HEADING_TITLE', 'Reklam Yöneticisi');
 define('TABLE_HEADING_BANNERS', 'Reklamlar');
 define('TABLE_HEADING_GROUPS', 'Gruplar');
 define('TABLE_HEADING_STATISTICS', 'Görünenler / Tıklananlar');
-define('TABLE_HEADING_STATUS', 'Durumlar');
+define('TABLE_HEADING_STATUS', 'Durum');
 define('TABLE_HEADING_ACTION', 'Eylem');
 
 define('TEXT_BANNERS_TITLE', 'Reklam Başlığı:');
@@ -30,7 +30,7 @@ define('TEXT_BANNERS_EXPIRES_ON', 'Süre Bitiş Tarihi:');
 define('TEXT_BANNERS_OR_AT', ', veya ');
 define('TEXT_BANNERS_IMPRESSIONS', 'izlenimler/etkiler.');
 define('TEXT_BANNERS_SCHEDULED_AT', 'Tarife Ata:');
-define('TEXT_BANNERS_STATUS', 'Durumlar:');
+define('TEXT_BANNERS_STATUS', 'Durum:');
 define('TEXT_BANNERS_BANNER_NOTE', '<b>Reklam Notları:</b><ul><li>Bu reklam için bir resim veya HTML metni kullanın - herikisi birden değil.</li><li>HTML Metni bir resimden daha önceliklidir.</li></ul>');
 define('TEXT_BANNERS_INSERT_NOTE', '<b>Resim Notları:</b><ul><li>Yukarı yüklenecek dizin kullanıcıya özel (yazma) iznine sahip olmadır! </li><li>Eğer bu web sunucusuna bir resim yukarı yüklemiyorsanız (önr: yerel (sunucu tarafında) bir resim kullanıyorsan) bu \'Hedefe Kaydet\' alanını doldurmayın.</li><li>Bu \'Hedefe Kaydet\' alanı bir düz yarma ile biten (örn: reklamlar/) bir dizin olmalıdır.</li></ul>');
 define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Süre Bitim Notları:</b><ul><li>iki alandan yalnız biri gönderilebilir.</li><li>Eğer bu reklamın otomatik süresi bitmiyorsa, o zaman bu alanları boş bırakın</li></ul>');
