@@ -1,39 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>payment_payquake_cc_title</key>
-      <value><![CDATA[PayQuake Tarjeta de Crédito]]></value>
+      <value><![CDATA[PayQuake tarjeta de crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_description</key>
-      <value><![CDATA[PayQuake Tarjeta de Crédito Transacciones]]></value>
+      <value><![CDATA[PayQuake tarjeta de crédito transacciones]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_method_title</key>
-      <value><![CDATA[Tarjeta de Crédito]]></value>
+      <value><![CDATA[Tarjeta de crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Dueño de la tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_number</key>
-      <value><![CDATA[Número de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Número de la tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_cvc</key>
-      <value><![CDATA[Número de Control de la Tarjeta de Crédito (CVC):]]></value>
+      <value><![CDATA[Número de control de la tarjeta de crédito (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>box_product_notifications_heading</key>
-      <value><![CDATA[Notificaciones del Producto]]></value>
+      <value><![CDATA[Notificaciones del producto]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>

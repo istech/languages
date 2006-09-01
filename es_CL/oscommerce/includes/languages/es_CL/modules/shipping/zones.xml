@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>shipping_zones_title</key>
-      <value><![CDATA[Zona Tarifas]]></value>
+      <value><![CDATA[Zona tarifas]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_zones_description</key>
-      <value><![CDATA[Zona Bas Tarifas]]></value>
+      <value><![CDATA[Zona bas tarifas]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>

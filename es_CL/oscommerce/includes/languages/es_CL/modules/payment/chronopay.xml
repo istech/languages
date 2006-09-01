@@ -13,7 +13,7 @@
     </definition>
     <definition>
       <key>payment_chronopay_method_title</key>
-      <value><![CDATA[Tarjeta de Crédito]]></value>
+      <value><![CDATA[Tarjeta de crédito]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

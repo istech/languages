@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,32 +8,32 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_description</key>
-      <value><![CDATA[Wire Card EFT Transacciones]]></value>
+      <value><![CDATA[Wire Card EFT transacciones]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_method_title</key>
-      <value><![CDATA[Transferencia Banco]]></value>
+      <value><![CDATA[Transferencia banco]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner</key>
-      <value><![CDATA[Dueño de la Cuenta:]]></value>
+      <value><![CDATA[Dueño de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_firstname</key>
-      <value><![CDATA[Nombre del Dueño de la Cuenta:]]></value>
+      <value><![CDATA[Nombre del dueño de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_lastname</key>
-      <value><![CDATA[Apellido del Dueño de la Cuenta:]]></value>
+      <value><![CDATA[Apellido del dueño de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type</key>
-      <value><![CDATA[Tipo de Cuenta:]]></value>
+      <value><![CDATA[Tipo de cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -48,22 +48,22 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_account_number</key>
-      <value><![CDATA[Número de la Cuenta:]]></value>
+      <value><![CDATA[Número de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_code</key>
-      <value><![CDATA[Código: del Banque]]></value>
+      <value><![CDATA[Código: del banque]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_check_number</key>
-      <value><![CDATA[Número de Cheque]]></value>
+      <value><![CDATA[Número de cheque]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_id_number</key>
-      <value><![CDATA[Número de Identificación:]]></value>
+      <value><![CDATA[Número de identificación:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

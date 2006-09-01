@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,17 +8,17 @@
     </definition>
     <definition>
       <key>payment_moneyorder_description</key>
-      <value><![CDATA[Hacer Pagable A:&nbsp;%s<br /><br />Mandar A:<br />%s<br /><br />Tu pedido no se enviará hasta que recibimos el pago.]]></value>
+      <value><![CDATA[Hacer pagable a:&nbsp;%s<br /><br />Mandar a:<br />%s<br /><br />Tu pedido no se enviar hasta que recibimos el pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_moneyorder_email_footer</key>
-      <value><![CDATA[Hacer Pagable A: %s
+      <value><![CDATA[Hacer pagable a: %s
 
-Mandar A:
+Mandar a:
 %
 
-Tu pedido no se enviará hasta que recibimos el pago.]]></value>
+Tu pedido no se enviar hasta que recibimos el pago.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

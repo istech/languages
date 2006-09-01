@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>box_order_history_heading</key>
-      <value><![CDATA[Historia del Pedido]]></value>
+      <value><![CDATA[Historia del pedido]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

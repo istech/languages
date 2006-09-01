@@ -18,32 +18,32 @@
     </definition>
     <definition>
       <key>payment_ipayment_error_message</key>
-      <value><![CDATA[Please check your credit card details!]]></value>
+      <value><![CDATA[¡Por favor verifique sus detalles de la tarjeta de crédito! ]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_owner</key>
-      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Dueño de la tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_number</key>
-      <value><![CDATA[Número de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Número de la tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_checknumber</key>
-      <value><![CDATA[Credit Card Checknumber:]]></value>
+      <value><![CDATA[Número de control de la tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_checknumber_location</key>
-      <value><![CDATA[(located at the back of the credit card)]]></value>
+      <value><![CDATA[(localizado en la parte atrás de la tarjeta de crédito)]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -58,7 +58,7 @@
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_type</key>
-      <value><![CDATA[Tipo de Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Tipo de tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

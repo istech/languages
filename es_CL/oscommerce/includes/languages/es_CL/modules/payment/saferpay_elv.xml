@@ -3,32 +3,32 @@
   <definitions>
     <definition>
       <key>payment_saferpay_elv_title</key>
-      <value><![CDATA[Saferpay Transferancia de Banco]]></value>
+      <value><![CDATA[Saferpay transferancia de banco]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_description</key>
-      <value><![CDATA[Saferpay Transacciónes de Transferencia de Banco]]></value>
+      <value><![CDATA[Saferpay transacciónes de transferencia de banco]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_method_title</key>
-      <value><![CDATA[Transferencia de Banco]]></value>
+      <value><![CDATA[Transferencia de banco]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_owner</key>
-      <value><![CDATA[Nombre del Dueño de la Cuenta:]]></value>
+      <value><![CDATA[Nombre del dueño de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_account_number</key>
-      <value><![CDATA[Número de la Cuenta:]]></value>
+      <value><![CDATA[Número de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_code</key>
-      <value><![CDATA[Código del Banco:]]></value>
+      <value><![CDATA[Código del banco:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
