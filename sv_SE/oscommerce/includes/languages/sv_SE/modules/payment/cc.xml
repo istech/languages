@@ -63,7 +63,7 @@
     </definition>
     <definition>
       <key>payment_cc_error_expired</key>
-      <value><![CDATA[Kreditkortet är ej giltligt. Var vänlig och försök med ett annat kort eller betalform.]></value>
+      <value><![CDATA[Kreditkortet är ej giltligt. Var vänlig och försök med ett annat kort eller betalform.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

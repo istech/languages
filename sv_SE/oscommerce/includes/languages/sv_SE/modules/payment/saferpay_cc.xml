@@ -73,7 +73,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_63</key>
-      <value><![CDATA[Kreditkortet är ej giltligt. Var vänlig och försök med ett annat kort eller betalform.]></value>
+      <value><![CDATA[Kreditkortet är ej giltligt. Var vänlig och försök med ett annat kort eller betalform.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
