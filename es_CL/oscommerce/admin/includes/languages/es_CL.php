@@ -206,7 +206,7 @@ define('IMAGE_RESTORE', 'Restaurar');
 define('IMAGE_RESET', 'Reajustar');
 define('IMAGE_SAVE', 'Guardar');
 define('IMAGE_SEARCH', 'Buscar');
-define('IMAGE_SELECT', 'Seleccionar');
+define('IMAGE_SELECT', 'Seleccione');
 define('IMAGE_SEND', 'Mandar');
 define('IMAGE_SEND_EMAIL', 'Mandar email');
 define('IMAGE_UNLOCK', 'Abrir');

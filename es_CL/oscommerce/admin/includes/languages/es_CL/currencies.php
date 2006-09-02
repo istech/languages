@@ -35,7 +35,7 @@ define('TEXT_INFO_CURRENCY_VALUE', 'Valor:');
 define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . '<br /><small>(requiere una actualización manual de los valores de las valutas)</small>');
 define('TEXT_INFO_SERVICE_TERMS', 'Usando la actualización seleccionada de la valuta mantener los términos y condiciones del servicio implicado.');
 
-define('TEXT_INFO_CURRENCY_UPDATED', 'El cambio para %s (%s) fue actualizado con éxito va %s.');
+define('TEXT_INFO_CURRENCY_UPDATED', 'El cambio para %s (%s) fue actualizado con éxito vía %s.');
 
 define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Advertencia: La valuta predeterminada no puede ser quitada. Por favor fijar otra valuta como la predeterminada y intente otra vez.');
 define('ERROR_CURRENCY_INVALID', 'Error: El cambio para %s (%s) no era actualizado va %s. ¿Es un código válido de la valuta?');
