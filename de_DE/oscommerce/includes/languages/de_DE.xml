@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
   <data>
-    <title><![CDATA[English]]></title>
-    <code><![CDATA[en_US]]></code>
-    <locale><![CDATA[en_US.UTF-8,en_US,english]]></locale>
+    <title><![CDATA[German]]></title>
+    <code><![CDATA[de_DE]]></code>
+    <locale><![CDATA[de_DE.UTF-8,de_DE,german]]></locale>
     <character_set><![CDATA[utf-8]]></character_set>
     <text_direction><![CDATA[ltr]]></text_direction>
-    <date_format_short><![CDATA[%m/%d/%Y]]></date_format_short>
+    <date_format_short><![CDATA[%m.%d.%Y]]></date_format_short>
     <date_format_long><![CDATA[%A %d %B, %Y]]></date_format_long>
     <time_format><![CDATA[%H:%M:%S]]></time_format>
-    <default_currency><![CDATA[USD]]></default_currency>
+    <default_currency><![CDATA[EUR]]></default_currency>
     <numerical_decimal_separator><![CDATA[.]]></numerical_decimal_separator>
     <numerical_thousands_separator><![CDATA[,]]></numerical_thousands_separator>
   </data>
   <definitions>
     <definition>
       <key>my_account</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Ihr Konto]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>cart_contents</key>
-      <value><![CDATA[Cart Contents]]></value>
+      <value><![CDATA[Warenkorb]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>checkout</key>
-      <value><![CDATA[Checkout]]></value>
+      <value><![CDATA[Kasse]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>breadcrumb_top</key>
-      <value><![CDATA[Top]]></value>
+      <value><![CDATA[Startseite]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -41,162 +41,162 @@
     </definition>
     <definition>
       <key>sign_in</key>
-      <value><![CDATA[Sign In]]></value>
+      <value><![CDATA[Anmelden]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>sign_out</key>
-      <value><![CDATA[Sign Out]]></value>
+      <value><![CDATA[Abmelden]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>gender_male</key>
-      <value><![CDATA[Male]]></value>
+      <value><![CDATA[Herr]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>gender_female</key>
-      <value><![CDATA[Female]]></value>
+      <value><![CDATA[Frau]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>pull_down_default</key>
-      <value><![CDATA[Please Select]]></value>
+      <value><![CDATA[Bitte w&auml;hlen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>js_error</key>
-      <value><![CDATA[Errors have occured during the process of your form.\n\nPlease make the following corrections:\n\n]]></value>
+      <value><![CDATA[Bei der Verarbeitung Ihres Formulars sind Fehler aufgetreten!\n\nBitte nehmen Sie folgende Korrekturen vor:\n\n]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>js_error_already_submitted</key>
-      <value><![CDATA[This form has already been submitted. Please press Ok and wait for this process to be completed.]]></value>
+      <value><![CDATA[Das Formular wurde bereits abgeschickt. Klicken Sie bitte auf OK und warten warten Sie, bis der Vorgang beendet ist..]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>form_required_information</key>
-      <value><![CDATA[* Required information]]></value>
+      <value><![CDATA[* Notwendige Eingabe]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_current_page</key>
-      <value><![CDATA[Page %s of %d]]></value>
+      <value><![CDATA[Seite %s von %d]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_products</key>
-      <value><![CDATA[Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> products)]]></value>
+      <value><![CDATA[angezeigte Produkte: <b>%d</b> bis <b>%d</b> (von <b>%d</b> insgesamt)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_orders</key>
-      <value><![CDATA[Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> orders)]]></value>
+      <value><![CDATA[angezeigte Bestellungen: <b>%d</b> bis <b>%d</b> (von <b>%d</b> insgesamt)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_reviews</key>
-      <value><![CDATA[Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> reviews)]]></value>
+      <value><![CDATA[angezeigte Meinungen: <b>%d</b> bis <b>%d</b> (von <b>%d</b> insgesamt)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_previous_page</key>
-      <value><![CDATA[[&lt;&lt;&nbsp;Prev]]]></value>
+      <value><![CDATA[[&lt;&lt;&nbsp;vorherige]]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_next_page</key>
-      <value><![CDATA[[Next&nbsp;&gt;&gt;]]]></value>
+      <value><![CDATA[[n&auml;chste&nbsp;&gt;&gt;]]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_address</key>
-      <value><![CDATA[Add Address]]></value>
+      <value><![CDATA[Neue Adresse]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_back</key>
-      <value><![CDATA[Back]]></value>
+      <value><![CDATA[Zur&uml;ck]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_buy_now</key>
-      <value><![CDATA[Buy Now]]></value>
+      <value><![CDATA[Jetzt kaufen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_change_address</key>
-      <value><![CDATA[Change Address]]></value>
+      <value><![CDATA[Adresse &auml;ndern]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_checkout</key>
-      <value><![CDATA[Checkout]]></value>
+      <value><![CDATA[Kasse]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_confirm_order</key>
-      <value><![CDATA[Confirm Order]]></value>
+      <value><![CDATA[Bestellung best&auml;tigen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_continue</key>
-      <value><![CDATA[Continue]]></value>
+      <value><![CDATA[Weiter]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_delete</key>
-      <value><![CDATA[Delete]]></value>
+      <value><![CDATA[L&ouml;schen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_edit</key>
-      <value><![CDATA[Edit]]></value>
+      <value><![CDATA[Bearbeiten]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_view</key>
-      <value><![CDATA[View]]></value>
+      <value><![CDATA[Anzeigen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_sign_in</key>
-      <value><![CDATA[Sign In]]></value>
+      <value><![CDATA[Anmelden]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_to_cart</key>
-      <value><![CDATA[Add to Shopping Cart]]></value>
+      <value><![CDATA[In den Warenkorb]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_reviews</key>
-      <value><![CDATA[Reviews]]></value>
+      <value><![CDATA[Meinungen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_search</key>
-      <value><![CDATA[Search]]></value>
+      <value><![CDATA[Suchen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_update_cart</key>
-      <value><![CDATA[Update Shopping Cart]]></value>
+      <value><![CDATA[Warenkorb aktualisieren]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_write_review</key>
-      <value><![CDATA[Write Review]]></value>
+      <value><![CDATA[Bewertung schreiben]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>icon_in_cart</key>
-      <value><![CDATA[Add to Shopping Cart]]></value>
+      <value><![CDATA[In den Warenkorb]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>tax_rate_unknown</key>
-      <value><![CDATA[Tax rate unknown]]></value>
+      <value><![CDATA[Unbekannter Steuersatz]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -206,12 +206,12 @@
     </definition>
     <definition>
       <key>index_heading</key>
-      <value><![CDATA[Welcome to %s!]]></value>
+      <value><![CDATA[Willkommen bei %s!]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>index_text</key>
-      <value><![CDATA[This is a default setup of the osCommerce e-commerce shopping cart solution, products shown are for demonstrational purposes, <b>any products purchased will not be delivered nor will the customer be billed</b>. Any information seen on these products is to be treated as fictional.]]></value>
+      <value><![CDATA[Dies ist eine Standardinstallation von osCommerce. Alle hier gezeigten Produkte sind fiktiv zu verstehen. <strong>Eine hier get&auml;tigte Bestellung wird NICHT ausgef&uuml;hrt werden, Sie erhalten keine Lieferung oder Rechnung.</strong>]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -221,77 +221,77 @@
     </definition>
     <definition>
       <key>listing_model_heading</key>
-      <value><![CDATA[Model]]></value>
+      <value><![CDATA[Artikelnummer]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_products_heading</key>
-      <value><![CDATA[Products]]></value>
+      <value><![CDATA[Produkte]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_manufacturer_heading</key>
-      <value><![CDATA[Manufacturer]]></value>
+      <value><![CDATA[Hersteller]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_quantity_heading</key>
-      <value><![CDATA[Quantity]]></value>
+      <value><![CDATA[Anzahl]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_price_heading</key>
-      <value><![CDATA[Price]]></value>
+      <value><![CDATA[Preis]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_weight_heading</key>
-      <value><![CDATA[Weight]]></value>
+      <value><![CDATA[Gewicht]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_buy_now_heading</key>
-      <value><![CDATA[Buy Now]]></value>
+      <value><![CDATA[Jetzt kaufen]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>no_products_in_category</key>
-      <value><![CDATA[There are no products available in this category.]]></value>
+      <value><![CDATA[Es gibt keine Produkte in dieser Kategorie.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_show</key>
-      <value><![CDATA[Show:]]></value>
+      <value><![CDATA[Darstellen:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_all_categories</key>
-      <value><![CDATA[All Categories]]></value>
+      <value><![CDATA[Alle Kategorien]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_all_manufacturers</key>
-      <value><![CDATA[All Manufacturers]]></value>
+      <value><![CDATA[Alle Hersteller]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>greeting_guest</key>
-      <value><![CDATA[Welcome! <a href="%s">Sign in</a> and see <a href="%s">what's new</a> since your last visit.]]></value>
+      <value><![CDATA[Willkommen! <a href="%s">Loggen Sie sich ein</a>, um zu sehen, was <a href="%s">seit Ihrem letzten Besuch neu ist</a>.]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>greeting_customer</key>
-      <value><![CDATA[Welcome back %s! Take a look at <a href="%s">what is new</a> since your last visit!]]></value>
+      <value><![CDATA[Willkommen zur&uuml;ck %s! Sehen Sie nach, <a href="%s">was seit Ihrem letzten Besuch neu ist!</a>]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>listing_sort_ascendingly</key>
-      <value><![CDATA[Sort by %s ascendingly]]></value>
+      <value><![CDATA[Nach %s aufsteigend sortieren]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_sort_descendingly</key>
-      <value><![CDATA[Sort by %s descendingly]]></value>
+      <value><![CDATA[Nach %s absteigend sortieren]]></value>
       <group>general</group>
     </definition>
     <definition>
