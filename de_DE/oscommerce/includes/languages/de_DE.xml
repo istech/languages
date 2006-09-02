@@ -6,8 +6,8 @@
     <locale><![CDATA[de_DE.UTF-8,de_DE,german]]></locale>
     <character_set><![CDATA[utf-8]]></character_set>
     <text_direction><![CDATA[ltr]]></text_direction>
-    <date_format_short><![CDATA[%m.%d.%Y]]></date_format_short>
-    <date_format_long><![CDATA[%A %d %B, %Y]]></date_format_long>
+    <date_format_short><![CDATA[%d.%m.%Y]]></date_format_short>
+    <date_format_long><![CDATA[%A, %d. %B %Y]]></date_format_long>
     <time_format><![CDATA[%H:%M:%S]]></time_format>
     <default_currency><![CDATA[EUR]]></default_currency>
     <numerical_decimal_separator><![CDATA[.]]></numerical_decimal_separator>
