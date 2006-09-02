@@ -2051,7 +2051,7 @@ Su amigo, %s, pensado que estarías interesado en %s de %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_password_confirmation</key>
-      <value><![CDATA[Confirmación de la contraseña:]]></value>
+      <value><![CDATA[Confirmación:]]></value>
       <group>general</group>
     </definition>
     <definition>
