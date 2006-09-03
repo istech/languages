@@ -795,7 +795,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>success_account_created</key>
-      <value><![CDATA[¡Felicitaciones! ¡Tu nueva cuenta se ha creado con éxito! Ahora puedes aprovechar los privilegios del cliente de realzar su experiencia de las compras con nosotros. Si tiene cualquier pregunta sobre la operación de esta tienda, por favor mande un email al <a href="%s">dueño de la tienda</a>.<br /><br />Una confirmación se ha enviado al email proporcionado. Si no la has recibido dentro de la hora, por favor contactenos.]]></value>
+      <value><![CDATA[¡Felicitaciones! ¡Tu nueva cuenta se ha creado con éxito! Ahora puedes aprovechar los privilegios del cliente de realzar su experiencia de las compras con nosotros. Si tiene cualquier pregunta sobre la operación de esta tienda, por favor mande un email al <a href="%s">dueño de la tienda</a>.<br /><br />Una confirmación se ha enviado al email proporcionado. Si no la has recibido dentro de la hora, por favor contáctenos.]]></value>
       <group>account</group>
     </definition>
     <definition>
