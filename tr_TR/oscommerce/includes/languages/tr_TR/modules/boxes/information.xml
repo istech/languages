@@ -3,32 +3,32 @@
   <definitions>
     <definition>
       <key>box_information_heading</key>
-      <value><![CDATA[Information]]></value>
+      <value><![CDATA[Bilgi]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_information_privacy</key>
-      <value><![CDATA[Privacy Notice]]></value>
+      <value><![CDATA[Gizlilik Notu]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_information_conditions</key>
-      <value><![CDATA[Conditions of Use]]></value>
+      <value><![CDATA[Kullanım Şartları]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_information_shipping</key>
-      <value><![CDATA[Shipping and Returns]]></value>
+      <value><![CDATA[Taşıma ve İade]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_information_contact</key>
-      <value><![CDATA[Contact Us]]></value>
+      <value><![CDATA[İletişim]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_information_sitemap</key>
-      <value><![CDATA[Sitemap]]></value>
+      <value><![CDATA[Site Harıtası]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

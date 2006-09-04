@@ -31,7 +31,6 @@ define('TEXT_INFO_LANGUAGE_DATE_FORMAT_SHORT', 'Tarih Formatı (Kısa):');
 define('TEXT_INFO_LANGUAGE_DATE_FORMAT_LONG', 'Tarih Formatı (Uzun):');
 define('TEXT_INFO_LANGUAGE_TIME_FORMAT', 'Zaman Formatı:');
 define('TEXT_INFO_LANGUAGE_TEXT_DIRECTION', 'Yazı Yönü:');
-define('TEXT_INFO_LANGUAGE_IMAGE', 'Resim:');
 define('TEXT_INFO_LANGUAGE_DEFAULT_CURRENCY', 'Vasayılan Para Birimi:');
 define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_DECIMAL', 'Ondalık Sayı Ayracı');
 define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_THOUSANDS', 'Binler Rakam Ayracı');

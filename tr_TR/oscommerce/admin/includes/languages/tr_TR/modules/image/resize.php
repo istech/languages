@@ -16,5 +16,5 @@ define('MODULE_IMAGE_RESIZE_GROUPS', 'Gruplar');
 define('MODULE_IMAGE_RESIZE_NUMBER_OF_IMAGES', 'Yeniden Boyutlandırılan Resimlerin Sayısı');
 
 define('MODULE_IMAGE_RESIZE_PROCESS_GROUPS', 'Guruplar');
-define('MODULE_IMAGE_RESIZE_OVERWRITE_IMAGES', 'Üzerine Tekrar Yazılmış Bulunan Resimler');
+define('MODULE_IMAGE_RESIZE_OVERWRITE_IMAGES', 'Bulunan Resimlerin Üzerine Yaz');
 ?>

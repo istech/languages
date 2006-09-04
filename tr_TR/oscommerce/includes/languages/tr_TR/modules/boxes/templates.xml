@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>box_templates_heading</key>
-      <value><![CDATA[Templates]]></value>
+      <value><![CDATA[Şablonlar]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>box_specials_heading</key>
-      <value><![CDATA[Specials]]></value>
+      <value><![CDATA[İndirimdekiler]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>shipping_table_title</key>
-      <value><![CDATA[Table Rate]]></value>
+      <value><![CDATA[Tablo Oranı]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_table_description</key>
-      <value><![CDATA[Table Rate]]></value>
+      <value><![CDATA[Tablo Oranı]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_table_method</key>
-      <value><![CDATA[Best Way]]></value>
+      <value><![CDATA[En Uygun Yol]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

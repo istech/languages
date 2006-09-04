@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>order_total_loworderfee_title</key>
-      <value><![CDATA[Low Order Fee]]></value>
+      <value><![CDATA[Düşük Sipariş Harçı]]></value>
       <group>modules-order_total</group>
     </definition>
     <definition>
       <key>order_total_loworderfee_description</key>
-      <value><![CDATA[Low Order Fee]]></value>
+      <value><![CDATA[Düşük Sipariş Harçı]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>

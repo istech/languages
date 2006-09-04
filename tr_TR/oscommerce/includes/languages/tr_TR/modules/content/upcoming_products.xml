@@ -1,9 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-15"?>
 <language>
   <definitions>
     <definition>
       <key>upcoming_products_title</key>
-      <value><![CDATA[Upcoming Products]]></value>
+      <value><![CDATA[Yakında Geleçek Ürünler]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>upcoming_products_date_expected_title</key>
+      <value><![CDATA[Beklenen Tarih]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>

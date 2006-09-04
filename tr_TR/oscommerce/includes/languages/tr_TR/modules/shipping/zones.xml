@@ -3,27 +3,27 @@
   <definitions>
     <definition>
       <key>shipping_zones_title</key>
-      <value><![CDATA[Zone Rates]]></value>
+      <value><![CDATA[Bölge Oranı]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_zones_description</key>
-      <value><![CDATA[Zone Based Rates]]></value>
+      <value><![CDATA[Bölge Tabanlı Oran]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_zones_method</key>
-      <value><![CDATA[Shipping to]]></value>
+      <value><![CDATA[Kargolanan Yer]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_zones_invalid_zone</key>
-      <value><![CDATA[No shipping available to the selected country]]></value>
+      <value><![CDATA[Secilmiş ülke için kargolama kullanılabilir değil.]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_zones_undefined_rate</key>
-      <value><![CDATA[The shipping rate cannot be determined at this time]]></value>
+      <value><![CDATA[Kargolama oranı şu anda belirlenememektedir.]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

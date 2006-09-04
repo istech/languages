@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>box_manufacturers_heading</key>
-      <value><![CDATA[Manufacturers]]></value>
+      <value><![CDATA[Üretiçiler]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

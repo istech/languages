@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>order_total_total_title</key>
-      <value><![CDATA[Total]]></value>
+      <value><![CDATA[Toplam]]></value>
       <group>modules-order_total</group>
     </definition>
     <definition>
       <key>order_total_total_description</key>
-      <value><![CDATA[Order Total]]></value>
+      <value><![CDATA[Sipariş Toplamı]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>

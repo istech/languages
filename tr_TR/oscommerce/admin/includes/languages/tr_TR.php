@@ -149,7 +149,7 @@ define('ENTRY_NEWSLETTER_YES', 'Abone Ol');
 define('ENTRY_NEWSLETTER_NO', 'Abone Olma');
 define('ENTRY_PASSWORD', 'Parola:');
 define('ENTRY_PASSWORD_ERROR', 'Parolanız en az ' . ACCOUNT_PASSWORD . ' karakter içermelidir.');
-define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'Bu Parola Doğrulama alanı parolanızla aynı olmalıdır.');
+define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'Bu Parola Doğrulaması parolanızla aynı olmalıdır.');
 define('ENTRY_PASSWORD_CONFIRMATION', 'Parola Doğrulama:');
 
 // images
@@ -177,6 +177,7 @@ define('IMAGE_ICON_STATUS_RED', 'Aktif Değil');
 define('IMAGE_ICON_STATUS_RED_LIGHT', 'Aktif Değil Ayarla');
 define('IMAGE_ICON_INFO', 'Bilgi');
 define('IMAGE_IMPORT', 'Dahil');
+define('IMAGE_INFO', 'Bilgi');
 define('IMAGE_INSERT', 'Ekle');
 define('IMAGE_LOCK', 'Kilitli');
 define('IMAGE_LOGIN', 'Giriş');
@@ -210,7 +211,7 @@ define('IMAGE_SEND', 'Gönder');
 define('IMAGE_SEND_EMAIL', 'Eposta Gönder');
 define('IMAGE_UNLOCK', 'Kilitsiz');
 define('IMAGE_UPDATE', 'Güncelle');
-define('IMAGE_UPDATE_CURRENCIES', 'Değişim Oranlarını Guncelle');
+define('IMAGE_UPDATE_CURRENCIES', 'Değişim Oranlarını Güncelle');
 define('IMAGE_UPLOAD', 'Yukar Yükle');
 
 define('ICON_CROSS', 'Yanlış');
@@ -274,7 +275,7 @@ define('TEXT_SET_DEFAULT', 'varsayılan olarak ayarla');
 define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">* Gerekli</span>');
 define('TEXT_IMAGE_NONEXISTENT', 'RESIM YOK');
 
-define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Hata: Su anda mevcut varsayılan para birimi ayarlı değil.  Lütfen buradan bi ayarlayın: Yönetim Araçları->Yerelleştirme->Para Birimleri');
+define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Hata: Şu anda mevcut varsayılan para birimi ayarlı değil.  Lütfen buradan bi ayarlayın: Yönetim Araçları->Yerelleştirme->Para Birimleri');
 
 define('TEXT_CACHE_CATEGORIES', 'Katergoriler Kutusu');
 define('TEXT_CACHE_MANUFACTURERS', 'Üreticiler Kutusu');

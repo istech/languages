@@ -1,217 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
   <data>
-    <title><![CDATA[English]]></title>
-    <code><![CDATA[en_US]]></code>
-    <locale><![CDATA[en_US.UTF-8,en_US,english]]></locale>
+    <title><![CDATA[Turkish]]></title>
+    <code><![CDATA[tr_TR]]></code>
+    <locale><![CDATA[tr_TR.UTF-8,tr_TR,turkish]]></locale>
     <character_set><![CDATA[utf-8]]></character_set>
     <text_direction><![CDATA[ltr]]></text_direction>
-    <date_format_short><![CDATA[%m/%d/%Y]]></date_format_short>
-    <date_format_long><![CDATA[%A %d %B, %Y]]></date_format_long>
+    <date_format_short><![CDATA[%d/%m/%Y]]></date_format_short>
+    <date_format_long><![CDATA[%d %B %Y %A]]></date_format_long>
     <time_format><![CDATA[%H:%M:%S]]></time_format>
-    <default_currency><![CDATA[USD]]></default_currency>
-    <numerical_decimal_separator><![CDATA[.]]></numerical_decimal_separator>
-    <numerical_thousands_separator><![CDATA[,]]></numerical_thousands_separator>
+    <default_currency><![CDATA[YTL]]></default_currency>
+    <numerical_decimal_separator><![CDATA[,]]></numerical_decimal_separator>
+    <numerical_thousands_separator><![CDATA[.]]></numerical_thousands_separator>
   </data>
   <definitions>
     <definition>
       <key>my_account</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Hesabım]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>cart_contents</key>
-      <value><![CDATA[Cart Contents]]></value>
+      <value><![CDATA[Sepet İçindekiler]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>checkout</key>
-      <value><![CDATA[Checkout]]></value>
+      <value><![CDATA[Hesap Gör]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>breadcrumb_top</key>
-      <value><![CDATA[Top]]></value>
+      <value><![CDATA[Üst]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>breadcrumb_shop</key>
-      <value><![CDATA[Online Shop]]></value>
+      <value><![CDATA[Çevrimiçi Mağaza]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>sign_in</key>
-      <value><![CDATA[Sign In]]></value>
+      <value><![CDATA[Giriş]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>sign_out</key>
-      <value><![CDATA[Sign Out]]></value>
+      <value><![CDATA[Çıkış]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>gender_male</key>
-      <value><![CDATA[Male]]></value>
+      <value><![CDATA[Bay]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>gender_female</key>
-      <value><![CDATA[Female]]></value>
+      <value><![CDATA[Bayan]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>pull_down_default</key>
-      <value><![CDATA[Please Select]]></value>
+      <value><![CDATA[Lütfen Seçiniz]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>js_error</key>
-      <value><![CDATA[Errors have occured during the process of your form.\n\nPlease make the following corrections:\n\n]]></value>
+      <value><![CDATA[Form işlemleriniz sırasında hatalarla karşılaşıldı.\n\nLütfen takip eden düzeltmeleri yapın:\n\n]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>js_error_already_submitted</key>
-      <value><![CDATA[This form has already been submitted. Please press Ok and wait for this process to be completed.]]></value>
+      <value><![CDATA[Bu form zaten gönderilmiş. Lütfen Tamam düğmesine basın ve işlemlerin bitmesini bekleyin.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>form_required_information</key>
-      <value><![CDATA[* Required information]]></value>
+      <value><![CDATA[* Gerekli Bilgi]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_current_page</key>
-      <value><![CDATA[Page %s of %d]]></value>
+      <value><![CDATA[Sayfa %s of %d]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_products</key>
-      <value><![CDATA[Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> products)]]></value>
+      <value><![CDATA[Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> üründen)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_orders</key>
-      <value><![CDATA[Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> orders)]]></value>
+      <value><![CDATA[Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> siparişten)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_reviews</key>
-      <value><![CDATA[Displaying <b>%d</b> to <b>%d</b> (of <b>%d</b> reviews)]]></value>
+      <value><![CDATA[Gosterilen <b>%d</b> - <b>%d</b> (<b>%d</b> yorumdan)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_previous_page</key>
-      <value><![CDATA[[&lt;&lt;&nbsp;Prev]]]></value>
+      <value><![CDATA[[&lt;&lt;&nbsp;Önceki]]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_next_page</key>
-      <value><![CDATA[[Next&nbsp;&gt;&gt;]]]></value>
+      <value><![CDATA[[Sonraki&nbsp;&gt;&gt;]]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_address</key>
-      <value><![CDATA[Add Address]]></value>
+      <value><![CDATA[Adres Ekle]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_back</key>
-      <value><![CDATA[Back]]></value>
+      <value><![CDATA[Geri]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_buy_now</key>
-      <value><![CDATA[Buy Now]]></value>
+      <value><![CDATA[Şimdi Al]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_change_address</key>
-      <value><![CDATA[Change Address]]></value>
+      <value><![CDATA[Adresi Değiştir]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_checkout</key>
-      <value><![CDATA[Checkout]]></value>
+      <value><![CDATA[Hesap Gör]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_confirm_order</key>
-      <value><![CDATA[Confirm Order]]></value>
+      <value><![CDATA[Siparişi Onayla]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_continue</key>
-      <value><![CDATA[Continue]]></value>
+      <value><![CDATA[Devam]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_delete</key>
-      <value><![CDATA[Delete]]></value>
+      <value><![CDATA[Sil]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_edit</key>
-      <value><![CDATA[Edit]]></value>
+      <value><![CDATA[Düzelt]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_view</key>
-      <value><![CDATA[View]]></value>
+      <value><![CDATA[Göster]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_sign_in</key>
-      <value><![CDATA[Sign In]]></value>
+      <value><![CDATA[Giriş Yap]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_to_cart</key>
-      <value><![CDATA[Add to Shopping Cart]]></value>
+      <value><![CDATA[Alışveriş Sepetine Ekle]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_reviews</key>
-      <value><![CDATA[Reviews]]></value>
+      <value><![CDATA[Yorumlar]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_search</key>
-      <value><![CDATA[Search]]></value>
+      <value><![CDATA[Ara]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_update_cart</key>
-      <value><![CDATA[Update Shopping Cart]]></value>
+      <value><![CDATA[Alışveriş Sepetini Güncelle]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_write_review</key>
-      <value><![CDATA[Write Review]]></value>
+      <value><![CDATA[Yorum Yaz]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>icon_in_cart</key>
-      <value><![CDATA[Add to Shopping Cart]]></value>
+      <value><![CDATA[Alışveriş Sepetine Ekle]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>tax_rate_unknown</key>
-      <value><![CDATA[Tax rate unknown]]></value>
+      <value><![CDATA[Vergi oranı bilinmiyor]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>footer</key>
-      <value><![CDATA[Copyright &copy; %s <a href="%s">%s</a><br />Powered by <a href="http://www.oscommerce.com" target="_blank">osCommerce</a>]]></value>
+      <value><![CDATA[Telif Hakkı &copy; %s <a href="%s">%s</a><br /><a href="http://www.oscommerce.com" target="_blank">osCommerce</a> ile hazırlandı]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>index_heading</key>
-      <value><![CDATA[Welcome to %s!]]></value>
+      <value><![CDATA[Hoş geldiniz %s!]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>index_text</key>
-      <value><![CDATA[This is a default setup of the osCommerce e-commerce shopping cart solution, products shown are for demonstrational purposes, <b>any products purchased will not be delivered nor will the customer be billed</b>. Any information seen on these products is to be treated as fictional.]]></value>
+      <value><![CDATA[Bu osCommerce e-ticaret alışveriş cözümünün varsayılan kurulumudur, gösterilen ürünler halka sunum amaçlıdır. <b>satın aldığınız herhangi bir ürün gönderilmeyecek ve/veya müşterilere futuralandırılmıyacaktır</b>. Herhangi bir ürünler üzerinde gördüğünüz bilgiler işlemlerde kullanmak için kurgulanmıştır.]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -226,991 +226,981 @@
     </definition>
     <definition>
       <key>listing_products_heading</key>
-      <value><![CDATA[Products]]></value>
+      <value><![CDATA[Ürünler]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_manufacturer_heading</key>
-      <value><![CDATA[Manufacturer]]></value>
+      <value><![CDATA[Üretici]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_quantity_heading</key>
-      <value><![CDATA[Quantity]]></value>
+      <value><![CDATA[Miktar]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_price_heading</key>
-      <value><![CDATA[Price]]></value>
+      <value><![CDATA[Fiyat]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_weight_heading</key>
-      <value><![CDATA[Weight]]></value>
+      <value><![CDATA[Ağırlık]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_buy_now_heading</key>
-      <value><![CDATA[Buy Now]]></value>
+      <value><![CDATA[Simdi Al]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>no_products_in_category</key>
-      <value><![CDATA[There are no products available in this category.]]></value>
+      <value><![CDATA[Bu kategori içinde hazır ürün bulunmamaktadır.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_show</key>
-      <value><![CDATA[Show:]]></value>
+      <value><![CDATA[Göster:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_all_categories</key>
-      <value><![CDATA[All Categories]]></value>
+      <value><![CDATA[Tüm Kategoriler]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_all_manufacturers</key>
-      <value><![CDATA[All Manufacturers]]></value>
+      <value><![CDATA[Tüm Üreticiler]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>greeting_guest</key>
-      <value><![CDATA[Welcome! <a href="%s">Sign in</a> and see <a href="%s">what's new</a> since your last visit.]]></value>
+      <value><![CDATA[Hoş geldiniz! <a href="%s">Giriş yapın</a> ve en son ziyaretinizden beri <a href="%s">nerel yeni</a> görünüz.]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>greeting_customer</key>
-      <value><![CDATA[Welcome back %s! Take a look at <a href="%s">what is new</a> since your last visit!]]></value>
+      <value><![CDATA[Tekrar hoş geldiniz %s! En son ziyaretinizden beri <a href="%s">nerel yeni</a> olduğuna bakınız!]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>listing_sort_ascendingly</key>
-      <value><![CDATA[Sort by %s ascendingly]]></value>
+      <value><![CDATA[%s'e göre artan sırala]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_sort_descendingly</key>
-      <value><![CDATA[Sort by %s descendingly]]></value>
+      <value><![CDATA[%s'e göre azalan sırala]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>breadcrumb_sign_in</key>
-      <value><![CDATA[Sign In]]></value>
+      <value><![CDATA[Giriş Yap]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_sign_out</key>
-      <value><![CDATA[Sign Out]]></value>
+      <value><![CDATA[Çıkış Yap]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_my_account</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Hesabım]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_account</key>
-      <value><![CDATA[Edit Account]]></value>
+      <value><![CDATA[Hesabı Düzenle]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_password</key>
-      <value><![CDATA[Change Password]]></value>
+      <value><![CDATA[Parola Değiştir]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_my_orders</key>
-      <value><![CDATA[Orders]]></value>
+      <value><![CDATA[Sipariler]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_order_information</key>
-      <value><![CDATA[Order #%s]]></value>
+      <value><![CDATA[Sipariş #%s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_newsletters</key>
-      <value><![CDATA[Newsletters]]></value>
+      <value><![CDATA[Haber Postaları]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_notifications</key>
-      <value><![CDATA[Notifications]]></value>
+      <value><![CDATA[Bildiriler]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book</key>
-      <value><![CDATA[Address Book]]></value>
+      <value><![CDATA[Adres Defteri]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_add_entry</key>
-      <value><![CDATA[Add Entry]]></value>
+      <value><![CDATA[Kayıt Ekle]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_edit_entry</key>
-      <value><![CDATA[Edit Entry]]></value>
+      <value><![CDATA[Kayıt Düzenle]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_delete_entry</key>
-      <value><![CDATA[Delete Entry]]></value>
+      <value><![CDATA[Kayıt Sil]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_create_account</key>
-      <value><![CDATA[Create an Account]]></value>
+      <value><![CDATA[Bir Hesap Aç]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_password_forgotten</key>
-      <value><![CDATA[Password Forgotten]]></value>
+      <value><![CDATA[Unutulan Parola]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>sign_in_heading</key>
-      <value><![CDATA[Welcome, Please Sign In]]></value>
+      <value><![CDATA[Hoş geldiniz, Lütfen Giriş Yapın]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>sign_out_heading</key>
-      <value><![CDATA[Sign Out From Your Account]]></value>
+      <value><![CDATA[Hesabınızdan Çıkış Yapınız]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_heading</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Hesabım]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_edit_heading</key>
-      <value><![CDATA[My Account Information]]></value>
+      <value><![CDATA[Hesap Bilgisi]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_password_heading</key>
-      <value><![CDATA[My Account Password]]></value>
+      <value><![CDATA[Hesap Parolam]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>orders_heading</key>
-      <value><![CDATA[My Orders]]></value>
+      <value><![CDATA[Siparişlerim]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_information_heading</key>
-      <value><![CDATA[Order #%s]]></value>
+      <value><![CDATA[Sipariş #%s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletters_heading</key>
-      <value><![CDATA[My Newsletter Subscriptions]]></value>
+      <value><![CDATA[Haber Postası Aboneliklerim]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>notifications_heading</key>
-      <value><![CDATA[My Product Notifications]]></value>
+      <value><![CDATA[Ürün Bildirilerim]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_heading</key>
-      <value><![CDATA[My Address Book]]></value>
+      <value><![CDATA[Adres Defterim]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_add_entry_heading</key>
-      <value><![CDATA[New Address Book Entry]]></value>
+      <value><![CDATA[Yeni Adres Defteri Kaydı]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_edit_entry_heading</key>
-      <value><![CDATA[Edit Address Book Entry]]></value>
+      <value><![CDATA[Adres Defteri Kaydı Düzelt]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_entry_heading</key>
-      <value><![CDATA[Remove Address Book Entry]]></value>
+      <value><![CDATA[Adres Defteri Kaydı Kaldır]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_heading</key>
-      <value><![CDATA[Create an Account]]></value>
+      <value><![CDATA[Bir Hesap Aç]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_success_heading</key>
-      <value><![CDATA[Your Account Has Been Created!]]></value>
+      <value><![CDATA[Hesabınız Açılmıştır!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_new_customer_heading</key>
-      <value><![CDATA[New Customer]]></value>
+      <value><![CDATA[Yeni Müşteri]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_new_customer_text</key>
-      <value><![CDATA[I am a new customer and do not yet have an account here.<br /><br />By creating an account you will be able to take advantage of this store by shopping faster, be kept up to date on the status of an order, and keep track of the orders you have made.]]></value>
+      <value><![CDATA[Ben yeni bir müşteriyim ve henuz burada bir hesabım yok.<br /><br />Bir hesap açmakla bu mağazanın size verdiği çok hızlı bir şekilde alışveriş yapabilmek, sipariş durumunu sürekli güncel tutarak takip edebilmek ve yapmış olduğunuz eski siparişlerinizi izleyebilmek gibi avantajlardan yararlanabilirsiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_returning_customer_heading</key>
-      <value><![CDATA[Returning Customer]]></value>
+      <value><![CDATA[Geri Dönen Müşteri]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_returning_customer_text</key>
-      <value><![CDATA[I am a returning customer and already have an account here.]]></value>
+      <value><![CDATA[Ben tekrar gelen bir müşteriyim ve burada bir hesabım var.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_returning_customer_password_forgotten</key>
-      <value><![CDATA[Password forgotten? <a href="%s">Click here</a>.]]></value>
+      <value><![CDATA[Unutulan Parola? <a href="%s">Buraya Tıklayın</a>.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_login_no_match</key>
-      <value><![CDATA[There was no match for the e-mail address and/or password. Please try again.]]></value>
+      <value><![CDATA[E-posta adresi ve/veya parola için uyum yok. Lütfen tekrar deneyiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>date_added_to_shopping_cart</key>
-      <value><![CDATA[Date Added: %s]]></value>
+      <value><![CDATA[Tarihinde Eklendi: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>sign_out_text</key>
-      <value><![CDATA[You have sign out successfully from your account. Your shopping cart has been saved and will be restored the next time you sign on again.<br /><br />It is now safe to leave this site.]]></value>
+      <value><![CDATA[Hesabınızdan başarıyla çıkış yaptınız. Alışveriş sepetiniz kaydedildi sonraki bir zamanda tekrar giriş yaptığınızda geri yüklenmiş olacaktır.<br /><br />Bu siteden ayrılma şimdi güvenlidir.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_account_title</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Hesabım]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>information_title</key>
-      <value><![CDATA[Information]]></value>
+      <value><![CDATA[Bilgi(Bilgilerim)]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>my_account_information</key>
-      <value><![CDATA[View or change my account information.]]></value>
+      <value><![CDATA[Hesap bilgilerimi göster/değiştir.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_account_address_book</key>
-      <value><![CDATA[View or change entries in my address book.]]></value>
+      <value><![CDATA[Adres defterim içindeki kayıtları göster/değiştir.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_account_password</key>
-      <value><![CDATA[Change my account password.]]></value>
+      <value><![CDATA[Hesap parolamı değiştir.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_orders_title</key>
-      <value><![CDATA[My Orders]]></value>
+      <value><![CDATA[Siparişlerim]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_orders_view</key>
-      <value><![CDATA[View the orders I have made.]]></value>
+      <value><![CDATA[Yapmış olduğum siparişleri göster.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_notifications_title</key>
-      <value><![CDATA[My Notifications]]></value>
+      <value><![CDATA[Bildirilerim]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_notifications_newsletters</key>
-      <value><![CDATA[Subscribe and unsubscribe from newsletters.]]></value>
+      <value><![CDATA[Haber postalarına abone ol/abone olma.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_notifications_products</key>
-      <value><![CDATA[View and change my product notifications list.]]></value>
+      <value><![CDATA[Ürün bildiri listemi göster/değiştir.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_password_title</key>
-      <value><![CDATA[My Password]]></value>
+      <value><![CDATA[Parolam]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_number</key>
-      <value><![CDATA[Order Number:]]></value>
+      <value><![CDATA[Sipariş Numarası:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_status</key>
-      <value><![CDATA[Order Status:]]></value>
+      <value><![CDATA[Sipariş Durumu:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_date</key>
-      <value><![CDATA[Order Date:]]></value>
+      <value><![CDATA[Sipariş Tarihi:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_shipped_to</key>
-      <value><![CDATA[Shipped To:]]></value>
+      <value><![CDATA[Kargolanan Yer:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_billed_to</key>
-      <value><![CDATA[Billed To:]]></value>
+      <value><![CDATA[Faturalanan Yer:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_products</key>
-      <value><![CDATA[Products:]]></value>
+      <value><![CDATA[Ürünler:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_cost</key>
-      <value><![CDATA[Order Cost:]]></value>
+      <value><![CDATA[Sipariş Maliyeti:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>no_orders_made_yet</key>
-      <value><![CDATA[You have not made any purchases yet.]]></value>
+      <value><![CDATA[Henuz bir satın alma işlemeni yapmadınız.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_number_heading</key>
-      <value><![CDATA[Order #%s]]></value>
+      <value><![CDATA[Sipariş #%s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_date_heading</key>
-      <value><![CDATA[Order Date:]]></value>
+      <value><![CDATA[Sipariş Tarihi:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_total_heading</key>
-      <value><![CDATA[Order Total:]]></value>
+      <value><![CDATA[Sipariş Toplam:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_history_heading</key>
-      <value><![CDATA[Order History]]></value>
+      <value><![CDATA[Sipariş Geçmişi]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>download_heading</key>
-      <value><![CDATA[Download links]]></value>
+      <value><![CDATA[İndirilen Bağlar]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>download_link_expires</key>
-      <value><![CDATA[Link expires: %s]]></value>
+      <value><![CDATA[Bağ Son Kullanım Süresi: %s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>download_counter_remaining</key>
-      <value><![CDATA[downloads remaining]]></value>
+      <value><![CDATA[İndirmelerden Geri Kalan Süre]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_subscriptions_heading</key>
-      <value><![CDATA[My Newletter Subscriptions]]></value>
+      <value><![CDATA[Haber Postası Aboneliklerim]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_general</key>
-      <value><![CDATA[General Newletter]]></value>
+      <value><![CDATA[Genel Haber Postası]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_general_description</key>
-      <value><![CDATA[Including store news, new products, special offers, and other promotional announcements.]]></value>
+      <value><![CDATA[Şunları içerir: mağaza haberleri, yeni ürünler, indirimdeki ürünleri ve diğer promosyon duyuruları.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications</key>
-      <value><![CDATA[My Product Notifications]]></value>
+      <value><![CDATA[Ürün Bildirilerim]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_description</key>
-      <value><![CDATA[The product notification list allows you to stay up to date on products you find of interest.<br /><br />To be up to date on all product changes, select <b>Global Product Notifications</b>.]]></value>
+      <value><![CDATA[Bu ürün bildiri listesi ilginç buldugunuz ürünler hakkında güncel kalmanıza olanak sağlar.<br /><br />Tüm ürün değişimleri üzerinde güncel olmak için <b>Global Ürün Bildirilerni</b> seçiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global</key>
-      <value><![CDATA[Global Product Notifications]]></value>
+      <value><![CDATA[Global Ürün Bildirileri]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global_description</key>
-      <value><![CDATA[Recieve notifications on all available products.]]></value>
+      <value><![CDATA[Tüm mevcut ürünler hakkındaki bildirileri kabul et.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products</key>
-      <value><![CDATA[Product Notifications]]></value>
+      <value><![CDATA[Ürün Bildirileri]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_description</key>
-      <value><![CDATA[To remove a product notification, clear the products checkbox and click on Continue.]]></value>
+      <value><![CDATA[Bir ürün bildirisini kaldırmak için ürünün kutucuklarını temizleyin ve Devam üzerine tıklayınız.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_none</key>
-      <value><![CDATA[There are currently no products marked to be notified on.<br /><br />To add products to your product notification list, click on the notification link available on the detailed product information page.]]></value>
+      <value><![CDATA[Bildirilmek üzere işaretlenmiş ürün şu anda yoktur.<br /><br />Ürünleri, ürün bildiri listenize eklemek için ürün detay bilgileri sayfasında bulunan bildiri bağlantısı üzerine tıklayınız.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>primary_address_title</key>
-      <value><![CDATA[Primary Address]]></value>
+      <value><![CDATA[Birincil Adres]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>primary_address_description</key>
-      <value><![CDATA[This address is used as the pre-selected shipping and billing address for orders placed on this store.<br /><br />This address is also used as the base for product and service tax calculations.]]></value>
+      <value><![CDATA[Bu mağazada üzerinde yapacağınız siparişleriniz için bu adres ön seçimli kargo ve fatura adresi olarak kullanıldı.<br /><br />Bu adres ürün ve servisin vergi hesaplamalarında da temel alınarak kullanılmıştır.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_title</key>
-      <value><![CDATA[Address Book Entries]]></value>
+      <value><![CDATA[Adres Defteri Kayıtları]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>primary_address_marker</key>
-      <value><![CDATA[(primary address)]]></value>
+      <value><![CDATA[(birincil adres)]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_maximum_entries</key>
-      <value><![CDATA[<font color="#ff0000"><b>NOTE:</b></font> A maximum of %s address book entries allowed.]]></value>
+      <value><![CDATA[<font color="#ff0000"><b>NOT:</b></font> En fazla %s adres defteri kaydına izin verilir.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_address_title</key>
-      <value><![CDATA[Delete Address]]></value>
+      <value><![CDATA[Adresi Sil]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_address_description</key>
-      <value><![CDATA[Are you sure you would like to delete the selected address from your address book?]]></value>
+      <value><![CDATA[Seçilmiş adresi, adres defterinizden silmek istediğinize emin misiniz?]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_new_address_title</key>
-      <value><![CDATA[New Address]]></value>
+      <value><![CDATA[Yeni Adres]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>selected_address_title</key>
-      <value><![CDATA[Selected Address]]></value>
+      <value><![CDATA[Seçilmiş Adres]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>set_as_primary</key>
-      <value><![CDATA[Set as primary address.]]></value>
+      <value><![CDATA[Birincil adres olarak ayarla.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_terms_heading</key>
-      <value><![CDATA[Privacy Statement]]></value>
+      <value><![CDATA[Gizlikik Beyannamesi]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_terms_description</key>
-      <value><![CDATA[Please acknowledge you agree with our privacy statement by ticking the following box. The privacy statement can be read <a href="%s">here</a>.]]></value>
+      <value><![CDATA[Lütfen aşağıdaki kutuyu çeteleyip gizlilik beyannamemizi kabul ederek alındığını doğrulayınız. Gizlikik beyannamesini <a href="%s">buradan</a> okuyabilirsiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_terms_confirm</key>
-      <value><![CDATA[I have read and agreed to your privacy statement.]]></value>
+      <value><![CDATA[Gizlilik beyannamenizi okudum ve kabul ettim.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>password_forgotten_heading</key>
-      <value><![CDATA[Password Forgotten]]></value>
+      <value><![CDATA[Unutulan Parola]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>password_forgotten</key>
-      <value><![CDATA[If you've forgotten your password, enter your e-mail address below and we'll send you an e-mail message containing your new password.]]></value>
+      <value><![CDATA[Eğer parolanızı unuttuysanız, aşağıya e-posta adresinizi girin ve biz size yeni parolanızı içeren bir e-posta mesajı gönderecegiz.<br> Not: Parolanız sistemimizde MD5 ile şifrelenerek saklanmaktadır. Dolayısı ile unuttuğunuz eski parolanız iptal edilerek geçici yeni parolanız e-posta adresinize gönderilecektir.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>email_create_account_subject</key>
-      <value><![CDATA[Welcome to %s]]></value>
+      <value><![CDATA[Hoş geldiniz %s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>email_create_account_body</key>
-      <value><![CDATA[We welcome you to %s!
+      <value><![CDATA[%s mağazamıza hoş geldiniz!
 
-You can now take part in the various services we have on offer for you. Some of these services include:
+Sizin için sunduğumuz çeşitli servislere şimdi katılabilirsiniz. Bu servisleriden bazılarının içerikleri:
 
-<li>Permanent Cart - Any products added to your online cart remain there until you remove them, or check them out.
-<li>Address Book - We can now deliver your products to another address other than yours! This is perfect to send birthday gifts direct to the birthday-person themselves.
-<li>Order History - View your history of purchases that you have made with us.
-<li>Products Reviews - Share your opinions on products with our other customers.
+<li>Kalıcı Alışveriş Sepeti - Herhangi bir ürünü çevrimiçi sepetinize eklediginizde siz bunları kaldırana kadar veya onların hesabını görünceye kadar saklı kalır.
+<li>Adres Defteri - Şu an ürünlerinizi sizin adresinizden başaka bir adrese gönderebiliriz! Doğum günü olan kişinin kendisine doğrudan doğum günü hedyesi göndermek için harikadır.
+<li>Sipariş Geçmişi - Bizimle yapmış olduğunuz satınalma işlemlerinin geçmişini görünüz.
+<li>Ürün Yorumları - Ürünler üzerindeki fikirlerinizi diğer müşterilerle paylaşınız.
 
-For help with any of our online services, please email the store-owner: %s.
+Çevrimiçi hizmetlerimizin herhangi birinden yardım almak için lütfen mağaza sahibine eposta gönderizin: %s.
 
-Note: This email address was given to us by one of our customers. If you did not signup to be a member, please send an email to the store owner.]]></value>
+Not: Bu eposta adresi bize bir müşterilerimiz tarafindan verilmiş. Eğer sizi bir üye olmak için kaydolmadıysanız lütfen mağaza sahibine bir eposta gönderiniz.(Bu epostayi açıklamanızla birlikte iletebilirsiniz.)]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>email_addressing_gender_male</key>
-      <value><![CDATA[Dear Mr. %s,]]></value>
+      <value><![CDATA[Sayın Bay %s,]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>email_addressing_gender_female</key>
-      <value><![CDATA[Dear Ms. %s,]]></value>
+      <value><![CDATA[SAyın Bayan %s,]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>email_addressing_gender_unknown</key>
-      <value><![CDATA[Dear %s,]]></value>
+      <value><![CDATA[Sayın %s,]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>email_password_reminder_subject</key>
-      <value><![CDATA[Password Reminder to %s]]></value>
+      <value><![CDATA[%s Mağazası Parola Hatırlatma]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>email_password_reminder_body</key>
-      <value><![CDATA[A new password was requested from %s.
+      <value><![CDATA[%s den yeni bir parola istendi.
 
-Your new password to %s is:
+%s deki yeni parolanız:
 
 %s
 
-For help with any of our online services, please email the store-owner: %s.
+Çevrimiçi hizmetlerimizin herhangi birinden yardım almak için lütfen mağaza sahibine eposta gönderizin: %s.
 
-Note: If you did not request this action via our password forgotten page, please notify the store owner as soon as possible.]]></value>
+Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen sizin içinde mümkünse çok kısa sürede mağaza sahibine bildiriniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_account_created</key>
-      <value><![CDATA[Congratulations! Your new account has been successfully created! You can now take advantage of member privileges to enhance your online shopping experience with us. If you have any questions about the operation of this online shop, please email the <a href="%s">store owner</a>.<br /><br />A confirmation has been sent to the provided email address. If you have not received it within the hour, please contact us.]]></value>
+      <value><![CDATA[Tebrikler! Yeni hesabınız başarıyla açılmıştır! Bizimle üyelik ayrıcaliklariyle gelişmiş çevrimiçi alışveriş deneyiminden şimdi yararlanabilirsiniz. Eğer bu çevrimiçi alışveriş operasyonları hakkında sorularınız varsa lütfen <a href="%s">mağaza sahibine</a> eposta gönderiniz.<br /><br />Verilen eposta adresine bir onaylama gönderildi. Eğer bir saat içinde onu almadıysanız, lütfen bizimle iletişime geçiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_account_updated</key>
-      <value><![CDATA[Your account has been successfully updated!]]></value>
+      <value><![CDATA[Hesabınız başarıyla güncellenmiştir!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_password_updated</key>
-      <value><![CDATA[Your account password has been successfully updated!]]></value>
+      <value><![CDATA[Hesap parolanız başarıyla güncellenmiştir!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_newsletter_updated</key>
-      <value><![CDATA[Your newsletter subscriptions have been successfully updated!]]></value>
+      <value><![CDATA[Haber postası aboneliğiniz başarıyla güncellenmiştir!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_notifications_updated</key>
-      <value><![CDATA[Your product notifications have been successfully updated!]]></value>
+      <value><![CDATA[Ürün bildirilerinizi başarıyla güncellenmiştir!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_address_book_entry_deleted</key>
-      <value><![CDATA[The selected address has been successfully removed from your address book.]]></value>
+      <value><![CDATA[Seçilmiş olan adres başarıyla adres defterinizden kaldırılmıştır.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_address_book_entry_updated</key>
-      <value><![CDATA[Your address book has been successfully updated.]]></value>
+      <value><![CDATA[Adres defteriniz başarıyla güncellenmiştir.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_password_forgotten_sent</key>
-      <value><![CDATA[Success: A new password has been sent to your e-mail address.]]></value>
+      <value><![CDATA[Başarılı: Yeni parola e-posta adresinize gönderilmiştir.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>warning_primary_address_deletion</key>
-      <value><![CDATA[The primary address cannot be deleted. Please set another address as the primary address and try again.]]></value>
+      <value><![CDATA[Birincil adres silinemez. Lütfen diğer bir adresi birincil adres yapın ve tekrar deneyiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_current_password_not_matching</key>
-      <value><![CDATA[Your current password does not match our records. Please try again.]]></value>
+      <value><![CDATA[Şu anki parolanız kayıtlarımızla uyuşmuyor. Lütfen tekrar deneyiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_address_book_entry_non_existing</key>
-      <value><![CDATA[The address book entry does not exist.]]></value>
+      <value><![CDATA[Adres defteri kaydı yok.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_address_book_full</key>
-      <value><![CDATA[Your address book is full. Please delete an unneeded address to save a new one.]]></value>
+      <value><![CDATA[Adres defteriniz dolu. Lütfen yeni bir saklama için gereksiz bir adresi siliniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_password_forgotten_no_email_address_found</key>
-      <value><![CDATA[Error: The E-Mail Address was not found in our records, please try again.]]></value>
+      <value><![CDATA[Hata: Bu E-Posta Adresi kayıtlarımızda bulunmuyor, lütfen tekrar deneyiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>warning_install_directory_exists</key>
-      <value><![CDATA[Installation directory exists at: %s. Please remove this directory for security reasons.]]></value>
+      <value><![CDATA[Bu kurulum dizini var: %s. Lütfen bu dizini güvenlik sebebleri gereği için kaldırınız.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_config_file_writeable</key>
-      <value><![CDATA[I am able to write to the configuration file: %s. This is a potential security risk - please set the right user permissions on this file.]]></value>
+      <value><![CDATA[%s ayar dosyasına yazabiliyorum. Bu bir muhtemel güvenlik teklikesi - lütfen bu dosya üzerinde doğru kullanıcı izinleri ayarlayınız.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_session_directory_non_existent</key>
-      <value><![CDATA[The sessions directory does not exist: %s. Sessions will not work until this directory is created.]]></value>
+      <value><![CDATA[Oturum dizini yok: %s. Bu dizin yapılana kadar oturum çalışmayacaktır.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_session_directory_not_writeable</key>
-      <value><![CDATA[I am not able to write to the sessions directory: %s. Sessions will not work until the right user permissions are set.]]></value>
+      <value><![CDATA[Oturum dizinine yazamıyorum: %s. Doğru kullanıcı izinleri ayarlanana kadar oturum çalışmayacaktır.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_session_auto_start</key>
-      <value><![CDATA[session.auto_start is enabled - please disable this php feature in php.ini and restart the web server.]]></value>
+      <value><![CDATA[session.auto_start seçilir kılınmış - lütfen php.ini içindeki php özelliklerinden seçilemez kılınız ve web sunucusunu tekrar başlatınız.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_download_directory_non_existent</key>
-      <value><![CDATA[The downloadable products directory does not exist: %s. Downloadable products will not work until this directory is valid.]]></value>
+      <value><![CDATA[İndirilebilir ürünler dizini yok: %s. Bu dizin geçerli olana kadar indirilebilir ürünler çalışmayacaktır.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout</key>
-      <value><![CDATA[Checkout]]></value>
+      <value><![CDATA[Hesap Gör]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_shopping_cart</key>
-      <value><![CDATA[Shopping Cart]]></value>
+      <value><![CDATA[Alışveriş Sepeti]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_shipping</key>
-      <value><![CDATA[Shipping Method]]></value>
+      <value><![CDATA[Kargo Yönetemi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_shipping_address</key>
-      <value><![CDATA[Shipping Address]]></value>
+      <value><![CDATA[Kargo Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_payment</key>
-      <value><![CDATA[Payment Method]]></value>
+      <value><![CDATA[Ödeme Yöntemi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_payment_address</key>
-      <value><![CDATA[Payment Address]]></value>
+      <value><![CDATA[Ödeme Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_confirmation</key>
-      <value><![CDATA[Confirmation]]></value>
+      <value><![CDATA[Onay]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>breadcrumb_checkout_success</key>
-      <value><![CDATA[Success!]]></value>
+      <value><![CDATA[Başarılı!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shopping_cart_heading</key>
-      <value><![CDATA[Shopping Cart]]></value>
+      <value><![CDATA[Alışveriş Sepeti]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shipping_method_heading</key>
-      <value><![CDATA[Shipping Method]]></value>
+      <value><![CDATA[Kargo Yönetemi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shipping_address_heading</key>
-      <value><![CDATA[Shipping Address]]></value>
+      <value><![CDATA[Kargo Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>payment_method_heading</key>
-      <value><![CDATA[Payment Method]]></value>
+      <value><![CDATA[Ödeme Yöntemi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>payment_address_heading</key>
-      <value><![CDATA[Payment Address]]></value>
+      <value><![CDATA[Ödeme Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>confirmation_heading</key>
-      <value><![CDATA[Confirmation]]></value>
+      <value><![CDATA[Onay]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>success_heading</key>
-      <value><![CDATA[Your Order Has Been Processed!]]></value>
+      <value><![CDATA[Siparişiniz işleme konulmuştur!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shipping_address_title</key>
-      <value><![CDATA[Shipping Address]]></value>
+      <value><![CDATA[Kargo Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_shipping_destination</key>
-      <value><![CDATA[Please choose from your address book where you would like the items to be delivered to.]]></value>
+      <value><![CDATA[Lütfen ürünlerin nereye teslim edilmiş olmasını istiyorsanız adres defterinizden şeçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>selected_shipping_destination</key>
-      <value><![CDATA[This is the currently selected shipping address where the items in this order will be delivered to.]]></value>
+      <value><![CDATA[Bu şu an seçili kargo adresi bu sipariş içindeki ürünlerin teslim edileceği yerdir.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>current_shipping_address_title</key>
-      <value><![CDATA[Shipping Address:]]></value>
+      <value><![CDATA[Kargo Adresi:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>please_select</key>
-      <value><![CDATA[Please Select]]></value>
+      <value><![CDATA[Lütfen Seçiniz]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shipping_method_title</key>
-      <value><![CDATA[Shipping Method]]></value>
+      <value><![CDATA[Kargo Yönetim]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_shipping_method</key>
-      <value><![CDATA[Please select the preferred shipping method to use on this order.]]></value>
+      <value><![CDATA[Lütfen bu siparişte kullanmak üzere tercih ettiğiniz kargo yönetimini seçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>only_one_shipping_method_available</key>
-      <value><![CDATA[This is currently the only shipping method available to use on this order.]]></value>
+      <value><![CDATA[Şu an bu sipariş üzerinde kullanılmaya hazır yanlız bu kargo yönetmidir.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>add_comment_to_order_title</key>
-      <value><![CDATA[Add A Note To This Order]]></value>
+      <value><![CDATA[Bu Siparişe Not Ekleyiniz]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>address_book_entries_title</key>
-      <value><![CDATA[Address Book Entries]]></value>
+      <value><![CDATA[Adres Defteri Kayıtları]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_shipping_destination</key>
-      <value><![CDATA[Please select the preferred shipping address if the items in this order are to be delivered elsewhere.]]></value>
+      <value><![CDATA[Lütfen bu sipariş içindeki ürünler başka bir yere teslim edilecekse tercih ettiğiniz kargo adresini seçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_billing_destination</key>
-      <value><![CDATA[Please select the preferred billing address if the invoice to this order is to be delivered elsewhere.]]></value>
+      <value><![CDATA[Lütfen bu siparişdeki fatura başka bir yere teslim edilecekse tercih ettiginiz fatura adresini seçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_shipping_address_title</key>
-      <value><![CDATA[New Shipping Address]]></value>
+      <value><![CDATA[Yeni Kargo Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_shipping_address</key>
-      <value><![CDATA[Please use the following form to create a new shipping address to use for this order.]]></value>
+      <value><![CDATA[Lütfen takip eden formu kullanarak bu siparişinizde kullanmak için yeni kargo adresi yapınız.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_billing_address_title</key>
-      <value><![CDATA[New Billing Address]]></value>
+      <value><![CDATA[Yeni Fatura Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_billing_address</key>
-      <value><![CDATA[Please use the following form to create a new billing address to use for this order.]]></value>
+      <value><![CDATA[Lütfen takip eden formu kullanarak bu siparişinizde kullanmak için yeni fatura adresi yapınız.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>billing_address_title</key>
-      <value><![CDATA[Billing Address]]></value>
+      <value><![CDATA[Fatura Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>selected_billing_destination</key>
-      <value><![CDATA[This is the currently selected billing address where the invoice to this order will be delivered to.]]></value>
+      <value><![CDATA[Bu şu an seçili fatura adresi bu siparişin faturasının teslim edilecegi yerdir.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_billing_destination</key>
-      <value><![CDATA[Please choose from your address book where you would like the invoice to be sent to.]]></value>
+      <value><![CDATA[Lütfen adres defterinizden faturanın gönderilmesini istediğiniz yeri seçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>current_billing_address_title</key>
-      <value><![CDATA[Billing Address:]]></value>
+      <value><![CDATA[Fatura Adresi:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_title</key>
-      <value><![CDATA[Continue Checkout Procedure]]></value>
+      <value><![CDATA[Hesap Görme İşlemi Devam]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_shipping</key>
-      <value><![CDATA[to select the preferred shipping method.]]></value>
+      <value><![CDATA[Tercih edilen kargo yöntemi seçilmesi.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_payment</key>
-      <value><![CDATA[to select the preferred payment method.]]></value>
+      <value><![CDATA[Tercih edilen ödeme yönteminin seçilmesi.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_confirmation</key>
-      <value><![CDATA[to confirm this order.]]></value>
+      <value><![CDATA[Bu siparişin doğrulanması.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shopping_cart_empty</key>
-      <value><![CDATA[Your Shopping Cart is empty!]]></value>
+      <value><![CDATA[Alışveriş Sepetiniz Boş!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>subtotal_title</key>
-      <value><![CDATA[Sub-Total:]]></value>
+      <value><![CDATA[Ara-Toplam:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>total_title</key>
-      <value><![CDATA[Total:]]></value>
+      <value><![CDATA[Toplam:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>products_out_of_stock_checkout_not_possible</key>
-      <value><![CDATA[Products marked with %s don't exist in desired quantity in our stock.<br />Please change the quantity of the marked products.]]></value>
+      <value><![CDATA[%s ile işaretli ürünler stoklarımız içinde arzu edilen miktarda yoktur.<br />Lütfen işaretli ürünlerin miktarını değiştiriniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>products_out_of_stock_checkout_possible</key>
-      <value><![CDATA[Products marked with %s don't exist in desired quantity in our stock.<br />You can buy them anyway and check the quantity we have in stock for immediate delivery in the checkout process.]]></value>
+      <value><![CDATA[%s ile işaretli ürünler stoklarımız içinde arzu edilen miktarda yoktur.<br />Yinede onları satın alabilirsiniz ve hesap görme işlemlerinde hemen gönderim için stoklarımız içindeki miktari kontrol ediniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_title</key>
-      <value><![CDATA[Terms and Conditions]]></value>
+      <value><![CDATA[Koşul ve Şartlar]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_description</key>
-      <value><![CDATA[Please acknowledge the terms and conditions bound to this order by ticking the following box. The terms and conditions can be read <a href="%s"><u>here</u></a>.]]></value>
+      <value><![CDATA[Lütfen bu siparişi aşağıdaki tukucuğu çeteliyerek koşul ve şartların sınırlarında aldığınızı doğrulayınız. Koşul ve Şartları <a href="%s"><u>buradan</u></a> okuyabilirsiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_acknowledge</key>
-      <value><![CDATA[I have read and agreed to the terms and conditions bound to this order.]]></value>
+      <value><![CDATA[Bu siparişide koşul ve şartların sınırlarını okudum ve kabul ettim.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>payment_method_title</key>
-      <value><![CDATA[Payment Method]]></value>
+      <value><![CDATA[Ödeme Yönetemi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_payment_method</key>
-      <value><![CDATA[Please select the preferred payment method to use on this order.]]></value>
+      <value><![CDATA[Lütfen bu siparişte kullanmak üzere tercih ettiğinizi ödeme yönetmini seçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>only_one_payment_method_available</key>
-      <value><![CDATA[This is currently the only payment method available to use on this order.]]></value>
-      <group>checkout</group>
-    </definition>
-    <definition>
-      <key>free_shipping_title</key>
-      <value><![CDATA[Free Shipping]]></value>
-      <group>checkout</group>
-    </definition>
-    <definition>
-      <key>free_shipping_description</key>
-      <value><![CDATA[Free shipping for orders over %s]]></value>
+      <value><![CDATA[Şu an bu sipariş üzerinde kullanılmaya hazır yanlız bu ödeme yöntemidir.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_delivery_address_title</key>
-      <value><![CDATA[Delivery Address]]></value>
+      <value><![CDATA[Teslim Adresi]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_shipping_method_title</key>
-      <value><![CDATA[Shipping Method]]></value>
+      <value><![CDATA[Kargo Yönetimi]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_products_title</key>
-      <value><![CDATA[Products]]></value>
+      <value><![CDATA[Ürünler]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_tax_title</key>
-      <value><![CDATA[Tax]]></value>
+      <value><![CDATA[Vergi]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_total_title</key>
-      <value><![CDATA[Total]]></value>
+      <value><![CDATA[Toplam]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_billing_address_title</key>
-      <value><![CDATA[Billing Address]]></value>
+      <value><![CDATA[Fatura Adresi]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_payment_method_title</key>
-      <value><![CDATA[Payment Method]]></value>
+      <value><![CDATA[Ödeme Yöntemi]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_payment_information_title</key>
-      <value><![CDATA[Payment Information]]></value>
+      <value><![CDATA[Ödeme Bilgisi]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_comments_title</key>
-      <value><![CDATA[Comments Added To Your Order]]></value>
+      <value><![CDATA[Şiparişinize Açıklamalar Ekleyin]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_text_edit_title</key>
-      <value><![CDATA[(edit)]]></value>
+      <value><![CDATA[(düzelt)]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>email_order_subject</key>
-      <value><![CDATA[Order Process]]></value>
+      <value><![CDATA[Sipariş İşlemleri]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_order_number</key>
-      <value><![CDATA[Order Number: %s]]></value>
+      <value><![CDATA[Sipariş Numarası: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_invoice_url</key>
-      <value><![CDATA[Detailed Invoice: %s]]></value>
+      <value><![CDATA[Detaylı Fatura: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1220,27 +1210,27 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>email_order_status</key>
-      <value><![CDATA[Order Status: %s]]></value>
+      <value><![CDATA[Sipariş Durumu: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_products</key>
-      <value><![CDATA[Products]]></value>
+      <value><![CDATA[Ürünler]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_delivery_address</key>
-      <value><![CDATA[Delivery Address]]></value>
+      <value><![CDATA[Teslim Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_billing_address</key>
-      <value><![CDATA[Billing Address]]></value>
+      <value><![CDATA[Fatura Adresi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_payment_method</key>
-      <value><![CDATA[Payment Method]]></value>
+      <value><![CDATA[Ödeme Yönetmi]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1250,27 +1240,27 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>order_processed_successfully</key>
-      <value><![CDATA[Your order has been successfully processed! Your products will arrive at their destination within 2-5 working days.]]></value>
+      <value><![CDATA[Siparişiniz başarıyla işleme konulmuştur! Ürününüz gönderildiği yere 2-5 iş günü içersinde varacaktır.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>add_selection_to_product_notifications</key>
-      <value><![CDATA[Please notify me of updates to the products I have selected below:]]></value>
+      <value><![CDATA[Lütfen aşağıdaki seçtiğim ürünlerin güncellemlerini bana bildir:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>view_order_history</key>
-      <value><![CDATA[You can view your order history by going to the <a href="%s">My Account</a> page and by clicking on <a href="%s">History</a>.]]></value>
+      <value><![CDATA[Sipariş geçmişinizi <a href="%s">Hesabım</a> sayfasına giderek ve <a href="%s">Geçmiş</a> üzerine tıklayarak görebilirsiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>contact_store_owner</key>
-      <value><![CDATA[Please direct any questions you have to the <a href="%s">store owner</a>.]]></value>
+      <value><![CDATA[Lütfen herhangi bir sorunuzda doğrudan <a href="%s">mağaza sahibine</a> sorabilirsiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>thanks_for_shopping_with_us</key>
-      <value><![CDATA[Thanks for shopping with us online!]]></value>
+      <value><![CDATA[Bizimle çevrimiçi alışveriş yapdığınız için teşekkürler!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1280,207 +1270,207 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>breadcrumb_information</key>
-      <value><![CDATA[Information]]></value>
+      <value><![CDATA[Bilgi]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_conditions</key>
-      <value><![CDATA[Conditions]]></value>
+      <value><![CDATA[Şartlar]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_contact</key>
-      <value><![CDATA[Contact]]></value>
+      <value><![CDATA[İletişim]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_privacy</key>
-      <value><![CDATA[Privacy]]></value>
+      <value><![CDATA[Gizlilik]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_shipping</key>
-      <value><![CDATA[Shipping]]></value>
+      <value><![CDATA[Taşıma]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_sitemap</key>
-      <value><![CDATA[Sitemap]]></value>
+      <value><![CDATA[Site Haritası]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_cookie_usage</key>
-      <value><![CDATA[Cookie Usage]]></value>
+      <value><![CDATA[Çerez Kullanımı]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_ssl_check</key>
-      <value><![CDATA[Security Check]]></value>
+      <value><![CDATA[Güvenlik Denetimi]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_heading</key>
-      <value><![CDATA[Information and Help]]></value>
+      <value><![CDATA[Bilgi ve Yardım]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_conditions_heading</key>
-      <value><![CDATA[Terms and Conditions]]></value>
+      <value><![CDATA[Koşul ve Şartlar]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_contact_heading</key>
-      <value><![CDATA[Contact]]></value>
+      <value><![CDATA[İletişim]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_privacy_heading</key>
-      <value><![CDATA[Privacy Notice]]></value>
+      <value><![CDATA[Gizlilik Notu]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_shipping_heading</key>
-      <value><![CDATA[Shipping and Returns]]></value>
+      <value><![CDATA[Taşıma ve İade]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_sitemap_heading</key>
-      <value><![CDATA[Sitemap]]></value>
+      <value><![CDATA[Site Harıtası]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_cookie_usage_heading</key>
-      <value><![CDATA[Cookie Usage]]></value>
+      <value><![CDATA[Çerez Kullanımı]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_ssl_check_heading</key>
-      <value><![CDATA[Security Check]]></value>
+      <value><![CDATA[Güvenlik Denetimi]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>conditions</key>
-      <value><![CDATA[Put here the required information.]]></value>
+      <value><![CDATA[Gereken bilgiyi buraya koyunuz.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact</key>
-      <value><![CDATA[Put here the required information.]]></value>
+      <value><![CDATA[Gereken bilgiyi buraya koyunuz.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>privacy</key>
-      <value><![CDATA[Put here the required information.]]></value>
+      <value><![CDATA[Gereken bilgiyi buraya koyunuz.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>shipping</key>
-      <value><![CDATA[Put here the required information.]]></value>
+      <value><![CDATA[Gereken bilgiyi buraya koyunuz.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>cookie_usage</key>
-      <value><![CDATA[We have detected that your browser does not support cookies, or has set cookies to be disabled.<br /><br />To continue shopping online, we encourage you to enable cookies on your browser.<br /><br />For <b>Internet Explorer</b> browsers, please follow these instructions:<br /><ol><li>Click on the Tools menubar, and select Internet Options</li><li>Select the Security tab, and reset the security level to Medium</li></ol>We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.<br /><br />Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.]]></value>
+      <value><![CDATA[Taraycınızın çerez desteklemediğini alğıladık veya çerez ayarları seçilmemişdir.<br /><br />Çevrimiçi alışverişe devam ederken çerezleri seçilebilir kılmanızı öneriyoruz.<br /><br /><b>Internet Explorer</b> tarayıcıları için lütfen takip eden bilgileri uygulayın:<br /><ol><li>Arçlar çubuk menusu üzerine tıklayın ve Internet Seçenekleri seçiniz</li><li>Güvenlik tabını seçiniz ve güvenlik düzeyini ortaya tekrar ayarlayınız.</li></ol>Sizin yararınıza olan güvenlik önlemlerini almaktayız ve sebep olduğumuz bu ufak rahatsızlıkdan dolayı özürdileriz.<br /><br />Lütfen bu gereksinimle ilgili herhangi bir sorunuz varsa veya satın alma işlemine çevrimdışı devam etmek istiyorsanız mağaza sahibiyle iletişime geçiniz.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>ssl_check</key>
-      <value><![CDATA[We have detected that your browser has generated a different SSL Session ID used throughout our secure pages.<br /><br />For security measures you will need to logon to your account again to continue shopping online.<br /><br />Some browsers such as Konqueror 3.1 does not have the capability of generating a secure SSL Session ID automatically which we require. If you use such a browser, we recommend switching to another browser such as <a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>, <a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>, or <a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>, to continue your online shopping experience.<br /><br />We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.<br /><br />Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.]]></value>
+      <value><![CDATA[Taraycınızın farklı SSL Oturum Kimliği meydana getirdiğini alğıladık güvenlik sayfamızı kullanarak devam ediniz.<br /><br />Güvelik ölçütleri nedeniyle çevrimiçi alışverişe devam etmek için hesabınızla tekrar giriş yapmananız gerekmektedir.<br /><br />Some browsers such as Konqueror 3.1 does not have the capability of generating a secure SSL Session ID automatically which we require. If you use such a browser, we recommend switching to another browser such as <a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>, <a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>, or <a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>, to continue your online shopping experience.<br /><br />We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.<br /><br />Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_title</key>
-      <value><![CDATA[Contact Information]]></value>
+      <value><![CDATA[İletişim Bilgisi]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_store_address_title</key>
-      <value><![CDATA[Store Address]]></value>
+      <value><![CDATA[Mağaza Adresi]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_name_title</key>
-      <value><![CDATA[Full Name:]]></value>
+      <value><![CDATA[Adı Soyadı:]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_email_address_title</key>
-      <value><![CDATA[Email Address:]]></value>
+      <value><![CDATA[Eposta Adresi:]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_enquiry_title</key>
-      <value><![CDATA[Enquiry:]]></value>
+      <value><![CDATA[Sorgu:]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_email_sent_successfully</key>
-      <value><![CDATA[Your enquiry has been successfully sent to the store owner.]]></value>
+      <value><![CDATA[Sorgunuz mağaza sahibiine başarıyla gönderilmiştir.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_email_subject</key>
-      <value><![CDATA[Contact Enquiry]]></value>
+      <value><![CDATA[Sorgu İletişimi]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Hesabım]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_edit</key>
-      <value><![CDATA[Account Information]]></value>
+      <value><![CDATA[Hesap Bilgisi]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_address_book</key>
-      <value><![CDATA[Address Book]]></value>
+      <value><![CDATA[Adres Defteri]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_history</key>
-      <value><![CDATA[Order History]]></value>
+      <value><![CDATA[Sipariş Geçmişi]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_notifications</key>
-      <value><![CDATA[Newsletter Subscriptions]]></value>
+      <value><![CDATA[Heber Postası Abonelikleri]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_shopping_cart</key>
-      <value><![CDATA[Shopping Cart]]></value>
+      <value><![CDATA[Alışveriş Sepeti]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_checkout_shipping</key>
-      <value><![CDATA[Checkout]]></value>
+      <value><![CDATA[Hesap Gör]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_advanced_search</key>
-      <value><![CDATA[Advanced Search]]></value>
+      <value><![CDATA[Gelişmiş Arama]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_products_new</key>
-      <value><![CDATA[New Products]]></value>
+      <value><![CDATA[Yeni Ürünler]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_specials</key>
-      <value><![CDATA[Specials]]></value>
+      <value><![CDATA[İndirimdekiler]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_reviews</key>
-      <value><![CDATA[Reviews]]></value>
+      <value><![CDATA[Yorumlar]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>cookie_usage_box_heading</key>
-      <value><![CDATA[Cookie Privacy and Security]]></value>
+      <value><![CDATA[Çerez Gizliligi ve Güvenlik]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1490,7 +1480,7 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>ssl_check_box_heading</key>
-      <value><![CDATA[Privacy and Security]]></value>
+      <value><![CDATA[Gizlilik ve Güvenlik]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1500,62 +1490,62 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>breadcrumb_new_products</key>
-      <value><![CDATA[New Products]]></value>
+      <value><![CDATA[Yeni Ürünler]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_specials</key>
-      <value><![CDATA[Specials]]></value>
+      <value><![CDATA[İdirimdekiler]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_reviews</key>
-      <value><![CDATA[Reviews]]></value>
+      <value><![CDATA[Yorumlar]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_reviews_new</key>
-      <value><![CDATA[New Review]]></value>
+      <value><![CDATA[Yeni Yorum]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_tell_a_friend</key>
-      <value><![CDATA[Tell A Friend]]></value>
+      <value><![CDATA[Arkadaşıma Gönder]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>product_not_found_heading</key>
-      <value><![CDATA[Product Not Found]]></value>
+      <value><![CDATA[Ürün Bulunamadı]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>no_new_products</key>
-      <value><![CDATA[There are currently no products available.]]></value>
+      <value><![CDATA[Burada henuz hazır ürün yoktur.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>new_products_heading</key>
-      <value><![CDATA[New Products]]></value>
+      <value><![CDATA[Yeni Ürünler]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>specials_heading</key>
-      <value><![CDATA[Specials]]></value>
+      <value><![CDATA[İndirimdekiler]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>reviews_heading</key>
-      <value><![CDATA[Reviews]]></value>
+      <value><![CDATA[Yorumlar]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>product_not_found</key>
-      <value><![CDATA[Product not found!]]></value>
+      <value><![CDATA[Ürün bulunamadı!]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>number_of_product_reviews</key>
-      <value><![CDATA[Current Reviews:]]></value>
+      <value><![CDATA[Şu anki Yorum:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1570,12 +1560,12 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>product_attributes</key>
-      <value><![CDATA[Available Options:]]></value>
+      <value><![CDATA[Hazır Seçenekler:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>enlarge_image</key>
-      <value><![CDATA[Click to enlarge]]></value>
+      <value><![CDATA[Büyütmek için tıklayın]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1585,443 +1575,443 @@ Note: If you did not request this action via our password forgotten page, please
     </definition>
     <definition>
       <key>manufacturer</key>
-      <value><![CDATA[Manufacturer:]]></value>
+      <value><![CDATA[Üretiçiler:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>price</key>
-      <value><![CDATA[Price:]]></value>
+      <value><![CDATA[Fiyat:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>average_rating</key>
-      <value><![CDATA[Average Rating:]]></value>
+      <value><![CDATA[Ortalama Oran:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>rating_of_5_stars</key>
-      <value><![CDATA[%s of 5 Stars!]]></value>
+      <value><![CDATA[5 üzerinden %s Yıldız!]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>no_reviews_available</key>
-      <value><![CDATA[No reviews found.]]></value>
+      <value><![CDATA[Yorum bulunamadı.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>new_review_title</key>
-      <value><![CDATA[New Review]]></value>
+      <value><![CDATA[Yeni Yorum]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_review_rating</key>
-      <value><![CDATA[Rating:]]></value>
+      <value><![CDATA[Oran:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_review_from</key>
-      <value><![CDATA[From:]]></value>
+      <value><![CDATA[Kimden:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_lowest_rating_title</key>
-      <value><![CDATA[Bad]]></value>
+      <value><![CDATA[Kötü]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_highest_rating_title</key>
-      <value><![CDATA[Good]]></value>
+      <value><![CDATA[İyi]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>customer_details_title</key>
-      <value><![CDATA[Your Details]]></value>
+      <value><![CDATA[Ayrıntılarınız]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>friend_details_title</key>
-      <value><![CDATA[Your Friends Details]]></value>
+      <value><![CDATA[Arkadaşınızın Ayrıntıları]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>tell_a_friend_message</key>
-      <value><![CDATA[Your Message]]></value>
+      <value><![CDATA[Mesajınız]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_name</key>
-      <value><![CDATA[Your Name:]]></value>
+      <value><![CDATA[İsminiz:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_email_address</key>
-      <value><![CDATA[Your E-Mail Address:]]></value>
+      <value><![CDATA[E-Posta Adresiniz:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_name</key>
-      <value><![CDATA[Your Friends Name:]]></value>
+      <value><![CDATA[Arkadaşınızın İsmi:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_email_address</key>
-      <value><![CDATA[Your Friends E-Mail Address:]]></value>
+      <value><![CDATA[Arkadaşınınız E-Posta Adresi:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_subject</key>
-      <value><![CDATA[Your friend %s has recommended this great product from %s]]></value>
+      <value><![CDATA[Arkadaşınız %s, %s mağazasından bu çok iyi ürünü öneriyor]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_intro</key>
-      <value><![CDATA[Hi %s!
+      <value><![CDATA[Merhaba, %s!
 
-Your friend, %s, thought that you would be interested in %s from %s.]]></value>
+%s arkadaşınız %s ürününye %s mağazasında ilgileneceğinizi düşünüyor.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_link</key>
-      <value><![CDATA[To view the product click on the link below or copy and paste the link into your web browser:
+      <value><![CDATA[Ürünü görmek için aşağıdaki bağa tıklayınız yada bağı web tarayıcınızın içine kopyala yapıştır yapınızın:
 
 %s]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_signature</key>
-      <value><![CDATA[Regards,
+      <value><![CDATA[Saygılar,
 
 %s]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>success_review_new</key>
-      <value><![CDATA[Thank you for your review! It has been received and is now active!]]></value>
+      <value><![CDATA[Yorumunuz için teşekkür ederiz! Alındı ve şimdi aktiftidir!]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>success_review_moderation</key>
-      <value><![CDATA[Thank you for your review! It has been received and is pending for approval.]]></value>
+      <value><![CDATA[Yorumunuz için teşekkür ederiz! Alındı ve tasvip edilmek için bekliyor.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>success_tell_a_friend_email_sent</key>
-      <value><![CDATA[Your email about %s has been successfully sent to %s.]]></value>
+      <value><![CDATA[%s hakkındaki epostanız %s kişisine başarıyla gönderildi.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_friends_name_empty</key>
-      <value><![CDATA[Error: Your friends name must not be empty.]]></value>
+      <value><![CDATA[Hata: Arkadaşınızın isim boş olmamalıdır.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_invalid_friends_email_address</key>
-      <value><![CDATA[Error: Your friends e-mail address must be a valid e-mail address.]]></value>
+      <value><![CDATA[Hata: Arkadaşınızın e-posta adresi geçerli bir e-posta adresi olmalıdır.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_customers_name_empty</key>
-      <value><![CDATA[Error: Your name must not be empty.]]></value>
+      <value><![CDATA[Hata: İsiminiz boş olmamalıdır.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_invalid_customers_email_address</key>
-      <value><![CDATA[Error: Your e-mail address must be a valid e-mail address.]]></value>
+      <value><![CDATA[Hata: E-posta adresiniz geçerli bir e-posta adresi olmalıdır.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_search</key>
-      <value><![CDATA[Search]]></value>
+      <value><![CDATA[Ara]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>breadcrumb_search_results</key>
-      <value><![CDATA[Results]]></value>
+      <value><![CDATA[Sonuçlar]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_heading</key>
-      <value><![CDATA[Search]]></value>
+      <value><![CDATA[Ara]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>advanced_search_heading</key>
-      <value><![CDATA[Advanced Search]]></value>
+      <value><![CDATA[Gelişmiş Arama]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_results_heading</key>
-      <value><![CDATA[Search Results]]></value>
+      <value><![CDATA[Arama Sonuçları]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_criteria_title</key>
-      <value><![CDATA[Search Criteria]]></value>
+      <value><![CDATA[Arma Ölçütleri]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_categories</key>
-      <value><![CDATA[Categories:]]></value>
+      <value><![CDATA[Kategoriler:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_recursive</key>
-      <value><![CDATA[Include Subcategories]]></value>
+      <value><![CDATA[Altkategorileri içer]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_manufacturers</key>
-      <value><![CDATA[Manufacturers:]]></value>
+      <value><![CDATA[Üretiçiler:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_price_from</key>
-      <value><![CDATA[Price From:]]></value>
+      <value><![CDATA[Fiyatdan:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_price_to</key>
-      <value><![CDATA[Price To:]]></value>
+      <value><![CDATA[Fiyata:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_from</key>
-      <value><![CDATA[Date From:]]></value>
+      <value><![CDATA[Tarihinden:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_to</key>
-      <value><![CDATA[Date To:]]></value>
+      <value><![CDATA[Tarihine:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_tips</key>
-      <value><![CDATA[Search Help]]></value>
+      <value><![CDATA[Arama Yardımı]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_heading</key>
-      <value><![CDATA[Search Help]]></value>
+      <value><![CDATA[Arama Yardımı]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help</key>
-      <value><![CDATA[Keywords may be separated by AND and/or OR statements for greater control of the search results.<br /><br />For example, <u>Microsoft AND mouse</u> would generate a result set that contain both words. However, for <u>mouse OR keyboard</u>, the result set returned would contain both or either words.<br /><br />Exact matches can be searched for by enclosing keywords in double-quotes.<br /><br />For example, <u>"notebook computer"</u> would generate a result set which match the exact string.<br /><br />Brackets can be used for further control on the result set.<br /><br />For example, <u>Microsoft and (keyboard or mouse or "visual basic")</u>.]]></value>
+      <value><![CDATA[Arama sonuçlarını daha fazla kontrol edebilmeniz için; aradığınız kelimeleri AND ve/veya OR kelimelerini kullanarak bulmayı deneyebilirsiniz.<br /><br />Örneğin, <u>Sony AND kamera</u> araması her iki kelimeyi içeren sayfaları sonuç olarak bulacakken. Diğer taraftan, <u>Electrolux OR Ariston</u> araması her iki kelimeden herhangi birini içeren tüm sayfaları sonuç olarak bulacaktır.<br /><br />Tam sözcük karşılaştırması yapmak için aranan kelime çift tırnak içinde yazılmalıdır.<br /><br />Örneğin, <u> "Technics Deck"</u> sadece tırnak içinde verilmiş olan dizilimi verildiği şekilde bütün olarak içeren sayfaları bulacaktır.<br /><br />Parantezler daha detaylı aramalar için kullanılabilir.<br /><br />Örneğin, <u>Siemens and (Buzdolabı or Dondurucu or "Anti Bakteriyel")</u>.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>close_window</key>
-      <value><![CDATA[Close Window]]></value>
+      <value><![CDATA[Pencereyi Kapat]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>error_search_at_least_one_input</key>
-      <value><![CDATA[At least one of the fields in the search form must be entered.]]></value>
+      <value><![CDATA[Arama formu içindeki alanlardan en az birisi doldurulmalıdır.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_from_date</key>
-      <value><![CDATA[Invalid From Date.]]></value>
+      <value><![CDATA[Geçersiz Tarihinden Başla.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_to_date</key>
-      <value><![CDATA[Invalid To Date.]]></value>
+      <value><![CDATA[Geçersiz Tarihine Kadar.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_to_date_less_than_from_date</key>
-      <value><![CDATA[To Date must be greater than or equal to From Date.]]></value>
+      <value><![CDATA[Tarihine kadar, tarihinde başladan büyük yada eşit olmalıdır.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_from_not_numeric</key>
-      <value><![CDATA[Price From must be a number.]]></value>
+      <value><![CDATA[Fiyatından başla rakam olmalıdır.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_to_not_numeric</key>
-      <value><![CDATA[Price To must be a number.]]></value>
+      <value><![CDATA[Fiyata kadar rakam olmalıdır.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_to_less_than_price_from</key>
-      <value><![CDATA[Price To must be greater than or equal to Price From.]]></value>
+      <value><![CDATA[Fiyatına kadar, fiyatından başladan büyük yada eşit olmalıdır.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_keywords</key>
-      <value><![CDATA[Invalid keywords.]]></value>
+      <value><![CDATA[Geçersiz anahtar kelimeleri.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>js_review_text</key>
-      <value><![CDATA[* The Review Text must have at least %s characters.]]></value>
+      <value><![CDATA[* Yorum en az %s karaktere sahip olmalıdır.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>js_review_rating</key>
-      <value><![CDATA[* You must rate the product for your review.]]></value>
+      <value><![CDATA[* Ürün yorumunuz için puan vermelisiniz.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>js_no_payment_module_selected</key>
-      <value><![CDATA[* Please select a payment method for your order.]]></value>
+      <value><![CDATA[* Lütfen siparişiniz için ödeme yöntemi seçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_no_payment_module_selected</key>
-      <value><![CDATA[Please select a payment method for your order.]]></value>
+      <value><![CDATA[Lütfen siparişinizi için ödeme yöntemi seçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_conditions_not_accepted</key>
-      <value><![CDATA[Please confirm the terms and conditions bound to this order by ticking the box below.]]></value>
+      <value><![CDATA[Lütfen bu siparişi koşul ve şartların sınırlarında aşağıdaki kutucuğu çeteliyerek onaylayınız.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_privacy_statement_not_accepted</key>
-      <value><![CDATA[Please confirm the privacy statement by ticking the box below.]]></value>
+      <value><![CDATA[Lütfen gizlilik beyannamesini aşağıdaki kutucuğu çeteliyerek onaylayınız.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>field_customer_gender</key>
-      <value><![CDATA[Gender:]]></value>
+      <value><![CDATA[Cinsiyet:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_gender_error</key>
-      <value><![CDATA[Please select your Gender.]]></value>
+      <value><![CDATA[Lütfen cinsiyetinizi seçiniz.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_first_name</key>
-      <value><![CDATA[First Name:]]></value>
+      <value><![CDATA[İlk İsim:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_first_name_error</key>
-      <value><![CDATA[Your First Name must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[İlk isminiz en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_last_name</key>
-      <value><![CDATA[Last Name:]]></value>
+      <value><![CDATA[Soyadı:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_last_name_error</key>
-      <value><![CDATA[Your Last Name must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Soyadınız en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_date_of_birth</key>
-      <value><![CDATA[Date of Birth:]]></value>
+      <value><![CDATA[Doğum Tarihi:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_date_of_birth_error</key>
-      <value><![CDATA[Your Date of Birth must be set correctly.]]></value>
+      <value><![CDATA[Doğum tarihi doğr ayarlanmalıdır.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address</key>
-      <value><![CDATA[E-Mail Address:]]></value>
+      <value><![CDATA[E-Posta Adresi:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_error</key>
-      <value><![CDATA[Your E-Mail Address must contain a minimum of %S characters.]]></value>
+      <value><![CDATA[E-Posta Adresiniz en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_check_error</key>
-      <value><![CDATA[Your E-Mail Address does not appear to be valid - please make any necessary corrections.]]></value>
+      <value><![CDATA[E-Posta Adresinizin geçerli görünmüyor - lütfen gereken düzeltmeleri yapınız.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_exists_error</key>
-      <value><![CDATA[Your E-Mail Address already exists in our records - please log in with the e-mail address or create an account with a different address.]]></value>
+      <value><![CDATA[E-Posta Adresiniz kayıtlarımızda zaten var - lütfen e-posta adresiyel giriş yapınız veya farklı başka adres ile hesap açınız.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_company</key>
-      <value><![CDATA[Company Name:]]></value>
+      <value><![CDATA[Şirket İsmi:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_company_error</key>
-      <value><![CDATA[Your Company Name must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Şirket İsminiz en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address</key>
-      <value><![CDATA[Street Address:]]></value>
+      <value><![CDATA[Sokak Adresi:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address_error</key>
-      <value><![CDATA[Your Street Address must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Sokak Adresiniz en az %s karaktere içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_suburb</key>
-      <value><![CDATA[Suburb:]]></value>
+      <value><![CDATA[Yörekent:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_suburb_error</key>
-      <value><![CDATA[Your Suburb must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Yörekentiniz en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code</key>
-      <value><![CDATA[Post Code:]]></value>
+      <value><![CDATA[Posta Kodu:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code_error</key>
-      <value><![CDATA[Your Post Code must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Posta Kodunuz en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_city</key>
-      <value><![CDATA[City:]]></value>
+      <value><![CDATA[Şehir:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_city_error</key>
-      <value><![CDATA[Your City must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Şehriniz en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state</key>
-      <value><![CDATA[State/Province:]]></value>
+      <value><![CDATA[Eyalet/Vilayet:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_error</key>
-      <value><![CDATA[Your State must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Eyaletinizi en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_select_pull_down_error</key>
-      <value><![CDATA[Please select a state from the States pull down menu.]]></value>
+      <value><![CDATA[Lütfen aşağı açılır menuden eyalet seçiniz.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_country</key>
-      <value><![CDATA[Country:]]></value>
+      <value><![CDATA[Ülke:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_country_error</key>
-      <value><![CDATA[You must select a country from the Countries pull down menu.]]></value>
+      <value><![CDATA[Aşağı açılır Ülkeler menüsünden ülke seçmelisiniz.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_telephone_number</key>
-      <value><![CDATA[Telephone Number:]]></value>
+      <value><![CDATA[Telefon Numarası:]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2031,88 +2021,89 @@ Your friend, %s, thought that you would be interested in %s from %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_fax_number</key>
-      <value><![CDATA[Fax Number:]]></value>
+      <value><![CDATA[Faks Numarası:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_fax_number_error</key>
-      <value><![CDATA[Your Fax Number must contain a minium of %s characters.]]></value>
+      <value><![CDATA[Faks Numaranız en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_newsletter</key>
-      <value><![CDATA[Newsletter:]]></value>
+      <value><![CDATA[Haber Postası:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password</key>
-      <value><![CDATA[Password:]]></value>
+      <value><![CDATA[Parola:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_error</key>
-      <value><![CDATA[Your Password must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Parolanız en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_mismatch_with_confirmation</key>
-      <value><![CDATA[The Password Confirmation must match your Password.]]></value>
+      <value><![CDATA[Parola Doğrulaması parolanız ile aynı olmalıdır.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_confirmation</key>
-      <value><![CDATA[Password Confirmation:]]></value>
+      <value><![CDATA[Parola Doğrulama:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current</key>
-      <value><![CDATA[Current Password:]]></value>
+      <value><![CDATA[Geçerli Parola:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current_error</key>
-      <value><![CDATA[Your Password must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Parolanız en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new</key>
-      <value><![CDATA[New Password:]]></value>
+      <value><![CDATA[Yeni Parola:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_error</key>
-      <value><![CDATA[Your new Password must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Yeni Parolanız en az %s karekter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_mismatch_with_confirmation_error</key>
-      <value><![CDATA[The Password Confirmation must match your new Password.]]></value>
+      <value><![CDATA[Yeni Parola Parola Doğrulaması ile aynı olmalıdır.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>reviewed_by</key>
-      <value><![CDATA[by %s]]></value>
+      <value><![CDATA[%s tarafindan]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_rating</key>
-      <value><![CDATA[Rating: %s [%s]]]></value>
+      <value><![CDATA[Oran(Puan): %s [%s]]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_date_added</key>
-      <value><![CDATA[Date Added: %s]]></value>
+      <value><![CDATA[Tarihinde Eklendi: %s]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>credit_card_number_error</key>
-      <value><![CDATA[The credit card number entered is invalid.<br />Please check the number and try again.]]></value>
-      <group>general</group>
-    </definition>
-    <definition>
-      <key>maximum_file_upload_size</key>
-      <value><![CDATA[(Max: %s)]]></value>
+      <value><![CDATA[Girilen kredi kartı numarası geçersizdir.<br />Lütfen numarayı kontrol edip tekrar deneyiniz.]]></value>
       <group>general</group>
     </definition>
   </definitions>
+    <definition>
+      <key>maximum_file_upload_size</key>
+      <value><![CDATA[(En Fazla: %s)]]></value>
+      <group>general</group>
+    </definition>
+  </definitions>  
 </language>

@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>shipping_flat_title</key>
-      <value><![CDATA[Flat Rate]]></value>
+      <value><![CDATA[Sabit Oran]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_flat_description</key>
-      <value><![CDATA[Flat Rate]]></value>
+      <value><![CDATA[Sabit Oran]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_flat_method</key>
-      <value><![CDATA[Best Way]]></value>
+      <value><![CDATA[En Uygun Yol]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>
