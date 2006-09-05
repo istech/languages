@@ -601,12 +601,12 @@
     </definition>
     <definition>
       <key>download_heading</key>
-      <value><![CDATA[Descargar links]]></value>
+      <value><![CDATA[Acoplamientos para descargar]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>download_link_expires</key>
-      <value><![CDATA[Link vencimiento: %s]]></value>
+      <value><![CDATA[Acoplamientos vencimiento: %s]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -661,7 +661,7 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_none</key>
-      <value><![CDATA[Actualmente no hay productos marcados para ser notificado de.<br /><br />Para agregar los productos a su lista de notificación del producto, haze click en el link de la notificación detallada disponible en la página de la información de producto.]]></value>
+      <value><![CDATA[Actualmente no hay productos marcados para ser notificado de.<br /><br />Para agregar los productos a su lista de notificación del producto, haze click en el acoplamiento de la notificación detallada disponible en la página de la información de producto.]]></value>
       <group>account</group>
     </definition>
     <definition>

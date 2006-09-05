@@ -40,7 +40,7 @@ define('TEXT_FORGET', '(<u>olvida</u>)');
 
 define('ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de resspaldo no existe. Por favor fijar esto en configure.php.');
 define('ERROR_BACKUP_DIRECTORY_NOT_WRITEABLE', 'Error: El directorio de respaldo no es escribible.');
-define('ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE', 'Error: Link para descargar no aceptable.');
+define('ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE', 'Error: Acoplamiento para descargar no aceptable.');
 
 define('SUCCESS_LAST_RESTORE_CLEARED', 'Exito: La fecha de la última restauración ha sido quitada.');
 define('SUCCESS_DATABASE_SAVED', 'Exito: Se ha guardado la base de datos.');

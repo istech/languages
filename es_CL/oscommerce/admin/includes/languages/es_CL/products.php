@@ -65,7 +65,7 @@
   define('TEXT_PRODUCT_MORE_INFORMATION', 'Para más información, por favor visitar este productos <a href="http://%s" target="blank"><u>página web</u></a>.');
 
   define('TEXT_HOW_TO_COPY', 'Forma de copiar:');
-  define('TEXT_COPY_AS_LINK', 'Link producto');
+  define('TEXT_COPY_AS_LINK', 'Acoplamiento del producto');
   define('TEXT_COPY_AS_DUPLICATE', 'Duplicar producto');
 
   define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Error: No puede ligar productos en la misma categoría.');
