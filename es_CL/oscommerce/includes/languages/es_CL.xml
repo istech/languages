@@ -36,7 +36,7 @@
     </definition>
     <definition>
       <key>breadcrumb_shop</key>
-      <value><![CDATA[Tienda]]></value>
+      <value><![CDATA[Almacén]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -211,7 +211,7 @@
     </definition>
     <definition>
       <key>index_text</key>
-      <value><![CDATA[Esta es una instalación predeterminada de la solución de la tienda del e-comercio del osCommerce, productos demostrados están para los propósitos de demostración, <b>ningun producto comprado no será entregado ni tampoco será cobrado</b>.Cualquier información considerada en estos productos debe ser tratada como ficticia.]]></value>
+      <value><![CDATA[Esta es una instalación predeterminada de la solución del almacén del e-comercio del osCommerce, productos demostrados están para los propósitos de demostración, <b>ningun producto comprado no será entregado ni tampoco será cobrado</b>.Cualquier información considerada en estos productos debe ser tratada como ficticia.]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -626,7 +626,7 @@
     </definition>
     <definition>
       <key>newsletter_general_description</key>
-      <value><![CDATA[Incluyendo noticias de la tienda, productos nuevos, ofertas especiales, y otros avisos promocionales.]]></value>
+      <value><![CDATA[Incluyendo noticias del almacén, productos nuevos, ofertas especiales, y otros avisos promocionales.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -755,9 +755,9 @@ Ahora puedes participar en los varios servicios que ofrecemos a usted. Algunos d
 <li>Historia del pedido - Ver su historia de compras que has hecho con nosotros.
 <li>Comentarios del productos - Compartir sus opiniones sobre productos con nuestros otros clientes.
 
-Para ayuda de cualquiera de nuestros servicios, por favor mande un email al dueño de la tienda: %s.
+Para ayuda de cualquiera de nuestros servicios, por favor mande un email al dueño del almacén: %s.
 
-Nota: Este dirección email nos fue dado por uno de nuestros clientes. Si no ingreso para ser cliente, por favor mande un email al dueño de la tienda.]]></value>
+Nota: Este dirección email nos fue dado por uno de nuestros clientes. Si no ingreso para ser cliente, por favor mande un email al dueño del almacén.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -788,14 +788,14 @@ Su nueva contraseña a %s es:
 
 %s
 
-Para ayuda con cualquiera de nuestros servicios, por favor mande un email al dueño de la tienda: %s.
+Para ayuda con cualquiera de nuestros servicios, por favor mande un email al dueño del almacén: %s.
 
-Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por favor notificar al dueño de la tienda cuanto antes.]]></value>
+Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por favor notificar al dueño del almacén cuanto antes.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>success_account_created</key>
-      <value><![CDATA[¡Felicitaciones! ¡Tu nueva cuenta se ha creado con éxito! Ahora puedes aprovechar los privilegios del cliente de realzar su experiencia de las compras con nosotros. Si tiene cualquier pregunta sobre la operación de esta tienda, por favor mande un email al <a href="%s">dueño de la tienda</a>.<br /><br />Una confirmación se ha enviado al email proporcionado. Si no la has recibido dentro de la hora, por favor contáctenos.]]></value>
+      <value><![CDATA[¡Felicitaciones! ¡Tu nueva cuenta se ha creado con éxito! Ahora puedes aprovechar los privilegios del cliente de realzar su experiencia de las compras con nosotros. Si tiene cualquier pregunta sobre la operación de esta tienda, por favor mande un email al <a href="%s">dueño del almacén</a>.<br /><br />Una confirmación se ha enviado al email proporcionado. Si no la has recibido dentro de la hora, por favor contáctenos.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -1255,7 +1255,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>contact_store_owner</key>
-      <value><![CDATA[Por favor dirigir cualquier pregunta que tengas al <a href="%s">dueño de la tienda</a>.]]></value>
+      <value><![CDATA[Por favor dirigir cualquier pregunta que tengas al <a href="%s">dueño del almacén</a>.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1370,12 +1370,12 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>cookie_usage</key>
-      <value><![CDATA[Hemos detectado que su navegador no apoya las galletas, o se ha inactivado las galletas.<br /><br />Para continuar haciendo compras, le animamos a que actives las galletas en su navegador.<br /><br />Para navegadores <b>Internet Explorer</b>, por favor seguir estas instrucciones:<br /><ol><li>Haga click en el menu de las herramientas, y seleccionar las Opciones del Internet</li><li>Seleccionar la lengüeta de Seguridad, y reajustar el nivel de la seguridad al Medio</li></ol>Hemos tomado esta medida de seguridad para su ventaja, y nos disculpamos anticipadamente si se causa algunas inconveniencias.<br /><br />Por favor contactar al dueño de la tienda si tienes cualquiera pregunta referente a este requisito, o continuar comprando productos fuera de línea.]]></value>
+      <value><![CDATA[Hemos detectado que su navegador no apoya las galletas, o se ha inactivado las galletas.<br /><br />Para continuar haciendo compras, le animamos a que actives las galletas en su navegador.<br /><br />Para navegadores <b>Internet Explorer</b>, por favor seguir estas instrucciones:<br /><ol><li>Haga click en el menu de las herramientas, y seleccionar las Opciones del Internet</li><li>Seleccionar la lengüeta de Seguridad, y reajustar el nivel de la seguridad al Medio</li></ol>Hemos tomado esta medida de seguridad para su ventaja, y nos disculpamos anticipadamente si se causa algunas inconveniencias.<br /><br />Por favor contactar al dueño del almacén si tienes cualquiera pregunta referente a este requisito, o continuar comprando productos fuera de línea.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>ssl_check</key>
-      <value><![CDATA[Hemos detectado que su navegador ha generado una diversa identificación de la sesión del SSL usada a través de nuestras páginas seguras.<br /><br />Para las medidas de seguridad necesitarás ingresar a su cuenta otra vez para continuar haciendo compras en línea.<br /><br />Algunos navegadores tales como Konqueror 3.1 no tienen la capacidad de generar una identificación segura de la sesión del SSL automáticamente que requiramos. Si utilizas tal navegador, recomendamos el cambiar a otro navegador por ejemplo <a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>, <a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>, o <a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>, para continuar su experiencia en línea de las compras.<br /><br />Hemos tomado esta medida de la seguridad para su ventaja, y nos disculpamos si se causan algunas inconveniencias.<br /><br />Por favor entrar en contacto con el dueño de la tienda si tienes cualquiera preguntas referente a este requisito, o continuar comprando productos fuera de línea.]]></value>
+      <value><![CDATA[Hemos detectado que su navegador ha generado una diversa identificación de la sesión del SSL usada a través de nuestras páginas seguras.<br /><br />Para las medidas de seguridad necesitarás ingresar a su cuenta otra vez para continuar haciendo compras en línea.<br /><br />Algunos navegadores tales como Konqueror 3.1 no tienen la capacidad de generar una identificación segura de la sesión del SSL automáticamente que requiramos. Si utilizas tal navegador, recomendamos el cambiar a otro navegador por ejemplo <a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>, <a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>, o <a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>, para continuar su experiencia en línea de las compras.<br /><br />Hemos tomado esta medida de la seguridad para su ventaja, y nos disculpamos si se causan algunas inconveniencias.<br /><br />Por favor entrar en contacto con el dueño del almacén si tienes cualquiera preguntas referente a este requisito, o continuar comprando productos fuera de línea.]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1385,7 +1385,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>contact_store_address_title</key>
-      <value><![CDATA[Dirección de la tienda]]></value>
+      <value><![CDATA[Dirección del almacén]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1405,7 +1405,7 @@ Nota: Si no solicito esta acción vía nuestra página contraseña olvidada, por
     </definition>
     <definition>
       <key>contact_email_sent_successfully</key>
-      <value><![CDATA[Su consulta se ha enviado con éxito al dueño de la tienda.]]></value>
+      <value><![CDATA[Su consulta se ha enviado con éxito al dueño del almacén.]]></value>
       <group>info</group>
     </definition>
     <definition>
