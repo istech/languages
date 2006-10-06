@@ -7,82 +7,85 @@
 #
 # Released under the GNU General Public License
 
-page_title_installation = New Installation
+page_title_installation = Yeni Kurulum
 
-page_heading_step_1 = Database Server
-page_heading_step_2 = Web Server
-page_heading_step_3 = Online Store Settings
-page_heading_step_4 = Finished!
+page_heading_step_1 = Veritabanı Sunucusu
+page_heading_step_2 = Web Sunucusu
+page_heading_step_3 = Çeverimiçi Mağaza Ayarları
+page_heading_step_4 = Tamamlandı!
 
-text_installation = <p>This web-based installation routine will correctly setup and configure osCommerce to run on this server.</p><p>Please following the on-screen instructions that will take you through the database server, web server, and store configuration options. If help is needed at any stage, please consult the documentation or seek help at the community support forums.</p>
-text_successful_installation = The installation and configuration was successful!
+text_installation = <p>Bu web arayüzlü kurulum işlemi sunucunuzda osCommerce çalıştırmanız için gerekli ayarları gerçekleştirmenize yardım edecektir.</p><p>Lütfen veritabanı sunucusu, web sunucusu ve mağaza ayarları seçenekleri ekranlarındaki talimatları dikkatli takip ediniz. Herhangi bir safhada yardıma ihtiyacınız olursa dökümanlara başvurabilir veya topluluk destek forumlarında yardım arayabilirsiniz.</p>
 
-param_database_server = Database Server
-param_database_server_description = The address of the database server in the form of a hostname or IP address.
-param_database_username = Username
-param_database_username_description = The username used to connect to the database server.
-param_database_password = Password
-param_database_password_description = The password that is used together with the username to connect to the database server.
-param_database_name = Database Name
-param_database_name_description = The name of the database to hold the data in.
-param_database_type = Database Type
-param_database_type_description = The database server software that is used.
-param_database_prefix = Database Table Prefix
-param_database_prefix_description = The prefix to use for the database tables.
+text_successful_installation = Kurulum ve ayar işlemleri başarıyla tamamlandı!
 
-param_database_import_sample_data = Import Sample Data
-param_database_import_sample_data_description = Inserting sample data into the database is recommended for first time installations.
+param_database_server = Veritabanı Sunucusu
+param_database_server_description = Anamakina adı veya IP adresi biçiminde veritabanı sunucusunun adresi. 
+param_database_username = Kullanıcı İsmi
+param_database_username_description = Veritabanı sunucusuna bağlantıda kullanılan kullanıcı adı.
+param_database_password = Şifre
+param_database_password_description = Veritabanı sunucusuna bağlantıda kullanıcı adı ile birlikte kullanılan parola.
+param_database_name = Veritabanı İsmi
+param_database_name_description = Verilerin içinde tutulduğu veritabanının adı.
+param_database_type = Veritabanı Türü
+param_database_type_description = Kullanılan veritabanı sunucusu yazılımı.
+param_database_prefix = Veritabanı Tablo Öneki
+param_database_prefix_description = Veritabanı tabloları için önek kullan.
 
-param_web_address = WWW Address
-param_web_address_description = The web address to the online store.
-param_web_root_directory = Webserver Root Directory
-param_web_root_directory_description = The directory where the online store is installed on the server.
-param_web_work_directory = Work Directory
-param_web_work_directory_description = The working directory for temporarily created files. This directory should be located outside the public webserver root directory for security reasons. (Shared hosting servers should not use /tmp/)
+param_database_import_sample_data = Örnek Veri Dahil Et.
+param_database_import_sample_data_description = Veritabanı içine örnek veri eklenmesi ilk kez kurulumda önerilir.
 
-param_store_name = Store Name
-param_store_name_description = The name of the online store that is presented to the public.
-param_store_owner_name = Store Owner Name
-param_store_owner_name_description = The name of the store owner that is presented to the public.
-param_store_owner_email_address = Store Owner E-Mail Address
-param_store_owner_email_address_description = The e-mail address of the store owner that is presented to the public.
-param_administrator_username = Administrator Username
-param_administrator_username_description = The administrator username to use for the administration tool.
-param_administrator_password = Administrator Password
-param_administrator_password_description = The password to use for the administrator account.
+param_web_address = WWW Adresi
+param_web_address_description = Çevrimiçi mağaza için web adresi
+param_web_root_directory = Web Sunucusu Kök Dizini
+param_web_root_directory_description = Dizin, çevirimiçi mağazanın sunucuda kurulacağı yerdir.
+param_web_work_directory = Çalışma Dizini
+param_web_work_directory_description = Geçici yapılan dosyalar için çalışma dizini. Bu dizinin yeri güvenlik nedenleriyle halka açık olan web sunucusunun kök dizininin dışında olmalıdır.  (Paylaşımlı sunucu bulundurma hizmetilerinde /tmp/ kullanmayınız)
 
-box_steps_step_1 = Database Server
-box_steps_step_2 = Web Server
-box_steps_step_3 = Online Store Settings
-box_steps_step_4 = Finished!
+param_store_name = Mağaza İsmi
+param_store_name_description = Halka sunulacak olan çevirimiçi mağaza adı.
+param_store_owner_name = Mağaza Sahibi Adı
+param_store_owner_name_description = Halka sunulacak olan çevirimiçi mağaza sahibi ismi.
+param_store_owner_email_address = Mağaza Sahibi E-Posta Adresi
+param_store_owner_email_address_description = Halka sunulacak olan çevirimiçi mağaza sahibinin e-posta adresi.
+param_administrator_username = Yönetici Kullanıcı Adı
+param_administrator_username_description = Yönetim araçlarını kullanmak için yönetici kullanıcı adı.
+param_administrator_password = Yönetici Şifresi
+param_administrator_password_description = Yönetici hesabında kullanmak için parola.
 
-box_info_step_1_title = Step 1: Database Server
-box_info_step_1_text = <p>The database server stores the content of the online store such as product information, customer information, and the orders that have been made.</p><p>Please consult your server administrator if your database server parameters are not yet known.</p>
+box_steps_step_1 = Veritabanı Sunucusu
+box_steps_step_2 = Web Sunucusu
+box_steps_step_3 = Çevrimiçi Mağaza Ayarları
+box_steps_step_4 = Tamamlandı!
 
-box_info_step_2_title = Step 2: Web Server
-box_info_step_2_text = <p>The web server takes care of serving the pages of the online store to the visitors and customers. The web server parameters make sure the links to the pages point to the correct location.</p><p>Temporary files such as session data and cache files are stored in the work directory. It is important that this directory is located outside the web server root directory and is protected from public access.</p>
+box_info_step_1_title = Adım 1: Veritabanı Sunucusu
+box_info_step_1_text = <p>Ürün bilgisi, müşteri bilgisi ve yapılan sipariş işlemleri gibi online mağazanızın içeriğinin kaydedildiği veritabanı sunucusu.</p><p>Veritabanı sunucu parametrelerini halen bilmiyorsanız, lütfen sunucu yöneticinize başvurun.</p>
 
-box_info_step_3_title = Step 3: Online Store Settings
-box_info_step_3_text = <p>Here you can define the name of your online store, and the contact information for the store owner.</p><p>The administrator username and password are used to log into the protected administration tool section.</p>
+box_info_step_2_title = Adım 2: Web Sunucusu
+box_info_step_2_text = <p>Ziyaretçi ve müşterilerinize online mağazanızın sayfalarını sunacak web sunucusu. Web sunucusu parametrelerindeki bağlantıların doğru yerlere hedeflendiğine emin olunuz.</p><p>Oturum bilgileri ve önbellek dosyaları gibi geçiçi dosyalar çalışma dizini içinde tutulacaktır. Bu dizinin web sunucusu kök dizini dışında ve genel erişimden korunan bir yerde olması önemlidir.</p>
 
-box_info_step_4_title = Step 4: Finished!
-box_info_step_4_text = <p>Congratulations on installing and configuring osCommerce as your online store solution!</p><p>We hope you all the best with your online store and welcome you to join and participate in our community.</p><p align="right">- The osCommerce Team</p>
+box_info_step_3_title = Adım 3: Çevrimiçi Mağaza Ayarları
+box_info_step_3_text = <p>Burada çevrimiçi mağazanızın ismini ve mağaza sahibi için iletişim bilgilerini tanımlayacaksınız.</p><p>Yönetici kullanıcı ismi ve şifresi korumalı yönetim araçları bölümüne giriş yapmanızda kullanılacaktır.</p>
 
-error_configuration_file_not_writeable = <p>The webserver was not able to write the online store parameters to its configuration file due to file permission problems.</p><p>Please verify the permissions of the configuration file to allow the webserver to write to it, and try again by clicking on the Retry button below.</p><p>The configuration file is located at:</p><p>%s</p>
-error_configuration_file_alternate_method = <p>Alternatively you can copy and save the contents of the textbox below to the configuration file by hand.</p>
+box_info_step_4_title = Adım 4: Tamamlandı!
+box_info_step_4_text = <p>Çevrimiçi mağaza çözümünü olarak osCommerce kurduğunuz ve ayarladığınız için tebrikler!</p><p>
+Çevrimiçi mağazanızın sizin için en iyisi olduğunu umuyoruz ve sizi topluluğumuza katılmaya davet ediyoruz.</p><p align="right">- osCommerce Türkiye Takımı</p>
 
-rpc_database_connection_test = Testing database connection..
-rpc_database_connection_error = There was a problem connecting to the database server. The following error had occured:</p><p><b>%s</b></p><p>Please verify the connection parameters and try again.
-rpc_database_connected = Successfully connected to the database.
-rpc_database_importing = The database structure is now being imported. Please be patient during this procedure.
-rpc_database_imported = Database imported successfully.
-rpc_database_import_error = There was a problem importing the database. The following error had occured:</p><p><b>%s</b></p><p>Please verify the connection parameters and try again.
+error_configuration_file_not_writeable = <p>Dosya izini problemleri nedeniyle web sunucusu çevrimiçi mağaza parametrelerini ayar dosyasına yazamıyor.</p><p>Lütfen web sunucusunun ayar dosyasına yazması için gerekli izinleri verdiğinize emin olunuz ve Tekrar Dene düğmesine tıklayarak tekrar deneyiniz.</p><p>Ayar dosyasının bulunduğu yer:</p><p>%s</p>
 
-rpc_work_directory_test = Testing work directory..
-rpc_work_directory_error_non_existent = There was a problem accessing the working directory. The following error had occured:<br /><br /><b>The directory does not exist:<br /><br />%s</b><br /><br />Please verify the directory and try again.
-rpc_work_directory_error_not_writeable = There was a problem accessing the working directory. The following error had occured:<br /><br /><b>The webserver does not have write permissions to the directory:<br /><br />%s</b><br /><br />Please verify the permissions of the directory and try again.
-rpc_work_directory_configured = Working directory successfully configured.
+error_configuration_file_alternate_method = <p>Alternatif olarak aşağıdaki metin kutusundaki içeriği kopyalayarak ayar dosyasına kaydedebilirsiniz.</p>
 
-rpc_database_sample_data_importing = The sample data is now being imported into the database. Please be patient during this procedure.
-rpc_database_sample_data_imported = Database sample data imported successfully.
-rpc_database_sample_data_import_error = There was a problem importing the database sample data. The following error had occured:</p><p><b>%s</b></p><p>Please verify the database server and try again.
+rpc_database_connection_test = Veritabanı bağlantısı deneniyor..
+rpc_database_connection_error = Veritabanı bağlantısında sorun var. Takip eden hata meydana geldi:</p><p><b>%s</b></p><p>Lütfen bağlantı değiştirgelerini doğrulayın ve tekrar denyin.
+rpc_database_connected = Veritabanınan başarıyla bağlandı.
+rpc_database_importing = Veritabanı yapısı dahil ediliyor. Lütfen bu işlemler süresince sabırlı olunuz.
+rpc_database_imported = Veritabanı başarıyla dahil edildi.
+rpc_database_import_error = Veritabanı dahil edilmesinde sorun var. Takip eden hata meydana geldi:</p><p><b>%s</b></p><p>Lütfen bağlantı değiştirgelerini doğrulayın ve tekrar denyin.
+
+rpc_work_directory_test = Çalışma dizini deneniyor..
+rpc_work_directory_error_non_existent = Çalışma dizini erişiminde sorun var. Takip eden hata meydana geldi:<br /><br /><b>Dizin bulunmuyor:<br /><br />%s</b><br /><br />Lütfen dizinin varlığını kontrol ediniz ve tekrar deneyin.
+rpc_work_directory_error_not_writeable = Çalışma dizini erişiminde sorun var. Takip eden hata meydana geldi:<br /><br /><b>Web sunucusunun bu dizine yazma izini bulunmuyor:<br /><br />%s</b><br /><br />Bu dizinin izinlerini kontrol ediniz ve tekrar deneyiniz.
+rpc_work_directory_configured = Çalışma dizini başarıyla ayarlandı.
+
+rpc_database_sample_data_importing = Veritabanına örnek veri dahil ediliyor. Lütfen bu işlemler süresince sabırlı olunuz.
+rpc_database_sample_data_imported = Örnek veri başarıyla veritabanına dahil edildi.
+rpc_database_sample_data_import_error = Örnek verinin veritabanına dahil edilmesinde sorun var. Takip eden hata meydana geldi:</p><p><b>%s</b></p><p>Lütfen veritabanı sunucusunu doğrulayın ve tekrar deneyin.

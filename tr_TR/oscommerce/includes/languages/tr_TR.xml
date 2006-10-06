@@ -19,14 +19,14 @@
       <value><![CDATA[Hesabım]]></value>
       <group>general</group>
     </definition>
-    <definition>
+    <definition>                                   
       <key>cart_contents</key>
-      <value><![CDATA[Sepet İçindekiler]]></value>
+      <value><![CDATA[Sepetin İçindekiler]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>checkout</key>
-      <value><![CDATA[Hesap Gör]]></value>
+      <value><![CDATA[Ödeme Yeri]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -81,7 +81,7 @@
     </definition>
     <definition>
       <key>result_set_current_page</key>
-      <value><![CDATA[Sayfa %s of %d]]></value>
+      <value><![CDATA[Sayfa %s/%d]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -131,7 +131,7 @@
     </definition>
     <definition>
       <key>button_checkout</key>
-      <value><![CDATA[Hesap Gör]]></value>
+      <value><![CDATA[Ödeme Yeri]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -211,7 +211,7 @@
     </definition>
     <definition>
       <key>index_text</key>
-      <value><![CDATA[Bu osCommerce e-ticaret alışveriş cözümünün varsayılan kurulumudur, gösterilen ürünler halka sunum amaçlıdır. <b>satın aldığınız herhangi bir ürün gönderilmeyecek ve/veya müşterilere futuralandırılmıyacaktır</b>. Herhangi bir ürünler üzerinde gördüğünüz bilgiler işlemlerde kullanmak için kurgulanmıştır.]]></value>
+      <value><![CDATA[Bu osCommerce e-ticaret alışveriş cözümünün varsayılan kurulumudur, gösterilen ürünler halka sunum amaçlıdır. <b>satın aldığınız herhangi bir ürün gönderilmeyecek ve/veya müşterilere futuralandırılmıyacaktır</b>. Bu ürünler üzerinde gördüğünüz bilgiler çalışmalarda kullanılmak için kurgulanmıştır.]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -276,7 +276,7 @@
     </definition>
     <definition>
       <key>greeting_guest</key>
-      <value><![CDATA[Hoş geldiniz! <a href="%s">Giriş yapın</a> ve en son ziyaretinizden beri <a href="%s">nerel yeni</a> görünüz.]]></value>
+      <value><![CDATA[Hoş geldiniz! <a href="%s">Giriş yapın</a> ve en son ziyaretinizden beri <a href="%s">neler yeni</a> görünüz.]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -456,7 +456,7 @@
     </definition>
     <definition>
       <key>login_returning_customer_heading</key>
-      <value><![CDATA[Geri Dönen Müşteri]]></value>
+      <value><![CDATA[Gelen Müşteri]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -476,7 +476,7 @@
     </definition>
     <definition>
       <key>date_added_to_shopping_cart</key>
-      <value><![CDATA[Tarihinde Eklendi: %s]]></value>
+      <value><![CDATA[Eklendiği Tarih: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -890,7 +890,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>breadcrumb_checkout</key>
-      <value><![CDATA[Hesap Gör]]></value>
+      <value><![CDATA[Ödeme Yeri]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1065,7 +1065,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>continue_checkout_procedure_title</key>
-      <value><![CDATA[Hesap Görme İşlemi Devam]]></value>
+      <value><![CDATA[Ödeme Yeri İşlemi Devam]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1105,7 +1105,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>products_out_of_stock_checkout_possible</key>
-      <value><![CDATA[%s ile işaretli ürünler stoklarımız içinde arzu edilen miktarda yoktur.<br />Yinede onları satın alabilirsiniz ve hesap görme işlemlerinde hemen gönderim için stoklarımız içindeki miktari kontrol ediniz.]]></value>
+      <value><![CDATA[%s ile işaretli ürünler stoklarımız içinde arzu edilen miktarda yoktur.<br />Yinede onları satın alabilirsiniz ve kasa işlemlerinde hemen gönderim için stoklarımız içindeki miktari kontrol ediniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1245,7 +1245,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>add_selection_to_product_notifications</key>
-      <value><![CDATA[Lütfen aşağıdaki seçtiğim ürünlerin güncellemlerini bana bildir:]]></value>
+      <value><![CDATA[Lütfen aşağıda seçtiğim ürünlerin güncellemlerini bana bildir:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1280,7 +1280,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>breadcrumb_contact</key>
-      <value><![CDATA[İletişim]]></value>
+      <value><![CDATA[Bize Ulaşın]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1320,7 +1320,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>info_contact_heading</key>
-      <value><![CDATA[İletişim]]></value>
+      <value><![CDATA[Bize Ulaşın]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1445,7 +1445,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>sitemap_checkout_shipping</key>
-      <value><![CDATA[Hesap Gör]]></value>
+      <value><![CDATA[Ödeme Yeri]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1756,7 +1756,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>field_search_recursive</key>
-      <value><![CDATA[Altkategorileri içer]]></value>
+      <value><![CDATA[Alt kategorileri içer]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1766,12 +1766,12 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>field_search_price_from</key>
-      <value><![CDATA[Fiyatdan:]]></value>
+      <value><![CDATA[Fiyatından:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_price_to</key>
-      <value><![CDATA[Fiyata:]]></value>
+      <value><![CDATA[Fiyatına:]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1831,7 +1831,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>error_search_price_to_not_numeric</key>
-      <value><![CDATA[Fiyata kadar rakam olmalıdır.]]></value>
+      <value><![CDATA[Fiyatına kadar rakam olmalıdır.]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1891,7 +1891,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>field_customer_first_name_error</key>
-      <value><![CDATA[İlk isminiz en az %s karakter içermelidir.]]></value>
+      <value><![CDATA[İlk İsminiz en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2091,7 +2091,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>review_date_added</key>
-      <value><![CDATA[Tarihinde Eklendi: %s]]></value>
+      <value><![CDATA[Eklendiği Tarih: %s]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -2099,7 +2099,6 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
       <value><![CDATA[Girilen kredi kartı numarası geçersizdir.<br />Lütfen numarayı kontrol edip tekrar deneyiniz.]]></value>
       <group>general</group>
     </definition>
-  </definitions>
     <definition>
       <key>maximum_file_upload_size</key>
       <value><![CDATA[(En Fazla: %s)]]></value>

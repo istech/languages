@@ -1,45 +1,75 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>payment_cc_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Kredi Kartı]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_description</key>
-      <value><![CDATA[Credit Card Test Info:<br /><br />CC#: 4111111111111111<br />Expiry: Any]]></value>
+      <value><![CDATA[Kredi Kartı Deneme Bilgisi:<br /><br />CC#: 4111111111111111<br />Son Kullanma: Herhangi]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_type</key>
-      <value><![CDATA[Credit Card Type:]]></value>
+      <value><![CDATA[Kredi Kartı Tipi:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Kredi Kartı Sahibi:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Kredi Kartı Numarası:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Kredi Kartı Son Kullanma Tarihi:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* Kredi kartı sahibinin ismi en az %s karakter içermelidir.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Kredi kart numarası en az %s karakter içermelidir.]]></value>
       <group>modules-payment</group>
+    </definition>
+    <definition>
+	    <key>payment_cc_js_credit_card_not_accepted</key>
+	    <value><![CDATA[* Bu kredi kartı tipi kabul edilebilir değil. Lütfen diğer kart veya ödeme yönetmini tekrar deneyiniz.]]></value>
+	    <group>modules-payment</group>
+    </definition>
+    <definition>
+	    <key>payment_cc_error_general</key>
+	    <value><![CDATA[Kredi kartı işlemlerinde sorun oldu. Lütfen kart bilgisini denetleyin ve tekrar deneyiniz.]]></value>
+	    <group>modules-payment</group>
+    </definition>
+    <definition>
+	    <key>payment_cc_error_not_accepted</key>
+	    <value><![CDATA[Bu kredi kartı tipi kabul edilebilir değil. Lütfen diğer kart veya ödeme yönetmini tekrar deneyiniz.]]></value>
+	    <group>modules-payment</group>
+    </definition>
+    <definition>
+	    <key>payment_cc_error_invalid_expiration_date</key>
+	    <value><![CDATA[Bu kredi karının son kullanma tarihi geçersizdir. Lütfen diğer kart veya ödeme yöntemini tekrar deneyiniz.]]></value>
+	    <group>modules-payment</group>
+    </definition>
+    <definition>
+	    <key>payment_cc_error_expired</key>
+	    <value><![CDATA[The credit card has expired. Please try again with another card or payment method.]]></value>
+	    <group>modules-payment</group>
+    </definition>
+    <definition>
+	    <key>payment_cc_error_unknown_card</key>
+	    <value><![CDATA[This is an unknown credit card which cannot be processed. Please try again with another card or payment method.]]></value>
+	    <group>modules-payment</group>
     </definition>
   </definitions>
 </language>

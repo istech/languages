@@ -20,7 +20,7 @@ define('HEADER_TITLE_ONLINE_CATALOG', 'Çevrimiçi Katalog');
 define('HEADER_TITLE_LANGUAGES', 'Diller');
 
 define('BOX_CONNECTION_PROTECTED', 'Bu %s güvenli SSL bağlantısıyla korunmaktanızın.');
-define('BOX_CONNECTION_UNPROTECTED', 'Bir güvenli SSL bağlantısıyla koruma<font color="#ff0000">ma</font>ktasınız.');
+define('BOX_CONNECTION_UNPROTECTED', 'Güvenli SSL bağlantısıyla koruma<font color="#ff0000">ma</font>ktasınız.');
 define('BOX_CONNECTION_UNKNOWN', 'bilinmeyen');
 
 // text for gender

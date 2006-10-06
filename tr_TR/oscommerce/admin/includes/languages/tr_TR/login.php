@@ -12,7 +12,7 @@
 
 define('HEADING_TITLE', 'Giriş');
 
-define('TEXT_INFO_HEADING_LOGIN', 'Yönetim Araçları içine gir');
+define('TEXT_INFO_HEADING_LOGIN', 'Yönetim Araçları İçine Gir');
 
 define('TEXT_INFO_INTRO', 'Lütfen takip eden formu kullanarak yönetim araçları içine giriniz.');
 

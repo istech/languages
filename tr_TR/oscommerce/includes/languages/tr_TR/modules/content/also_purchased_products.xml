@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>customers_also_purchased_title</key>
-      <value><![CDATA[Bu ürünü hangi Müşterimiz aldıysa aynı zamanda satın aldıkları]]></value>
+      <value><![CDATA[Bu ürünü hangi müşterimiz aldıysa aynı zamanda satın aldıkları]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>

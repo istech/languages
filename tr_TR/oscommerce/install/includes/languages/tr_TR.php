@@ -8,6 +8,6 @@
 #
 # Released under the GNU General Public License
 
-image_button_continue = Continue
-image_button_cancel = Cancel
-image_button_retry = Retry
+image_button_continue = Devam
+image_button_cancel = İptal
+image_button_retry = Tekrar

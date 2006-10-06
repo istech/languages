@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-  <definitions>
-    <definition>
-      <key>recently_visited_title</key>
-      <value><![CDATA[Yakın Zamanda Ziyaret Edilen Ürünler]]></value>
-      <group>modules-content</group>
-    </definition>
-  </definitions>
+	<definitions>
+		<definition>
+			<key>recently_visited_title</key>
+			<value><![CDATA[En Son Geçmişiniz]]></value>
+			<group>modules-content</group>
+		</definition>
+		<definition>
+			<key>recently_visited_products_title</key>
+			<value><![CDATA[En Son Ziyaret Edilen Ürünler]]></value>
+			<group>modules-content</group>
+		</definition>
+		<definition>
+			<key>recently_visited_categories_title</key>
+			<value><![CDATA[En Son Kategoriler]]></value>
+			<group>modules-content</group>
+		</definition>
+		<definition>
+			<key>recently_visited_searches_title</key>
+			<value><![CDATA[En Son Aramalar]]></value>
+			<group>modules-content</group>
+		</definition>
+		<definition>
+			<key>recently_visited_item_in_category</key>
+			<value><![CDATA[içinde %s]]></value>
+			<group>modules-content</group>
+		</definition>
+	</definitions>
 </language>

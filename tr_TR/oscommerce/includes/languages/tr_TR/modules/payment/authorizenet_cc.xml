@@ -3,82 +3,82 @@
   <definitions>
     <definition>
       <key>payment_authorizenet_cc_title</key>
-      <value><![CDATA[Authorize.net Credit Card]]></value>
+      <value><![CDATA[Authorize.net Kredi Kartı]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_description</key>
-      <value><![CDATA[Authorize.net Credit Card Transactions]]></value>
+      <value><![CDATA[Authorize.net Kredi Kartı İşlemleri]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_method_title</key>
-      <value><![CDATA[Credit Card]]></value>
+      <value><![CDATA[Kredi Kartı]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_owner</key>
-      <value><![CDATA[Credit Card Owner:]]></value>
+      <value><![CDATA[Kredi Kartı Sahibi:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_number</key>
-      <value><![CDATA[Credit Card Number:]]></value>
+      <value><![CDATA[Kredi Kartı Numarası:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Credit Card Expiry Date:]]></value>
+      <value><![CDATA[Kredi Kartı Son Kullanma Tarihi:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_cvc</key>
-      <value><![CDATA[Credit Card Check Number (CVC):]]></value>
+      <value><![CDATA[Kredi Kartı Denetim Numarası (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_owner</key>
-      <value><![CDATA[* The owner's name of the credit card must be at least %s characters.]]></value>
+      <value><![CDATA[* Kredi kartı sahibinin isim en az %s karakter içermelidir.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_number</key>
-      <value><![CDATA[* The credit card number must be at least %s characters.]]></value>
+      <value><![CDATA[* Kredi Kartı numarası en az %s karakter içermelidir.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_not_accepted</key>
-      <value><![CDATA[* This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[* Bu kredi kartı tipi kabul edilebilir değil. Lütfen diğer kart veya ödeme yöntemini tekrar deneyiz.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_cvc</key>
-      <value><![CDATA[* The credit card check number (CVC) must be at least 3 characters.]]></value>
+      <value><![CDATA[* Kredi kart deneme numarası (CVC) en az 3 karakter içermelidir.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_general</key>
-      <value><![CDATA[There was a problem processing this credit card. Please check the card information and try again.]]></value>
+      <value><![CDATA[Kredi kartı işlemlerinde sorun oldu. Lütfen kart bilgisini denetleyin ve tekrar deneyiniz.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_not_accepted</key>
-      <value><![CDATA[This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Bu kredi kartı tipi kabul edilebilir değil. Lütfen diğer kart veya ödeme yönetmini tekrar deneyiniz.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_invalid_expiration_date</key>
-      <value><![CDATA[The credit card expiration date is invalid. Please check the card information and try again.]]></value>
+      <value><![CDATA[Kredi kartı son kullanma tarihi geçersiz. Lütfen kart bilgisini denetleyin ve tekrar deneyiniz.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_expired</key>
-      <value><![CDATA[The credit card has expired. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Kredi kartı son kullanması dolmuş. Lütfen diğer kart veya ödeme yönetimini tekrar deneyiniz.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_unknown_card</key>
-      <value><![CDATA[This is an unknown credit card which cannot be processed. Please try again with another card or payment method.]]></value>
+      <value><![CDATA[Bu bilinmeyen kredi kartı işleme konulamaz. Lütfen diğer kart veya ödeme yöntemini tekrar deneyiniz.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>
