@@ -10,41 +10,6 @@
   Released under the GNU General Public License
 */
 
-// look in your $PATH_LOCALE/locale directory for available locales
-// or execute 'locale -a' on the server.
-// Examples:
-// on Linux try 'en_US'
-// on FreeBSD try 'en_US.ISO_8859-1'
-// on Windows try 'en', or 'English'
-define('LANGUAGE_LOCALE', 'nl_NL');
-
-define('DATE_FORMAT_SHORT', '%d/%m/%Y');  // this is used for strftime()
-define('DATE_FORMAT_LONG', '%A %d %B, %Y'); // this is used for strftime()
-define('DATE_FORMAT', 'd/m/Y'); // this is used for date()
-define('PHP_DATE_TIME_FORMAT', 'd/m/Y H:i:s'); // this is used for date()
-define('DATE_TIME_FORMAT', DATE_FORMAT_SHORT . ' %H:%M:%S');
-
-////
-// Return date in raw format
-// $date should be in format mm/dd/yyyy
-// raw date is in format YYYYMMDD, or DDMMYYYY
-function tep_date_raw($date, $reverse = false) {
- if ($reverse) {
-     return substr($date, 0, 2) . substr($date, 3, 2) . substr($date, 6, 4);
- } else {
-     return substr($date, 6, 4) . substr($date, 3, 2) . substr($date, 0, 2);
- }
-}
-
-define('NUMERIC_DECIMAL_SEPARATOR', ',');
-define('NUMERIC_THOUSANDS_SEPARATOR', '.');
-
-// Global entries for the <html> tag
-define('HTML_PARAMS','xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="en" lang="en"');
-
-// charset for web pages and emails
-define('CHARSET', 'iso-8859-1');
-
 // page title
 define('TITLE', 'osCommerce');
 
@@ -112,6 +77,7 @@ define('BOX_HEADING_TOOLS', 'Werktuigen');
 define('BOX_TOOLS_BACKUP', 'Database Backup');
 define('BOX_TOOLS_BANNER_MANAGER', 'Banner Beheer');
 define('BOX_TOOLS_CACHE', 'Cache Control');
+define('BOX_TOOLS_IMAGES', 'Images');
 define('BOX_TOOLS_FILE_MANAGER', 'Bestandsbeheer');
 define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Nieuwsbrief Beheer');
 define('BOX_TOOLS_SERVER_INFO', 'Server Info');
@@ -123,6 +89,7 @@ define('BOX_LOCALIZATION_CURRENCIES', 'Valuta');
 define('BOX_LOCALIZATION_LANGUAGES', 'Talen');
 define('BOX_LOCALIZATION_ORDERS_STATUS', 'Bestellings Statussen');
 define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Gewichtsklassen');
+define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Image Groups');
 
 define('BOX_HEADING_LOGOFF', 'Uitloggen');
 
@@ -196,6 +163,7 @@ define('IMAGE_CONFIGURE', 'Instellen');
 define('IMAGE_CONFIRM', 'Bevestig');
 define('IMAGE_COPY', 'Kopieer');
 define('IMAGE_COPY_TO', 'Kopieer naar');
+define('IMAGE_DEFAULT', 'Default');
 define('IMAGE_DETAILS', 'Details');
 define('IMAGE_DELETE', 'Verwijder');
 define('IMAGE_EDIT', 'Wijzig');
@@ -208,8 +176,8 @@ define('IMAGE_ICON_STATUS_GREEN', 'Actief');
 define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Zet actief');
 define('IMAGE_ICON_STATUS_RED', 'Inactief');
 define('IMAGE_ICON_STATUS_RED_LIGHT', 'Zet inactief');
-define('IMAGE_ICON_INFO', 'Info');
 define('IMAGE_IMPORT', 'Import');
+define('IMAGE_INFO', 'Info');
 define('IMAGE_INSERT', 'Invoegen');
 define('IMAGE_LOCK', 'Vastzetten');
 define('IMAGE_LOGIN', 'Login');
@@ -274,7 +242,6 @@ define('ICON_FILES', 'Bestanden');
 define('ICON_ORDERS', 'Bestellingen');
 define('ICON_PRODUCTS', 'Produkten');
 
-// constants for use in tep_prev_next_display function
 define('TEXT_RESULT_PAGE', 'Pagina&nbsp;%s&nbsp;van&nbsp;%d');
 define('TEXT_DISPLAY_NUMBER_OF_ADMINISTRATORS', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> administratoren)');
 define('TEXT_DISPLAY_NUMBER_OF_BANNERS', 'Toont <b>%d</b> tot <b>%d</b> (van <b>%d</b> banners)');
@@ -332,6 +299,4 @@ define('WARNING_FILE_UPLOADS_DISABLED', 'Waarschuwing: Bestanduploads staan uitg
 define('SUCCESS_DB_ROWS_UPDATED', 'Succes: Data succesvol bijgewerkt!');
 define('WARNING_DB_ROWS_NOT_UPDATED', 'Waarschuwing: Data is niet bijgewerkt omdat de inhoud niet gewijzigd is.');
 define('ERROR_DB_ROWS_NOT_UPDATED', 'Fout: Data is niet bijgewerkt ten gevolge van een fout.');
-
-define('MAXIMUM_FILE_UPLOAD_SIZE', '(Max: %s)');
 ?>

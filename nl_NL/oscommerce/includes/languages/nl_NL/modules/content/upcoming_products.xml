@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>upcoming_products_title</key>
-      <value><![CDATA[Verwachte artikel(en)]]></value>
-      <group>modules-content</group>
-    </definition>
-    <definition>
-      <key>upcoming_products_date_expected_title</key>
-      <value><![CDATA[Datum]]></value>
+      <value><![CDATA[Verwachte artikelen]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>

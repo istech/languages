@@ -41,5 +41,35 @@
       <value><![CDATA[* Het creditcardnummer moet minstens uit %s cijfers bestaan.]]></value>
       <group>modules-payment</group>
     </definition>
+    <definition>
+      <key>payment_cc_js_credit_card_not_accepted</key>
+      <value><![CDATA[* This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_general</key>
+      <value><![CDATA[There was a problem processing this credit card. Please check the card information and try again.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_not_accepted</key>
+      <value><![CDATA[This credit card type is not accepted. Please try again with another card or payment method.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_invalid_expiration_date</key>
+      <value><![CDATA[The credit card expiration date is invalid. Please check the card information and try again.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_expired</key>
+      <value><![CDATA[The credit card has expired. Please try again with another card or payment method.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_cc_error_unknown_card</key>
+      <value><![CDATA[This is an unknown credit card which cannot be processed. Please try again with another card or payment method.]]></value>
+      <group>modules-payment</group>
+    </definition>
   </definitions>
 </language>

@@ -276,7 +276,7 @@
     </definition>
     <definition>
       <key>greeting_guest</key>
-      <value><![CDATA[Welkom <span class="greetUser">Bezoeker !</span><BR>Wilt u <a href="%s"><u>inloggen</u></a>? Of wilt u zich als nieuwe klant <a href="%s"><u>Aanmelden</u></a> ?<BR>Kijkt u rustig rond, u hoeft alleen in te loggen of u als nieuwe klant aan te melden wanneer u besluit een bestelling te plaatsen ! Uw winkelwagen wordt automatisch overgenomen nadat u inlogt of zich als nieuwe klant aanmeldt.]]></value>
+      <value><![CDATA[Welkom <span class="greetUser">Bezoeker !</span><br />Wilt u <a href="%s"><u>inloggen</u></a>? Of wilt u zich als nieuwe klant <a href="%s"><u>Aanmelden</u></a> ?<br />Kijkt u rustig rond, u hoeft alleen in te loggen of u als nieuwe klant aan te melden wanneer u besluit een bestelling te plaatsen ! Uw winkelwagen wordt automatisch overgenomen nadat u inlogt of zich als nieuwe klant aanmeldt.]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -380,17 +380,17 @@
       <group>account</group>
     </definition>
     <definition>
-      <key>klantenprofiel_heading</key>
+      <key>account_heading</key>
       <value><![CDATA[Mijn klantenprofiel]]></value>
       <group>account</group>
     </definition>
     <definition>
-      <key>klantenprofiel_edit_heading</key>
+      <key>account_edit_heading</key>
       <value><![CDATA[Mijn klantenprofiel informatie]]></value>
       <group>account</group>
     </definition>
     <definition>
-      <key>klantenprofiel_password_heading</key>
+      <key>account_password_heading</key>
       <value><![CDATA[Mijn klantenprofiel wachtwoord]]></value>
       <group>account</group>
     </definition>
@@ -481,7 +481,7 @@
     </definition>
     <definition>
       <key>sign_out_text</key>
-      <value><![CDATA[U bent uitgelogd.<br><br>De inhoud van uw winkelwagen is bewaard voor de volgende keer.<br /><br />U kun nu veilig de winkel verlaten.]></value>
+      <value><![CDATA[U bent uitgelogd.<br /><br />De inhoud van uw winkelwagen is bewaard voor de volgende keer.<br /><br />U kun nu veilig de winkel verlaten.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -1000,202 +1000,192 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>only_one_shipping_method_available</key>
-      <value><![CDATA[This is currently the only shipping method available to use on this bestelling.]]></value>
+      <value><![CDATA[Beschikbare verzendmethode(n).]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>add_comment_to_order_title</key>
-      <value><![CDATA[Add A Note To This bestelling]]></value>
+      <value><![CDATA[Opmerkingen bij uw bestelling]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>address_book_entries_title</key>
-      <value><![CDATA[adresboek Entries]]></value>
+      <value><![CDATA[Adresboek]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_shipping_destination</key>
-      <value><![CDATA[Please select the preferred shipping address if the items in this bestelling are to be delivered elsewhere.]]></value>
+      <value><![CDATA[Selecteer het gewenste verzendadres, indien de bestelling ergens anders afgeleverd moet worden.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_billing_destination</key>
-      <value><![CDATA[Please select the preferred billing address if the invoice to this bestelling is to be delivered elsewhere.]]></value>
+      <value><![CDATA[Selecteer het gewenste factuuradres indien het factuur ergens anders heen verzonden moet worden.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_shipping_address_title</key>
-      <value><![CDATA[New Shipping Address]]></value>
+      <value><![CDATA[Nieuw factuuradres]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_shipping_address</key>
-      <value><![CDATA[Please use the following form to create a new shipping address to use for this bestelling.]]></value>
+      <value><![CDATA[Gebruik het volgende formulier om een nieuw factuuradres aan te maken.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_billing_address_title</key>
-      <value><![CDATA[New Billing Address]]></value>
+      <value><![CDATA[Nieuw factuuradres]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>new_billing_address</key>
-      <value><![CDATA[Please use the following form to create a new billing address to use for this bestelling.]]></value>
+      <value><![CDATA[Gebruik het volgende formulier om een nieuw factuuradres aan te maken.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>billing_address_title</key>
-      <value><![CDATA[Billing Address]]></value>
+      <value><![CDATA[Factuuradres]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>selected_billing_destination</key>
-      <value><![CDATA[This is the currently selected billing address where the invoice to this bestelling will be delivered to.]]></value>
+      <value><![CDATA[Dit is momenteel het geselecteerde factuuradres.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_billing_destination</key>
-      <value><![CDATA[Please choose from your adresboek where you would like the invoice to be sent to.]]></value>
+      <value><![CDATA[Opmerkingen bij uw bestelling]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>current_billing_address_title</key>
-      <value><![CDATA[Billing Address:]]></value>
+      <value><![CDATA[Factuuradres:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_title</key>
-      <value><![CDATA[Continue Checkout Procedure]]></value>
+      <value><![CDATA[Ga verder met afrekenen]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_shipping</key>
-      <value><![CDATA[to select the preferred shipping method.]]></value>
+      <value><![CDATA[om de gewenste verzendmethode te kiezen.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_payment</key>
-      <value><![CDATA[to select the preferred payment method.]]></value>
+      <value><![CDATA[om de gewenste betaalwijze te selecteren.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_confirmation</key>
-      <value><![CDATA[to confirm this bestelling.]]></value>
+      <value><![CDATA[om de bestelling te bevestigen.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shopping_cart_empty</key>
-      <value><![CDATA[Your Shopping Cart is empty!]]></value>
+      <value><![CDATA[Uw winkelwagen is leeg!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>subtotal_title</key>
-      <value><![CDATA[Sub-Total:]]></value>
+      <value><![CDATA[Sub-totaal:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>total_title</key>
-      <value><![CDATA[Total:]]></value>
+      <value><![CDATA[Totaal:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>products_out_of_stock_checkout_not_possible</key>
-      <value><![CDATA[Products marked with %s don't exist in desired quantity in our stock.<br />Please change the quantity of the marked products.]]></value>
+      <value><![CDATA[Artikelen gemarkeerd met %s zijn niet voorradig.<br />Verander het aantal van het gemarkeerde product. Dank u.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>products_out_of_stock_checkout_possible</key>
-      <value><![CDATA[Products marked with %s don't exist in desired quantity in our stock.<br />You can buy them anyway and check the quantity we have in stock for immediate delivery in the checkout process.]]></value>
+      <value><![CDATA[Artikelen gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet voorradig.<br />U kunt het artikel toch kopen. Het zal verstuurd worden zodra het binnen is.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_title</key>
-      <value><![CDATA[Terms and Conditions]]></value>
+      <value><![CDATA[Algemen voorwaarden]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_description</key>
-      <value><![CDATA[Please acknowledge the terms and conditions bound to this bestelling by ticking the following box. The terms and conditions can be read <a href="%s"><u>here</u></a>.]]></value>
+      <value><![CDATA[Bevestig de algemene voorwaarden voor deze bestelling door de volgende box af te vinken. De algemene voorwaarden kunnen <a href="%s"><u>hier</u></a> geleze worden.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_acknowledge</key>
-      <value><![CDATA[I have read and agreed to the terms and conditions bound to this bestelling.]]></value>
+      <value><![CDATA[Voor deze bestelling ga ik akkoord met de algemene voorwaarden.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>payment_method_title</key>
-      <value><![CDATA[Payment Method]]></value>
+      <value><![CDATA[Betaalwijze]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_payment_method</key>
-      <value><![CDATA[Please select the preferred payment method to use on this bestelling.]]></value>
+      <value><![CDATA[Selecteer de gewenste betaalwijze voor deze bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>only_one_payment_method_available</key>
-      <value><![CDATA[This is currently the only payment method available to use on this bestelling.]]></value>
-      <group>checkout</group>
-    </definition>
-    <definition>
-      <key>free_shipping_title</key>
-      <value><![CDATA[Free Shipping]]></value>
-      <group>checkout</group>
-    </definition>
-    <definition>
-      <key>free_shipping_description</key>
-      <value><![CDATA[Free shipping for bestellingen over %s]]></value>
+      <value><![CDATA[Dit is momenteel de enig mogelijke wijze van betaling voor deze bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_delivery_address_title</key>
-      <value><![CDATA[Delivery Address]]></value>
+      <value><![CDATA[Verzendadres]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_shipping_method_title</key>
-      <value><![CDATA[Shipping Method]]></value>
+      <value><![CDATA[Verzendmethode]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_products_title</key>
-      <value><![CDATA[Products]]></value>
+      <value><![CDATA[Artikelen]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_tax_title</key>
-      <value><![CDATA[Tax]]></value>
+      <value><![CDATA[BTW]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_total_title</key>
-      <value><![CDATA[Total]]></value>
+      <value><![CDATA[Totaal]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_billing_address_title</key>
-      <value><![CDATA[Billing Address]]></value>
+      <value><![CDATA[Factuuradres]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_payment_method_title</key>
-      <value><![CDATA[Payment Method]]></value>
+      <value><![CDATA[Betaalwijze]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_payment_information_title</key>
-      <value><![CDATA[Payment Information]]></value>
+      <value><![CDATA[Factuurinformatie]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_comments_title</key>
-      <value><![CDATA[Comments Added To Your bestelling]]></value>
+      <value><![CDATA[Het commentaar is toegevoegd aan uw order.]]></value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_text_edit_title</key>
-      <value><![CDATA[(edit)]]></value>
+      <value><![CDATA[(wijzig)]]></value>
       <group>order</group>
     </definition>
     <definition>
@@ -1210,37 +1200,37 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>email_order_invoice_url</key>
-      <value><![CDATA[Detailed Invoice: %s]]></value>
+      <value><![CDATA[Gedetailleerde factuur: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_date_ordered</key>
-      <value><![CDATA[Date bestellinged: %s]]></value>
+      <value><![CDATA[Besteldatum: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_status</key>
-      <value><![CDATA[Bestelling Status: %s]]></value>
+      <value><![CDATA[Bestel status: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_products</key>
-      <value><![CDATA[Products]]></value>
+      <value><![CDATA[Artikelen]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_delivery_address</key>
-      <value><![CDATA[Delivery Address]]></value>
+      <value><![CDATA[Verzendadres]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_billing_address</key>
-      <value><![CDATA[Billing Address]]></value>
+      <value><![CDATA[Factuuradres]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_payment_method</key>
-      <value><![CDATA[Payment Method]]></value>
+      <value><![CDATA[Betaalwijze]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1250,42 +1240,42 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>order_processed_successfully</key>
-      <value><![CDATA[Your bestelling has been successfully processed! Your products will arrive at their destination within 2-5 working days.]]></value>
+      <value><![CDATA[Uw bestelling is succesvol ontvangen! U krijgt van ons bericht wanneer de bestelling wordt verzonden of wanneer u deze kunt komen afhalen.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>add_selection_to_product_notifications</key>
-      <value><![CDATA[Please notify me of updates to the products I have selected below:]]></value>
+      <value><![CDATA[Houd mij op de hoogte van updates voor de artikelen die ik hier beneden heb geselecteerd:]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>view_order_history</key>
-      <value><![CDATA[You can view your bestelling history by going to the <a href="%s">My klantenprofiel</a> page and by clicking on <a href="%s">History</a>.]]></value>
+      <value><![CDATA[U kunt eerdere bestellingen bekijken door naar <a href="%s">My klantenprofiel</a> te gaan en daar op <a href="%s">Bestellingen</a>  te klikken.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>contact_store_owner</key>
-      <value><![CDATA[Please direct any questions you have to the <a href="%s">store owner</a>.]]></value>
+      <value><![CDATA[Voor vragen kunt u contact opnemen met <a href="%s">winkel eigenaar</a>.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>thanks_for_shopping_with_us</key>
-      <value><![CDATA[Thanks for shopping with us online!]]></value>
+      <value><![CDATA[Bedankt voor uw bestelling!]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>download_footer</key>
-      <value><![CDATA[You can also download your products at a later time at %s]]></value>
+      <value><![CDATA[U kunt uw artikelen ook later downloaden bij %s]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>breadcrumb_information</key>
-      <value><![CDATA[Information]]></value>
+      <value><![CDATA[Informatie]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_conditions</key>
-      <value><![CDATA[Conditions]]></value>
+      <value><![CDATA[Voorwaarden]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1300,7 +1290,7 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>breadcrumb_shipping</key>
-      <value><![CDATA[Shipping]]></value>
+      <value><![CDATA[Verzenden]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1310,7 +1300,7 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>breadcrumb_cookie_usage</key>
-      <value><![CDATA[Cookie Usage]]></value>
+      <value><![CDATA[Cookie beleid]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1320,12 +1310,12 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>info_heading</key>
-      <value><![CDATA[Information and Help]]></value>
+      <value><![CDATA[Informatie en Help]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_conditions_heading</key>
-      <value><![CDATA[Terms and Conditions]]></value>
+      <value><![CDATA[Algemene voorwaarden]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1335,12 +1325,12 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>info_privacy_heading</key>
-      <value><![CDATA[Privacy Notice]]></value>
+      <value><![CDATA[Privacy verklaring]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_shipping_heading</key>
-      <value><![CDATA[Shipping and Returns]]></value>
+      <value><![CDATA[Verzenden & retourneren]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1350,7 +1340,7 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>info_cookie_usage_heading</key>
-      <value><![CDATA[Cookie Usage]]></value>
+      <value><![CDATA[Cookie beleid]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1360,62 +1350,62 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>conditions</key>
-      <value><![CDATA[Put here the required information.]]></value>
+      <value><![CDATA[Plaats hier de gewenste informatie.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact</key>
-      <value><![CDATA[Put here the required information.]]></value>
+      <value><![CDATA[Plaats hier de gewenste informatie.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>privacy</key>
-      <value><![CDATA[Put here the required information.]]></value>
+      <value><![CDATA[Plaats hier de gewenste informatie.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>shipping</key>
-      <value><![CDATA[Put here the required information.]]></value>
+      <value><![CDATA[Plaats hier de gewenste informatie.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>cookie_usage</key>
-      <value><![CDATA[We have detected that your browser does not support cookies, or has set cookies to be disabled.<br /><br />To continue shopping online, we encourage you to enable cookies on your browser.<br /><br />For <b>Internet Explorer</b> browsers, please follow these instructions:<br /><ol><li>Click on the Tools menubar, and select Internet Options</li><li>Select the Security tab, and reset the security level to Medium</li></ol>We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.<br /><br />Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.]]></value>
+      <value><![CDATA[Uw browser staat het gebruik van cookies niet toe.<br /><br />Om te kunnen winkelen is het nodig dat uw browser dit accepteerd.<br /><br />Voor de <b>Internet Explorer</b> browser, volg de volgende instructies:<br /><ol><li>Klik op <b>Extra</b> in de menubalk en kies vervolgens <b>Internet-Opties</b></li><li>Kies het tabblad <b>Privacy</b>, zet de schuif op <b>Normaal</b></li></ol>Deze maatregel is voor uw eigen veiligheid.Zou u toch nog problemen en of vragen hebben, kunt u die altijd aan ons stellen!]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>ssl_check</key>
-      <value><![CDATA[We have detected that your browser has generated a different SSL Session ID used throughout our secure pages.<br /><br />For security measures you will need to logon to your klantenprofiel again to continue shopping online.<br /><br />Some browsers such as Konqueror 3.1 does not have the capability of generating a secure SSL Session ID automatically which we require. If you use such a browser, we recommend switching to another browser such as <a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>, <a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>, or <a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>, to continue your online shopping experience.<br /><br />We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.<br /><br />Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.]]></value>
+      <value><![CDATA[Uit onze controle is gebleken dat uw browser tijdens uw bezoek een andere SSL-Session-ID heeft veranderd.<br /><br />Uit veiligheidsoverwegingen vragen wij u om opnieuw in te loggen.<br /><br />Er zijn browsers (bijv. Konqueror 3.1) die een secure SSL Sesion-ID niet automatisch kunnen aanmaken, dit is een toch een noodzaak. Als U zo een soort browser heeft, verzoeken wij u om de browser te updaten of een andere versie te installeren. Een voorbeeld van een browser is <a href="http://www.microsoft.com/windows/ie/default.mspx" target="_blank"><u>Microsoft Internet Explorer</u></a>, <a href="http://www.opera.com/" target="_blank"><u>Opera</u></a><a href="http://browser.netscape.com/" target="_blank"><u>Netscape</u></a> of <a href="http://www.mozilla.com/firefox/" target="_blank"><u>Firefox</u></a>. Na deze update zou u probleemloos bij ons moeten kunnen winkelen.<br /><br />Deze veiligheidsmaatregel is voor <u>uw veiligheid</u>. Mocht u tegen alle verwachting in toch nog problemen hebben neem dan contact met ons op!]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_title</key>
-      <value><![CDATA[Contact Information]]></value>
+      <value><![CDATA[Contact informatie]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_store_address_title</key>
-      <value><![CDATA[Store Address]]></value>
+      <value><![CDATA[Winkel adres]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_name_title</key>
-      <value><![CDATA[Full Name:]]></value>
+      <value><![CDATA[Volledige naam:]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_email_address_title</key>
-      <value><![CDATA[Email Address:]]></value>
+      <value><![CDATA[Email adres:]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_enquiry_title</key>
-      <value><![CDATA[Enquiry:]]></value>
+      <value><![CDATA[Uw vraag/opmerking:]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_email_sent_successfully</key>
-      <value><![CDATA[Your enquiry has been successfully sent to the store owner.]]></value>
+      <value><![CDATA[Uw vraag/opmerking is succesvol naar de winkel eigenaar verzonden. U krijgt zo spoedig mogelijk antwoord.]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1430,117 +1420,117 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>sitemap_account_edit</key>
-      <value><![CDATA[klantenprofiel Information]]></value>
+      <value><![CDATA[Klantenprofiel informatie]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_address_book</key>
-      <value><![CDATA[adresboek]]></value>
+      <value><![CDATA[Adresboek]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_history</key>
-      <value><![CDATA[Bestelling History]]></value>
+      <value><![CDATA[Bestelling geschiedenis]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_notifications</key>
-      <value><![CDATA[Newsletter Subscriptions]]></value>
+      <value><![CDATA[Abonnement op onze nieuwsbrief]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_shopping_cart</key>
-      <value><![CDATA[Shopping Cart]]></value>
+      <value><![CDATA[Winkelwagen]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_checkout_shipping</key>
-      <value><![CDATA[Checkout]]></value>
+      <value><![CDATA[Kassa]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_advanced_search</key>
-      <value><![CDATA[Advanced Search]]></value>
+      <value><![CDATA[Uitgebreid zoeken]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_products_new</key>
-      <value><![CDATA[New Products]]></value>
+      <value><![CDATA[Nieuwe producten]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_specials</key>
-      <value><![CDATA[Specials]]></value>
+      <value><![CDATA[Aanbiedingen]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_reviews</key>
-      <value><![CDATA[Reviews]]></value>
+      <value><![CDATA[Beoordelingen]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>cookie_usage_box_heading</key>
-      <value><![CDATA[Cookie Privacy and Security]]></value>
+      <value><![CDATA[Cookies voor uw privacy en veiligheid]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>cookie_usage_box_contents</key>
-      <value><![CDATA[Cookies must be enabled to purchase online on this store to embrace privacy and security related issues regarding your visit to this site.<br /><br />By enabling cookie support on your browser, the communication between you and this site is strengthened to be certain it is you who are making transactions on your own behalf, and to prevent leakage of your privacy information.]]></value>
+      <value><![CDATA[Door het gebruik van cookies wordt de veiligheid verbeterd en uw privé gegevens beter beschermd.<br /><br />In de cookies staan geen persoonlijke gegevens.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>ssl_check_box_heading</key>
-      <value><![CDATA[Privacy and Security]]></value>
+      <value><![CDATA[Privacy en veiligheid]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>ssl_check_box_contents</key>
-      <value><![CDATA[We validate the SSL Session ID automatically generated by your browser on every secure page request made to this server.<br /><br />This validation assures that it is you who is navigating on this site with your klantenprofiel and not somebody else.]]></value>
+      <value><![CDATA[De door uw browser gemaakte SSL-Session-ID wordt bij aanroep van een beveiligde pagina gecontroleerd.<br /><br />Deze controle garandeerd dat u de persoon bent die op deze site surft en niet iemand anders.]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_new_products</key>
-      <value><![CDATA[New Products]]></value>
+      <value><![CDATA[Nieuwe artikelen]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_specials</key>
-      <value><![CDATA[Specials]]></value>
+      <value><![CDATA[Aanbiedingen]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_reviews</key>
-      <value><![CDATA[Reviews]]></value>
+      <value><![CDATA[Beoordelingen]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_reviews_new</key>
-      <value><![CDATA[New Review]]></value>
+      <value><![CDATA[Nieuwe beoordeling]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_tell_a_friend</key>
-      <value><![CDATA[Tell A Friend]]></value>
+      <value><![CDATA[Vertel een vriend(in)]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>product_not_found_heading</key>
-      <value><![CDATA[Product Not Found]]></value>
+      <value><![CDATA[Artikel niet gevonden!]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>no_new_products</key>
-      <value><![CDATA[There are currently no products available.]]></value>
+      <value><![CDATA[Er zijn op dit moment geen producten beschikbaar!]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>new_products_heading</key>
-      <value><![CDATA[New Products]]></value>
+      <value><![CDATA[Nieuwe artikelen]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>specials_heading</key>
-      <value><![CDATA[Specials]]></value>
+      <value><![CDATA[Aanbiedingen]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1550,7 +1540,7 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>product_not_found</key>
-      <value><![CDATA[Product not found!]]></value>
+      <value><![CDATA[Artikel niet gevonden!]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1575,538 +1565,543 @@ OPMERKING: Indien u uzelf niet een nieuw wachtwoord heeft aangevraagd neemt u da
     </definition>
     <definition>
       <key>enlarge_image</key>
-      <value><![CDATA[Click to enlarge]]></value>
+      <value><![CDATA[Grotere afbeelding <br />(opent in nieuw venster)]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>date_added</key>
-      <value><![CDATA[Date Added:]]></value>
+      <value><![CDATA[Dit artikel is toegevoegd op:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>manufacturer</key>
-      <value><![CDATA[Manufacturer:]]></value>
+      <value><![CDATA[Fabrikant:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>price</key>
-      <value><![CDATA[Price:]]></value>
+      <value><![CDATA[Prijs:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>average_rating</key>
-      <value><![CDATA[Average Rating:]]></value>
+      <value><![CDATA[Gemiddelde beoordeling:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>rating_of_5_stars</key>
-      <value><![CDATA[%s of 5 Stars!]]></value>
+      <value><![CDATA[%s van 5 sterren!]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>no_reviews_available</key>
-      <value><![CDATA[No reviews found.]]></value>
+      <value><![CDATA[Er zijn geen beoordelingen over dit artikel!]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>new_review_title</key>
-      <value><![CDATA[New Review]]></value>
+      <value><![CDATA[Nieuw beoordeling]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_review_rating</key>
-      <value><![CDATA[Rating:]]></value>
+      <value><![CDATA[Waardering:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_review_from</key>
-      <value><![CDATA[From:]]></value>
+      <value><![CDATA[Van:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_lowest_rating_title</key>
-      <value><![CDATA[Bad]]></value>
+      <value><![CDATA[SLECHT]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_highest_rating_title</key>
-      <value><![CDATA[Good]]></value>
+      <value><![CDATA[GOED]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>customer_details_title</key>
-      <value><![CDATA[Your Details]]></value>
+      <value><![CDATA[Uw details]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>friend_details_title</key>
-      <value><![CDATA[Your Friends Details]]></value>
+      <value><![CDATA[Details van uw vriend(in)]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>tell_a_friend_message</key>
-      <value><![CDATA[Your Message]]></value>
+      <value><![CDATA[Uw bericht]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_name</key>
-      <value><![CDATA[Your Name:]]></value>
+      <value><![CDATA[Uw naam:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_email_address</key>
-      <value><![CDATA[Your E-Mail Address:]]></value>
+      <value><![CDATA[Uw e-mail adres:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_name</key>
-      <value><![CDATA[Your Friends Name:]]></value>
+      <value><![CDATA[Naam vriend(in):]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_email_address</key>
-      <value><![CDATA[Your Friends E-Mail Address:]]></value>
+      <value><![CDATA[E-mail adres vriend(in):]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_subject</key>
-      <value><![CDATA[Your friend %s has recommended this great product from %s]]></value>
+      <value><![CDATA[Uw vriend(in) %s raad dit artikel aan %s]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_intro</key>
-      <value><![CDATA[Hi %s!
-
-Your friend, %s, thought that you would be interested in %s from %s.]]></value>
+      <value><![CDATA[Hallo %s!
+      
+Uw vriend(in), %s, denkt dat u wel geïnteresseerd zou zijn in %s van %s.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_link</key>
-      <value><![CDATA[To view the product click on the link below or copy and paste the link into your web browser:
-
+      <value><![CDATA[Om het artikel te zien klikt u gewoon op de onderstaande link of kopieert en plakt u de link in uw web browser:
+      
 %s]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_signature</key>
-      <value><![CDATA[Regards,
+      <value><![CDATA[Groet,
 
 %s]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>success_review_new</key>
-      <value><![CDATA[Thank you for your review! It has been received and is now active!]]></value>
+      <value><![CDATA[Dank u voor uw beoordeling. Deze is verwerkt en geplaatst!]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>success_review_moderation</key>
-      <value><![CDATA[Thank you for your review! It has been received and is pending for approval.]]></value>
+      <value><![CDATA[Dank u voor uw beoordeling. Deze is verwerkt en wacht op goedkeuring!]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>success_tell_a_friend_email_sent</key>
-      <value><![CDATA[Your email about %s has been successfully sent to %s.]]></value>
+      <value><![CDATA[Uw e-mail over %s is succesvol verstuurd naar %s.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_friends_name_empty</key>
-      <value><![CDATA[Error: Your friends name must not be empty.]]></value>
+      <value><![CDATA[Fout: Het veld 'Naam vriend(in)' mag niet leeg zijn.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_invalid_friends_email_address</key>
-      <value><![CDATA[Error: Your friends e-mail address must be a valid e-mail address.]]></value>
+      <value><![CDATA[Fout: Het veld 'E-mail adres vriend(in)' moet een geldig e-mail adres bevatten.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_customers_name_empty</key>
-      <value><![CDATA[Error: Your name must not be empty.]]></value>
+      <value><![CDATA[Fout: Het veld 'Uw naam' mag niet leeg zijn.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_invalid_customers_email_address</key>
-      <value><![CDATA[Error: Your e-mail address must be a valid e-mail address.]]></value>
+      <value><![CDATA[Fout: Het veld 'Uw e-mail adres' met een geldig e-mail adres bevatten.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_search</key>
-      <value><![CDATA[Search]]></value>
+      <value><![CDATA[Zoeken]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>breadcrumb_search_results</key>
-      <value><![CDATA[Results]]></value>
+      <value><![CDATA[Resultaaten]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_heading</key>
-      <value><![CDATA[Search]]></value>
+      <value><![CDATA[Zoeken]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>advanced_search_heading</key>
-      <value><![CDATA[Advanced Search]]></value>
+      <value><![CDATA[Uitgebreid zoeken]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_results_heading</key>
-      <value><![CDATA[Search Results]]></value>
+      <value><![CDATA[Zoekresultaten]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_criteria_title</key>
-      <value><![CDATA[Search Criteria]]></value>
+      <value><![CDATA[Zoekcriteria]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_categories</key>
-      <value><![CDATA[Categories:]]></value>
+      <value><![CDATA[Categorieën:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_recursive</key>
-      <value><![CDATA[Include Subcategories]]></value>
+      <value><![CDATA[Inclusief sub-categorieën]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_manufacturers</key>
-      <value><![CDATA[Manufacturers:]]></value>
+      <value><![CDATA[Fabrikanten:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_price_from</key>
-      <value><![CDATA[Price From:]]></value>
+      <value><![CDATA[Prijs vanaf:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_price_to</key>
-      <value><![CDATA[Price To:]]></value>
+      <value><![CDATA[Prijs tot:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_from</key>
-      <value><![CDATA[Date From:]]></value>
+      <value><![CDATA[Vanaf datum:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_to</key>
-      <value><![CDATA[Date To:]]></value>
+      <value><![CDATA[Tot datum:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_tips</key>
-      <value><![CDATA[Search Help]]></value>
+      <value><![CDATA[Help]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_heading</key>
-      <value><![CDATA[Search Help]]></value>
+      <value><![CDATA[Help]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help</key>
-      <value><![CDATA[Keywords may be separated by AND and/or OR statements for greater control of the search results.<br /><br />For example, <u>Microsoft AND mouse</u> would generate a result set that contain both words. However, for <u>mouse OR keyboard</u>, the result set returned would contain both or either words.<br /><br />Exact matches can be searched for by enclosing keywords in double-quotes.<br /><br />For example, <u>"notebook computer"</u> would generate a result set which match the exact string.<br /><br />Brackets can be used for further control on the result set.<br /><br />For example, <u>Microsoft and (keyboard or mouse or "visual basic")</u>.]]></value>
+      <value><![CDATA[Trefwoorden mogen gescheiden worden door AND en/of OR statements om meer controle te krijgen over de zoekresultaten.<br /><br />Bijvoorbeeld <u>Microsoft AND mouse</u>zal een resultaat geven waar beide woorden in voorkomen. Maar, bijvoorbeeld <u>muis OR toetsenbord</u> zal een resultaat opleveren met beide woorden of een van de twee woorden.<br /><br />Om op een exacte regel of serie woorden te zoeken kunt u de woorden tussen dubbele aanhalingstekens (") plaatsen.<br /><br />Bijvoorbeeld, <u>"notebook computer"</u>zal een resultaat genereren waar deze exacte zin in terug te vinden is.<br /><br />Haakjes kunnen ook gebruikt worden om de  zoekresultaten te verfijnen.<br /><br />Bijvoorbeeld, <u>Microsoft and (keyboard or mouse or "visual basic")</u>.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>close_window</key>
-      <value><![CDATA[Close Window]]></value>
+      <value><![CDATA[Venster sluiten]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>error_search_at_least_one_input</key>
-      <value><![CDATA[At least one of the fields in the search form must be entered.]]></value>
+      <value><![CDATA[Ten minste een van de velden moet worden ingevuld.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_from_date</key>
-      <value><![CDATA[Invalid From datum.]]></value>
+      <value><![CDATA[Ongeldig vanaf datum]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_to_date</key>
-      <value><![CDATA[Invalid To datum.]]></value>
+      <value><![CDATA[Ongeldig tot datum.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_to_date_less_than_from_date</key>
-      <value><![CDATA[To datum must be greater than or equal to From datum.]]></value>
+      <value><![CDATA[Tot datum moet groter of gelijk zijn aan de vanaf datum.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_from_not_numeric</key>
-      <value><![CDATA[Price From must be a number.]]></value>
+      <value><![CDATA[Prijs vanaf moet een nummer zijn.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_to_not_numeric</key>
-      <value><![CDATA[Price To must be a number.]]></value>
+      <value><![CDATA[Prijs tot moet een nummer zijn.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_to_less_than_price_from</key>
-      <value><![CDATA[Price To must be greater than or equal to Price From.]]></value>
+      <value><![CDATA[Prijs tot moet groter of gelijk zijn aan de prijs vanaf.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_keywords</key>
-      <value><![CDATA[Invalid keywords.]]></value>
+      <value><![CDATA[Ongeldige steekwoorden.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>js_review_text</key>
-      <value><![CDATA[* The Review Text must have at least %s characters.]]></value>
+      <value><![CDATA[* De beoordelings tekst moet minimaal %s tekens lang zijn.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>js_review_rating</key>
-      <value><![CDATA[* You must rate the product for your review.]]></value>
+      <value><![CDATA[* Geef het artikel een beoordelingscijfer.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>js_no_payment_module_selected</key>
-      <value><![CDATA[* Please select a payment method for your bestelling.]]></value>
+      <value><![CDATA[* Selecteer de wijze van betaling voor uw bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_no_payment_module_selected</key>
-      <value><![CDATA[Please select a payment method for your bestelling.]]></value>
+      <value><![CDATA[Selecteer de wijze van betaling voor uw bestelling.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_conditions_not_accepted</key>
-      <value><![CDATA[Please confirm the terms and conditions bound to this bestelling by ticking the box below.]]></value>
+      <value><![CDATA[Bevestig de algemene voorwaarden voor deze bestelling door de volgende box af te vinken.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_privacy_statement_not_accepted</key>
-      <value><![CDATA[Please confirm the privacy statement by ticking the box below.]]></value>
+      <value><![CDATA[Bevestig de privacy verklaring voor deze bestelling door de volgende box af te vinken.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>field_customer_gender</key>
-      <value><![CDATA[Gender:]]></value>
+      <value><![CDATA[Man/Vrouw:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_gender_error</key>
-      <value><![CDATA[Please select your Gender.]]></value>
+      <value><![CDATA[De keuze.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_first_name</key>
-      <value><![CDATA[First Name:]]></value>
+      <value><![CDATA[Voornaam:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_first_name_error</key>
-      <value><![CDATA[Your First Name must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[De voornaam moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_last_name</key>
-      <value><![CDATA[Last Name:]]></value>
+      <value><![CDATA[Achternaam:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_last_name_error</key>
-      <value><![CDATA[Your Last Name must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[De achternaam moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_date_of_birth</key>
-      <value><![CDATA[Date of Birth:]]></value>
+      <value><![CDATA[Geboortedatum:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_date_of_birth_error</key>
-      <value><![CDATA[Your datum of Birth must be set correctly.]]></value>
+      <value><![CDATA[Voer de geboortedatum als volgt in: (voorb. 24-12-1970).]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address</key>
-      <value><![CDATA[E-Mail Address:]]></value>
+      <value><![CDATA[E-mail adres:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_error</key>
-      <value><![CDATA[Your E-Mail Address must contain a minimum of %S characters.]]></value>
+      <value><![CDATA[Het e-mail adres moet minimaal %S tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_check_error</key>
-      <value><![CDATA[Your E-Mail Address does not appear to be valid - please make any necessary corrections.]]></value>
+      <value><![CDATA[Het lijkt erop dat uw e-mailadres onjuist is!]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_exists_error</key>
-      <value><![CDATA[Your E-Mail Address already exists in our records - please log in with the e-mail address or create an klantenprofiel with a different address.]]></value>
+      <value><![CDATA[Het e-mailadres bestaat al! Login met het huidige e-mail adres of gebruik een ander e-mail adres om een nieuw klantenprofiel aan te maken.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_company</key>
-      <value><![CDATA[Company Name:]]></value>
+      <value><![CDATA[Bedrijfsnaam:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_company_error</key>
-      <value><![CDATA[Your Company Name must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[De bedrijfsnaam moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address</key>
-      <value><![CDATA[Street Address:]]></value>
+      <value><![CDATA[Straatnaam + huisnummer:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address_error</key>
-      <value><![CDATA[Your Street Address must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[De straatnaam moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_suburb</key>
-      <value><![CDATA[Suburb:]]></value>
+      <value><![CDATA[Woonwijk:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_suburb_error</key>
-      <value><![CDATA[Your Suburb must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[De straatnaam moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code</key>
-      <value><![CDATA[Post Code:]]></value>
+      <value><![CDATA[Postcode:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code_error</key>
-      <value><![CDATA[Your Post Code must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[De postcode moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_city</key>
-      <value><![CDATA[City:]]></value>
+      <value><![CDATA[Woonplaats:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_city_error</key>
-      <value><![CDATA[Your City must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[De woonplaats moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state</key>
-      <value><![CDATA[State/Province:]]></value>
+      <value><![CDATA[Provincie:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_error</key>
-      <value><![CDATA[Your State must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[De provincie moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_select_pull_down_error</key>
-      <value><![CDATA[Please select a state from the States pull down menu.]]></value>
+      <value><![CDATA[Selecteer een provincie uit het keuzemenu.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_country</key>
-      <value><![CDATA[Country:]]></value>
+      <value><![CDATA[Land:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_country_error</key>
-      <value><![CDATA[You must select a country from the Countries pull down menu.]]></value>
+      <value><![CDATA[Kies een land uit het keuzemenu.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_telephone_number</key>
-      <value><![CDATA[Telephone Number:]]></value>
+      <value><![CDATA[Telefoonnummer:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_telephone_number_error</key>
-      <value><![CDATA[Your Telephone Number must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Het telefoonnummer moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_fax_number</key>
-      <value><![CDATA[Fax Number:]]></value>
+      <value><![CDATA[Faxnummer:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_fax_number_error</key>
-      <value><![CDATA[Your Fax Number must contain a minium of %s characters.]]></value>
+      <value><![CDATA[Het faxnummer moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_newsletter</key>
-      <value><![CDATA[Newsletter:]]></value>
+      <value><![CDATA[Nieuwsbrief:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password</key>
-      <value><![CDATA[Password:]]></value>
+      <value><![CDATA[Wachtwoord:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_error</key>
-      <value><![CDATA[Your wachtwoord must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Uw wachtwoord moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_mismatch_with_confirmation</key>
-      <value><![CDATA[The wachtwoord Confirmation must match your wachtwoord.]]></value>
+      <value><![CDATA[Beide wachtwoorden moet hetzelfde zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_confirmation</key>
-      <value><![CDATA[Password Confirmation:]]></value>
+      <value><![CDATA[Wachtwoord bevestigen:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current</key>
-      <value><![CDATA[Current wachtwoord:]]></value>
+      <value><![CDATA[Huidig wachtwoord:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current_error</key>
-      <value><![CDATA[Your wachtwoord must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Het wachtwoord moet minimaal %s tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new</key>
-      <value><![CDATA[New wachtwoord:]]></value>
+      <value><![CDATA[Nieuw wachtwoord:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_error</key>
-      <value><![CDATA[Your new wachtwoord must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Het nieuwe wachtwoord moet minimaal %s  tekens lang zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_mismatch_with_confirmation_error</key>
-      <value><![CDATA[The wachtwoord Confirmation must match your new wachtwoord.]]></value>
+      <value><![CDATA[Beide wachtwoorden moeten hetzelfde zijn.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>reviewed_by</key>
-      <value><![CDATA[by %s]]></value>
+      <value><![CDATA[van %s]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_rating</key>
-      <value><![CDATA[Rating: %s [%s]]]></value>
+      <value><![CDATA[Waardering: %s [%s]]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_date_added</key>
-      <value><![CDATA[Date Added: %s]]></value>
+      <value><![CDATA[Datum toegevoegd: %s]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>credit_card_number_error</key>
-      <value><![CDATA[The credit card number entered is invalid.<br />Please check the number and try again.]]></value>
+      <value><![CDATA[Het ingevulde nummer van de CreditCard is niet geldig.<br />Controleer het nummer en probeer het opnieuw.]]></value>
+      <group>general</group>
+    </definition>
+    <definition>
+      <key>maximum_file_upload_size</key>
+      <value><![CDATA[(Max: %s)]]></value>
       <group>general</group>
     </definition>
   </definitions>
