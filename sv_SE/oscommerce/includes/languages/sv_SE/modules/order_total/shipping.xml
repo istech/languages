@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_shipping_title</key>
+      <value><![CDATA[Leverans]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_shipping_description</key>
+      <value><![CDATA[Orderleveranskostnad]]></value>
+      <group>modules-order_total</group>
+    </definition>
+  </definitions>
+</language>

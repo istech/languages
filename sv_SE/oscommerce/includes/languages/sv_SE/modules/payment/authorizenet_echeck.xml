@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_authorizenet_echeck_title</key>
+      <value><![CDATA[Authorize.net eCheck]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_description</key>
+      <value><![CDATA[Authorize.net eCheck transaktioner]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_method_title</key>
+      <value><![CDATA[Bank/Checkkonto]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_owner</key>
+      <value><![CDATA[Kontoinnehavaren:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_account_type</key>
+      <value><![CDATA[Kontotyp:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_account_type_checking</key>
+      <value><![CDATA[Checking]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_account_type_business_checking</key>
+      <value><![CDATA[Business Checking]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_account_type_savings</key>
+      <value><![CDATA[Spar]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_account_number</key>
+      <value><![CDATA[Kontonummer:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_bank_name</key>
+      <value><![CDATA[Banknamn:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_routing_code</key>
+      <value><![CDATA[Routing kod:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_tax_id</key>
+      <value><![CDATA[Skatt ID eller SSN:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_org_type</key>
+      <value><![CDATA[Organisationstyp:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_org_type_individual</key>
+      <value><![CDATA[Individuel]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_org_type_business</key>
+      <value><![CDATA[Affärs]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_js_owner</key>
+      <value><![CDATA[* Var vänlig och ange kontoinnehavarens namn.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_js_account_number</key>
+      <value><![CDATA[* Var vänlig och ange kontonummret.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_js_bank_name</key>
+      <value><![CDATA[* Var vänlig och ange banknamnet.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_js_routing_code</key>
+      <value><![CDATA[* Bankens clearingsnummer måste innehålla %s nummer.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_js_tax_id</key>
+      <value><![CDATA[* Skatt ID eller SSN måste innehålla %s nummer.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_error_general</key>
+      <value><![CDATA[Det uppstod ett problem vid bearbetningen av detta bankkonto. Var vänlig och kontrollera uppgifterna och försök igen.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_error_routing_code</key>
+      <value><![CDATA[Clearingsnummret måste innehålla %s nummer. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_error_invalid_routing_code</key>
+      <value><![CDATA[Det uppstod ett problem med clearingsnummret. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_error_invalid_account</key>
+      <value><![CDATA[Det uppstod ett problem med kontonummret. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_error_tax_id</key>
+      <value><![CDATA[Skatt ID eller SSN måste innehålla %s nummer. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_error_invalid_tax_id</key>
+      <value><![CDATA[Det uppstod ett problem med skatt ID eller SSN. Var vänlig och kontrollerakontouppgifterna och försök igen.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_authorizenet_echeck_confirmation_message</key>
+      <value><![CDATA[Genom att bekräfta denna order tillåter jag %s att belasta mitt %s konto på %s till summan av %s för denna orders varor.]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>

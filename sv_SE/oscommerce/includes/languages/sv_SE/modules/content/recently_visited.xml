@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>recently_visited_title</key>
+      <value><![CDATA[Historik för nybesök]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>recently_visited_products_title</key>
+      <value><![CDATA[Nybesökta produkter]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>recently_visited_categories_title</key>
+      <value><![CDATA[Nybesökta kategorier]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>recently_visited_searches_title</key>
+      <value><![CDATA[Nybesökta sökningar]]></value>
+      <group>modules-content</group>
+    </definition>
+    <definition>
+      <key>recently_visited_item_in_category</key>
+      <value><![CDATA[i %s]]></value>
+      <group>modules-content</group>
+    </definition>
+  </definitions>
+</language>

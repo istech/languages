@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>customers_also_purchased_title</key>
+      <value><![CDATA[Clientes que compraron este producto también han comprado]]></value>
+      <group>modules-content</group>
+    </definition>
+  </definitions>
+</language>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_secpay_title</key>
+      <value><![CDATA[SECPay]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_secpay_description</key>
+      <value><![CDATA[Kreditkortstestinfo:<br /><br />CC#: 4444333322221111<br />Giltlighetstid: Vad som helst]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_secpay_error</key>
+      <value><![CDATA[Kreditkortsfel!]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_secpay_error_message</key>
+      <value><![CDATA[Det uppstod ett fel vid bearbetningen av ditt kreditkort. Var vänlig och försök igen.]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>
