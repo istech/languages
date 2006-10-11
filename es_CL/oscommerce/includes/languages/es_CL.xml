@@ -3,7 +3,7 @@
   <data>
     <title><![CDATA[Castellano]]></title>
     <code><![CDATA[es_CL]]></code>
-    <locale><![CDATA[es_CL,en_CL.UTF-8,es_CL,spanish_chile]]></locale>
+    <locale><![CDATA[es_CL.UTF-8,es_CL,spanish_chile]]></locale>
     <character_set><![CDATA[utf-8]]></character_set>
     <text_direction><![CDATA[ltr]]></text_direction>
     <date_format_short><![CDATA[%d/%m/%Y]]></date_format_short>
