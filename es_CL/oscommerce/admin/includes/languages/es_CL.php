@@ -114,7 +114,7 @@ define('CATEGORY_COMPANY', 'Empresa');
 define('CATEGORY_OPTIONS', 'Opciones');
 
 define('ENTRY_GENDER', 'Sexo:');
-define('ENTRY_GENDER_ERROR', 'Por favor elija el sexo.');
+define('ENTRY_GENDER_ERROR', 'Por favor elija su sexo.');
 define('ENTRY_FIRST_NAME', 'Nombre:');
 define('ENTRY_FIRST_NAME_ERROR', 'Su nombre debe contener un mínimo de ' . ACCOUNT_FIRST_NAME . ' caracteres.');
 define('ENTRY_LAST_NAME', 'Apellidos:');
@@ -287,16 +287,16 @@ define('TEXT_TRUE', 'Verdad');
 define('TEXT_FALSE', 'Falso');
 define('TEXT_OPTIONAL', 'Voluntario');
 
-define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Error: Destinación no existe.');
-define('ERROR_DESTINATION_NOT_WRITEABLE', 'Error: Destinación no es escribible.');
-define('ERROR_FILE_NOT_REMOVEABLE', 'Error: No puede quitar este archivo. Por favor fijar los permisos del usuario en: %s');
+define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Error: El destino no existe.');
+define('ERROR_DESTINATION_NOT_WRITEABLE', 'Error: No se puede escribir en destino.');
+define('ERROR_FILE_NOT_REMOVEABLE', 'Error: No puede borrar este archivo. Por favor fijar los permisos del usuario en: %s');
 define('ERROR_FILE_NOT_SAVED', 'Error: Archivo subido no guardado.');
 define('ERROR_FILETYPE_NOT_ALLOWED', 'Error: Tipo del archivo subido no permitido.');
 define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Exito: El archivo subido se ha guardado con éxito.');
-define('WARNING_NO_FILE_UPLOADED', 'Advertencia: Ningún archivo se ha subido.');
+define('WARNING_NO_FILE_UPLOADED', 'Advertencia: No se ha subido ningún archivo.');
 define('WARNING_FILE_UPLOADS_DISABLED', 'Advertencia: Los archivos subidos se inhabilitaron en el archivo de la configuración de php.ini.');
 
-define('SUCCESS_DB_ROWS_UPDATED', 'Exito: Entrada actualizada con éxito!');
-define('WARNING_DB_ROWS_NOT_UPDATED', 'Advertencia: Entrada no sera actualizada debido a los datos contentidos son iguales.');
+define('SUCCESS_DB_ROWS_UPDATED', 'Correcto: Entrada actualizada con éxito!');
+define('WARNING_DB_ROWS_NOT_UPDATED', 'Advertencia: La entrada no será actualizada debido a que los datos contentidos son iguales.');
 define('ERROR_DB_ROWS_NOT_UPDATED', 'Error: Entrada no actualizada debido a un error.');
 ?>
