@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>box_ordering_steps_heading</key>
+      <value><![CDATA[Pasos del pedido]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>box_ordering_steps_delivery</key>
+      <value><![CDATA[Información del envío]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>box_ordering_steps_payment</key>
+      <value><![CDATA[Información del pago]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>box_ordering_steps_confirmation</key>
+      <value><![CDATA[Confirmación]]></value>
+      <group>modules-boxes</group>
+    </definition>
+    <definition>
+      <key>box_ordering_steps_complete</key>
+      <value><![CDATA[¡Terminado!]]></value>
+      <group>modules-boxes</group>
+    </definition>
+  </definitions>
+</language>

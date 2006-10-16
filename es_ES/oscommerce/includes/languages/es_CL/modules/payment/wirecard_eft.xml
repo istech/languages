@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_wirecard_eft_title</key>
+      <value><![CDATA[Wire Card EFT]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_description</key>
+      <value><![CDATA[Wire Card EFT transacciones]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_method_title</key>
+      <value><![CDATA[Transferencia banco]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_bank_owner</key>
+      <value><![CDATA[Dueño de la cuenta:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_bank_owner_firstname</key>
+      <value><![CDATA[Nombre del dueño de la cuenta:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_bank_owner_lastname</key>
+      <value><![CDATA[Apellido del dueño de la cuenta:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_account_type</key>
+      <value><![CDATA[Tipo de cuenta:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_account_type_checking</key>
+      <value><![CDATA[Cheque]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_account_type_savings</key>
+      <value><![CDATA[Ahorros]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_bank_account_number</key>
+      <value><![CDATA[Número de la cuenta:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_bank_code</key>
+      <value><![CDATA[Código: del banque]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_check_number</key>
+      <value><![CDATA[Número de cheque]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_id_number</key>
+      <value><![CDATA[Número de identificación:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_js_error</key>
+      <value><![CDATA[* Todos los campos requirieron.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_wirecard_eft_error_general</key>
+      <value><![CDATA[Ha habido un error en el proceso de tu cuenta del banco. Por favor revise tus datos y intente otra vez.]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>
