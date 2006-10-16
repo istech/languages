@@ -13,10 +13,10 @@
 define('HEADING_TITLE', 'Plantillas');
 
 define('TABLE_HEADING_TEMPLATES', 'Plantillas');
-define('TABLE_HEADING_STATUS', 'Estatus');
+define('TABLE_HEADING_STATUS', 'Estado');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('INFO_TEMPLATE_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(Todos los parámetros de la plantilla serían quitados)');
+define('INFO_TEMPLATE_UNINSTALL_INTRO', '¿Está seguro que quiere desinstalar este módulo?<br /><br />(Todos los parámetros de la plantilla serán borrados)');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: La plantilla predeterminada no puede ser quitada. Por favor fijar otra plantilla como el predeterminada, y intente otra vez.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: La plantilla predeterminada no puede ser quitada. Por favor fije otra plantilla como el predeterminada, y inténtelo de nuevo.');
 ?>
