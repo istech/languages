@@ -14,11 +14,12 @@ page_title_installation = Nueva Instalación
 
 page_heading_step_1 = Servidor de base de datos
 page_heading_step_2 = Servidor Web
-page_heading_step_3 = Configurar almacén
+page_heading_step_3 = Configurar de la tienda
 page_heading_step_4 = ¡Terminado!
 
-text_installation = <p>Esta instalación web-basada va a correctamente instalar y configurar el osCommerce para funcionar en este servidor.</p><p>Por favor sigua las instrucciones en la pantalla que le tomarán con el servidor de la base de datos, el servidor web, y las configuraciones del almacén. Si necesita ayuda en cualquier etapa, por favor consultar la documentación o buscar la ayuda en los foros de la comunidad.</p>
-text_successful_installation = ¡La instalación y configuración fueron con exito!
+text_installation = <p>This web-based installation routine will correctly setup and configure osCommerce to run on this server.</p><p>Please following the on-screen instructions that will take you through the database server, web server, and store configuration options. If help is needed at any stage, please consult the documentation or seek help at the community support forums.</p>
+text_successful_installation = The installation and configuration was successful!
+text_go_to_shop_after_cfg_file_is_saved = Please visit your store after the configuration file has been saved:
 
 param_database_server = Servidor de base de datos
 param_database_server_description = La dirección del servidor de la base de datos bajo la forma de nombre de anfitrión o dirección IP.
@@ -39,7 +40,7 @@ param_database_import_sample_data_description = Poner los datos de muestra en la
 param_web_address = Dirección WWW
 param_web_address_description = La dirección web a la tienda.
 param_web_root_directory = Directorio raíz del servidor web
-param_web_root_directory_description = El directorio dondel almacén está instalada en el servidor.
+param_web_root_directory_description = El directorio donde el catálogo está instalado en el servidor.
 param_web_work_directory = Directorio de trabajo
 param_web_work_directory_description = El directorio para los archivos temporalmente creados. Este directorio se debe situar fuera del directorio de raíz pública del servidor web por razones de seguridad. (Los servidores compartidos no se deben usar /tmp/)
 
@@ -81,7 +82,7 @@ rpc_database_importing = La estructura de la base de datos ahora se está import
 rpc_database_imported = La base de datos sea importado con éxito.
 rpc_database_import_error = Había un problema que importaba la base de datos. El error siguiente había ocurrido:</p><p><b>%s</b></p><p>Por favor verificar los parámetros de la conexión y intente otra vez.
 
-rpc_work_directory_test = Probando el directorio de trabajo..
+rpc_work_directory_test = Probando el directorio de trabajo...
 rpc_work_directory_error_non_existent = Había un problema de acceso al directorio de trabajo. El error siguiente había ocurrido:<br /><br /><b>El directorio no existe:<br /><br />%s</b><br /><br />Por favor verificar el directorio y intente otra vez.
 rpc_work_directory_error_not_writeable = Había un problema de acceso al directorio de trabajo. El error siguiente había ocurrido:<br /><br /><b>El servidor web no tiene permisos para escribir al directorio:<br /><br />%s</b><br /><br />Por favor verificar los permisos del directorio y intente otra vez.
 rpc_work_directory_configured = El directorio de trabajo se configuró con éxito.
