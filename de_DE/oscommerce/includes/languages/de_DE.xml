@@ -296,187 +296,187 @@
     </definition>
     <definition>
       <key>breadcrumb_sign_in</key>
-      <value><![CDATA[Sign In]]></value>
+      <value><![CDATA[Anmelden]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_sign_out</key>
-      <value><![CDATA[Sign Out]]></value>
+      <value><![CDATA[Abmelden]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_my_account</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Ihr Konto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_account</key>
-      <value><![CDATA[Edit Account]]></value>
+      <value><![CDATA[Konto bearbeiten]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_password</key>
-      <value><![CDATA[Change Password]]></value>
+      <value><![CDATA[Passwort &auml;ndern]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_my_orders</key>
-      <value><![CDATA[Orders]]></value>
+      <value><![CDATA[Bestellungen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_order_information</key>
-      <value><![CDATA[Order #%s]]></value>
+      <value><![CDATA[Bestellung Nr. %s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_newsletters</key>
-      <value><![CDATA[Newsletters]]></value>
+      <value><![CDATA[Newsletter]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_notifications</key>
-      <value><![CDATA[Notifications]]></value>
+      <value><![CDATA[Benachrichtigungen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book</key>
-      <value><![CDATA[Address Book]]></value>
+      <value><![CDATA[Adressbuch]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_add_entry</key>
-      <value><![CDATA[Add Entry]]></value>
+      <value><![CDATA[Neue Adresse]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_edit_entry</key>
-      <value><![CDATA[Edit Entry]]></value>
+      <value><![CDATA[Adresse &auml;ndern]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_delete_entry</key>
-      <value><![CDATA[Delete Entry]]></value>
+      <value><![CDATA[Adresse l&ouml;schen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_create_account</key>
-      <value><![CDATA[Create an Account]]></value>
+      <value><![CDATA[Ein Konto erstellen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_password_forgotten</key>
-      <value><![CDATA[Password Forgotten]]></value>
+      <value><![CDATA[Passwort vergessen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>sign_in_heading</key>
-      <value><![CDATA[Welcome, Please Sign In]]></value>
+      <value><![CDATA[Willkommen, bitte melden Sie sich an]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>sign_out_heading</key>
-      <value><![CDATA[Sign Out From Your Account]]></value>
+      <value><![CDATA[Von Ihrem Konto abmelden]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_heading</key>
-      <value><![CDATA[My Account]]></value>
+      <value><![CDATA[Ihr Konto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_edit_heading</key>
-      <value><![CDATA[My Account Information]]></value>
+      <value><![CDATA[Meine Kontoinformationen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_password_heading</key>
-      <value><![CDATA[My Account Password]]></value>
+      <value><![CDATA[Mein Passwort]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>orders_heading</key>
-      <value><![CDATA[My Orders]]></value>
+      <value><![CDATA[Meine Bestellungen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_information_heading</key>
-      <value><![CDATA[Order #%s]]></value>
+      <value><![CDATA[Bestellung Nr. %s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletters_heading</key>
-      <value><![CDATA[My Newsletter Subscriptions]]></value>
+      <value><![CDATA[Meine Newsletter-Abos]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>notifications_heading</key>
-      <value><![CDATA[My Product Notifications]]></value>
+      <value><![CDATA[Meine Produktbenachrichtigungen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_heading</key>
-      <value><![CDATA[My Address Book]]></value>
+      <value><![CDATA[Mein Adressbuch]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_add_entry_heading</key>
-      <value><![CDATA[New Address Book Entry]]></value>
+      <value><![CDATA[Neuer Adressbucheintrag]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_edit_entry_heading</key>
-      <value><![CDATA[Edit Address Book Entry]]></value>
+      <value><![CDATA[Adressbucheintrag &auml;ndern]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_entry_heading</key>
-      <value><![CDATA[Remove Address Book Entry]]></value>
+      <value><![CDATA[Adressbucheintrag l&ouml;schen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_heading</key>
-      <value><![CDATA[Create an Account]]></value>
+      <value><![CDATA[Konto erstellen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_success_heading</key>
-      <value><![CDATA[Your Account Has Been Created!]]></value>
+      <value><![CDATA[Ihr Konto wurde erstellt!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_new_customer_heading</key>
-      <value><![CDATA[New Customer]]></value>
+      <value><![CDATA[Neuer Kunde]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_new_customer_text</key>
-      <value><![CDATA[I am a new customer and do not yet have an account here.<br /><br />By creating an account you will be able to take advantage of this store by shopping faster, be kept up to date on the status of an order, and keep track of the orders you have made.]]></value>
+      <value><![CDATA[Ich bin ein neuer Kunde und habe noch kein Konto hier.<br /><br />Wenn Sie ein Konto in diesem Shop erstellen, sind Sie dazu in der Lage, schneller zu bestellen, kennen jederzeit den Status Ihrer Bestellungen und haben immer eine aktuelle Übersicht über Ihre bisherigen Bestellungen.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_returning_customer_heading</key>
-      <value><![CDATA[Returning Customer]]></value>
+      <value><![CDATA[Bereits Kunde]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_returning_customer_text</key>
-      <value><![CDATA[I am a returning customer and already have an account here.]]></value>
+      <value><![CDATA[Ich bin bereits Kunde und habe hier schon ein Konto.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_returning_customer_password_forgotten</key>
-      <value><![CDATA[Password forgotten? <a href="%s">Click here</a>.]]></value>
+      <value><![CDATA[Passwort vergessen? <a href="%s">Klicken Sie hier</a>.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_login_no_match</key>
-      <value><![CDATA[There was no match for the e-mail address and/or password. Please try again.]]></value>
+      <value><![CDATA[Keine &Uuml;bereinstimmung der E-Mail-Adresse und/oder des Passworts. Bitte versuchen Sie es erneut.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>date_added_to_shopping_cart</key>
-      <value><![CDATA[Date Added: %s]]></value>
+      <value><![CDATA[Hinzugef&uml;gt am: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -496,172 +496,172 @@
     </definition>
     <definition>
       <key>my_account_information</key>
-      <value><![CDATA[View or change my account information.]]></value>
+      <value><![CDATA[Meine Kontoinformationen anzeigen oder &auml;ndern.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_account_address_book</key>
-      <value><![CDATA[View or change entries in my address book.]]></value>
+      <value><![CDATA[Adressbucheintr&auml;ge anzeigen oder &auml;ndern.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_account_password</key>
-      <value><![CDATA[Change my account password.]]></value>
+      <value><![CDATA[Mein Passwort &auml;ndern.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_orders_title</key>
-      <value><![CDATA[My Orders]]></value>
+      <value><![CDATA[Meine Bestellungen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_orders_view</key>
-      <value><![CDATA[View the orders I have made.]]></value>
+      <value><![CDATA[Meine bisherigen Bestellungen anzeigen.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_notifications_title</key>
-      <value><![CDATA[My Notifications]]></value>
+      <value><![CDATA[E-Mail Benachrichtigungen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_notifications_newsletters</key>
-      <value><![CDATA[Subscribe and unsubscribe from newsletters.]]></value>
+      <value><![CDATA[Newsletter abonnieren oder abbestellen.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_notifications_products</key>
-      <value><![CDATA[View and change my product notifications list.]]></value>
+      <value><![CDATA[Meine Produktbenachrichtigungen anzeigen oder &auml;ndern.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_password_title</key>
-      <value><![CDATA[My Password]]></value>
+      <value><![CDATA[Mein Passwort]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_number</key>
-      <value><![CDATA[Order Number:]]></value>
+      <value><![CDATA[Bestellnummer:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_status</key>
-      <value><![CDATA[Order Status:]]></value>
+      <value><![CDATA[Bestellstatus:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_date</key>
-      <value><![CDATA[Order Date:]]></value>
+      <value><![CDATA[Bestelldatum:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_shipped_to</key>
-      <value><![CDATA[Shipped To:]]></value>
+      <value><![CDATA[Lieferanschrift:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_billed_to</key>
-      <value><![CDATA[Billed To:]]></value>
+      <value><![CDATA[Rechnungsanschrift:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_products</key>
-      <value><![CDATA[Products:]]></value>
+      <value><![CDATA[Artikel:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_cost</key>
-      <value><![CDATA[Order Cost:]]></value>
+      <value><![CDATA[Summe:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>no_orders_made_yet</key>
-      <value><![CDATA[You have not made any purchases yet.]]></value>
+      <value><![CDATA[Sie haben noch keine Bestellungen get&auml;tigt.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_number_heading</key>
-      <value><![CDATA[Order #%s]]></value>
+      <value><![CDATA[Bestellnummer %s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_date_heading</key>
-      <value><![CDATA[Order Date:]]></value>
+      <value><![CDATA[Bestelldatum:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_total_heading</key>
-      <value><![CDATA[Order Total:]]></value>
+      <value><![CDATA[Summe:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_history_heading</key>
-      <value><![CDATA[Order History]]></value>
+      <value><![CDATA[Bestellhistorie]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>download_heading</key>
-      <value><![CDATA[Download links]]></value>
+      <value><![CDATA[Artikel herunterladen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>download_link_expires</key>
-      <value><![CDATA[Link expires: %s]]></value>
+      <value><![CDATA[Herunterladen m&ouml;glich bis: %s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>download_counter_remaining</key>
-      <value><![CDATA[downloads remaining]]></value>
+      <value><![CDATA[max. Anz. Downloads]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_subscriptions_heading</key>
-      <value><![CDATA[My Newletter Subscriptions]]></value>
+      <value><![CDATA[Meine Newsletter-Abos]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_general</key>
-      <value><![CDATA[General Newletter]]></value>
+      <value><![CDATA[Allgemeiner Newsletter]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_general_description</key>
-      <value><![CDATA[Including store news, new products, special offers, and other promotional announcements.]]></value>
+      <value><![CDATA[Einschlie&szlig;lich Shop-News, neue Produkte, Sonderangebote und andere Ankündigungen.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications</key>
-      <value><![CDATA[My Product Notifications]]></value>
+      <value><![CDATA[Meine Produktbenachrichtigungen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_description</key>
-      <value><![CDATA[The product notification list allows you to stay up to date on products you find of interest.<br /><br />To be up to date on all product changes, select <b>Global Product Notifications</b>.]]></value>
+	  <value><![CDATA[Diese Benachrichtigungen erlabuben es Ihnen, &uuml;ber alle &Auml;nderungen an einem Produkt informiert zu werden.<br><br>Wenn Sie Benachrichtigungen f&uuml; unser komplettes Angebot erhalten wollen, sollte Sie die <strong>allgemeinen Benachrichtigungen</strong> aktivieren.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global</key>
-      <value><![CDATA[Global Product Notifications]]></value>
+      <value><![CDATA[Allgemeine Benachrichtungen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global_description</key>
-      <value><![CDATA[Recieve notifications on all available products.]]></value>
+      <value><![CDATA[&Uuml;ber alle &Auml;nderungen informiert werden.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products</key>
-      <value><![CDATA[Product Notifications]]></value>
+      <value><![CDATA[Meine Produktbenachrichtigungen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_description</key>
-      <value><![CDATA[To remove a product notification, clear the products checkbox and click on Continue.]]></value>
+      <value><![CDATA[Um eine aktivierte Benachrichtigung zu entfernen, einfach das H&auml;kchen aus der Checkbox entfernen und auf den <strong>Weiter</strong>-Button klicken.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_none</key>
-      <value><![CDATA[There are currently no products marked to be notified on.<br /><br />To add products to your product notification list, click on the notification link available on the detailed product information page.]]></value>
+      <value><![CDATA[Sie haben momentan keine Produktbenachrichtigungen aktiviert.<br /><br />Wenn Sie Produktbenachrichtigungen aktivieren m&ouml;chten, klicken Sie den Produktbenachrichtigungs-Link auf der jeweiligen Produktdetailseite.]]></value>
       <group>account</group>
     </definition>
     <definition>
