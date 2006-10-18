@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_owner</key>
-      <value><![CDATA[Dueño de la cuenta:]]></value>
+      <value><![CDATA[Titular de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -78,12 +78,12 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_owner</key>
-      <value><![CDATA[* Por favor escribir el nombre del dueño de la cuenta bancaria.]]></value>
+      <value><![CDATA[* Por favor escriba el nombre del dueño de la cuenta bancaria.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_account_number</key>
-      <value><![CDATA[* Por favor escribir el número de la cuenta bancaria.]]></value>
+      <value><![CDATA[* Por favor escriba el número de la cuenta bancaria.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

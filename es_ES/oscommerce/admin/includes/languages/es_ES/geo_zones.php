@@ -19,24 +19,24 @@ define('TABLE_HEADING_COUNTRY_ZONE', 'Zona');
 define('TABLE_HEADING_ACTION', 'Acción');
 
 define('TEXT_INFO_HEADING_NEW_ZONE', 'Nueva zona');
-define('TEXT_INFO_NEW_ZONE_INTRO', 'Por favor ingresar la información de la nueva zona');
+define('TEXT_INFO_NEW_ZONE_INTRO', 'Por favor introduzca la información de la nueva zona');
 
 define('TEXT_INFO_HEADING_EDIT_ZONE', 'Editar zona');
-define('TEXT_INFO_EDIT_ZONE_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_INFO_EDIT_ZONE_INTRO', 'Por favor realice cualquier cambio necesario');
 
 define('TEXT_INFO_HEADING_DELETE_ZONE', 'Borrar zona');
 define('TEXT_INFO_DELETE_ZONE_INTRO', '¿Esta seguro que quiere borrar esta zona?');
 
 define('TEXT_INFO_HEADING_NEW_SUB_ZONE', 'Nueva subzona');
-define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'Por favor ingresar la información de la nueva subzona');
+define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'Por favor introduzca la información de la nueva subzona');
 
 define('TEXT_INFO_HEADING_EDIT_SUB_ZONE', 'Editar subzona');
-define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'Por favor realice cualquier cambio necesario');
 
 define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', 'Borrar subzona');
 define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', '¿Esta seguro que quiere borrar esta subzona?');
 
-define('TEXT_INFO_DATE_ADDED', 'Fecha agregada:');
+define('TEXT_INFO_DATE_ADDED', 'Fecha añadida:');
 define('TEXT_INFO_LAST_MODIFIED', 'Ultima modificación:');
 define('TEXT_INFO_ZONE_NAME', 'Nombre de la zona:');
 define('TEXT_INFO_NUMBER_ZONES', 'Número de zonas:');

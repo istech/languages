@@ -35,5 +35,5 @@ define('TEXT_INFO_INSERT_INTRO', 'Por favor introduzca la nueva posición de la 
 define('TEXT_INFO_EDIT_INTRO', 'Por favor realice cualquier cambio necesario');
 define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar esta posición de la caja de la plantilla?');
 
-define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Advertencia: La plantilla predeterminada no puede ser quitada. Por favor fije otra plantilla como la predeterminada e intentelo de nuevo.');
+define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Advertencia: La plantilla predeterminada no puede ser quitada. Por favor elija otra plantilla como la predeterminada e intentelo de nuevo.');
 ?>

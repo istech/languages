@@ -14,9 +14,9 @@ define('HEADING_TITLE', 'Comentarios');
 
 define('TABLE_HEADING_PRODUCTS', 'Productos');
 define('TABLE_HEADING_LANGUAGE', 'Lenguaje');
-define('TABLE_HEADING_RATING', 'Rating');
-define('TABLE_HEADING_DATE_ADDED', 'Fecha agregada');
-define('TABLE_HEADING_STATUS', 'Estatus');
+define('TABLE_HEADING_RATING', 'Valoración');
+define('TABLE_HEADING_DATE_ADDED', 'Fecha añadida');
+define('TABLE_HEADING_STATUS', 'Estado');
 define('TABLE_HEADING_ACTION', 'Acción');
 
 define('ENTRY_PRODUCT', 'Producto:');
@@ -32,10 +32,10 @@ define('TEXT_INFO_DATE_ADDED', 'Fecha agregada:');
 define('TEXT_INFO_LAST_MODIFIED', 'Ultima modificación:');
 define('TEXT_INFO_IMAGE_NONEXISTENT', 'IMÁGEN NO EXISTE');
 define('TEXT_INFO_REVIEW_AUTHOR', 'Autor:');
-define('TEXT_INFO_REVIEW_RATING', 'Rating:');
+define('TEXT_INFO_REVIEW_RATING', 'Valoración:');
 define('TEXT_INFO_REVIEW_READ', 'Leer:');
 define('TEXT_INFO_REVIEW_SIZE', 'Tamaño:');
-define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Rating mediano:');
+define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Valoración media:');
 
 define('TEXT_OF_5_STARS', '¡%s de 5 estrellas!');
 define('TEXT_GOOD', '<small><font color="#ff0000"><b>BUENO</b></font></small>');

@@ -10,10 +10,10 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_PRODUCTS_TITLE', 'Ultimos productos');
+  define('MODULE_SUMMARY_PRODUCTS_TITLE', 'Últimos productos');
 
   define('MODULE_SUMMARY_PRODUCTS_HEADING_PRODUCTS', 'Productos');
   define('MODULE_SUMMARY_PRODUCTS_HEADING_PRICE', 'Precios');
   define('MODULE_SUMMARY_PRODUCTS_HEADING_DATE', 'Fecha');
-  define('MODULE_SUMMARY_PRODUCTS_HEADING_STATUS', 'Estatus');
+  define('MODULE_SUMMARY_PRODUCTS_HEADING_STATUS', 'Estado');
 ?>

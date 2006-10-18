@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -18,17 +18,17 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner</key>
-      <value><![CDATA[Dueño de la cuenta:]]></value>
+      <value><![CDATA[Nombre del titular de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_firstname</key>
-      <value><![CDATA[Nombre del dueño de la cuenta:]]></value>
+      <value><![CDATA[Nombre del titular de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_lastname</key>
-      <value><![CDATA[Apellido del dueño de la cuenta:]]></value>
+      <value><![CDATA[Apellido del titular de la cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -43,7 +43,7 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type_savings</key>
-      <value><![CDATA[Ahorros]]></value>
+      <value><![CDATA[Savings]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -53,7 +53,7 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_code</key>
-      <value><![CDATA[Código: del banque]]></value>
+      <value><![CDATA[Código del banco]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -68,12 +68,12 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_js_error</key>
-      <value><![CDATA[* Todos los campos requirieron.]]></value>
+      <value><![CDATA[* Todos los campos son requeridos.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_error_general</key>
-      <value><![CDATA[Ha habido un error en el proceso de tu cuenta del banco. Por favor revise tus datos y intente otra vez.]]></value>
+      <value><![CDATA[Ha habido un error en el proceso de tu cuenta del banco. Por favor revise tus datos y inténtelo otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

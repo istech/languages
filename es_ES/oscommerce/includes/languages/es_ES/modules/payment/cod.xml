@@ -1,19 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>payment_cod_title</key>
-      <value><![CDATA[Efectivo en entrega]]></value>
+      <value><![CDATA[Contra reembolso]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cod_description</key>
-      <value><![CDATA[Efectivo en entrega]]></value>
+      <value><![CDATA[Contra reembolso]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cod_method_title</key>
-      <value><![CDATA[Efectivo en entrega]]></value>
+      <value><![CDATA[Contra reembolso]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

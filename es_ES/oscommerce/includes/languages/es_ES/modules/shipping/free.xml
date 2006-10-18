@@ -1,19 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>shipping_free_title</key>
-      <value><![CDATA[Envío gratis]]></value>
+      <value><![CDATA[Envío gratuito]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_free_description</key>
-      <value><![CDATA[Envío gratis]]></value>
+      <value><![CDATA[Envío gratuito]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_free_for_amount</key> 
-      <value><![CDATA[para los pedidos sobre %s]]></value>
+      <value><![CDATA[para los pedidos mayores de %s]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

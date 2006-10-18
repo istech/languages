@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>payment_saferpay_elv_title</key>
-      <value><![CDATA[Saferpay transferancia de banco]]></value>
+      <value><![CDATA[Transferencia bancaria Saferpay]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_description</key>
-      <value><![CDATA[Saferpay transacciónes de transferencia de banco]]></value>
+      <value><![CDATA[Transferencia bancaria Saferpay]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_method_title</key>
-      <value><![CDATA[Transferencia de banco]]></value>
+      <value><![CDATA[Transferencia bancaria]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -38,7 +38,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_elv_error_general</key>
-      <value><![CDATA[Había un problema que procesaba esta cuenta bancaria. Por favor controlar la información de la cuenta e intente otra vez.]]></value>
+      <value><![CDATA[Ha habido un problema al procesar esta cuenta bancaria. Por favor revise la información e inténtelo de nuevo.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

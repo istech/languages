@@ -13,10 +13,10 @@
 define('HEADING_TITLE', 'Productos esperados');
 
 define('TABLE_HEADING_PRODUCTS', 'Productos');
-define('TABLE_HEADING_DATE_EXPECTED', 'Fecha esperada');
+define('TABLE_HEADING_DATE_EXPECTED', 'Fecha de entrada');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_EDIT_INTRO', 'Por favor realice cualquier cambio necesario');
 
 define('TEXT_INFO_DATE_EXPECTED', 'Fecha esperada:');
 ?>

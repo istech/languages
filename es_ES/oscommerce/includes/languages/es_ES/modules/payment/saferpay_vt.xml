@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_vt_description</key>
-      <value><![CDATA[Saferpay virtual terminal transacciones]]></value>
+      <value><![CDATA[Transacciones Saferpay virtual terminal]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_vt_error_general</key>
-      <value><![CDATA[Había un problema que procesaba esta pedido. Por favor controlar la información de la facturación y intente otra vez.]]></value>
+      <value><![CDATA[Ha habido un error general al procesar este pedido. Por favor revise la información de facturación de nuevo.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

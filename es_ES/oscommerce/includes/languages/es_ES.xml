@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <data>
     <title><![CDATA[Castellano]]></title>
-    <code><![CDATA[es_CL]]></code>
-    <locale><![CDATA[es_CL.UTF-8,es_CL,spanish_chile]]></locale>
+    <code><![CDATA[es_ES]]></code>
+    <locale><![CDATA[es_CL.UTF-8,es_ES,spanish_spain]]></locale>
     <character_set><![CDATA[utf-8]]></character_set>
     <text_direction><![CDATA[ltr]]></text_direction>
     <date_format_short><![CDATA[%d/%m/%Y]]></date_format_short>
@@ -66,12 +66,12 @@
     </definition>
     <definition>
       <key>js_error</key>
-      <value><![CDATA[Errores han ocurrido durante el proceso de su formulario.\n\nPor favor hacer las siguientes correcciones:\n\n]]></value>
+      <value><![CDATA[Han ocurrido errores durante el procesado de su formulario.\n\nPor favor haga las siguientes correcciones:\n\n]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>js_error_already_submitted</key>
-      <value><![CDATA[Este formulario se ha sometido ya. Por favor precionar Ok y esperar este proceso que se termine.]]></value>
+      <value><![CDATA[Este formulario se ha enviado ya. Por favor haga click en OK y espere a que termine el proceso.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -106,12 +106,12 @@
     </definition>
     <definition>
       <key>result_set_next_page</key>
-      <value><![CDATA[[Próximo&nbsp;&gt;&gt;]]]></value>
+      <value><![CDATA[[Siguiente&nbsp;&gt;&gt;]]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_address</key>
-      <value><![CDATA[Agregar dirección]]></value>
+      <value><![CDATA[Añadir dirección]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -121,7 +121,7 @@
     </definition>
     <definition>
       <key>button_buy_now</key>
-      <value><![CDATA[Compre ahora]]></value>
+      <value><![CDATA[Comprar ahora]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -161,12 +161,12 @@
     </definition>
     <definition>
       <key>button_sign_in</key>
-      <value><![CDATA[Ingresar]]></value>
+      <value><![CDATA[Entrar]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_to_cart</key>
-      <value><![CDATA[Agregar al carro]]></value>
+      <value><![CDATA[Añadir al carro]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -186,7 +186,7 @@
     </definition>
     <definition>
       <key>button_write_review</key>
-      <value><![CDATA[Escribe comentario]]></value>
+      <value><![CDATA[Escribir comentario]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -211,7 +211,7 @@
     </definition>
     <definition>
       <key>index_text</key>
-      <value><![CDATA[Esta es una instalación predeterminada de la solución del almacén del e-comercio del osCommerce, productos demostrados están para los propósitos de demostración, <b>ningun producto comprado no será entregado ni tampoco será cobrado</b>.Cualquier información considerada en estos productos debe ser tratada como ficticia.]]></value>
+      <value><![CDATA[Esta es una instalación predeterminada osCommerce, una solución opensource de comercio electrónico. Los productos mostrados son solo para demostración, <b>ningún producto comprado será entregado ni tampoco será cobrado</b>. Cualquier información que conste en estos productos ha de ser considerada como ficticia.]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -251,7 +251,7 @@
     </definition>
     <definition>
       <key>listing_buy_now_heading</key>
-      <value><![CDATA[Compre ahora]]></value>
+      <value><![CDATA[Comprar ahora]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -266,37 +266,37 @@
     </definition>
     <definition>
       <key>filter_all_categories</key>
-      <value><![CDATA[Todas categorías]]></value>
+      <value><![CDATA[Todas las categorías]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_all_manufacturers</key>
-      <value><![CDATA[Todas fabricantes]]></value>
+      <value><![CDATA[Todas los fabricantes]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>greeting_guest</key>
-      <value><![CDATA[¡Bienvenido! <a href="%s">Ingresar</a> y ver <a href="%s">que hay de nuevo</a> desde su última visita.]]></value>
+      <value><![CDATA[¡Bienvenido! <a href="%s">Entre</a> y vea <a href="%s">que hay de nuevo</a> desde su última visita.]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>greeting_customer</key>
-      <value><![CDATA[¡Bienvenido %s! ¡Ver <a href="%s">que hay de nuevo</a> desde su última visita!]]></value>
+      <value><![CDATA[¡Bienvenido %s! ¡Vea <a href="%s">que hay de nuevo</a> desde su última visita!]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>listing_sort_ascendingly</key>
-      <value><![CDATA[Clase por %s ascender]]></value>
+      <value><![CDATA[Ordenar por %s ascender]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>listing_sort_descendingly</key>
-      <value><![CDATA[Clase por %s descender]]></value>
+      <value><![CDATA[Ordenar por %s descender]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>breadcrumb_sign_in</key>
-      <value><![CDATA[Ingresar]]></value>
+      <value><![CDATA[Entrar]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -346,7 +346,7 @@
     </definition>
     <definition>
       <key>breadcrumb_address_book_add_entry</key>
-      <value><![CDATA[Agregar entrada]]></value>
+      <value><![CDATA[Añadir entrada]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -371,7 +371,7 @@
     </definition>
     <definition>
       <key>sign_in_heading</key>
-      <value><![CDATA[Bienvenido, por favor ingresar]]></value>
+      <value><![CDATA[Bienvenido, por favor entre]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -451,7 +451,7 @@
     </definition>
     <definition>
       <key>login_new_customer_text</key>
-      <value><![CDATA[Soy un nuevo cliente y todavía no tengo una cuenta aquí.<br /><br />Creando una cuenta podrás aprovechar esta tienda haciendo compras más rápidamente, ser mantenido actualizado en el estatus de un pedido, y no perder de vista los pedidos que has hecho.]]></value>
+      <value><![CDATA[Soy un nuevo cliente y todavía no tengo una cuenta aquí.<br /><br />Creando una cuenta podrás hacer tus compras más rápidamente, ser informado del estado de tus pedido, y no perder de vista los pedidos que has hecho.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -466,22 +466,22 @@
     </definition>
     <definition>
       <key>login_returning_customer_password_forgotten</key>
-      <value><![CDATA[¿Contraseña olvidada? <a href="%s">Haga click aquí</a>.]]></value>
+      <value><![CDATA[¿Ha olvidado su contraseña? <a href="%s">Haga click aquí</a>.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_login_no_match</key>
-      <value><![CDATA[No hay concordancia para la dirección y/o la contraseña del e-mail. Por favor intente otra vez.]]></value>
+      <value><![CDATA[No hay concordancia para la dirección y/o la contraseña del e-mail. Por favor inténtelo otra vez.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>date_added_to_shopping_cart</key>
-      <value><![CDATA[Fecha agregada: %s]]></value>
+      <value><![CDATA[Fecha añadido: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>sign_out_text</key>
-      <value><![CDATA[Salio con éxito de su cuenta. Se ha guardado y será restaurado su carro la próxima vez que ingreses.<br /><br />Ahora es seguro salir de este sitio.]]></value>
+      <value><![CDATA[Salio con éxito de su cuenta. Se ha guardado su carrito de la compra y será restaurado la próxima vez que entre.<br /><br />Ya puede salir de manera segura.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -561,7 +561,7 @@
     </definition>
     <definition>
       <key>order_billed_to</key>
-      <value><![CDATA[Mandado la cuenta a:]]></value>
+      <value><![CDATA[Cobrado a:]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -571,7 +571,7 @@
     </definition>
     <definition>
       <key>order_cost</key>
-      <value><![CDATA[Costo del pedido:]]></value>
+      <value><![CDATA[Total del pedido:]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -601,12 +601,12 @@
     </definition>
     <definition>
       <key>download_heading</key>
-      <value><![CDATA[Acoplamientos para descargar]]></value>
+      <value><![CDATA[Links de descarga]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>download_link_expires</key>
-      <value><![CDATA[Acoplamientos vencimiento: %s]]></value>
+      <value><![CDATA[Caducidad de los links: %s]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -626,27 +626,27 @@
     </definition>
     <definition>
       <key>newsletter_general_description</key>
-      <value><![CDATA[Incluyendo noticias del almacén, productos nuevos, ofertas especiales, y otros avisos promocionales.]]></value>
+      <value><![CDATA[Incluyendo noticias de la tienda online, productos nuevos, ofertas especiales, y otros avisos promocionales.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications</key>
-      <value><![CDATA[Mi notificacion del producto]]></value>
+      <value><![CDATA[Mi notificación del producto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_description</key>
-      <value><![CDATA[La lista de la notificación del producto permite que le permanezcas actualizado en productos que el hallazgo de interest.<br /><br />To sea actualizado en todos los cambios del producto, elige <b>global notificación del producto</b>.]]></value>
+      <value><![CDATA[La lista de la notificación del producto permite que le permanezcas informado de modificaciones y productos de intés.<br /><br />Para ser informado de todos los productos <b> notificación global del producto</b>.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global</key>
-      <value><![CDATA[Global notificación del producto]]></value>
+      <value><![CDATA[Notificación global de producto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_global_description</key>
-      <value><![CDATA[Recibe notificaciones de todos los productos disponibles.]]></value>
+      <value><![CDATA[Reciba notificaciones de todos los productos disponibles.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -656,12 +656,12 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_description</key>
-      <value><![CDATA[Quitando una notificación del producto, desmarcar el producto y haze click en Continuar.]]></value>
+      <value><![CDATA[Quitando una notificación del producto, desmarcar el producto y haga click en Continuar.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_none</key>
-      <value><![CDATA[Actualmente no hay productos marcados para ser notificado de.<br /><br />Para agregar los productos a su lista de notificación del producto, haze click en el acoplamiento de la notificación detallada disponible en la página de la información de producto.]]></value>
+      <value><![CDATA[Actualmente no hay productos marcados para ser notificado de.<br /><br />Para agregar los productos a su lista de notificación del producto, haga click en el acoplamiento de la notificación detallada disponible en la página de la información de producto.]]></value>
       <group>account</group>
     </definition>
     <definition>

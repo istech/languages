@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -13,7 +13,7 @@
     </definition>
     <definition>
       <key>shipping_usps_error</key>
-      <value><![CDATA[Un error ocurrió con los cálculos del envío de USPS.<br />Si prefieres usar USPS como su forma del envío, por favor contacta el dueño del almacén.]]></value>
+      <value><![CDATA[Ocurrió un error con los cálculos del envío de USPS.<br />Si prefieres usar USPS como su forma del envío, por favor contacta el encargado de la tienda online.]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

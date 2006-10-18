@@ -26,11 +26,11 @@
 
   define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este boletín?');
 
-  define('TEXT_PLEASE_WAIT', 'Por favor espere .. enviar boletines ..<br /><br />¡Por favor no interrumpir este proceso!');
-  define('TEXT_REFRESHING_PAGE', 'Automáticamente restaurando página para evitar un descanso del servidor ..');
+  define('TEXT_PLEASE_WAIT', 'Por favor espere .. enviando boletines ..<br /><br />¡Por favor no interrumpir este proceso!');
+  define('TEXT_REFRESHING_PAGE', 'Actualizando automáticamente la página para evitar un timeout del servidor ..');
   define('TEXT_CONTINUE_MANUALLY', '.. o haga click aquí para continuar si no ocurre ningúna redirección en el plazo de 2 segundos ..');
-  define('TEXT_FINISHED_SENDING_NEWSLETTERS', '¡Envios de boletines acabados!');
+  define('TEXT_FINISHED_SENDING_NEWSLETTERS', '¡Envios de boletines terminado!');
 
-  define('ERROR_NEWSLETTER_TITLE', 'Error: Título del boletín requerido');
-  define('ERROR_NEWSLETTER_MODULE', 'Error: Módulo del boletín requerido');
+  define('ERROR_NEWSLETTER_TITLE', 'Error: Se requiere título del boletín');
+  define('ERROR_NEWSLETTER_MODULE', 'Error: Se requiere módulo del boletín');
 ?>

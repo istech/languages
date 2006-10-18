@@ -37,5 +37,5 @@ define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Borrar especiales');
 define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar el precio especial de los productos?');
 
 define('ERROR_SPECIALS_PRICE', 'El precio especial no puede ser negativo o mayor que el precio original');
-define('ERROR_SPECIALS_DATE', 'La fecha de vencimiento es antes de la fecha del comienzo');
+define('ERROR_SPECIALS_DATE', 'La fecha de vencimiento es anterior a la fecha del comienzo');
 ?>

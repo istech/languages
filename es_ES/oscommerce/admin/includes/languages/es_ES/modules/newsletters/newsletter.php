@@ -12,5 +12,5 @@
 
   define('MODULE_NEWSLETTER_NEWSLETTER_TITLE', 'Boletín');
 
-  define('MODULE_NEWSLETTER_NEWSLETTER_TEXT_TOTAL_RECIPIENTS', 'Recipientes que reciben el boletín: %s');
+  define('MODULE_NEWSLETTER_NEWSLETTER_TEXT_TOTAL_RECIPIENTS', 'Destinatarios que reciben el boletín: %s');
 ?>

@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>payment_moneyorder_title</key>
-      <value><![CDATA[Pedido de Cheque/Dinero]]></value>
+      <value><![CDATA[Pedido mediante Cheque/Giro]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_moneyorder_description</key>
-      <value><![CDATA[Hacer pagable a:&nbsp;%s<br /><br />Mandar a:<br />%s<br /><br />Tu pedido no se enviar hasta que recibimos el pago.]]></value>
+      <value><![CDATA[Hacer pagable a:&nbsp;%s<br /><br />Enviar a:<br />%s<br /><br />Tu pedido no se enviará hasta que recibamos el pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,7 +18,7 @@
 Mandar a:
 %
 
-Tu pedido no se enviar hasta que recibimos el pago.]]></value>
+Tu pedido no se enviará hasta que recibimos el pago.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

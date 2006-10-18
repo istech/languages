@@ -10,9 +10,9 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', '¿Quién está en línea?');
+define('HEADING_TITLE', '¿Quién está online?');
 
-define('TABLE_HEADING_ONLINE', 'En línea');
+define('TABLE_HEADING_ONLINE', 'Online');
 define('TABLE_HEADING_CUSTOMER_ID', 'ID');
 define('TABLE_HEADING_FULL_NAME', 'Nombre');
 define('TABLE_HEADING_IP_ADDRESS', 'Dirección IP');

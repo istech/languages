@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Titular de la tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -28,12 +28,12 @@
     </definition>
     <definition>
       <key>payment_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Fecha de vencimiento:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_js_credit_card_owner</key>
-      <value><![CDATA[* El nombre del dueño de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
+      <value><![CDATA[* El titular de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -43,32 +43,32 @@
     </definition>
     <definition>
       <key>payment_cc_js_credit_card_not_accepted</key>
-      <value><![CDATA[* Este tipo de tarjeta de crédito no se acepta. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
+      <value><![CDATA[* Este tipo de tarjeta de crédito no se acepta. Por favor inténtelo otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_error_general</key>
-      <value><![CDATA[Ha habido un error en el proceso con su tarjeta de crédito. Por favor intente otra vez.]]></value>
+      <value><![CDATA[Ha habido un error en el proceso con su tarjeta de crédito. Por favor inténtelo otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_error_not_accepted</key>
-      <value><![CDATA[Este tipo de tarjeta de crédito no se acepta. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
+      <value><![CDATA[Este tipo de tarjeta de crédito no se acepta. Por favor inténtelo otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_error_invalid_expiration_date</key>
-      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
+      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor compruebe la información de la tarjeta e inténtelo otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_error_expired</key>
-      <value><![CDATA[La tarjeta de crédito ha expirado. Por favor intentar otra vez con otra tarjeta o forma de pago.]]></value>
+      <value><![CDATA[La tarjeta de crédito ha caducado. Por favor intentar otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_error_unknown_card</key>
-      <value><![CDATA[Esta es una tarjeta de crédito desconocida que no puede ser procesada. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
+      <value><![CDATA[Esta es una tarjeta de crédito desconocida que no puede ser procesada. Por favor inténtelo otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

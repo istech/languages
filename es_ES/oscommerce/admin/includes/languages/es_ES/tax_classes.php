@@ -39,6 +39,6 @@ define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Descripción:');
 define('TEXT_INFO_DATE_ADDED', 'Fecha agregada:');
 define('TEXT_INFO_LAST_MODIFIED', 'Ultima modificación:');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: Este tipo de impuesto no puede ser borrado actualmente mientras que se asigne a uno o más productos.');
-define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Advertencia: Esta clase de impuesto tiene %s impuestos fiscales asignados que también serían borrados.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: Este tipo de impuesto no puede ser borrado actualmente mientras que esté asignado a uno o más productos.');
+define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Advertencia: Este tipo de impuesto tiene %s impuestos fiscales asignados que también serían borrados.');
 ?>
