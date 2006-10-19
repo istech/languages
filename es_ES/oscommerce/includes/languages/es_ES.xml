@@ -830,7 +830,7 @@ Nota: Si no solicitó la recuperación de contraseña, por favor notifíquelo al
     </definition>
     <definition>
       <key>success_password_forgotten_sent</key>
-      <value><![CDATA[Exito: USe ha enviado una contraseña nueva a su e-mail.]]></value>
+      <value><![CDATA[Exito: Se ha enviado una contraseña nueva a su e-mail.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -865,7 +865,7 @@ Nota: Si no solicitó la recuperación de contraseña, por favor notifíquelo al
     </definition>
     <definition>
       <key>warning_config_file_writeable</key>
-      <value><![CDATA[Se Puede escribir al archivo de la configuración: %s. Esto es un riesgo potencial de la seguridad - por favor fije los permisos del usuario para este archivo.]]></value>
+      <value><![CDATA[Puede escribirse en el archivo de configuración: %s. Esto es un riesgo potencial de la seguridad - por favor corrija los permisos del usuario para este archivo.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1115,7 +1115,7 @@ Nota: Si no solicitó la recuperación de contraseña, por favor notifíquelo al
     </definition>
     <definition>
       <key>order_conditions_description</key>
-      <value><![CDATA[Por favor haga click en los términos y condiciones de compra si está de acuerdo. Los términos y condiciones pueden ser leídos <a href="%s"><u>aquí</u></a>.]]></value>
+      <value><![CDATA[Por favor marque la casilla acerca de nuestros términos y condiciones si está de acuerdo con ellos. Puede leer los términos y condiciones aquí <a href="%s">aquí</a>.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1340,7 +1340,7 @@ Nota: Si no solicitó la recuperación de contraseña, por favor notifíquelo al
     </definition>
     <definition>
       <key>info_cookie_usage_heading</key>
-      <value><![CDATA[Uso de Coockies]]></value>
+      <value><![CDATA[Uso de Cookies]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1667,12 +1667,12 @@ Nota: Si no solicitó la recuperación de contraseña, por favor notifíquelo al
       <key>email_tell_a_friend_intro</key>
       <value><![CDATA[Hola %s!
 
-Su amigo, %s, ha pensado que estaríaa interesado en %s de %s.]]></value>
+Su amigo, %s, ha pensado que estaría interesado en %s de %s.]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_link</key>
-      <value><![CDATA[Para ver el producto haz click en el enlace de abajo o copialo y pégaloen tu navegador:
+      <value><![CDATA[Para ver el producto haga click en el enlace de abajo o copialo y péguelo en su navegador:
 
 %s]]></value>
       <group>products</group>
