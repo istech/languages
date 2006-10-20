@@ -18,15 +18,15 @@
   define('TABLE_HEADING_USER', 'Usario');
   define('TABLE_HEADING_GROUP', 'Grupo');
   define('TABLE_HEADING_WRITEABLE', 'Escribible');
-  define('TABLE_HEADING_LAST_MODIFIED', 'Ultima modificación');
+  define('TABLE_HEADING_LAST_MODIFIED', 'Última Modificación');
   define('TABLE_HEADING_ACTION', 'Acción');
 
   define('TEXT_INFO_HEADING_UPLOAD', 'Subir');
   define('TEXT_FILE_NAME', 'Archivo:');
   define('TEXT_FILE_SIZE', 'Tamaño:');
   define('TEXT_FILE_CONTENTS', 'Contenido:');
-  define('TEXT_LAST_MODIFIED', 'Ultima modificación:');
-  define('TEXT_NEW_FOLDER', 'Nuevo directorio');
+  define('TEXT_LAST_MODIFIED', 'Última Modificación:');
+  define('TEXT_NEW_FOLDER', 'Nuevo Directorio');
   define('TEXT_NEW_FOLDER_INTRO', 'Introduzca el nombre para la carpeta nueva:');
   define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este archivo?');
   define('TEXT_UPLOAD_INTRO', 'Por favor seleccione los archivos para subir.');

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -13,7 +13,7 @@
     </definition>
     <definition>
       <key>box_reviews_stars_rating</key>
-      <value><![CDATA[¡%s de 5 estrellas!]]></value>
+      <value><![CDATA[¡%s de 5 Estrellas!]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

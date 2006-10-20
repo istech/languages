@@ -10,8 +10,8 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE_MODULES_PAYMENT', 'Módulos de pago');
-define('HEADING_TITLE_MODULES_SHIPPING', 'Módulos de envío');
+define('HEADING_TITLE_MODULES_PAYMENT', 'Módulos de Pago');
+define('HEADING_TITLE_MODULES_SHIPPING', 'Módulos de Envío');
 define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Módulo Totalización');
 
 define('TABLE_HEADING_MODULES', 'Módulos');

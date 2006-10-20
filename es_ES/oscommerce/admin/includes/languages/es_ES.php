@@ -65,7 +65,7 @@ define('BOX_CUSTOMERS_ORDERS', 'Pedidos');
 define('BOX_HEADING_LOCATION_AND_TAXES', 'Localizaciones / Impuestos');
 define('BOX_TAXES_COUNTRIES', 'Paises');
 define('BOX_TAXES_ZONES', 'Zonas');
-define('BOX_TAXES_GEO_ZONES', 'Zonas de impuesto');
+define('BOX_TAXES_ZONE_GROUPS', 'Grupos de Zonas');
 define('BOX_TAXES_TAX_CLASSES', 'Tipos de impuesto');
 
 // reports box text in includes/boxes/reports.php

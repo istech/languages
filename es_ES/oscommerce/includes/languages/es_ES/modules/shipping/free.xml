@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>shipping_free_title</key>
-      <value><![CDATA[Envío gratuito]]></value>
+      <value><![CDATA[Envío Gratuito]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_free_description</key>
-      <value><![CDATA[Envío gratuito]]></value>
+      <value><![CDATA[Envío Gratuito]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>

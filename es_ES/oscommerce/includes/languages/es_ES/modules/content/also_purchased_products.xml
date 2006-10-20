@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>customers_also_purchased_title</key>
-      <value><![CDATA[Clientes que compraron este producto también han comprado]]></value>
+      <value><![CDATA[Clientes Que Compraron Este Producto También Han Comprado]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>

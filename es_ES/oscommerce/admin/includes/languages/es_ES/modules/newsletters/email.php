@@ -14,5 +14,5 @@
 
   define('MODULE_NEWSLETTER_EMAIL_TEXT_TOTAL_RECIPIENTS', 'Destinatarios que reciben el email: %s');
 
-  define('MODULE_NEWSLETTER_EMAIL_TEXT_ALL_CUSTOMERS', '-- Todos los clientes --');
+  define('MODULE_NEWSLETTER_EMAIL_TEXT_ALL_CUSTOMERS', '-- Todos los Clientes --');
 ?>

@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-  define('TEXT_NUMBER_OF_CUSTOMERS_ONLINE', 'Actualmente hay %s clientes en línea.');
+  define('TEXT_NUMBER_OF_CUSTOMERS_ONLINE', 'Actualmente hay %s clientes online.');
 ?>

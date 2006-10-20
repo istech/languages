@@ -16,21 +16,21 @@ define('TABLE_HEADING_MANUFACTURERS', 'Fabricantes');
 define('TABLE_HEADING_URL_CLICKS', 'Visitas');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_HEADING_NEW_MANUFACTURER', 'Nuevo fabricante');
-define('TEXT_HEADING_EDIT_MANUFACTURER', 'Editar fabricante');
-define('TEXT_HEADING_DELETE_MANUFACTURER', 'Borrar fabricante');
+define('TEXT_HEADING_NEW_MANUFACTURER', 'Nuevo Fabricante');
+define('TEXT_HEADING_EDIT_MANUFACTURER', 'Editar Fabricante');
+define('TEXT_HEADING_DELETE_MANUFACTURER', 'Borrar Fabricante');
 
 define('TEXT_MANUFACTURERS', 'Fabricantes:');
-define('TEXT_DATE_ADDED', 'Fecha agregada:');
-define('TEXT_LAST_MODIFIED', 'Ultima modificación:');
+define('TEXT_DATE_ADDED', 'Fecha Agregada:');
+define('TEXT_LAST_MODIFIED', 'Ultima Modificación:');
 define('TEXT_PRODUCTS', 'Productos:');
 
 define('TEXT_NEW_INTRO', 'Por favor complete la información siguiente para el nuevo fabricante');
 define('TEXT_EDIT_INTRO', 'Por favor realice cualquier cambio necesario');
 
-define('TEXT_MANUFACTURERS_NAME', 'Nombre del fabricante:');
-define('TEXT_MANUFACTURERS_IMAGE', 'Imágen del fabricante:');
-define('TEXT_MANUFACTURERS_URL', 'URL del fabricante:');
+define('TEXT_MANUFACTURERS_NAME', 'Nombre del Fabricante:');
+define('TEXT_MANUFACTURERS_IMAGE', 'Imágen del Fabricante:');
+define('TEXT_MANUFACTURERS_URL', 'URL del Fabricante:');
 
 define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este fabricante?');
 define('TEXT_DELETE_IMAGE', '¿Borrar la imágen del fabricante?');

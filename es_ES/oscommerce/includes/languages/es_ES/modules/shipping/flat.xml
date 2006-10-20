@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>shipping_flat_title</key>
-      <value><![CDATA[Tarifa plana]]></value>
+      <value><![CDATA[Tarifa Plana]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_flat_description</key>
-      <value><![CDATA[Tarifa plana]]></value>
+      <value><![CDATA[Tarifa Plana]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_flat_method</key>
-      <value><![CDATA[La mejor forma]]></value>
+      <value><![CDATA[La mejor Forma]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

@@ -10,18 +10,18 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Atributos de productos');
+  define('HEADING_TITLE', 'Atributos de Productos');
 
-  define('TABLE_HEADING_ATTRIBUTE_GROUPS', 'Grupos de atributo');
-  define('TABLE_HEADING_TOTAL_ENTRIES', 'Entradas totales');
+  define('TABLE_HEADING_ATTRIBUTE_GROUPS', 'Grupos de Atributo');
+  define('TABLE_HEADING_TOTAL_ENTRIES', 'Entradas Totales');
   define('TABLE_HEADING_ACTION', 'Acción');
   define('TABLE_HEADING_ENTRIES', 'Entradas');
 
-  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_GROUP', 'Nuevo grupo de atributos');
-  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_ENTRY', 'Nueva entrada de atributos');
+  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_GROUP', 'Nuevo Grupo de Atributos');
+  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_ENTRY', 'Nueva Entrada de Atributos');
 
-  define('TEXT_INFO_ATTRIBUTE_GROUP_NAME', 'Nombre del grupo de atributos:');
-  define('TEXT_INFO_ATTRIBUTE_ENTRY_NAME', 'Entrada del grupo de atributos:');
+  define('TEXT_INFO_ATTRIBUTE_GROUP_NAME', 'Nombre del Grupo de Atributos:');
+  define('TEXT_INFO_ATTRIBUTE_ENTRY_NAME', 'Entrada del Grupo de Atributos:');
 
   define('TEXT_INFO_INSERT_ATTRIBUTE_INTRO', 'Por favor introduzca la nueva información del grupo de atributos');
   define('TEXT_INFO_DELETE_ATTRIBUTE_INTRO', '¿Esta seguro que quiere borrar este grupo de atributos?');

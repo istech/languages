@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>shipping_item_title</key>
-      <value><![CDATA[Por artículo]]></value>
+      <value><![CDATA[Por Artículo]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_item_description</key>
-      <value><![CDATA[Por artículo]]></value>
+      <value><![CDATA[Por Artículo]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_item_method</key>
-      <value><![CDATA[La mejor forma]]></value>
+      <value><![CDATA[La mejor Forma]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

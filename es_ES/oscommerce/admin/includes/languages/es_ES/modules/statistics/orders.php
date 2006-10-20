@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_STATISTICS_ORDERS_TITLE', 'Mayores pedidos');
+define('MODULE_STATISTICS_ORDERS_TITLE', 'Mayores Pedidos');
 
 define('MODULE_STATISTICS_ORDERS_TABLE_HEADING_NUMBER', 'Nr.');
 define('MODULE_STATISTICS_ORDERS_TABLE_HEADING_CUSTOMER', 'Clientes');

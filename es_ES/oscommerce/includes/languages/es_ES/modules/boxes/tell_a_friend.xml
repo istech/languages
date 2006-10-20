@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>box_tell_a_friend_heading</key>
-      <value><![CDATA[Dígaselo a un amigo]]></value>
+      <value><![CDATA[Dígaselo a un Amigo]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>

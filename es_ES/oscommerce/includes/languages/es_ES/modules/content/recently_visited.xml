@@ -3,22 +3,22 @@
   <definitions>
     <definition>
       <key>recently_visited_title</key>
-      <value><![CDATA[Productos recientemente visitados]]></value>
+      <value><![CDATA[Productos Recientemente Visitados]]></value>
       <group>modules-content</group>
     </definition>
     <definition>
       <key>recently_visited_products_title</key>
-      <value><![CDATA[Productos recientemente visitados]]></value>
+      <value><![CDATA[Productos Recientemente Visitados]]></value>
       <group>modules-content</group>
     </definition>
     <definition>
       <key>recently_visited_categories_title</key>
-      <value><![CDATA[Categorías recientes]]></value>
+      <value><![CDATA[Categorías Recientes]]></value>
       <group>modules-content</group>
     </definition>
     <definition>
       <key>recently_visited_searches_title</key>
-      <value><![CDATA[Búsquedas recientes]]></value>
+      <value><![CDATA[Búsquedas Recientes]]></value>
       <group>modules-content</group>
     </definition>
     <definition>

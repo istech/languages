@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>box_whats_new_heading</key>
-      <value><![CDATA[Productos nuevos]]></value>
+      <value><![CDATA[Productos Nuevos]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>

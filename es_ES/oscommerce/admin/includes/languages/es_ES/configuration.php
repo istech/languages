@@ -16,5 +16,5 @@ define('TABLE_HEADING_ACTION', 'Acción');
 
 define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
 define('TEXT_INFO_DATE_ADDED', 'Fecha Añadida:');
-define('TEXT_INFO_LAST_MODIFIED', 'Ultima modificación:');
+define('TEXT_INFO_LAST_MODIFIED', 'Ultima Modificación:');
 ?>

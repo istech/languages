@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_PRODUCTS_TITLE', 'Últimos productos');
+  define('MODULE_SUMMARY_PRODUCTS_TITLE', 'Últimos Productos');
 
   define('MODULE_SUMMARY_PRODUCTS_HEADING_PRODUCTS', 'Productos');
   define('MODULE_SUMMARY_PRODUCTS_HEADING_PRICE', 'Precios');

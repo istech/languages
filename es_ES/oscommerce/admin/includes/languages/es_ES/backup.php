@@ -10,15 +10,15 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Gestor de copias de seguridad de la base de datos ');
+define('HEADING_TITLE', 'Gestor de Copias de Seguridad de la Base de Datos ');
 
 define('TABLE_HEADING_TITLE', 'Título');
 define('TABLE_HEADING_FILE_DATE', 'Fecha');
 define('TABLE_HEADING_FILE_SIZE', 'Tamaño');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_INFO_HEADING_NEW_BACKUP', 'Nuevo backup');
-define('TEXT_INFO_HEADING_RESTORE_LOCAL', 'Restaurar localmente');
+define('TEXT_INFO_HEADING_NEW_BACKUP', 'Nuevo Backup');
+define('TEXT_INFO_HEADING_RESTORE_LOCAL', 'Restaurar Localmente');
 define('TEXT_INFO_NEW_BACKUP', 'No interrumpir el proceso de copia de seguridad que puede llevar unos minutos.');
 define('TEXT_INFO_UNPACK', '<br /><br />(después de extraer el archivo del archivo)');
 define('TEXT_INFO_RESTORE', 'No interrumpir el proceso de la restauración.<br /><br />¡Cuanto más grande es la copia de seguridad, más dura este proceso!<br /><br />Si es posible, usa el cliente del mysql en linea de comandos.<br /><br />Ejemplo:<br /><br /><b>mysql -h' . DB_SERVER . ' -u' . DB_SERVER_USERNAME . ' -p ' . DB_DATABASE . ' < %s </b> %s');
@@ -29,13 +29,13 @@ define('TEXT_INFO_SIZE', 'Tamaño:');
 define('TEXT_INFO_COMPRESSION', 'Compresión:');
 define('TEXT_INFO_USE_GZIP', 'Usa GZIP');
 define('TEXT_INFO_USE_ZIP', 'Usa ZIP');
-define('TEXT_INFO_USE_NO_COMPRESSION', 'Sin compresión (Puro SQL)');
-define('TEXT_INFO_DOWNLOAD_ONLY', 'Descargar solamente (no guardar en el servidor)');
+define('TEXT_INFO_USE_NO_COMPRESSION', 'Sin Compresión (Puro SQL)');
+define('TEXT_INFO_DOWNLOAD_ONLY', 'Descargar Solamente (no guardar en el servidor)');
 define('TEXT_INFO_BEST_THROUGH_HTTPS', 'Mejor a través de una conexión de HTTPS');
 define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este backup?');
 define('TEXT_NO_EXTENSION', 'Ninguno');
-define('TEXT_BACKUP_DIRECTORY', 'Directorio de backup:');
-define('TEXT_LAST_RESTORATION', 'Ultima restauración:');
+define('TEXT_BACKUP_DIRECTORY', 'Directorio de Backup:');
+define('TEXT_LAST_RESTORATION', 'Ultima Restauración:');
 define('TEXT_FORGET', '(<u>olvida</u>)');
 
 define('ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de backup no existe. Por favor establezca esto en configure.php.');
