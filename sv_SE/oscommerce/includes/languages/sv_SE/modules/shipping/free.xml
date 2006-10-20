@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>shipping_free_title</key>
-      <value><![CDATA[Fri leverans]]></value>
+      <value><![CDATA[Fri Leverans]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_free_description</key>
-      <value><![CDATA[Fri leverans]]></value>
+      <value><![CDATA[Fri Leverans]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>

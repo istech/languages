@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -13,15 +13,15 @@
   define('HEADING_TITLE', 'Produktattribut');
 
   define('TABLE_HEADING_ATTRIBUTE_GROUPS', 'Attributsgrupper');
-  define('TABLE_HEADING_TOTAL_ENTRIES', 'Totala poster');
+  define('TABLE_HEADING_TOTAL_ENTRIES', 'Totala Poster');
   define('TABLE_HEADING_ACTION', 'Funktion');
   define('TABLE_HEADING_ENTRIES', 'Poster');
 
-  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_GROUP', 'Ny attributgrupp');
-  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_ENTRY', 'Nytt attribut');
+  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_GROUP', 'Ny Attributgrupp');
+  define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_ENTRY', 'Nytt Attribut');
 
-  define('TEXT_INFO_ATTRIBUTE_GROUP_NAME', 'Namn på attributgrupp:');
-  define('TEXT_INFO_ATTRIBUTE_ENTRY_NAME', 'Namn på attribut:');
+  define('TEXT_INFO_ATTRIBUTE_GROUP_NAME', 'Namn på Attributgrupp:');
+  define('TEXT_INFO_ATTRIBUTE_ENTRY_NAME', 'Namn på Attribut:');
 
   define('TEXT_INFO_INSERT_ATTRIBUTE_INTRO', 'Var vänlig och ange ny attributgruppsinformation');
   define('TEXT_INFO_DELETE_ATTRIBUTE_INTRO', 'Är du säker att du vill ta bort denna attributgrupp?');

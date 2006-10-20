@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -23,13 +23,13 @@ define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
 define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna valuta?');
 define('TEXT_INFO_UPDATE_SERVICE_INTRO', 'Var vänlig och välj tjänst för updatering av valutor.');
 
-define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Ny valuta');
+define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Ny Valuta');
 
 define('TEXT_INFO_CURRENCY_TITLE', 'Titel:');
 define('TEXT_INFO_CURRENCY_CODE', 'Kod:');
 define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Vänstersymbol:');
 define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Högersymbol:');
-define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Antal decimaler:');
+define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Antal Decimaler:');
 define('TEXT_INFO_CURRENCY_VALUE', 'Värde:');
 
 define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . '<br /><small>(behöver en manuell updatering av valutans värde)</small>');

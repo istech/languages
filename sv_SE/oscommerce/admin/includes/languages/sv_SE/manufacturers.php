@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -13,23 +13,23 @@
 define('HEADING_TITLE', 'Tillverkare');
 
 define('TABLE_HEADING_MANUFACTURERS', 'Tillverkare');
-define('TABLE_HEADING_URL_CLICKS', 'URL klickningar');
+define('TABLE_HEADING_URL_CLICKS', 'URL Klickningar');
 define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('TEXT_HEADING_NEW_MANUFACTURER', 'Ny tillverkare');
-define('TEXT_HEADING_EDIT_MANUFACTURER', 'Editera tillverkare');
-define('TEXT_HEADING_DELETE_MANUFACTURER', 'Ta bort tillverkare');
+define('TEXT_HEADING_NEW_MANUFACTURER', 'Ny Tillverkare');
+define('TEXT_HEADING_EDIT_MANUFACTURER', 'Editera Tillverkare');
+define('TEXT_HEADING_DELETE_MANUFACTURER', 'Ta Bort Tillverkare');
 
 define('TEXT_MANUFACTURERS', 'Tillverkare:');
 define('TEXT_DATE_ADDED', 'Tillagd:');
-define('TEXT_LAST_MODIFIED', 'Senast ändrad:');
+define('TEXT_LAST_MODIFIED', 'Senast Ändrad:');
 define('TEXT_PRODUCTS', 'Produkter:');
 
 define('TEXT_NEW_INTRO', 'Var vänlig och ange följande information för den nya tillverkaren');
 define('TEXT_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
 
-define('TEXT_MANUFACTURERS_NAME', 'Tillverkarens namn:');
-define('TEXT_MANUFACTURERS_IMAGE', 'Tillverkarens bild:');
+define('TEXT_MANUFACTURERS_NAME', 'Tillverkarens Namn:');
+define('TEXT_MANUFACTURERS_IMAGE', 'Tillverkarens Bild:');
 define('TEXT_MANUFACTURERS_URL', 'Tillverkarens URL:');
 
 define('TEXT_DELETE_INTRO', 'Är du säker att du vill ta bort denna tillverkaren?');

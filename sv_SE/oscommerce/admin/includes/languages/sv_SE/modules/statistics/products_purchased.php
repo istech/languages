@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TITLE', 'Bästsäljande produkt');
+define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TITLE', 'Bästsäljande Produkt');
 
 define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TABLE_HEADING_NUMBER', 'Nr.');
 define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TABLE_HEADING_PRODUCTS', 'Produkter');

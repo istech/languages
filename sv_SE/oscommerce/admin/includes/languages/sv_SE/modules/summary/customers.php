@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_CUSTOMERS_TITLE', 'Senaste kunder');
+  define('MODULE_SUMMARY_CUSTOMERS_TITLE', 'Senaste Kunder');
 
   define('MODULE_SUMMARY_CUSTOMERS_HEADING_CUSTOMERS', 'Kunder');
   define('MODULE_SUMMARY_CUSTOMERS_HEADING_DATE', 'Datum');

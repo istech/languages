@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>upcoming_products_title</key>
-      <value><![CDATA[Kommande produkter]]></value>
+      <value><![CDATA[Kommande Produkter]]></value>
       <group>modules-content</group>
     </definition>
   </definitions>

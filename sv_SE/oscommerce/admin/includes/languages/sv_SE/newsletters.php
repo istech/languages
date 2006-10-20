@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -17,11 +17,11 @@
   define('TABLE_HEADING_MODULE', 'Modul');
   define('TABLE_HEADING_SENT', 'Skickat');
   define('TABLE_HEADING_ACTION', 'Funktion');
-  define('TABLE_HEADING_EMAIL_ADDRESS', 'E-postadress');
+  define('TABLE_HEADING_EMAIL_ADDRESS', 'E-Postadress');
   define('TABLE_HEADING_DATE_SENT', 'Skickat den');
 
   define('TEXT_NEWSLETTER_MODULE', 'Modul:');
-  define('TEXT_NEWSLETTER_TITLE', 'Titel på nyhetsbrev:');
+  define('TEXT_NEWSLETTER_TITLE', 'Titel på Nyhetsbrev:');
   define('TEXT_NEWSLETTER_CONTENT', 'Innehåll:');
 
   define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort detta nyhetsbrev?');

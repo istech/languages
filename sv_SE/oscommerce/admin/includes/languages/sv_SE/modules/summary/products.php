@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_PRODUCTS_TITLE', 'Senaste produkter');
+  define('MODULE_SUMMARY_PRODUCTS_TITLE', 'Senaste Produkter');
 
   define('MODULE_SUMMARY_PRODUCTS_HEADING_PRODUCTS', 'Produkter');
   define('MODULE_SUMMARY_PRODUCTS_HEADING_PRICE', 'Pris');

@@ -13,7 +13,7 @@
     </definition>
     <definition>
       <key>shipping_table_method</key>
-      <value><![CDATA[Bästa möjliga]]></value>
+      <value><![CDATA[Bästa Möjliga]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

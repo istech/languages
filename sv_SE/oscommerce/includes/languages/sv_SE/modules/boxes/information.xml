@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -18,12 +18,12 @@
     </definition>
     <definition>
       <key>box_information_shipping</key>
-      <value><![CDATA[Leverans och retur]]></value>
+      <value><![CDATA[Leverans och Retur]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_information_contact</key>
-      <value><![CDATA[Kontakta oss]]></value>
+      <value><![CDATA[Kontakta Oss]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>

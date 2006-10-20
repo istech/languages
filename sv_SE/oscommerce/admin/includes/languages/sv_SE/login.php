@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -10,9 +10,9 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Logga in');
+define('HEADING_TITLE', 'Logga In');
 
-define('TEXT_INFO_HEADING_LOGIN', 'Logga in i administrationsverktyget');
+define('TEXT_INFO_HEADING_LOGIN', 'Logga in i Administrationsverktyget');
 
 define('TEXT_INFO_INTRO', 'Var vänlig och använd följande formulär för att logga in i administrationsverktyget.');
 

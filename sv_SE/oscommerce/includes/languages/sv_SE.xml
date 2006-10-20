@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <data>
     <title><![CDATA[Svenska]]></title>
@@ -9,14 +9,14 @@
     <date_format_short><![CDATA[%Y/%m/%d]]></date_format_short>
     <date_format_long><![CDATA[%A %d %B, %Y]]></date_format_long>
     <time_format><![CDATA[%H:%M:%S]]></time_format>
-    <default_currency><![CDATA[USD]]></default_currency>
+    <default_currency><![CDATA[SEK]]></default_currency>
     <numerical_decimal_separator><![CDATA[,]]></numerical_decimal_separator>
     <numerical_thousands_separator><![CDATA[.]]></numerical_thousands_separator>
   </data>
   <definitions>
     <definition>
       <key>my_account</key>
-      <value><![CDATA[Mitt konto]]></value>
+      <value><![CDATA[Mitt Konto]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -36,17 +36,17 @@
     </definition>
     <definition>
       <key>breadcrumb_shop</key>
-      <value><![CDATA[Online affär]]></value>
+      <value><![CDATA[Online Affär]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>sign_in</key>
-      <value><![CDATA[Logga in]]></value>
+      <value><![CDATA[Logga In]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>sign_out</key>
-      <value><![CDATA[Logga ut]]></value>
+      <value><![CDATA[Logga Ut]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -61,7 +61,7 @@
     </definition>
     <definition>
       <key>pull_down_default</key>
-      <value><![CDATA[Var vänlig välj]]></value>
+      <value><![CDATA[Var Vänlig Välj]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -111,7 +111,7 @@
     </definition>
     <definition>
       <key>button_add_address</key>
-      <value><![CDATA[Lägg till adress]]></value>
+      <value><![CDATA[Lägg till Adress]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -121,12 +121,12 @@
     </definition>
     <definition>
       <key>button_buy_now</key>
-      <value><![CDATA[Köp nu]]></value>
+      <value><![CDATA[Köp Nu]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_change_address</key>
-      <value><![CDATA[Ändra adress]]></value>
+      <value><![CDATA[Ändra Adress]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -136,7 +136,7 @@
     </definition>
     <definition>
       <key>button_confirm_order</key>
-      <value><![CDATA[Bekräfta order]]></value>
+      <value><![CDATA[Bekräfta Order]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -146,7 +146,7 @@
     </definition>
     <definition>
       <key>button_delete</key>
-      <value><![CDATA[Ta bort]]></value>
+      <value><![CDATA[Ta Bort]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -161,12 +161,12 @@
     </definition>
     <definition>
       <key>button_sign_in</key>
-      <value><![CDATA[Logga in]]></value>
+      <value><![CDATA[Logga In]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_add_to_cart</key>
-      <value><![CDATA[Lägg i kundvagn]]></value>
+      <value><![CDATA[Lägg i Kundvagn]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -181,17 +181,17 @@
     </definition>
     <definition>
       <key>button_update_cart</key>
-      <value><![CDATA[Uppdatera kundvagn]]></value>
+      <value><![CDATA[Uppdatera Kundvagn]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>button_write_review</key>
-      <value><![CDATA[Skriv kommentar]]></value>
+      <value><![CDATA[Skriv Kommentar]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>icon_in_cart</key>
-      <value><![CDATA[Lägg i kundvagn]]></value>
+      <value><![CDATA[Lägg i Kundvagn]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -266,12 +266,12 @@
     </definition>
     <definition>
       <key>filter_all_categories</key>
-      <value><![CDATA[Alla kategorier]]></value>
+      <value><![CDATA[Alla Kategorier]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>filter_all_manufacturers</key>
-      <value><![CDATA[Alla tillverkare]]></value>
+      <value><![CDATA[Alla Tillverkare]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -296,27 +296,27 @@
     </definition>
     <definition>
       <key>breadcrumb_sign_in</key>
-      <value><![CDATA[Logga in]]></value>
+      <value><![CDATA[Logga In]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_sign_out</key>
-      <value><![CDATA[Logga ut]]></value>
+      <value><![CDATA[Logga Ut]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_my_account</key>
-      <value><![CDATA[Mitt konto]]></value>
+      <value><![CDATA[Mitt Konto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_account</key>
-      <value><![CDATA[Editera konto]]></value>
+      <value><![CDATA[Editera Konto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_edit_password</key>
-      <value><![CDATA[Ändra lösenord]]></value>
+      <value><![CDATA[Ändra Lösenord]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -346,57 +346,57 @@
     </definition>
     <definition>
       <key>breadcrumb_address_book_add_entry</key>
-      <value><![CDATA[Lägg till post]]></value>
+      <value><![CDATA[Lägg till Post]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_edit_entry</key>
-      <value><![CDATA[Editera post]]></value>
+      <value><![CDATA[Editera Post]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_delete_entry</key>
-      <value><![CDATA[Ta bort post]]></value>
+      <value><![CDATA[Ta bort Post]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_create_account</key>
-      <value><![CDATA[Skapa ett konto]]></value>
+      <value><![CDATA[Skapa ett Konto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_password_forgotten</key>
-      <value><![CDATA[Glömt lösenord]]></value>
+      <value><![CDATA[Glömt Lösenord]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>sign_in_heading</key>
-      <value><![CDATA[Välkommen, var vänlig logga in]]></value>
+      <value><![CDATA[Välkommen, Var Vänlig Logga In]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>sign_out_heading</key>
-      <value><![CDATA[Logga ut från ditt konto]]></value>
+      <value><![CDATA[Logga Ut Från Ditt Konto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_heading</key>
-      <value><![CDATA[Mitt konto]]></value>
+      <value><![CDATA[Mitt Konto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_edit_heading</key>
-      <value><![CDATA[Min kontoinformation]]></value>
+      <value><![CDATA[Min Kontoinformation]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>account_password_heading</key>
-      <value><![CDATA[Mitt lösenord]]></value>
+      <value><![CDATA[Mitt Lösenord]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>orders_heading</key>
-      <value><![CDATA[Mina ordrar]]></value>
+      <value><![CDATA[Mina Ordrar]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -406,47 +406,47 @@
     </definition>
     <definition>
       <key>newsletters_heading</key>
-      <value><![CDATA[Min nyhetsbrevsprenumeration]]></value>
+      <value><![CDATA[Min Nyhetsbrevsprenumeration]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>notifications_heading</key>
-      <value><![CDATA[Mina produktrapporter]]></value>
+      <value><![CDATA[Mina Produktrapporter]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_heading</key>
-      <value><![CDATA[Min adressbok]]></value>
+      <value><![CDATA[Min Adressbok]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_add_entry_heading</key>
-      <value><![CDATA[Ny adressbokspost]]></value>
+      <value><![CDATA[Ny Adressbokspost]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_edit_entry_heading</key>
-      <value><![CDATA[Editera adressbokspost]]></value>
+      <value><![CDATA[Editera Adressbokspost]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_entry_heading</key>
-      <value><![CDATA[Ta bort adressbokspost]]></value>
+      <value><![CDATA[Ta Bort Adressbokspost]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_heading</key>
-      <value><![CDATA[Skapa ett konto]]></value>
+      <value><![CDATA[Skapa ett Konto]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_success_heading</key>
-      <value><![CDATA[Ditt konto har skapats!]]></value>
+      <value><![CDATA[Ditt Konto Har Skapats!]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>login_new_customer_heading</key>
-      <value><![CDATA[Ny kund]]></value>
+      <value><![CDATA[Ny Kund]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -456,7 +456,7 @@
     </definition>
     <definition>
       <key>login_returning_customer_heading</key>
-      <value><![CDATA[Återkommande kund]]></value>
+      <value><![CDATA[Återkommande Kund]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -486,7 +486,7 @@
     </definition>
     <definition>
       <key>my_account_title</key>
-      <value><![CDATA[Mitt konto]]></value>
+      <value><![CDATA[Mitt Konto]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -511,7 +511,7 @@
     </definition>
     <definition>
       <key>my_orders_title</key>
-      <value><![CDATA[Mina ordrar]]></value>
+      <value><![CDATA[Mina Ordrar]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -521,7 +521,7 @@
     </definition>
     <definition>
       <key>my_notifications_title</key>
-      <value><![CDATA[Mina rapporter]]></value>
+      <value><![CDATA[Mina Rapporter]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -536,7 +536,7 @@
     </definition>
     <definition>
       <key>my_password_title</key>
-      <value><![CDATA[Mitt lösenord]]></value>
+      <value><![CDATA[Mitt Lösenord]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -556,12 +556,12 @@
     </definition>
     <definition>
       <key>order_shipped_to</key>
-      <value><![CDATA[Skickad till:]]></value>
+      <value><![CDATA[Skickad Till:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_billed_to</key>
-      <value><![CDATA[Fakturerad till:]]></value>
+      <value><![CDATA[Fakturerad Till:]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -591,7 +591,7 @@
     </definition>
     <definition>
       <key>order_total_heading</key>
-      <value><![CDATA[Order total:]]></value>
+      <value><![CDATA[Ordertotal:]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -616,12 +616,12 @@
     </definition>
     <definition>
       <key>newsletter_subscriptions_heading</key>
-      <value><![CDATA[Mina nyhetsbrevsprenumerationer]]></value>
+      <value><![CDATA[Mina Nyhetsbrevsprenumerationer]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_general</key>
-      <value><![CDATA[Allmänna nyhetsbrev]]></value>
+      <value><![CDATA[Allmänna Nyhetsbrev]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -631,7 +631,7 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications</key>
-      <value><![CDATA[Mina produktrapporter]]></value>
+      <value><![CDATA[Mina Produktrapporter]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -641,7 +641,7 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications_global</key>
-      <value><![CDATA[Globala produktrapporter]]></value>
+      <value><![CDATA[Globala Produktrapporter]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -666,7 +666,7 @@
     </definition>
     <definition>
       <key>primary_address_title</key>
-      <value><![CDATA[Primäradress]]></value>
+      <value><![CDATA[Primär Adress]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -681,7 +681,7 @@
     </definition>
     <definition>
       <key>primary_address_marker</key>
-      <value><![CDATA[(primäradress)]]></value>
+      <value><![CDATA[(primär adress)]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -691,7 +691,7 @@
     </definition>
     <definition>
       <key>address_book_delete_address_title</key>
-      <value><![CDATA[Ta bort adress]]></value>
+      <value><![CDATA[Ta Bort Adress]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -706,12 +706,12 @@
     </definition>
     <definition>
       <key>selected_address_title</key>
-      <value><![CDATA[Vald adress]]></value>
+      <value><![CDATA[Vald Adress]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>set_as_primary</key>
-      <value><![CDATA[Sätt som primäradress.]]></value>
+      <value><![CDATA[Sätt som primär adress.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -731,7 +731,7 @@
     </definition>
     <definition>
       <key>password_forgotten_heading</key>
-      <value><![CDATA[Glömt lösenord]]></value>
+      <value><![CDATA[Glömt Lösenord]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -985,7 +985,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>please_select</key>
-      <value><![CDATA[Var vänlig välj]]></value>
+      <value><![CDATA[Var Vänlig Välj]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1025,7 +1025,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>new_shipping_address_title</key>
-      <value><![CDATA[Ny leveransadress]]></value>
+      <value><![CDATA[Ny Leveransadress]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1110,7 +1110,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>order_conditions_title</key>
-      <value><![CDATA[Villkor och bestämmelser]]></value>
+      <value><![CDATA[Villkor och Bestämmelser]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1190,7 +1190,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>email_order_subject</key>
-      <value><![CDATA[Order process]]></value>
+      <value><![CDATA[Order Process]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1200,7 +1200,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>email_order_invoice_url</key>
-      <value><![CDATA[Detaljerad faktura: %s]]></value>
+      <value><![CDATA[Detaljerad Faktura: %s]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1300,7 +1300,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>breadcrumb_cookie_usage</key>
-      <value><![CDATA[Cookie användning]]></value>
+      <value><![CDATA[Cookie Användning]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1310,12 +1310,12 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>info_heading</key>
-      <value><![CDATA[Information och hjälp]]></value>
+      <value><![CDATA[Information och Hjälp]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_conditions_heading</key>
-      <value><![CDATA[Villkor och bestämmelser]]></value>
+      <value><![CDATA[Villkor och Bestämmelser]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1330,7 +1330,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>info_shipping_heading</key>
-      <value><![CDATA[Leverans och returer]]></value>
+      <value><![CDATA[Leverans och Returer]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1340,7 +1340,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>info_cookie_usage_heading</key>
-      <value><![CDATA[Cookie användning]]></value>
+      <value><![CDATA[Cookie Användning]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1415,7 +1415,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>sitemap_account</key>
-      <value><![CDATA[Mitt konto]]></value>
+      <value><![CDATA[Mitt Konto]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1450,12 +1450,12 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>sitemap_advanced_search</key>
-      <value><![CDATA[Avancerad sökning]]></value>
+      <value><![CDATA[Avancerad Sökning]]></value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_products_new</key>
-      <value><![CDATA[Nya produkter]]></value>
+      <value><![CDATA[Nya Produkter]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1470,7 +1470,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>cookie_usage_box_heading</key>
-      <value><![CDATA[Cookie sekretess och säkerhet]]></value>
+      <value><![CDATA[Cookie Sekretess och Säkerhet]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1480,7 +1480,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>ssl_check_box_heading</key>
-      <value><![CDATA[Sekretess och säkerhet]]></value>
+      <value><![CDATA[Sekretess och Säkerhet]]></value>
       <group>info</group>
     </definition>
     <definition>
@@ -1490,7 +1490,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>breadcrumb_new_products</key>
-      <value><![CDATA[Nya produkter]]></value>
+      <value><![CDATA[Nya Produkter]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1505,17 +1505,17 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>breadcrumb_reviews_new</key>
-      <value><![CDATA[Ny kommentar]]></value>
+      <value><![CDATA[Ny Kommentar]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_tell_a_friend</key>
-      <value><![CDATA[Tipsa en vän]]></value>
+      <value><![CDATA[Tipsa En Vän]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>product_not_found_heading</key>
-      <value><![CDATA[Produkt ej hittad]]></value>
+      <value><![CDATA[Produkt Ej Hittad]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1525,7 +1525,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>new_products_heading</key>
-      <value><![CDATA[Nya produkter]]></value>
+      <value><![CDATA[Nya Produkter]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1545,7 +1545,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>number_of_product_reviews</key>
-      <value><![CDATA[Nuvarande kommentarer:]]></value>
+      <value><![CDATA[Nuvarande Kommentarer:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1560,7 +1560,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>product_attributes</key>
-      <value><![CDATA[Tillgängliga alternativ:]]></value>
+      <value><![CDATA[Tillgängliga Alternativ:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1590,7 +1590,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>rating_of_5_stars</key>
-      <value><![CDATA[%s av 5 stjärnor!]]></value>
+      <value><![CDATA[%s av 5 Stjärnor!]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1600,7 +1600,7 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>new_review_title</key>
-      <value><![CDATA[Ny kommentar]]></value>
+      <value><![CDATA[Ny Kommentar]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1625,17 +1625,17 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>customer_details_title</key>
-      <value><![CDATA[Din information]]></value>
+      <value><![CDATA[Din Information]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>friend_details_title</key>
-      <value><![CDATA[Din väns information]]></value>
+      <value><![CDATA[Din Väns Information]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>tell_a_friend_message</key>
-      <value><![CDATA[Ditt meddelande]]></value>
+      <value><![CDATA[Ditt Meddelande]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1645,17 +1645,17 @@ Notering: Om du ej bett om detta via vår sida för glömt lösenord, var vänli
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_email_address</key>
-      <value><![CDATA[Din e-postadress:]]></value>
+      <value><![CDATA[Din E-Postadress:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_name</key>
-      <value><![CDATA[Din väns namn:]]></value>
+      <value><![CDATA[Din Väns Namn:]]></value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_email_address</key>
-      <value><![CDATA[Din väns e-postadress:]]></value>
+      <value><![CDATA[Din Väns E-Postadress:]]></value>
       <group>products</group>
     </definition>
     <definition>
@@ -1736,7 +1736,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>advanced_search_heading</key>
-      <value><![CDATA[Avancerad sökning]]></value>
+      <value><![CDATA[Avancerad Sökning]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1756,7 +1756,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_search_recursive</key>
-      <value><![CDATA[Inkludera underkategorier]]></value>
+      <value><![CDATA[Inkludera Underkategorier]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1766,32 +1766,32 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_search_price_from</key>
-      <value><![CDATA[Pris från:]]></value>
+      <value><![CDATA[Pris Från:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_price_to</key>
-      <value><![CDATA[Pris till:]]></value>
+      <value><![CDATA[Pris Till:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_from</key>
-      <value><![CDATA[Datum från:]]></value>
+      <value><![CDATA[Datum Från:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_to</key>
-      <value><![CDATA[Datum till:]]></value>
+      <value><![CDATA[Datum Till:]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_tips</key>
-      <value><![CDATA[Sök hjälp]]></value>
+      <value><![CDATA[Sök Hjälp]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_heading</key>
-      <value><![CDATA[Sök hjälp]]></value>
+      <value><![CDATA[Sök Hjälp]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1811,12 +1811,12 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>error_search_invalid_from_date</key>
-      <value><![CDATA[Ogiltligt fråndatum.]]></value>
+      <value><![CDATA[Ogiltligt Fråndatum.]]></value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_to_date</key>
-      <value><![CDATA[Ogiltligt tilldatum.]]></value>
+      <value><![CDATA[Ogiltligt Tilldatum.]]></value>
       <group>search</group>
     </definition>
     <definition>
@@ -1881,7 +1881,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_gender_error</key>
-      <value><![CDATA[Var vänlig och välj ditt kön.]]></value>
+      <value><![CDATA[Var vänlig och välj ditt Kön.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1891,7 +1891,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_first_name_error</key>
-      <value><![CDATA[Ditt förnamn måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt Förnamn måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1901,7 +1901,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_last_name_error</key>
-      <value><![CDATA[Ditt efternamn måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt Efternamn måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1911,27 +1911,27 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_date_of_birth_error</key>
-      <value><![CDATA[Ditt födelsedatum måste skrivas rätt.]]></value>
+      <value><![CDATA[Ditt Födelsedatum måste skrivas rätt.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address</key>
-      <value><![CDATA[E-postadress:]]></value>
+      <value><![CDATA[E-Postadress:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_error</key>
-      <value><![CDATA[Din e-postadress måste innehålla minst %S tecken.]]></value>
+      <value><![CDATA[Din E-Postadress måste innehålla minst %S tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_check_error</key>
-      <value><![CDATA[Din e-postadress verkar inte vara giltlig - var vänlig och gör nödvändiga ändringar.]]></value>
+      <value><![CDATA[Din E-Postadress verkar inte vara giltlig - var vänlig och gör nödvändiga ändringar.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_exists_error</key>
-      <value><![CDATA[Din e-postadress finns redan i vårt register - var vänlig och logga in med din emailadress eller skapa ett nytt konto med en ny adress.]]></value>
+      <value><![CDATA[Din E-Postadress finns redan i vårt register - var vänlig och logga in med din emailadress eller skapa ett nytt konto med en ny adress.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1941,7 +1941,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_company_error</key>
-      <value><![CDATA[Ditt företagsnamn måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt Företagsnamn måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1951,7 +1951,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_street_address_error</key>
-      <value><![CDATA[Din gatuadress måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Din Gatuadress måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1961,7 +1961,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_suburb_error</key>
-      <value><![CDATA[Din ort måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Din Ort måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1971,7 +1971,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_post_code_error</key>
-      <value><![CDATA[Ditt postnummer måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt Postnummer måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1981,7 +1981,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_city_error</key>
-      <value><![CDATA[Din stad måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Din Stad måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1991,12 +1991,12 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_state_error</key>
-      <value><![CDATA[Ditt län måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt Län måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_select_pull_down_error</key>
-      <value><![CDATA[Var vänlig och välj län från menyn.]]></value>
+      <value><![CDATA[Var vänlig och välj Län från menyn.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2006,7 +2006,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_country_error</key>
-      <value><![CDATA[Du måste välja land från menyn.]]></value>
+      <value><![CDATA[Du måste välja Land från menyn.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2016,7 +2016,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_telephone_number_error</key>
-      <value><![CDATA[Ditt telefonnummer måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt Telefonnummer måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2026,7 +2026,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_fax_number_error</key>
-      <value><![CDATA[Ditt faxnummer måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt Faxnummer måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2041,7 +2041,7 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_password_error</key>
-      <value><![CDATA[Ditt lösenord måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt Lösenord måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2051,32 +2051,32 @@ Din vän, %s, tror att du är intresserad av %s från %s.]]></value>
     </definition>
     <definition>
       <key>field_customer_password_confirmation</key>
-      <value><![CDATA[Lösenords bekräftning:]]></value>
+      <value><![CDATA[Lösenordsbekräftning:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current</key>
-      <value><![CDATA[Nuvarande lösenord:]]></value>
+      <value><![CDATA[Nuvarande Lösenord:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current_error</key>
-      <value><![CDATA[Ditt lösenord måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt Lösenord måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new</key>
-      <value><![CDATA[Nytt lösenord:]]></value>
+      <value><![CDATA[Nytt Lösenord:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_error</key>
-      <value><![CDATA[Ditt nya lösenord måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[Ditt nya Lösenord måste innehålla minst %s tecken.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_mismatch_with_confirmation_error</key>
-      <value><![CDATA[Bekräftelsen måste stämma med det nya lösenordet.]]></value>
+      <value><![CDATA[Bekräftelsen måste stämma med det nya Lösenordet.]]></value>
       <group>general</group>
     </definition>
     <definition>

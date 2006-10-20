@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -13,7 +13,7 @@
 define('HEADING_TITLE', 'Språk');
 
 define('TABLE_HEADING_LANGUAGE_NAME', 'Språk');
-define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Antal definitioner');
+define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Antal Definitioner');
 define('TABLE_HEADING_LANGUAGE_CODE', 'Kod');
 define('TABLE_HEADING_DEFINITION_GROUPS', 'Definitionsgrupper');
 define('TABLE_HEADING_ACTION', 'Funktion');
@@ -36,11 +36,11 @@ define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_DECIMAL', 'Numerisk decimalavskilja
 define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_THOUSANDS', 'Numerisk tusendelsavskiljare');
 define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Sorteringsordning:');
 
-define('TEXT_INFO_HEADING_IMPORT_LANGUAGE', 'Importera språk');
+define('TEXT_INFO_HEADING_IMPORT_LANGUAGE', 'Importera Språk');
 
-define('TEXT_INFO_SELECT_LANGUAGE', 'Välj språk:');
-define('TEXT_INFO_SELECT_IMPORT_TYPE', 'Typ av importering:');
-define('TEXT_INFO_EXPORT_WITH_DATA', 'Exportera med språkdata');
+define('TEXT_INFO_SELECT_LANGUAGE', 'Välj Språk:');
+define('TEXT_INFO_SELECT_IMPORT_TYPE', 'Typ av Importering:');
+define('TEXT_INFO_EXPORT_WITH_DATA', 'Exportera med Språkdata');
 
 define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standardspråket kan inte tas bort. Var vänlig och välj ett annat språk som standardspråk och försök igen.');
 ?>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_REVIEWS_TITLE', 'Senaste kommentarer');
+  define('MODULE_SUMMARY_REVIEWS_TITLE', 'Senaste Kommentarer');
 
   define('MODULE_SUMMARY_REVIEWS_HEADING_PRODUCTS', 'Produkter');
   define('MODULE_SUMMARY_REVIEWS_HEADING_LANGUAGE', 'Språk');

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -10,10 +10,10 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Språk definitioner');
+define('HEADING_TITLE', 'Språk Definitioner');
 
 define('TABLE_HEADING_DEFINITION_GROUPS', 'Definitionsgrupper');
-define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Antal definitioner');
+define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Antal Definitioner');
 define('TABLE_HEADING_ACTION', 'Funktion');
 
 define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya språkdefinitionen med relevanta data');
@@ -23,9 +23,9 @@ define('TEXT_INFO_DELETE_INTRO', 'Var vänlig och välj de definitioner du vill 
 define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definitionsnyckel:');
 define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definitionsvärde:');
 define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Grupp:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Ny grupp:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Ny Grupp:');
 
-define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Ny språkdefinition');
+define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Ny Språkdefinition');
 
 define('TEXT_BACK_TO_LANGUAGES', 'Tillbaka till språk');
 ?>

@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>shipping_zones_description</key>
-      <value><![CDATA[Zonbaserad kostnad]]></value>
+      <value><![CDATA[Zonbaserad Kostnad]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
