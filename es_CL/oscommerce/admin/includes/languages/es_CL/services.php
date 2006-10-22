@@ -16,7 +16,7 @@ define('TABLE_HEADING_SERVICES', 'Servicios');
 define('TABLE_HEADING_STATUS', 'Estado');
 define('TABLE_HEADING_ACTION', 'Acción');
 
-define('TEXT_MODULE_DIRECTORY', 'Directorio del módulo:');
+define('TEXT_MODULE_DIRECTORY', 'Directorio del Módulo:');
 
-define('TEXT_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(todos los parámetros del módulo serían borrados)');
+define('TEXT_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(todos los parámetros del módulo serán borrados)');
 ?>

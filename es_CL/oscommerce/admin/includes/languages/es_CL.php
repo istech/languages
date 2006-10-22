@@ -65,11 +65,11 @@ define('BOX_CUSTOMERS_ORDERS', 'Pedidos');
 define('BOX_HEADING_LOCATION_AND_TAXES', 'Localizaciones / Impuestos');
 define('BOX_TAXES_COUNTRIES', 'Paises');
 define('BOX_TAXES_ZONES', 'Zonas');
-define('BOX_TAXES_GEO_ZONES', 'Zonas de impuesto');
+define('BOX_TAXES_ZONE_GROUPS', 'Grupos de Zonas');
 define('BOX_TAXES_TAX_CLASSES', 'Tipos de impuesto');
 
 // reports box text in includes/boxes/reports.php
-define('BOX_HEADING_REPORTS', 'Reportes');
+define('BOX_HEADING_REPORTS', 'Informes');
 define('BOX_REPORTS_STATISTICS', 'Estadísticas');
 
 // tools text in includes/boxes/tools.php
@@ -104,7 +104,7 @@ define('JS_PRODUCTS_WEIGHT', '* El producto nuevo necesita un peso\n');
 define('JS_PRODUCTS_QUANTITY', '* El producto nuevo necesita una cantidad\n');
 define('JS_PRODUCTS_MODEL', '* El producto nuevo necesita un  modelo\n');
 define('JS_PRODUCTS_IMAGE', '* El producto nuevo necesita una imagen\n');
-define('JS_SPECIALS_PRODUCTS_PRICE', '* Un nuevo precio para este producto necesita ser fijado\n');
+define('JS_SPECIALS_PRODUCTS_PRICE', '* Necesita dar un nuevo precio para este producto\n');
 define('JS_ORDER_DOES_NOT_EXIST', 'El número del pedido número %s no existe!');
 
 define('CATEGORY_PERSONAL', 'Personal');
@@ -120,17 +120,17 @@ define('ENTRY_FIRST_NAME_ERROR', 'Su nombre debe contener un mínimo de ' . ACCO
 define('ENTRY_LAST_NAME', 'Apellidos:');
 define('ENTRY_LAST_NAME_ERROR', 'Sus apellidos deben contener un mínimo de ' . ACCOUNT_LAST_NAME . ' caracteres.');
 define('ENTRY_DATE_OF_BIRTH', 'Fecha de nacimiento:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', 'Su Fecha de nacimiento se debe fijarse correctamente.');
+define('ENTRY_DATE_OF_BIRTH_ERROR', 'Su Fecha de nacimiento se debe fijar correctamente.');
 define('ENTRY_EMAIL_ADDRESS', 'Dirección de e-mail:');
 define('ENTRY_EMAIL_ADDRESS_ERROR', 'Su dirección de e-mail debe contener un mínimo de ' . ACCOUNT_EMAIL_ADDRESS . ' caracteres.');
-define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Su dirección de e-mail no esta válida - por favor hacer cualquier corrección necesaria.');
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Su dirección de e-mail existe ya en nuestra base de datos - por favor abra una sesión con la dirección e-mail o cree una cuenta con una dirección diferente.');
+define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Su dirección de e-mail no es válida - por favor haga las correcciones necesarias.');
+define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Su dirección de e-mail ya existe en nuestra base de datos - por favor abra una sesión con la dirección e-mail o cree una cuenta con una dirección diferente.');
 define('ENTRY_COMPANY', 'Nombre de empresa:');
 define('ENTRY_COMPANY_ERROR', 'El nombre de la empresa debe contener un mínimo de ' . ACCOUNT_COMPANY . ' caracteres.');
 define('ENTRY_STREET_ADDRESS', 'Nombre de calle:');
 define('ENTRY_STREET_ADDRESS_ERROR', 'En nombre de la calle debe contener un mínimo de ' . ACCOUNT_STREET_ADDRESS . ' caracteres.');
-define('ENTRY_SUBURB', 'Suburbio:');
-define('ENTRY_SUBURB_ERROR', 'Su suburbio debe contener un mínimo de ' . ACCOUNT_SUBURB . ' caracteres.');
+define('ENTRY_SUBURB', 'Suburbio/barrio:');
+define('ENTRY_SUBURB_ERROR', 'Su suburbio/barrio debe contener un mínimo de ' . ACCOUNT_SUBURB . ' caracteres.');
 define('ENTRY_POST_CODE', 'Código postal:');
 define('ENTRY_POST_CODE_ERROR', 'Su código postal debe contener un mínimo de ' . ACCOUNT_POST_CODE . ' caracteres.');
 define('ENTRY_CITY', 'Ciudad:');
@@ -154,7 +154,7 @@ define('ENTRY_PASSWORD_CONFIRMATION', 'Confirmar contraseña:');
 
 // images
 define('IMAGE_ANI_SEND_EMAIL', 'Enviar e-mail');
-define('IMAGE_APPROVE', 'Aprovar');
+define('IMAGE_APPROVE', 'Aprobar');
 define('IMAGE_BACK', 'Atrás');
 define('IMAGE_BACKUP', 'Backup');
 define('IMAGE_BOX_REMOVE', 'Quitar caja');
@@ -249,14 +249,14 @@ define('TEXT_DISPLAY_NUMBER_OF_CATEGORIES', 'Mostrando <b>%d</b> a <b>%d</b> (de
 define('TEXT_DISPLAY_NUMBER_OF_COUNTRIES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> paises)');
 define('TEXT_DISPLAY_NUMBER_OF_CREDIT_CARDS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> tarjetas de crédito)');
 define('TEXT_DISPLAY_NUMBER_OF_CUSTOMERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> clientes)');
-define('TEXT_DISPLAY_NUMBER_OF_CURRENCIES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> valutas)');
+define('TEXT_DISPLAY_NUMBER_OF_CURRENCIES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> monedas)');
 define('TEXT_DISPLAY_NUMBER_OF_LANGUAGES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> lenguajes)');
 define('TEXT_DISPLAY_NUMBER_OF_MANUFACTURERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> fabricantes)');
 define('TEXT_DISPLAY_NUMBER_OF_NEWSLETTERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> boletínes)');
 define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> pedidos)');
-define('TEXT_DISPLAY_NUMBER_OF_ORDERS_STATUS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> estatus de los pedidos)');
+define('TEXT_DISPLAY_NUMBER_OF_ORDERS_STATUS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> estados de los pedidos)');
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> atributos del producto)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES_GROUPS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> grupo de atributos del producto)');
+define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES_GROUPS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> grupos de atributos de los productos)');
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> productos)');
 define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_EXPECTED', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> productos esperados)');
 define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> comentarios de productos)');
@@ -264,7 +264,7 @@ define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Mostrando <b>%d</b> a <b>%d</b> (de <
 define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> clases de impuesto)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> zonas de impuesto)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> impuestos fiscales)');
-define('TEXT_DISPLAY_NUMBER_OF_WEIGHT_CLASSES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> clases de peso)');
+define('TEXT_DISPLAY_NUMBER_OF_WEIGHT_CLASSES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> tipos de peso)');
 define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> zonas)');
 
 define('PREVNEXT_BUTTON_PREV', '&lt;&lt;');
@@ -275,7 +275,7 @@ define('TEXT_SET_DEFAULT', 'Fijar como predeterminada');
 define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">* Requerido</span>');
 define('TEXT_IMAGE_NONEXISTENT', 'IMÁGEN NO EXISTE');
 
-define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Error: Actualmente no hay una moneda predeterminada. Por favor fije una en: Administración ->Localización->Monedas');
+define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Error: Actualmente no hay una moneda predeterminada. Por favor fije una en: Administración ->Localización ->Monedas');
 
 define('TEXT_CACHE_CATEGORIES', 'Categorías');
 define('TEXT_CACHE_MANUFACTURERS', 'Fabricantes');

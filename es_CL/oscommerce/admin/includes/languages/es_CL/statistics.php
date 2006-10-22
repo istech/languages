@@ -14,5 +14,5 @@ define('HEADING_TITLE', 'Estadísticas');
 
 define('TABLE_HEADING_MODULES', 'Módulos');
 
-define('TEXT_MODULE_DIRECTORY', 'Directorio del módulo:');
+define('TEXT_MODULE_DIRECTORY', 'Directorio del Módulo:');
 ?>

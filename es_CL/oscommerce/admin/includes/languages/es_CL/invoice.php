@@ -22,7 +22,7 @@ define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Total (inc)');
 
 define('ENTRY_SOLD_TO', 'VENDIDO A:');
 define('ENTRY_SHIP_TO', 'ENTREGADO A:');
-define('ENTRY_PAYMENT_METHOD', 'Forma de pago:');
+define('ENTRY_PAYMENT_METHOD', 'Forma de Pago:');
 define('ENTRY_SUB_TOTAL', 'Sub-Total:');
 define('ENTRY_TAX', 'Impuesto:');
 define('ENTRY_SHIPPING', 'Envío:');

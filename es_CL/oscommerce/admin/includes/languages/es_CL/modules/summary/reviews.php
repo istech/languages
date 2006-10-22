@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_SUMMARY_REVIEWS_TITLE', 'Ultimos comentarios');
+  define('MODULE_SUMMARY_REVIEWS_TITLE', 'Últimos Comentarios');
 
   define('MODULE_SUMMARY_REVIEWS_HEADING_PRODUCTS', 'Productos');
   define('MODULE_SUMMARY_REVIEWS_HEADING_LANGUAGE', 'Lenguaje');
