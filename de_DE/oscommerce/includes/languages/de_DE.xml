@@ -666,131 +666,131 @@
     </definition>
     <definition>
       <key>primary_address_title</key>
-      <value><![CDATA[Primary Address]]></value>
+      <value><![CDATA[Standardadresse]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>primary_address_description</key>
-      <value><![CDATA[This address is used as the pre-selected shipping and billing address for orders placed on this store.<br /><br />This address is also used as the base for product and service tax calculations.]]></value>
+      <value><![CDATA[Diese Adresse wird als Liefer- und Rechnungsadresse für Bestellungen in diesem Shop verwendet, <br /><br />sowie als Grundlage zur Berechnung eventueller Steuern und Versandkosten.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_title</key>
-      <value><![CDATA[Address Book Entries]]></value>
+      <value><![CDATA[Adressbucheintr&auml;ge]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>primary_address_marker</key>
-      <value><![CDATA[(primary address)]]></value>
+      <value><![CDATA[(Standardadresse)]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_maximum_entries</key>
-      <value><![CDATA[<font color="#ff0000"><b>NOTE:</b></font> A maximum of %s address book entries allowed.]]></value>
+      <value><![CDATA[<span style="color: #ff0000; font-weight: bold; text-transform: uppercase; ">Note:</span> A maximum of %s address book entries allowed.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_address_title</key>
-      <value><![CDATA[Delete Address]]></value>
+      <value><![CDATA[Eintrag l&ouml;schen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_address_description</key>
-      <value><![CDATA[Are you sure you would like to delete the selected address from your address book?]]></value>
+      <value><![CDATA[Wollen Sie diese Adresse unwiderruflich aus Ihrem Adressbuch entfernen?]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_new_address_title</key>
-      <value><![CDATA[New Address]]></value>
+      <value><![CDATA[Neue Adresse]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>selected_address_title</key>
-      <value><![CDATA[Selected Address]]></value>
+      <value><![CDATA[Standardadresse]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>set_as_primary</key>
-      <value><![CDATA[Set as primary address.]]></value>
+      <value><![CDATA[Als Standardadresse festlegen.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_terms_heading</key>
-      <value><![CDATA[Privacy Statement]]></value>
+      <value><![CDATA[Datenschutzhinweis]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_terms_description</key>
-      <value><![CDATA[Please acknowledge you agree with our privacy statement by ticking the following box. The privacy statement can be read <a href="%s">here</a>.]]></value>
+      <value><![CDATA[Bitte anerkennen Sie unseren Datenschutzhinweis, indem Sie die nachfolgende Checkbox ausw&auml;en. Hier k&ouml;nnen Sie den <a href="%s">Datenschutzhinweis nachlesen</a>.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>create_account_terms_confirm</key>
-      <value><![CDATA[I have read and agreed to your privacy statement.]]></value>
+      <value><![CDATA[Ich habe Ihren Datenschutzhinweis gelesen und anerkenne ihn.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>password_forgotten_heading</key>
-      <value><![CDATA[Password Forgotten]]></value>
+      <value><![CDATA[Passwort vergessen]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>password_forgotten</key>
-      <value><![CDATA[If you've forgotten your password, enter your e-mail address below and we'll send you an e-mail message containing your new password.]]></value>
+      <value><![CDATA[Sollten Sie Ihr Passwort nicht mehr wissen, geben Sie bitte unten Ihre E-Mail-Adresse ein, um umgehend ein neues Passwort per E-Mail zu erhalten.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>email_create_account_subject</key>
-      <value><![CDATA[Welcome to %s]]></value>
+      <value><![CDATA[Willkommen bei %s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>email_create_account_body</key>
-      <value><![CDATA[We welcome you to %s!
+      <value><![CDATA[Willkommen bei %s,
+	  
+Sie können jetzt unseren Online-Service nutzen. Der Service bietet unter anderem:
 
-You can now take part in the various services we have on offer for you. Some of these services include:
+<li>Kundenwarenkorb - Jeder Artikel bleibt registriert bis Sie zur Kasse gehen, oder die Produkte aus dem Warenkorb entfernen.
+<li>Adressbuch - Wir können jetzt die Produkte zu der von Ihnen ausgesuchten Adresse senden. Der perfekte Weg ein Geburtstagsgeschenk zu versenden
+<li>Vorherige Bestellungen - Sie können jederzeit Ihre vorherigen Bestellungen überprüfen.
+<li>Meinungen über Produkte - Teilen Sie Ihre Meinung zu unseren Produkten mit anderen Kunden
 
-<li>Permanent Cart - Any products added to your online cart remain there until you remove them, or check them out.
-<li>Address Book - We can now deliver your products to another address other than yours! This is perfect to send birthday gifts direct to the birthday-person themselves.
-<li>Order History - View your history of purchases that you have made with us.
-<li>Products Reviews - Share your opinions on products with our other customers.
+Falls Sie Fragen zu unserem Kunden-Service haben, wenden Sie sich bitte an den Vertrieb: %s.
 
-For help with any of our online services, please email the store-owner: %s.
-
-Note: This email address was given to us by one of our customers. If you did not signup to be a member, please send an email to the store owner.]]></value>
+Hinweis: Diese E-Mail-Adresse wurde uns von einem Kunden bekannt gegeben. Falls Sie sich nicht angemeldet haben, senden Sie bitte eine E-Mail an den Vertrieb.]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>email_addressing_gender_male</key>
-      <value><![CDATA[Dear Mr. %s,]]></value>
+      <value><![CDATA[Sehr geehrter Herr %s,]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>email_addressing_gender_female</key>
-      <value><![CDATA[Dear Ms. %s,]]></value>
+      <value><![CDATA[Sehr geehrte Frau %s,]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>email_addressing_gender_unknown</key>
-      <value><![CDATA[Dear %s,]]></value>
+      <value><![CDATA[Guten Tag %s,]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>email_password_reminder_subject</key>
-      <value><![CDATA[Password Reminder to %s]]></value>
+      <value><![CDATA[Passwort für %s]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>email_password_reminder_body</key>
-      <value><![CDATA[A new password was requested from %s.
+      <value><![CDATA[Ein neues Passwort wurde von %s angefordert.
 
-Your new password to %s is:
+Ihr neues Passwort für %s lautet:
 
 %s
 
-For help with any of our online services, please email the store-owner: %s.
+Für Hilfe zu irgend einem unserer Online-Services, schicken Sie bitte eine E-Mail an der Vertrieb: %s.
 
-Note: If you did not request this action via our password forgotten page, please notify the store owner as soon as possible.]]></value>
+Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, benachrichtigen Sie bitte umgehend unseren Vertrieb.]]></value>
       <group>account</group>
     </definition>
     <definition>
