@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Gestor de Copias de Seguridad de la Base de Datos ');
+define('HEADING_TITLE', 'Gestor de Copias de Seguridad de la Base de Datos');
 
 define('TABLE_HEADING_TITLE', 'Título');
 define('TABLE_HEADING_FILE_DATE', 'Fecha');
