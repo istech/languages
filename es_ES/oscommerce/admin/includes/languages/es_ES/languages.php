@@ -11,6 +11,7 @@
 */
 
 define('HEADING_TITLE', 'Lenguajes');
+define ('HEADING_TITLE_DEFINITIONS', 'Definiciones del Lenguaje');
 
 define('TABLE_HEADING_LANGUAGE_NAME', 'Lenguaje');
 define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Definiciones Totales');
@@ -43,4 +44,16 @@ define('TEXT_INFO_SELECT_IMPORT_TYPE', 'Tipo de Importación:');
 define('TEXT_INFO_EXPORT_WITH_DATA', 'Exportación con datos del lenguaje');
 
 define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: El lenguaje del predeterminado no puede ser borrado. Por favor elija otro lenguaje como el predeterminado, e inténtelo de nuevo.');
+
+define('TEXT_INFO_INSERT_DEFINITION_INTRO', 'Por favor introduzca la nueva definición del lenguaje con sus datos relacionados');  
+define('TEXT_INFO_DELETE_DEFINITION_INTRO', 'Por favor seleccionar las definiciones que usted quisiera borrar del grupo siguiente:');
+
+define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definición Llave:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definición Valor:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Grupo:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Nuevo Grupo:');
+
+define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Nueva Definición del Lenguaje');
+
+define('TEXT_BACK_TO_LANGUAGES', 'Volver a Lenguajes');
 ?>
