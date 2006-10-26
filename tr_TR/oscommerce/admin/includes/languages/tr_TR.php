@@ -19,7 +19,7 @@ define('HEADER_TITLE_OSCOMMERCE_SUPPORT_SITE', 'osCommerce Destek Sitesi');
 define('HEADER_TITLE_ONLINE_CATALOG', 'Çevrimiçi Katalog');
 define('HEADER_TITLE_LANGUAGES', 'Diller');
 
-define('BOX_CONNECTION_PROTECTED', 'Bu %s güvenli SSL bağlantısıyla korunmaktanızın.');
+define('BOX_CONNECTION_PROTECTED', 'Bu güvenli %s SSL  bağlantısıyla korunmaktanızın.');
 define('BOX_CONNECTION_UNPROTECTED', 'Güvenli SSL bağlantısıyla koruma<font color="#ff0000">ma</font>ktasınız.');
 define('BOX_CONNECTION_UNKNOWN', 'bilinmeyen');
 
@@ -90,6 +90,15 @@ define('BOX_LOCALIZATION_LANGUAGES', 'Diller');
 define('BOX_LOCALIZATION_ORDERS_STATUS', 'Sipariş Durumları');
 define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Ağırlık Sınıfları');
 define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Resim Grupları');
+
+// templates box text in includes/boxes/templates.php alp.2006
+define('BOX_HEADING_TEMPLATES', 'Şablonlar');
+define('BOX_TEMPLATES_TEMPLATES', 'Şablonlar');
+define('BOX_TEMPLATES_BOXES', 'Kutular');
+define('BOX_TEMPLATES_MODULES', 'Modüller');
+define('BOX_TEMPLATES_LAYOUTS', 'Yerlişimler');
+define('BOX_TEMPLATES_LAYOUTS_BOXES', 'Kutuların Yerleşimi');
+define('BOX_TEMPLATES_LAYOUTS_MODULES', 'Modüllerin Yerleşimi');
 
 define('BOX_HEADING_LOGOFF', 'Çıkış');
 
@@ -163,6 +172,7 @@ define('IMAGE_CONFIGURE', 'Yapılandır');
 define('IMAGE_CONFIRM', 'Doğrula');
 define('IMAGE_COPY', 'Kopya');
 define('IMAGE_COPY_TO', 'Kopyala');
+define('IMAGE_DEFAULT', 'Varsayilan');
 define('IMAGE_DETAILS', 'Ayrıntılar');
 define('IMAGE_DELETE', 'Sil');
 define('IMAGE_EDIT', 'Düzelt');
@@ -242,7 +252,7 @@ define('ICON_FILES', 'Dosyalar');
 define('ICON_ORDERS', 'Siparişler');
 define('ICON_PRODUCTS', 'Ürünler');
 
-define('TEXT_RESULT_PAGE', 'Page&nbsp;%s&nbsp;of&nbsp;%d');
+define('TEXT_RESULT_PAGE', 'Sayfa No&nbsp;%s&nbsp;toplam&nbsp;%d');
 define('TEXT_DISPLAY_NUMBER_OF_ADMINISTRATORS', 'Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> yöneticiden)');
 define('TEXT_DISPLAY_NUMBER_OF_BANNERS', 'Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> reklam)');
 define('TEXT_DISPLAY_NUMBER_OF_CATEGORIES', 'Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> kategoriden)');
@@ -279,7 +289,7 @@ define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Hata: Şu anda mevcut varsayılan p
 
 define('TEXT_CACHE_CATEGORIES', 'Katergoriler Kutusu');
 define('TEXT_CACHE_MANUFACTURERS', 'Üreticiler Kutusu');
-define('TEXT_CACHE_ALSO_PURCHASED', 'Keza Satılan Modülü');  /// aynı zamanda satılan modulu ///
+define('TEXT_CACHE_ALSO_PURCHASED', 'Aynı Zamanda Satılan Modülü');
 
 define('TEXT_NONE', '--boş--');
 define('TEXT_TOP', 'Üst');
@@ -300,5 +310,5 @@ define('SUCCESS_DB_ROWS_UPDATED', 'Başarılı: Kaydınız başarıyla güncelle
 define('WARNING_DB_ROWS_NOT_UPDATED', 'Uyarı: Veri içeriginiz başlangışla aynı olduğundan girdiniz güncellenmedi.');
 define('ERROR_DB_ROWS_NOT_UPDATED', 'Hata: Girdiniz bir hatadan dolayı yukarı yüklenmedi.');
 
-define('MAXIMUM_FILE_UPLOAD_SIZE', '(En fazla: %s)');
+// define('MAXIMUM_FILE_UPLOAD_SIZE', '(En fazla: %s)');
 ?>

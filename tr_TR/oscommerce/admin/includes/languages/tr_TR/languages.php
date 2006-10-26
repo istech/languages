@@ -11,6 +11,7 @@
 */
 
 define('HEADING_TITLE', 'Diller');
+define('HEADING_TITLE_DEFINITIONS', 'Dil Tanımları');
 
 define('TABLE_HEADING_LANGUAGE_NAME', 'Dil');
 define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Toplam Tanımlama(Çeviri)');
@@ -43,4 +44,16 @@ define('TEXT_INFO_SELECT_IMPORT_TYPE', 'Dahil Tipi:');
 define('TEXT_INFO_EXPORT_WITH_DATA', 'Dil verisiyle harice çıkar');
 
 define('TEXT_INFO_DELETE_PROHIBITED', 'Uyarı: Varsayılan dil kaldırılamaz. Lütfen diğer dili varsayılan olarak ayarlayın ve tekrar deneyin.');
+
+define('TEXT_INFO_INSERT_DEFINITION_INTRO', 'Lütfen yeni dil tanımlarıyla ilgili veri giriniz');
+define('TEXT_INFO_DELETE_DEFINITION_INTRO', 'Lütfen takip eden grubdan hangi tanımlamaları silmek istiyorsanız seçiniz:');
+
+define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Tanımlama Anahtarı:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'TAnımlama Değeri:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Grub:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Yeni Grub:');
+
+define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Yeni Dil Tanımlaması');
+
+define('TEXT_BACK_TO_LANGUAGES', 'Dillere Geri Dön');
 ?>

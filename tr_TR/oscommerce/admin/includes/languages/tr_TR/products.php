@@ -15,7 +15,7 @@
   define('HEADING_TITLE_GOTO', 'Git:');
 
   define('TAB_GENERAL', 'Genel');
-  define('TAB_DATA', 'Tarih');
+  define('TAB_DATA', 'Veri');
   define('TAB_IMAGES', 'Resimler');
   define('TAB_ATTRIBUTES', 'Öznitelikler');
   define('TAB_CATEGORIES', 'Kategoriler');

@@ -19,7 +19,7 @@ define('TABLE_HEADING_TAX_RATE_PRIORITY', 'Öncelik');
 define('TABLE_HEADING_ZONE', 'Bölge');
 define('TABLE_HEADING_TAX_RATE', 'Vergi Oranı');
 
-define('TABLE_HEADING_ACTION', ':Eylem');
+define('TABLE_HEADING_ACTION', 'Eylem');
 
 define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'Yeni Vergi Sınıfı');
 define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'Yeni Vergi Oranı');

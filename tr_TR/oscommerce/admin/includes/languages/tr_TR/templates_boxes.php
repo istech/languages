@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE_MODULES_BOXES', 'Kurular');
+define('HEADING_TITLE_MODULES_BOXES', 'Kutular');
 define('HEADING_TITLE_MODULES_CONTENT', 'İçerik Modülleri');
 
 define('TABLE_HEADING_MODULES_BOXES', 'Kutular');
