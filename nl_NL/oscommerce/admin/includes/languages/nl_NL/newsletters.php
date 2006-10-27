@@ -32,5 +32,5 @@
   define('TEXT_FINISHED_SENDING_NEWSLETTERS', 'Klaar met het versturen van de nieuwsbrieven!');
 
   define('ERROR_NEWSLETTER_TITLE', 'Fout: Titel nieuwsbrief is verplicht');
-  define('ERROR_NEWSLETTER_MODULE', 'Error: Nieuwsbrief module is verplicht');
+  define('ERROR_NEWSLETTER_MODULE', 'Fout: Nieuwsbrief module is verplicht');
 ?>

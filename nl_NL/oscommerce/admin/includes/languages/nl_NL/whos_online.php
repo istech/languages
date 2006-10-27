@@ -23,7 +23,7 @@ define('TABLE_HEADING_ACTION', 'Actie');
 
 define('TEXT_SESSION_ID', 'Sessie ID:');
 define('TEXT_TIME_ONLINE', 'Tijd online:');
-define('TEXT_CUSTOMER_ID', 'Customer ID:');
+define('TEXT_CUSTOMER_ID', 'Klant ID:');
 define('TEXT_CUSTOMER_NAME', 'Klantnaam:');
 define('TEXT_IP_ADDRESS', 'IP adres:');
 define('TEXT_ENTRY_TIME', 'Tijd binnenkomst:');

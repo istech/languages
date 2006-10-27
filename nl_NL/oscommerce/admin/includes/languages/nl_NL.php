@@ -28,7 +28,7 @@ define('MALE', 'Man');
 define('FEMALE', 'Vrouw');
 
 // text for date of birth example
-define('DOB_FORMAT_STRING', 'dd/mm/yyyy');
+define('DOB_FORMAT_STRING', 'dd-mm-yyyy');
 
 define('BOX_CONFIGURATION_ADMINISTRATORS', 'Administrators');
 
@@ -180,6 +180,7 @@ define('IMAGE_IMPORT', 'Import');
 define('IMAGE_INFO', 'Info');
 define('IMAGE_INSERT', 'Invoegen');
 define('IMAGE_LOCK', 'Vastzetten');
+define('IMAGE_LOG', 'Log');
 define('IMAGE_LOGIN', 'Login');
 define('IMAGE_MODULE_INSTALL', 'Installeer module');
 define('IMAGE_MODULE_REMOVE', 'Deinstalleer module');

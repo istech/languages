@@ -36,6 +36,7 @@ define('EMAIL_GREET_MS', 'Geachte mevrouw %s,' . "\n\n");
 define('EMAIL_GREET_NONE', 'Beste %s' . "\n\n");
 define('EMAIL_WELCOME', 'Wij verwelkomen u bij <b>' . STORE_NAME . '</b>.' . "\n\n");
 define('EMAIL_TEXT', 'U kunt nu gebruik maken van de <b>diverse diensten</b> die wij kunnen aanbieden. Een aantal van deze diensten zijn:' . "\n\n" . '<li><b>Permanente winkelwagen</b> - Ieder artikel dat u aan uw winkelwagen toevoegt blijft bewaard tot u deze weer verwijderd of besteld.' . "\n" . '<li><b>Adresboek</b> - Wij kunnen nu uw bestelling leveren aan een ander adres als de uwe! Dit is ideaal om bijv. een verjaardagsgeschenk direct aan de jarige te sturen.' . "\n" . '<li><b>Bestellingen Overzicht</b> - Bekijk al uw vorige bestellingen die u bij ons heeft geplaatst.'. "\n\n");
+define('EMAIL_CONTACT', 'Indien u vragen of hulp nodig heeft bij één van onze online services, neemt u dan contact op met de webwinkel eigenaar: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
 define('EMAIL_PASSWORD', '<b>Opmerking:</b> Dit klantenprofiel is voor u aangemaakt door de winkeleigenaar. Het wachtwoord voor de toegang tot uw klantenprofiel is %s.' . "\n");
 
 define('ENTRY_STATUS', 'Status:');

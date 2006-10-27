@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -18,17 +18,17 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_owner</key>
-      <value><![CDATA[Account Owner:]]></value>
+      <value><![CDATA[Rekening houder:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type</key>
-      <value><![CDATA[Account Type:]]></value>
+      <value><![CDATA[Rekening type:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type_checking</key>
-      <value><![CDATA[Checking]]></value>
+      <value><![CDATA[Controle]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -43,12 +43,12 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_number</key>
-      <value><![CDATA[Account Number:]]></value>
+      <value><![CDATA[Rekeningnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_bank_name</key>
-      <value><![CDATA[Bank Name:]]></value>
+      <value><![CDATA[Bank naam:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -58,82 +58,82 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_tax_id</key>
-      <value><![CDATA[Tax ID or SSN:]]></value>
+      <value><![CDATA[BTW ID of SSN:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type</key>
-      <value><![CDATA[Organization Type:]]></value>
+      <value><![CDATA[Bedrijfstype:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type_individual</key>
-      <value><![CDATA[Individual]]></value>
+      <value><![CDATA[Particulier]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type_business</key>
-      <value><![CDATA[Business]]></value>
+      <value><![CDATA[Zakelijk]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_owner</key>
-      <value><![CDATA[* Please enter the owners name of the bank account.]]></value>
+      <value><![CDATA[* Vult u hier de naam van de rekeninghouder in.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_account_number</key>
-      <value><![CDATA[* Please enter the account number of the bank account.]]></value>
+      <value><![CDATA[* Vult u hier de rekeningnummer van de bank rekening in.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_bank_name</key>
-      <value><![CDATA[* Please enter the bank name of the bank account.]]></value>
+      <value><![CDATA[* Vult u hier de banknaam in.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_routing_code</key>
-      <value><![CDATA[* The bank routing code must consist of %s numbers.]]></value>
+      <value><![CDATA[* De bank routing code moet minstens %s nummers bevatten.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_tax_id</key>
-      <value><![CDATA[* The tax ID or SSN must consist of %s numbers.]]></value>
+      <value><![CDATA[* De BTW ID of SSN moet minstens %s nummers bevatten.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_general</key>
-      <value><![CDATA[There was a problem processing this bank account. Please check the account information and try again.]]></value>
+      <value><![CDATA[Er is een probleem met de verwerking van uw bankgegevens. Controleer uw bankgegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_routing_code</key>
-      <value><![CDATA[The bank routing code must consist of %s numbers. Please check the account information and try again.]]></value>
+      <value><![CDATA[De bank routing code moet minstens %s nummers bevatten. Controleer uw bankgegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_invalid_routing_code</key>
-      <value><![CDATA[There was a problem processing the bank routing code. Please check the account information and try again.]]></value>
+      <value><![CDATA[Er is een probleem met de verwerking van uw bank routing code. Controleer uw bankgegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_invalid_account</key>
-      <value><![CDATA[There was a problem processing the bank account number. Please check the account information and try again.]]></value>
+      <value><![CDATA[Er is een probleem met de verwerking van uw bankrekening nummer. Controleer uw bankgegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_tax_id</key>
-      <value><![CDATA[The tax ID or SSN must consist of %s numbers. Please check the account information and try again.]]></value>
+      <value><![CDATA[De BTW ID of SSN moet minstens %s nummers bevatten. Controleer uw bankgegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_invalid_tax_id</key>
-      <value><![CDATA[There was a problem processing the tax ID or SSN. Please check the account information and try again.]]></value>
+      <value><![CDATA[Er is een probleem met de verwerking van uw BTW ID of SSN. Controleer uw bankgegevens en probeer het opnieuw.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_confirmation_message</key>
-      <value><![CDATA[By confirming this order I authorize %s to charge my %s account on %s for the amount of %s for the items in this order.]]></value>
+      <value><![CDATA[Door deze order te bevestigen autoriseer ik %s om mij %s op rekening %s in rekening te brengen voor de artikelen in deze order.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

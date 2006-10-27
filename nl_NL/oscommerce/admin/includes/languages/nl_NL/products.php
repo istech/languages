@@ -71,4 +71,5 @@
   define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Fout: Produkten kunnen niet in dezelfde categorie gelinkt worden.');
   define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fout: De catalogus images directory is niet beschrijfbaar: ' . realpath('../images'));
   define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fout: De catalogus images directory bestaat niet: ' . realpath('../images'));
+  define('ERROR_IMAGE_PROCESSOR_NOT_AVAILABLE', 'Fout: Kan geen afbeeldingen verwerken omdat ImageMagicks "converteer" programma niet beschikbaar is. Dit kan ingesteld worden in Configuratie -> Programma Lokaties.');
 ?>

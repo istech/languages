@@ -10,13 +10,13 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Services');
+define('HEADING_TITLE', 'Diensten');
 
-define('TABLE_HEADING_SERVICES', 'Services');
+define('TABLE_HEADING_SERVICES', 'Diensten');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Actie');
 
 define('TEXT_MODULE_DIRECTORY', 'Module map:');
 
-define('TEXT_UNINSTALL_INTRO', 'Weet u zeker dat u deze module wilt deinstalleren?<br /><br />(alle module gegevens worden hierbij verwijderd)');
+define('TEXT_UNINSTALL_INTRO', 'Weet u zeker dat u deze module wilt deïnstalleren?<br /><br />(alle module gegevens worden hierbij verwijderd)');
 ?>

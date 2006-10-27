@@ -40,4 +40,6 @@
   define('EMPTY_CATEGORY', 'Lege categorie');
 
   define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Fout: Categorie kan niet verplaatst worden naar de sub-categorie.');
+  define('ERROR_CATEGORIES_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fout: De categorie afbeeldingen directorie is niet schrijfbaar: ' . realpath('../images/categories'));
+  define('ERROR_CATEGORIES_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fout: De categorie afbeeldingen directorie bestaat niet: ' . realpath('../images/categories'));
 ?>

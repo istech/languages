@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -48,7 +48,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_js_credit_card_not_accepted</key>
-      <value><![CDATA[* Deze creditcard is geweigerd. Probeer het met een andere creditcard of kies een andere betaal methode.]]></value>
+      <value><![CDATA[* Dit type creditcard wordt niet geaccepteerd. Probeert u het met een andere kaart of selecteer een andere betaalmethode.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

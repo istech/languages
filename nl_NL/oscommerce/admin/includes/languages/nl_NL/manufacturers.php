@@ -37,7 +37,7 @@ define('TEXT_DELETE_IMAGE', 'Verwijder fabrikant plaatje?');
 define('TEXT_DELETE_PRODUCTS', 'Verwijder de produkten van deze fabrikant? (inclusief produktbeoordelingen, aanbiedingen en verwachte produkten)');
 define('TEXT_DELETE_WARNING_PRODUCTS', '<b>Waarschuwing:</b> Er zijn nog %s produkten gekoppeld aan deze fabrikant!');
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Fout: Er kan niet naar de map geschreven worden. Plaats aub. de juiste toegangsrechten op: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Fout: Map bestaat niet: %s');
 define('ERROR_MANUFACTURER_NAME', 'Fout: Fabrikantnaam moet ingevuld worden');
+define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fout: Fabrikant afbeeldingen map is niet schrijfbaar: ' . realpath('../images/manufacturers'));
+define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fout: Fabrikant afbeeldingen map bestaat niet: ' . realpath('../images/manufacturers'));
 ?>

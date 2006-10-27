@@ -13,12 +13,12 @@
     </definition>
     <definition>
       <key>recently_visited_categories_title</key>
-      <value><![CDATA[Recent Categories]]></value>
+      <value><![CDATA[Recent bekeken categorieën]]></value>
       <group>modules-content</group>
     </definition>
     <definition>
       <key>recently_visited_searches_title</key>
-      <value><![CDATA[Recent Searches]]></value>
+      <value><![CDATA[Recent gezocht]]></value>
       <group>modules-content</group>
     </definition>
     <definition>

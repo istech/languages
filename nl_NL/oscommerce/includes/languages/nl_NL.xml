@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="iso-8859-15"?>
+<?xml version="1.0" encoding="utf-8"?>
 <language>
   <data>
     <title><![CDATA[Dutch]]></title>
     <code><![CDATA[nl_NL]]></code>
-    <locale><![CDATA[nl_NL,nl_NL.ISO8859-15,dutch]]></locale>
-    <character_set><![CDATA[iso-8859-15]]></character_set>
+    <locale><![CDATA[nl_NL.UTF-8,nl_NL,nederlands]]></locale>
+    <character_set><![CDATA[utf-8]]></character_set>
     <text_direction><![CDATA[ltr]]></text_direction>
-    <date_format_short><![CDATA[%d/%m/%Y]]></date_format_short>
+    <date_format_short><![CDATA[%d-%m-%Y]]></date_format_short>
     <date_format_long><![CDATA[%A %d %B, %Y]]></date_format_long>
     <time_format><![CDATA[%H:%M:%S]]></time_format>
     <default_currency><![CDATA[EUR]]></default_currency>

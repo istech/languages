@@ -19,7 +19,5 @@ define('TABLE_HEADING_SORT_ORDER', 'Sorteervolgorde');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Actie');
 
-define('TEXT_MODULE_DIRECTORY', 'Module map:');
-
 define('INFO_MODULE_UNINSTALL_INTRO', 'Weet u zeker dat u deze module wilt deinstalleren?<br /><br />(alle module gegevens worden hierbij verwijderd)');
 ?>
