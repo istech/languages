@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_PRODUCTS_ATTRIBUTES_TITLE', 'Ürün Özellikleri');
+define('ACCESS_PRODUCTS_ATTRIBUTES_TITLE', 'Ürün Öznitelikleri');
 ?>

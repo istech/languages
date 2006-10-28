@@ -24,4 +24,8 @@ define('TEXT_ADMINISTRATOR_USERNAME', 'Yöntici İsmi:');
 define('TEXT_ADMINISTRATOR_PASSWORD', 'Yönetici Parolası:');
 
 define('TEXT_DELETE_INTRO', 'Bu yöneticiyi silmek istediğinize eminmisiniz?');
+
+define('TEXT_GLOBAL_ACCESS', 'Genel Erişim');
+
+define('ERROR_ADMINISTRATORS_USERNAME_EXISTS', 'Hata: Yönetici kullanıcı adı zaten var.');
 ?>

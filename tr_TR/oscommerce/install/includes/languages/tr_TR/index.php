@@ -7,7 +7,7 @@
 #
 # Released under the GNU General Public License
 
-page_title_welcome = osCommerce 3.0a3pre ye heş geldiniz!
+page_title_welcome = osCommerce 3.0a4pre ye heş geldiniz!
 
 page_heading_installation_type = Kurulum Tipi
 

@@ -91,15 +91,6 @@ define('BOX_LOCALIZATION_ORDERS_STATUS', 'Sipariş Durumları');
 define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Ağırlık Sınıfları');
 define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Resim Grupları');
 
-// templates box text in includes/boxes/templates.php alp.2006
-define('BOX_HEADING_TEMPLATES', 'Şablonlar');
-define('BOX_TEMPLATES_TEMPLATES', 'Şablonlar');
-define('BOX_TEMPLATES_BOXES', 'Kutular');
-define('BOX_TEMPLATES_MODULES', 'Modüller');
-define('BOX_TEMPLATES_LAYOUTS', 'Yerlişimler');
-define('BOX_TEMPLATES_LAYOUTS_BOXES', 'Kutuların Yerleşimi');
-define('BOX_TEMPLATES_LAYOUTS_MODULES', 'Modüllerin Yerleşimi');
-
 define('BOX_HEADING_LOGOFF', 'Çıkış');
 
 // javascript messages
@@ -309,6 +300,4 @@ define('WARNING_FILE_UPLOADS_DISABLED', 'Uyarı: php.ini ayara dosyası içinde 
 define('SUCCESS_DB_ROWS_UPDATED', 'Başarılı: Kaydınız başarıyla güncellendi!');
 define('WARNING_DB_ROWS_NOT_UPDATED', 'Uyarı: Veri içeriginiz başlangışla aynı olduğundan girdiniz güncellenmedi.');
 define('ERROR_DB_ROWS_NOT_UPDATED', 'Hata: Girdiniz bir hatadan dolayı yukarı yüklenmedi.');
-
-// define('MAXIMUM_FILE_UPLOAD_SIZE', '(En fazla: %s)');
 ?>
