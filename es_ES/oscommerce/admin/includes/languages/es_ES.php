@@ -236,7 +236,7 @@ define('BUTTON_DELETE', 'Borrar');
 define('BUTTON_INSERT', 'Insertar');
 define('BUTTON_OK', 'OK');
 define('BUTTON_SAVE', 'Guardar');
-define('BUTTON_SEND', 'Enviarr');
+define('BUTTON_SEND', 'Enviar');
 
 define('ICON_FILES', 'Archivos');
 define('ICON_ORDERS', 'Pedidos');
