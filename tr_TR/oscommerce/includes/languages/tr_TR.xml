@@ -211,7 +211,7 @@
     </definition>
     <definition>
       <key>index_text</key>
-      <value><![CDATA[Bu osCommerce e-ticaret alışveriş cözümünün varsayılan kurulumudur, gösterilen ürünler halka sunum amaçlıdır. <b>satın aldığınız herhangi bir ürün gönderilmeyecek ve/veya müşterilere futuralandırılmıyacaktır</b>. Bu ürünler üzerinde gördüğünüz bilgiler çalışmalarda kullanılmak için kurgulanmıştır.]]></value>
+      <value><![CDATA[Bu osCommerce e-ticaret alışveriş çözümünün varsayılan kurulumudur, gösterilen ürünler halka sunum amaçlıdır. <b>Satın aldığınız herhangi bir ürün gönderilmeyecek ve/veya müşterilere faturalandırılmayacaktır</b>. Bu ürünler üzerinde gördüğünüz bilgiler çalışmalarda kullanılmak için kurgulanmıştır.]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -276,12 +276,12 @@
     </definition>
     <definition>
       <key>greeting_guest</key>
-      <value><![CDATA[Hoş geldiniz! <a href="%s">Giriş yapın</a> ve en son ziyaretinizden beri <a href="%s">neler yeni</a> görünüz.]]></value>
+      <value><![CDATA[Hoş geldiniz! <a href="%s">Giriş yapın</a> ve en son ziyaretinizden beri <a href="%s">neler yeni</a> görün.]]></value>
       <group>index</group>
     </definition>
     <definition>
       <key>greeting_customer</key>
-      <value><![CDATA[Tekrar hoş geldiniz %s! En son ziyaretinizden beri <a href="%s">nerel yeni</a> olduğuna bakınız!]]></value>
+      <value><![CDATA[Sayın %s tekrar hoş geldiniz! En son ziyaretinizden beri <a href="%s">neler yeni</a> bir göz atın!]]></value>
       <group>index</group>
     </definition>
     <definition>
@@ -451,7 +451,7 @@
     </definition>
     <definition>
       <key>login_new_customer_text</key>
-      <value><![CDATA[Ben yeni bir müşteriyim ve henuz burada bir hesabım yok.<br /><br />Bir hesap açmakla bu mağazanın size verdiği çok hızlı bir şekilde alışveriş yapabilmek, sipariş durumunu sürekli güncel tutarak takip edebilmek ve yapmış olduğunuz eski siparişlerinizi izleyebilmek gibi avantajlardan yararlanabilirsiniz.]]></value>
+      <value><![CDATA[Ben yeni bir müşteriyim ve henuz burada bir hesabım yok.<br /><br />Bir hesap açmakla bu mağazanın size verdiği; hızlı bir şekilde alışveriş yapabilmek, sipariş durumunu sürekli güncel tutarak takip edebilmek ve yapmış olduğunuz eski siparişlerinizi izleyebilmek gibi avantajlarından yararlanabilirsiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -671,7 +671,7 @@
     </definition>
     <definition>
       <key>primary_address_description</key>
-      <value><![CDATA[Bu mağazada üzerinde yapacağınız siparişleriniz için bu adres ön seçimli kargo ve fatura adresi olarak kullanıldı.<br /><br />Bu adres ürün ve servisin vergi hesaplamalarında da temel alınarak kullanılmıştır.]]></value>
+      <value><![CDATA[Bu adres bu mağazda verilen siparişler için ön seçimli kargo ve fatura adresi olarak kullanılır. <br /><br />Bu adres ayrıca ürün ve hizmet vergi hesaplamarında temel alınmak için kullanılır.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -795,7 +795,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>success_account_created</key>
-      <value><![CDATA[Tebrikler! Yeni hesabınız başarıyla açılmıştır! Bizimle üyelik ayrıcaliklariyle gelişmiş çevrimiçi alışveriş deneyiminden şimdi yararlanabilirsiniz. Eğer bu çevrimiçi alışveriş operasyonları hakkında sorularınız varsa lütfen <a href="%s">mağaza sahibine</a> eposta gönderiniz.<br /><br />Verilen eposta adresine bir onaylama gönderildi. Eğer bir saat içinde onu almadıysanız, lütfen bizimle iletişime geçiniz.]]></value>
+      <value><![CDATA[Tebrikler! Yeni hesabınız başarıyla açılmıştır! Bizimle üyelik ayrıcalıklarıyla gelişmiş çevrimiçi alışveriş deneyiminden şimdi yararlanabilirsiniz. Eğer bu çevrimiçi alışveriş operasyonları hakkında sorularınız varsa lütfen <a href="%s">mağaza sahibine</a> eposta gönderiniz.<br /><br />Verilen eposta adresine bir onaylama gönderildi. Eğer bir saat içinde onu almadıysanız, lütfen bizimle iletişime geçiniz.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -975,7 +975,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>selected_shipping_destination</key>
-      <value><![CDATA[Bu şu an seçili kargo adresi bu sipariş içindeki ürünlerin teslim edileceği yerdir.]]></value>
+      <value><![CDATA[Şu an seçili bu kargo adresi bu sipariş içindeki ürünlerin teslim edileceği yerdir.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1015,12 +1015,12 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>select_another_shipping_destination</key>
-      <value><![CDATA[Lütfen bu sipariş içindeki ürünler başka bir yere teslim edilecekse tercih ettiğiniz kargo adresini seçiniz.]]></value>
+      <value><![CDATA[Eğer bu sipariş içindeki ürünler başka bir yere teslim edilecekse lütfen tercih ettiğiniz kargo adresini seçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_billing_destination</key>
-      <value><![CDATA[Lütfen bu siparişdeki fatura başka bir yere teslim edilecekse tercih ettiginiz fatura adresini seçiniz.]]></value>
+      <value><![CDATA[Eğer bu siparişteki fatura başka bir yere teslim edilecekse lütfen tercih ettiğiniz fatura adresini seçiniz.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1030,7 +1030,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>new_shipping_address</key>
-      <value><![CDATA[Lütfen takip eden formu kullanarak bu siparişinizde kullanmak için yeni kargo adresi yapınız.]]></value>
+      <value><![CDATA[Lütfen bu siparişinizde kullanılması için takip eden formu kullanarak yeni bir kargo adresi yapınız.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1040,7 +1040,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>new_billing_address</key>
-      <value><![CDATA[Lütfen takip eden formu kullanarak bu siparişinizde kullanmak için yeni fatura adresi yapınız.]]></value>
+      <value><![CDATA[Lütfen bu siparişinizde kullanılması için takip eden formu kullanarak yeni bir fatura adresi yapınız.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1050,7 +1050,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>selected_billing_destination</key>
-      <value><![CDATA[Bu şu an seçili fatura adresi bu siparişin faturasının teslim edilecegi yerdir.]]></value>
+      <value><![CDATA[Şu an seçili bu fatura adresi bu siparişin faturasının teslim edileceği yerdir.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1240,7 +1240,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>order_processed_successfully</key>
-      <value><![CDATA[Siparişiniz başarıyla işleme konulmuştur! Ürününüz gönderildiği yere 2-5 iş günü içersinde varacaktır.]]></value>
+      <value><![CDATA[Siparişiniz başarıyla işleme konulmuştur! Ürününüz gönderileceği yere 2-5 iş günü içersinde varacaktır.]]></value>
       <group>checkout</group>
     </definition>
     <definition>
