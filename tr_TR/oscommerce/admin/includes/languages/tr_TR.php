@@ -129,13 +129,13 @@ define('ENTRY_COMPANY', 'Şirket Adı:');
 define('ENTRY_COMPANY_ERROR', 'Şirket Adınız en az ' . ACCOUNT_COMPANY . ' karakter içermeldir.');
 define('ENTRY_STREET_ADDRESS', 'Sokak Adresi:');
 define('ENTRY_STREET_ADDRESS_ERROR', 'Sokak Adresiniz en az ' . ACCOUNT_STREET_ADDRESS . ' karakter içermelidir.');
-define('ENTRY_SUBURB', 'Yörekent:');
-define('ENTRY_SUBURB_ERROR', 'Yörekentiniz en az ' . ACCOUNT_SUBURB . ' karakter içermelidir.');
+define('ENTRY_SUBURB', 'Semt:');
+define('ENTRY_SUBURB_ERROR', 'Semtiniz en az ' . ACCOUNT_SUBURB . ' karakter içermelidir.');
 define('ENTRY_POST_CODE', 'Posta Kodu:');
 define('ENTRY_POST_CODE_ERROR', 'Posta Kodunuz en az ' . ACCOUNT_POST_CODE . ' karakter içermelidir.');
-define('ENTRY_CITY', 'Şehir:');
-define('ENTRY_CITY_ERROR', 'Şehiriniz en az ' . ACCOUNT_CITY . ' karakter içermelidir.');
-define('ENTRY_STATE', 'Eyalet/Vilayet:'); //////// alp.2006 Osmanlıda il anlamında kullanılır. ///////
+define('ENTRY_CITY', 'İlçe:');
+define('ENTRY_CITY_ERROR', 'İlçeniz en az ' . ACCOUNT_CITY . ' karakter içermelidir.');
+define('ENTRY_STATE', 'Eyalet/İl:'); //////// alp.2006 Osmanlıda il anlamında kullanılır. ///////
 define('ENTRY_STATE_ERROR', 'Eyaletiniz en az ' . ACCOUNT_STATE . ' karakter içermelidir.');
 define('ENTRY_STATE_ERROR_SELECT', 'Lütfen aşağı çekilir menuden bir eyalet seçiniz.');
 define('ENTRY_COUNTRY', 'Ülke:');

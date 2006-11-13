@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_NEWSLETTERS_TITLE', 'Newsletter Manager');
+define('ACCESS_NEWSLETTERS_TITLE', 'Haber Postası Yöneticisi');
 ?>

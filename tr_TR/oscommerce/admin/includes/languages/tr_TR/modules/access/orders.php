@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_ORDERS_TITLE', 'Orders');
+define('ACCESS_ORDERS_TITLE', 'Siparişler');
 ?>

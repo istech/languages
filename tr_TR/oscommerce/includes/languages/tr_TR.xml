@@ -671,7 +671,7 @@
     </definition>
     <definition>
       <key>primary_address_description</key>
-      <value><![CDATA[Bu adres bu mağazda verilen siparişler için ön seçimli kargo ve fatura adresi olarak kullanılır. <br /><br />Bu adres ayrıca ürün ve hizmet vergi hesaplamarında temel alınmak için kullanılır.]]></value>
+      <value><![CDATA[Bu adres bu mağazda verilen siparişler için ön seçimli kargo ve fatura adresi olarak kullanılır. <br /><br />Bu adres ayrıca ürün ve hizmet vergi hesaplamalarında temel alınmak için kullanılır.]]></value>
       <group>account</group>
     </definition>
     <definition>
@@ -860,7 +860,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>warning_install_directory_exists</key>
-      <value><![CDATA[Bu kurulum dizini var: %s. Lütfen bu dizini güvenlik sebebleri gereği için kaldırınız.]]></value>
+      <value><![CDATA[Burada kurulum dizini var: %s. Lütfen bu dizini güvenlik önlemleriniz için kaldırınız.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1956,12 +1956,12 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>field_customer_suburb</key>
-      <value><![CDATA[Yörekent:]]></value>
+      <value><![CDATA[Semt:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_suburb_error</key>
-      <value><![CDATA[Yörekentiniz en az %s karakter içermelidir.]]></value>
+      <value><![CDATA[Semtiniz en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -1976,27 +1976,27 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>field_customer_city</key>
-      <value><![CDATA[Şehir:]]></value>
+      <value><![CDATA[İlçe:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_city_error</key>
-      <value><![CDATA[Şehriniz en az %s karakter içermelidir.]]></value>
+      <value><![CDATA[İlçeniz en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state</key>
-      <value><![CDATA[Eyalet/Vilayet:]]></value>
+      <value><![CDATA[Eyalet/İl:]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_error</key>
-      <value><![CDATA[Eyaletinizi en az %s karakter içermelidir.]]></value>
+      <value><![CDATA[Eyalet/İlinizi en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_select_pull_down_error</key>
-      <value><![CDATA[Lütfen aşağı açılır menuden eyalet seçiniz.]]></value>
+      <value><![CDATA[Lütfen aşağı açılır menuden eyalet/il seçiniz.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2006,7 +2006,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>field_customer_country_error</key>
-      <value><![CDATA[Aşağı açılır Ülkeler menüsünden ülke seçmelisiniz.]]></value>
+      <value><![CDATA[Aşağı açılır ülkeler menüsünden ülke seçmelisiniz.]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -2016,7 +2016,7 @@ Not: Eğer unutulan parola sayfamızdan bu eylemi siz yapmadıysanız, lütfen s
     </definition>
     <definition>
       <key>field_customer_telephone_number_error</key>
-      <value><![CDATA[Your Telephone Number must contain a minimum of %s characters.]]></value>
+      <value><![CDATA[Telefon Numaranız en az %s karakter içermelidir.]]></value>
       <group>general</group>
     </definition>
     <definition>
