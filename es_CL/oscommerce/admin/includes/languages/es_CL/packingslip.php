@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('TABLE_HEADING_COMMENTS', 'Commentarios');
+define('TABLE_HEADING_COMMENTS', 'Comentarios');
 define('TABLE_HEADING_PRODUCTS_MODEL', 'Modelo');
 define('TABLE_HEADING_PRODUCTS', 'Productos');
 

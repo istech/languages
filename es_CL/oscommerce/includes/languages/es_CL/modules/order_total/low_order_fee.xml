@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>order_total_loworderfee_title</key>
-      <value><![CDATA[Costo de pedido inferior]]></value>
+      <value><![CDATA[Costo de Pedido Inferior]]></value>
       <group>modules-order_total</group>
     </definition>
     <definition>
       <key>order_total_loworderfee_description</key>
-      <value><![CDATA[Costo de pedido inferior]]></value>
+      <value><![CDATA[Costo de Pedido Inferior]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>

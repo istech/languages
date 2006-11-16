@@ -8,22 +8,22 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_description</key>
-      <value><![CDATA[Authorize.net eCheck transacciones]]></value>
+      <value><![CDATA[Authorize.net eCheck Transacciones]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_method_title</key>
-      <value><![CDATA[Cuenta del banco/Cheque]]></value>
+      <value><![CDATA[Cuenta del Banco/Cheque]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_owner</key>
-      <value><![CDATA[Dueño de la cuenta:]]></value>
+      <value><![CDATA[Dueño de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type</key>
-      <value><![CDATA[Tipo de cuenta:]]></value>
+      <value><![CDATA[Tipo de Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -33,7 +33,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_type_business_checking</key>
-      <value><![CDATA[Business cheque]]></value>
+      <value><![CDATA[Business Cheque]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -43,27 +43,27 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_account_number</key>
-      <value><![CDATA[Número de la cuenta:]]></value>
+      <value><![CDATA[Número de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_bank_name</key>
-      <value><![CDATA[Nombre del banco:]]></value>
+      <value><![CDATA[Nombre del Banco:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_routing_code</key>
-      <value><![CDATA[Código de routing:]]></value>
+      <value><![CDATA[Código de Routing:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_tax_id</key>
-      <value><![CDATA[ID de impuesto o SSN:]]></value>
+      <value><![CDATA[ID de Impuesto o SSN:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type</key>
-      <value><![CDATA[Tipo de organización:]]></value>
+      <value><![CDATA[Tipo de Organización:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

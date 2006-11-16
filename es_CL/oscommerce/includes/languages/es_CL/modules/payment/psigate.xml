@@ -8,22 +8,22 @@
     </definition>
     <definition>
       <key>payment_psigate_description</key>
-      <value><![CDATA[Información de prueba para la tarjeta de crédito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
+      <value><![CDATA[Información de Prueba para la Tarjeta de Crédito:<br /><br />TC#: 4111111111111111<br />Caducidad: Cualquera]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_owner</key>
-      <value><![CDATA[Dueño de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_number</key>
-      <value><![CDATA[Número de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_psigate_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -43,7 +43,7 @@
     </definition>
     <definition>
       <key>payment_psigate_error</key>
-      <value><![CDATA[Error de la tarjeta de crédito!]]></value>
+      <value><![CDATA[Error de la Tarjeta de Crédito!]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

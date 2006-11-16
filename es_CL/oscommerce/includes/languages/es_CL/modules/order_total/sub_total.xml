@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>order_total_subtotal_description</key>
-      <value><![CDATA[Sub-Total del pedido]]></value>
+      <value><![CDATA[Sub-Total del Pedido]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>

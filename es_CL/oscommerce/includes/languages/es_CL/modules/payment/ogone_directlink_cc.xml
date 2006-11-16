@@ -3,37 +3,37 @@
   <definitions>
     <definition>
       <key>payment_ogone_directlink_cc_title</key>
-      <value><![CDATA[Tarjeta de crédito Ogone DirectLink]]></value>
+      <value><![CDATA[Tarjeta de Crédito Ogone DirectLink]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_description</key>
-      <value><![CDATA[Tarjeta de crédito Ogone DirectLink transacciones]]></value>
+      <value><![CDATA[Tarjeta de Crédito Ogone DirectLink transacciones]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_method_title</key>
-      <value><![CDATA[Tarjeta de crédito]]></value>
+      <value><![CDATA[Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_credit_card_number</key>
-      <value><![CDATA[Número de tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ogone_directlink_cc_credit_card_cvc</key>
-      <value><![CDATA[Número de control de la tarjeta de crédito (CVC):]]></value>
+      <value><![CDATA[Número de Control de la Tarjeta de Crédito (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

@@ -8,12 +8,12 @@
     </definition>
     <definition>
       <key>payment_secpay_description</key>
-      <value><![CDATA[Información de prueba para la tarjeta de crédito:<br /><br />TC#: 4444333322221111<br />Vencimiento: Cualquera]]></value>
+      <value><![CDATA[Información de Prueba para la Tarjeta de Crédito:<br /><br />TC#: 4444333322221111<br />Caducidad: Cualquera]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_secpay_error</key>
-      <value><![CDATA[Error de tarjeta de crédito!]]></value>
+      <value><![CDATA[Error de Tarjeta de Crédito!]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

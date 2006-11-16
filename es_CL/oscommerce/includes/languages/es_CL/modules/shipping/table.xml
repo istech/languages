@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>shipping_table_title</key>
-      <value><![CDATA[Tarifa de la tabla]]></value>
+      <value><![CDATA[Tarifa de la Tabla]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_table_description</key>
-      <value><![CDATA[Tarifa de la tabla]]></value>
+      <value><![CDATA[Tarifa de la Tabla]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_table_method</key>
-      <value><![CDATA[La mejor forma]]></value>
+      <value><![CDATA[La Mejor Forma]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

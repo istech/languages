@@ -180,6 +180,7 @@ define('IMAGE_IMPORT', 'Importar');
 define('IMAGE_INFO', 'Información');
 define('IMAGE_INSERT', 'Insertar');
 define('IMAGE_LOCK', 'Cerrar');
+define('IMAGE_LOG', 'Historia');
 define('IMAGE_LOGIN', 'Ingresar');
 define('IMAGE_MODULE_INSTALL', 'Instalar Módulo');
 define('IMAGE_MODULE_REMOVE', 'Quitar Módulo');
@@ -265,6 +266,7 @@ define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Mostrando <b>%d</b> a <b>%d</b> (d
 define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> zonas de impuesto)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> impuestos fiscales)');
 define('TEXT_DISPLAY_NUMBER_OF_WEIGHT_CLASSES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> tipos de peso)');
+define('TEXT_DISPLAY_NUMBER_OF_WHOS_ONLINE', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> clientes online)');
 define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Mostrando <b>%d</b> a <b>%d</b> (de <b>%d</b> zonas)');
 
 define('PREVNEXT_BUTTON_PREV', '&lt;&lt;');

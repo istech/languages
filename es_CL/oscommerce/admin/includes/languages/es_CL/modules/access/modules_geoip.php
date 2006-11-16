@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
   $Id: $
 
@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_GROUP_TEMPLATES_TITLE', 'Plantillas');
+define('ACCESS_MODULES_GEOIP_TITLE', 'GeoIP Módulos');
 ?>

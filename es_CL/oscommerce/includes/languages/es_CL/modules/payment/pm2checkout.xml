@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_2checkout_description</key>
-      <value><![CDATA[Información de prueba para la tarjeta de crédito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
+      <value><![CDATA[Información de Prueba para la Tarjeta de Crédito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,32 +18,32 @@
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner</key>
-      <value><![CDATA[Dueño de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_first_name</key>
-      <value><![CDATA[Nombre del dueño de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Nombre del Dueño de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_last_name</key>
-      <value><![CDATA[Apellido del dueño de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Apellido del Dueño de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_number</key>
-      <value><![CDATA[Número de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_checknumber</key>
-      <value><![CDATA[Número de control de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de Control de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

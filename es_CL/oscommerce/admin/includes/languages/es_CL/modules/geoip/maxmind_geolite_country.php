@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
   $Id: $
 
@@ -10,5 +10,6 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_GROUP_TEMPLATES_TITLE', 'Plantillas');
+define('MODULE_GEOIP_MAXMIND_GEOLITE_COUNTRY_TITLE', 'MaxMind GeoLite País');
+define('MODULE_GEOIP_MAXMIND_GEOLITE_COUNTRY_DESCRIPTION', 'http://www.maxmind.com');
 ?>

@@ -14,7 +14,6 @@ define('HEADING_TITLE_MODULES_BOXES', 'Cajas');
 define('HEADING_TITLE_MODULES_CONTENT', 'Módulos de Contenido');
 
 define('TABLE_HEADING_MODULES_BOXES', 'Cajas');
-define('TABLE_HEADING_MODULES_CONTENT', 'Módulos de Contenido');
 define('TABLE_HEADING_STATUS', 'Estado');
 define('TABLE_HEADING_ACTION', 'Acción');
 

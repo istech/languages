@@ -25,5 +25,5 @@ define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'Nuevo Estado del Pedido');
 
 define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: El estado predeterminado del pedido no puede ser borrado. Por favor elija otro estado del pedido como el predeterminado, e inténtelo de nuevo.');
 define('TEXT_INFO_DELETE_PROHIBITED_ORDERS', 'Advertencia: Este estado de pedido se usa actualmene en %s pedidos y no puede ser borrado.');
-define('TEXT_INFO_DELETE_PROHIBITED_HISTORY', 'Warning: Este estado de pedido se usa en el historial de %s pedidos y no puede ser eliminado.');
+define('TEXT_INFO_DELETE_PROHIBITED_HISTORY', 'Advertencia: Este estado de pedido se usa en el historial de %s pedidos y no puede ser eliminado.');
 ?>

@@ -3,37 +3,37 @@
   <definitions>
     <definition>
       <key>payment_payquake_cc_title</key>
-      <value><![CDATA[PayQuake tarjeta de crédito]]></value>
+      <value><![CDATA[PayQuake Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_description</key>
-      <value><![CDATA[PayQuake tarjeta de crédito transacciones]]></value>
+      <value><![CDATA[PayQuake Tarjeta de Crédito Transacciones]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_method_title</key>
-      <value><![CDATA[Tarjeta de crédito]]></value>
+      <value><![CDATA[Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_number</key>
-      <value><![CDATA[Número de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_cvc</key>
-      <value><![CDATA[Número de control de la tarjeta de crédito (CVC):]]></value>
+      <value><![CDATA[Número de Control de la Tarjeta de Crédito (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -68,7 +68,7 @@
     </definition>
     <definition>
       <key>payment_payquake_cc_error_invalid_expiry_date</key>
-      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
+      <value><![CDATA[La fecha de caducidad no es válida. Por favor controlar la información de la tarjeta y intente otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

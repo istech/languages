@@ -3,32 +3,32 @@
   <definitions>
     <definition>
       <key>payment_cc_title</key>
-      <value><![CDATA[Tarjeta de crédito]]></value>
+      <value><![CDATA[Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_description</key>
-      <value><![CDATA[Información de prueba para la tarjeta de crédito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
+      <value><![CDATA[Información de Prueba para la Tarjeta de Crédito:<br /><br />TC#: 4111111111111111<br />Caducidad: Cualquera]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_method_title</key>
-      <value><![CDATA[Tarjeta de crédito:]]></value>
+      <value><![CDATA[Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_number</key>
-      <value><![CDATA[Número de tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -58,7 +58,7 @@
     </definition>
     <definition>
       <key>payment_cc_error_invalid_expiration_date</key>
-      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
+      <value><![CDATA[La fecha de caducidad no es válida. Por favor controlar la información de la tarjeta y intente otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
