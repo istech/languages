@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('HEADING_TITLE', 'Gestor de archivos');
+  define('HEADING_TITLE', 'Gestor de Archivos');
 
   define('TABLE_HEADING_FILENAME', 'Nombre');
   define('TABLE_HEADING_SIZE', 'Tamaño');

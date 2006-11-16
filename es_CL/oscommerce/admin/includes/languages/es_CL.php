@@ -15,12 +15,12 @@ define('TITLE', 'osCommerce');
 
 // header text in includes/header.php
 define('HEADER_TITLE_HELP', 'Ayuda');
-define('HEADER_TITLE_OSCOMMERCE_SUPPORT_SITE', 'osCommerce sitio de soporte');
+define('HEADER_TITLE_OSCOMMERCE_SUPPORT_SITE', 'Sitio de soporte de osCommerce');
 define('HEADER_TITLE_ONLINE_CATALOG', 'Catálogo');
 define('HEADER_TITLE_LANGUAGES', 'Lenguajes');
 
-define('BOX_CONNECTION_PROTECTED', 'Una conexión segura de SSL de %s le protege.');
-define('BOX_CONNECTION_UNPROTECTED', 'Una conexión segura de SSL <font color="#ff0000">no</font> le protege.');
+define('BOX_CONNECTION_PROTECTED', 'Está protegido por una conexión segura de SSL de %s.');
+define('BOX_CONNECTION_UNPROTECTED', '<font color="#ff0000">No</font> está protegido por una conexión segura de SSL.');
 define('BOX_CONNECTION_UNKNOWN', 'desconocido');
 
 // text for gender
@@ -84,9 +84,9 @@ define('BOX_TOOLS_SERVER_INFO', 'Información del Servidor');
 define('BOX_TOOLS_WHOS_ONLINE', 'Quién está Online');
 
 // localizaion box text in includes/boxes/localization.php
-define('BOX_HEADING_LOCALIZATION', 'Localizacion');
+define('BOX_HEADING_LOCALIZATION', 'Localización');
 define('BOX_LOCALIZATION_CURRENCIES', 'Monedas');
-define('BOX_LOCALIZATION_LANGUAGES', 'Lenguages');
+define('BOX_LOCALIZATION_LANGUAGES', 'Lenguajes');
 define('BOX_LOCALIZATION_ORDERS_STATUS', 'Estado de los Pedidos');
 define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Tipos de Peso');
 define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Grupos de Imágenes');
@@ -127,9 +127,9 @@ define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Su dirección de E-Mail no es válida
 define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Su dirección de E-Mail ya existe en nuestra base de datos - por favor abra una sesión con la dirección E-Mail o cree una cuenta con una dirección diferente.');
 define('ENTRY_COMPANY', 'Nombre de Empresa:');
 define('ENTRY_COMPANY_ERROR', 'El Nombre de la Empresa debe contener un mínimo de ' . ACCOUNT_COMPANY . ' caracteres.');
-define('ENTRY_STREET_ADDRESS', 'Nombre de la Calle:');
+define('ENTRY_STREET_ADDRESS', 'Nombre de calle:');
 define('ENTRY_STREET_ADDRESS_ERROR', 'En Nombre de la Calle debe contener un mínimo de ' . ACCOUNT_STREET_ADDRESS . ' caracteres.');
-define('ENTRY_SUBURB', 'Suburbio/Barrio:');
+define('ENTRY_SUBURB', 'Suburbio / Barrio:');
 define('ENTRY_SUBURB_ERROR', 'Su Suburbio/Barrio debe contener un mínimo de ' . ACCOUNT_SUBURB . ' caracteres.');
 define('ENTRY_POST_CODE', 'Código Postal:');
 define('ENTRY_POST_CODE_ERROR', 'Su Código Postal debe contener un mínimo de ' . ACCOUNT_POST_CODE . ' caracteres.');
@@ -237,7 +237,7 @@ define('BUTTON_DELETE', 'Borrar');
 define('BUTTON_INSERT', 'Insertar');
 define('BUTTON_OK', 'OK');
 define('BUTTON_SAVE', 'Guardar');
-define('BUTTON_SEND', 'Mandar');
+define('BUTTON_SEND', 'Enviar');
 
 define('ICON_FILES', 'Archivos');
 define('ICON_ORDERS', 'Pedidos');
@@ -281,19 +281,19 @@ define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Error: Actualmente no hay una moned
 
 define('TEXT_CACHE_CATEGORIES', 'Categorías');
 define('TEXT_CACHE_MANUFACTURERS', 'Fabricantes');
-define('TEXT_CACHE_ALSO_PURCHASED', 'Más comprados');
+define('TEXT_CACHE_ALSO_PURCHASED', 'También compraron');
 
-define('TEXT_NONE', '--ningúno--');
+define('TEXT_NONE', '--ninguno--');
 define('TEXT_TOP', 'Top');
-define('TEXT_TRUE', 'Verdad');
+define('TEXT_TRUE', 'Verdadero');
 define('TEXT_FALSE', 'Falso');
-define('TEXT_OPTIONAL', 'Voluntario');
+define('TEXT_OPTIONAL', 'Opcional');
 
 define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Error: El destino no existe.');
 define('ERROR_DESTINATION_NOT_WRITEABLE', 'Error: No se puede escribir en destino.');
 define('ERROR_FILE_NOT_REMOVEABLE', 'Error: No puede borrar este archivo. Por favor fijar los permisos del usuario en: %s');
 define('ERROR_FILE_NOT_SAVED', 'Error: Archivo subido no guardado.');
-define('ERROR_FILETYPE_NOT_ALLOWED', 'Error: Tipo del archivo subido no permitido.');
+define('ERROR_FILETYPE_NOT_ALLOWED', 'Error: Tipo de archivo subido no está permitido.');
 define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Exito: El archivo subido se ha guardado con éxito.');
 define('WARNING_NO_FILE_UPLOADED', 'Advertencia: No se ha subido ningún archivo.');
 define('WARNING_FILE_UPLOADS_DISABLED', 'Advertencia: Los archivos subidos se inhabilitaron en el archivo de la configuración de php.ini.');
