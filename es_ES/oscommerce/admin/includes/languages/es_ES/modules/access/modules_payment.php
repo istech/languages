@@ -1,26 +1,14 @@
 ﻿<?php
-
 /*
-
   $Id: $
 
-
   osCommerce, Open Source E-Commerce Solutions
-
   http://www.oscommerce.com
-
-
 
   Copyright (c) 2006 osCommerce
 
-
-
   Released under the GNU General Public License
-
 */
 
-
-
-define('ACCESS_MODULES_PAYMENT_TITLE', 'Payment Modules');
-
+define('ACCESS_MODULES_PAYMENT_TITLE', 'Módulos de Pago');
 ?>

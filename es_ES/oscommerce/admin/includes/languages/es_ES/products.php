@@ -72,5 +72,4 @@
   define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de imágenes: ' . realpath('../images/products'));
   define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de imágenes no existe: ' . realpath('../images/products'));
   define('ERROR_IMAGE_PROCESSOR_NOT_AVAILABLE', 'Error: No se pueden procesar las imagenes del producto ya que "convert" que es parte de ImageMagick no está disponible. Este puede ser definido en Configuración -> Localización de programas.');
-
 ?>

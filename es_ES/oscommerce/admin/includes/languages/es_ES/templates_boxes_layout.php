@@ -11,6 +11,7 @@
 */
 
 define('HEADING_TITLE', 'Disposición de las Cajas de Plantillas');
+define('HEADING_TITLE_CONTENT_LAYOUT', 'Disposición del Contenido de Plantillas');
 
 define('TABLE_HEADING_BOXES', 'Cajas');
 define('TABLE_HEADING_TEMPLATES', 'Plantillas');

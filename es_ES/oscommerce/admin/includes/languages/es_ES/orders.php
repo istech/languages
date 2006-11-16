@@ -14,7 +14,7 @@ define('HEADING_TITLE', 'Pedidos');
 
 define('SEARCH_ORDER_ID', 'Pedido ID:');
 define('SEARCH_CUSTOMER_ID', 'Cliente ID:');
-define('SEARCH_STATUS', '<br />Estado:');
+define('SEARCH_STATUS', 'Estado:');
 
 define('TABLE_HEADING_COMMENTS', 'Commentarios');
 define('TABLE_HEADING_CUSTOMERS', 'Clientes');
