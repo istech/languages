@@ -1,20 +1,17 @@
-﻿<?php
-/*
-  $Id: $
-
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2006 osCommerce
-
-  Released under the GNU General Public License
-*/
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2006 osCommerce
+#
+# Released under the GNU General Public License
 
 page_title_installation = Nueva Instalación
 
-page_heading_step_1 = Servidor de base de datos
+page_heading_step_1 = Servidor de Base de Datos
 page_heading_step_2 = Servidor Web
-page_heading_step_3 = Configurar de la tienda
+page_heading_step_3 = Configurar de la Tienda
 page_heading_step_4 = ¡Terminado!
 
 text_installation = <p>Este script web, configurará correctamente osCommerce para que funcione en este servidor.</p><p>Por favor siga las instrucciones que salen en pantalla que le llevarán a través del servidor de base de datos, servidor web y configuraciones de la tienda online. Si necesita ayuda en cualquier paso, por favor consulte la documentación o busque ayuda en los foros de la comunidad osCommerce.</p>
@@ -90,4 +87,3 @@ rpc_work_directory_configured = El directorio de trabajo se ha configurado con �
 rpc_database_sample_data_importing = Los datos de ejemplo se están importando. Por favor sea paciente durante este proceso.
 rpc_database_sample_data_imported = Los datos de ejemplo se han importado correctamente.
 rpc_database_sample_data_import_error = Ha habido un problema al importar los datos de ejemplo en la base de datos. Ha ocurrido el siguiente error:</p><p><b>%s</b></p><p>Por favor verifique el servidor de la base de datos e inténtelo de nuevo.
-?>
