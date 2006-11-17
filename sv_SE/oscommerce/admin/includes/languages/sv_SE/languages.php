@@ -11,6 +11,7 @@
 */
 
 define('HEADING_TITLE', 'Språk');
+define('HEADING_TITLE_DEFINITIONS', 'Språk Definitioner');
 
 define('TABLE_HEADING_LANGUAGE_NAME', 'Språk');
 define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Antal Definitioner');
@@ -43,4 +44,16 @@ define('TEXT_INFO_SELECT_IMPORT_TYPE', 'Typ av Importering:');
 define('TEXT_INFO_EXPORT_WITH_DATA', 'Exportera med Språkdata');
 
 define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standardspråket kan inte tas bort. Var vänlig och välj ett annat språk som standardspråk och försök igen.');
+
+define('TEXT_INFO_INSERT_DEFINITION_INTRO', 'Var vänlig och ange den nya språk definitionen med dess relevanta data');
+define('TEXT_INFO_DELETE_INTRO', 'Var vänlig och välj de definitioner du vill ta bort från den följande gruppen:');
+
+define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definitions Nyckel:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definitions Värde:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Grupp:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Ny Grupp:');
+
+define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Ny Språkdefinition');
+
+define('TEXT_BACK_TO_LANGUAGES', 'Tillbaka till Språk');
 ?>

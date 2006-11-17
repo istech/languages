@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_TEMPLATES_MODULES_LAYOUT_TITLE', 'Mall Modul Layout');
+define('ACCESS_TEMPLATES_MODULES_LAYOUT_TITLE', 'Mall Modul Design');
 define('ACCESS_TEMPLATES_MODULES_LAYOUT_BOXES_TITLE', 'Boxar');
 define('ACCESS_TEMPLATES_MODULES_LAYOUT_CONTENT_TITLE', 'Innehåll');
 ?>

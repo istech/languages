@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_BANNER_MANAGER_TITLE', 'Reklambanderolls Manager');
+define('ACCESS_BANNER_MANAGER_TITLE', 'Reklambanderollshanterare');
 ?>

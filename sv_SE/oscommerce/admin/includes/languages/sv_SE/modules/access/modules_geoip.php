@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
   $Id: $
 
@@ -10,6 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_PRODUCTS_TITLE', 'Produkter');
-define('ACCESS_PRODUCTS_NEW_TITLE', 'Ny Produkt');
+define('ACCESS_MODULES_GEOIP_TITLE', 'GeoIP Moduler');
 ?>

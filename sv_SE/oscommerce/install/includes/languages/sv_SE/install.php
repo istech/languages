@@ -16,6 +16,7 @@ page_heading_step_4 = Klar!
 
 text_installation = <p>Denna web-baserade installation kommer på ett korrekt sätt att konfigurera osCommerce till att köras på denna server.</p><p>Var vänlig och följ instruktionerna som kommer leda dig genom databasservern, webservern, och affärskonfigurationen. Om du vid något tillfälle behöver hjälp, var vänlig och läs dokumentationen eller sök hjälp via supportforumet.</p>
 text_successful_installation = Installation och konfiguration väl utfört!
+text_go_to_shop_after_cfg_file_is_saved = Var vänlig och besök din affär efter konfigurationsfilen har sparats:
 
 param_database_server = Databasserver
 param_database_server_description = Databasserverns adress i form av hostnamn eller IP adress.

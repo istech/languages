@@ -11,6 +11,7 @@
 */
 
 define('HEADING_TITLE', 'Mall Boxdesign');
+define('HEADING_TITLE_CONTENT_LAYOUT', 'Mall Innehållsdesign');
 
 define('TABLE_HEADING_BOXES', 'Boxar');
 define('TABLE_HEADING_TEMPLATES', 'Mallar');

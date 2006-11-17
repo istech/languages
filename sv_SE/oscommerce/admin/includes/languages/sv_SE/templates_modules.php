@@ -14,7 +14,6 @@ define('HEADING_TITLE_MODULES_BOXES', 'Boxar');
 define('HEADING_TITLE_MODULES_CONTENT', 'Innehållsmoduler');
 
 define('TABLE_HEADING_MODULES_BOXES', 'Boxar');
-define('TABLE_HEADING_MODULES_CONTENT', 'Innehållsmoduler');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Funktion');
 

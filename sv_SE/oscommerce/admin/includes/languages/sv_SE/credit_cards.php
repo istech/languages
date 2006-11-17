@@ -27,7 +27,9 @@ define('TEXT_STATUS', 'Status:');
 
 define('TEXT_NEW_INTRO', 'Var vänlig och ange följande information för det nya kreditkortet');
 define('TEXT_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+define('TEXT_EDIT_BATCH_INTRO', 'Var vänlig gör nödvändiga ändringar till följande kreditkort:');
 define('TEXT_DELETE_INTRO', 'Är du säker på att du vill ta bort detta kreditkort?');
+define('TEXT_DELETE_BATCH_INTRO', 'Är du säker på att du vill ta bort följande kreditkort?');
 
 define('ERROR_CREDIT_CARD_NAME', 'Fel: Kreditkortsnamn kan ej vara tomt');
 ?>

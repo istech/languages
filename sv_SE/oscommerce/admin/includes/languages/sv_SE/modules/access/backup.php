@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_BACKUP_TITLE', 'Databas Backup Manager');
+define('ACCESS_BACKUP_TITLE', 'Databas Backuphanterare');
 ?>

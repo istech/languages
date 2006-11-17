@@ -71,4 +71,5 @@
   define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Fel: Kan ej länka produkt i samma katalog.');
   define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fel: Katalogbildsmappen är skrivskyddad: ' . realpath('../images'));
   define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fel: Katalogbildsmappen existerar ej: ' . realpath('../images'));
+  define('ERROR_IMAGE_PROCESSOR_NOT_AVAILABLE', 'Fel: Kan ej bearbeta produktbilder eftersom ImageMagicks "konverterings" program ej är tillgängligt. Detta kan definieras i Konfiguration -> Program Platser.');
 ?>

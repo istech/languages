@@ -65,7 +65,7 @@ define('BOX_CUSTOMERS_ORDERS', 'Ordrar');
 define('BOX_HEADING_LOCATION_AND_TAXES', 'Platser / Skatter');
 define('BOX_TAXES_COUNTRIES', 'Länder');
 define('BOX_TAXES_ZONES', 'Zoner');
-define('BOX_TAXES_GEO_ZONES', 'Skattezoner');
+define('BOX_TAXES_ZONE_GROUPS', 'Zon Grupper');
 define('BOX_TAXES_TAX_CLASSES', 'Skatteklasser');
 
 // reports box text in includes/boxes/reports.php
@@ -180,6 +180,7 @@ define('IMAGE_IMPORT', 'Importera');
 define('IMAGE_INFO', 'Information');
 define('IMAGE_INSERT', 'Infoga');
 define('IMAGE_LOCK', 'Lås');
+define('IMAGE_LOG', 'Logg');
 define('IMAGE_LOGIN', 'Logga In');
 define('IMAGE_MODULE_INSTALL', 'Installera Modul');
 define('IMAGE_MODULE_REMOVE', 'Ta bort Modul');
@@ -250,6 +251,7 @@ define('TEXT_DISPLAY_NUMBER_OF_COUNTRIES', 'Visar <b>%d</b> till <b>%d</b> (av <
 define('TEXT_DISPLAY_NUMBER_OF_CREDIT_CARDS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kreditkort)');
 define('TEXT_DISPLAY_NUMBER_OF_CUSTOMERS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kunder)');
 define('TEXT_DISPLAY_NUMBER_OF_CURRENCIES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> valutor)');
+define('TEXT_DISPLAY_NUMBER_OF_ENTRIES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> poster)');
 define('TEXT_DISPLAY_NUMBER_OF_LANGUAGES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> språk)');
 define('TEXT_DISPLAY_NUMBER_OF_MANUFACTURERS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> tillverkare)');
 define('TEXT_DISPLAY_NUMBER_OF_NEWSLETTERS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> nyhetsbrev)');
@@ -265,6 +267,7 @@ define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Visar <b>%d</b> till <b>%d</b> (av
 define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skattezoner)');
 define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skattesatser)');
 define('TEXT_DISPLAY_NUMBER_OF_WEIGHT_CLASSES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> viktklasser)');
+define('TEXT_DISPLAY_NUMBER_OF_WHOS_ONLINE', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kunder online)');
 define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> zoner)');
 
 define('PREVNEXT_BUTTON_PREV', '&lt;&lt;');

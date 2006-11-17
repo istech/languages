@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_MODULES_PAYMENT_TITLE', 'Betalnings Moduler');
+define('ACCESS_MODULES_PAYMENT_TITLE', 'Betalningsmoduler');
 ?>

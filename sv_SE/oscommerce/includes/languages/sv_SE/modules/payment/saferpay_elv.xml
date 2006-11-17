@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>payment_saferpay_elv_title</key>
-      <value><![CDATA[Saferpay banköverföring]]></value>
+      <value><![CDATA[Saferpay Banköverföring]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_description</key>
-      <value><![CDATA[Saferpay banköverföringstransaktioner]]></value>
+      <value><![CDATA[Saferpay Banköverföring Transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

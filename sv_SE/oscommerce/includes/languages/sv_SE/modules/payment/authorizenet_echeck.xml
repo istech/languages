@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_description</key>
-      <value><![CDATA[Authorize.net eCheck transaktioner]]></value>
+      <value><![CDATA[Authorize.net eCheck Transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

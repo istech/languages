@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_MODULES_ORDER_TOTAL_TITLE', 'Order Total Modul');
+define('ACCESS_MODULES_ORDER_TOTAL_TITLE', 'Order Total Moduler');
 ?>
