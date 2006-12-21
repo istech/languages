@@ -61,7 +61,7 @@
     </definition>
     <definition>
       <key>pull_down_default</key>
-      <value>Bitte w&amp;auml;hlen</value>
+      <value>Bitte w&auml;hlen</value>
       <group>general</group>
     </definition>
     <definition>
@@ -86,27 +86,27 @@
     </definition>
     <definition>
       <key>result_set_number_of_products</key>
-      <value>angezeigte Produkte: &lt;b&gt;%d&lt;/b&gt; bis &lt;b&gt;%d&lt;/b&gt; (von &lt;b&gt;%d&lt;/b&gt; insgesamt)</value>
+      <value>angezeigte Produkte: <b>%d</b> bis <b>%d</b> (von <b>%d</b> insgesamt)</value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_orders</key>
-      <value>angezeigte Bestellungen: &lt;b&gt;%d&lt;/b&gt; bis &lt;b&gt;%d&lt;/b&gt; (von &lt;b&gt;%d&lt;/b&gt; insgesamt)</value>
+      <value>angezeigte Bestellungen: <b>%d</b> bis <b>%d</b> (von <b>%d</b> insgesamt)</value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_reviews</key>
-      <value>angezeigte Meinungen: &lt;b&gt;%d&lt;/b&gt; bis &lt;b&gt;%d&lt;/b&gt; (von &lt;b&gt;%d&lt;/b&gt; insgesamt)</value>
+      <value>angezeigte Meinungen: <b>%d</b> bis <b>%d</b> (von <b>%d</b> insgesamt)</value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_previous_page</key>
-      <value>[&amp;lt;&amp;lt;&amp;nbsp;vorherige]</value>
+      <value><![CDATA[[&lt;&lt;&nbsp;vorherige]]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_next_page</key>
-      <value>[n&amp;auml;chste&amp;nbsp;&amp;gt;&amp;gt;]</value>
+      <value><![CDATA[[n&auml;chste&nbsp;&gt;&gt;]]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -116,7 +116,7 @@
     </definition>
     <definition>
       <key>button_back</key>
-      <value>Zur&amp;uml;ck</value>
+      <value>Zur&uml;ck</value>
       <group>general</group>
     </definition>
     <definition>
@@ -126,7 +126,7 @@
     </definition>
     <definition>
       <key>button_change_address</key>
-      <value>Adresse &amp;auml;ndern</value>
+      <value>Adresse &auml;ndern</value>
       <group>general</group>
     </definition>
     <definition>
@@ -136,7 +136,7 @@
     </definition>
     <definition>
       <key>button_confirm_order</key>
-      <value>Bestellung best&amp;auml;tigen</value>
+      <value>Bestellung best&auml;tigen</value>
       <group>general</group>
     </definition>
     <definition>
@@ -146,7 +146,7 @@
     </definition>
     <definition>
       <key>button_delete</key>
-      <value>L&amp;ouml;schen</value>
+      <value>L&ouml;schen</value>
       <group>general</group>
     </definition>
     <definition>
@@ -201,7 +201,7 @@
     </definition>
     <definition>
       <key>footer</key>
-      <value>Copyright &amp;copy; %s &lt;a href="%s"&gt;%s&lt;/a&gt;&lt;br /&gt;Powered by &lt;a href="http://www.oscommerce.com" target="_blank"&gt;osCommerce&lt;/a&gt;</value>
+      <value>Copyright &copy; %s <a href="%s">%s</a><br />Powered by <a href="http://www.oscommerce.com" target="_blank">osCommerce</a></value>
       <group>general</group>
     </definition>
     <definition>
@@ -211,7 +211,7 @@
     </definition>
     <definition>
       <key>index_text</key>
-      <value>Dies ist eine Standardinstallation von osCommerce. Alle hier gezeigten Produkte sind fiktiv zu verstehen. &lt;strong&gt;Eine hier get&amp;auml;tigte Bestellung wird NICHT ausgef&amp;uuml;hrt werden, Sie erhalten keine Lieferung oder Rechnung.&lt;/strong&gt;</value>
+      <value>Dies ist eine Standardinstallation von osCommerce. Alle hier gezeigten Produkte sind fiktiv zu verstehen. <strong>Eine hier get&auml;tigte Bestellung wird NICHT ausgef&uuml;hrt werden, Sie erhalten keine Lieferung oder Rechnung.</strong></value>
       <group>index</group>
     </definition>
     <definition>
@@ -276,12 +276,12 @@
     </definition>
     <definition>
       <key>greeting_guest</key>
-      <value>Willkommen! &lt;a href="%s"&gt;Loggen Sie sich ein&lt;/a&gt;, um zu sehen, was &lt;a href="%s"&gt;seit Ihrem letzten Besuch neu ist&lt;/a&gt;.</value>
+      <value>Willkommen! <a href="%s">Loggen Sie sich ein</a>, um zu sehen, was <a href="%s">seit Ihrem letzten Besuch neu ist</a>.</value>
       <group>index</group>
     </definition>
     <definition>
       <key>greeting_customer</key>
-      <value>Willkommen zur&amp;uuml;ck %s! Sehen Sie nach, &lt;a href="%s"&gt;was seit Ihrem letzten Besuch neu ist!&lt;/a&gt;</value>
+      <value>Willkommen zur&uuml;ck %s! Sehen Sie nach, <a href="%s">was seit Ihrem letzten Besuch neu ist!</a></value>
       <group>index</group>
     </definition>
     <definition>
@@ -316,7 +316,7 @@
     </definition>
     <definition>
       <key>breadcrumb_edit_password</key>
-      <value>Passwort &amp;auml;ndern</value>
+      <value>Passwort &auml;ndern</value>
       <group>account</group>
     </definition>
     <definition>
@@ -351,12 +351,12 @@
     </definition>
     <definition>
       <key>breadcrumb_address_book_edit_entry</key>
-      <value>Adresse &amp;auml;ndern</value>
+      <value>Adresse &auml;ndern</value>
       <group>account</group>
     </definition>
     <definition>
       <key>breadcrumb_address_book_delete_entry</key>
-      <value>Adresse l&amp;ouml;schen</value>
+      <value>Adresse l&ouml;schen</value>
       <group>account</group>
     </definition>
     <definition>
@@ -426,12 +426,12 @@
     </definition>
     <definition>
       <key>address_book_edit_entry_heading</key>
-      <value>Adressbucheintrag &amp;auml;ndern</value>
+      <value>Adressbucheintrag &auml;ndern</value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_entry_heading</key>
-      <value>Adressbucheintrag l&amp;ouml;schen</value>
+      <value>Adressbucheintrag l&ouml;schen</value>
       <group>account</group>
     </definition>
     <definition>
@@ -451,7 +451,7 @@
     </definition>
     <definition>
       <key>login_new_customer_text</key>
-      <value>Ich bin ein neuer Kunde und habe noch kein Konto hier.&lt;br /&gt;&lt;br /&gt;Wenn Sie ein Konto in diesem Shop erstellen, sind Sie dazu in der Lage, schneller zu bestellen, kennen jederzeit den Status Ihrer Bestellungen und haben immer eine aktuelle Übersicht über Ihre bisherigen Bestellungen.</value>
+      <value>Ich bin ein neuer Kunde und habe noch kein Konto hier.<br /><br />Wenn Sie ein Konto in diesem Shop erstellen, sind Sie dazu in der Lage, schneller zu bestellen, kennen jederzeit den Status Ihrer Bestellungen und haben immer eine aktuelle Übersicht über Ihre bisherigen Bestellungen.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -466,22 +466,22 @@
     </definition>
     <definition>
       <key>login_returning_customer_password_forgotten</key>
-      <value>Passwort vergessen? &lt;a href="%s"&gt;Klicken Sie hier&lt;/a&gt;.</value>
+      <value>Passwort vergessen? <a href="%s">Klicken Sie hier</a>.</value>
       <group>account</group>
     </definition>
     <definition>
       <key>error_login_no_match</key>
-      <value>Keine &amp;Uuml;bereinstimmung der E-Mail-Adresse und/oder des Passworts. Bitte versuchen Sie es erneut.</value>
+      <value>Keine &Uuml;bereinstimmung der E-Mail-Adresse und/oder des Passworts. Bitte versuchen Sie es erneut.</value>
       <group>account</group>
     </definition>
     <definition>
       <key>date_added_to_shopping_cart</key>
-      <value>Hinzugef&amp;uml;gt am: %s</value>
+      <value>Hinzugef&uml;gt am: %s</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>sign_out_text</key>
-      <value>You have sign out successfully from your account. Your shopping cart has been saved and will be restored the next time you sign on again.&lt;br /&gt;&lt;br /&gt;It is now safe to leave this site.</value>
+      <value>You have sign out successfully from your account. Your shopping cart has been saved and will be restored the next time you sign on again.<br /><br />It is now safe to leave this site.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -496,17 +496,17 @@
     </definition>
     <definition>
       <key>my_account_information</key>
-      <value>Meine Kontoinformationen anzeigen oder &amp;auml;ndern.</value>
+      <value>Meine Kontoinformationen anzeigen oder &auml;ndern.</value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_account_address_book</key>
-      <value>Adressbucheintr&amp;auml;ge anzeigen oder &amp;auml;ndern.</value>
+      <value>Adressbucheintr&auml;ge anzeigen oder &auml;ndern.</value>
       <group>account</group>
     </definition>
     <definition>
       <key>my_account_password</key>
-      <value>Mein Passwort &amp;auml;ndern.</value>
+      <value>Mein Passwort &auml;ndern.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -531,7 +531,7 @@
     </definition>
     <definition>
       <key>my_notifications_products</key>
-      <value>Meine Produktbenachrichtigungen anzeigen oder &amp;auml;ndern.</value>
+      <value>Meine Produktbenachrichtigungen anzeigen oder &auml;ndern.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -576,7 +576,7 @@
     </definition>
     <definition>
       <key>no_orders_made_yet</key>
-      <value>Sie haben noch keine Bestellungen get&amp;auml;tigt.</value>
+      <value>Sie haben noch keine Bestellungen get&auml;tigt.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -606,7 +606,7 @@
     </definition>
     <definition>
       <key>download_link_expires</key>
-      <value>Herunterladen m&amp;ouml;glich bis: %s</value>
+      <value>Herunterladen m&ouml;glich bis: %s</value>
       <group>account</group>
     </definition>
     <definition>
@@ -626,7 +626,7 @@
     </definition>
     <definition>
       <key>newsletter_general_description</key>
-      <value>Einschlie&amp;szlig;lich Shop-News, neue Produkte, Sonderangebote und andere Ankündigungen.</value>
+      <value>Einschlie&szlig;lich Shop-News, neue Produkte, Sonderangebote und andere Ankündigungen.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -636,7 +636,7 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications_description</key>
-      <value>Diese Benachrichtigungen erlabuben es Ihnen, &amp;uuml;ber alle &amp;Auml;nderungen an einem Produkt informiert zu werden.&lt;br&gt;&lt;br&gt;Wenn Sie Benachrichtigungen f&amp;uuml; unser komplettes Angebot erhalten wollen, sollte Sie die &lt;strong&gt;allgemeinen Benachrichtigungen&lt;/strong&gt; aktivieren.</value>
+      <value>Diese Benachrichtigungen erlabuben es Ihnen, &uuml;ber alle &Auml;nderungen an einem Produkt informiert zu werden.<br><br>Wenn Sie Benachrichtigungen f&uuml; unser komplettes Angebot erhalten wollen, sollte Sie die <strong>allgemeinen Benachrichtigungen</strong> aktivieren.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -646,7 +646,7 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications_global_description</key>
-      <value>&amp;Uuml;ber alle &amp;Auml;nderungen informiert werden.</value>
+      <value>&Uuml;ber alle &Auml;nderungen informiert werden.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -656,12 +656,12 @@
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_description</key>
-      <value>Um eine aktivierte Benachrichtigung zu entfernen, einfach das H&amp;auml;kchen aus der Checkbox entfernen und auf den &lt;strong&gt;Weiter&lt;/strong&gt;-Button klicken.</value>
+      <value>Um eine aktivierte Benachrichtigung zu entfernen, einfach das H&auml;kchen aus der Checkbox entfernen und auf den <strong>Weiter</strong>-Button klicken.</value>
       <group>account</group>
     </definition>
     <definition>
       <key>newsletter_product_notifications_products_none</key>
-      <value>Sie haben momentan keine Produktbenachrichtigungen aktiviert.&lt;br /&gt;&lt;br /&gt;Wenn Sie Produktbenachrichtigungen aktivieren m&amp;ouml;chten, klicken Sie den Produktbenachrichtigungs-Link auf der jeweiligen Produktdetailseite.</value>
+      <value>Sie haben momentan keine Produktbenachrichtigungen aktiviert.<br /><br />Wenn Sie Produktbenachrichtigungen aktivieren m&ouml;chten, klicken Sie den Produktbenachrichtigungs-Link auf der jeweiligen Produktdetailseite.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -671,12 +671,12 @@
     </definition>
     <definition>
       <key>primary_address_description</key>
-      <value>Diese Adresse wird als Liefer- und Rechnungsadresse für Bestellungen in diesem Shop verwendet, &lt;br /&gt;&lt;br /&gt;sowie als Grundlage zur Berechnung eventueller Steuern und Versandkosten.</value>
+      <value>Diese Adresse wird als Liefer- und Rechnungsadresse für Bestellungen in diesem Shop verwendet, <br /><br />sowie als Grundlage zur Berechnung eventueller Steuern und Versandkosten.</value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_title</key>
-      <value>Adressbucheintr&amp;auml;ge</value>
+      <value>Adressbucheintr&auml;ge</value>
       <group>account</group>
     </definition>
     <definition>
@@ -686,12 +686,12 @@
     </definition>
     <definition>
       <key>address_book_maximum_entries</key>
-      <value>&lt;span style="color: #ff0000; font-weight: bold; text-transform: uppercase; "&gt;Note:&lt;/span&gt; A maximum of %s address book entries allowed.</value>
+      <value><span style="color: #ff0000; font-weight: bold; text-transform: uppercase; ">Note:</span> A maximum of %s address book entries allowed.</value>
       <group>account</group>
     </definition>
     <definition>
       <key>address_book_delete_address_title</key>
-      <value>Eintrag l&amp;ouml;schen</value>
+      <value>Eintrag l&ouml;schen</value>
       <group>account</group>
     </definition>
     <definition>
@@ -721,7 +721,7 @@
     </definition>
     <definition>
       <key>create_account_terms_description</key>
-      <value>Bitte anerkennen Sie unseren Datenschutzhinweis, indem Sie die nachfolgende Checkbox ausw&amp;auml;en. Hier k&amp;ouml;nnen Sie den &lt;a href="%s"&gt;Datenschutzhinweis nachlesen&lt;/a&gt;.</value>
+      <value>Bitte anerkennen Sie unseren Datenschutzhinweis, indem Sie die nachfolgende Checkbox ausw&auml;en. Hier k&ouml;nnen Sie den <a href="%s">Datenschutzhinweis nachlesen</a>.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -750,10 +750,10 @@
 	  
 Sie können jetzt unseren Online-Service nutzen. Der Service bietet unter anderem:
 
-&lt;li&gt;Kundenwarenkorb - Jeder Artikel bleibt registriert bis Sie zur Kasse gehen, oder die Produkte aus dem Warenkorb entfernen.
-&lt;li&gt;Adressbuch - Wir können jetzt die Produkte zu der von Ihnen ausgesuchten Adresse senden. Der perfekte Weg ein Geburtstagsgeschenk zu versenden
-&lt;li&gt;Vorherige Bestellungen - Sie können jederzeit Ihre vorherigen Bestellungen überprüfen.
-&lt;li&gt;Meinungen über Produkte - Teilen Sie Ihre Meinung zu unseren Produkten mit anderen Kunden
+<li>Kundenwarenkorb - Jeder Artikel bleibt registriert bis Sie zur Kasse gehen, oder die Produkte aus dem Warenkorb entfernen.
+<li>Adressbuch - Wir können jetzt die Produkte zu der von Ihnen ausgesuchten Adresse senden. Der perfekte Weg ein Geburtstagsgeschenk zu versenden
+<li>Vorherige Bestellungen - Sie können jederzeit Ihre vorherigen Bestellungen überprüfen.
+<li>Meinungen über Produkte - Teilen Sie Ihre Meinung zu unseren Produkten mit anderen Kunden
 
 Falls Sie Fragen zu unserem Kunden-Service haben, wenden Sie sich bitte an den Vertrieb: %s.
 
@@ -795,7 +795,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>success_account_created</key>
-      <value>Herzlichen Gl&amp;uuml;ckwunsch! Ihr neues Konto wurde erfolgreich er&amp;ouml;ffnet! Sie k&amp;ouml;nnen jetzt &amp;uuml;ber Ihr Kundenkonto unseren \'Online-Service\' effizienter nutzen. Wenn Sie Fragen zum diesem Online-Shop haben, wenden Sie sich bitte an den &lt;a href="' . tep_href_link(FILENAME_CONTACT_US) . '"&gt;&lt;u&gt;Vertrieb&lt;/u&gt;&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Eine Best&amp;auml;tigung &amp;uuml;ber Ihr neues Konto wird Ihnen zugesandt. Falls Sie diese eMail nicht innerhalb einer Stunde erhalten, wenden Sie sich bitte an den &lt;a href="' . tep_href_link(FILENAME_CONTACT_US) . '"&gt;&lt;u&gt;Vertrieb&lt;/u&gt;&lt;/a&gt;.</value>
+      <value>Herzlichen Gl&uuml;ckwunsch! Ihr neues Konto wurde erfolgreich er&ouml;ffnet! Sie k&ouml;nnen jetzt &uuml;ber Ihr Kundenkonto unseren \'Online-Service\' effizienter nutzen. Wenn Sie Fragen zum diesem Online-Shop haben, wenden Sie sich bitte an den <a href="' . tep_href_link(FILENAME_CONTACT_US) . '"><u>Vertrieb</u></a>.<br><br>Eine Best&auml;tigung &uuml;ber Ihr neues Konto wird Ihnen zugesandt. Falls Sie diese eMail nicht innerhalb einer Stunde erhalten, wenden Sie sich bitte an den <a href="' . tep_href_link(FILENAME_CONTACT_US) . '"><u>Vertrieb</u></a>.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -805,7 +805,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>success_password_updated</key>
-      <value>Ihr Passwort wurde erfolgreich ge&amp;auml;ndert!</value>
+      <value>Ihr Passwort wurde erfolgreich ge&auml;ndert!</value>
       <group>account</group>
     </definition>
     <definition>
@@ -820,7 +820,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>success_address_book_entry_deleted</key>
-      <value>Der ausgew&amp;auml;hlte Eintrag wurde erflogreich gel&amp;ouml;scht.</value>
+      <value>Der ausgew&auml;hlte Eintrag wurde erfolgreich gel&ouml;scht.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -835,7 +835,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>warning_primary_address_deletion</key>
-      <value>Die Standardadresse kann nicht gel&amp;ouml;scht werden. Bitte erst eine andere Standardadresse w&amp;auml;hlen. Danach kann der Eintrag gel&amp;ouml;scht werden.</value>
+      <value>Die Standardadresse kann nicht gel&ouml;scht werden. Bitte erst eine andere Standardadresse w&auml;hlen. Danach kann der Eintrag gel&ouml;scht werden.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -850,7 +850,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>error_address_book_full</key>
-      <value>Ihr Adressbuch ist voll. Bitte l&amp;ouml;schen Sie eine nicht mehr ben&amp;ouml;tigte Adresse, um einen neuen Eintrag zu speichern.</value>
+      <value>Ihr Adressbuch ist voll. Bitte l&ouml;schen Sie eine nicht mehr ben&ouml;tigte Adresse, um einen neuen Eintrag zu speichern.</value>
       <group>account</group>
     </definition>
     <definition>
@@ -860,17 +860,17 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>warning_install_directory_exists</key>
-      <value>Warnung: Das Installationverzeichnis ist noch vorhanden unter: %s. Bitte l&amp;ouml;schen Sie das Verzeichnis aus Gr&amp;uuml;nden der Sicherheit!</value>
+      <value>Warnung: Das Installationverzeichnis ist noch vorhanden unter: %s. Bitte l&ouml;schen Sie das Verzeichnis aus Gr&uuml;nden der Sicherheit!</value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_config_file_writeable</key>
-      <value>Warnung: Die Konfigurationsdatei ist noch schreibbar: %s. Dies stellt ein m&amp;ouml;gliches Sicherheitsrisiko dar - bitte korrigieren Sie die Benutzerberechtigungen für diese Datei!</value>
+      <value>Warnung: Die Konfigurationsdatei ist noch schreibbar: %s. Dies stellt ein m&ouml;gliches Sicherheitsrisiko dar - bitte korrigieren Sie die Benutzerberechtigungen für diese Datei!</value>
       <group>general</group>
     </definition>
     <definition>
       <key>warning_session_directory_non_existent</key>
-      <value>Warnung: Das Verzeichnis f&amp;uuml;r die Sessions existiert nicht: %s. Sessions werden nicht funktionieren bis das Verzeichnis erstellt wurde!</value>
+      <value>Warnung: Das Verzeichnis f&uuml;r die Sessions existiert nicht: %s. Sessions werden nicht funktionieren bis das Verzeichnis erstellt wurde!</value>
       <group>general</group>
     </definition>
     <definition>
@@ -920,7 +920,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>breadcrumb_checkout_confirmation</key>
-      <value>Best&amp;auml;tigung</value>
+      <value>Best&auml;tigung</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -955,12 +955,12 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>confirmation_heading</key>
-      <value>Best&amp;auml;tigung</value>
+      <value>Best&auml;tigung</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>success_heading</key>
-      <value>Ihr Bestellung ist ausgef&amp;uuml;hrt worden.</value>
+      <value>Ihr Bestellung ist ausgef&uuml;hrt worden.</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -970,12 +970,12 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>choose_shipping_destination</key>
-      <value>'Bitte w&amp;auml;hlen Sie aus Ihrem Adressbuch die gew&amp;uuml;nschte Lieferadresse f&amp;uuml;r Ihre Bestellung aus.</value>
+      <value>'Bitte w&auml;hlen Sie aus Ihrem Adressbuch die gew&uuml;nschte Lieferadresse f&uuml;r Ihre Bestellung aus.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>selected_shipping_destination</key>
-      <value>Dies ist die aktuell ausgew&amp;auml;hlte Adresse, an die Ihre Bestellung geliefert wird.</value>
+      <value>Dies ist die aktuell ausgew&auml;hlte Adresse, an die Ihre Bestellung geliefert wird.</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -985,7 +985,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>please_select</key>
-      <value>Bitte w&amp;auml;hlen Sie</value>
+      <value>Bitte w&auml;hlen Sie</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -995,7 +995,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>choose_shipping_method</key>
-      <value>Bitte w&amp;auml;hlen Sie die gew&amp;uuml;nschte Versandart f&amp;uuml;r Ihre Bestellung aus.</value>
+      <value>Bitte w&auml;hlen Sie die gew&uuml;nschte Versandart f&uuml;r Ihre Bestellung aus.</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1005,7 +1005,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>add_comment_to_order_title</key>
-      <value>F&amp;uml;gen Sie dieser Bestellung eine Bemerkung hinzu</value>
+      <value>F&uml;gen Sie dieser Bestellung eine Bemerkung hinzu</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1015,12 +1015,12 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>select_another_shipping_destination</key>
-      <value>Bitte w&amp;auml;hlen Sie die bevorzugte Lieferadresse aus, wenn Ihre Bestellung an eine andere Adresse geliefert werden soll.</value>
+      <value>Bitte w&auml;hlen Sie die bevorzugte Lieferadresse aus, wenn Ihre Bestellung an eine andere Adresse geliefert werden soll.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>select_another_billing_destination</key>
-      <value>Bitte w&amp;auml;hlen Sie die bevorzugte Rechungsadresse aus, wenn die Rechnung auf eine andere Adresse ausgestellt werden soll.</value>
+      <value>Bitte w&auml;hlen Sie die bevorzugte Rechungsadresse aus, wenn die Rechnung auf eine andere Adresse ausgestellt werden soll.</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1030,7 +1030,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>new_shipping_address</key>
-      <value>Bitte benutzen Sie dieses Formular, um eine neue Lieferadresse f&amp;uuml;r Ihre Bestellung zu erfassen.</value>
+      <value>Bitte benutzen Sie dieses Formular, um eine neue Lieferadresse f&uuml;r Ihre Bestellung zu erfassen.</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1040,7 +1040,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>new_billing_address</key>
-      <value>Bitte benutzen Sie dieses Formular, um eine neue Rechnungsadresse f&amp;uuml;r Ihre Bestellung zu erfassen.</value>
+      <value>Bitte benutzen Sie dieses Formular, um eine neue Rechnungsadresse f&uuml;r Ihre Bestellung zu erfassen.</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1055,7 +1055,7 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>choose_billing_destination</key>
-      <value>Bitte w&amp;auml;hlen Sie aus Ihrem Adressbuch die gew&amp;uuml;nschte Rechnungsadresse f&amp;uuml;r Ihre Bestellung aus.</value>
+      <value>Bitte w&auml;hlen Sie aus Ihrem Adressbuch die gew&uuml;nschte Rechnungsadresse f&uuml;r Ihre Bestellung aus.</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1070,22 +1070,22 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_shipping</key>
-      <value>um die bevorzugte Versandart auszuw&amp;auml;hlen</value>
+      <value>um die bevorzugte Versandart auszuw&auml;hlen</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_payment</key>
-      <value>um die bevorzugte Zahlungsweise auszuw&amp;auml;hlen</value>
+      <value>um die bevorzugte Zahlungsweise auszuw&auml;hlen</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>continue_checkout_procedure_to_confirmation</key>
-      <value>um die Bestellung zu best&amp;auml;tigen.</value>
+      <value>um die Bestellung zu best&auml;tigen.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>shopping_cart_empty</key>
-      <value>Your Shopping Cart is empty!</value>
+      <value>Ihr Warenkorb ist leer!</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1100,72 +1100,72 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>products_out_of_stock_checkout_not_possible</key>
-      <value>Products marked with %s don't exist in desired quantity in our stock.&lt;br /&gt;Please change the quantity of the marked products.</value>
+      <value>Die mit %s markierten Produkte sind leider nicht in der von Ihnen gew&uuml;nschten Menge auf Lager.<br />Bitte reduzieren Sie Ihre Bestellmenge f&uuml;r die gekennzeichneten Produkte. Vielen Dank.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>products_out_of_stock_checkout_possible</key>
-      <value>Products marked with %s don't exist in desired quantity in our stock.&lt;br /&gt;You can buy them anyway and check the quantity we have in stock for immediate delivery in the checkout process.</value>
+      <value>Die mit %s markierten Produkte sind leider nicht in der von Ihnen gew&uuml;nschten Menge auf Lager.<br />Wenn Sie m&uuml;chten, nehmen wir aber eine Teillieferung der auf Lager befindlichen Produkte vor.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_title</key>
-      <value>Terms and Conditions</value>
+      <value>Allgemeine Gesch&auml;ftsbedingungen</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_description</key>
-      <value>Please acknowledge the terms and conditions bound to this order by ticking the following box. The terms and conditions can be read &lt;a href="%s"&gt;&lt;u&gt;here&lt;/u&gt;&lt;/a&gt;.</value>
+      <value>Bitte akzeptieren Sie die <a href="%s"><u>Allgemeinen Gesch&auml;ftsbedingunen</u></a> f&uuml;r diese Bestellung, indem Sie die Checkbox ausw&auml;hlen.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_conditions_acknowledge</key>
-      <value>I have read and agreed to the terms and conditions bound to this order.</value>
+      <value>Ich habe die Allgemeinen Gesch&auml;ftsedingungen f&uuml;r diese Bestellung gelesen und stimme ihnen zu.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>payment_method_title</key>
-      <value>Payment Method</value>
+      <value>Zahlungsweise</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>choose_payment_method</key>
-      <value>Please select the preferred payment method to use on this order.</value>
+      <value>Bitte w&auml;hlen Sie die bevorzugte Zahlungsweise f&uuml;r Ihre Bestellung aus.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>only_one_payment_method_available</key>
-      <value>This is currently the only payment method available to use on this order.</value>
+      <value>Zur Zeit bieten wir Ihnen nur eine Zahlungsweise an.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>free_shipping_title</key>
-      <value>Free Shipping</value>
+      <value>Kostenfreie Lieferung</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>free_shipping_description</key>
-      <value>Free shipping for orders over %s</value>
+      <value>Kostenfreie Lieferung für Bestellungen &uuml;ber %s</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>order_delivery_address_title</key>
-      <value>Delivery Address</value>
+      <value>Lieferadresse</value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_shipping_method_title</key>
-      <value>Shipping Method</value>
+      <value>Versandart</value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_products_title</key>
-      <value>Products</value>
+      <value>Produkte</value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_tax_title</key>
-      <value>Tax</value>
+      <value>MwSt.</value>
       <group>order</group>
     </definition>
     <definition>
@@ -1175,72 +1175,72 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>order_billing_address_title</key>
-      <value>Billing Address</value>
+      <value>Rechnungsadresse</value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_payment_method_title</key>
-      <value>Payment Method</value>
+      <value>Zahlungsweise</value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_payment_information_title</key>
-      <value>Payment Information</value>
+      <value>Zahlungsinformationen</value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_comments_title</key>
-      <value>Comments Added To Your Order</value>
+      <value>Anmerkungen zu Ihrer Bestellung</value>
       <group>order</group>
     </definition>
     <definition>
       <key>order_text_edit_title</key>
-      <value>(edit)</value>
+      <value>(bearbeiten)</value>
       <group>order</group>
     </definition>
     <definition>
       <key>email_order_subject</key>
-      <value>Order Process</value>
+      <value>Bestellung</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_order_number</key>
-      <value>Order Number: %s</value>
+      <value>Beestellnummer: %s</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_invoice_url</key>
-      <value>Detailed Invoice: %s</value>
+      <value>Detaillierte Bestell&uuml;bersicht: %s</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_date_ordered</key>
-      <value>Date Ordered: %s</value>
+      <value>Bestelldatum: %s</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_status</key>
-      <value>Order Status: %s</value>
+      <value>Bestellstatus: %s</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_products</key>
-      <value>Products</value>
+      <value>Produkte</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_delivery_address</key>
-      <value>Delivery Address</value>
+      <value>Lieferadresse</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_billing_address</key>
-      <value>Billing Address</value>
+      <value>Rechnungsadresse</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>email_order_payment_method</key>
-      <value>Payment Method</value>
+      <value>Zahlungsweise</value>
       <group>checkout</group>
     </definition>
     <definition>
@@ -1250,32 +1250,32 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>order_processed_successfully</key>
-      <value>Your order has been successfully processed! Your products will arrive at their destination within 2-5 working days.</value>
+      <value>Ihre Bestellung ist eingegangen und wird bearbeitet! Die Lieferung erfolgt innerhalb von ca. 2-5 Werktagen.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>add_selection_to_product_notifications</key>
-      <value>Please notify me of updates to the products I have selected below:</value>
+      <value>Bitte benachrichtigen Sie mich &uuml;ber Neuigkeiten zu folgenden Produkten:</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>view_order_history</key>
-      <value>You can view your order history by going to the &lt;a href="%s"&gt;My Account&lt;/a&gt; page and by clicking on &lt;a href="%s"&gt;History&lt;/a&gt;.</value>
+      <value>Sie k&ouml;nnen Ihre Bestellung(en) unter <a href="%s"><u>Ihr Konto</a></u> jederzeit einsehen und sich dort auch Ihre <a href="%s"><u>Bestell&uuml;bersicht</u></a> anzeigen lassen.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>contact_store_owner</key>
-      <value>Please direct any questions you have to the &lt;a href="%s"&gt;store owner&lt;/a&gt;.</value>
+      <value>Falls Sie Fragen bez&uuml;glich Ihrer Bestellung haben, wenden Sie sich an unseren <a href="%s"><u>Vertrieb</u></a>.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>thanks_for_shopping_with_us</key>
-      <value>Thanks for shopping with us online!</value>
+      <value>Wir danken Ihnen f&uuml;r Ihren Online-Einkauf!</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>download_footer</key>
-      <value>You can also download your products at a later time at %s</value>
+      <value>Sie k&ouml;nnen Ihre Artikel auch sp&auml;ter unter <strong>%s</strong> herunterladen</value>
       <group>general</group>
     </definition>
     <definition>
@@ -1285,22 +1285,22 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>breadcrumb_conditions</key>
-      <value>Conditions</value>
+      <value>AGBs</value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_contact</key>
-      <value>Contact</value>
+      <value>Kontakt</value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_privacy</key>
-      <value>Privacy</value>
+      <value>Privatsph&auml;re</value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_shipping</key>
-      <value>Shipping</value>
+      <value>Versand</value>
       <group>info</group>
     </definition>
     <definition>
@@ -1310,37 +1310,37 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>breadcrumb_cookie_usage</key>
-      <value>Cookie Usage</value>
+      <value>Einsatz von Cookies</value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_ssl_check</key>
-      <value>Security Check</value>
+      <value>Sicherheitskontrolle</value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_heading</key>
-      <value>Information and Help</value>
+      <value>Information und Hilfe</value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_conditions_heading</key>
-      <value>Terms and Conditions</value>
+      <value>Allgemeine Gesch&auml;ftsbedingungen</value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_contact_heading</key>
-      <value>Contact</value>
+      <value>Kontakt</value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_privacy_heading</key>
-      <value>Privacy Notice</value>
+      <value>Datenschutz</value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_shipping_heading</key>
-      <value>Shipping and Returns</value>
+      <value>Versand und Rückgabe</value>
       <group>info</group>
     </definition>
     <definition>
@@ -1350,503 +1350,501 @@ Hinweis: Wenn Sie kein Passwort über unseren Online-Shop angefordert haben, ben
     </definition>
     <definition>
       <key>info_cookie_usage_heading</key>
-      <value>Cookie Usage</value>
+      <value>Einsatz von Cookies</value>
       <group>info</group>
     </definition>
     <definition>
       <key>info_ssl_check_heading</key>
-      <value>Security Check</value>
+      <value>Sicherheitskokntrolle</value>
       <group>info</group>
     </definition>
     <definition>
       <key>conditions</key>
-      <value>Put here the required information.</value>
+      <value>Bitte tragen Sie hier die notwendigen Informationen ein.</value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact</key>
-      <value>Put here the required information.</value>
+      <value>Bitte tragen Sie hier die notwendigen Informationen ein.</value>
       <group>info</group>
     </definition>
     <definition>
       <key>privacy</key>
-      <value>Put here the required information.</value>
+      <value>Bitte tragen Sie hier die notwendigen Informationen ein.</value>
       <group>info</group>
     </definition>
     <definition>
       <key>shipping</key>
-      <value>Put here the required information.</value>
+      <value>Bitte tragen Sie hier die notwendigen Informationen ein.</value>
       <group>info</group>
     </definition>
     <definition>
       <key>cookie_usage</key>
-      <value>We have detected that your browser does not support cookies, or has set cookies to be disabled.&lt;br /&gt;&lt;br /&gt;To continue shopping online, we encourage you to enable cookies on your browser.&lt;br /&gt;&lt;br /&gt;For &lt;b&gt;Internet Explorer&lt;/b&gt; browsers, please follow these instructions:&lt;br /&gt;&lt;ol&gt;&lt;li&gt;Click on the Tools menubar, and select Internet Options&lt;/li&gt;&lt;li&gt;Select the Security tab, and reset the security level to Medium&lt;/li&gt;&lt;/ol&gt;We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.&lt;br /&gt;&lt;br /&gt;Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.</value>
+      <value>Ihr Browser erlaubt keine Cookies.<br /><br />Damit Sie Ihren Einkauf fortsetzen k&ouml;nnen, sollten Sie es dieser Site erlauben, Cookies zu setzen.<br /><br />F&uuml;r den <strong>Internet Explorer</strong> gehen Sie dazu bitte folgendermassen vor:<br><ol><li>Im Men&uuml; <b>Extras</b> w&auml;hlen Sie <b>Internetoptionen</b></li><li>Dort klicken Sie auf <b>Sicherheit-Stufe anpassen</b></li><li>Im unteren Bereich findet sich eine Drop-Down-Box, in der Sie <b>Mittel</b> w&auml;hlen.</li><li>Klicken Sie nun auf <b>Zur&uuml;cksetzen</b></li></ol>Diese Massnahme dient Ihrer Sicherheit. Sollten dadurch Probleme enstehen, bitten wir um Entschuldigung. Bitte setzen Sie sich mit uns in Verbindung, wenn Sie Fragen zu diesem Problem haben.</value>
       <group>info</group>
     </definition>
     <definition>
       <key>ssl_check</key>
-      <value>We have detected that your browser has generated a different SSL Session ID used throughout our secure pages.&lt;br /&gt;&lt;br /&gt;For security measures you will need to logon to your account again to continue shopping online.&lt;br /&gt;&lt;br /&gt;Some browsers such as Konqueror 3.1 does not have the capability of generating a secure SSL Session ID automatically which we require. If you use such a browser, we recommend switching to another browser such as &lt;a href="http://www.microsoft.com/ie/" target="_blank"&gt;Microsoft Internet Explorer&lt;/a&gt;, &lt;a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank"&gt;Netscape&lt;/a&gt;, or &lt;a href="http://www.mozilla.org/releases/" target="_blank"&gt;Mozilla&lt;/a&gt;, to continue your online shopping experience.&lt;br /&gt;&lt;br /&gt;We have taken this measurement of security for your benefit, and apologize upfront if any inconveniences are caused.&lt;br /&gt;&lt;br /&gt;Please contact the store owner if you have any questions relating to this requirement, or to continue purchasing products offline.</value>
+      <value>Unsere Sicherheits&uuml;berpr&uuml;fung hat ergeben, dass der Ihrerseits verwendete Browser die SSL-Session-Id w&auml;hrend Ihres Besuches gewechselt hat.<br><br>Aus Sicherheitsgr&uuml;nden bitten wir Sie sich noch einmal anzumelden.<br><br>Manche Browser, z.B. Konqueror 3.1, k&ouml;nnen die  Secure SSL Session-Id nicht automatisch erzeugen - dies ist jedoch bei uns Voraussetzung. Wenn Sein einen solchen Browser verwenden, bitten wir SIe netweder eine aktualisierte Version zu installieren oder einen anderen Browser zu verwenden. Zum Beipiel  <a href="http://www.microsoft.com/ie/" target="_blank">Microsoft Internet Explorer</a>, <a href="http://channels.netscape.com/ns/browsers/download_other.jsp" target="_blank">Netscape</a>, oderr <a href="http://www.mozilla.org/releases/" target="_blank">Mozilla</a>. Nach diesem Update sollten sie problemlos bei euns einkaufen k&ouml;nnen, mit der Gewissheit auf der sicheren Seite zu sein.<br><br>Diese Sicherheitsmassnahme dient Ihrer Sicherheit. Sollten Sie trotzdem Probleme haben, bitten wir um Entschuldigung und bieten Ihnen gerne an, mit uns Kontakt aufzunehmen.</value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_title</key>
-      <value>Contact Information</value>
+      <value>Kontakt-Informationen</value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_store_address_title</key>
-      <value>Store Address</value>
+      <value>Shop-Adresse</value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_name_title</key>
-      <value>Full Name:</value>
+      <value>Vollst&auml;ndiger Name:</value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_email_address_title</key>
-      <value>Email Address:</value>
+      <value>E-Mail-Adresse:</value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_enquiry_title</key>
-      <value>Enquiry:</value>
+      <value>Anfrage:</value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_email_sent_successfully</key>
-      <value>Your enquiry has been successfully sent to the store owner.</value>
+      <value>Ihre Anfrage wurde erfolgreich an den Vertrieb gesendet.</value>
       <group>info</group>
     </definition>
     <definition>
       <key>contact_email_subject</key>
-      <value>Contact Enquiry</value>
+      <value>Kontaktanfrage</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account</key>
-      <value>My Account</value>
+      <value>Ihr Konto</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_edit</key>
-      <value>Account Information</value>
+      <value>Kontoinformationen</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_address_book</key>
-      <value>Address Book</value>
+      <value>Adressbuch</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_history</key>
-      <value>Order History</value>
+      <value>Bestellhistorie</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_account_notifications</key>
-      <value>Newsletter Subscriptions</value>
+      <value>Newsletter Abonnements</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_shopping_cart</key>
-      <value>Shopping Cart</value>
+      <value>Warenkorb</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_checkout_shipping</key>
-      <value>Checkout</value>
+      <value>Kasse</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_advanced_search</key>
-      <value>Advanced Search</value>
+      <value>Erweiterte Suche</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_products_new</key>
-      <value>New Products</value>
+      <value>Neue Produkte</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_specials</key>
-      <value>Specials</value>
+      <value>Sonderangebote</value>
       <group>info</group>
     </definition>
     <definition>
       <key>sitemap_reviews</key>
-      <value>Reviews</value>
+      <value>Bewertungen</value>
       <group>info</group>
     </definition>
     <definition>
       <key>cookie_usage_box_heading</key>
-      <value>Cookie Privacy and Security</value>
+      <value>Cookie-Privatsph&auml;re und Sicherheit</value>
       <group>info</group>
     </definition>
     <definition>
       <key>cookie_usage_box_contents</key>
-      <value>Cookies must be enabled to purchase online on this store to embrace privacy and security related issues regarding your visit to this site.&lt;br /&gt;&lt;br /&gt;By enabling cookie support on your browser, the communication between you and this site is strengthened to be certain it is you who are making transactions on your own behalf, and to prevent leakage of your privacy information.</value>
+      <value>Durch den Einsatz von Cookies wird die Sicherheit verbessert und Ihre Privatsph&auml;re besser gesch&uuml;tzt.<br /><br />Im Cookie sind keine pers&ouml;nlichen Daten enthalten.</value>
       <group>info</group>
     </definition>
     <definition>
       <key>ssl_check_box_heading</key>
-      <value>Privacy and Security</value>
+      <value>Privatsph&auml;re und Sicherheit</value>
       <group>info</group>
     </definition>
     <definition>
       <key>ssl_check_box_contents</key>
-      <value>We validate the SSL Session ID automatically generated by your browser on every secure page request made to this server.&lt;br /&gt;&lt;br /&gt;This validation assures that it is you who is navigating on this site with your account and not somebody else.</value>
+      <value>Die von Ihrem Browser erzeugte SSL-Session ID wird von uns bei jedem Zugriff auf eine sichere Seite &Uuml;berpr&uuml;ft.<br /><br />Diese &Uuml;berpr&uuml;fung garantiert, dass der Zugriff tatsächlich von Ihrem Browser erfolgte und nicht von einem anderen Browser stammt.</value>
       <group>info</group>
     </definition>
     <definition>
       <key>breadcrumb_new_products</key>
-      <value>New Products</value>
+      <value>Neue Produkte</value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_specials</key>
-      <value>Specials</value>
+      <value>Sonderangebote</value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_reviews</key>
-      <value>Reviews</value>
+      <value>Bewertungen</value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_reviews_new</key>
-      <value>New Review</value>
+      <value>Neue Bewertung</value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_tell_a_friend</key>
-      <value>Tell A Friend</value>
+      <value>Weiterempfehlen</value>
       <group>products</group>
     </definition>
     <definition>
       <key>product_not_found_heading</key>
-      <value>Product Not Found</value>
+      <value>Produkt wurde nicht gefunden</value>
       <group>products</group>
     </definition>
     <definition>
       <key>no_new_products</key>
-      <value>There are currently no products available.</value>
+      <value>Momentan sind keine Produkte verf&uuml;gbar.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>new_products_heading</key>
-      <value>New Products</value>
+      <value>Neue Produkte</value>
       <group>products</group>
     </definition>
     <definition>
       <key>specials_heading</key>
-      <value>Specials</value>
+      <value>Sonderangebote</value>
       <group>products</group>
     </definition>
     <definition>
       <key>reviews_heading</key>
-      <value>Reviews</value>
+      <value>Bewertungen</value>
       <group>products</group>
     </definition>
     <definition>
       <key>product_not_found</key>
-      <value>Product not found!</value>
+      <value>Produkt wurde nicht gefunden!</value>
       <group>products</group>
     </definition>
     <definition>
       <key>number_of_product_reviews</key>
-      <value>Current Reviews:</value>
+      <value>Aktuelle Bewertungen:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>go_to_external_products_webpage</key>
-      <value>For more information, please visit this products &lt;a href="%s" target="_blank"&gt;webpage&lt;/a&gt;.</value>
+      <value>F&uuml;r weitere Informationen besuchen Sie bitte die <a href="%s" target="_blank"><u>Homepage</u></a> zu diesem Produkt.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>date_availability</key>
-      <value>&lt;font color="#ff0000"&gt;This product will be in stock on %s.&lt;/font&gt;</value>
+      <value><font color="#ff0000">Dieses Produkt wird voraussichtlich ab dem %s wieder vorr&auml;tig sein.</font></value>
       <group>products</group>
     </definition>
     <definition>
       <key>product_attributes</key>
-      <value>Available Options:</value>
+      <value>Verf&uuml;gbare Optionen:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>enlarge_image</key>
-      <value>Click to enlarge</value>
+      <value>Zum Vergr&ouml;&szlig;ern bitte auf das Bild klicken.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>date_added</key>
-      <value>Date Added:</value>
+      <value>aufgenommen am:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>manufacturer</key>
-      <value>Manufacturer:</value>
+      <value>Hersteller:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>price</key>
-      <value>Price:</value>
+      <value>Preis:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>average_rating</key>
-      <value>Average Rating:</value>
+      <value>Durchschnittliche Bewertung:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>rating_of_5_stars</key>
-      <value>%s of 5 Stars!</value>
+      <value>%s von 5 Sternen!</value>
       <group>products</group>
     </definition>
     <definition>
       <key>no_reviews_available</key>
-      <value>No reviews found.</value>
+      <value>Keine Bewertung gefunden.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>new_review_title</key>
-      <value>New Review</value>
+      <value>Neue Bewertung</value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_review_rating</key>
-      <value>Rating:</value>
+      <value>Bewertung:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_review_from</key>
-      <value>From:</value>
+      <value>Autor:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_lowest_rating_title</key>
-      <value>Bad</value>
+      <value>Schlecht</value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_highest_rating_title</key>
-      <value>Good</value>
+      <value>Sehr gut</value>
       <group>products</group>
     </definition>
     <definition>
       <key>customer_details_title</key>
-      <value>Your Details</value>
+      <value>Ihre Angaben</value>
       <group>products</group>
     </definition>
     <definition>
       <key>friend_details_title</key>
-      <value>Your Friends Details</value>
+      <value>Angaben Ihres Freundes/Ihrer Freundin</value>
       <group>products</group>
     </definition>
     <definition>
       <key>tell_a_friend_message</key>
-      <value>Your Message</value>
+      <value>Ihre Mitteilung</value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_name</key>
-      <value>Your Name:</value>
+      <value>Ihre Name:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_customer_email_address</key>
-      <value>Your E-Mail Address:</value>
+      <value>Ihre E-Mail-Adresse:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_name</key>
-      <value>Your Friends Name:</value>
+      <value>Name Ihres Freundes/Ihrer Freundin:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>field_tell_a_friend_friends_email_address</key>
-      <value>Your Friends E-Mail Address:</value>
+      <value>E-Mail-Adresse Ihres Freundes/Ihrer Freundin:</value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_subject</key>
-      <value>Your friend %s has recommended this great product from %s</value>
+      <value>Ihr Freund/Ihre Freundin %s empfiehlt Ihnen dieses Produkt von %s.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_intro</key>
-      <value>Hi %s!
+      <value>Hallo %s,
 
-Your friend, %s, thought that you would be interested in %s from %s.</value>
+Ihr Freund/Ihre Freundin, %s, hat das Produkt %s bei %s gefunden.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_link</key>
-      <value>To view the product click on the link below or copy and paste the link into your web browser:
-
-%s</value>
+      <value>Um das Produkt anzusehen, klicken Sie bitte auf den Link oder kopieren diesen und fügen Sie ihn in der Adresszeile Ihres Browsers ein:' . "\n\n" . '%s'</value>
       <group>products</group>
     </definition>
     <definition>
       <key>email_tell_a_friend_signature</key>
-      <value>Regards,
+      <value>Mit freundlichen Gr&uuml;&szlig;en
 
 %s</value>
       <group>products</group>
     </definition>
     <definition>
       <key>success_review_new</key>
-      <value>Thank you for your review! It has been received and is now active!</value>
+      <value>Vielen Dank f&uuml;r Ihre Bewertung! Sie wurde gespeichert und ist jetzt aktiv!</value>
       <group>products</group>
     </definition>
     <definition>
       <key>success_review_moderation</key>
-      <value>Thank you for your review! It has been received and is pending for approval.</value>
+      <value>Vielen Dank f&uuml;r Ihre Bewertung! Sie wird nach entsprechender &Uuml;berpr&uuml;fung freigeschaltet.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>success_tell_a_friend_email_sent</key>
-      <value>Your email about %s has been successfully sent to %s.</value>
+      <value>Ihre E-Mail zu %s wurde erfolgreich an %s geschickt.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_friends_name_empty</key>
-      <value>Error: Your friends name must not be empty.</value>
+      <value>Fehler: Der Empf&auml;ngername darf nicht leer sein..</value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_invalid_friends_email_address</key>
-      <value>Error: Your friends e-mail address must be a valid e-mail address.</value>
+      <value>Fehler: Die Empf&auml;nger-Email-Adresse darf nicht leer sein.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_customers_name_empty</key>
-      <value>Error: Your name must not be empty.</value>
+      <value>Fehler: Der Absendername (Ihr Name) muss angegeben werden.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>error_tell_a_friend_invalid_customers_email_address</key>
-      <value>Error: Your e-mail address must be a valid e-mail address.</value>
+      <value>Fehler: Die Absenderadresse muss eine g&uuml;ltige Mail-Adresse sein.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>breadcrumb_search</key>
-      <value>Search</value>
+      <value>Suchen</value>
       <group>search</group>
     </definition>
     <definition>
       <key>breadcrumb_search_results</key>
-      <value>Results</value>
+      <value>Suchergebnisse</value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_heading</key>
-      <value>Search</value>
+      <value>Suchen</value>
       <group>search</group>
     </definition>
     <definition>
       <key>advanced_search_heading</key>
-      <value>Advanced Search</value>
+      <value>Erweiterte Suche</value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_results_heading</key>
-      <value>Search Results</value>
+      <value>Suchergebnisse</value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_criteria_title</key>
-      <value>Search Criteria</value>
+      <value>Suchbegriffe</value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_categories</key>
-      <value>Categories:</value>
+      <value>Kategorien:</value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_recursive</key>
-      <value>Include Subcategories</value>
+      <value>Unterkategorien einbeziehen</value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_manufacturers</key>
-      <value>Manufacturers:</value>
+      <value>Hersteller:</value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_price_from</key>
-      <value>Price From:</value>
+      <value>Preis von:</value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_price_to</key>
-      <value>Price To:</value>
+      <value>Preis bis:</value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_from</key>
-      <value>Date From:</value>
+      <value>Datum von:</value>
       <group>search</group>
     </definition>
     <definition>
       <key>field_search_date_to</key>
-      <value>Date To:</value>
+      <value>Datum bis:</value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_tips</key>
-      <value>Search Help</value>
+      <value>Suchhilfe</value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help_heading</key>
-      <value>Search Help</value>
+      <value>Suchhilfe</value>
       <group>search</group>
     </definition>
     <definition>
       <key>search_help</key>
-      <value>Keywords may be separated by AND and/or OR statements for greater control of the search results.&lt;br /&gt;&lt;br /&gt;For example, &lt;u&gt;Microsoft AND mouse&lt;/u&gt; would generate a result set that contain both words. However, for &lt;u&gt;mouse OR keyboard&lt;/u&gt;, the result set returned would contain both or either words.&lt;br /&gt;&lt;br /&gt;Exact matches can be searched for by enclosing keywords in double-quotes.&lt;br /&gt;&lt;br /&gt;For example, &lt;u&gt;"notebook computer"&lt;/u&gt; would generate a result set which match the exact string.&lt;br /&gt;&lt;br /&gt;Brackets can be used for further control on the result set.&lt;br /&gt;&lt;br /&gt;For example, &lt;u&gt;Microsoft and (keyboard or mouse or "visual basic")&lt;/u&gt;.</value>
+      <value>Die Suchfunktion erm&ouml;glicht Ihnen die Suche in den Produktnamen, Produktbeschreibungen, Herstellern und Artikelnummern.<br /><br />Sie haben die M&ouml;glichkeit logische Operatoren wie "AND" (Und) und "OR" (oder) zu verwenden.<br /><br />Als Beispiel k&ouml;nnten Sie also angeben: <u>Microsoft AND Maus</u>.<br /><br />Desweiteren k&ouml;nnen Sie Klammern verwenden um die Suche zu verschachteln, also z.B.:<br /><br /><u>Microsoft AND (Maus OR Tastatur OR "Visual Basic")</u>.<br /><br />Mit Anf&uuml;hrungszeichen k&ouml;nnen Sie mehrere Worte zu einem Suchbegriff zusammenfassen.</value>
       <group>search</group>
     </definition>
     <definition>
       <key>close_window</key>
-      <value>Close Window</value>
+      <value>Fenster schlie&szlig;en</value>
       <group>general</group>
     </definition>
     <definition>
       <key>error_search_at_least_one_input</key>
-      <value>At least one of the fields in the search form must be entered.</value>
+      <value>Wenigstens ein Feld des Suchformulars muss ausgefüllt werden.</value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_from_date</key>
-      <value>Invalid From Date.</value>
+      <value>Unzul&auml;ssiges <strong>von</strong> Datum.</value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_invalid_to_date</key>
-      <value>Invalid To Date.</value>
+      <value>Unzul&auml;ssiges <strong>bis</strong> Datum.</value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_to_date_less_than_from_date</key>
-      <value>To Date must be greater than or equal to From Date.</value>
+      <value>Das <strong>bis</strong>-Datum muss gr&ouml;&szlig;er oder gleich dem <strong>von</strong>-Datum sein.</value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_from_not_numeric</key>
-      <value>Price From must be a number.</value>
+      <value>Preis <strong>von</strong> muss eine Zahl sein.</value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_to_not_numeric</key>
-      <value>Price To must be a number.</value>
+      <value>Preis <strong>bis</strong> muss eine Zahl sein.</value>
       <group>search</group>
     </definition>
     <definition>
       <key>error_search_price_to_less_than_price_from</key>
-      <value>Price To must be greater than or equal to Price From.</value>
+      <value>Der <strong>bis</strong>-Preis muss gr&ouml;&szlig;er oder gleich dem <strong>von</strong>-Preis sein.</value>
       <group>search</group>
     </definition>
     <definition>
@@ -2106,7 +2104,7 @@ Your friend, %s, thought that you would be interested in %s from %s.</value>
     </definition>
     <definition>
       <key>credit_card_number_error</key>
-      <value>The credit card number entered is invalid.&lt;br /&gt;Please check the number and try again.</value>
+      <value>The credit card number entered is invalid.<br />Please check the number and try again.</value>
       <group>general</group>
     </definition>
     <definition>
