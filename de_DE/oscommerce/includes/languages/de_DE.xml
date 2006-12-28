@@ -1849,192 +1849,192 @@ Ihr Freund/Ihre Freundin, %s, hat das Produkt %s bei %s gefunden.</value>
     </definition>
     <definition>
       <key>error_search_invalid_keywords</key>
-      <value>Invalid keywords.</value>
+      <value>Suchbegriff unzul&auml;ssig.</value>
       <group>search</group>
     </definition>
     <definition>
       <key>js_review_text</key>
-      <value>* The Review Text must have at least %s characters.</value>
+      <value>* Der Text sollte mindestens %s Zeichen enthalten.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>js_review_rating</key>
-      <value>* You must rate the product for your review.</value>
+      <value>* Geben Sie Ihre Bewertung ein.</value>
       <group>products</group>
     </definition>
     <definition>
       <key>js_no_payment_module_selected</key>
-      <value>* Please select a payment method for your order.</value>
+      <value>* Bitte w&auml;hlen Sie eine Zahlungsweise f&uuml;r Ihre Bestellung.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_no_payment_module_selected</key>
-      <value>Please select a payment method for your order.</value>
+      <value>Bitte w&auml;hlen Sie eine Zahlungsweise f&uuml;r Ihre Bestellung.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_conditions_not_accepted</key>
-      <value>Please confirm the terms and conditions bound to this order by ticking the box below.</value>
+      <value>Bitte akzeptieren Sie die <a href="%s"><u>Allgemeinen Gesch&auml;ftsbedingunen</u></a> f&uuml;r diese Bestellung, indem Sie die Checkbox ausw&auml;hlen.</value>
       <group>checkout</group>
     </definition>
     <definition>
       <key>error_privacy_statement_not_accepted</key>
-      <value>Please confirm the privacy statement by ticking the box below.</value>
+      <value>Bitte akzeptieren Sie den Datenschutzhinweis, indem Sie die Checkbox ausw&auml;hlen.</value>
       <group>account</group>
     </definition>
     <definition>
       <key>field_customer_gender</key>
-      <value>Gender:</value>
+      <value>Anrede:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_gender_error</key>
-      <value>Please select your Gender.</value>
+      <value>Bitte w&auml;hlen Sie die Anrede aus.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_first_name</key>
-      <value>First Name:</value>
+      <value>Vorname:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_first_name_error</key>
-      <value>Your First Name must contain a minimum of %s characters.</value>
+      <value>Ihr Vorname sollte mindestens %s Zeichen enthalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_last_name</key>
-      <value>Last Name:</value>
+      <value>Nachname:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_last_name_error</key>
-      <value>Your Last Name must contain a minimum of %s characters.</value>
+      <value>Ihr Nachname sollte mindestens %s Zeichen enthalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_date_of_birth</key>
-      <value>Date of Birth:</value>
+      <value>Geburtstag:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_date_of_birth_error</key>
-      <value>Your Date of Birth must be set correctly.</value>
+      <value>Bitte geben Sie Ihren Geburtstag im richtigen Format ein.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address</key>
-      <value>E-Mail Address:</value>
+      <value>E-Mail-Adresse:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_error</key>
-      <value>Your E-Mail Address must contain a minimum of %S characters.</value>
+      <value>Ihre E-Mail-Adresse sollte mindestens %S zeichen enthalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_check_error</key>
-      <value>Your E-Mail Address does not appear to be valid - please make any necessary corrections.</value>
+      <value>Ihre E-Mail-Adresse scheint nicht g&uuml;ltig zu sein - bitte machen Sie die notwendigen Korrekturen.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_email_address_exists_error</key>
-      <value>Your E-Mail Address already exists in our records - please log in with the e-mail address or create an account with a different address.</value>
+      <value>Diese E-Mail-Adresse ist bereits gespeichert - bitte loggen Sie sich mit dieser Adresse ein oder er&oouml;ffnen Sie ein neues Konto mit einer anderen Adresse.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_company</key>
-      <value>Company Name:</value>
+      <value>Firmenname:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_company_error</key>
-      <value>Your Company Name must contain a minimum of %s characters.</value>
+      <value>Ihr Firmenname sollte mindestens %s Zeichen enthalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address</key>
-      <value>Street Address:</value>
+      <value>Strasse/Nr.:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_street_address_error</key>
-      <value>Your Street Address must contain a minimum of %s characters.</value>
+      <value>Die Strasse/Nr. sollte mindestens %s Zeichen enthalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_suburb</key>
-      <value>Suburb:</value>
+      <value>Stadtteil:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_suburb_error</key>
-      <value>Your Suburb must contain a minimum of %s characters.</value>
+      <value>Der Stadtteil sollte mindestens %s Zeichen enthalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code</key>
-      <value>Post Code:</value>
+      <value>Postleitzahl:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_post_code_error</key>
-      <value>Your Post Code must contain a minimum of %s characters.</value>
+      <value>Die Postleitzahl sollte mindestens %s Zeichen enthalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_city</key>
-      <value>City:</value>
+      <value>Stadt:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_city_error</key>
-      <value>Your City must contain a minimum of %s characters.</value>
+      <value>Die Stadt sollte mindestens %s Zeichen beinhalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state</key>
-      <value>State/Province:</value>
+      <value>Bundesland:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_error</key>
-      <value>Your State must contain a minimum of %s characters.</value>
+      <value>Das Bundesland sollte mindestens %s Zeichen beinhalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_state_select_pull_down_error</key>
-      <value>Please select a state from the States pull down menu.</value>
+      <value>Bitte w&auml;hlen Sie ein Bundesland aus der Liste.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_country</key>
-      <value>Country:</value>
+      <value>Land:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_country_error</key>
-      <value>You must select a country from the Countries pull down menu.</value>
+      <value>Bitte w&auml;hlen Sie ein Land aus der Liste.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_telephone_number</key>
-      <value>Telephone Number:</value>
+      <value>Telefonnummer:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_telephone_number_error</key>
-      <value>Your Telephone Number must contain a minimum of %s characters.</value>
+      <value>Die Telefonnummer sollte mindestens %s Zeichen beinhalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_fax_number</key>
-      <value>Fax Number:</value>
+      <value>Faxnummer:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_fax_number_error</key>
-      <value>Your Fax Number must contain a minium of %s characters.</value>
+      <value>Die Faxnummer sollte midestens %s Zeichen beinhalten.</value>
       <group>general</group>
     </definition>
     <definition>
@@ -2044,67 +2044,67 @@ Ihr Freund/Ihre Freundin, %s, hat das Produkt %s bei %s gefunden.</value>
     </definition>
     <definition>
       <key>field_customer_password</key>
-      <value>Password:</value>
+      <value>Passwort:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_error</key>
-      <value>Your Password must contain a minimum of %s characters.</value>
+      <value>Das Passwort sollte mindestens %s Zeichen beinhalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_mismatch_with_confirmation</key>
-      <value>The Password Confirmation must match your Password.</value>
+      <value>Beide Passw&ouml;rter m&uuml;ssen identisch sein.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_confirmation</key>
-      <value>Password Confirmation:</value>
+      <value>Passwort wiederholen:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current</key>
-      <value>Current Password:</value>
+      <value>Aktuelles Passwort:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_current_error</key>
-      <value>Your Password must contain a minimum of %s characters.</value>
+      <value>Das Passwort sollte mindestens %s Zeichen beinhalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new</key>
-      <value>New Password:</value>
+      <value>Neues Passwort:</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_error</key>
-      <value>Your new Password must contain a minimum of %s characters.</value>
+      <value>Ihr neues Passwort sollte mindestens %s Zeichen beinhalten.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>field_customer_password_new_mismatch_with_confirmation_error</key>
-      <value>The Password Confirmation must match your new Password.</value>
+      <value>Beide Passw&ouml;rter m&uuml;ssen identisch sein.</value>
       <group>general</group>
     </definition>
     <definition>
       <key>reviewed_by</key>
-      <value>by %s</value>
+      <value>von %s</value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_rating</key>
-      <value>Rating: %s [%s]</value>
+      <value>Bewertung: %s [%s]</value>
       <group>products</group>
     </definition>
     <definition>
       <key>review_date_added</key>
-      <value>Date Added: %s</value>
+      <value>aufgenommen am: %s</value>
       <group>products</group>
     </definition>
     <definition>
       <key>credit_card_number_error</key>
-      <value>The credit card number entered is invalid.<br />Please check the number and try again.</value>
+      <value>Die Kreditkartennummer, die Sie angegeben haben, ist ung&uuml;ltig.<br />Bitte korrigieren Sie Ihre Angaben.</value>
       <group>general</group>
     </definition>
     <definition>
