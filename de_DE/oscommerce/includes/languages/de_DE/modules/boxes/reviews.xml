@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>box_reviews_heading</key>
-      <value><![CDATA[Reviews]]></value>
+      <value><![CDATA[Bewertungen]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_reviews_write</key>
-      <value><![CDATA[Write a review on this product!]]></value>
+      <value><![CDATA[Schreiben Sie eine Bewertung zu diesem Produkt!]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>
       <key>box_reviews_stars_rating</key>
-      <value><![CDATA[%s of 5 Stars!]]></value>
+      <value><![CDATA[%s von 5 Sternen!]]></value>
       <group>modules-boxes</group>
     </definition>
   </definitions>
