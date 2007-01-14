@@ -1,4 +1,4 @@
-# $Id: install.php 466 2006-03-05 16:34:20Z hpdl $
+# $Id$
 #
 # osCommerce, Open Source E-Commerce Solutions
 # http://www.oscommerce.com

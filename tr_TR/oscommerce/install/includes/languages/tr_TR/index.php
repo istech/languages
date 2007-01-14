@@ -1,4 +1,4 @@
-# $Id: index.php 564 2006-05-08 01:45:04Z hpdl $
+# $Id$
 #
 # osCommerce, Open Source E-Commerce Solutions
 # http://www.oscommerce.com

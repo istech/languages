@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: tr_TR.php 658 2006-07-19 20:28:32Z hpdl $
+  $Id$
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com

@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: specials.php 448 2006-02-21 06:27:28Z hpdl $
+  $Id$
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com

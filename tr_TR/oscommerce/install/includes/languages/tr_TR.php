@@ -1,5 +1,5 @@
 #
-# $Id: english.php 468 2006-03-05 20:04:05Z hpdl $
+# $Id$
 #
 # osCommerce, Open Source E-Commerce Solutions
 # http://www.oscommerce.com

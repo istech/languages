@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: modules.php 637 2006-07-18 16:30:55Z hpdl $
+  $Id$
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com

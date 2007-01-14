@@ -1,6 +1,6 @@
 <?php
 /*
-  $Id: zone_groups.php 1076 2006-10-25 15:37:50Z hpdl $
+  $Id$
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
