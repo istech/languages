@@ -10,6 +10,8 @@
   Released under the GNU General Public License
 */
 
+define('HEADING_TITLE', 'Configuración');
+
 define('TABLE_HEADING_CONFIGURATION_TITLE', 'Título');
 define('TABLE_HEADING_CONFIGURATION_VALUE', 'Valor');
 define('TABLE_HEADING_ACTION', 'Acción');

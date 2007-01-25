@@ -10,11 +10,13 @@
   Released under the GNU General Public License
 */
 
-define('TABLE_HEADING_CONFIGURATION_TITLE', 'Titel');
-define('TABLE_HEADING_CONFIGURATION_VALUE', 'Värde');
-define('TABLE_HEADING_ACTION', 'Funktion');
+  define('HEADING_TITLE', 'Konfiguration');
 
-define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
-define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
+  define('TABLE_HEADING_CONFIGURATION_TITLE', 'Titel');
+  define('TABLE_HEADING_CONFIGURATION_VALUE', 'Värde');
+  define('TABLE_HEADING_ACTION', 'Funktion');
+
+  define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+  define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
+  define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
 ?>

@@ -19,6 +19,7 @@
   define('TABLE_HEADING_STATUS', 'Status');
 
   define('TEXT_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+  define('TEXT_EDIT_PARENT_CATEGORY', 'Föräldra Kategori:');
   define('TEXT_EDIT_CATEGORIES_NAME', 'Kategorinamn:');
   define('TEXT_EDIT_CATEGORIES_IMAGE', 'Kategoribild:');
   define('TEXT_EDIT_SORT_ORDER', 'Sorteringsordning:');
@@ -26,10 +27,12 @@
   define('TEXT_INFO_HEADING_NEW_CATEGORY', 'Ny Kategori');
 
   define('TEXT_DELETE_CATEGORY_INTRO', 'Är du säker att du vill ta bort denna kategori?');
+  define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande kategorier?');
   define('TEXT_DELETE_WARNING_CHILDS', '<b>VARNING:</b> Det finns fortfarande %s underkategorier länkade till denna kategori!');
   define('TEXT_DELETE_WARNING_PRODUCTS', '<b>VARNING:</b> Det finns fortfarande %s produkter länkade till denna kategori!');
 
   define('TEXT_MOVE_CATEGORIES_INTRO', 'Var vänlig och välj vilken kategori du vill <b>%s</b> gå till');
+  define('TEXT_MOVE_BATCH_INTRO', 'Var vänlig och välj vilken kategori du vill flytta följande kategorier till');
   define('TEXT_MOVE', 'Flytta <b>%s</b> till:');
 
   define('TEXT_NEW_CATEGORY_INTRO', 'Var vänlig och ange följande information för den nya kategorin');

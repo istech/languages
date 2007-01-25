@@ -26,6 +26,9 @@ define('TEXT_INFO_EDIT_ZONE_INTRO', 'Var vänlig och gör nödvändiga ändringa
 
 define('TEXT_INFO_HEADING_DELETE_ZONE', 'Ta Bort Zon');
 define('TEXT_INFO_DELETE_ZONE_INTRO', 'Är du säker att du vill ta bort denna zon?');
+ 
+define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande zon grupper?');
+define('TEXT_DELETE_ENTRIES_BATCH_INTRO', 'Är du säker att du vill ta bort följande zon grupps poster?');
 
 define('TEXT_INFO_HEADING_NEW_SUB_ZONE', 'Ny Underzon');
 define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'Var vänlig och ange den nya underzons informationen');
@@ -48,5 +51,6 @@ define('PLEASE_SELECT', 'Alla Zoner');
 define('TEXT_ALL_COUNTRIES', 'Alla Länder');
 
 define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Denna Skatt Zonen kan ej tas bort eftersom den är länkad till en eller fler skattesatser.');
+define('TEXT_INFO_BATCH_DELETE_PROHIBITED_TAX_ZONES', 'Varning: Följande zon grupper kan ej tas bort eftersom de används i skatt zoner.');
 define('TEXT_INFO_DELETE_ZONE_WARNING', 'Varning: Denna Skatt Zonen har %s zon(er) länkade som också kommer att tas bort.');
 ?>
