@@ -30,7 +30,7 @@ define('FEMALE', 'Vrouw');
 // text for date of birth example
 define('DOB_FORMAT_STRING', 'dd-mm-yyyy');
 
-define('BOX_CONFIGURATION_ADMINISTRATORS', 'Administrators');
+define('BOX_CONFIGURATION_ADMINISTRATORS', 'Beheerders');
 
 // configuration box text in includes/boxes/configuration.php
 define('BOX_HEADING_CONFIGURATION', 'Configuratie');
@@ -44,17 +44,17 @@ define('BOX_CONFIGURATION_CREDIT_CARD_TYPES', 'Credit Card soorten');
 define('BOX_HEADING_MODULES', 'Modules');
 define('BOX_MODULES_PAYMENT', 'Betalingen');
 define('BOX_MODULES_SHIPPING', 'Verzendingen');
-define('BOX_MODULES_ORDER_TOTAL', 'Bestellings  Totalen');
+define('BOX_MODULES_ORDER_TOTAL', 'Bestellingstotalen');
 
 // categories box text in includes/boxes/catalog.php
 define('BOX_HEADING_CATALOG', 'Winkel');
 define('BOX_CATALOG_CATEGORIES', 'Categoriën');
 define('BOX_CATALOG_PRODUCTS', 'Producten');
-define('BOX_CATALOG_CATEGORIES_PRODUCTS_ATTRIBUTES', 'Produkt Attributen');
+define('BOX_CATALOG_CATEGORIES_PRODUCTS_ATTRIBUTES', 'Produkt attributen');
 define('BOX_CATALOG_MANUFACTURERS', 'Fabrikanten');
 define('BOX_CATALOG_REVIEWS', 'Reviews');
 define('BOX_CATALOG_SPECIALS', 'Aanbiedingen');
-define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Verwachte Produkten');
+define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Verwachte produkten');
 
 // customers box text in includes/boxes/customers.php
 define('BOX_HEADING_CUSTOMERS', 'Klanten');
@@ -89,7 +89,7 @@ define('BOX_LOCALIZATION_CURRENCIES', 'Valuta');
 define('BOX_LOCALIZATION_LANGUAGES', 'Talen');
 define('BOX_LOCALIZATION_ORDERS_STATUS', 'Bestellings Statussen');
 define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Gewichtsklassen');
-define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Image Groups');
+define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Afbeeldingen Groepen');
 
 define('BOX_HEADING_LOGOFF', 'Uitloggen');
 
@@ -212,7 +212,7 @@ define('IMAGE_SEND', 'Versturen');
 define('IMAGE_SEND_EMAIL', 'Verstuur E-mail');
 define('IMAGE_UNLOCK', 'Vrijgeven');
 define('IMAGE_UPDATE', 'Bijwerken');
-define('IMAGE_UPDATE_CURRENCIES', 'Ververs wisselkoers(en)');
+define('IMAGE_UPDATE_CURRENCIES', 'Bijwerken wisselkoers(en)');
 define('IMAGE_UPLOAD', 'Upload');
 
 define('ICON_CROSS', 'False');

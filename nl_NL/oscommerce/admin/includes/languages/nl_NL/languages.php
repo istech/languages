@@ -11,7 +11,7 @@
 */
 
 define('HEADING_TITLE', 'Talen');
-define('HEADING_TITLE_DEFINITIONS', 'Language Definitions');
+define('HEADING_TITLE_DEFINITIONS', 'Taal definities');
 
 define('TABLE_HEADING_LANGUAGE_NAME', 'Taal');
 define('TABLE_HEADING_TOTAL_DEFINITIONS', 'Totaal gedefinieerd');
@@ -34,7 +34,7 @@ define('TEXT_INFO_LANGUAGE_TIME_FORMAT', 'Tijd formaat:');
 define('TEXT_INFO_LANGUAGE_TEXT_DIRECTION', 'Tekstrichting:');
 define('TEXT_INFO_LANGUAGE_DEFAULT_CURRENCY', 'Standaard valuta:');
 define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_DECIMAL', 'Decimaalteken');
-define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_THOUSANDS', 'Scheidinsteken duizendtallen');
+define('TEXT_INFO_LANGUAGE_NUMERIC_SEPARATOR_THOUSANDS', 'Scheidingsteken duizendtallen');
 define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Sorteervolgorde:');
 
 define('TEXT_INFO_HEADING_IMPORT_LANGUAGE', 'Importeer taal');
@@ -43,16 +43,16 @@ define('TEXT_INFO_SELECT_LANGUAGE', 'Selecteer taal:');
 define('TEXT_INFO_SELECT_IMPORT_TYPE', 'Type import:');
 define('TEXT_INFO_EXPORT_WITH_DATA', 'Exporteer met taalgegevens');
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Waarschuwing: Fout: de standaard taal kan niet worden verwijderd. Stel een andere taal als standaard in en probeer opnieuw.');
+define('TEXT_INFO_DELETE_PROHIBITED', 'Fout: de standaard taal kan niet worden verwijderd. Stel een andere taal als standaard in en probeer opnieuw.');
 define('TEXT_INFO_INSERT_DEFINITION_INTRO', 'Please enter the new language definition with its related data');
 define('TEXT_INFO_DELETE_DEFINITION_INTRO', 'Please select which definitions you would like to delete from the following group:');
 
-define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definition Key:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definition Value:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Group:');
-define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'New Group:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_KEY', 'Definitie sleutel:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_VALUE', 'Definitie waarde:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP', 'Groep:');
+define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Nieuwe groep:');
 
-define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'New Language Definition');
+define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Nieuwe taaldefinitie');
 
-define('TEXT_BACK_TO_LANGUAGES', 'Back to Languages');
+define('TEXT_BACK_TO_LANGUAGES', 'Terug naar Talen');
 ?>

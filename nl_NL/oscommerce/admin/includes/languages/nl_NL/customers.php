@@ -27,7 +27,7 @@ define('TEXT_INFO_COUNTRY', 'Land:');
 define('TEXT_INFO_NUMBER_OF_REVIEWS', 'Aantal beoordelingen:');
 define('TEXT_DELETE_INTRO', 'Weet u zeker dat u dit klantenprofiel wilt verwijderen?');
 define('TEXT_DELETE_REVIEWS', 'Verwijder %s beoordeling(en)');
-define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Verwijder klant');
+define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Verwijder klantenprofiel');
 define('TYPE_BELOW', 'Typ hieronder');
 define('PLEASE_SELECT', 'Selecteer');
 define('EMAIL_SUBJECT', 'Welkom bij ' . STORE_NAME);

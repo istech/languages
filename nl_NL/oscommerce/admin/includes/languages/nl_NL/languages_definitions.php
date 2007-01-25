@@ -27,5 +27,5 @@ define('TEXT_INFO_LANGUAGE_DEFINITION_GROUP_NEW', 'Nieuwe groep:');
 
 define('TEXT_INFO_HEADING_NEW_LANGUAGE_DEFINITION', 'Nieuwe taaldefinitie');
 
-define('TEXT_BACK_TO_LANGUAGES', 'Terug naar talen');
+define('TEXT_BACK_TO_LANGUAGES', 'Terug naar Talen');
 ?>

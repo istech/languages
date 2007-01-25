@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Kredietkaart Typen');
+define('HEADING_TITLE', 'Type Kredietkaart');
 
 define('TABLE_HEADING_CREDIT_CARD_CODE', 'Kaart code');
 define('TABLE_HEADING_CREDIT_CARD_NAME', 'Kaart naam');
