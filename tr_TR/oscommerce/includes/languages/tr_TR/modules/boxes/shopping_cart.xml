@@ -11,5 +11,10 @@
       <value><![CDATA[0 ürün]]></value>
       <group>modules-boxes</group>
     </definition>
+    <definition>
+      <key>box_shopping_cart_subtotal</key>
+      <value><![CDATA[Alt-Toplam:]]></value>
+      <group>modules-boxes</group>
+    </definition>    
   </definitions>
 </language>

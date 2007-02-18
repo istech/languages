@@ -86,17 +86,17 @@
     </definition>
     <definition>
       <key>result_set_number_of_products</key>
-      <value><![CDATA[Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> üründen)]]></value>
+      <value><![CDATA[Gösterilen <b>%d</b> ile <b>%d</b> arası (toplam <b>%d</b> üründen)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_orders</key>
-      <value><![CDATA[Gösterilen <b>%d</b> - <b>%d</b> (<b>%d</b> siparişten)]]></value>
+      <value><![CDATA[Gösterilen <b>%d</b> ile <b>%d</b> arası (toplam <b>%d</b> siparişten)]]></value>
       <group>general</group>
     </definition>
     <definition>
       <key>result_set_number_of_reviews</key>
-      <value><![CDATA[Gosterilen <b>%d</b> - <b>%d</b> (<b>%d</b> yorumdan)]]></value>
+      <value><![CDATA[Gosterilen <b>%d</b> - <b>%d</b> arası (toplam <b>%d</b> yorumdan)]]></value>
       <group>general</group>
     </definition>
     <definition>
@@ -556,12 +556,12 @@
     </definition>
     <definition>
       <key>order_shipped_to</key>
-      <value><![CDATA[Kargolanan Yer:]]></value>
+      <value><![CDATA[Kargolanan Kişi:]]></value>
       <group>account</group>
     </definition>
     <definition>
       <key>order_billed_to</key>
-      <value><![CDATA[Faturalanan Yer:]]></value>
+      <value><![CDATA[Faturalanan Kişi:]]></value>
       <group>account</group>
     </definition>
     <definition>
