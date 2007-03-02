@@ -31,5 +31,5 @@ define('TEXT_SHOPPING_CART_PRODUCTS', 'Produkter I Kundvagn:');
 define('TEXT_SHOPPING_CART_TOTAL', 'Kundvagn Total:');
 
 define('TEXT_DELETE_INTRO', 'Är du säker du vill ta bort denna kund session?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker duvill ta bort följande kund sessioner?');
+define('TEXT_DELETE_BATCH_INTRO', 'Är du säker du vill ta bort följande kund sessioner?');
 ?>
