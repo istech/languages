@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Titular de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -28,7 +28,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Fecha de Vencimiento de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -38,7 +38,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_js_credit_card_owner</key>
-      <value><![CDATA[* El nombre del dueño de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
+      <value><![CDATA[* El nombre del titular de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -58,7 +58,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_general</key>
-      <value><![CDATA[Había un problema que procesaba esta tarjeta de crédito. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
+      <value><![CDATA[Ha habido un problema al procesar la tarjeta de crédito. Por favor revise los datos e inténtelo de nuevo.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -68,17 +68,17 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_62</key>
-      <value><![CDATA[La fecha de caducidad no es válida. Por favor controlar la información de la tarjeta y intente otra vez.]]></value>
+      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor compruebe la información de la tarjeta e inténtelo otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_63</key>
-      <value><![CDATA[La tarjeta de crédito ha expirado. Por favor intentar otra vez con otra tarjeta o forma de pago.]]></value>
+      <value><![CDATA[La tarjeta de crédito ha caducado. Por favor inténtelo otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_64</key>
-      <value><![CDATA[Esta es una tarjeta de crédito desconocida que no puede ser procesada. Por favor intente otra vez con otra tarjeta o forma de pago.]]></value>
+      <value><![CDATA[Esta es una tarjeta de crédito desconocida que no puede ser procesada. Por favor inténtelo otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

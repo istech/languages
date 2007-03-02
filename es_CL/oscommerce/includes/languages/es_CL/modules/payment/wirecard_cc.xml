@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>payment_wirecard_cc_title</key>
-      <value><![CDATA[Wire Card Tarjeta de Crédito]]></value>
+      <value><![CDATA[Tarjeta de Crédito Wire Card]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_description</key>
-      <value><![CDATA[Wire Card Tarjeta de Crédito Transacciónes]]></value>
+      <value><![CDATA[Tarjeta de Crédito Wire Card]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_wirecard_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Titular de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -28,17 +28,17 @@
     </definition>
     <definition>
       <key>payment_wirecard_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Fecha de vencimiento:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_credit_card_cvc</key>
-      <value><![CDATA[Número de Control de la Tarjeta de Crédito (CVC):]]></value>
+      <value><![CDATA[Número de Control(CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_js_credit_card_owner</key>
-      <value><![CDATA[* El nombre del dueño de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
+      <value><![CDATA[* El nombre del titular de la tarjeta de crédito debe tener por lo menos %s caracteres.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -58,7 +58,7 @@
     </definition>
     <definition>
       <key>payment_wirecard_cc_error_general</key>
-      <value><![CDATA[Ha habido un error en el proceso con su tarjeta de crédito. Por favor intente otra vez.]]></value>
+      <value><![CDATA[Ha habido un error durante el proceso con su tarjeta de crédito. Por favor inténtelo otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -68,7 +68,7 @@
     </definition>
     <definition>
       <key>payment_wirecard_cc_error_20071</key>
-      <value><![CDATA[La fecha de caducidad no es válida. Por favor controlar la información de la tarjeta y intente otra vez.]]></value>
+      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor verifique la información de la tarjeta e inténtelo otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

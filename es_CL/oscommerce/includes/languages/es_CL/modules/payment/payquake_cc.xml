@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Titular de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -28,7 +28,7 @@
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Fecha de Vencimiento de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -58,7 +58,7 @@
     </definition>
     <definition>
       <key>payment_payquake_cc_error_general</key>
-      <value><![CDATA[Había un problema que procesaba esta tarjeta de crédito. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
+      <value><![CDATA[Ha había un problema que procesaba esta tarjeta de crédito. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -68,7 +68,7 @@
     </definition>
     <definition>
       <key>payment_payquake_cc_error_invalid_expiry_date</key>
-      <value><![CDATA[La fecha de caducidad no es válida. Por favor controlar la información de la tarjeta y intente otra vez.]]></value>
+      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor comprobar la información de la tarjeta e intente otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

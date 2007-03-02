@@ -18,17 +18,17 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner</key>
-      <value><![CDATA[Dueño de la Cuenta:]]></value>
+      <value><![CDATA[Nombre del titular de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_firstname</key>
-      <value><![CDATA[Nombre del Dueño de la Cuenta:]]></value>
+      <value><![CDATA[Nombre del titular de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_lastname</key>
-      <value><![CDATA[Apellido del Dueño de la Cuenta:]]></value>
+      <value><![CDATA[Apellido del titular de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -53,7 +53,7 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_code</key>
-      <value><![CDATA[Código del Banque:]]></value>
+      <value><![CDATA[Código del Banco:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -68,7 +68,7 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_js_error</key>
-      <value><![CDATA[* Todos los campos requirieron.]]></value>
+      <value><![CDATA[* Todos los campos son requeridos.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

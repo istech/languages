@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -27,7 +27,9 @@ define('TEXT_STATUS', 'Estado:');
 
 define('TEXT_NEW_INTRO', 'Por favor complete la información siguiente para la nueva tarjeta de crédito');
 define('TEXT_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
+define('TEXT_EDIT_BATCH_INTRO', 'Por favor realize cualquier cambio necesario a las siguientes tarjetas de crédito:');
 define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar esta tarjeta de crédito?');
+define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar las siguientes tarjetas de crédito?');
 
 define('ERROR_CREDIT_CARD_NAME', 'Error: El nombre de la Tarjeta de Crédito no puede estar en blanco');
 ?>

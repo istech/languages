@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -53,7 +53,7 @@ define('ENTRY_TOTAL', 'Total:');
 define('ENTRY_DATE_PURCHASED', 'Fecha de la Compra:');
 define('ENTRY_STATUS', 'Estatus:');
 define('ENTRY_POST_TRANSACTION_ACTIONS', 'Acciones posteriores de la transacción:');
-define('ENTRY_DATE_LAST_UPDATED', 'Ultima Fecha al Día:');
+define('ENTRY_DATE_LAST_UPDATED', 'Última Fecha al Día:');
 define('ENTRY_NOTIFY_CUSTOMER', 'Notificar Cliente:');
 define('ENTRY_NOTIFY_COMMENTS', 'Agregar Commentario:');
 define('ENTRY_NEW_COMMENT', 'Nuevo Comentario:');
@@ -61,9 +61,10 @@ define('ENTRY_PRINTABLE', 'Imprimir Factura');
 
 define('TEXT_INFO_HEADING_DELETE_ORDER', 'Borrar Pedido');
 define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este pedido?');
+define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguientes pedidos?');
 define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', 'Volver a incluir en stock la cantidad del producto');
 define('TEXT_DATE_ORDER_CREATED', 'Fecha Creada:');
-define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Ultima Modificación:');
+define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Última Modificación:');
 define('TEXT_INFO_PAYMENT_METHOD', 'Forma de Pago:');
 
 define('TEXT_ALL_ORDERS', 'Todos los Pedidos');

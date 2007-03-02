@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_owner</key>
-      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Titular de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -28,7 +28,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Fecha de Vencimiento de la tarjeta de crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -68,7 +68,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_error_invalid_expiration_date</key>
-      <value><![CDATA[La fecha de caducidad no es válida. Por favor controlar la información de la tarjeta y intente otra vez.]]></value>
+      <value><![CDATA[La fecha de vencimiento de la tarjeta de crédito es inválida. Por favor controlar la información de la tarjeta y intente otra vez.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

@@ -3,12 +3,12 @@
   <definitions>
     <definition>
       <key>shipping_table_title</key>
-      <value><![CDATA[Tarifa de la Tabla]]></value>
+      <value><![CDATA[Tabla de Tarifas]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_table_description</key>
-      <value><![CDATA[Tarifa de la Tabla]]></value>
+      <value><![CDATA[Tabla de Tarifas]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>

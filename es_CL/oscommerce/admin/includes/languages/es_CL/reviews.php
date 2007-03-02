@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -27,6 +27,7 @@ define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTA:</b></font></s
 define('ENTRY_RATING', 'Rating:');
 
 define('TEXT_INFO_DELETE_REVIEW_INTRO', '¿Esta seguro que quiere borrar este comentario?');
+define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguientes comentario?s');
 
 define('TEXT_INFO_DATE_ADDED', 'Fecha Agregada:');
 define('TEXT_INFO_LAST_MODIFIED', 'Última Modificación:');

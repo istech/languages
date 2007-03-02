@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -30,12 +30,13 @@ define('TEXT_INFO_COMPRESSION', 'Compresión:');
 define('TEXT_INFO_USE_GZIP', 'Usa GZIP');
 define('TEXT_INFO_USE_ZIP', 'Usa ZIP');
 define('TEXT_INFO_USE_NO_COMPRESSION', 'Sin Compresión (Puro SQL)');
-define('TEXT_INFO_DOWNLOAD_ONLY', 'Descargar Solamente (no guardar en el servidor)');
+define('TEXT_INFO_DOWNLOAD_ONLY', 'Descargar solamente (no guardar en el servidor)');
 define('TEXT_INFO_BEST_THROUGH_HTTPS', 'Mejor a través de una conexión de HTTPS');
 define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este backup?');
+define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguientes backups?');
 define('TEXT_NO_EXTENSION', 'Ninguno');
 define('TEXT_BACKUP_DIRECTORY', 'Directorio de Backup:');
-define('TEXT_LAST_RESTORATION', 'Ultima Restauración:');
+define('TEXT_LAST_RESTORATION', 'Última Restauración:');
 define('TEXT_FORGET', '(<u>olvida</u>)');
 
 define('ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de backup no existe. Por favor establezca esto en configure.php.');

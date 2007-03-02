@@ -18,17 +18,17 @@
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner</key>
-      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Titular de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_first_name</key>
-      <value><![CDATA[Nombre del Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Nombre del Titular de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_last_name</key>
-      <value><![CDATA[Apellido del Dueño de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Apellido del Titular de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -38,7 +38,7 @@
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de Caducidad de la Tarjeta de Crédito:]]></value>
+      <value><![CDATA[Fecha de Vencimiento de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

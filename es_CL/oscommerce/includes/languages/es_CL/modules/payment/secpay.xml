@@ -13,7 +13,7 @@
     </definition>
     <definition>
       <key>payment_secpay_error</key>
-      <value><![CDATA[Error de Tarjeta de Crédito!]]></value>
+      <value><![CDATA[Error con Tarjeta de Crédito!]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>box_reviews_write</key>
-      <value><![CDATA[¡Escribe un comentario de este producto!]]></value>
+      <value><![CDATA[¡Escriba un comentario de este producto!]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>

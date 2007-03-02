@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -19,15 +19,23 @@ define('TABLE_HEADING_ACCOUNT_CREATED', 'Cuenta Creada');
 define('TABLE_HEADING_ACTION', 'Acción');
 define('TABLE_HEADING_STATUS', 'Estado');
 
+define('CATEGORY_PERSONAL', 'Personal');
+define('CATEGORY_ADDRESS_BOOK', 'Libro de Dirección ');
+
 define('TEXT_DATE_ACCOUNT_CREATED', 'Cuenta Creada:');
-define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Ultima Modificación:');
-define('TEXT_INFO_DATE_LAST_LOGON', 'Ultimo Login:');
+define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Última Modificación:');
+define('TEXT_INFO_DATE_LAST_LOGON', 'Último Login:');
 define('TEXT_INFO_NUMBER_OF_LOGONS', 'Número de Logins:');
 define('TEXT_INFO_COUNTRY', 'País:');
 define('TEXT_INFO_NUMBER_OF_REVIEWS', 'Número de Comentarios:');
 define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este cliente?');
+define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguientes clientes?');
+define('TEXT_DELETE_ADDRESS_BOOK_INTRO', '¿Estas seguro que quiere borrar esta entrada del libro de dirección de los clientes?');
 define('TEXT_DELETE_REVIEWS', 'Borrar %s comentarios');
 define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Borrar Cliente');
+define('TEXT_INFO_HEADING_NEW_CUSTOMER', 'Nuevo Cliente');
+define('TEXT_INFO_HEADING_NEW_ADDRESS_BOOK_ENTRY', ' Nueva Entrada Del Libro De Dirección');
+define('TEXT_BATCH_DELETE_REVIEWS', '¿Comentarios del cliente de la cancelación?');
 define('TYPE_BELOW', 'Escriba Abajo');
 define('PLEASE_SELECT', 'Elija Uno');
 define('EMAIL_SUBJECT', 'Bienvenido a ' . STORE_NAME);
@@ -40,4 +48,7 @@ define('EMAIL_CONTACT', 'Para obtener ayuda con cualquiera de nuestros servicios
 define('EMAIL_PASSWORD', '<b>Nota:</b> Esta cuenta ha sido creada para usted por el encargado de la tienda online. La contraseña para tener acceso a esta cuenta es %s.' . "\n");
 
 define('ENTRY_STATUS', 'Estado:');
+define('ENTRY_SET_AS_PRIMARY', 'Fijar Como Dirección Primaria:');
+
+define('TEXT_INFO_DELETE_ADDRESS_BOOK_PROHIBITED', 'Advertencia: La dirección primaria de los clientes no puede ser borrada. Asignar por favor otra dirección como la dirección primaria e intente otra vez.');
 ?>

@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -31,12 +31,14 @@
   define('TEXT_NEW_PRODUCT', 'Nuevo Producto');
   define('TEXT_CATEGORIES', 'Categorías:');
 
-  define('TEXT_EDIT_INTRO', 'Por favor realice cualquier cambio necesario');
+  define('TEXT_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
 
   define('TEXT_INFO_COPY_TO_INTRO', 'Por favor elija una nueva categoría a la que desee copiar este producto a');
+  define('TEXT_INFO_COPY_TO_BATCH_INTRO', 'Por favor elija una nueva categoría a la que desee copiar estos productos a');
   define('TEXT_INFO_CURRENT_CATEGORIES', 'Categorías Actuales:');
 
   define('TEXT_DELETE_PRODUCT_INTRO', '¿Esta seguro que quiere borrar este producto permanentemente?');
+  define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar estos productos permanentemente?');
 
   define('TEXT_MOVE_PRODUCTS_INTRO', 'Por favor seleccione la categoría a la que desea asignar el producto <b>%s</b>');
   define('TEXT_MOVE', 'Mover <b>%s</b> a:');

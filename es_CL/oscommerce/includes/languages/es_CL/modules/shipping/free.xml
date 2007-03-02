@@ -3,17 +3,17 @@
   <definitions>
     <definition>
       <key>shipping_free_title</key>
-      <value><![CDATA[Envío Gratis]]></value>
+      <value><![CDATA[Envío Gratuito]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_free_description</key>
-      <value><![CDATA[Envío Gratis]]></value>
+      <value><![CDATA[Envío Gratuito]]></value>
       <group>modules-shipping</group>
     </definition>
     <definition>
       <key>shipping_free_for_amount</key> 
-      <value><![CDATA[para los pedidos sobre %s]]></value>
+      <value><![CDATA[para los pedidos mayores de %s]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

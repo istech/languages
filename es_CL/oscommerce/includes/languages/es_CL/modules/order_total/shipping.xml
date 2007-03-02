@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>order_total_shipping_description</key>
-      <value><![CDATA[Costo del Envío del Pedido]]></value>
+      <value><![CDATA[Gastos de Envío]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>
