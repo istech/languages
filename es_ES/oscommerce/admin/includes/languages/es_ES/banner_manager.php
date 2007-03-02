@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -24,17 +24,17 @@ define('TEXT_BANNERS_GROUP', 'Grupo del Banner:');
 define('TEXT_BANNERS_NEW_GROUP', ', o introduzca un nuevo grupo de banners debajo');
 define('TEXT_BANNERS_IMAGE', 'Imagen:');
 define('TEXT_BANNERS_IMAGE_LOCAL', ', o introduzca un ficherlo local debajo');
-define('TEXT_BANNERS_IMAGE_TARGET', 'Destino de la Imagen (Guardar en):');
+define('TEXT_BANNERS_IMAGE_TARGET', 'Destino de la Imagen (Guardar En):');
 define('TEXT_BANNERS_HTML_TEXT', 'Texto HTML:');
 define('TEXT_BANNERS_EXPIRES_ON', 'Expira El:');
 define('TEXT_BANNERS_OR_AT', ', o en');
 define('TEXT_BANNERS_IMPRESSIONS', 'impresiones/visto.');
 define('TEXT_BANNERS_SCHEDULED_AT', 'Programado El:');
 define('TEXT_BANNERS_STATUS', 'Estado:');
-define('TEXT_BANNERS_BANNER_NOTE', '<b>Notas del Banner:</b><ul><li>Use una imagen o texto HTML para el banner - No ambos.</li><li>El texto HTML tiene prioridad sobre una imagen</li></ul>');
-define('TEXT_BANNERS_INSERT_NOTE', '<b>Notas de la imagen:</b><ul><li>La subida de directorios debe tener un permiso adecuado (escritura) establecido!</li><li>No rellene el campo \'Guardar en\' si no está subiendo una imagen al servidor (Ej: está usando una imagen local en el servidor.</li><li>El campo \'Guardar en\' debe ser en undirectorio existente terminado en barra (Ej: banners/).</li></ul>');
-define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Notas de caducidad:</b><ul><li>Solo uno de los dos campos debe ser enviado</li><li>Si el banner no debe caducar automáticamente, entonces deje los campos en blanco</li></ul>');
-define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Notas sobre programación:</b><ul><li>Si se ha programado un banner, éste será activado en la fecha indicada.</li><li>Todos los banners programados son marcados como inactivos hasta que llegue su fecha de activación, en la cual serán marcados como activos.</li></ul>');
+define('TEXT_BANNERS_BANNER_NOTE', '<b>Notas Del Banner:</b><ul><li>Use una imagen o texto HTML para el banner - No ambos.</li><li>El texto HTML tiene prioridad sobre una imagen</li></ul>');
+define('TEXT_BANNERS_INSERT_NOTE', '<b>Notas De La Imagen:</b><ul><li>La subida de directorios debe tener un permiso adecuado (escritura) establecido!</li><li>No rellene el campo \'Guardar en\' si no está subiendo una imagen al servidor (Ej: está usando una imagen local en el servidor.</li><li>El campo \'Guardar en\' debe ser en undirectorio existente terminado en barra (Ej: banners/).</li></ul>');
+define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Notas De Caducidad:</b><ul><li>Solo uno de los dos campos debe ser enviado</li><li>Si el banner no debe caducar automáticamente, entonces deje los campos en blanco</li></ul>');
+define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Notas Sobre Programación:</b><ul><li>Si se ha programado un banner, éste será activado en la fecha indicada.</li><li>Todos los banners programados son marcados como inactivos hasta que llegue su fecha de activación, en la cual serán marcados como activos.</li></ul>');
 
 define('TEXT_BANNERS_DATE_ADDED', 'Fecha Añadido:');
 define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Programado Para: <b>%s</b>');
@@ -48,8 +48,9 @@ define('TEXT_BANNERS_BANNER_VIEWS', 'Impresiones del Banner');
 define('TEXT_BANNERS_BANNER_CLICKS', 'Clicks en el Banner');
 
 define('TEXT_INFO_INSERT_INTRO', 'Por favor introduzca el nuevo banner y sus datos relacionados');
-define('TEXT_INFO_EDIT_INTRO', 'Por favor efectúe los cambios necesarios');
+define('TEXT_INFO_EDIT_INTRO', 'Por favor realize los cambios necesarios');
 define('TEXT_INFO_DELETE_INTRO', '¿Está seguro de querer borrar éste banner?');
+define('TEXT_DELETE_BATCH_INTRO', '¿Está seguro de querer borrar los siguientes banners?');
 define('TEXT_INFO_DELETE_IMAGE', 'Borrar la imagen del banner');
 
 define('TEXT_INFO_HEADING_NEW_BANNER', 'Nuevo Banner');

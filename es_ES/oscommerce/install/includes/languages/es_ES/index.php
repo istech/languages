@@ -1,16 +1,13 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2006 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-page_title_welcome = Bienvenido a osCommerce 3.0a3!
+page_title_welcome = Bienvenido a osCommerce 3.0!
 
 page_heading_installation_type = Tipo de Instalación
 
@@ -21,7 +18,7 @@ text_installation_type = Por favor elija el tipo de instalación para continuar.
 
 box_server_title = Datos del Servidor
 box_server_php_version = Versión PHP
-box_server_php_settings = Configuracion PHP
+box_server_php_settings = Configuración PHP
 box_server_register_globals = register_globals
 box_server_magic_quotes = magic_quotes
 box_server_file_uploads = file_uploads
@@ -40,4 +37,3 @@ error_configuration_file_alternate_method = <p>Alternativamente existe la posibi
 
 image_button_install = Instalar
 image_button_upgrade = Actualizar
-?>

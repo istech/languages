@@ -3,32 +3,32 @@
   <definitions>
     <definition>
       <key>payment_cc_title</key>
-      <value><![CDATA[Tarjeta de crédito]]></value>
+      <value><![CDATA[Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_description</key>
-      <value><![CDATA[Información de prueba para la tarjeta de crédito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
+      <value><![CDATA[Información de Prueba para la Tarjeta de Crédito:<br /><br />TC#: 4111111111111111<br />Vencimiento: Cualquera]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_method_title</key>
-      <value><![CDATA[Tarjeta de crédito:]]></value>
+      <value><![CDATA[Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_owner</key>
-      <value><![CDATA[Titular de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Titular de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_number</key>
-      <value><![CDATA[Número de tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento:]]></value>
+      <value><![CDATA[Fecha de Vencimiento:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

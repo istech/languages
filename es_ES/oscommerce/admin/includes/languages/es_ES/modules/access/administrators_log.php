@@ -1,14 +1,14 @@
-﻿<?php
+<?php
 /*
   $Id: $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('ACCESS_PRODUCTS_ATTRIBUTES_TITLE', 'Atributos de Productos');
+define('ACCESS_ADMINISTRATORS_LOG_TITLE', 'Administratores Log');
 ?>

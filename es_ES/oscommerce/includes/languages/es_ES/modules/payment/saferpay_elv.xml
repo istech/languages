@@ -1,34 +1,34 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>payment_saferpay_elv_title</key>
-      <value><![CDATA[Transferencia bancaria Saferpay]]></value>
+      <value><![CDATA[Transferencia Bancaria Saferpay]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_description</key>
-      <value><![CDATA[Transferencia bancaria Saferpay]]></value>
+      <value><![CDATA[Transferencia Bancaria Saferpay]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_method_title</key>
-      <value><![CDATA[Transferencia bancaria]]></value>
+      <value><![CDATA[Transferencia Bancaria]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_owner</key>
-      <value><![CDATA[Nombre del dueño de la cuenta:]]></value>
+      <value><![CDATA[Nombre del Titular de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_account_number</key>
-      <value><![CDATA[Número de la cuenta:]]></value>
+      <value><![CDATA[Número de la Cuenta:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_code</key>
-      <value><![CDATA[Código del banco:]]></value>
+      <value><![CDATA[Código del Banco:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

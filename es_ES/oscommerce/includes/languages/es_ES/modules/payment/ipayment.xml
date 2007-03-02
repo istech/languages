@@ -23,22 +23,22 @@
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_owner</key>
-      <value><![CDATA[Dueño de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Dueño de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_number</key>
-      <value><![CDATA[Número de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Fecha de Vencimiento de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_checknumber</key>
-      <value><![CDATA[Número de control de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de Control de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

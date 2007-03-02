@@ -1,39 +1,39 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
       <key>payment_saferpay_cc_title</key>
-      <value><![CDATA[Saferpay tarjeta de crédito]]></value>
+      <value><![CDATA[Saferpay Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_description</key>
-      <value><![CDATA[Saferpay tarjeta de crédito]]></value>
+      <value><![CDATA[Saferpay Tarjeta de Crédito Transacciones]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_method_title</key>
-      <value><![CDATA[Tarjeta de crédito]]></value>
+      <value><![CDATA[Tarjeta de Crédito]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_credit_card_owner</key>
-      <value><![CDATA[Titular de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Titular de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_credit_card_number</key>
-      <value><![CDATA[Número de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Número de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Fecha de vencimiento de la tarjeta de crédito:]]></value>
+      <value><![CDATA[Fecha de Vencimiento de la Tarjeta de Crédito:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_saferpay_cc_credit_card_cvc</key>
-      <value><![CDATA[Número de control de la tarjeta de crédito (CVC):]]></value>
+      <value><![CDATA[Número de Control de la Tarjeta de Crédito (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -78,7 +78,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_cc_error_64</key>
-      <value><![CDATA[Esta es una tarjeta de crédito desconocida que no puede ser procesada. Por favor inténtelootra vez con otra tarjeta o forma de pago.]]></value>
+      <value><![CDATA[Esta es una tarjeta de crédito desconocida que no puede ser procesada. Por favor inténtelo otra vez con otra tarjeta o forma de pago.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

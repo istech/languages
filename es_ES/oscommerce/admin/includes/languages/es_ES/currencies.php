@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -19,9 +19,9 @@ define('TABLE_HEADING_CURRENCY_EXAMPLE', 'Ejemplo');
 define('TABLE_HEADING_ACTION', 'Acción');
 
 define('TEXT_INFO_INSERT_INTRO', 'Por favor ingresar la nueva moneda y sus datos relacionados');
-define('TEXT_INFO_EDIT_INTRO', 'Por favor realizar cualquier cambio necesario');
+define('TEXT_INFO_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
 define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar esta moneda?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar estas monedas?');
+define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar las siguientes monedas?');
 define('TEXT_INFO_UPDATE_SERVICE_INTRO', 'Por favor seleccionar el servicio para usar de la actualización de la moneda.');
 
 define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Nueva Moneda');

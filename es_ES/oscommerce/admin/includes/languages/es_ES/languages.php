@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -20,7 +20,7 @@ define('TABLE_HEADING_DEFINITION_GROUPS', 'Grupos de Definición');
 define('TABLE_HEADING_ACTION', 'Acción');
 
 define('TEXT_INFO_IMPORT_INTRO', 'Por favor seleccione qué lenguaje desea importar y el tipo de importación');
-define('TEXT_INFO_EDIT_INTRO', 'Por favor realice cualquier cambio necesario');
+define('TEXT_INFO_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
 define('TEXT_INFO_EXPORT_INTRO', 'Por favor seleccione que grupo desea exportar:');
 define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este lenguaje?');
 define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguentes lenguajes?');
