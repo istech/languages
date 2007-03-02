@@ -53,7 +53,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_routing_code</key>
-      <value><![CDATA[Routing kod:]]></value>
+      <value><![CDATA[Clearings Kod:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -63,7 +63,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type</key>
-      <value><![CDATA[Organisationstyp:]]></value>
+      <value><![CDATA[Organisations Typ:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -93,7 +93,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_routing_code</key>
-      <value><![CDATA[* Bankens clearingsnummer måste innehålla %s nummer.]]></value>
+      <value><![CDATA[* Bankens clearings kod måste innehålla %s nummer.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -108,7 +108,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_routing_code</key>
-      <value><![CDATA[Clearingsnummret måste innehålla %s nummer. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
+      <value><![CDATA[Clearings koden måste innehålla %s nummer. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

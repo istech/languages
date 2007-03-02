@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -18,6 +18,7 @@ define('TABLE_HEADING_ACTION', 'Funktion');
 define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya bildgruppen med relevanta data');
 define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
 define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort bildgruppen? (Bilder måste tas bort manuellt)');
+define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande bildgrupper?');
 
 define('TEXT_IMAGE_GROUP_TITLE', 'Titel:');
 define('TEXT_IMAGE_GROUP_CODE', 'Kod:');

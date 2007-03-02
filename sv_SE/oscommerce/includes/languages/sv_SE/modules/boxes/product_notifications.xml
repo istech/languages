@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>box_product_notifications_heading</key>
-      <value><![CDATA[Produktrapport]]></value>
+      <value><![CDATA[Produkt Rapport]]></value>
       <group>modules-boxes</group>
     </definition>
     <definition>

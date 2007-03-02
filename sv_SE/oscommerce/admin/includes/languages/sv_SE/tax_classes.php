@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -29,7 +29,6 @@ define('TEXT_INFO_EDIT_INTRO', 'Var vänlig gör de nödvändiga ändringarna');
 define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna skatteklass?');
 define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande skatteklasser?');
 define('TEXT_DELETE_ENTRIES_BATCH_INTRO', 'Är du säker att du vill ta bort följande skatteklass poster?');
-
 
 define('TEXT_INFO_CLASS_TITLE', 'Titel på Skatteklass:');
 define('TEXT_INFO_CLASS_DESCRIPTION', 'Beskrivning:');

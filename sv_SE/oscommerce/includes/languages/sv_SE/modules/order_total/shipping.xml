@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>order_total_shipping_description</key>
-      <value><![CDATA[Leveranskostnad]]></value>
+      <value><![CDATA[Leverans Kostnad]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>

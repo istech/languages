@@ -23,7 +23,7 @@
     </definition>
     <definition>
       <key>shipping_zones_undefined_rate</key>
-      <value><![CDATA[Leveranskostnaden kan inte beräkas vid detta tillfälle]]></value>
+      <value><![CDATA[Leverans kostnaden kan inte beräkas vid detta tillfälle]]></value>
       <group>modules-shipping</group>
     </definition>
   </definitions>

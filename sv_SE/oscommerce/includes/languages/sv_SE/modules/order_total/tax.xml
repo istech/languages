@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>order_total_tax_description</key>
-      <value><![CDATA[Orderskatt]]></value>
+      <value><![CDATA[Order Skatt]]></value>
       <group>modules-order_total</group>
     </definition>
   </definitions>

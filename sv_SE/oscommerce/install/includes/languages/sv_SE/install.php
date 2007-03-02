@@ -3,7 +3,7 @@
 # osCommerce, Open Source E-Commerce Solutions
 # http://www.oscommerce.com
 #
-# Copyright (c) 2006 osCommerce
+# Copyright (c) 2007 osCommerce
 #
 # Released under the GNU General Public License
 
@@ -18,8 +18,8 @@ text_installation = <p>Denna web-baserade installation kommer på ett korrekt s�
 text_successful_installation = Installation och konfiguration väl utfört!
 text_go_to_shop_after_cfg_file_is_saved = Var vänlig och besök din affär efter konfigurationsfilen har sparats:
 
-param_database_server = Databasserver
-param_database_server_description = Databasserverns adress i form av hostnamn eller IP adress.
+param_database_server = Databas Server
+param_database_server_description = Databas serverns adress i form av hostnamn eller IP adress.
 param_database_username = Användarnamn
 param_database_username_description = Användarnamnet som används att logga in till databasens server.
 param_database_password = Lösenord
@@ -27,29 +27,29 @@ param_database_password_description = Lösenordet som används tillsammans med a
 param_database_name = Databasnamn
 param_database_name_description = Databasens namn som kommer att hålla datan.
 param_database_type = Databasetyp
-param_database_type_description = Databasservens programvara som används.
+param_database_type_description = Databas servens programvara som används.
 param_database_prefix = Database table prefix
 param_database_prefix_description = Prefix att använda till databasens tables.
 
-param_database_import_sample_data = Importera Exempeldata
+param_database_import_sample_data = Importera Exempel Data
 param_database_import_sample_data_description = Importera exempeldata till databasen är att rekommendera för förstagångs installationer.
 
 param_web_address = WWW Adress
-param_web_address_description = Webadressen till onlineaffären.
-param_web_root_directory = Webserver root katalog
+param_web_address_description = Webadressen till online affären.
+param_web_root_directory = Webserver Root Katalog
 param_web_root_directory_description = Katalogen där onlineaffären är installerad på denna server.
 param_web_work_directory = Arbetskatalog
 param_web_work_directory_description = Arbetskatalogen för temporärt skapade filer. Denna katalog bör ligga utanför webserverns rootkatalog av säkerhetsskäl. (Delade hosting servrar bör ej använda /tmp/)
 
 param_store_name = Affärsnamn
 param_store_name_description = Namnet på onlineaffären somkommer att presenteras för allmänheten.
-param_store_owner_name = Affärsinnehavarens namn
-param_store_owner_name_description = Affärsinnehavarens namn som kommer att presenteras för allmänheten.
-param_store_owner_email_address = Affärsinnehavarens e-postadress
-param_store_owner_email_address_description = Affärsinnehavarens e-postadress som kommer att presenteras för allmänheten.
-param_administrator_username = Administratörens användarnamn
-param_administrator_username_description = Administratörens användarnamn för att logga in i administrationsverktyget.
-param_administrator_password = Administratörens lösenord
+param_store_owner_name = Affärs Innehavarens Namn
+param_store_owner_name_description = Affärs innehavarens namn som kommer att presenteras för allmänheten.
+param_store_owner_email_address = Affärs Innehavarens E-Post Adress
+param_store_owner_email_address_description = Affärs innehavarens e-postadress som kommer att presenteras för allmänheten.
+param_administrator_username = Administratörens Användarnamn
+param_administrator_username_description = Administratörens användarnamn för att logga in i administrations verktyget.
+param_administrator_password = Administratörens Lösenord
 param_administrator_password_description = Lösenordet för att logga in som administratör.
 
 box_steps_step_1 = Databasserver

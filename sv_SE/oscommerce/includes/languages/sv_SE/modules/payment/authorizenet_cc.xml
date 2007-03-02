@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_description</key>
-      <value><![CDATA[Authorize.net kreditkortstransaktioner]]></value>
+      <value><![CDATA[Authorize.net Kreditkorts Transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,32 +18,32 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_owner</key>
-      <value><![CDATA[Kreditkortsinnehavaren:]]></value>
+      <value><![CDATA[Kreditkorts Innehavaren:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_number</key>
-      <value><![CDATA[Kreditkortsnummer:]]></value>
+      <value><![CDATA[Kreditkorts Nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_expiry_date</key>
-      <value><![CDATA[Kreditkortets giltlighetstid:]]></value>
+      <value><![CDATA[Kreditkortets Giltlighetstid:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_cvc</key>
-      <value><![CDATA[Kreditkortets kontrollnummer (CVC):]]></value>
+      <value><![CDATA[Kreditkortets Kontrollnummer (CVC):]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_owner</key>
-      <value><![CDATA[* Kreditkortsinnehavarens namn måste vara minst %s tecken.]]></value>
+      <value><![CDATA[* Kreditkorts innehavarens namn måste vara minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_number</key>
-      <value><![CDATA[* Kreditkortsnummret måste vara minst %s tecken.]]></value>
+      <value><![CDATA[* Kreditkorts nummret måste vara minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

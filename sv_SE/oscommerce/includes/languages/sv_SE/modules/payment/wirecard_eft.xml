@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_description</key>
-      <value><![CDATA[Wire Card EFT transaktioner]]></value>
+      <value><![CDATA[Wire Card EFT Transaktioner]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,22 +18,22 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner</key>
-      <value><![CDATA[Kontoinnehavaren:]]></value>
+      <value><![CDATA[Konto Innehavaren:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_firstname</key>
-      <value><![CDATA[Kontoinnehavarens förnamn:]]></value>
+      <value><![CDATA[Konto Innehavarens Förnamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_lastname</key>
-      <value><![CDATA[Kontoinnehavarens efternamn:]]></value>
+      <value><![CDATA[Konto Innehavarens Efternamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type</key>
-      <value><![CDATA[Kontotyp:]]></value>
+      <value><![CDATA[Konto Typ:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

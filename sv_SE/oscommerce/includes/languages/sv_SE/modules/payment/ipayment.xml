@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_ipayment_description</key>
-      <value><![CDATA[Kreditkortstestinfo:<br /><br />CC#: 4111111111111111<br />Giltlighetstid: Vad som helst]]></value>
+      <value><![CDATA[Kreditkorts Test Info:<br /><br />CC#: 4111111111111111<br />Giltlighetstid: Vad som helst]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,27 +18,27 @@
     </definition>
     <definition>
       <key>payment_ipayment_error_message</key>
-      <value><![CDATA[Var vänlig och kontrollera dina kreditkortsuppgifter!]]></value>
+      <value><![CDATA[Var vänlig och kontrollera dina kreditkorts uppgifter!]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_owner</key>
-      <value><![CDATA[Kreditkortsinnehavare:]]></value>
+      <value><![CDATA[Kreditkorts Innehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_number</key>
-      <value><![CDATA[Kreditkortsnummer:]]></value>
+      <value><![CDATA[Kreditkorts Nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_expiry_date</key>
-      <value><![CDATA[Kreditkortets giltlighetstid:]]></value>
+      <value><![CDATA[Kreditkortets Giltlighetstid:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_checknumber</key>
-      <value><![CDATA[Kreditkortets kontrollnummer:]]></value>
+      <value><![CDATA[Kreditkortets Kontrollnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -48,17 +48,17 @@
     </definition>
     <definition>
       <key>payment_ipayment_js_credit_card_owner</key>
-      <value><![CDATA[* Kreditkortsinnehavarens namn måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[* Kreditkorts innehavarens namn måste innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_js_credit_card_number</key>
-      <value><![CDATA[* Kreditkortsnummret måst innehålla minst %s tecken.]]></value>
+      <value><![CDATA[* Kreditkorts nummret måst innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_ipayment_credit_card_type</key>
-      <value><![CDATA[Kreditkortstyp:]]></value>
+      <value><![CDATA[Kreditkorts Typ:]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

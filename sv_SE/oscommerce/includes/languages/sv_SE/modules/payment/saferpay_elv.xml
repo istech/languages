@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_elv_bank_owner</key>
-      <value><![CDATA[Kontoinnehavare:]]></value>
+      <value><![CDATA[Konto Innehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

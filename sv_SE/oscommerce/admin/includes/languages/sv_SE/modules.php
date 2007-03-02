@@ -5,17 +5,17 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
 
-define('HEADING_TITLE_MODULES_PAYMENT', 'Betalningsmoduler');
-define('HEADING_TITLE_MODULES_SHIPPING', 'Leveransmoduler');
-define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Order total moduler');
+define('HEADING_TITLE_MODULES_PAYMENT', 'Betalnings Moduler');
+define('HEADING_TITLE_MODULES_SHIPPING', 'Leverans Moduler');
+define('HEADING_TITLE_MODULES_ORDER_TOTAL', 'Order Total Moduler');
 
 define('TABLE_HEADING_MODULES', 'Moduler');
-define('TABLE_HEADING_SORT_ORDER', 'Sortingsordning');
+define('TABLE_HEADING_SORT_ORDER', 'Sortings Ordning');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Funktion');
 

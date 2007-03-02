@@ -5,15 +5,15 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
 
 define('HEADING_TITLE_MODULES_BOXES', 'Boxar');
-define('HEADING_TITLE_MODULES_CONTENT', 'Innehållsmoduler');
+define('HEADING_TITLE_MODULES_CONTENT', 'Innehålls Moduler');
 
-define('TABLE_HEADING_MODULES_BOXES', 'Boxar');
+define('TABLE_HEADING_MODULES', 'Boxar');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Funktion');
 

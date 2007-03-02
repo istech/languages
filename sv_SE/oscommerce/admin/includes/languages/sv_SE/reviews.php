@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -19,7 +19,7 @@ define('TABLE_HEADING_DATE_ADDED', 'Tillagd');
 define('TABLE_HEADING_STATUS', 'Status');
 define('TABLE_HEADING_ACTION', 'Funktion');
 
-define('ENTRY_PRODUCT', 'Produkter:');
+define('ENTRY_PRODUCT', 'Produkt:');
 define('ENTRY_FROM', 'Från:');
 define('ENTRY_DATE', 'Datum:');
 define('ENTRY_REVIEW', 'Kommentar:');
@@ -27,6 +27,7 @@ define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTERING:</b></font
 define('ENTRY_RATING', 'Betyg:');
 
 define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Är du säker att du vill ta bort denna kommentar?');
+define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande kommentarer?');
 
 define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
 define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');

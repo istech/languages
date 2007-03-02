@@ -18,32 +18,32 @@
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner</key>
-      <value><![CDATA[Kreditkortsinnehavare:]]></value>
+      <value><![CDATA[Kreditkorts Innehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_first_name</key>
-      <value><![CDATA[Kreditkortsinnehavarens förnamn:]]></value>
+      <value><![CDATA[Kreditkorts Innehavarens Förnamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_owner_last_name</key>
-      <value><![CDATA[Kreditkortsinnehavarens efternamn:]]></value>
+      <value><![CDATA[Kreditkorts Innehavarens Efternamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_number</key>
-      <value><![CDATA[Kreditkortsnummer:]]></value>
+      <value><![CDATA[Kreditkorts Nummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_expiry_date</key>
-      <value><![CDATA[Kreditkortets giltlighetstid:]]></value>
+      <value><![CDATA[Kreditkortets Giltlighetstid:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_2checkout_credit_card_checknumber</key>
-      <value><![CDATA[Kreditkortets kontrollnummer:]]></value>
+      <value><![CDATA[Kreditkortets Kontrollnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -53,7 +53,7 @@
     </definition>
     <definition>
       <key>payment_2checkout_js_credit_card_number</key>
-      <value><![CDATA[* Kreditkortsnummret måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[* Kreditkorts nummret måste innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

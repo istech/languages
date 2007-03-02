@@ -5,19 +5,20 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
 
 // page title
-define('TITLE', 'osCommerce');
+define('TITLE', 'osCommerce Administrations Verktyg');
 
 // header text in includes/header.php
 define('HEADER_TITLE_HELP', 'Hjälp');
 define('HEADER_TITLE_OSCOMMERCE_SUPPORT_SITE', 'osCommerce Support Site');
 define('HEADER_TITLE_ONLINE_CATALOG', 'Online Katalog');
 define('HEADER_TITLE_LANGUAGES', 'Språk');
+define('HEADER_TITLE_LOGOFF', 'Logga ut');
 
 define('BOX_CONNECTION_PROTECTED', 'Du är skyddad av en %s säker SSL anslutning.');
 define('BOX_CONNECTION_UNPROTECTED', 'Du är <font color="#ff0000">ej</font> skyddad av en säker SSL anslutning.');
@@ -29,69 +30,6 @@ define('FEMALE', 'Kvinna');
 
 // text for date of birth example
 define('DOB_FORMAT_STRING', 'yyyy/mm/dd');
-
-define('BOX_CONFIGURATION_ADMINISTRATORS', 'Administratörer');
-
-// configuration box text in includes/boxes/configuration.php
-define('BOX_HEADING_CONFIGURATION', 'Konfiguration');
-define('BOX_CONFIGURATION_MYSTORE', 'Min Affär');
-define('BOX_CONFIGURATION_LOGGING', 'Loggning');
-define('BOX_CONFIGURATION_CACHE', 'Cache');
-define('BOX_CONFIGURATION_SERVICES', 'Tjänster');
-define('BOX_CONFIGURATION_CREDIT_CARD_TYPES', 'Kreditkortstyper');
-
-// modules box text in includes/boxes/modules.php
-define('BOX_HEADING_MODULES', 'Moduler');
-define('BOX_MODULES_PAYMENT', 'Betalning');
-define('BOX_MODULES_SHIPPING', 'Leverans');
-define('BOX_MODULES_ORDER_TOTAL', 'Order Total');
-
-// categories box text in includes/boxes/catalog.php
-define('BOX_HEADING_CATALOG', 'Katalog');
-define('BOX_CATALOG_CATEGORIES', 'Kategorier');
-define('BOX_CATALOG_PRODUCTS', 'Produkter');
-define('BOX_CATALOG_CATEGORIES_PRODUCTS_ATTRIBUTES', 'Produktattribut');
-define('BOX_CATALOG_MANUFACTURERS', 'Tillverkare');
-define('BOX_CATALOG_REVIEWS', 'Kommentarer');
-define('BOX_CATALOG_SPECIALS', 'Kampanjer');
-define('BOX_CATALOG_PRODUCTS_EXPECTED', 'Kommande Produkter');
-
-// customers box text in includes/boxes/customers.php
-define('BOX_HEADING_CUSTOMERS', 'Kunder');
-define('BOX_CUSTOMERS_CUSTOMERS', 'Kunder');
-define('BOX_CUSTOMERS_ORDERS', 'Ordrar');
-
-// taxes box text in includes/boxes/taxes.php
-define('BOX_HEADING_LOCATION_AND_TAXES', 'Platser / Skatter');
-define('BOX_TAXES_COUNTRIES', 'Länder');
-define('BOX_TAXES_ZONES', 'Zoner');
-define('BOX_TAXES_ZONE_GROUPS', 'Zon Grupper');
-define('BOX_TAXES_TAX_CLASSES', 'Skatteklasser');
-
-// reports box text in includes/boxes/reports.php
-define('BOX_HEADING_REPORTS', 'Rapporter');
-define('BOX_REPORTS_STATISTICS', 'Statistik');
-
-// tools text in includes/boxes/tools.php
-define('BOX_HEADING_TOOLS', 'Verktyg');
-define('BOX_TOOLS_BACKUP', 'Databas Säkerhetskopiera');
-define('BOX_TOOLS_BANNER_MANAGER', 'Reklambanderollshanteraren');
-define('BOX_TOOLS_CACHE', 'Cache Kontroll');
-define('BOX_TOOLS_IMAGES', 'Bilder');
-define('BOX_TOOLS_FILE_MANAGER', 'Filhanteraren');
-define('BOX_TOOLS_NEWSLETTER_MANAGER', 'Nyhetshanteraren');
-define('BOX_TOOLS_SERVER_INFO', 'Server Information');
-define('BOX_TOOLS_WHOS_ONLINE', 'Vem är Online');
-
-// localizaion box text in includes/boxes/localization.php
-define('BOX_HEADING_LOCALIZATION', 'Lokalt');
-define('BOX_LOCALIZATION_CURRENCIES', 'Valutor');
-define('BOX_LOCALIZATION_LANGUAGES', 'Språk');
-define('BOX_LOCALIZATION_ORDERS_STATUS', 'Orderstatus');
-define('BOX_LOCALIZATION_WEIGHT_CLASSES', 'Viktklasser');
-define('BOX_LOCALIZATION_IMAGE_GROUPS', 'Bildgrupper');
-
-define('BOX_HEADING_LOGOFF', 'Logga Ut');
 
 // javascript messages
 define('JS_ERROR', 'Fel har uppstått vid bearbetning av ditt formulär!\nVar vänlig och gör följande ändringar:\n\n');
@@ -106,12 +44,6 @@ define('JS_PRODUCTS_MODEL', '* Den nya produkten behöver ett modellnamn\n');
 define('JS_PRODUCTS_IMAGE', '* Den nya produkten behöver en bild\n');
 define('JS_SPECIALS_PRODUCTS_PRICE', '* Ett nytt pris behövs till den här produkten\n');
 define('JS_ORDER_DOES_NOT_EXIST', 'Ordernummer %s existerar ej!');
-
-define('CATEGORY_PERSONAL', 'Personlig');
-define('CATEGORY_ADDRESS', 'Adress');
-define('CATEGORY_CONTACT', 'Kontakt');
-define('CATEGORY_COMPANY', 'Företag');
-define('CATEGORY_OPTIONS', 'Alternativ');
 
 define('ENTRY_GENDER', 'Kön:');
 define('ENTRY_GENDER_ERROR', 'Var vänlig och välj ditt Kön.');
@@ -280,8 +212,8 @@ define('TEXT_IMAGE_NONEXISTENT', 'BILD EXISTERAR EJ');
 
 define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Fel: Det finns för närvarande ingen standardvaluta vald. Var vänlig och välj en vid: Administration->Lokalt->Valutor');
 
-define('TEXT_CACHE_CATEGORIES', 'Kategoribox');
-define('TEXT_CACHE_MANUFACTURERS', 'Tillverkarbox');
+define('TEXT_CACHE_CATEGORIES', 'Kategori Box');
+define('TEXT_CACHE_MANUFACTURERS', 'Tillverkar Box');
 define('TEXT_CACHE_ALSO_PURCHASED', 'Även Köpt Modul');
 
 define('TEXT_NONE', '--ingen--');
@@ -289,6 +221,7 @@ define('TEXT_TOP', 'Top');
 define('TEXT_TRUE', 'Sant');
 define('TEXT_FALSE', 'Falskt');
 define('TEXT_OPTIONAL', 'Frivilligt');
+define('TEXT_LEGEND', 'Legend');
 
 define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Fel: Destination existerar ej.');
 define('ERROR_DESTINATION_NOT_WRITEABLE', 'Fel: Destination är skrivskyddad.');

@@ -5,7 +5,7 @@
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2006 osCommerce
+  Copyright (c) 2007 osCommerce
 
   Released under the GNU General Public License
 */
@@ -26,7 +26,6 @@ define('TEXT_INFO_EDIT_ZONE_INTRO', 'Var vänlig och gör nödvändiga ändringa
 
 define('TEXT_INFO_HEADING_DELETE_ZONE', 'Ta Bort Zon');
 define('TEXT_INFO_DELETE_ZONE_INTRO', 'Är du säker att du vill ta bort denna zon?');
- 
 define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande zon grupper?');
 define('TEXT_DELETE_ENTRIES_BATCH_INTRO', 'Är du säker att du vill ta bort följande zon grupps poster?');
 

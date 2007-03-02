@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
   $Id: $
 
@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_STATISTICS_TITLE', 'Statistik');
+define('ACCESS_ADMINISTRATORS_LOG_TITLE', 'Administratörs Logg');
 ?>
