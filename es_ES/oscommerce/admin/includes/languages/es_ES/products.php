@@ -70,6 +70,10 @@
   define('TEXT_COPY_AS_LINK', 'Enlace la Producto');
   define('TEXT_COPY_AS_DUPLICATE', 'Duplicar el Producto');
 
+  define('WARNING_PRODUCT_KEY_IN_USE', 'Advertencia: Esta palabra clave es ya funcionando: %s. Por favor utilizar otra palabra clave única para este producto.');
+  define('WARNING_PRODUCT_KEY_EMPTY', 'Advertencia: Este producto tiene una palabra clave vacía que tiene que ser definida. Por favor utilizar una palabra clave única para identificar público este producto.');
+  define('WARNING_PRODUCT_KEY_INVALID', 'Advertencia: Esta palabra clave del producto es inválida: %s. Las palabras claves del producto deben ser una palabra que contiene las letras y los números (a-zA-Z0-9), y se pueden separar por las rayas (_) y los símbolos menos (-).');
+
   define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Error: No se puede enlazar el producto en la misma categoría.');
   define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de imágenes: ' . realpath('../images/products'));
   define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de imágenes no existe: ' . realpath('../images/products'));
