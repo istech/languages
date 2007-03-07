@@ -70,6 +70,10 @@ define('TEXT_HOW_TO_COPY', 'Kopierings Metod:');
 define('TEXT_COPY_AS_LINK', 'Länka produkten');
 define('TEXT_COPY_AS_DUPLICATE', 'Duplicera produkten');
 
+define('WARNING_PRODUCT_KEY_IN_USE', 'Varning: Detta produkt nyckelord används redan: %s. Var vänlig och ange ett unikt nyckelord för denna produkt.');
+define('WARNING_PRODUCT_KEY_EMPTY', 'Varning: Denna produkt saknar ett produkt nyckelord som måste definieras. Var vänlig och använd ett unikt nyckelord för att identifiera denna produkt.');
+define('WARNING_PRODUCT_KEY_INVALID', 'Varning: Detta produkt nyckelord är ogiltligt: %s. Produkt nyckelord får bara innehålla bokstäver och siffror (a-zA-Z0-9), och kan separeras med understreck (_) och minus tecken (-).');
+
 define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Fel: Kan ej länka produkt i samma katalog.');
 define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fel: Katalogbildsmappen är skrivskyddad: ' . realpath('../images'));
 define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fel: Katalogbildsmappen existerar ej: ' . realpath('../images'));
