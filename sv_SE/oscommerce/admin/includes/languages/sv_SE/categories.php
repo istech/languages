@@ -42,6 +42,8 @@ define('TEXT_SORT_ORDER', 'Sorterings Ordning:');
 
 define('EMPTY_CATEGORY', 'Tom Kategori');
 
+define('WARNING_CATEGORY_NAME_EMPTY', 'Varning: Kategori namnet för %s är tomt. Var vänlig och ange ett namn för detta språk.');
+
 define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Fel: Kategorin kan ej flyttas till underkatalog.');
 define('ERROR_CATEGORIES_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fel: Kategoribildsmappen är skrivskyddad: ' . realpath('../images/categories'));
 define('ERROR_CATEGORIES_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fel: Kategoribildsmappen existerar ej: ' . realpath('../images/categories'));

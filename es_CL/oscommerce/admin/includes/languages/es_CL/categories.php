@@ -42,6 +42,8 @@ define('TEXT_SORT_ORDER', 'Orden:');
 
 define('EMPTY_CATEGORY', 'Categoría Vacía');
 
+define('WARNING_CATEGORY_NAME_EMPTY', 'Advertencia: El nombre de la categoría para %s es vacío. Por favor definir un nombre para esta lenguaje.');
+
 define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Error: La categoría no se puede mover a una subcategoría.');
 define('ERROR_CATEGORIES_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de imágenes de las categorias: ' . realpath('../images/categories'));
 define('ERROR_CATEGORIES_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de las imágenes de las categorias no existe: ' . realpath('../images/categories'));
