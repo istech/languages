@@ -21,7 +21,7 @@ define('HEADER_TITLE_LANGUAGES', 'Språk');
 define('HEADER_TITLE_LOGOFF', 'Logga ut');
 
 define('BOX_CONNECTION_PROTECTED', 'Du är skyddad av en %s säker SSL anslutning.');
-define('BOX_CONNECTION_UNPROTECTED', 'Du är <font color="#ff0000">ej</font> skyddad av en säker SSL anslutning.');
+define('BOX_CONNECTION_UNPROTECTED', 'Du är <font color="#ff0000">ej</font> skyddad med en säker SSL anslutning.');
 define('BOX_CONNECTION_UNKNOWN', 'okänd');
 
 // text for gender
