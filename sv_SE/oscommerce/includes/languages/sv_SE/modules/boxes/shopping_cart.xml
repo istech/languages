@@ -12,9 +12,15 @@
       <group>modules-boxes</group>
     </definition>
     <definition>
+
       <key>box_shopping_cart_subtotal</key>
+
       <value><![CDATA[Sub-Total:]]></value>
+
       <group>modules-boxes</group>
+
     </definition>
+
   </definitions>
+
 </language>

@@ -8,7 +8,7 @@
     </definition>
     <definition>
       <key>payment_moneyorder_description</key>
-      <value><![CDATA[Hacer Pagable A:&nbsp;%s<br /><br />Enviar A:<br />%s<br /><br />Tu pedido no se enviarÃ¡ hasta que recibamos el pago.]]></value>
+      <value><![CDATA[Hacer Pagable A:&nbsp;%s<br /><br />Enviar A:<br />%s<br /><br />Tu pedido no se enviará hasta que recibamos el pago.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,7 +18,7 @@
 Mandar a:
 %
 
-Tu pedido no se enviarÃ¡ hasta que recibamos el pago.]]></value>
+Tu pedido no se enviará hasta que recibamos el pago.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

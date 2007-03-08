@@ -13,6 +13,7 @@
 define('HEADING_TITLE', 'Statistik');
 
 define('TABLE_HEADING_MODULES', 'Moduler');
+define('TABLE_HEADING_ACTION', 'Funktion');
 
 define('TEXT_MODULE_DIRECTORY', 'Modul Mapp:');
 ?>

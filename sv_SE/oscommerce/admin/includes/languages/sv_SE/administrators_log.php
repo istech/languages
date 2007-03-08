@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
   $Id: $
 
@@ -25,6 +25,6 @@ define('TABLE_HEADING_NEW_VALUE', 'Nytt Värde');
 
 define('TEXT_DATE', 'Datum:');
 
-define('TEXT_DELETE_INTRO', 'Är du säker att du vill ta bort denna administratör loggs post?');
-define('TEXT_DELETE_BATCH_INTRO', 'Äre du säker att du vill ta bort följande administratör loggs poster?');
+define('TEXT_DELETE_INTRO', 'Är du säker att du vill ta bort denna administratör logg post?');
+define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande administratör logg poster?');
 ?>

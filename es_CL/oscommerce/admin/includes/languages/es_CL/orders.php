@@ -1,14 +1,16 @@
 ﻿<?php
 /*
-  $Id: $
+  $Id: newsletters.php 1367 2007-03-05 22:44:16Z hpdl $
 
   osCommerce, Open Source E-Commerce Solutions
   http://www.oscommerce.com
 
-  Copyright (c) 2007 osCommerce
+  Copyright (c) 2004 osCommerce
 
   Released under the GNU General Public License
 */
+
+
 
 define('HEADING_TITLE', 'Pedidos');
 

@@ -10,7 +10,7 @@
   Released under the GNU General Public License
 */
 
-  define('MODULE_NEWSLETTER_NEWSLETTER_TITLE', 'Nyhetsbrev');
+define('MODULE_NEWSLETTER_NEWSLETTER_TITLE', 'Nyhetsbrev');
 
-  define('MODULE_NEWSLETTER_NEWSLETTER_TEXT_TOTAL_RECIPIENTS', 'Nyhetsbrevs mottagare: %s');
+define('MODULE_NEWSLETTER_NEWSLETTER_TEXT_TOTAL_RECIPIENTS', 'Nyhetsbrevs mottagare: %s');
 ?>
