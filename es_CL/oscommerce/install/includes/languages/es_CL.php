@@ -1,5 +1,4 @@
-﻿#
-# $Id: $
+﻿# $Id: $
 #
 # osCommerce, Open Source E-Commerce Solutions
 # http://www.oscommerce.com
@@ -11,4 +10,3 @@
 image_button_continue = Continuar
 image_button_cancel = Cancelar
 image_button_retry = Reintentar
-?>
