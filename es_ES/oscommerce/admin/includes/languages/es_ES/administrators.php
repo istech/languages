@@ -1,33 +1,35 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Administradores
 
-  Copyright (c) 2007 osCommerce
+table_heading_administrators = Administradores
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+action_heading_new_administrator = Nuevo Administrador
+action_heading_batch_edit_administrators = Editar A Los Administradores En Grupo
+action_heading_batch_delete_administrators = Borrar A Los Administradores En Grupo
 
-define('HEADING_TITLE', 'Administradores');
+field_username = Usuario:
+field_password = Contraseña:
 
-define('TABLE_HEADING_ADMINISTRATORS', 'Administradores');
-define('TABLE_HEADING_ACTION', 'Acción');
+add_to = Agregar A
+remove_from = Quitar De
+set_to = Fijar A
+global_access = Acceso Global
 
-define('TEXT_HEADING_NEW_ADMINISTRATOR', 'Nuevo Administrador');
+introduction_new_administrator = Por favor complete la información para el nuevo administrador.
 
-define('TEXT_NEW_INTRO', 'Por favor complete la información para el nuevo administrador');
-define('TEXT_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_EDIT_BATCH_INTRO', 'Por favor haga cualquer cambio necesario en los siguientes administradores:');
+introduction_edit_administrator = Por favor haga cualquer cambio necesario para este administrador.
+introduction_batch_edit_administrators = Por favor haga cualquer cambio necesario en los siguientes administradores:
 
-define('TEXT_ADMINISTRATOR_USERNAME', 'Nombre del Administrador:');
-define('TEXT_ADMINISTRATOR_PASSWORD', 'Contraseña del Administrador:');
+introduction_delete_administrator = Por favor verifice el retiro de este administrador.
+introduction_batch_delete_administrators = Por favor verifice el retiro de los siguientes administradores.
 
-define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar a este administrador?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguientes administradors?');
-
-define('TEXT_GLOBAL_ACCESS', 'Accesso Global');
-
-define('ERROR_ADMINISTRATORS_USERNAME_EXISTS', 'Error: Nombre del administrador ya existe.');
-?>
+ms_error_username_already_exists = Error: El administrador ya existe. Por favor utilize un nombre único para este administrador.
