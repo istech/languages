@@ -7,7 +7,7 @@
 #
 # Released under the GNU General Public License
 
-heading_title = Tipos de Tarjeta de Crédito
+heading_title = Tipos de Tarjetas de Crédito
 
 table_heading_name = Nombre
 table_heading_sort_order = Orden
@@ -23,11 +23,11 @@ field_sort_order = Orden:
 field_status = Estado:
 
 activate = Activar
-deactivate = Deactivar
+deactivate = Desactivar
 
 introduction_new_card = Por favor complete la información siguiente para la nueva tarjeta de crédito.
 
-introduction_edit_card = Por favor realize los cambios necesarios para esta tarjeta.
+introduction_edit_card = Por favor realize los cambios necesarios para esta tarjeta de crédito.
 introduction_batch_edit_cards = Por favor realize los cambios necesarios para estas tarjetas de crédito.
 
 introduction_delete_card = Por favor verifice el retiro de esta tarjeta de crédito.

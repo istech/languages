@@ -23,7 +23,7 @@ action_heading_batch_delete_tax_classes = Borrar a los Impuestos en Grupo
 action_heading_new_tax_rate = Nuevo Porcentaje
 action_heading_batch_delete_tax_rates = Borrar a los Porcentajes en Grupo
 
-field_title = Titulo:
+field_title = Título:
 field_description = Descripción:
 
 field_tax_rate_zone_group = Grupo de Zona:
@@ -43,8 +43,8 @@ delete_warning_tax_class_in_use = Advertencia: Este tipo de impuesto no puede se
 introduction_batch_delete_tax_classes = Por favor verifice el retiro de estos impuestos y sus entradas de porcentajes.
 batch_delete_warning_tax_class_in_use = Advertencia: Estos tipos de impuestos no pueden ser retirados actualmente mientras que esté asignado a productos.
 
-introduction_new_tax_rate = Por favor completar la información siguiente para el nuevo tipo de porcentaje:
+introduction_new_tax_rate = Por favor complete la información siguiente para el nuevo tipo de porcentaje:
 
-introduction_edit_tax_rate = Por favor realize los cambios necesarios para el siguiente entrada de porcentaje:
+introduction_edit_tax_rate = Por favor realize los cambios necesarios para la siguiente entrada de porcentaje:
 
-introduction_delete_tax_rate = Por favor verifice el retiro de este entrada de porcentaje:
+introduction_delete_tax_rate = Por favor verifice el retiro de esta entrada de porcentaje:

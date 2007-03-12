@@ -27,7 +27,7 @@ field_decimal_places = Decimales:
 field_currency_value = Valor de la Moneda:
 field_set_default = ¿Fijar como Predeterminada?
 
-service_terms_agreement = Actualizando las tasas de cambio de moneda, estás de acuerdo con los términos y condiciones del servicio seleccionado.
+service_terms_agreement = Actualizando las tasas de cambio de moneda, esta de acuerdo con los términos y condiciones del servicio seleccionado.
 
 introduction_update_exchange_rates = Por favor seleccione que servicio para actualizar las tasas de cambio de moneda.
 

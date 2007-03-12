@@ -57,6 +57,6 @@ introduction_batch_delete_languages = Por favor verifice el retiro de estos leng
 
 introduction_edit_language_definitions = Por favor realize los cambios necesarios a las definiciones siguientes de este lenguaje.
 
-introduction_new_language_definition = Por favor completar la información siguiente para la nueva definición del lenguaje.
+introduction_new_language_definition = Por favor complete la información siguiente para la nueva definición del lenguaje.
 
 introduction_delete_language_definition = Por favor seleccione las definiciones del lenguaje para borrar de la lista siguiente.

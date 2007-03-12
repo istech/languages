@@ -31,7 +31,7 @@ total_entries = %s Entradas
 all_countries = Todos los Paises
 all_zones = Todas las Zonas
 
-introduction_new_zone_group = Por favor completar la información siguiente para el nuevo grupo de la zona.  
+introduction_new_zone_group = Por favor complete la información siguiente para el nuevo grupo de la zona.  
 
 introduction_edit_zone_group = Por favor realize los cambios necesarios para esta zona del grupo.
 
@@ -41,7 +41,7 @@ delete_warning_group_in_use_tax_rate = Advertencia: Este grupo de zona no puede 
 introduction_batch_delete_zone_groups = Por favor verifice el retiro de los siguientes grupos de zona y sus entradas.
 batch_delete_warning_group_in_use_tax_rate = Advertencia: Los siguientes grupos de zona no pueden ser borrados mientras que se asigne actualmente a zonas de impuesto.
 
-introduction_new_zone_entry = Por favor completar la información para la nueva entrada del grupo de la zona.
+introduction_new_zone_entry = Por favor complete la información para la nueva entrada del grupo de la zona.
 
 introduction_edit_zone_entry = Por favor realize los cambios necesarios para esta entrada del grupo de la zona.
 

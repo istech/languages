@@ -13,8 +13,8 @@ table_heading_administrators = Administradores
 table_heading_action = Acción
 
 action_heading_new_administrator = Nuevo Administrador
-action_heading_batch_edit_administrators = Editar A Los Administradores En Grupo
-action_heading_batch_delete_administrators = Borrar A Los Administradores En Grupo
+action_heading_batch_edit_administrators = Editar a los Administradores en Grupo
+action_heading_batch_delete_administrators = Borrar a los Administradores en Grupo
 
 field_username = Usuario:
 field_password = Contraseña:
