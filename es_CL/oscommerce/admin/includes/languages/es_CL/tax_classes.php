@@ -1,47 +1,50 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Tipos de Impuestos
 
-  Copyright (c) 2007 osCommerce
+table_heading_name = Nombre
+table_heading_total_rates = Total Impuestos
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+table_heading_tax_rate_priority = Prioridad
+table_heading_tax_rate_zone = Zona
+table_heading_tax_rate = Impuesto
 
-define('HEADING_TITLE', 'Tipos de Impuestos');
+action_heading_new_tax_class = Nuevo Tipo de Impuesto
+action_heading_batch_delete_tax_classes = Borrar a los Impuestos en Grupo
 
-define('TABLE_HEADING_TAX_CLASSES', 'Tipos de Impuestos');
-define('TABLE_HEADING_TAX_RATES_TOTAL', 'Impuestos Definidos');
+action_heading_new_tax_rate = Nuevo Porcentaje
+action_heading_batch_delete_tax_rates = Borrar a los Porcentajes en Grupo
 
-define('TABLE_HEADING_TAX_RATE_PRIORITY', 'Prioridad');
-define('TABLE_HEADING_ZONE', 'Zona');
-define('TABLE_HEADING_TAX_RATE', 'Impuesto');
+field_title = Titulo:
+field_description = Descripción:
 
-define('TABLE_HEADING_ACTION', 'Acción');
+field_tax_rate_zone_group = Grupo de Zona:
+field_tax_rate = Impuesto (%):
+field_tax_rate_description = Descripción:
+field_tax_rate_priority = Prioridad:
 
-define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'Nuevo Tipo de Impuesto');
-define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'Nuevo Porcentaje');
+total_entries = %s Entradas
 
-define('TEXT_INFO_INSERT_INTRO', 'Por favor introduzca el nuevo tipo de impuesto con sus datos relacionados');
-define('TEXT_INFO_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar esta clase del impuesto?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Estas seguro que quieres borrar las siguientes clases siguientes del impuesto?');
-define('TEXT_DELETE_ENTRIES_BATCH_INTRO', '¿Estas seguro que quieres borrar las entradas siguientes de la clase del impuesto?');
+introduction_new_tax_class = Por favor completar la información siguiente para el nuevo tipo de impuesto.
 
-define('TEXT_INFO_CLASS_TITLE', 'Nombre del Impuesto:');
-define('TEXT_INFO_CLASS_DESCRIPTION', 'Descripción:');
+introduction_edit_tax_class = Por favor realize los cambios necesarios para este tipo de impuesto.
 
-define('TEXT_INFO_ZONE_NAME', 'Zona:');
-define('TEXT_INFO_TAX_RATE', 'Impuesto (%):');
-define('TEXT_INFO_TAX_RATE_PRIORITY', 'Prioridad:');
-define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Descripción:');
+introduction_delete_tax_class = Por favor verifice el retiro de este impuesto y sus entradas de porcentajes.
+delete_warning_tax_class_in_use = Advertencia: Este tipo de impuesto no puede ser retirado actualmente mientras que esté asignado a %s productos.
 
-define('TEXT_INFO_DATE_ADDED', 'Fecha Agregada:');
-define('TEXT_INFO_LAST_MODIFIED', 'Última Modificación:');
+introduction_batch_delete_tax_classes = Por favor verifice el retiro de estos impuestos y sus entradas de porcentajes.
+batch_delete_warning_tax_class_in_use = Advertencia: Estos tipos de impuestos no pueden ser retirados actualmente mientras que esté asignado a productos.
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: Este tipo de impuesto no puede ser borrado actualmente mientras que esté asignado a uno o más productos.');
-define('TEXT_INFO_BATCH_DELETE_PROHIBITED', 'Advertencia: Los classes siguientes del impuesto no pueden ser borrados mientras que se asignan actualmente a unos o más productos.');
-define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Advertencia: Este tipo de impuesto tiene %s impuestos fiscales asignados que también serían borrados.');
-?>
+introduction_new_tax_rate = Por favor completar la información siguiente para el nuevo tipo de porcentaje:
+
+introduction_edit_tax_rate = Por favor realize los cambios necesarios para el siguiente entrada de porcentaje:
+
+introduction_delete_tax_rate = Por favor verifice el retiro de este entrada de porcentaje:

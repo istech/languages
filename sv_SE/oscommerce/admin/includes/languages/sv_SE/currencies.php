@@ -1,46 +1,44 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Valutor
 
-  Copyright (c) 2007 osCommerce
+table_heading_name = Valuta
+table_heading_code = Kod
+table_heading_value = Värde
+table_heading_example = Exempel
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+action_heading_update_rates = Uppdatera Valutakursen
+action_heading_new_currency = Ny Valuta
+action_heading_batch_delete_currency = Ta Bort Valutor I Grupp
 
-define('HEADING_TITLE', 'Valutor');
+field_title = Titel:
+field_code = Kod:
+field_symbol_left = Vänster Symbol:
+field_symbol_right = Höger Symbol:
+field_decimal_places = Antal Decimaler:
+field_currency_value = Valuta Värde:
+field_set_default = Sätt som Förvald?
 
-define('TABLE_HEADING_CURRENCY_NAME', 'Valuta');
-define('TABLE_HEADING_CURRENCY_CODES', 'Kod');
-define('TABLE_HEADING_CURRENCY_VALUE', 'Värde');
-define('TABLE_HEADING_CURRENCY_EXAMPLE', 'Exempel');
-define('TABLE_HEADING_ACTION', 'Funktion');
+service_terms_agreement = Genom att uppdatera valutakursen, samtycker du med bestämmelser och villkor för den valda tjänsten.
 
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange ny valuta med relevanta data');
-define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna valuta?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande valutor?');
-define('TEXT_INFO_UPDATE_SERVICE_INTRO', 'Var vänlig och välj tjänst för updatering av valutor.');
+introduction_update_exchange_rates = Var vänlig och välj tjänst att använda vid uppdateringen av valutakursen.
 
-define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Ny Valuta');
+introduction_new_currency = Var vänlig och ange följande information till den nya valutan.
 
-define('TEXT_INFO_CURRENCY_TITLE', 'Titel:');
-define('TEXT_INFO_CURRENCY_CODE', 'Kod:');
-define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Vänstersymbol:');
-define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Högersymbol:');
-define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Antal Decimaler:');
-define('TEXT_INFO_CURRENCY_VALUE', 'Värde:');
+introduction_edit_currency = Var vänlig och gör nödvändiga ändringar till denna valutan.
 
-define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . '<br /><small>(behöver en manuell updatering av valutans värde)</small>');
-define('TEXT_INFO_SERVICE_TERMS', 'Genom att använda den valda tjänsten för valuta updatering accepterar du även tjänstens användningsvillkor.');
+introduction_delete_currency = Var vänlig och bekräfta borttagningen av denna valuta.
+introduction_delete_currency_invalid = Den förvalda valutan kan ej tas bort. Var vänlig och välj en annan valuta som förvald och försök igen.
+introduction_batch_delete_currencies = Var vänlig och bekräfta borttagning av följande valutor.
 
-define('TEXT_INFO_CURRENCY_UPDATED', 'Valutakursen för %s (%s) blev uppdaterad via %s.');
+ms_success_currency_updated = Utfört: Valutakursen för %s (%s) har blivit uppdaterad.
 
-define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Varning: Standardvalutan kan inte tas bort. Var vänlig och välj en annan valuta som standardvaluta och försök igen.');
-define('ERROR_CURRENCY_INVALID', 'Fel: Valutakursen för %s (%s) blev ej uppdaterad via %s. Är det en giltlig valutakod?');
-define('WARNING_PRIMARY_SERVER_FAILED', 'Varning: Den primära valutakursservern (%s) misslyckades för %s (%s) - försöker med den sekundära servern.');
-
-define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standardvalutan kan inte tas bort. Var vänlig och välj en annan valuta som standardvaluta och försök igen.');
-?>
+ms_error_invalid_currency = Fel: Valutakursen för %s (%s) blev ej uppdaterad. Var vänlig och bekräfta valutakoden och försök igen.

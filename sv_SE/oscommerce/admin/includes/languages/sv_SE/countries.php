@@ -1,49 +1,58 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Länder
 
-  Copyright (c) 2007 osCommerce
+table_heading_name = Land
+table_heading_code = ISO Koder
+table_heading_total_zones = Antal Zoner
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+table_heading_zone_name = Zonnamn
+table_heading_zone_code = Zonkod
 
-define('HEADING_TITLE', 'Länder');
+action_heading_new_country = Nytt Land
+action_heading_batch_delete_countries = Ta Bort Länder I Grupp
 
-define('TABLE_HEADING_COUNTRY_NAME', 'Land');
-define('TABLE_HEADING_COUNTRY_CODES', 'ISO Koder');
-define('TABLE_HEADING_ZONES_TOTAL', 'Definerade Zoner');
-define('TABLE_HEADING_ACTION', 'Funktion');
+action_heading_new_zone = Ny Zon
+action_heading_batch_delete_zones = Ta Bort Zoner I Grupp
 
-define('TABLE_HEADING_ZONE_NAME', 'Zon Namn');
-define('TABLE_HEADING_ZONE_CODE', 'Zon Kod');
+field_name = Namn:
+field_iso_code_2 = ISO Kod (2):
+field_iso_code_3 = ISO Kod (3):
+field_address_format = Adressformat:
 
-define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-define('TEXT_INFO_COUNTRY_NAME', 'Namn:');
-define('TEXT_INFO_COUNTRY_CODE_2', 'ISO Kod (2):');
-define('TEXT_INFO_COUNTRY_CODE_3', 'ISO Kod (3):');
-define('TEXT_INFO_ADDRESS_FORMAT', 'Adressformat:');
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange det nya landet med relevanta data');
-define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort detta landet?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande länder?');
-define('TEXT_DELETE_BATCH_ZONES_INTRO', 'Är du säker att du vill ta bort följande zoner?');
-define('TEXT_INFO_HEADING_NEW_COUNTRY', 'Nytt Land');
-define('TEXT_INFO_HEADING_EDIT_COUNTRY', 'Editera Land');
-define('TEXT_INFO_HEADING_DELETE_COUNTRY', 'Ta bort Land');
+field_zone_name = Namn:
+field_zone_code = Kod:
 
-define('TEXT_INFO_INSERT_ZONE_INTRO', 'Var vänlig och ange den nya zonen med relevanta data');
-define('TEXT_INFO_DELETE_ZONE_INTRO', 'Är du säker att du vill ta bort zonen?');
-define('TEXT_INFO_HEADING_NEW_ZONE', 'Ny Zon');
-define('TEXT_INFO_ZONES_NAME', 'Zon Namn:');
-define('TEXT_INFO_ZONES_CODE', 'Zon Kod:');
+total_zones = %s Zoner
 
-define('TEXT_INFO_DELETE_PROHIBITED_ADDRESS_BOOK', 'Varning: Detta land kan ej tas bort eftersom det för närvarande finns i %s adressböcker.');
-define('TEXT_INFO_DELETE_PROHIBITED_TAX_ZONES', 'Varning: Detta land kan ej tas bort eftersom det för närvarande finns i %s skattezon(er).');
-define('TEXT_INFO_BATCH_DELETE_PROHIBITED_ADDRESS_BOOK', 'Varning: Följande länder kan ej tas bort eftersom de används i adressboks poster.');
-define('TEXT_INFO_BATCH_DELETE_PROHIBITED_TAX_ZONES', 'Varning: Följande länder kan ej tas bort eftersom de för närvarande används i skatt zoner.');
-define('TEXT_INFO_BATCH_DELETE_ZONES_PROHIBITED_ADDRESS_BOOK', 'Varning: Följande zoner kan ej tas bort eftersom de för närvarande används i adressböcker.');
-define('TEXT_INFO_BATCH_DELETE_ZONES_PROHIBITED_TAX_ZONES', 'Varning: Följande zoner kan ej tas bort eftersom de används i skatt zoner.');
-define('TEXT_INFO_DELETE_COUNTRIES_WARNING', 'Varning: Detta land har %s zon(er) som också kommer att tas bort.');
-?>
+introduction_new_country = Var vänlig och ange följande information om det nya landet.
+
+introduction_edit_country = Var vänlig och gör nödvändiga ändringar till detta land.
+
+introduction_delete_country = Var vänlig och bekräfta borttagning av detta land och dess zoner.
+delete_warning_country_in_use_address_book = Varning: Detta land kan ej tas bort då det används i %s adressboksposter.
+delete_warning_country_in_use_tax_zone = Varning: Detta land kan ej tas bort då det används i %s skattezoner.
+
+introduction_batch_delete_countries = Var vänlig och bekräfta borttagning av följande länder och dess zoner.
+batch_delete_warning_country_in_use_address_book = Varning: Följande länder kan ej tas bort då de används i adressboksposter.
+batch_delete_warning_country_in_use_tax_zone = Varning: Följande länder kan ej tas bort då de används i skattezoner.
+
+introduction_new_zone = Var vänlig och ange följande information om den nya zonen.
+
+introduction_edit_zone = Var vänlig och gör nödvändiga ändringar till denna zonen.
+
+introduction_delete_zone = Var vänlig och bekräfta borttagning av denna zonen.
+delete_warning_zone_in_use_address_book = Varning: Denna zonen kan ej tas bort då den används i %s adressboksposter.
+delete_warning_zone_in_use_tax_zone = Varning: Denna zonen kan ej tas bort då den används i %s skattezoner.
+
+introduction_batch_delete_zones = Var vänlig och bekräfta barttagning av följande zoner.
+batch_delete_warning_zone_in_use_address_book = Varning: Följande zoner kan ej tas bort då de används i adressboksposter.
+batch_delete_warning_zone_in_use_tax_zone = Varning: Följande zoner kan ej tas bort då de används i skattezoner.

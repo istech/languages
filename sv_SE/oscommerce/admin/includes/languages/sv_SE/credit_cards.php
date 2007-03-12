@@ -1,35 +1,34 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Kreditkort
 
-  Copyright (c) 2007 osCommerce
+table_heading_name = Namn
+table_heading_sort_order = Sorterings Ordning
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+action_heading_new_card = Nytt Kreditkort
+action_heading_batch_edit_cards = Ändra Kreditkort I Grupp
+action_heading_batch_delete_cards = Ta Bort Kreditkort I Grupp
 
-define('HEADING_TITLE', 'Kreditkort');
+field_name = Kortnamn:
+field_pattern = Kortnummermönster (PREG):
+field_sort_order = Sorterings Ordning:
+field_status = Status:
 
-define('TABLE_HEADING_CREDIT_CARD_CODE', 'Kort Kod');
-define('TABLE_HEADING_CREDIT_CARD_NAME', 'Kort Namn');
-define('TABLE_HEADING_SORT_ORDER', 'Sorterings Ordning');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Funktion');
+activate = Aktivera
+deactivate = Avaktivera
 
-define('TEXT_HEADING_NEW_CREDIT_CARD', 'Nytt Kreditkort');
+introduction_new_card = Var vänlig och ange följande information för det nya kreditkortet.
 
-define('TEXT_CREDIT_CARD_NAME', 'Kortnamn:');
-define('TEXT_CREDIT_CARD_PATTERN', 'Kortnummermönster:');
-define('TEXT_SORT_ORDER', 'Sorterings Ordning:');
-define('TEXT_STATUS', 'Status:');
+introduction_edit_card = Var vänlig och gör nödvändiga ändringar till detta kreditkort.
+introduction_batch_edit_cards = Var vänlig och gör nödvändiga ändringar till följande kreditkort.
 
-define('TEXT_NEW_INTRO', 'Var vänlig och ange följande information för det nya kreditkortet');
-define('TEXT_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-define('TEXT_EDIT_BATCH_INTRO', 'Var vänlig gör nödvändiga ändringar till följande kreditkort:');
-define('TEXT_DELETE_INTRO', 'Är du säker på att du vill ta bort detta kreditkort?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker på att du vill ta bort följande kreditkort?');
-
-define('ERROR_CREDIT_CARD_NAME', 'Fel: Kreditkortsnamn kan ej vara tomt');
-?>
+introduction_delete_card = Var vänlig och bekräfta borttagning av följande kreditkort.
+introduction_batch_delete_cards = Var vänlig och bekräfta borttagning av följande kreditkort.

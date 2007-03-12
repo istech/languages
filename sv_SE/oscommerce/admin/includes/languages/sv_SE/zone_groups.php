@@ -1,55 +1,50 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Zongrupp
 
-  Copyright (c) 2007 osCommerce
+table_heading_name = Zongrupp
+table_heading_total_entries = Antal Poster
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+table_heading_country = Land
+table_heading_zone = Zon
 
-define('HEADING_TITLE', 'Skatt Grupper');
+action_heading_new_zone_group = Ny Zongrupp
+action_heading_batch_delete_zone_groups = Ta Bort Zongrupper I Grupp
+action_heading_new_zone_entry = Ny Zonpost
+action_heading_batch_delete_zone_entries = Ta Bort Zongruppsposter I Grupp
 
-define('TABLE_HEADING_TAX_ZONES', 'Skatt Zoner');
-define('TABLE_HEADING_TOTAL_ENTRIES', 'Poster');
-define('TABLE_HEADING_COUNTRY', 'Land');
-define('TABLE_HEADING_COUNTRY_ZONE', 'Zon');
-define('TABLE_HEADING_ACTION', 'Funktion');
+field_name = Namn:
+field_description = Beskrivning:
 
-define('TEXT_INFO_HEADING_NEW_ZONE', 'Ny Zon');
-define('TEXT_INFO_NEW_ZONE_INTRO', 'Var vänlig och ange den nya zon information');
+field_country = Land:
+field_zone = Zon:
 
-define('TEXT_INFO_HEADING_EDIT_ZONE', 'Editera Zon');
-define('TEXT_INFO_EDIT_ZONE_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+total_entries = %s Poster
+all_countries = Alla Länder
+all_zones = Alla Zoner
 
-define('TEXT_INFO_HEADING_DELETE_ZONE', 'Ta Bort Zon');
-define('TEXT_INFO_DELETE_ZONE_INTRO', 'Är du säker att du vill ta bort denna zon?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande zon grupper?');
-define('TEXT_DELETE_ENTRIES_BATCH_INTRO', 'Är du säker att du vill ta bort följande zon grupps poster?');
+introduction_new_zone_group = Var vänlig och ange följande information till den nya zongruppen.
 
-define('TEXT_INFO_HEADING_NEW_SUB_ZONE', 'Ny Underzon');
-define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'Var vänlig och ange den nya underzons informationen');
+introduction_edit_zone_group = Var vänlig och gör nödvändiga ändringar till denna zongruppen.
 
-define('TEXT_INFO_HEADING_EDIT_SUB_ZONE', 'Editera Underzon');
-define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+introduction_delete_zone_group = Var vänlig och bekräfta borttagning av denna zongrupp och dess poster.
+delete_warning_group_in_use_tax_rate = Varning: Denna zongrupp kan ej tas bort då den används i %s procentsatser.
 
-define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', 'Ta Bort Underzon');
-define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', 'Är du säker att du vill ta bort underzonen?');
+introduction_batch_delete_zone_groups = Var vänlig och bekräfta borttagning av följande zongrupper och deras poster.
+batch_delete_warning_group_in_use_tax_rate = Varning: Följande zongrupper kan ej tas bort då de används i procentsatser.
 
-define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
-define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
-define('TEXT_INFO_ZONE_NAME', 'Zon Namn:');
-define('TEXT_INFO_NUMBER_ZONES', 'Antal Zoner:');
-define('TEXT_INFO_ZONE_DESCRIPTION', 'Beskrivning:');
-define('TEXT_INFO_COUNTRY', 'Land:');
-define('TEXT_INFO_COUNTRY_ZONE', 'Zon:');
-define('TYPE_BELOW', 'Alla Zoner');
-define('PLEASE_SELECT', 'Alla Zoner');
-define('TEXT_ALL_COUNTRIES', 'Alla Länder');
+introduction_new_zone_entry = Var vänlig och ange följande information till den nya zongruppsposten.
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Denna Skatt Zonen kan ej tas bort eftersom den är länkad till en eller fler skattesatser.');
-define('TEXT_INFO_BATCH_DELETE_PROHIBITED_TAX_ZONES', 'Varning: Följande zon grupper kan ej tas bort eftersom de används i skatt zoner.');
-define('TEXT_INFO_DELETE_ZONE_WARNING', 'Varning: Denna Skatt Zonen har %s zon(er) länkade som också kommer att tas bort.');
-?>
+introduction_edit_zone_entry = Var vänlig och gör nödvändiga ändringar till denna zongruppsposten.
+
+introduction_delete_zone_entry = Var vänlig och bekräfta borttagning av följande zongruppsposter.
+
+introduction_batch_delete_zone_entries = Var vänlig och bekräfta borttagning av följande zongruppsposter.

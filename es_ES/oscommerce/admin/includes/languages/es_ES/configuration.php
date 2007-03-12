@@ -1,22 +1,16 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Configuración
 
-  Copyright (c) 2007 osCommerce
+table_heading_title = Título
+table_heading_value = Valor
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
-
-define('HEADING_TITLE', 'Configuración');
-
-define('TABLE_HEADING_CONFIGURATION_TITLE', 'Título');
-define('TABLE_HEADING_CONFIGURATION_VALUE', 'Valor');
-define('TABLE_HEADING_ACTION', 'Acción');
-
-define('TEXT_INFO_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_INFO_DATE_ADDED', 'Fecha Añadida:');
-define('TEXT_INFO_LAST_MODIFIED', 'Última Modificación:');
-?>
+introduction_edit_parameter = Por favor realize los cambios necesarios para este parámetro de la configuración.

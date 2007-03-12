@@ -1,46 +1,44 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Monedas
 
-  Copyright (c) 2007 osCommerce
+table_heading_name = Moneda
+table_heading_code = Código
+table_heading_value = Valor
+table_heading_example = Ejemplo
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+action_heading_update_rates = Tasa de Cambio de Moneda
+action_heading_new_currency = Nueva Moneda
+action_heading_batch_delete_currency = Borrar a las Monedas en Grupo
 
-define('HEADING_TITLE', 'Monedas');
+field_title = Título:
+field_code = Código:
+field_symbol_left = Símbolo Izquierda:
+field_symbol_right = Símbolo Derecha:
+field_decimal_places = Decimales:
+field_currency_value = Valor de la Moneda:
+field_set_default = ¿Fijar como Predeterminada?
 
-define('TABLE_HEADING_CURRENCY_NAME', 'Moneda');
-define('TABLE_HEADING_CURRENCY_CODES', 'Código');
-define('TABLE_HEADING_CURRENCY_VALUE', 'Valor');
-define('TABLE_HEADING_CURRENCY_EXAMPLE', 'Ejemplo');
-define('TABLE_HEADING_ACTION', 'Acción');
+service_terms_agreement = Actualizando las tasas de cambio de moneda, estás de acuerdo con los términos y condiciones del servicio seleccionado.
 
-define('TEXT_INFO_INSERT_INTRO', 'Por favor ingresar la nueva moneda y sus datos relacionados');
-define('TEXT_INFO_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar esta moneda?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar las siguientes monedas?');
-define('TEXT_INFO_UPDATE_SERVICE_INTRO', 'Por favor seleccionar el servicio para usar de la actualización de la moneda.');
+introduction_update_exchange_rates = Por favor seleccione que servicio para actualizar las tasas de cambio de moneda.
 
-define('TEXT_INFO_HEADING_NEW_CURRENCY', 'Nueva Moneda');
+introduction_new_currency = Por favor completar la información siguiente para la nueva moneda.
 
-define('TEXT_INFO_CURRENCY_TITLE', 'Título:');
-define('TEXT_INFO_CURRENCY_CODE', 'Código:');
-define('TEXT_INFO_CURRENCY_SYMBOL_LEFT', 'Símbolo Izquierda:');
-define('TEXT_INFO_CURRENCY_SYMBOL_RIGHT', 'Símbolo Derecha:');
-define('TEXT_INFO_CURRENCY_DECIMAL_PLACES', 'Decimales:');
-define('TEXT_INFO_CURRENCY_VALUE', 'Valor:');
+introduction_edit_currency = Por favor realize los cambios necesarios para esta moneda.
 
-define('TEXT_INFO_SET_AS_DEFAULT', TEXT_SET_DEFAULT . '<br /><small>(requiere una actualización manual de los valores de las monedas)</small>');
-define('TEXT_INFO_SERVICE_TERMS', 'Usando la actualización seleccionada de la moneda acepta los términos y condiciones que esto implica.');
+introduction_delete_currency = Por favor verifice el retiro de esta moneda.
+introduction_delete_currency_invalid = La moneda predeterminada no puede ser retirada. Por favor fijar otra moneda como predeterminada y inténtelo de nuevo.
+introduction_batch_delete_currencies = Por favor verifice el retiro de estas monedas.
 
-define('TEXT_INFO_CURRENCY_UPDATED', 'El cambio para %s (%s) fue actualizado con éxito vía %s.');
+ms_success_currency_updated = Éxito: La tasa de cambio para %s (%s) se ha actualizado con éxito.
 
-define('ERROR_REMOVE_DEFAULT_CURRENCY', 'Advertencia: La moneda predeterminada no puede ser quitada. Por favor elija otra moneda como la predeterminada y inténtelo de nuevo.');
-define('ERROR_CURRENCY_INVALID', 'Error: El cambio para %s (%s) no ha sido actualizado va %s. ¿Es un código válido de la moneda?');
-define('WARNING_PRIMARY_SERVER_FAILED', 'Advertencia: El servidor primario de cambio (%s) falló para %s (%s) - intente con el servidor secundario de cambio.');
-
-define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: La moneda predeterminada no puede ser quitada. Por favor elija otra moneda como la predeterminada y inténtelo de nuevo.');
-?>
+ms_error_invalid_currency = Error: La tasa de cambio para %s (%s) no ha sido actualizado. Por favor verifice el código de la moneda y inténtelo de nuevo.

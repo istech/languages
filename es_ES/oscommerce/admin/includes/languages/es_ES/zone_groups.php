@@ -1,55 +1,50 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Grupos de la Zona
 
-  Copyright (c) 2007 osCommerce
+table_heading_name = Grupos de la Zona
+table_heading_total_entries = Total Entradas
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+table_heading_country = País
+table_heading_zone = Zona
 
-define('HEADING_TITLE', 'Grupos de Zona');
+action_heading_new_zone_group = Nuevo Grupo de la Zona
+action_heading_batch_delete_zone_groups = Borrar a los Grupos de las Zonas en Grupo
+action_heading_new_zone_entry = Nueva Entrada de la Zona
+action_heading_batch_delete_zone_entries = Borrar a las Entradas del Grupo en Grupo
 
-define('TABLE_HEADING_TAX_ZONES', 'Zonas de Impuesto');
-define('TABLE_HEADING_TOTAL_ENTRIES', 'Entradas');
-define('TABLE_HEADING_COUNTRY', 'País');
-define('TABLE_HEADING_COUNTRY_ZONE', 'Zona');
-define('TABLE_HEADING_ACTION', 'Acción');
+field_name = Nombre:
+field_description = Descripción:
 
-define('TEXT_INFO_HEADING_NEW_ZONE', 'Nueva Zona');
-define('TEXT_INFO_NEW_ZONE_INTRO', 'Por favor introduzca la información de la nueva zona');
+field_country = País:  
+field_zone = Zona:  
 
-define('TEXT_INFO_HEADING_EDIT_ZONE', 'Editar Zona');
-define('TEXT_INFO_EDIT_ZONE_INTRO', 'Por favor realize cualquier cambio necesario');
+total_entries = %s Entradas  
+all_countries = Todos los Paises
+all_zones = Todas las Zonas
 
-define('TEXT_INFO_HEADING_DELETE_ZONE', 'Borrar Zona');
-define('TEXT_INFO_DELETE_ZONE_INTRO', '¿Esta seguro que quiere borrar esta zona?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar las siguientes zonas?');
-define('TEXT_DELETE_ENTRIES_BATCH_INTRO', '¿Esta seguro que quiere borrar las siguientes entradas del grupo de la zona?');
+introduction_new_zone_group = Por favor completar la información siguiente para el nuevo grupo de la zona.  
 
-define('TEXT_INFO_HEADING_NEW_SUB_ZONE', 'Nueva Subzona');
-define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'Por favor introduzca la información de la nueva subzona');
+introduction_edit_zone_group = Por favor realize los cambios necesarios para esta zona del grupo.
 
-define('TEXT_INFO_HEADING_EDIT_SUB_ZONE', 'Editar Subzona');
-define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'Por favor realice cualquier cambio necesario');
+introduction_delete_zone_group = Por favor verifice el retiro de este grupo de zona y sus entradas.
+delete_warning_group_in_use_tax_rate = Advertencia: Este grupo de zona no puede ser borrado mientras que se asigne actualmente a %s zonas de impuesto.
 
-define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', 'Borrar subzona');
-define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', '¿Esta seguro que quiere borrar esta subzona?');
+introduction_batch_delete_zone_groups = Por favor verifice el retiro de los siguientes grupos de zona y sus entradas.
+batch_delete_warning_group_in_use_tax_rate = Advertencia: Los siguientes grupos de zona no pueden ser borrados mientras que se asigne actualmente a zonas de impuesto.
 
-define('TEXT_INFO_DATE_ADDED', 'Fecha Añadida:');
-define('TEXT_INFO_LAST_MODIFIED', 'Última Modificación:');
-define('TEXT_INFO_ZONE_NAME', 'Nombre de la Zona:');
-define('TEXT_INFO_NUMBER_ZONES', 'Número de Zonas:');
-define('TEXT_INFO_ZONE_DESCRIPTION', 'Descripción:');
-define('TEXT_INFO_COUNTRY', 'País:');
-define('TEXT_INFO_COUNTRY_ZONE', 'Zona:');
-define('TYPE_BELOW', 'Todas las Zonas');
-define('PLEASE_SELECT', 'Todas las Zonas');
-define('TEXT_ALL_COUNTRIES', 'Todos los Paises');
+introduction_new_zone_entry = Por favor completar la información para la nueva entrada del grupo de la zona.
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: Esta zona del impuesto no puede ser borrada mientras que se asigne actualmente a una o más impuestos fiscales.');
-define('TEXT_INFO_BATCH_DELETE_PROHIBITED_TAX_ZONES', 'Advertencia: Los siguientes grupos de la zona no pueden ser borrados mientras que se asigne actualmente a las zonas del impuesto.');
-define('TEXT_INFO_DELETE_ZONE_WARNING', 'Advertencia: Esta zona del impuesto tiene %s zona(s) de asignación que también serían borradas.');
-?>
+introduction_edit_zone_entry = Por favor realize los cambios necesarios para esta entrada del grupo de la zona.
+
+introduction_delete_zone_entry = Por favor verifice el retiro de esta entrada del grupo de la zona.
+
+introduction_batch_delete_zone_entries = Por favor verifice el retiro de las siguientes entradas del grupo de la zona.

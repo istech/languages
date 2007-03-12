@@ -1,47 +1,52 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Skatter
 
-  Copyright (c) 2007 osCommerce
+table_heading_name = Namn
+table_heading_total_rates = Antal Procentsatser
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+table_heading_tax_rate_priority = Prioritering
+table_heading_tax_rate_zone = Zon
+table_heading_tax_rate = Procentsats
 
-define('HEADING_TITLE', 'Skatteklasser');
+action_heading_new_tax_class = Ny Skatt
+action_heading_batch_delete_tax_classes = Ta Bort Skatt I Grupp
 
-define('TABLE_HEADING_TAX_CLASSES', 'Skatteklasser');
-define('TABLE_HEADING_TAX_RATES_TOTAL', 'Bestämda Skattesatser');
+action_heading_new_tax_rate = Ny Procentsats
+action_heading_batch_delete_tax_rates = Ta Bort Procentsatser I Grupp
 
-define('TABLE_HEADING_TAX_RATE_PRIORITY', 'Prioritering');
-define('TABLE_HEADING_ZONE', 'Zon');
-define('TABLE_HEADING_TAX_RATE', 'Skattesats');
+field_title = Titel:
+field_description = Beskrivning:
 
-define('TABLE_HEADING_ACTION', 'Funktion');
+field_tax_rate_zone_group = Zongrupp:
+field_tax_rate = Procentsats (%):
+field_tax_rate_description = Beskrivning:
+field_tax_rate_priority = Prioritering:
 
-define('TEXT_INFO_HEADING_NEW_TAX_CLASS', 'Ny Skatteklass');
-define('TEXT_INFO_HEADING_NEW_TAX_RATE', 'Ny Skattesats');
+total_entries = %s Poster
 
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya skatteklassen med relevanta data');
-define('TEXT_INFO_EDIT_INTRO', 'Var vänlig gör de nödvändiga ändringarna');
-define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna skatteklass?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande skatteklasser?');
-define('TEXT_DELETE_ENTRIES_BATCH_INTRO', 'Är du säker att du vill ta bort följande skatteklass poster?');
+introduction_new_tax_class = Var vänlig och ange följande information till den nya skatten.
 
-define('TEXT_INFO_CLASS_TITLE', 'Titel på Skatteklass:');
-define('TEXT_INFO_CLASS_DESCRIPTION', 'Beskrivning:');
+introduction_edit_tax_class = Var vänlig och gör nödvändiga ändringar till följande skatt.
 
-define('TEXT_INFO_ZONE_NAME', 'Zon:');
-define('TEXT_INFO_TAX_RATE', 'Skattesats (%):');
-define('TEXT_INFO_TAX_RATE_PRIORITY', 'Prioritering:');
-define('TEXT_INFO_TAX_RATE_DESCRIPTION', 'Beskrivning:');
+introduction_delete_tax_class = Var vänlig och bekräfta borttagning av denna skatt och dess procentsatsposter.
+delete_warning_tax_class_in_use = Varning: Denna skatt kan ej tas bort då den används till %s produkter.
 
-define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
-define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
+introduction_batch_delete_tax_classes = Var vänlig och bekräfta borttagning av följande skatter och deras procentsatsposter.
+batch_delete_warning_tax_class_in_use = Varning: Följande skatter kan ej tas bort då de används till produkter.
 
-define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Denna skatteklass kan ej tas bort eftersom den för närvarande används av en eller flera produkter.');
-define('TEXT_INFO_BATCH_DELETE_PROHIBITED', 'Varning: Följande skatteklasser kan ej tas bort eftersom de används av en eller flera produkter.');
-define('TEXT_INFO_DELETE_TAX_RATES_WARNING', 'Varning: Denna skatteklass har %s tilldelade skattesatser som också kommer att tas bort.');
-?>
+introduction_new_tax_rate = Var vänlig och ange följande information till den nya procentsatsposten:
+
+introduction_edit_tax_rate = Var vänlig och gör nödvängiga ändringar till följande procentsatsposter:
+
+introduction_delete_tax_rate = Var vänlig och bekräfta borttagning av denna procentsatsposten:
+
+introduction_batch_delete_tax_rates = Var vänlig och bekräfta borttagning av följande procentsatsposter:

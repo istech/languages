@@ -1,35 +1,34 @@
-﻿<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Tipos de Tarjeta de Crédito
 
-  Copyright (c) 2007 osCommerce
+table_heading_name = Nombre
+table_heading_sort_order = Orden
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+action_heading_new_card = Nueva Tarjeta de Crédito
+action_heading_batch_edit_cards = Editar a las Tarjetas de Crédito en Grupo
+action_heading_batch_delete_cards = Borrar a las Tarjetas de Crédito en Grupo
 
-define('HEADING_TITLE', 'Tipo de Tarjetas de Crédito');
+field_name = Nombre de la Tarjeta:
+field_pattern = Patrón del Número de Tarjeta (PREG):
+field_sort_order = Orden:
+field_status = Estado:
 
-define('TABLE_HEADING_CREDIT_CARD_CODE', 'Código de la Tarjeta');
-define('TABLE_HEADING_CREDIT_CARD_NAME', 'Nombre de la Tarjeta');
-define('TABLE_HEADING_SORT_ORDER', 'Orden');
-define('TABLE_HEADING_STATUS', 'Estado');
-define('TABLE_HEADING_ACTION', 'Acción');
+activate = Activar
+deactivate = Deactivar
 
-define('TEXT_HEADING_NEW_CREDIT_CARD', 'Nueva Tarjeta de crédito');
+introduction_new_card = Por favor complete la información siguiente para la nueva tarjeta de crédito.
 
-define('TEXT_CREDIT_CARD_NAME', 'Nombre de la Tarjeta:');
-define('TEXT_CREDIT_CARD_PATTERN', 'Patrón del Número de Tarjeta:');
-define('TEXT_SORT_ORDER', 'Orden:');
-define('TEXT_STATUS', 'Estado:');
+introduction_edit_card = Por favor realize los cambios necesarios para esta tarjeta.
+introduction_batch_edit_cards = Por favor realize los cambios necesarios para estas tarjetas de crédito.
 
-define('TEXT_NEW_INTRO', 'Por favor complete la información siguiente para la nueva tarjeta de crédito');
-define('TEXT_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_EDIT_BATCH_INTRO', 'Por favor realize cualquier cambio necesario a las siguientes tarjetas de crédito:');
-define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar esta tarjeta de crédito?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar las siguientes tarjetas de crédito?');
-
-define('ERROR_CREDIT_CARD_NAME', 'Error: El nombre de la Tarjeta de Crédito no puede estar en blanco');
-?>
+introduction_delete_card = Por favor verifice el retiro de esta tarjeta de crédito.
+introduction_batch_delete_cards = Por favor verifice el retiro de las siguientes tarjetas de crédito.
