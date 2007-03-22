@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
   $Id: newsletters.php 1367 2007-03-05 22:44:16Z hpdl $
 

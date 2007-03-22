@@ -1,4 +1,4 @@
-﻿#
+#
 # $Id: $
 #
 # osCommerce, Open Source E-Commerce Solutions

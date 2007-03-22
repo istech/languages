@@ -10,5 +10,5 @@
   Released under the GNU General Public License
 */
 
-define('ACCESS_ADMINISTRATORS_LOG_TITLE', 'Administratores Log');
+define('ACCESS_ADMINISTRATORS_LOG_TITLE', 'Administradores Log');
 ?>
