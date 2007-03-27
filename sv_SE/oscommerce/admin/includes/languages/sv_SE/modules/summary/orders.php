@@ -1,19 +1,14 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-  define('MODULE_SUMMARY_ORDERS_TITLE', 'Senaste Ordrar');
-
-  define('MODULE_SUMMARY_ORDERS_HEADING_ORDERS', 'Ordrar');
-  define('MODULE_SUMMARY_ORDERS_HEADING_TOTAL', 'Total');
-  define('MODULE_SUMMARY_ORDERS_HEADING_DATE', 'Datum');
-  define('MODULE_SUMMARY_ORDERS_HEADING_STATUS', 'Status');
-?>
+summary_orders_title = Ordrar
+summary_orders_table_heading_orders = Ordrar
+summary_orders_table_heading_total = Total
+summary_orders_table_heading_date = Datum
+summary_orders_table_heading_status = Status

@@ -1,19 +1,15 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Statistik
 
-  Copyright (c) 2007 osCommerce
+table_heading_modules = Moduler
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
-
-define('HEADING_TITLE', 'Statistik');
-
-define('TABLE_HEADING_MODULES', 'Moduler');
-define('TABLE_HEADING_ACTION', 'Funktion');
-
-define('TEXT_MODULE_DIRECTORY', 'Modul Mapp:');
-?>
+modules_location = Modul Katalog:

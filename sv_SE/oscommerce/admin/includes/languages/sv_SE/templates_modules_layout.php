@@ -1,41 +1,39 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title_boxes = Mall Modul Design: Boxar
+heading_title_content = Mall Modul Design: Innehåll
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_template_layout_module = Ny Mall Design Modul
+action_heading_batch_delete_template_layout_modules = Ta Bort Mall Design Moduler I Grupp
 
-  Released under the GNU General Public License
-*/
+table_heading_modules = Moduler
+table_heading_pages = Sidor
+table_heading_page_specific = Sid Specifik
+table_heading_group = Grupp
+table_heading_sort_order = Sorteringsordning
+table_heading_action = Funktion
 
-define('HEADING_TITLE_BOXES_LAYOUT', 'Mall Box Design');
-define('HEADING_TITLE_CONTENT_LAYOUT', 'Mall Innehålls Design');
+field_module = Modul:
+field_modules = Moduler:
+field_pages = Sidor:
+field_page_specific = Sid Specifik?
+field_group = Grupp
+field_group_new = Ny Grupp:
+field_sort_order = Sorteringsordning
 
-define('TABLE_HEADING_BOXES', 'Boxar');
-define('TABLE_HEADING_TEMPLATES', 'Mallar');
-define('TABLE_HEADING_PAGES', 'Sidoinnehåll');
-define('TABLE_HEADING_PAGE_SPECIFIC', 'Sidospecifik');
-define('TABLE_HEADING_GROUP', 'Grupp');
-define('TABLE_HEADING_SORT_ORDER', 'Sorterings Ordning');
-define('TABLE_HEADING_ACTION', 'Funktion');
+please_select = -- Var Vänlig Välj --
 
-define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'Ny Box Design');
+introduction_new_template_layout_module = Var vänlig och ange följande information för den nya mall design modulen.
 
-define('TEXT_INFO_BOXES', 'Boxar:');
-define('TEXT_INFO_PAGES', 'Sidoinnehåll:');
-define('TEXT_INFO_PAGE_SPECIFIC', 'Sidospecifik');
-define('TEXT_INFO_GROUP', 'Grupp:');
-define('TEXT_INFO_GROUP_NEW', 'Ny Grupp:');
-define('TEXT_INFO_SORT_ORDER', 'Sorterings Ordning:');
+introduction_edit_template_layout_module = Var vänlig och gör nödvändiga ändringar för denna mall design modulen.
 
-define('TEXT_PLEASE_SELECT', '--Var Vänlig Välj--');
+introduction_delete_template_layout_module = Var vänlig och bekräfta borttagning av denna mall design modulen.
 
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya boxdesignen med relevanta data');
-define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna boxdesign från mallen?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker du vill ta bort följande box design från mallen?');
-
-define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Varning: Standardmallen kan ej tas bort. Var vänlig välj en annan mall som standardmall och försök igen.');
-?>
+introduction_batch_delete_template_layout_modules = Var vänlig och bekräfta borttagning av följande mall design moduler.

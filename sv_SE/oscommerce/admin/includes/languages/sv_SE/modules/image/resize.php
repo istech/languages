@@ -1,20 +1,14 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('MODULE_IMAGE_RESIZE', 'Omforma Bilder');
-
-define('MODULE_IMAGE_RESIZE_GROUPS', 'Grupper');
-define('MODULE_IMAGE_RESIZE_NUMBER_OF_IMAGES', 'Antal Omformade Bilder');
-
-define('MODULE_IMAGE_RESIZE_PROCESS_GROUPS', 'Grupper');
-define('MODULE_IMAGE_RESIZE_OVERWRITE_IMAGES', 'Ersätt Existerande Bilder');
-?>
+images_resize_title = Omforma Bilder
+images_resize_table_heading_groups = Grupper
+images_resize_table_heading_total_resized = Antal Omformade Bilder
+images_resize_field_groups = Grupper:
+images_resize_field_overwrite_images = Ersätt Existerande Bilder?

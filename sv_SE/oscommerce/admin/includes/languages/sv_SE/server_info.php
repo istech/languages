@@ -1,28 +1,23 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Server Information
 
-  Copyright (c) 2007 osCommerce
+field_server_host = Server Host:
+field_server_operating_system = Server OS:
+field_server_date = Server Datum:
+field_server_up_time = Server Up Tid:
+field_http_server = HTTP Server:
+field_php_version = PHP Version:
+field_database_host = Databas Host:
+field_database_version = Databas:
+field_database_date = Databas Datum:
+field_database_up_time = Databas Up Tid:
 
-  Released under the GNU General Public License
-*/
-
-define('HEADING_TITLE', 'Server Information');
-
-define('TITLE_SERVER_HOST', 'Server Host:');
-define('TITLE_SERVER_OS', 'Server OS:');
-define('TITLE_SERVER_DATE', 'Serverens Datum:');
-define('TITLE_SERVER_UP_TIME', 'Serverns Onlinetid:');
-define('TITLE_HTTP_SERVER', 'HTTP Server:');
-define('TITLE_PHP_VERSION', 'PHP Version:');
-define('TITLE_ZEND_VERSION', 'Zend:');
-define('TITLE_DATABASE_HOST', 'Databasens Host:');
-define('TITLE_DATABASE', 'Databas:');
-define('TITLE_DATABASE_DATE', 'Datebasens Datum:');
-define('TITLE_DATABASE_UP_TIME', 'Databasens Onlinetid:');
-
-define('TEXT_MORE_INFORMATION', 'mer info');
-?>
+more_information = mer info

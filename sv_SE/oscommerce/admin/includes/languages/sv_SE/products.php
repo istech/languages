@@ -1,81 +1,92 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Produkter
+heading_title_new_product = Ny Produkt
 
-  Copyright (c) 2007 osCommerce
+operation_title_search = Sök:
 
-  Released under the GNU General Public License
-*/
+table_heading_products = Produkter
+table_heading_price = Pris
+table_heading_quantity = Kvantitet
+table_heading_action = Funktion
+table_heading_categories = Kategorier
 
-define('HEADING_TITLE', 'Produkter');
-define('HEADING_TITLE_SEARCH', 'Sök:');
-define('HEADING_TITLE_GOTO', 'Gå Till:');
+action_heading_delete_image = Ta Bort Bild
+action_heading_batch_copy_products = Kopiera Produkter I Grupp
+action_heading_batch_delete_products = Ta Bort Produkter I Grupp
 
-define('TAB_GENERAL', 'Allmänt');
-define('TAB_DATA', 'Data');
-define('TAB_IMAGES', 'Bild');
-define('TAB_ATTRIBUTES', 'Attribut');
-define('TAB_CATEGORIES', 'Kategori');
+section_general = Allmänt
+section_data = Data
+section_images = Bilder
+section_attributes = Attribut
+section_categories = Kategorier
 
-define('FIELDSET_ASSIGNED_ATTRIBUTES', 'Tilldelade Attribut');
+subsection_price = Pris
+subsection_data = Data
+subsection_status = Status
+subsection_information = Information
+subsection_new_image = Ny Bild
+subsection_original_images = Original Bilder
+subsection_images = Bilder
+subsection_assigned_attributes = Länkade Attribut
 
-define('TABLE_HEADING_PRODUCTS', 'Produkter');
-define('TABLE_HEADING_PRICE', 'Pris');
-define('TABLE_HEADING_QUANTITY', 'Antal');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Funktion');
+field_name = Namn:
+field_description = Beskrivning:
+field_model = Modell:
+field_keyword = Nyckelord:
+field_tags = Tags:
+field_url = URL:
+field_tax_class = Skatt:
+field_price_net = Netto Pris:
+field_price_gross = Brutto Pris:
+field_manufacturer = Tillverkare:
+field_quantity = Kvantitet:
+field_weight = Vikt:
+field_date_available = Tillgänglighets Datum:
 
-define('TEXT_NEW_PRODUCT', 'Ny Produkt');
-define('TEXT_CATEGORIES', 'Kategori:');
+field_current_categories = Nuvarande Kategorier:
+field_categories = Kategorier:
+field_copy_method = Kopierings Metod:
 
-define('TEXT_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+none = -- Ingen --
+top_category = -- Top Kategori --
+more_product_information = För mer information var vänlig och besök denna produkts <a href="http://%s" target="_blank">website</a>.
+product_date_added = Denna produkt blev tillagd i vår katalog den %s.
+product_date_available = Denna produkt kommer att vara tillgänglig för beställning den %s.
+status_enabled = Aktiverad
+status_disabled = Avaktiverad
+image_remote_upload = Remote File Upload  
+image_local_files = Lokala Filer
+image_upload_progress = Skickar upp bild till server..
+image_retrieving_local_files = Hämtar lokala bilder..
+image_multiple_upload_progress = Skickar upp bilder till server..
+images_loading_from_server = Hämtar bilder från server..
+copy_method_link = Länka Produkt
+copy_method_duplicate = Duplicera Produkt
 
-define('TEXT_INFO_COPY_TO_INTRO', 'Var vänlig och välj en ny kategori som du vill kopiera denna produkt till');
-define('TEXT_INFO_COPY_TO_BATCH_INTRO', 'Var vänlig och välj en ny kategori som du vill kopiera dessa produkter till');
-define('TEXT_INFO_CURRENT_CATEGORIES', 'Nuvarande Kategori:');
+introduction_select_local_images = Följande bilder finns tillgängliga på servern dit fler bilder kan skickas upp via FTP. Listan kan uppdateras genom att klicka på Lokala Filer länken.<br /><br />Var vänlig och välj från följande lista vilken bild som ska användas till denna produkt.
 
-define('TEXT_DELETE_PRODUCT_INTRO', 'Är du säker att du vill ta bort denna produkt permanent?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort dessa produkter permanent?');
+introduction_delete_image = Var vänlig och bekräfta borttagning av produkt bilden.
 
-define('TEXT_MOVE_PRODUCTS_INTRO', 'Var vänlig och välj vilken kategori som du vill lägga <b>%s</b> i');
-define('TEXT_MOVE', 'Flytta <b>%s</b> till:');
+introduction_copy_product = Var vänlig och välj en kategori denna produkt ska bli kopierad till.
 
-define('TEXT_PRODUCTS_STATUS', 'Produkt Status:');
-define('TEXT_PRODUCTS_DATE_AVAILABLE', 'Tillgänglig Den:');
-define('TEXT_PRODUCT_AVAILABLE', 'I Lager');
-define('TEXT_PRODUCT_NOT_AVAILABLE', 'Slut');
-define('TEXT_PRODUCTS_MANUFACTURER', 'Produktens Tillverkare:');
-define('TEXT_PRODUCTS_NAME', 'Produkt Namn:');
-define('TEXT_PRODUCTS_DESCRIPTION', 'Produktens Beskrivning:');
-define('TEXT_PRODUCTS_QUANTITY', 'Produktens Kvantitet:');
-define('TEXT_PRODUCTS_MODEL', 'Produkt Modell:');
-define('TEXT_PRODUCTS_KEYWORD', 'Produktens Nyckelord:');
-define('TEXT_PRODUCTS_TAGS', 'Produktens Flaggor:');
-define('TEXT_PRODUCTS_IMAGE', 'Produktens Bild:');
-define('TEXT_PRODUCTS_URL', 'Produktens URL:');
-define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(utan http://)</small>');
-define('TEXT_PRODUCTS_TAX_CLASS', 'Skatteklass:');
-define('TEXT_PRODUCTS_PRICE_NET', 'Produktens Pris (Netto):');
-define('TEXT_PRODUCTS_PRICE_GROSS', 'Produktens Pris (Brutto):');
-define('TEXT_PRODUCTS_WEIGHT', 'Produktens Vikt:');
+introduction_delete_product = Var vänlig och bekräfta borttagning av denna produkt.
 
-define('TEXT_PRODUCT_DATE_ADDED', 'Denna produkt blev tillagd i vår katalog den %s.');
-define('TEXT_PRODUCT_DATE_AVAILABLE', 'Denna produkt kommer att finnas i lager den %s.');
-define('TEXT_PRODUCT_MORE_INFORMATION', 'För mer information, var vänlig och besök produktens <a href="http://%s" target="blank"><u>websida</u></a>.');
+introduction_batch_copy_products = Var vänlig och välj en kategori följande produkter ska bli kopierade till.
 
-define('TEXT_HOW_TO_COPY', 'Kopierings Metod:');
-define('TEXT_COPY_AS_LINK', 'Länka produkten');
-define('TEXT_COPY_AS_DUPLICATE', 'Duplicera produkten');
+introduction_batch_delete_products = Var vänlig och bekräfta borttagning av följande produkter.
 
-define('WARNING_PRODUCT_KEY_IN_USE', 'Varning: Detta produkt nyckelord används redan: %s. Var vänlig och ange ett unikt nyckelord för denna produkt.');
-define('WARNING_PRODUCT_KEY_EMPTY', 'Varning: Denna produkt saknar ett produkt nyckelord som måste definieras. Var vänlig och använd ett unikt nyckelord för att identifiera denna produkt.');
-define('WARNING_PRODUCT_KEY_INVALID', 'Varning: Detta produkt nyckelord är ogiltligt: %s. Produkt nyckelord får bara innehålla bokstäver och siffror (a-zA-Z0-9), och kan separeras med understreck (_) och minus tecken (-).');
+ms_warning_image_processor_not_available = Varning: Det finns ingen tillgänglig bild behandlare. Var vänlig och installera och kontrollera sökvägen till ImageMagicks "convert" program i Konfiguration -> Konfiguration -> Programplatser.
 
-define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Fel: Kan ej länka produkt i samma katalog.');
-define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fel: Katalogbildsmappen är skrivskyddad: ' . realpath('../images'));
-define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fel: Katalogbildsmappen existerar ej: ' . realpath('../images'));
-define('ERROR_IMAGE_PROCESSOR_NOT_AVAILABLE', 'Fel: Kan ej bearbeta produktbilder eftersom ImageMagicks "konverterings" program ej är tillgängligt. Detta kan definieras i Konfiguration -> Program Platser.');
-?>
+ms_error_image_directory_not_writable = Fel: Bildkatalogen för produkter är skrivskyddad: %s
+ms_error_image_directory_non_existant = Fel: Bildkatalogen för produkter existerar ej: %s
+ms_error_product_keyword_empty = Fel: Denna produkt har ingen produktnyckel vilket måste definieras. Var vänlig och använd ett unikt nyckelord för att identifiera denna produkt.
+ms_error_product_keyword_exists = Fel: Detta produkt nyckelord används redan: %s. Var vänlig och använd ett annat unikt nyckelord till denna produkt.
+ms_error_product_keyword_invalid = Fel: Detta produkt nyckelord är ogiltligt: %s. Produkt nyckelord måste vara ett ord sammansatt av bokstäver och siffror (a-zA-Z0-9), och kan endast bli separerade av understreck (_) och minus tecken (-).

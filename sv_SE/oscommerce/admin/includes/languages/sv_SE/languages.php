@@ -32,7 +32,7 @@ field_time_format = Tidsformat:
 field_currency = Standard Valuta:
 field_currency_separator_decimal = Numerisk Decimalavskiljare
 field_currency_separator_thousands = Numerisk Tusendelsavskiljare
-field_sort_order = Sorterings Ordning:
+field_sort_order = Sorteringsordning:
 field_set_default = Sätt som Förvald?
 
 field_language_selection = Välj Språk
@@ -46,23 +46,23 @@ field_definition_group = Grupp:
 field_definition_new_group = Ny Grupp:
 
 only_add_new_records = Lägg Endast Till Nya Poster
-only_update_existing_records = Uppdatera Endast Existerande Poster  
+only_update_existing_records = Uppdatera Endast Existerande Poster
 replace_all = Ersätt Alla
 select_all = Välj Alla
 select_none = Välj Ingen
 
-introduction_edit_language = Var vänlig och gör nödvändiga ändringar till det valda språket.  
+introduction_edit_language = Var vänlig och gör nödvändiga ändringar till det valda språket.
 
-introduction_import_language = Var vänlig och välj språk att importera från följande lista.  
+introduction_import_language = Var vänlig och välj språk att importera från följande lista.
 
-introduction_export_language = Var vänlig och välj vilken grupp att exportera från det valda språket.  
+introduction_export_language = Var vänlig och välj vilken grupp att exportera från det valda språket.
 
-introduction_delete_language = Var vänlig och bekräfta borttagning av detta språk.  
+introduction_delete_language = Var vänlig och bekräfta borttagning av detta språk.
 introduction_delete_language_invalid = Det förvalda språket kan inte tas bort. Var vänlig och sätt ett annat språk som förvalt språk och försök igen.
-introduction_batch_delete_languages = Var vänlig och bekräfta borttagning av följande språk.  
+introduction_batch_delete_languages = Var vänlig och bekräfta borttagning av följande språk.
 
-introduction_edit_language_definitions = Var vänlig och gör nödvändiga ändringar till följande språkdefinitioner.  
+introduction_edit_language_definitions = Var vänlig och gör nödvändiga ändringar till följande språkdefinitioner.
 
-introduction_new_language_definition = Var vänlig och ange följande information till den nya språkdefinitionen.  
+introduction_new_language_definition = Var vänlig och ange följande information till den nya språkdefinitionen.
 
-introduction_delete_language_definition = Var vänlig och välj språkdefinitioner att ta bort från följande lista. 
+introduction_delete_language_definition = Var vänlig och välj språkdefinitioner att ta bort från följande lista.

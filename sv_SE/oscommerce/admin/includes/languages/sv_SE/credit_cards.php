@@ -19,7 +19,7 @@ action_heading_batch_delete_cards = Ta Bort Kreditkort I Grupp
 
 field_name = Kortnamn:
 field_pattern = Kortnummermönster (PREG):
-field_sort_order = Sorterings Ordning:
+field_sort_order = Sorteringsordning:
 field_status = Status:
 
 activate = Aktivera

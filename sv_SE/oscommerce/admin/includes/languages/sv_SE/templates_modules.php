@@ -1,23 +1,23 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title_boxes = Mall Moduler: Boxar
+heading_title_content = Mall Moduler: Innehåll
 
-  Copyright (c) 2007 osCommerce
+table_heading_modules = Moduler
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+field_title = Titel:
+field_author = Upphovsrättsinnehavare:
 
-define('HEADING_TITLE_MODULES_BOXES', 'Boxar');
-define('HEADING_TITLE_MODULES_CONTENT', 'Innehålls Moduler');
+modules_location = Modul Katalog:
 
-define('TABLE_HEADING_MODULES', 'Boxar');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Funktion');
+introduction_edit_module = Var vänlig och gör nödvändiga ändringar för denna modulen.
 
-define('TEXT_DIRECTORY', 'Mapp:');
-
-define('INFO_UNINSTALL_INTRO', 'Är du säker att du vill avinstallera denna modul?<br /><br />(Alla modulparametrar kommer att förloras)');
-?>
+introduction_uninstall_module = Var vänlig och bekräfta avinstallationen av denna modulen.

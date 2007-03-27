@@ -1,18 +1,12 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TITLE', 'Bäst Säljande Produkter');
-
-define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TABLE_HEADING_NUMBER', 'Nr.');
-define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TABLE_HEADING_PRODUCTS', 'Produkter');
-define('MODULE_STATISTICS_PRODUCTS_PURCHASED_TABLE_HEADING_PURCHASED', 'Köpt');
-?>
+statistics_products_purchased_title = Bäst Säljande Produkter
+statistics_products_purchased_table_heading_products = Produkter
+statistics_products_purchased_table_heading_total = Total

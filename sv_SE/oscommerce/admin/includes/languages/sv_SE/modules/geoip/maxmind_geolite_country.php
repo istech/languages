@@ -1,15 +1,11 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('MODULE_GEOIP_MAXMIND_GEOLITE_COUNTRY_TITLE', 'MaxMind GeoLite Land');
-define('MODULE_GEOIP_MAXMIND_GEOLITE_COUNTRY_DESCRIPTION', 'http://www.maxmind.com');
-?>
+geoip_maxmind_geolite_country_title = MaxMind GeoLite Land
+geoip_maxmind_geolite_country_description = http://www.maxmind.com

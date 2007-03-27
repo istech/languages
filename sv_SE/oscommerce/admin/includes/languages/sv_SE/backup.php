@@ -1,50 +1,42 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Säkerhetskopierings Hanteraren
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_backup = Ny Databas Säkerhetskopia
+action_heading_restore_local_file = Återställ Från Lokal Säkerhetskopia
+action_heading_batch_delete_backup_files = Ta Bort Säkerhetskopior I Grupp  
 
-  Released under the GNU General Public License
-*/
+table_heading_backups = Säkerhetskopior
+table_heading_date = Datum
+table_heading_file_size = Fil Storlek
+table_heading_action = Funktion
 
-define('HEADING_TITLE', 'Säkerhetskopierings Hanteraren');
+field_compression_none = Ingen Kompremering
+field_compression_gzip = GZIP Komprimering
+field_compression_zip = ZIP Komprimering
+field_download_only = Ladda Ner Utan Att Spara
 
-define('TABLE_HEADING_TITLE', 'Titel');
-define('TABLE_HEADING_FILE_DATE', 'Datum');
-define('TABLE_HEADING_FILE_SIZE', 'Storlek');
-define('TABLE_HEADING_ACTION', 'Funktion');
+backup_location = Katalog för Säkerhetskopior:
+last_restoration_date = Senaste Återställnings Datum:
+forget_restoration_date = Glöm Återställnings Datum
 
-define('TEXT_INFO_HEADING_NEW_BACKUP', 'Ny Säkerhetskopia');
-define('TEXT_INFO_HEADING_RESTORE_LOCAL', 'Återställ Lokal');
-define('TEXT_INFO_NEW_BACKUP', 'Avbryt ej säkerhetskopieringen vilket kan ta ett par minuter.');
-define('TEXT_INFO_UNPACK', '<br /><br />(efter uppackning av fil från arkivet)');
-define('TEXT_INFO_RESTORE', 'Avbryt ej återställandet.<br /><br />Större säkerhetskopia innebär längre processtid!<br /><br />Om möjligt, använd mysql klienten.<br /><br />Till exampel:<br /><br /><b>mysql -h' . DB_SERVER . ' -u' . DB_SERVER_USERNAME . ' -p ' . DB_DATABASE . ' < %s </b> %s');
-define('TEXT_INFO_RESTORE_LOCAL', 'Avbryt ej återställningsprocessen.<br /><br />Större säkerhetskopia innebär längre processtid!');
-define('TEXT_INFO_RESTORE_LOCAL_RAW_FILE', 'Den uppladdade filen måste vara en rå sql (text) fil.');
-define('TEXT_INFO_DATE', 'Datum:');
-define('TEXT_INFO_SIZE', 'Storlek:');
-define('TEXT_INFO_COMPRESSION', 'Komprimering:');
-define('TEXT_INFO_USE_GZIP', 'Använd GZIP');
-define('TEXT_INFO_USE_ZIP', 'Använd ZIP');
-define('TEXT_INFO_USE_NO_COMPRESSION', 'Ingen Komprimering (Ren SQL)');
-define('TEXT_INFO_DOWNLOAD_ONLY', 'Endast nedladdning (spara ej på serversidan)');
-define('TEXT_INFO_BEST_THROUGH_HTTPS', 'Bäst genom en HTTPS anslutning');
-define('TEXT_DELETE_INTRO', 'Är du säker på att du vill ta bort säkerhetskopian?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker på att du vill ta bort följande säkerhetskopior?');
-define('TEXT_NO_EXTENSION', 'Ingen');
-define('TEXT_BACKUP_DIRECTORY', 'Mapp för Säkerhetskopia:');
-define('TEXT_LAST_RESTORATION', 'Sista Återställning:');
-define('TEXT_FORGET', '(<u>glöm</u>)');
+introduction_new_backup = Var vänlig och ange följande information för den nya databas säkerhetskopian.
 
-define('ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST', 'Fel: Mappen för säkerhetskopior existerar ej. Var vänlig och ändra detta i configure.php.');
-define('ERROR_BACKUP_DIRECTORY_NOT_WRITEABLE', 'Fel: Mappen för säkerhetskopior är skrivskyddad.');
-define('ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE', 'Fel: Länk för nedladdning oacceptabel.');
+introduction_restore_file = Var vänlig och bekräfta återställningen av följande databas säkerhetskopia.
 
-define('SUCCESS_LAST_RESTORE_CLEARED', 'Utfört: Datum för den senaste återställningen rensat.');
-define('SUCCESS_DATABASE_SAVED', 'Utfört: Databasen har sparats.');
-define('SUCCESS_DATABASE_RESTORED', 'Utfört: Databasen har återställts.');
-define('SUCCESS_BACKUP_DELETED', 'Utfört: Säkerhetskopian har tagits bort.');
-?>
+introduction_restore_local_file = Var vänlig och bekräfta databas säkerhetskopia att återställa ifrån.
+
+introduction_delete_backup_file = Var vänlig och bekräfta borttagning av denna databas säkerhetskopia.
+
+introduction_batch_delete_backup_files = Var vänlig och bekräfta borttagning av följande databas säkerhetskopia.
+
+ms_error_backup_directory_not_writable = Fel: Katalogen för databas säkerhetskopior är skrivskyddad: %s
+ms_error_backup_directory_non_existant = Fel: Katalogen för databas säkerhetskopior existerar ej: %s
+ms_error_download_link_not_acceptable = Fel: Länken för att ladda ner är ej giltligt.

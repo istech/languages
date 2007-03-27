@@ -1,39 +1,52 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Fil Hanteraren
 
-  Copyright (c) 2007 osCommerce
+action_heading_upload_file = Skicka Upp Fil
+action_heading_new_file = Ny Fil
+action_heading_edit_file = Editera Fil
+action_heading_new_directory = Ny Katalog
+action_heading_delete_entry = Ta Bort Post
 
-  Released under the GNU General Public License
-*/
+operation_heading_directory = Katalog:
 
-define('HEADING_TITLE', 'Fil Hanteraren');
+table_heading_files = Filer
+table_heading_size = Storlek
+table_heading_permissions = Åtkomster
+table_heading_user = Användare
+table_heading_group = Grupp
+table_heading_writable = Skrivbar
+table_heading_date_last_modified = Senast Ändrad
+table_heading_action = Funktion
 
-define('TABLE_HEADING_FILENAME', 'Namn');
-define('TABLE_HEADING_SIZE', 'Storlek');
-define('TABLE_HEADING_PERMISSIONS', 'Åtkomster');
-define('TABLE_HEADING_USER', 'Användare');
-define('TABLE_HEADING_GROUP', 'Grupp');
-define('TABLE_HEADING_WRITEABLE', 'Skrivbar');
-define('TABLE_HEADING_LAST_MODIFIED', 'Senast Ändrad');
-define('TABLE_HEADING_ACTION', 'Funktion');
+field_file = Fil:
+field_file_name = Fil Namn:
+field_file_contents = Fil Innehåll:
+field_directory_name = Katalog Namn:
 
-define('TEXT_INFO_HEADING_UPLOAD', 'Uppladdning');
-define('TEXT_FILE_NAME', 'Filnamn:');
-define('TEXT_FILE_SIZE', 'Storlek:');
-define('TEXT_FILE_CONTENTS', 'Innehåll:');
-define('TEXT_LAST_MODIFIED', 'Senast Ändrad:');
-define('TEXT_NEW_FOLDER', 'Ny Mapp');
-define('TEXT_NEW_FOLDER_INTRO', 'Skriv in namnet på den nya mappen:');
-define('TEXT_DELETE_INTRO', 'Är du säker på att du vill ta bort denna fil?');
-define('TEXT_UPLOAD_INTRO', 'Var vänlig och välj fil att ladda upp.');
+top_level = -- Top --
+parent_level = -- Förälder --
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Fel: Jag kan inte skriva till denna mapp. Var vänlig och ändra användarrättigheterna vid: %s');
-define('ERROR_FILE_NOT_WRITEABLE', 'Fel: Jag kan inte skriva till denna fil. Var vänlig och ändra användarrättigheterna vid: %s');
-define('ERROR_DIRECTORY_NOT_REMOVEABLE', 'Fel: Jag kan inte ta bort denna mapp. Var vänlig och ändra användarrättigheterna vid: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Fel: Mappen existerar inte: %s');
-define('ERROR_DIRECTORY_EXISTS', 'Fel: Mappen existerar redan: %s');
-?>
+introduction_upload_file = Var vänlig och välj filer att skicka upp till denna katalog.
+upload_error_directory_not_writable = Fel: Filer kan ej skickas upp till denna katalog då katalogen är skrivskyddad: %s
+
+introduction_new_file = Var vänlig och ange följande information för den nya filen.
+
+introduction_edit_file = Var vänlig och gör nödvändiga ändringar för denna filen.
+
+introduction_new_directory = Var vänlig och ange följande information för den nya katalogen.
+new_directory_error_not_writable = Fel: Katalogen är skrivskyddad: %s
+
+introduction_delete_entry = Var vänlig och bekräfta borttagning av denna post.
+delete_error_not_writable = Fel: Denna post är skrivskyddad och kan ej tas bort: %s
+
+ms_error_directory_not_writable = Fel: Denna katalog är skrivskyddad: %s
+ms_error_file_not_writable = Fel: Denna fil är skrivskyddad: %s
+ms_error_download_link_invalid = Fel: Denna fil kan ej laddas ner.

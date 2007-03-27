@@ -1,21 +1,19 @@
-<?php
-/*
-  $Id: $
-
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 */
 
-define('HEADING_TITLE', 'Order Total Moduler');
+heading_title = Order Total Moduler
 
-define('TABLE_HEADING_MODULES', 'Moduler');
-define('TABLE_HEADING_SORT_ORDER', 'Sorterings Ordning');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Funktion');
+table_heading_order_total_modules = Order Total Moduler
+table_heading_sort_order = Sorteringsordning
+table_heading_action = Funktion
 
-define('INFO_MODULE_UNINSTALL_INTRO', 'Är du säker att du vill avinstallera denna modul?<br /><br />(Alla modulparameterar kommer att förloras)');
-?>
+introduction_edit_order_total_module = Var vänlig och gör nödvändiga ändringar för denna order total modulen.
+
+introduction_uninstall_order_total_module = Var vänlig och bekräfta avinstallationen av denna order total modulen.

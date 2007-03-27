@@ -21,13 +21,13 @@ field_password = Lösenord:
 
 add_to = Lägg Till
 remove_from = Ta Bort
-set_to = Set To  
+set_to = Sätt Som  
 global_access = Global Access
 
-introduction_new_administrator = Var vänlig och ange följande information till den nya administratören.
+introduction_new_administrator = Var vänlig och ange följande information för den nya administratören.
 
-introduction_edit_administrator = Var vänlig och gör nödvändiga ändringar till denna administratör.
-introduction_batch_edit_administrators = Var vänlig och gör nödvändiga ändringar till följande administratörer:
+introduction_edit_administrator = Var vänlig och gör nödvändiga ändringar för denna administratören.
+introduction_batch_edit_administrators = Var vänlig och gör nödvändiga ändringar för följande administratörer:
 
 introduction_delete_administrator = Var vänlig och bekräfta borttagning av denna administratör.
 introduction_batch_delete_administrators = Var vänlig och bekräfta borttagning av dessa administratörer.

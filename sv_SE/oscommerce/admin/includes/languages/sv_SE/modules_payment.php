@@ -1,21 +1,18 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Betalningsmoduler
 
-  Copyright (c) 2007 osCommerce
+table_heading_payment_modules = Betalningsmoduler
+table_heading_sort_order = Sorteringsordning
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+introduction_edit_payment_module = Var vänlig och gör nödvändiga ändringar för denna betalningsmodulen.
 
-define('HEADING_TITLE', 'Betalnings Moduler');
-
-define('TABLE_HEADING_MODULES', 'Moduler');
-define('TABLE_HEADING_SORT_ORDER', 'Sorterings Ordning');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Funktion');
-
-define('INFO_MODULE_UNINSTALL_INTRO', 'Är du säker att du vill avinstallera denna modul?<br /><br />(Alla modulparameterar kommer att förloras)');
-?>
+introduction_uninstall_payment_module = Var vänlig och bekräfta avinstallationen av denna betalningsmodulen.

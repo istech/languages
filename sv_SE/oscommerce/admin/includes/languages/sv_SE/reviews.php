@@ -1,45 +1,32 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Kommentarer
 
-  Copyright (c) 2007 osCommerce
+table_heading_products = Produkter
+table_heading_language = Språk
+table_heading_rating = Betyg
+table_heading_date_added = Datum Tillagd
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+action_heading_batch_delete_reviews = Ta Bort Kommentarer I Grupp
 
-define('HEADING_TITLE', 'Kommentarer');
+field_product = Produkt:
+field_author = Upphovsrättsinnehavare:
+field_date_added = Datum Tillagd:
+field_review = Kommentar:
+field_rating = Betyg:
 
-define('TABLE_HEADING_PRODUCTS', 'Produkter');
-define('TABLE_HEADING_LANGUAGE', 'Språk');
-define('TABLE_HEADING_RATING', 'Betyg');
-define('TABLE_HEADING_DATE_ADDED', 'Tillagd');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Funktion');
+rating_from_5_stars = %s av 5 Stjärnor!
+rating_bad = Dålig
+rating_good = Bra
 
-define('ENTRY_PRODUCT', 'Produkt:');
-define('ENTRY_FROM', 'Från:');
-define('ENTRY_DATE', 'Datum:');
-define('ENTRY_REVIEW', 'Kommentar:');
-define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTERING:</b></font></small>&nbsp;HTML översätts ej!&nbsp;');
-define('ENTRY_RATING', 'Betyg:');
+introduction_delete_review = Var vänlig och bekräfta borttagning av denna produkt kommentar.
 
-define('TEXT_INFO_DELETE_REVIEW_INTRO', 'Är du säker att du vill ta bort denna kommentar?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande kommentarer?');
-
-define('TEXT_INFO_DATE_ADDED', 'Tillagd:');
-define('TEXT_INFO_LAST_MODIFIED', 'Senast Ändrad:');
-define('TEXT_INFO_IMAGE_NONEXISTENT', 'BILD EXISTERAR EJ');
-define('TEXT_INFO_REVIEW_AUTHOR', 'Författare:');
-define('TEXT_INFO_REVIEW_RATING', 'Betyg:');
-define('TEXT_INFO_REVIEW_READ', 'Läst:');
-define('TEXT_INFO_REVIEW_SIZE', 'Storlek:');
-define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Medelbetyg:');
-
-define('TEXT_OF_5_STARS', '%s av 5 Stjärnor!');
-define('TEXT_GOOD', '<small><font color="#ff0000"><b>BRA</b></font></small>');
-define('TEXT_BAD', '<small><font color="#ff0000"><b>DÅLIG</b></font></small>');
-define('TEXT_INFO_HEADING_DELETE_REVIEW', 'Ta Bort Kommentar');
-?>
+introduction_batch_delete_reviews = Var vänlig och bekräfta borttagning av följande produkt kommentarer.

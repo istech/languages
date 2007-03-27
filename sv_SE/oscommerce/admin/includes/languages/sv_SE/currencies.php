@@ -25,7 +25,7 @@ field_symbol_left = Vänster Symbol:
 field_symbol_right = Höger Symbol:
 field_decimal_places = Antal Decimaler:
 field_currency_value = Valuta Värde:
-field_set_default = Sätt som Förvald?
+field_set_default = Välj som Förvald?
 
 service_terms_agreement = Genom att uppdatera valutakursen, samtycker du med bestämmelser och villkor för den valda tjänsten.
 

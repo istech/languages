@@ -1,30 +1,33 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Administratörslogg
 
-  Copyright (c) 2007 osCommerce
+operation_title_filter_modules = Moduler:
+operation_title_filter_users = Användare:
 
-  Released under the GNU General Public License
-*/
+action_heading_batch_delete_entries = Ta Bort Administratörloggs Poster I Grupp
 
-define('HEADING_TITLE', 'Administratör Logg');
+table_heading_module = Modul
+table_heading_id = ID
+table_heading_type = Typ
+table_heading_user = Användare
+table_heading_date = Datum
+table_heading_action = Funktion
+table_heading_fields = Fält
+table_heading_value_old = Gammalt Värde
+table_heading_value_new = Nytt Värde
 
-define('TABLE_HEADING_MODULE', 'Modul');
-define('TABLE_HEADING_ID', 'ID');
-define('TABLE_HEADING_TYPE', 'Typ');
-define('TABLE_HEADING_USER', 'Användare');
-define('TABLE_HEADING_DATE', 'Datum');
-define('TABLE_HEADING_ACTION', 'Funktion');
+field_date = Datum:
 
-define('TABLE_HEADING_FIELD', 'Fält');
-define('TABLE_HEADING_OLD_VALUE', 'Gammalt');
-define('TABLE_HEADING_NEW_VALUE', 'Nytt Värde');
+filter_all = -- Alla --
 
-define('TEXT_DATE', 'Datum:');
+introduction_delete_entry = Var vänlig och bekräfta borttagning av denna administratörloggspost.
 
-define('TEXT_DELETE_INTRO', 'Är du säker att du vill ta bort denna administratör logg post?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande administratör logg poster?');
-?>
+introduction_batch_delete_entries = Var vänlig och bekräfta borttagning av följande administratörloggsposter.

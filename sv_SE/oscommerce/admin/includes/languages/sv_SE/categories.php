@@ -1,50 +1,45 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Kategorier
 
-  Copyright (c) 2007 osCommerce
+operation_title_search = Sök:
 
-  Released under the GNU General Public License
-*/
+table_heading_category = Kategorier
+table_heading_action = Funktion
 
-define('HEADING_TITLE', 'Kategorier');
-define('HEADING_TITLE_SEARCH', 'Sök:');
-define('HEADING_TITLE_GOTO', 'Gå Till:');
+action_heading_new_category = Ny Kategori
+action_heading_batch_delete_categories = Ta Bort Kategorier I Grupp
+action_heading_batch_move_categories = Flytta Kategorier I Grupp
 
-define('TABLE_HEADING_CATEGORIES', 'Kategorier');
-define('TABLE_HEADING_ACTION', 'Funktion');
-define('TABLE_HEADING_STATUS', 'Status');
+field_parent_category = Föräldrakategori:
+field_name = Namn:
+field_image = Bild:
+field_sort_order = Sorteringsordning:
 
-define('TEXT_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-define('TEXT_EDIT_PARENT_CATEGORY', 'Föräldra Kategorin:');
-define('TEXT_EDIT_CATEGORIES_NAME', 'Kategori Namn:');
-define('TEXT_EDIT_CATEGORIES_IMAGE', 'Kategori Bild:');
-define('TEXT_EDIT_SORT_ORDER', 'Sorterings Ordning:');
+top_category = -- Top --  
 
-define('TEXT_INFO_HEADING_NEW_CATEGORY', 'Ny Kategori');
+introduction_new_category = Var vänlig och ange följande information för den nya kategorin.
 
-define('TEXT_DELETE_CATEGORY_INTRO', 'Är du säker att du vill ta bort denna kategori?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande kategorier?');
-define('TEXT_DELETE_WARNING_CHILDS', '<b>VARNING:</b> Det finns fortfarande %s underkategorier länkade till denna kategori!');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>VARNING:</b> Det finns fortfarande %s produkter länkade till denna kategori!');
+introduction_edit_category = Var vänlig och gör nödvändiga ändringar för denna kategorin.
 
-define('TEXT_MOVE_CATEGORIES_INTRO', 'Var vänlig och välj vilken kategori du vill <b>%s</b> gå till');
-define('TEXT_MOVE_BATCH_INTRO', 'Var vänlig och välj vilken kategori du vill flytta följande kategorier till');
-define('TEXT_MOVE', 'Flytta <b>%s</b> till:');
+introduction_move_category = Var vänlig och välj föräldern dit denna kategorin ska bli flyttad till.
 
-define('TEXT_NEW_CATEGORY_INTRO', 'Var vänlig och ange följande information för den nya kategorin');
-define('TEXT_CATEGORIES_NAME', 'Kategori Namn:');
-define('TEXT_CATEGORIES_IMAGE', 'Kategori Bild:');
-define('TEXT_SORT_ORDER', 'Sorterings Ordning:');
+introduction_delete_category = Var vänlig och bekräfta borttagning av denna kategorin och dess underkategorier.
+delete_warning_category_in_use_children = Varning: Det finns %s underkategorier länkade till denna kategorin som också kommer att tas bort.
+delete_warning_category_in_use_products = Varning: Det finns %s produkter länkade till denna kategorin som kommer att få sin relation till denna katalog avlägsnad.
 
-define('EMPTY_CATEGORY', 'Tom Kategori');
+introduction_batch_delete_categories = Var vänlig och bekräfta borttagning av dessa kategorier och dess underkategorier.
 
-define('WARNING_CATEGORY_NAME_EMPTY', 'Varning: Kategori namnet för %s är tomt. Var vänlig och ange ett namn för detta språk.');
+introduction_batch_move_categories = Var vänlig och välj föräldern dit följande kategorier ska bli flyttade till.
 
-define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Fel: Kategorin kan ej flyttas till underkatalog.');
-define('ERROR_CATEGORIES_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fel: Kategoribildsmappen är skrivskyddad: ' . realpath('../images/categories'));
-define('ERROR_CATEGORIES_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fel: Kategoribildsmappen existerar ej: ' . realpath('../images/categories'));
-?>
+ms_warning_category_name_empty = Varning: Kategorinamnet för %s är tomt. Var vänlig och fyll i ett namn för detta språk.
+
+ms_error_image_directory_not_writable = Fel: Bildkatalogen för kategoribilderna är skrivskyddad: %s
+ms_error_image_directory_non_existant = Fel: Bildkatalogen för kategoribilderna existerar ej: %s

@@ -1,89 +1,62 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Reklambanderolls Hanteraren
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_banner = Ny Reklambanderoll
+action_heading_batch_delete_banners = Ta Bort Reklambanderoller I Grupp
 
-  Released under the GNU General Public License
-*/
+operation_heading_type = Typ:
+operation_heading_month = Månad:
+operation_heading_year = År:
 
-define('HEADING_TITLE', 'Reklambanderolls Hanteraren');
+table_heading_banners = Reklambanderoller
+table_heading_group = Grupp
+table_heading_statistics = Statistik
+table_heading_action = Funktion
+table_heading_source = Källa
+table_heading_views = Visningar 
+table_heading_clicks = Klick
 
-define('TABLE_HEADING_BANNERS', 'Reklambanderoll');
-define('TABLE_HEADING_GROUPS', 'Grupper');
-define('TABLE_HEADING_STATISTICS', 'Visningar / Klickningar');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Funktion');
+section_daily = Dagalig
+section_monthly = Månatlig
+section_yearly = Årlig
 
-define('TEXT_BANNERS_TITLE', 'Reklambanderolls Titel:');
-define('TEXT_BANNERS_URL', 'Reklambanderolls URL:');
-define('TEXT_BANNERS_GROUP', 'Reklambanderolls Grupp:');
-define('TEXT_BANNERS_NEW_GROUP', ', eller skriv in ny reklambanderolls grupp nedan');
-define('TEXT_BANNERS_IMAGE', 'Bild:');
-define('TEXT_BANNERS_IMAGE_LOCAL', ', eller skriv in lokal fil nedan');
-define('TEXT_BANNERS_IMAGE_TARGET', 'Bild Destination (Spara Som):');
-define('TEXT_BANNERS_HTML_TEXT', 'HTML Text:');
-define('TEXT_BANNERS_EXPIRES_ON', 'Utgår Den:');
-define('TEXT_BANNERS_OR_AT', ', eller vid');
-define('TEXT_BANNERS_IMPRESSIONS', 'visningar.');
-define('TEXT_BANNERS_SCHEDULED_AT', 'Schemalagd Den:');
-define('TEXT_BANNERS_STATUS', 'Status:');
-define('TEXT_BANNERS_BANNER_NOTE', '<b>Reklambanderolls Notering:</b><ul><li>Använd en bild eller HTML text för reklambanderollen - inte båda.</li><li>HTML Text har prioritering över bild</li></ul>');
-define('TEXT_BANNERS_INSERT_NOTE', '<b>Bild Notering:</b><ul><li>Uppladdningsmapp måste ha rätt (skriv) rättigheter!</li><li>Fyll inte i \'Spara till\' fältet om du inte skickar upp en bild till webservern (ex, du använder en lokal (på serversidan) bild).</li><li>\'Spara till\' fältet måste vara en existerande mapp med ett avslutande snedstreck (ex, banners/).</li></ul>');
-define('TEXT_BANNERS_EXPIRCY_NOTE', '<b>Utgångs Notering:</b><ul><li>Endast ett av de två fälten borde fyllas i</li><li>Om inte reklamenbanderollen automatiskt utgår, så lämna dessa fälten blanka</li></ul>');
-define('TEXT_BANNERS_SCHEDULE_NOTE', '<b>Schema Notering:</b><ul><li>Om ett schema är valt så kommer reklambanderollen att aktiveras detta datum.</li><li>Alla schedmalagda reklambanderoller är markerade som inaktiverade tills dess startdatum infaller, då de kommer att markeras som aktiva.</li></ul>');
+subsection_heading_statistics_daily = %s Daglig Statistik För %s %s
+subsection_heading_statistics_monthly = %s Månatlig Statistik För %s
+subsection_heading_statistics_yearly = %s Årlig Statistik
 
-define('TEXT_BANNERS_DATE_ADDED', 'Tillagd:');
-define('TEXT_BANNERS_SCHEDULED_AT_DATE', 'Schemalagd Den: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_DATE', 'Utgår Den: <b>%s</b>');
-define('TEXT_BANNERS_EXPIRES_AT_IMPRESSIONS', 'Utgår Efter: <b>%s</b> visningar');
-define('TEXT_BANNERS_STATUS_CHANGE', 'Status Ändrad: %s');
+field_title = Titel:
+field_url = URL:
+field_group = Grupp:
+field_group_new = , eller ange en ny grupp under
+field_image = Bild:
+field_image_local = , eller ange en lokal fil under
+field_image_target = Mål Bild (Spara Till):
+field_html_text = HTML Text:
+field_scheduled_date = Schemalagd Datum:
+field_expiry_date = Utgångs Datum:
+field_maximum_impressions = Max Antal Visningar:
+field_status = Status:
+field_delete_image = Ta Bort Reklambanderoll?
+introduction_new_banner = Var vänlig och ange följande information för den nya reklambanderollen.
 
-define('TEXT_BANNERS_DATA', 'D<br />A<br />T<br />A');
-define('TEXT_BANNERS_LAST_3_DAYS', 'Senaste 3 Dagarna');
-define('TEXT_BANNERS_BANNER_VIEWS', 'Antal Visningar');
-define('TEXT_BANNERS_BANNER_CLICKS', 'Antal Klickningar');
+introduction_edit_banner = Var vänlig och gör nödvändiga ändringar för denna reklambanderollen.
 
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange ny reklambanderoll med relevanta data');
-define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort reklambanderollen?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande reklambanderoller?');
-define('TEXT_INFO_DELETE_IMAGE', 'Ta Bort Reklambanderollsbild');
+introduction_delete_banner = Var vänlig och bekräfta borttagning av denna reklambanderollen.
 
-define('TEXT_INFO_HEADING_NEW_BANNER', 'Ny Reklambanderoll');
+introduction_batch_delete_banners = Var vänlig och bekräfta borttagning av följande reklambanderoller.
 
-define('SUCCESS_BANNER_INSERTED', 'Utfört: Reklambanderollen har blivit inlagd.');
-define('SUCCESS_BANNER_UPDATED', 'Utfört: Reklambanderollen har blivit uppdaterad.');
-define('SUCCESS_BANNER_REMOVED', 'Utfört: Reklambanderollen har tagits bort.');
-define('SUCCESS_BANNER_STATUS_UPDATED', 'Utfört: Reklambanderollens status har blivit uppdaterad.');
+info_banner_fields = <b>Reklambanderolls Notering:</b><ul><li>Använd en bild eller HTML text för reklambanderollen - inte båda.</li><li>HTML Text har högre prioritering än en bild</li></ul>
+<b>Bild Notering:</b><ul><li>Katalogen för uppskickning måste ha rätt användar (skriv) rättigheter!</li><li>Fyll inte i 'Spara Till' fältet om du inte skickar upp en bild till webservern (ex, om du använder en lokal (på server sidan) bild).</li><li>'Spara Till' fältet måst vara en existerande katalog med ett avslutande snedstreck (ex, reklambanderoller/).</li></ul>
+<b>Utgångs Notering:</b><ul><li>Endast en av de två fälten ska användas.</li><li>Om reklambanderollen ej utgår automatiskt, lämna då dessa fält tomma.</li></ul>
+<b>Schema Notering:</b><ul><li>Om schemaläggning används, kommer reklambanderollen att aktiveras det datumet.</li><li>Alla schemalagda reklambanderoller är markerade avaktiverade tills deras start datum kommer, då de kommer att markeras aktiva.</li></ul>
 
-define('ERROR_BANNER_TITLE_REQUIRED', 'Fel: Reklambanderolls titel behövs.');
-define('ERROR_BANNER_GROUP_REQUIRED', 'Fel: Reklambanderolls grupp behövs.');
-define('ERROR_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Fel: Destinations mappen existerar ej: %s');
-define('ERROR_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Fel: Destinations mappen är skrivskyddad: %s');
-define('ERROR_IMAGE_DOES_NOT_EXIST', 'Fel: Bild existerar ej.');
-define('ERROR_IMAGE_IS_NOT_WRITEABLE', 'Fel: Kan ej ta bort bild.');
-define('ERROR_UNKNOWN_STATUS_FLAG', 'Fel: Okänd statusflagga.');
-
-define('ERROR_GRAPHS_DIRECTORY_DOES_NOT_EXIST', 'Fel: Graphsmappen existerar ej. Var vänlig och skapa en \'graphs\' mapp i \'images\'.');
-define('ERROR_GRAPHS_DIRECTORY_NOT_WRITEABLE', 'Fel: Graphsmappen är skrivskyddad.');
-
-define('TABLE_HEADING_SOURCE', 'Källa');
-define('TABLE_HEADING_VIEWS', 'Visningar');
-define('TABLE_HEADING_CLICKS', 'Klickningar');
-
-define('TEXT_BANNERS_DAILY_STATISTICS', '%s Daglig Statistik För %s %s');
-define('TEXT_BANNERS_MONTHLY_STATISTICS', '%s Månatlig Statistik För %s');
-define('TEXT_BANNERS_YEARLY_STATISTICS', '%s Årlig Statistik');
-
-define('STATISTICS_TYPE_DAILY', 'Daglig');
-define('STATISTICS_TYPE_MONTHLY', 'Månatlig');
-define('STATISTICS_TYPE_YEARLY', 'Årlig');
-
-define('TITLE_TYPE', 'Typ:');
-define('TITLE_YEAR', 'År:');
-define('TITLE_MONTH', 'Månad:');
-?>
+ms_error_graphs_directory_not_writable = Fel: Grafkatalogen är skrivskyddad: %s
+ms_error_graphs_directory_non_existant = Fel: Grafkatalogen existerar ej: %s

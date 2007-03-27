@@ -1,32 +1,33 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Bildgrupper
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_image_group = Ny Bildgrupp
+action_heading_batch_delete_image_groups = Ta Bort Bildgrupper I Grupp
 
-  Released under the GNU General Public License
-*/
+table_heading_image_groups = Bildgrupper
+table_heading_action = Funktion
 
-define('HEADING_TITLE', 'Bildgrupper');
+field_title = Titel:
+field_code = Kod:
+field_width = Bredd:
+field_height = Höjd:
+field_force_size = Tvinga Storlek:
+field_set_as_default = Välj som Förvald?
 
-define('TABLE_HEADING_IMAGE_GROUPS', 'Bildgrupper');
-define('TABLE_HEADING_ACTION', 'Funktion');
+introduction_new_image_group = Var vänlig och ange följande information för den nya bildgruppen.
 
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och ange den nya bildgruppen med relevanta data');
-define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort bildgruppen? (Bilder måste tas bort manuellt)');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande bildgrupper?');
+introduction_edit_image_group = Var vänlig och gör nödvändiga ändringar för denna bildgruppen.
 
-define('TEXT_IMAGE_GROUP_TITLE', 'Titel:');
-define('TEXT_IMAGE_GROUP_CODE', 'Kod:');
-define('TEXT_IMAGE_GROUP_WIDTH', 'Bredd:');
-define('TEXT_IMAGE_GROUP_HEIGHT', 'Höjd:');
-define('TEXT_IMAGE_GROUP_FORCE_SIZE', 'Tvinga Storlek:');
+introduction_delete_image_group = Var vänlig och bekräfta borttagning av denna bildgruppen.
+delete_error_image_group_prohibited = Fel: Den förvalda bildgruppen kan ej tas bort. Var vänlig och välj en annan bildgrupp som den förvalda bildgruppen och försök igen.
 
-define('TEXT_INFO_HEADING_NEW_IMAGE_GROUP', 'Ny Bildgrupp');
-
-define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standard bildgruppen kan ej tas bort. Var vänlig och välj en annan grupp som standard och försök igen.');
-?>
+introduction_batch_delete_image_groups = Var vänlig och bekräfta borttagning av följande bildgrupper.
+batch_delete_error_image_group_prohibited = Fel: Den förvalda bildgruppen kan ej tas bort. Var vänlig och välj en annan bildgrupp som den förvalda bildgruppen och försök igen.

@@ -1,18 +1,13 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('MODULE_SUMMARY_ADMINISTRATORS_LOG_TITLE', 'Administratör Logg');
-
-define('MODULE_SUMMARY_ADMINISTRATORS_LOG_USER', 'Administratör');
-define('MODULE_SUMMARY_ADMINISTRATORS_LOG_MODULE', 'Modul');
-define('MODULE_SUMMARY_ADMINISTRATORS_LOG_DATE', 'Datum');
-?>
+summary_administrators_log_title = Administratörs Logg
+summary_administrators_log_table_heading_users = Användare
+summary_administrators_log_table_heading_module = Modul
+summary_administrators_log_table_heading_date = Datum

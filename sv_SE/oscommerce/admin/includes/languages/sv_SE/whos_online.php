@@ -1,35 +1,34 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Vem är Online
 
-  Copyright (c) 2007 osCommerce
+action_heading_batch_delete_customer_sessions = Ta Bort Kundsessioner I Grupp
 
-  Released under the GNU General Public License
-*/
+table_heading_online = Online
+table_heading_customers = Kunder
+table_heading_date_last_click = Senaste Klick
+table_heading_last_page_url = Senaste URL
+table_heading_shopping_cart_total = Total
+table_heading_action = Funktion
 
-define('HEADING_TITLE', 'Vem är Online');
+field_session_id = Session ID:
+field_time_online = Tid Online:
+field_customer_id = Kund ID:
+field_customer_name = Kund Namn:
+field_ip_address = IP Adress:
+field_entry_time = Kom Online:
+field_last_click = Senaste Klick:
+field_last_page_url = Senaste Sid URL:
+field_shopping_cart_contents = Kundvagns Innehåll:
+field_shopping_cart_total = Kundvagns Total:
 
-define('TABLE_HEADING_ONLINE', 'Online');
-define('TABLE_HEADING_FULL_NAME', 'Namn');
-define('TABLE_HEADING_LAST_CLICK', 'Senaste Klick');
-define('TABLE_HEADING_LAST_PAGE_URL', 'Senaste URL');
-define('TABLE_HEADING_SHOPPING_CART_TOTAL', 'Total');
-define('TABLE_HEADING_ACTION', 'Funktion');
+introduction_delete_customer_session = Var vänlig och bekräfta borttagning av denna kundsession.
 
-define('TEXT_SESSION_ID', 'Session ID:');
-define('TEXT_TIME_ONLINE', 'Tid Online:');
-define('TEXT_CUSTOMER_ID', 'Kund ID:');
-define('TEXT_CUSTOMER_NAME', 'Kundnamn:');
-define('TEXT_IP_ADDRESS', 'IP Adress:');
-define('TEXT_ENTRY_TIME', 'Kom In:');
-define('TEXT_LAST_CLICK', 'Senaste Klick:');
-define('TEXT_LAST_PAGE_URL', 'Senaste URL:');
-define('TEXT_SHOPPING_CART_PRODUCTS', 'Produkter I Kundvagn:');
-define('TEXT_SHOPPING_CART_TOTAL', 'Kundvagn Total:');
-
-define('TEXT_DELETE_INTRO', 'Är du säker du vill ta bort denna kund session?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker du vill ta bort följande kund sessioner?');
-?>
+introduction_batch_delete_customer_sessions = Var vänlig och bekräfta borttagning av följande kundsessioner.

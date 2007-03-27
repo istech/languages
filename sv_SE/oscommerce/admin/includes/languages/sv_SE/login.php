@@ -1,21 +1,20 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Logga In
 
-  Copyright (c) 2007 osCommerce
+action_heading_login = Logga In I Administrations Verktyget
 
-  Released under the GNU General Public License
-*/
+introduction = Var vänlig och identifiera dig för att logga in i administrations verktyget.
 
-define('HEADING_TITLE', 'Logga In');
+field_username = Användarnamn:
+field_password = Lösenord:
 
-define('TEXT_INFO_HEADING_LOGIN', 'Logga In I Administrations Verktyget');
-
-define('TEXT_INFO_INTRO', 'Var vänlig och använd följande formulär för att logga in i administrations verktyget.');
-
-define('TEXT_INFO_USER_NAME', 'Namn:');
-define('TEXT_INFO_USER_PASSWORD', 'Lösenord:');
-?>
+ms_success_logged_out = Utfört: Du har blivit utloggad från systemet.
+ms_error_login_invalid = Fel: Identifieringen av administratören misslyckades. Var vänlig och försök igen om du har blivit authorizerad att använda detta system.

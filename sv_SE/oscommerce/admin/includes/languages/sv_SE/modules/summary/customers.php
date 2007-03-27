@@ -1,18 +1,13 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-  define('MODULE_SUMMARY_CUSTOMERS_TITLE', 'Senaste Kunder');
-
-  define('MODULE_SUMMARY_CUSTOMERS_HEADING_CUSTOMERS', 'Kunder');
-  define('MODULE_SUMMARY_CUSTOMERS_HEADING_DATE', 'Datum');
-  define('MODULE_SUMMARY_CUSTOMERS_HEADING_STATUS', 'Status');
-?>
+summary_customers_title = Kunder
+summary_customers_table_heading_customers = Kunder
+summary_customers_table_heading_date = Datum
+summary_customers_table_heading_status = Status

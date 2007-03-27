@@ -1,54 +1,98 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Kunder
 
-  Copyright (c) 2007 osCommerce
+operation_title_search = Sök:
+operation_new_address_book_entry = Ny Adressbokspost
 
-  Released under the GNU General Public License
-*/
+table_heading_last_name = Förnamn
+table_heading_first_name = Efternamn
+table_heading_date_created = Datum Skapat
+table_heading_action = Funktion
 
-define('HEADING_TITLE', 'Kunder');
-define('HEADING_TITLE_SEARCH', 'Sök:');
+action_heading_new_customer = Ny Kund
+action_heading_new_address_book_entry = Ny Adressbokspost
+action_heading_batch_delete_customers = Ta Bort Kunder I Grupp
 
-define('TABLE_HEADING_FIRSTNAME', 'Förnamn');
-define('TABLE_HEADING_LASTNAME', 'Efternamn');
-define('TABLE_HEADING_ACCOUNT_CREATED', 'Kontot Skapat');
-define('TABLE_HEADING_ACTION', 'Funktion');
-define('TABLE_HEADING_STATUS', 'Status');
+section_personal = Personligt
+section_address_book = Adressbok
 
-define('CATEGORY_PERSONAL', 'Personligt');
-define('CATEGORY_ADDRESS_BOOK', 'Adressbok');
+field_gender = Kön:
+field_first_name = Förnamn:
+field_last_name = Efternamn:
+field_date_of_birth = Födelsedatum:
+field_email_address = E-Post Adress:
+field_newsletter_subscription = Newsletter Subscription:  
+field_password = Lösenord:
+field_password_confirmation = Bekräfta Lösenord:
+field_new_password = Nytt Lösenord:
+field_new_password_confirmation = Bekräfta Nytt Lösenord:
+field_status = Status:
+field_company = Företag:
+field_street_address = Gatuadress:
+field_suburb = Ort:
+field_post_code = Postadress:
+field_city = Stad:
+field_state = Län:  
+field_country = Land:
+field_telephone_number = Telefon Nummer:
+field_fax_number = Fax Nummer:
+field_set_as_primary = Välj Som Förvald Adress:
+field_delete_reviews = Ta bort Kommentarer?
 
-define('TEXT_DATE_ACCOUNT_CREATED', 'Kontot Skapat:');
-define('TEXT_DATE_ACCOUNT_LAST_MODIFIED', 'Senast Ändrad:');
-define('TEXT_INFO_DATE_LAST_LOGON', 'Senast Inloggad:');
-define('TEXT_INFO_NUMBER_OF_LOGONS', 'Antal Inloggningar:');
-define('TEXT_INFO_COUNTRY', 'Land:');
-define('TEXT_INFO_NUMBER_OF_REVIEWS', 'Antal Kommentarer:');
-define('TEXT_DELETE_INTRO', 'Är du säker att du vill ta bort denna kunden?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande kunder?');
-define('TEXT_DELETE_ADDRESS_BOOK_INTRO', 'Är du säker att du vill ta bort denna kunds adressboks post?');
-define('TEXT_DELETE_REVIEWS', 'Ta bort %s kommentar(er)');
-define('TEXT_INFO_HEADING_DELETE_CUSTOMER', 'Ta Bort Kund');
-define('TEXT_INFO_HEADING_NEW_CUSTOMER', 'Ny Kund');
-define('TEXT_INFO_HEADING_NEW_ADDRESS_BOOK_ENTRY', 'Ny Adressboks Post');
-define('TEXT_BATCH_DELETE_REVIEWS', 'Ta bort kundkommentarer?');
-define('TYPE_BELOW', 'Skriv nedan');
-define('PLEASE_SELECT', 'Välj En');
-define('EMAIL_SUBJECT', 'Välkommen till ' . STORE_NAME);
-define('EMAIL_GREET_MR', 'Herr %s,' . "\n\n");
-define('EMAIL_GREET_MS', 'Fru %s,' . "\n\n");
-define('EMAIL_GREET_NONE', '%s' . "\n\n");
-define('EMAIL_WELCOME', 'Vi önskar dig välkommen till <b>' . STORE_NAME . '</b>.' . "\n\n");
-define('EMAIL_TEXT', 'Du kan nu ta del av de <b>tjänster</b> vi har att erbjuda. Några av dessa tjänster är:' . "\n\n" . '<li><b>Permanent Kundvagn</b> - Produkter lagda i din kundvagn stannar där tills du tar bort dom eller köper produkterna.' . "\n" . '<li><b>Adressbok</b> - Vi kan nu leverera dina produkter till annan adress en din egen! Detta är perfekt att skicka födelsedagspresenter direkt till personen som fyller år.' . "\n" . '<li><b>Orderhistorik</b> - Visar historik från dina tidigare köp du gjort av oss.' . "\n" . '<li><b>Produktkommentarer</b> - Dela dina åsikter med andra kunder om våra produkter.' . "\n\n");
-define('EMAIL_CONTACT', 'För hjälp med nån av våra onlinetjänster, var vänlig och eposta affärsinnehavaren: ' . STORE_OWNER_EMAIL_ADDRESS . '.' . "\n\n");
-define('EMAIL_PASSWORD', '<b>Notering:</b> Detta kontot har skapats åt dig av affärsinnehavaren. Lösenordet till detta konto är %s.' . "\n");
+total_reviews = %s Kommentarer
+primary_address = primär
+no_telephone_number = inget telefon nummer
+no_fax_number = inget fax nummer
 
-define('ENTRY_STATUS', 'Status:');
-define('ENTRY_SET_AS_PRIMARY', 'Välj Som Förvald Adress:');
+introduction_delete_customer = Var vänlig och bekräfta borttagning av denna kund.
 
-define('TEXT_INFO_DELETE_ADDRESS_BOOK_PROHIBITED', 'Varning: Kan ej ta bort kundens förvalda adress. Vänligen ange en annan adress som förvald adress och försök igen.');
-?>
+introduction_batch_delete_customers = Var vänlig och bekräfta borttagning av följande kunder.
+
+introduction_delete_address_book_entry = Var vänlig och bekräfta borttagning av denna adressbokspost.
+delete_warning_primary_address_book_entry = Varning: Kundens primär adress kan ej tas bort. Var vänlig och välj en annan adress som primär adress och försök igen.
+
+ms_error_gender = Var vänlig och välj kundens kön.
+ms_error_first_name = Kundens förnamn måste innehålla minst %s tecken.
+ms_error_last_name = Kundens efternamn måste innehålla minst %s tecken.
+ms_error_date_of_birth = Kundens födelsedatum måste sättas korrekt.
+ms_error_email_address = Kundens e-post adress måste innehålla minst %s tecken.
+ms_error_email_address_invalid = Kundens e-post adress måste sättas korrekt.
+ms_error_email_address_exists = Kundens e-post adress finns redan. Var vänlig och välj en unik e-post adress till denna kund.
+ms_error_password = Kundens lösenord måste innehålla minst %s tecken.
+ms_error_password_confirmation_invalid = Bekräftningen av lösenordet matchar ej kundens lösenord. Var vänlig och försök igen.
+ms_error_company = Kundens företag måste innehålla minst %s tecken.
+ms_error_street_address = Kundens gatuadress måste innehålla minst %s tecken.
+ms_error_suburb = Kundens ort måste innehålla minst %s tecken.
+ms_error_post_code = Kundens postadress måste innehålla minst %s tecken.
+ms_error_city = Kundens stad måste innehålla minst %s tecken.
+ms_error_state = Kundens län måste innehålla minst %s tecken.
+ms_error_country = Var vänlig och välj det korrekta landet från Land menyn.
+ms_error_telephoné_number = Kundens telefon nummer måste innehålla minst %s tecken.
+ms_error_fax_number = Kundens fax nummer måste innehålla minst %s tecken.
+
+ms_warning_state_select_from_list = Var vänlig och välj det korrekta länet från Län menyn.
+
+email_subject = Välkommen till %s
+email_greet_general = %s,
+email_greet_mr = %s,
+email_greet_ms = %s,
+email_text = Vi välkomnar dig till %s.
+
+Du kan nu ta del av våra tjänster vi har att erbjuda dig. Några av dessa tjänster inkluderar:
+
+* Permanent Kundvagn - Any products added to your online shopping cart remain there until you purchase or remove them
+* Adressbok - Produker kan levereras till vilken adress som helst i din adresbok! Detta är perfekt för att skicka presenter direkt till personen gåvan är avsedd åt.
+* Order Historik - Tidigare köp du gjort kan ses online.
+* Produkt Kommentarer - Dela dina åsikter om produkter med andra kunder.
+
+För hjälp med någon av våra online tjänster var vänlig och skicka e-post till oss: %s
+
+Var vänlig notera: Detta kontot har skapats åt dig av affärsinnehavaren. Var vänlig och använd din e-post adress med följande lösenord för att logga in på kontot: %s

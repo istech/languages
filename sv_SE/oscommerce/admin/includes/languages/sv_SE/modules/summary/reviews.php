@@ -1,19 +1,14 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-  define('MODULE_SUMMARY_REVIEWS_TITLE', 'Senaste Kommentarer');
-
-  define('MODULE_SUMMARY_REVIEWS_HEADING_PRODUCTS', 'Produkter');
-  define('MODULE_SUMMARY_REVIEWS_HEADING_LANGUAGE', 'Språk');
-  define('MODULE_SUMMARY_REVIEWS_HEADING_RATING', 'Betyg');
-  define('MODULE_SUMMARY_REVIEWS_HEADING_DATE', 'Datum');
-?>
+summary_reviews_title = Kommentarer
+summary_reviews_table_heading_products = Produkter
+summary_reviews_table_heading_language = Språk
+summary_reviews_table_heading_rating = Betyg
+summary_reviews_table_heading_date = Datum

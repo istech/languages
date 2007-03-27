@@ -1,39 +1,38 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Nyhetsbrevs Hanteraren
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_newsletter = Nytt Nyhetsbrev
+action_heading_batch_delete_newsletters = Ta Bort Nyhetsbrev I Grupp
 
-  Released under the GNU General Public License
-*/
+table_heading_newsletters = Nyhetsbrev
+table_heading_size = Storlek
+table_heading_module = Modul
+table_heading_sent = Skickat
+table_heading_action = Funktion
+table_heading_email_addresses = E-Post Adresser
+table_heading_sent = Skickat
+table_heading_date_sent = Skickat Den
 
-  define('HEADING_TITLE', 'Nyhetsbrevs Hanteraren');
+field_module = Modul:
+field_title = Titel:
+field_content = Innehåll:
 
-  define('TABLE_HEADING_NEWSLETTERS', 'Nyhetsbrev');
-  define('TABLE_HEADING_SIZE', 'Storlek');
-  define('TABLE_HEADING_MODULE', 'Modul');
-  define('TABLE_HEADING_SENT', 'Skickat');
-  define('TABLE_HEADING_ACTION', 'Funktion');
-  define('TABLE_HEADING_EMAIL_ADDRESS', 'E-Post Adress');
-  define('TABLE_HEADING_DATE_SENT', 'Skickat Den');
+sending_please_wait = Var vänliga vänta.. skickar nyhetsbrev. Var vänlig och avbryt inte denna process.
+sending_refreshing_page = Uppdatera automatiskt sidan för att undvika server timeout..
+sending_finalized = Klar. Alla nyhetsbrev har skickats!
 
-  define('TEXT_HEADING_NEW_EMAIL', 'Ny E-Post');
+introduction_new_newsletter = Var vänlig och ange följande information för det nya nyhetsbrevet.
 
-  define('TEXT_NEWSLETTER_MODULE', 'Modul:');
-  define('TEXT_NEWSLETTER_TITLE', 'Titel på Nyhetsbrev:');
-  define('TEXT_NEWSLETTER_CONTENT', 'Innehåll:');
+introduction_edit_newsletter = Var vänlig och gör nödvändiga ändringar för detta nyhetsbrev.
 
-  define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort detta nyhetsbrev?');
-  define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande nyhetsbrev?');
+introduction_delete_newsletter = Var vänlig och bekräfta borttagning av detta nyhetsbrev.
 
-  define('TEXT_PLEASE_WAIT', 'Var vänlig och vänta .. skickar nyhetsbrev ..<br /><br />Var vänlig och avbryt ej denna process!');
-  define('TEXT_REFRESHING_PAGE', 'Uppdaterar automatiskt denna sida för att undvika att tappa kontakt med servern ..');
-  define('TEXT_CONTINUE_MANUALLY', '.. eller klicka här för att fortsätta om ingen omdiregering inom 2 sekunder utförs ..');
-  define('TEXT_FINISHED_SENDING_NEWSLETTERS', 'Nyhetsbrev skickade!');
-
-  define('ERROR_NEWSLETTER_TITLE', 'Fel: Nyhetsbrevstitel behövs');
-  define('ERROR_NEWSLETTER_MODULE', 'Fel: Nyhetsbrevsmodul behövs');
-?>
+introduction_batch_delete_newsletters = Var vänlig och bekräfta borttagning av följande nyhetsbrev.

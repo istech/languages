@@ -1,30 +1,33 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Order Status
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_order_status = Ny Order Status
+action_heading_batch_delete_order_statuses = Ta Bort Order Status I Grupp
 
-  Released under the GNU General Public License
-*/
+table_heading_order_statuses = Order Status
+table_heading_action = Funktion
 
-define('HEADING_TITLE', 'Orderstatus');
+field_name = Namn:
+field_set_as_default = Välj som Förvald?
 
-define('TABLE_HEADING_ORDERS_STATUS', 'Order Status');
-define('TABLE_HEADING_ACTION', 'Funktion');
+introduction_new_order_status = Var vänlig och ange följande information för den nya order statusen.
 
-define('TEXT_INFO_INSERT_INTRO', 'Var vänlig och skriv in de nya ordrarna med relevanta data');
-define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-define('TEXT_INFO_DELETE_INTRO', 'Är du säker att du vill ta bort denna order status?');
-define('TEXT_DELETE_BATCH_INTRO', 'Är du säker att du vill ta bort följande order statusar?');
+introduction_edit_order_status = Var vänlig och gör nödvändiga ändringar för denna order status.
 
-define('TEXT_INFO_ORDERS_STATUS_NAME', 'Order Status:');
+introduction_delete_order_status = Var vänlig och bekräfta borttagning av denna order status.
+delete_error_order_status_prohibited = Fel: Den förvalda order statusen kan ej tas bort. Var vänlig och välj en annan order status som förvald och försök igen.
+delete_error_order_status_in_use = Fel: Denna order status är förnärvarande länkad till %s ordrar och kan ej tas bort.
+delete_error_order_status_used = Fel: Denna order status har använts av %s ordrar och kan ej tas bort.
 
-define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'Ny Order Status');
-
-define('TEXT_INFO_DELETE_PROHIBITED', 'Varning: Standard order statusen kan ej tas bort. Var vänlig och välj en annan order status som standard och försök igen.');
-define('TEXT_INFO_DELETE_PROHIBITED_ORDERS', 'Varning: Denna order status är för närvarande använd i %s ordrar och kan ej tas bort.');
-define('TEXT_INFO_DELETE_PROHIBITED_HISTORY', 'Varning: Denna order status är för närvarande använd i order status historik i %s ordrar och kan ej tas bort.');
-?>
+introduction_batch_delete_order_statuses = Var vänlig och bekräfta borttagning av följande order statusar.
+batch_delete_error_order_status_prohibited = Fel: Den förvalda order statusen kan ej tas bort. Var vänlig och välj en annan order status som förvald och försök igen.
+batch_delete_error_order_status_in_use = Fel: En eller fler order statusar är för närvarande länkad till ordrar och kan ej tas bort.
+batch_delete_error_order_status_used = Fel: En eller flera order statusar har används i ordrar och kan ej tas bort.

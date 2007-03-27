@@ -1,19 +1,13 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('MODULE_STATISTICS_PRODUCTS_VIEWED_TITLE', 'Mest Visade Produkter');
-
-define('MODULE_STATISTICS_PRODUCTS_VIEWED_TABLE_HEADING_NUMBER', 'Nr.');
-define('MODULE_STATISTICS_PRODUCTS_VIEWED_TABLE_HEADING_PRODUCTS', 'Produkter');
-define('MODULE_STATISTICS_PRODUCTS_VIEWED_TABLE_HEADING_LANGUAGE', 'Språk');
-define('MODULE_STATISTICS_PRODUCTS_VIEWED_TABLE_HEADING_VIEWED', 'Visade');
-?>
+statistics_products_viewed_title = Mest Visade Produkter
+statistics_products_viewed_table_heading_products = Produkter
+statistics_products_viewed_table_heading_language = Språk
+statistics_products_viewed_table_heading_total = Total

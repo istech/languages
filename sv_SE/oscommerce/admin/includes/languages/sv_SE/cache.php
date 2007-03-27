@@ -1,25 +1,20 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Cache Kontroll
 
-  Copyright (c) 2007 osCommerce
+table_heading_cache_blocks = Cache Blockeringar
+table_heading_total = Total
+table_heading_date_last_modified = Senast Ändrad
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+cache_location = Cache Katalog:
 
-define('HEADING_TITLE', 'Cache Kontroll');
-
-define('TABLE_HEADING_CACHE', 'Cache Blockeringar');
-define('TABLE_HEADING_TOTAL', 'Total');
-define('TABLE_HEADING_LAST_MODIFIED', 'Senast Ändrad');
-define('TABLE_HEADING_ACTION', 'Funktion');
-
-define('TEXT_FILE_DOES_NOT_EXIST', 'Fil Existerar Ej');
-define('TEXT_CACHE_DIRECTORY', 'Cache Mapp:');
-
-define('ERROR_CACHE_DIRECTORY_DOES_NOT_EXIST', 'Fel: Cache mappen existerar ej. Var vänlig och välj Konfiguration->Cache.');
-define('ERROR_CACHE_DIRECTORY_NOT_WRITEABLE', 'Fel: Cache mappen är skrivskyddad.');
-?>
+ms_error_cache_directory_not_writable = Fel: Cachekatalogen är skrivskyddad: %s
+ms_error_cache_directory_non_existant = Fel: Cachekatalogen existerar ej: %s

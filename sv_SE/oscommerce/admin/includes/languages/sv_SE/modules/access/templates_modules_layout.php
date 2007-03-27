@@ -1,16 +1,12 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('ACCESS_TEMPLATES_MODULES_LAYOUT_TITLE', 'Mall Modul Design');
-define('ACCESS_TEMPLATES_MODULES_LAYOUT_BOXES_TITLE', 'Boxar');
-define('ACCESS_TEMPLATES_MODULES_LAYOUT_CONTENT_TITLE', 'Innehåll');
-?>
+access_templates_modules_layout_title = Mall Modul Design
+access_templates_modules_layout_boxes_title = Boxar
+access_templates_modules_layout_content_title = Innehåll

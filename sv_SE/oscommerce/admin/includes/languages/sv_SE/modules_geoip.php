@@ -1,20 +1,21 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = GeoIP Moduler
 
-  Copyright (c) 2007 osCommerce
+table_heading_geoip_modules = GeoIP Moduler
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+field_title = Titel:
+field_description = Beskrivning:
+field_author = Upphovsrättsinnehavare:
 
-define('HEADING_TITLE', 'GeoIP Moduler');
+introduction_edit_geoip_module = Var vänlig och gör nödvändiga ändringar för denna GeoIP modulen.
 
-define('TABLE_HEADING_MODULES', 'GeoIP Moduler');
-define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_ACTION', 'Funktion');
-
-define('INFO_MODULE_UNINSTALL_INTRO', 'Är du säker att du vill avinstallera denna modul?<br /><br />(Alla modulparameterar kommer att förloras)');
-?>
+introduction_uninstall_geoip_module = Var vänlig och bekräfta avinstallationen av denna GeoIP modulen.

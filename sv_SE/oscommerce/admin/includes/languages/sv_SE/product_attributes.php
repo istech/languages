@@ -1,38 +1,46 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Produktattribut
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_attribute_group = Ny Attributgrupp
+action_heading_batch_delete_attribute_groups = Ta Bort Attributgruper I Grupp
+action_heading_new_group_entry = Ny Gruppost
+action_heading_batch_delete_group_entries = Ta Bort Grupposter I Grupp
 
-  Released under the GNU General Public License
-*/
+table_heading_attribute_groups = Attributgrupper
+table_heading_total_entries = Antal Poster
+table_heading_action = Funktion
 
-define('HEADING_TITLE', 'Produkt Attribut');
+table_heading_entries = Poster
 
-define('TABLE_HEADING_ATTRIBUTE_GROUPS', 'Attributs Grupper');
-define('TABLE_HEADING_TOTAL_ENTRIES', 'Totala Poster');
-define('TABLE_HEADING_ACTION', 'Funktion');
-define('TABLE_HEADING_ENTRIES', 'Poster');
+field_group_name = Namn:
+field_group_entry_name = Namn:
 
-define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_GROUP', 'Ny Attribut Grupp');
-define('TEXT_INFO_HEADING_NEW_ATTRIBUTE_ENTRY', 'Ny Attribut');
+total_entries = %s Poster
 
-define('TEXT_INFO_ATTRIBUTE_GROUP_NAME', 'Namn på Attribut Grupp:');
-define('TEXT_INFO_ATTRIBUTE_ENTRY_NAME', 'Namn på Attribut:');
+introduction_new_attribute_group = Var vänlig och ange följande information för den nya attributgruppen.
 
-define('TEXT_INFO_INSERT_ATTRIBUTE_INTRO', 'Var vänlig och ange ny Attribut Grupps information');
-define('TEXT_INFO_DELETE_ATTRIBUTE_INTRO', 'Är du säker att du vill ta bort denna Attribut Grupp?');
-define('TEXT_INFO_DELETE_ATTRIBUTE_BATCH_INTRO', 'Är du säker att du vill ta bort dessa Attribut Grupper?');
-define('TEXT_INFO_INSERT_ATTRIBUTE_ENTRY_INTRO', 'Vänligen ange den nya Attribut Post informationen');
-define('TEXT_INFO_DELETE_ATTRIBUTE_ENTRY_INTRO', 'Är du säker att du vill ta bort denna Attribut Post?');
-define('TEXT_INFO_DELETE_ATTRIBUTE_ENTRY_BATCH_INTRO', 'Är du säker att du vill ta bort dessa Attribut Poster?');
-define('TEXT_INFO_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
+introduction_edit_attribute_group = Var vänlig och gör nödvändiga ändringar för denna attributgruppen.
 
-define('TEXT_INFO_DELETE_ATTRIBUTE_GROUP_PROHIBITED', 'Varning: Denna attributgrupp kan ej tas bort eftersom den för närvarande används av %s produkter.');
-define('TEXT_INFO_DELETE_ATTRIBUTE_GROUP_WARNING', 'Varning: Denna attributgrupp har %s poster som också kommer tas bort.');
+introduction_delete_attribute_group = Var vänlig och bekräfta borttagning av denna attributgrupp och dess poster.
+delete_error_attribute_group_in_use = Fel: Denna attributgrupp kan ej tas bort då den för närvarande är länkad till %s produkter.
 
-define('TEXT_INFO_DELETE_ATTRIBUTE_ENTRY_PROHIBITED', 'Varning: Denna Attribut Post kan ej tas bort eftersom den för närvarande är länkad till %s produkter.');
-?>
+introduction_batch_delete_attribute_groups = Var vänlig och bekräfta borttagning av följande attributgrupper och dess poster.
+batch_delete_error_attribute_groups_in_use = Fel: Följande attributgrupper kan ej tas bort då de för närvarande är länkade till produkter.
+
+introduction_new_group_entry = Var vänlig och ange följande information för den nya attributgrupps posten.
+
+introduction_edit_group_entry = Var vänlig och gör nödvändiga ändringar för denna attribut grupps posten.
+
+introduction_delete_group_entry = Var vänlig och bekräfta borttagning av denna attributgruppsposten.
+delete_error_group_entry_in_use = Fel: Denna attributgruppspost kan ej tas bort då den för närvarande är länkad till %s produkter.
+
+introduction_batch_delete_group_entries = Var vänlig och bekräfta borttagning av följande attributgruppsposter.
+batch_delete_error_group_entries_in_use = Fel: Följande attributgruppsposter kan ej tas bort då de för närvarande är länkade till produkter.

@@ -1,22 +1,18 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Kommande Produkter
 
-  Copyright (c) 2007 osCommerce
+table_heading_products = Produkter
+table_heading_date_expected = Kommer Den
+table_heading_action = Funktion
 
-  Released under the GNU General Public License
-*/
+field_date_expected = Kommer Den:
 
-define('HEADING_TITLE', 'Kommande Produkter');
-
-define('TABLE_HEADING_PRODUCTS', 'Produkter');
-define('TABLE_HEADING_DATE_EXPECTED', 'Kommer Den');
-define('TABLE_HEADING_ACTION', 'Funktion');
-
-define('TEXT_EDIT_INTRO', 'Var vänlig och gör nödvändiga ändringar');
-
-define('TEXT_INFO_DATE_EXPECTED', 'Kommer Den:');
-?>
+introduction_edit_product_expected = Var vänlig och gör nödvändiga ändringar för denna produkt.
