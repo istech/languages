@@ -1,238 +1,113 @@
-<?php
-/*
-  $Id: $
+# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# Released under the GNU General Public License
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+administration_title = osCommerce Administrations Verktyg
 
-  Copyright (c) 2007 osCommerce
+header_title_help = Hjälp
+header_title_oscommerce_support_site = osCommerce Support Site
+header_title_online_catalog = Online Katalog
+header_title_languages = Språk
+header_title_logoff = Logga ut
 
-  Released under the GNU General Public License
-*/
+ssl_protection = Du är skyddad av en %s säker SSL anslutning.
+ssl_unprotected = Du är ej skyddad med en säker SSL anslutning.
 
-// page title
-define('TITLE', 'osCommerce Administrations Verktyg');
+gender_male = Man
+gender_female = Kvinna
 
-// header text in includes/header.php
-define('HEADER_TITLE_HELP', 'Hjälp');
-define('HEADER_TITLE_OSCOMMERCE_SUPPORT_SITE', 'osCommerce Support Site');
-define('HEADER_TITLE_ONLINE_CATALOG', 'Online Katalog');
-define('HEADER_TITLE_LANGUAGES', 'Språk');
-define('HEADER_TITLE_LOGOFF', 'Logga ut');
+default_entry = standard
 
-define('BOX_CONNECTION_PROTECTED', 'Du är skyddad av en %s säker SSL anslutning.');
-define('BOX_CONNECTION_UNPROTECTED', 'Du är <font color="#ff0000">ej</font> skyddad med en säker SSL anslutning.');
-define('BOX_CONNECTION_UNKNOWN', 'okänd');
+parameter_true = Sant
+parameter_false = Falskt
+parameter_optional = Frivillig
+parameter_none = -- Ingen --
 
-// text for gender
-define('MALE', 'Man');
-define('FEMALE', 'Kvinna');
+table_action_legend = Lathund
+batch_results_number_of_entries = Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> poster)
 
-// text for date of birth example
-define('DOB_FORMAT_STRING', 'yyyy/mm/dd');
+button_approve = Godkänn
+button_back = Tillbaka
+button_backup = Säkerhetskopiera
+button_cancel = Avbryt
+button_copy = Kopiera
+button_delete = Ta Bort
+button_execute = Kör
+button_export = Exportera
+button_import = Importera
+button_insert = Infoga
+button_login = Logga in
+button_move = Flytta
+button_new_file = Ny Fil
+button_new_folder = Ny Katalog
+button_ok = OK
+button_orders_invoice = Faktura
+button_orders_packaging_slip = Följesedel
+button_reject = Avböja
+button_restore = Återställ
+button_retry = Försök igen
+button_save = Spara
+button_send = Skicka
+button_send_to_server = Send to Server
+button_uninstall = Avinstallera
+button_update = Uppdatera
+button_update_currency_exchange_rates = Uppdatera Valutakurs
+button_upload = Skicka upp
 
-// javascript messages
-define('JS_ERROR', 'Fel har uppstått vid bearbetning av ditt formulär!\nVar vänlig och gör följande ändringar:\n\n');
-define('JS_OPTIONS_VALUE_PRICE', '* Det nya produktattributet behöver ett prisvärde\n');
-define('JS_OPTIONS_VALUE_PRICE_PREFIX', '* Det nya produktattributet behöver ett pris prefix\n');
-define('JS_PRODUCTS_NAME', '* Den nya produkten behöver ett namn\n');
-define('JS_PRODUCTS_DESCRIPTION', '* Den nya produkten behöver en beskrivning\n');
-define('JS_PRODUCTS_PRICE', '* Den nya produkten behöver ett pris\n');
-define('JS_PRODUCTS_WEIGHT', '* Den nya produkten behöver ett viktvärde\n');
-define('JS_PRODUCTS_QUANTITY', '* Den nya produkten behöver ett kvantitetsvärde\n');
-define('JS_PRODUCTS_MODEL', '* Den nya produkten behöver ett modellnamn\n');
-define('JS_PRODUCTS_IMAGE', '* Den nya produkten behöver en bild\n');
-define('JS_SPECIALS_PRODUCTS_PRICE', '* Ett nytt pris behövs till den här produkten\n');
-define('JS_ORDER_DOES_NOT_EXIST', 'Ordernummer %s existerar ej!');
+icon_banner_preview = Förhandsgranska
+icon_checkbox_ticked =
+icon_checkbox_crossed =
+icon_copy = Kopiera
+icon_default = Standard
+icon_default_grey = Standard
+icon_download = Ladda hem
+icon_edit = Editera
+icon_email_send = Skicka E-Post
+icon_export = Exportera
+icon_file = Fil
+icon_folder = Mapp
+icon_info = Information
+icon_install = Installera
+icon_locked = Låst
+icon_log = Logg
+icon_move = Flytta
+icon_nav_back = Föregående
+icon_nav_back_grey =
+icon_nav_forward = Nästa
+icon_nav_forward_grey =
+icon_new = Ny
+icon_newsletters = Nyhetsbrev
+icon_orders = Ordrar
+icon_people = Människor
+icon_products = Produkter
+icon_restore = Återställ
+icon_reviews = Kommentarer
+icon_run = Kör
+icon_save = Spara
+icon_statistics = Statistik
+icon_trash = Ta bort
+icon_uninstall = Avinstallera
+icon_unlocked = Olåst
+icon_update = Uppdatera
+icon_user_female = Kvinna
+icon_user_male = Man
 
-define('ENTRY_GENDER', 'Kön:');
-define('ENTRY_GENDER_ERROR', 'Var vänlig och välj ditt Kön.');
-define('ENTRY_FIRST_NAME', 'Förnamn:');
-define('ENTRY_FIRST_NAME_ERROR', 'Ditt Förnamn måste innehålla minst ' . ACCOUNT_FIRST_NAME . ' tecken.');
-define('ENTRY_LAST_NAME', 'Efternamn:');
-define('ENTRY_LAST_NAME_ERROR', 'Ditt Efternamn måste innehålla minst ' . ACCOUNT_LAST_NAME . ' tecken.');
-define('ENTRY_DATE_OF_BIRTH', 'Födelsedatum:');
-define('ENTRY_DATE_OF_BIRTH_ERROR', 'Ditt Födelsedatum måste skrivas rätt.');
-define('ENTRY_EMAIL_ADDRESS', 'E-postadress:');
-define('ENTRY_EMAIL_ADDRESS_ERROR', 'Din E-Postadress måste innehålla minst ' . ACCOUNT_EMAIL_ADDRESS . ' tecken.');
-define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Din E-Postadress verkar vara ogiltlig - var vänlig och gör nödvändiga ändringar.');
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Din E-Postadress finns redan i vårat register - var vänlig och logga in med din e-postadress eller skapa ett nytt konto med en annan adress.');
-define('ENTRY_COMPANY', 'Företagsnamn:');
-define('ENTRY_COMPANY_ERROR', 'Ditt Företagsnamn måste innehålla minst ' . ACCOUNT_COMPANY . ' tecken.');
-define('ENTRY_STREET_ADDRESS', 'Gatuadress:');
-define('ENTRY_STREET_ADDRESS_ERROR', 'Din Gatuadress måste innehålla minst ' . ACCOUNT_STREET_ADDRESS . ' tecken.');
-define('ENTRY_SUBURB', 'Ort:');
-define('ENTRY_SUBURB_ERROR', 'Din Ort måste innehålla minst ' . ACCOUNT_SUBURB . ' tecken.');
-define('ENTRY_POST_CODE', 'Postnummer:');
-define('ENTRY_POST_CODE_ERROR', 'Ditt Postnummer måste innehålla minst ' . ACCOUNT_POST_CODE . ' tecken.');
-define('ENTRY_CITY', 'Stad:');
-define('ENTRY_CITY_ERROR', 'Din Stad måste innehålla minst ' . ACCOUNT_CITY . ' tecken.');
-define('ENTRY_STATE', 'Län:');
-define('ENTRY_STATE_ERROR', 'Ditt Län måste innehålla minst ' . ACCOUNT_STATE . ' tecken.');
-define('ENTRY_STATE_ERROR_SELECT', 'Var vänlig och välj Län från menyn.');
-define('ENTRY_COUNTRY', 'Land:');
-define('ENTRY_COUNTRY_ERROR', 'Du måste välja Land från menyn.');
-define('ENTRY_TELEPHONE_NUMBER', 'Telefonnummer:');
-define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Ditt Telefonnummer måste innehålla minst ' . ACCOUNT_TELEPHONE . ' tecken.');
-define('ENTRY_FAX_NUMBER', 'Faxnummer:');
-define('ENTRY_FAX_NUMBER_ERROR', 'Ditt Faxnummer måste innehålla minst ' . ACCOUNT_FAX . ' tecken.');
-define('ENTRY_NEWSLETTER', 'Nyhetsbrev:');
-define('ENTRY_NEWSLETTER_YES', 'Prenumererad');
-define('ENTRY_NEWSLETTER_NO', 'Oprenumererad');
-define('ENTRY_PASSWORD', 'Lösenord:');
-define('ENTRY_PASSWORD_ERROR', 'Ditt Lösenord måste innehålla minst ' . ACCOUNT_PASSWORD . ' tecken.');
-define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'Bekräftelsen måste stämma överens med Lösenordet.');
-define('ENTRY_PASSWORD_CONFIRMATION', 'Bekräfta Lösenord:');
+ms_success_action_performed = Klart: Funktionen blev utförd.
+ms_success_upload_file_saved = Klart: Den uppskickade filen har sparats.
 
-// images
-define('IMAGE_ANI_SEND_EMAIL', 'Skicka E-Post');
-define('IMAGE_APPROVE', 'Godkänn');
-define('IMAGE_BACK', 'Tillbaka');
-define('IMAGE_BACKUP', 'Säkerhetskopia');
-define('IMAGE_BOX_REMOVE', 'Ta Bort Box');
-define('IMAGE_CANCEL', 'Avbryt');
-define('IMAGE_CONFIGURE', 'Konfigurera');
-define('IMAGE_CONFIRM', 'Bekräfta');
-define('IMAGE_COPY', 'Kopiera');
-define('IMAGE_COPY_TO', 'Kopiera Till');
-define('IMAGE_DEFAULT', 'Standard');
-define('IMAGE_DETAILS', 'Detaljer');
-define('IMAGE_DELETE', 'Ta Bort');
-define('IMAGE_EDIT', 'Editera');
-define('IMAGE_EDIT_DEFINITIONS', 'Editera Definitioner');
-define('IMAGE_EMAIL', 'Epost');
-define('IMAGE_EXECUTE', 'Kör');
-define('IMAGE_EXPORT', 'Exportera');
-define('IMAGE_FILE_MANAGER', 'Filhanteraren');
-define('IMAGE_ICON_STATUS_GREEN', 'Aktiv');
-define('IMAGE_ICON_STATUS_GREEN_LIGHT', 'Aktivera');
-define('IMAGE_ICON_STATUS_RED', 'Inaktiv');
-define('IMAGE_ICON_STATUS_RED_LIGHT', 'Inaktivera');
-define('IMAGE_IMPORT', 'Importera');
-define('IMAGE_INFO', 'Information');
-define('IMAGE_INSERT', 'Infoga');
-define('IMAGE_LOCK', 'Lås');
-define('IMAGE_LOG', 'Logg');
-define('IMAGE_LOGIN', 'Logga In');
-define('IMAGE_MODULE_INSTALL', 'Installera Modul');
-define('IMAGE_MODULE_REMOVE', 'Ta bort Modul');
-define('IMAGE_MOVE', 'Flytta');
-define('IMAGE_NEW_BANNER', 'Ny Reklambanderoll');
-define('IMAGE_NEW_CATEGORY', 'Ny Kategori');
-define('IMAGE_NEW_COUNTRY', 'Nytt Land');
-define('IMAGE_NEW_CURRENCY', 'Ny Valuta');
-define('IMAGE_NEW_FILE', 'Ny Fil');
-define('IMAGE_NEW_FOLDER', 'Ny Mapp');
-define('IMAGE_NEW_LANGUAGE', 'Nytt Språk');
-define('IMAGE_NEW_NEWSLETTER', 'Nytt Nyhetsbrev');
-define('IMAGE_NEW_PRODUCT', 'Ny Produkt');
-define('IMAGE_NEW_TAX_CLASS', 'Ny Skatteklass');
-define('IMAGE_NEW_TAX_RATE', 'Ny Skattesats');
-define('IMAGE_NEW_TAX_ZONE', 'Ny Skattezon');
-define('IMAGE_NEW_ZONE', 'Ny Zon');
-define('IMAGE_ORDERS', 'Ordrar');
-define('IMAGE_ORDERS_INVOICE', 'Faktura');
-define('IMAGE_ORDERS_PACKINGSLIP', 'Ordersedel');
-define('IMAGE_PREVIEW', 'Förhandsgranska');
-define('IMAGE_REJECT', 'Avstå');
-define('IMAGE_RESTORE', 'Återskapa');
-define('IMAGE_RESET', 'Återställ');
-define('IMAGE_SAVE', 'Spara');
-define('IMAGE_SEARCH', 'Sök');
-define('IMAGE_SELECT', 'Välj');
-define('IMAGE_SEND', 'Skicka');
-define('IMAGE_SEND_EMAIL', 'Skicka Epost');
-define('IMAGE_UNLOCK', 'Lås Upp');
-define('IMAGE_UPDATE', 'Uppdatera');
-define('IMAGE_UPDATE_CURRENCIES', 'Uppdatera Valutakurs');
-define('IMAGE_UPLOAD', 'Uppladdning');
+ms_warning_upload_no_file = Varning: Ingen fil uppskickad.
+ms_warning_uploads_disabled = Varning: Uppskickning av filer är avaktiverat i konfigurationsfilen php.ini.
 
-define('ICON_CROSS', 'Falskt');
-define('ICON_CURRENT_FOLDER', 'Nuvarande Mapp');
-define('ICON_DELETE', 'Ta Bort');
-define('ICON_ERROR', 'Fel');
-define('ICON_FILE', 'Fil');
-define('ICON_FILE_DOWNLOAD', 'Nedladdning');
-define('ICON_FOLDER', 'Mapp');
-define('ICON_LOCKED', 'Låst');
-define('ICON_PREVIOUS_LEVEL', 'Föregående Nivå');
-define('ICON_PREVIEW', 'Förhandsgranska');
-define('ICON_STATISTICS', 'Statistik');
-define('ICON_SUCCESS', 'Utfört');
-define('ICON_TICK', 'Sant');
-define('ICON_UNLOCKED', 'Olåst');
-define('ICON_WARNING', 'Varning');
-
-define('BUTTON_CANCEL', 'Avbryt');
-define('BUTTON_BACK', 'Tillbaka');
-define('BUTTON_DELETE', 'Ta Bort');
-define('BUTTON_INSERT', 'Infoga');
-define('BUTTON_OK', 'OK');
-define('BUTTON_SAVE', 'Spara');
-define('BUTTON_SEND', 'Skicka');
-
-define('ICON_FILES', 'Filer');
-define('ICON_ORDERS', 'Ordrar');
-define('ICON_PRODUCTS', 'Produkter');
-
-define('TEXT_RESULT_PAGE', 'Sida&nbsp;%s&nbsp;av&nbsp;%d');
-define('TEXT_DISPLAY_NUMBER_OF_ADMINISTRATORS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> administratörer)');
-define('TEXT_DISPLAY_NUMBER_OF_BANNERS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> reklambanderoller)');
-define('TEXT_DISPLAY_NUMBER_OF_CATEGORIES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kategorier)');
-define('TEXT_DISPLAY_NUMBER_OF_COUNTRIES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> länder)');
-define('TEXT_DISPLAY_NUMBER_OF_CREDIT_CARDS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kreditkort)');
-define('TEXT_DISPLAY_NUMBER_OF_CUSTOMERS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kunder)');
-define('TEXT_DISPLAY_NUMBER_OF_CURRENCIES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> valutor)');
-define('TEXT_DISPLAY_NUMBER_OF_ENTRIES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> poster)');
-define('TEXT_DISPLAY_NUMBER_OF_LANGUAGES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> språk)');
-define('TEXT_DISPLAY_NUMBER_OF_MANUFACTURERS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> tillverkare)');
-define('TEXT_DISPLAY_NUMBER_OF_NEWSLETTERS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> nyhetsbrev)');
-define('TEXT_DISPLAY_NUMBER_OF_ORDERS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> ordrar)');
-define('TEXT_DISPLAY_NUMBER_OF_ORDERS_STATUS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> order status)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> produktattribut)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCT_ATTRIBUTES_GROUPS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> produktattributsgrupper)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> produkter)');
-define('TEXT_DISPLAY_NUMBER_OF_PRODUCTS_EXPECTED', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kommande produkter)');
-define('TEXT_DISPLAY_NUMBER_OF_REVIEWS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> produktkommentarer)');
-define('TEXT_DISPLAY_NUMBER_OF_SPECIALS', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kampanjer)');
-define('TEXT_DISPLAY_NUMBER_OF_TAX_CLASSES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skatteklasser)');
-define('TEXT_DISPLAY_NUMBER_OF_TAX_ZONES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skattezoner)');
-define('TEXT_DISPLAY_NUMBER_OF_TAX_RATES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> skattesatser)');
-define('TEXT_DISPLAY_NUMBER_OF_WEIGHT_CLASSES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> viktklasser)');
-define('TEXT_DISPLAY_NUMBER_OF_WHOS_ONLINE', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> kunder online)');
-define('TEXT_DISPLAY_NUMBER_OF_ZONES', 'Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> zoner)');
-
-define('PREVNEXT_BUTTON_PREV', '&lt;&lt;');
-define('PREVNEXT_BUTTON_NEXT', '&gt;&gt;');
-
-define('TEXT_DEFAULT', 'standard');
-define('TEXT_SET_DEFAULT', 'Sätt som standard');
-define('TEXT_FIELD_REQUIRED', '&nbsp;<span class="fieldRequired">* Nödvändig</span>');
-define('TEXT_IMAGE_NONEXISTENT', 'BILD EXISTERAR EJ');
-
-define('ERROR_NO_DEFAULT_CURRENCY_DEFINED', 'Fel: Det finns för närvarande ingen standardvaluta vald. Var vänlig och välj en vid: Administration->Lokalt->Valutor');
-
-define('TEXT_CACHE_CATEGORIES', 'Kategori Box');
-define('TEXT_CACHE_MANUFACTURERS', 'Tillverkar Box');
-define('TEXT_CACHE_ALSO_PURCHASED', 'Även Köpt Modul');
-
-define('TEXT_NONE', '--ingen--');
-define('TEXT_TOP', 'Top');
-define('TEXT_TRUE', 'Sant');
-define('TEXT_FALSE', 'Falskt');
-define('TEXT_OPTIONAL', 'Frivilligt');
-define('TEXT_LEGEND', 'Legend');
-
-define('ERROR_DESTINATION_DOES_NOT_EXIST', 'Fel: Destination existerar ej.');
-define('ERROR_DESTINATION_NOT_WRITEABLE', 'Fel: Destination är skrivskyddad.');
-define('ERROR_FILE_NOT_REMOVEABLE', 'Fel: Jag kan ej flytta filen. Var vänlig och ändra användarrättigheterna vid: %s');
-define('ERROR_FILE_NOT_SAVED', 'Fel: Uppladdad fil ej sparad.');
-define('ERROR_FILETYPE_NOT_ALLOWED', 'Fel: Uppladdad filtyp ej tillåten.');
-define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Utfört: Uppladdad fil sparad.');
-define('WARNING_NO_FILE_UPLOADED', 'Varning: Ingen fil uppladdad.');
-define('WARNING_FILE_UPLOADS_DISABLED', 'Varning: Uppladdning av filer är avaktiverat i php.ini konfigurationsfil.');
-
-define('SUCCESS_DB_ROWS_UPDATED', 'Utfört: Post updaterad!');
-define('WARNING_DB_ROWS_NOT_UPDATED', 'Varning: Post ej updaterad på grund av att innehållet är detsamma.');
-define('ERROR_DB_ROWS_NOT_UPDATED', 'Fel: Post ej updaterad på grund av ett fel.');
-?>
+ms_error_action_not_performed = Fel: Det uppstod ett problem vid utförandet av funktionen.
+ms_error_no_default_currency = Fel: Det finns för närvarande ingen förvald valuta definierad.
+ms_error_upload_destination_non_existant = Fel: Destinationskatalogen existerar ej: %s
+ms_error_upload_destination_not_writable = Fel: Destinationskatalogen är skrivskyddad: %s
+ms_error_upload_file_not_saved = Fel: Den uppskickade filen sparades ej.
+ms_error_upload_file_type_prohibited = Fel: Filtypen av fil som skickades upp är ej tillåten.
+ms_error_file_not_removable = Fel: Denna fil kan ej tas bort: %s
+ms_error_directory_not_removable = Fel: Denna katalog kan ej tas bort: %s
