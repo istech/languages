@@ -18,22 +18,22 @@
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner</key>
-      <value><![CDATA[Konto Innehavaren:]]></value>
+      <value><![CDATA[Kontoinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_firstname</key>
-      <value><![CDATA[Konto Innehavarens Förnamn:]]></value>
+      <value><![CDATA[Kontoinnehavarens Förnamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_bank_owner_lastname</key>
-      <value><![CDATA[Konto Innehavarens Efternamn:]]></value>
+      <value><![CDATA[Kontoinnehavarens Efternamn:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_eft_account_type</key>
-      <value><![CDATA[Konto Typ:]]></value>
+      <value><![CDATA[Kontotyp:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

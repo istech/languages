@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_owner</key>
-      <value><![CDATA[Kontoinnehavaren:]]></value>
+      <value><![CDATA[Kontoinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -53,7 +53,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_routing_code</key>
-      <value><![CDATA[Clearings Kod:]]></value>
+      <value><![CDATA[Clearingskod:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -63,7 +63,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_org_type</key>
-      <value><![CDATA[Organisations Typ:]]></value>
+      <value><![CDATA[Organisationstyp:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -93,7 +93,7 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_js_routing_code</key>
-      <value><![CDATA[* Bankens clearings kod måste innehålla %s nummer.]]></value>
+      <value><![CDATA[* Bankens clearingskod måste innehålla %s nummer.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -108,12 +108,12 @@
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_routing_code</key>
-      <value><![CDATA[Clearings koden måste innehålla %s nummer. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
+      <value><![CDATA[Clearingskoden måste innehålla %s nummer. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_echeck_error_invalid_routing_code</key>
-      <value><![CDATA[Det uppstod ett problem med clearingsnummret. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
+      <value><![CDATA[Det uppstod ett problem med clearingskoden. Var vänlig och kontrollera kontouppgifterna och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

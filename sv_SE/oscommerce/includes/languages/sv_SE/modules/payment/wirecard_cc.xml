@@ -18,12 +18,12 @@
     </definition>
     <definition>
       <key>payment_wirecard_cc_credit_card_owner</key>
-      <value><![CDATA[Kreditkorts Innehavare:]]></value>
+      <value><![CDATA[Kreditkortsinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_credit_card_number</key>
-      <value><![CDATA[Kreditkorts Nummer:]]></value>
+      <value><![CDATA[Kreditkortsnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -38,12 +38,12 @@
     </definition>
     <definition>
       <key>payment_wirecard_cc_js_credit_card_owner</key>
-      <value><![CDATA[* Kredikorts innehavarens namn måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[* Kredikortsinnehavarens namn måste innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_wirecard_cc_js_credit_card_number</key>
-      <value><![CDATA[* Kreditkorts nummret måste innehålla %s tecken.]]></value>
+      <value><![CDATA[* Kreditkortsnummret måste innehålla %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -78,7 +78,7 @@
     </definition>
     <definition>
       <key>payment_wirecard_cc_error_unkown_card</key>
-      <value><![CDATA[Detta är ett okänt kreditkort som inte kan bearbetas. Var vänlig och försök igen med ett annat kort eller betalform.]]></value>
+      <value><![CDATA[Detta är ett okänt kreditkort som ej kan bearbetas. Var vänlig och försök igen med ett annat kort eller betalform.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>

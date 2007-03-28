@@ -3,7 +3,7 @@
   <definitions>
     <definition>
       <key>payment_authorizenet_cc_title</key>
-      <value><![CDATA[Authorize.net kreditkort]]></value>
+      <value><![CDATA[Authorize.net Kreditkort]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -18,12 +18,12 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_owner</key>
-      <value><![CDATA[Kreditkorts Innehavaren:]]></value>
+      <value><![CDATA[Kreditkortsinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_credit_card_number</key>
-      <value><![CDATA[Kreditkorts Nummer:]]></value>
+      <value><![CDATA[Kreditkortsnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -38,12 +38,12 @@
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_owner</key>
-      <value><![CDATA[* Kreditkorts innehavarens namn måste vara minst %s tecken.]]></value>
+      <value><![CDATA[* Kreditkortsinnehavarens namn måste vara minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_authorizenet_cc_js_credit_card_number</key>
-      <value><![CDATA[* Kreditkorts nummret måste vara minst %s tecken.]]></value>
+      <value><![CDATA[* Kreditkortsnummret måste vara minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

@@ -18,12 +18,12 @@
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_owner</key>
-      <value><![CDATA[Kreditkorts Innehavare:]]></value>
+      <value><![CDATA[Kreditkortsinnehavare:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_credit_card_number</key>
-      <value><![CDATA[Kreditkorts Nummer:]]></value>
+      <value><![CDATA[Kreditkortsnummer:]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
@@ -38,12 +38,12 @@
     </definition>
     <definition>
       <key>payment_payquake_cc_js_credit_card_owner</key>
-      <value><![CDATA[* Kreditkorts innehavarens namn måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[* Kreditkortsinnehavarens namn måste innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>
       <key>payment_payquake_cc_js_credit_card_number</key>
-      <value><![CDATA[* Kreditkorts nummret måste innehålla minst %s tecken.]]></value>
+      <value><![CDATA[* Kreditkortsnummret måste innehålla minst %s tecken.]]></value>
       <group>modules-payment</group>
     </definition>
     <definition>

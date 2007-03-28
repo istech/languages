@@ -18,7 +18,7 @@
     </definition>
     <definition>
       <key>payment_saferpay_vt_error_general</key>
-      <value><![CDATA[Det uppstod ett probelm vid bearbetningen av denna order. Var vänlig och kontrollera betalinformationen och försök igen.]]></value>
+      <value><![CDATA[Det uppstod ett problem vid bearbetningen av denna order. Var vänlig och kontrollera betalinformationen och försök igen.]]></value>
       <group>modules-payment</group>
     </definition>
   </definitions>
