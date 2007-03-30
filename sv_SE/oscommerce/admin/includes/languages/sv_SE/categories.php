@@ -13,7 +13,7 @@ heading_title = Kategorier
 
 operation_title_search = Sök:
 
-table_heading_category = Kategorier
+table_heading_categories = Kategorier
 table_heading_action = Funktion
 
 action_heading_new_category = Ny Kategori

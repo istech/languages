@@ -77,7 +77,7 @@ ms_error_post_code = Kundens postadress måste innehålla minst %s tecken.
 ms_error_city = Kundens stad måste innehålla minst %s tecken.
 ms_error_state = Kundens län måste innehålla minst %s tecken.
 ms_error_country = Var vänlig och välj det korrekta landet från Land menyn.
-ms_error_telephoné_number = Kundens telefon nummer måste innehålla minst %s tecken.
+ms_error_telephone_number = Kundens telefon nummer måste innehålla minst %s tecken.
 ms_error_fax_number = Kundens fax nummer måste innehålla minst %s tecken.
 
 ms_warning_state_select_from_list = Var vänlig och välj det korrekta länet från Län menyn.

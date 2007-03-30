@@ -47,6 +47,7 @@ field_expiry_date = Utgångs Datum:
 field_maximum_impressions = Max Antal Visningar:
 field_status = Status:
 field_delete_image = Ta Bort Reklambanderoll?
+
 introduction_new_banner = Var vänlig och ange följande information för den nya reklambanderollen.
 
 introduction_edit_banner = Var vänlig och gör nödvändiga ändringar för denna reklambanderollen.
@@ -60,5 +61,5 @@ info_banner_fields = <b>Reklambanderolls Notering:</b><ul><li>Använd en bild el
 <b>Utgångs Notering:</b><ul><li>Endast en av de två fälten ska användas.</li><li>Om reklambanderollen ej utgår automatiskt, lämna då dessa fält tomma.</li></ul>
 <b>Schema Notering:</b><ul><li>Om schemaläggning används, kommer reklambanderollen att aktiveras det datumet.</li><li>Alla schemalagda reklambanderoller är markerade avaktiverade tills deras start datum kommer, då de kommer att markeras aktiva.</li></ul>
 
-ms_error_graphs_directory_not_writable = Fel: Grafkatalogen är skrivskyddad: %s
 ms_error_graphs_directory_non_existant = Fel: Grafkatalogen existerar ej: %s
+ms_error_graphs_directory_not_writable = Fel: Grafkatalogen är skrivskyddad: %s

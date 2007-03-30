@@ -11,12 +11,12 @@
 
 heading_title = Länder
 
-table_heading_name = Land
+table_heading_countries = Land
 table_heading_code = ISO Koder
 table_heading_total_zones = Antal Zoner
 table_heading_action = Funktion
 
-table_heading_zone_name = Zonnamn
+table_heading_zones = Zonnamn
 table_heading_zone_code = Zonkod
 
 action_heading_new_country = Nytt Land

@@ -11,7 +11,7 @@
 
 heading_title = Språk
 
-table_heading_name = Språk
+table_heading_languages = Språk
 table_heading_total_definitions = Antal Definitioner
 table_heading_code = Kod
 table_heading_action = Funktion

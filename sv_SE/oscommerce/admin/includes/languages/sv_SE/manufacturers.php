@@ -12,8 +12,8 @@
 heading_title = Tillverkare
 
 table_heading_manufacturers = Tillverkare
-13  table_heading_url_clicks = URL Klickningar
-14  table_heading_action = Funktion
+table_heading_url_clicks = URL Klickningar
+table_heading_action = Funktion
 
 action_heading_new_manufacturer = Ny Tillverkare
 action_heading_batch_delete_manufacturers = Ta Bort Tillverkare I Grupp

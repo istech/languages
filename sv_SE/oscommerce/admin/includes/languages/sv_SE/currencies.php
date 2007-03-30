@@ -11,7 +11,7 @@
 
 heading_title = Valutor
 
-table_heading_name = Valuta
+table_heading_currencies = Valuta
 table_heading_code = Kod
 table_heading_value = Värde
 table_heading_example = Exempel

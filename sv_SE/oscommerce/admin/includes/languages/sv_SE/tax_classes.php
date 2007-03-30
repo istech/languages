@@ -11,7 +11,7 @@
 
 heading_title = Skatter
 
-table_heading_name = Namn
+table_heading_tax_classes = Skatteklass
 table_heading_total_rates = Antal Procentsatser
 table_heading_action = Funktion
 

@@ -18,5 +18,5 @@ table_heading_action = Funktion
 
 cache_location = Cache Katalog:
 
-ms_error_cache_directory_not_writable = Fel: Cachekatalogen är skrivskyddad: %s
 ms_error_cache_directory_non_existant = Fel: Cachekatalogen existerar ej: %s
+ms_error_cache_directory_not_writable = Fel: Cachekatalogen är skrivskyddad: %s

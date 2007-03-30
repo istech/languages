@@ -9,9 +9,9 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-heading_title = Zongrupp
+heading_title = Zongrupper
 
-table_heading_name = Zongrupp
+table_heading_zone_groups = Zongrupper
 table_heading_total_entries = Antal Poster
 table_heading_action = Funktion
 

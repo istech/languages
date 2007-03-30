@@ -11,7 +11,7 @@
 
 heading_title = Kreditkort
 
-table_heading_name = Namn
+table_heading_credit_cards = Kreditkort
 table_heading_sort_order = Sorterings Ordning
 table_heading_action = Funktion
 

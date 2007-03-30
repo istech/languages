@@ -24,7 +24,7 @@ field_password = Lösenord:
 add_to = Lägg Till
 remove_from = Ta Bort
 set_to = Sätt Som  
-global_access = Global Access
+global_access = Global Tillgång
 
 introduction_new_administrator = Var vänlig och ange följande information för den nya administratören.
 
@@ -33,6 +33,5 @@ introduction_batch_edit_administrators = Var vänlig och gör nödvändiga ändr
 
 introduction_delete_administrator = Var vänlig och bekräfta borttagning av denna administratör.
 introduction_batch_delete_administrators = Var vänlig och bekräfta borttagning av dessa administratörer.
-
 
 ms_error_username_already_exists = Fel: Administratörsnamn finns redan. Var vänlig och använd ett unikt namn till denna administratör.
