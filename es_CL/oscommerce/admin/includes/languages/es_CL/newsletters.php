@@ -1,39 +1,40 @@
-<?php
-/*
-  $Id: newsletters.php 1367 2007-03-05 22:44:16Z hpdl $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Gestor de Newsletters
 
-  Copyright (c) 2004 osCommerce
+action_heading_new_newsletter = Nuevo Newsletter
+action_heading_batch_delete_newsletters = Borrar A Los Newsletters En Grupo
 
-  Released under the GNU General Public License
-*/
+table_heading_newsletters = Newsletters
+table_heading_size = Tamaño
+table_heading_module = Módulo
+table_heading_sent = Enviado
+table_heading_action = Acción
+table_heading_email_addresses = Direcciones E-Mail
+table_heading_sent = Enviado
+table_heading_date_sent = Fecha Enviado
 
-define('HEADING_TITLE', 'Gestor de Newsletters');
+field_module = Módulo:
+field_title = Título:
+field_content = Contenido:
 
-define('TABLE_HEADING_NEWSLETTERS', 'Newsletters');
-define('TABLE_HEADING_SIZE', 'Tamaño');
-define('TABLE_HEADING_MODULE', 'Módulo');
-define('TABLE_HEADING_SENT', 'Enviado');
-define('TABLE_HEADING_ACTION', 'Acción');
-define('TABLE_HEADING_EMAIL_ADDRESS', 'Dirección E-Mail');
-define('TABLE_HEADING_DATE_SENT', 'Fecha Enviado');
+sending_please_wait = Por favor espere.. enviando newsletters. Por favor no interrumpir este proceso.
+sending_refreshing_page = Actualizando automáticamente la página para evitar un timeout del servidor..
+sending_finalized = Terminado. ¡Todos los newsletters han sido enviados!
 
-define('TEXT_HEADING_NEW_EMAIL', 'Nuevo E-Mail');
+introduction_new_newsletter = Por favor complete la información siguiente para el nuevo newsletter.
 
-define('TEXT_NEWSLETTER_MODULE', 'Módulo:');
-define('TEXT_NEWSLETTER_TITLE', 'Título de la Newsletter:');
-define('TEXT_NEWSLETTER_CONTENT', 'Contenido:');
+introduction_edit_newsletter = Por favor realize los cambios necesarios para este newsletter.
 
-define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar esta newsletter?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar las siguientes newsletters?');
+introduction_delete_newsletter = Por favor verifique el retiro de este newsletter.
 
-define('TEXT_PLEASE_WAIT', 'Por favor espere .. enviando newsletters ..<br /><br />¡Por favor no interrumpir este proceso!');
-define('TEXT_REFRESHING_PAGE', 'Actualizando automáticamente la página para evitar un timeout del servidor ..');
-define('TEXT_CONTINUE_MANUALLY', '.. o haga click aquí para continuar si no ocurre ningúna redirección en el plazo de 2 segundos ..');
-define('TEXT_FINISHED_SENDING_NEWSLETTERS', '¡Envios de boletines terminado!');
-
-define('ERROR_NEWSLETTER_TITLE', 'Error: Se requiere título de la newsletter');
-define('ERROR_NEWSLETTER_MODULE', 'Error: Se requiere módulo de la newsletter');
-?>
+introduction_batch_delete_newsletters = Por favor verifique el retiro de los siguientes newsletters.

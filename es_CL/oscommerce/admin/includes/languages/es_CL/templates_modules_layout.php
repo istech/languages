@@ -1,41 +1,41 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title_boxes = Disposición de los Módulos de la Plantilla: Cajas
+heading_title_content = Disposición de los Módulos de la Plantilla: Contenido
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_template_layout_module = Nuevo Módulo de la Disposición de la Plantilla
+action_heading_batch_delete_template_layout_modules = Borrar A Los Módulos De La Disposición De La Plantilla En Grupo
 
-  Released under the GNU General Public License
-*/
+table_heading_modules = Módulos
+table_heading_pages = Páginas
+table_heading_page_specific = Página Específica
+table_heading_group = Grupo
+table_heading_sort_order = Orden
+table_heading_action = Acción
 
-define('HEADING_TITLE_BOXES_LAYOUT', 'Disposición de las Cajas de Plantillas');
-define('HEADING_TITLE_CONTENT_LAYOUT', 'Disposición del Contenido de Plantillas');
+field_module = Módulo:
+field_modules = Módulos:
+field_pages = Páginas:
+field_page_specific = ¿Página Específica?
+field_group = Grupo
+field_group_new = Nuevo Grupo:
+field_sort_order = Orden
 
-define('TABLE_HEADING_BOXES', 'Cajas');
-define('TABLE_HEADING_TEMPLATES', 'Plantillas');
-define('TABLE_HEADING_PAGES', 'Páginas Contenidas');
-define('TABLE_HEADING_PAGE_SPECIFIC', 'Página Específica');
-define('TABLE_HEADING_GROUP', 'Grupo');
-define('TABLE_HEADING_SORT_ORDER', 'Orden');
-define('TABLE_HEADING_ACTION', 'Acción');
+please_select = -- Por Favor Elija --
 
-define('TEXT_INFO_HEADING_NEW_BOX_LAYOUT', 'Nueva Posición de la Caja');
+introduction_new_template_layout_module = Por favor complete la información siguiente para el nuevo módulo de la disposición de la plantilla.
 
-define('TEXT_INFO_BOXES', 'Cajas:');
-define('TEXT_INFO_PAGES', 'Páginas Contenidas:');
-define('TEXT_INFO_PAGE_SPECIFIC', 'Página Específica');
-define('TEXT_INFO_GROUP', 'Grupo:');
-define('TEXT_INFO_GROUP_NEW', 'Nuevo Grupo:');
-define('TEXT_INFO_SORT_ORDER', 'Orden:');
+introduction_edit_template_layout_module = Por favor realize los cambios necesarios para este módulo de la disposición de la plantilla.
 
-define('TEXT_PLEASE_SELECT', '--Por Favor Elija--');
+introduction_delete_template_layout_module = Por favor verifique el retiro de este módulo de la disposición de la plantilla.
 
-define('TEXT_INFO_INSERT_INTRO', 'Por favor introduzca la nueva posición de la caja con sus datos relacionados');
-define('TEXT_INFO_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar esta posición de la caja de la plantilla?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar las siguientes posiciones de la caja de la plantilla?');
-
-define('INFO_BOX_REMOVETEXT_INFO_DELETE_PROHIBITED', 'Advertencia: La plantilla predeterminada no puede ser quitada. Por favor elija otra plantilla como la predeterminada e intentelo de nuevo.');
-?>
+introduction_batch_delete_template_layout_modules = Por favor verifique el retiro de los siguientes módulos de la disposición de la plantilla.

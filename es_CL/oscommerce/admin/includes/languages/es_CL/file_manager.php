@@ -1,39 +1,54 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Gestor de Archivos
 
-  Copyright (c) 2007 osCommerce
+action_heading_upload_file = Subir Archivo
+action_heading_new_file = Nuevo Archivo
+action_heading_edit_file = Editar Archivo
+action_heading_new_directory = Nuevo Directorio
+action_heading_delete_entry = Borrar Entrada
 
-  Released under the GNU General Public License
-*/
+operation_heading_directory = Directorio:
 
-define('HEADING_TITLE', 'Gestor de Archivos');
+table_heading_files = Archivos
+table_heading_size = Tamaño
+table_heading_permissions = Permisos
+table_heading_user = Usuario
+table_heading_group = Grupo
+table_heading_writable = Escribible
+table_heading_date_last_modified = Última Modificación
+table_heading_action = Acción
 
-define('TABLE_HEADING_FILENAME', 'Nombre');
-define('TABLE_HEADING_SIZE', 'Tamaño');
-define('TABLE_HEADING_PERMISSIONS', 'Permisos');
-define('TABLE_HEADING_USER', 'Usario');
-define('TABLE_HEADING_GROUP', 'Grupo');
-define('TABLE_HEADING_WRITEABLE', 'Escribible');
-define('TABLE_HEADING_LAST_MODIFIED', 'Última Modificación');
-define('TABLE_HEADING_ACTION', 'Acción');
+field_file = Archivo:
+field_file_name = Nombre de Archivo:
+field_file_contents = Contenido de Archivo:
+field_directory_name = Nombre de Directorio:
 
-define('TEXT_INFO_HEADING_UPLOAD', 'Subir');
-define('TEXT_FILE_NAME', 'Archivo:');
-define('TEXT_FILE_SIZE', 'Tamaño:');
-define('TEXT_FILE_CONTENTS', 'Contenido:');
-define('TEXT_LAST_MODIFIED', 'Última Modificación:');
-define('TEXT_NEW_FOLDER', 'Nuevo Directorio');
-define('TEXT_NEW_FOLDER_INTRO', 'Introduzca el nombre para la carpeta nueva:');
-define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este archivo?');
-define('TEXT_UPLOAD_INTRO', 'Por favor seleccione los archivos para subir.');
+top_level = -- Top --
+parent_level = -- Pariente --
 
-define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Error: No puede escribir a este directorio. Por favor ajuste los permisos del usuario: %s');
-define('ERROR_FILE_NOT_WRITEABLE', 'Error: No puede escribir a este archivo. Por favor ajuste los permisos del usuario: %s');
-define('ERROR_DIRECTORY_NOT_REMOVEABLE', 'Error: No puede borrar este directorio. Por favor ajuste los permisos del usuario: %s');
-define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio no existe: %s');
-define('ERROR_DIRECTORY_EXISTS', 'Error: El directorio existe: %s');
-?>
+introduction_upload_file = Por favor seleccione los archivos para subir a este directorio.
+upload_error_directory_not_writable = Error: Archivos no pueden ser subidos porque este directorio no es escribible: %s
+
+introduction_new_file = Por favor complete la información siguiente para el nuevo archivo.
+
+introduction_edit_file = Por favor realize los cambios necesarios para este archivo.
+
+introduction_new_directory = Por favor complete la información siguiente para el nuevo directorio.
+new_directory_error_not_writable = Error: Este directorio no es escribible: %s
+
+introduction_delete_entry = Por favor verifique el retiro de esta entrada.
+delete_error_not_writable = Error: Esta entrada no es escribible o no puede ser quitada: %s
+
+ms_error_directory_not_writable = Error: Este directorio no es escribible: %s
+ms_error_file_not_writable = Error: Este archivo no es escribible: %s
+ms_error_download_link_invalid = Error: Este archivo no puede ser descargado.

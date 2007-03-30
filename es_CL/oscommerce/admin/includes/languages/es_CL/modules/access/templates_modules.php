@@ -1,16 +1,14 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('ACCESS_TEMPLATES_MODULES_TITLE', 'Módulos de Plantillas');
-define('ACCESS_TEMPLATES_MODULES_BOXES_TITLE', 'Cajas');
-define('ACCESS_TEMPLATES_MODULES_CONTENT_TITLE', 'Contenido');
-?>
+access_templates_modules_title = Módulos de Plantillas
+access_templates_modules_boxes_title = Cajas
+access_templates_modules_content_title = Contenido

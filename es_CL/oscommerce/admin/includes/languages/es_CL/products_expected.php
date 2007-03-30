@@ -1,22 +1,20 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Proximós Productos
 
-  Copyright (c) 2007 osCommerce
+table_heading_products = Productos
+table_heading_date_expected = Fecha Esperada
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+field_date_expected = Fecha Esperada:
 
-define('HEADING_TITLE', 'Proximós Productos');
-
-define('TABLE_HEADING_PRODUCTS', 'Productos');
-define('TABLE_HEADING_DATE_EXPECTED', 'Fecha de Entrada');
-define('TABLE_HEADING_ACTION', 'Acción');
-
-define('TEXT_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-
-define('TEXT_INFO_DATE_EXPECTED', 'Fecha Esperada:');
-?>
+introduction_edit_product_expected = Por favor realize los cambios necesarios para este producto.

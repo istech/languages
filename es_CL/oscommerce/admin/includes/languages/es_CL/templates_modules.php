@@ -1,23 +1,25 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title_boxes = Módulos de la Plantilla: Cajas
+heading_title_content = Módulos de la Platilla: Contenido
 
-  Copyright (c) 2007 osCommerce
+table_heading_modules = Módulos
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+field_title = Título:
+field_author = Autor:
 
-define('HEADING_TITLE_MODULES_BOXES', 'Cajas');
-define('HEADING_TITLE_MODULES_CONTENT', 'Módulos de Contenido');
+modules_location = Directorio de los Módulos:
 
-define('TABLE_HEADING_MODULES', 'Cajas');
-define('TABLE_HEADING_STATUS', 'Estado');
-define('TABLE_HEADING_ACTION', 'Acción');
+introduction_edit_module = Por favor realize los cambios necesarios para este módulo.
 
-define('TEXT_DIRECTORY', 'Directorio:');
-
-define('INFO_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(Todos los parámetros del módulo serán borrados)');
-?>
+introduction_uninstall_module = Por favor verifique la desinstalación de este módulo.

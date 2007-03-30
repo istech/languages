@@ -1,25 +1,22 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Control de Caché
 
-  Copyright (c) 2007 osCommerce
+table_heading_cache_blocks = Bloques de Caché
+table_heading_total = Total
+table_heading_date_last_modified = Última Modificación
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+cache_location = Directorio Caché:
 
-define('HEADING_TITLE', 'Control de Caché');
-
-define('TABLE_HEADING_CACHE', 'Bloques de Cache');
-define('TABLE_HEADING_TOTAL', 'Total');
-define('TABLE_HEADING_LAST_MODIFIED', 'Última Modificación');
-define('TABLE_HEADING_ACTION', 'Acción');
-
-define('TEXT_FILE_DOES_NOT_EXIST', 'El archivo no existe');
-define('TEXT_CACHE_DIRECTORY', 'Directorio Caché:');
-
-define('ERROR_CACHE_DIRECTORY_DOES_NOT_EXIST', 'Error:  Directorio cache no existe. Por favor ajuste esta configuración->Caché.');
-define('ERROR_CACHE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio caché.');
-?>
+ms_error_cache_directory_not_writable = Error: El directorio del caché no es escribible: %s
+ms_error_cache_directory_non_existant = Error: El directorio del caché no existe: %s

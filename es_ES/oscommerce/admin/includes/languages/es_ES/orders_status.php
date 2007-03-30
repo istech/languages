@@ -1,30 +1,35 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Estados de Pedidos
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_order_status = Nuevo Estado de Pedido
+action_heading_batch_delete_order_statuses = Borrar A Los Estados De Pedidos En Grupo
 
-  Released under the GNU General Public License
-*/
+table_heading_order_statuses = Estados de Pedidos
+table_heading_action = Acción
 
-define('HEADING_TITLE', 'Estado de Pedidos');
+field_name = Nombre:
+field_set_as_default = ¿Fijar como Predeterminado?
 
-define('TABLE_HEADING_ORDERS_STATUS', 'Estado de Pedidos');
-define('TABLE_HEADING_ACTION', 'Acción');
+introduction_new_order_status = Por favor complete la información siguiente para el nuevo estado de pedido.
 
-define('TEXT_INFO_INSERT_INTRO', 'Por favor introduzca el nuevo estado de los pedidos y sus datos relacionados');
-define('TEXT_INFO_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este estado del pedido?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguientes estados del pedido?');
+introduction_edit_order_status = Por favor realize los cambios necesarios para este estado de pedido.
 
-define('TEXT_INFO_ORDERS_STATUS_NAME', 'Estado del Pedido:');
+introduction_delete_order_status = Por favor verifique el retiro de este estado de pedido.
+delete_error_order_status_prohibited = Error: El estado de pedido predeterminado no puede ser quitado. Por favor fijar otro estado de pedido como el predeterminado y intente otra vez.
+delete_error_order_status_in_use = Error: Este estado de pedido se asigna a las órdenes de %s y actualmente no puede ser quitado.
+delete_error_order_status_used = Error: Este estado de pedido es actualmente asignado a %s pedidos y no puede ser quitado.
 
-define('TEXT_INFO_HEADING_NEW_ORDERS_STATUS', 'Nuevo Estado del Pedido');
-
-define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: El estado predeterminado del pedido no puede ser borrado. Por favor elija otro estado del pedido como el predeterminado, e inténtelo de nuevo.');
-define('TEXT_INFO_DELETE_PROHIBITED_ORDERS', 'Advertencia: Este estado de pedido se usa actualmene en %s pedidos y no puede ser borrado.');
-define('TEXT_INFO_DELETE_PROHIBITED_HISTORY', 'Advertencia: Este estado de pedido se usa en el historial de %s pedidos y no puede ser eliminado.');
-?>
+introduction_batch_delete_order_statuses = Por favor verifique el retiro de los siguientes estados de pedido.
+batch_delete_error_order_status_prohibited = Error: El estado de pedido predeterminado no puede ser quitado. Por favor fijar otro estado de pedido como el predeterminado y intente otra vez.
+batch_delete_error_order_status_in_use = Error: Uno o más estados de pedido esta actualmente asignado a pedidos y no pueden ser quitados.
+batch_delete_error_order_status_used = Error: Uno o más estados de pedido se han utilizado en pedidos y no pueden ser quitados.

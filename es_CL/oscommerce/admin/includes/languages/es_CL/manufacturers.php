@@ -1,46 +1,39 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Fabricantes
 
-  Copyright (c) 2007 osCommerce
+table_heading_manufacturers = Fabricantes
+table_heading_url_clicks = Visitas
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+action_heading_new_manufacturer = Nuevo Fabricante
+action_heading_batch_delete_manufacturers = Borrar A Los Fabricantes En Grupo
 
-define('HEADING_TITLE', 'Fabricantes');
+field_name = Nombre:
+field_image = Imagen:
+field_url = Dirección URL:
+field_delete_image = ¿Borrar imagen?
+field_delete_products = ¿Borrar productos?
+field_batch_delete_images = ¿Borrar imágenes?
 
-define('TABLE_HEADING_MANUFACTURERS', 'Fabricantes');
-define('TABLE_HEADING_URL_CLICKS', 'Visitas');
-define('TABLE_HEADING_ACTION', 'Acción');
+total_entries = %s Productos
 
-define('TEXT_HEADING_NEW_MANUFACTURER', 'Nuevo Fabricante');
-define('TEXT_HEADING_EDIT_MANUFACTURER', 'Editar Fabricante');
-define('TEXT_HEADING_DELETE_MANUFACTURER', 'Borrar Fabricante');
+introduction_new_manufacturer = Por favor complete la información siguiente para el nuevo fabricante.
 
-define('TEXT_MANUFACTURERS', 'Fabricantes:');
-define('TEXT_DATE_ADDED', 'Fecha Agregada:');
-define('TEXT_LAST_MODIFIED', 'Última Modificación:');
-define('TEXT_PRODUCTS', 'Productos:');
+introduction_edit_manufacturer = Por favor realize los cambios necesarios para este fabricante.
 
-define('TEXT_NEW_INTRO', 'Por favor complete la información siguiente para el nuevo fabricante');
-define('TEXT_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
+introduction_delete_manufacturer = Por favor verifique el retiro de este fabricante.
 
-define('TEXT_MANUFACTURERS_NAME', 'Nombre del Fabricante:');
-define('TEXT_MANUFACTURERS_IMAGE', 'Imágen del Fabricante:');
-define('TEXT_MANUFACTURERS_URL', 'URL del Fabricante:');
+introduction_batch_delete_manufacturers = Por favor verifique el retiro de los siguientes fabricantes.
 
-define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este fabricante?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar estos fabricantes?');
-define('TEXT_DELETE_IMAGE', '¿Borrar la imágen del fabricante?');
-define('TEXT_DELETE_BATCH_IMAGES', '¿Borrar estas imáges del fabricante?');
-define('TEXT_DELETE_PRODUCTS', '¿Borrar productos de este fabricante? (incluyendo comentarios del producto, productos en especiales, próximos productos, ..)');
-define('TEXT_DELETE_BATCH_PRODUCTS', '¿Borrar productos de estos fabricantes? (incluyendo comentarios del producto, productos en especiales, próximos productos, ..)');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> ¡Hay %s productos que todavía estan relacionados con este fabricante!');
-
-define('ERROR_MANUFACTURER_NAME', 'Error: El nombre del fabricante no puede estar vacío');
-define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de las imágenes del fabricante: ' . realpath('../images/manufacturers'));
-define('ERROR_MANUFACTURERS_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de las imágenes del fabricante no existe: ' . realpath('../images/manufacturers'));
-?>
+ms_error_image_directory_not_writable = Error: El directorio de las imágenes del fabricante no es escribible: %s
+ms_error_image_directory_non_existant = Error: El directorio de las imágenes del fabricante no existe: %s

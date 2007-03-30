@@ -1,50 +1,44 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Gestor de Copias de Seguridad de la Base de Datos
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_backup = Nueva Copia de Seguridad de la Base de Datos
+action_heading_restore_local_file = Restaurar Localmente
+action_heading_batch_delete_backup_files = Borrar A Las Copias De Seguridad De La Base De Datos En Grupo
 
-  Released under the GNU General Public License
-*/
+table_heading_backups = Copias de Seguridad
+table_heading_date = Fecha
+table_heading_file_size = Tamaño
+table_heading_action = Acción
 
-define('HEADING_TITLE', 'Gestor de Copias de Seguridad de la Base de Datos');
+field_compression_none = No Compresión
+field_compression_gzip = GZIP Compresión
+field_compression_zip = ZIP Compresión
+field_download_only = Descargar Solamente Sin Guardar
 
-define('TABLE_HEADING_TITLE', 'Título');
-define('TABLE_HEADING_FILE_DATE', 'Fecha');
-define('TABLE_HEADING_FILE_SIZE', 'Tamaño');
-define('TABLE_HEADING_ACTION', 'Acción');
+backup_location = Directorio de Copias de Seguridad de la Base de Datos:
+last_restoration_date = Última Fecha de Restauración:
+forget_restoration_date = Olvide la Fecha de Restauración
 
-define('TEXT_INFO_HEADING_NEW_BACKUP', 'Nuevo Backup');
-define('TEXT_INFO_HEADING_RESTORE_LOCAL', 'Restaurar Localmente');
-define('TEXT_INFO_NEW_BACKUP', 'No interrumpir el proceso de copia de seguridad que puede llevar unos minutos.');
-define('TEXT_INFO_UNPACK', '<br /><br />(después de extraer el archivo del archivo)');
-define('TEXT_INFO_RESTORE', 'No interrumpir el proceso de la restauración.<br /><br />¡Cuanto más grande es la copia de seguridad, más dura este proceso!<br /><br />Si es posible, usa el cliente del mysql en linea de comandos.<br /><br />Ejemplo:<br /><br /><b>mysql -h' . DB_SERVER . ' -u' . DB_SERVER_USERNAME . ' -p ' . DB_DATABASE . ' < %s </b> %s');
-define('TEXT_INFO_RESTORE_LOCAL', 'No interrumpa el proceso de la restauración.<br /><br />¡Cuanto más grande es la copia de seguridad, más dura este proceso!');
-define('TEXT_INFO_RESTORE_LOCAL_RAW_FILE', 'El archivo debe ser un archivo raw de sql (texto).');
-define('TEXT_INFO_DATE', 'Fecha:');
-define('TEXT_INFO_SIZE', 'Tamaño:');
-define('TEXT_INFO_COMPRESSION', 'Compresión:');
-define('TEXT_INFO_USE_GZIP', 'Usa GZIP');
-define('TEXT_INFO_USE_ZIP', 'Usa ZIP');
-define('TEXT_INFO_USE_NO_COMPRESSION', 'Sin Compresión (Puro SQL)');
-define('TEXT_INFO_DOWNLOAD_ONLY', 'Descargar solamente (no guardar en el servidor)');
-define('TEXT_INFO_BEST_THROUGH_HTTPS', 'Mejor a través de una conexión de HTTPS');
-define('TEXT_DELETE_INTRO', '¿Esta seguro que quiere borrar este backup?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguientes backups?');
-define('TEXT_NO_EXTENSION', 'Ninguno');
-define('TEXT_BACKUP_DIRECTORY', 'Directorio de Backup:');
-define('TEXT_LAST_RESTORATION', 'Última Restauración:');
-define('TEXT_FORGET', '(<u>olvida</u>)');
+introduction_new_backup = Por favor complete la información siguiente para la nueva copia de seguridad de la base de datos.
 
-define('ERROR_BACKUP_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de backup no existe. Por favor establezca esto en configure.php.');
-define('ERROR_BACKUP_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de backup.');
-define('ERROR_DOWNLOAD_LINK_NOT_ACCEPTABLE', 'Error: El link de descarga no es aceptable.');
+introduction_restore_file = Por favor verifique la restauración de la siguiente copia de seguridad de la base de datos.
 
-define('SUCCESS_LAST_RESTORE_CLEARED', 'Exito: La fecha de la última restauración ha sido quitada.');
-define('SUCCESS_DATABASE_SAVED', 'Exito: Se ha guardado la base de datos.');
-define('SUCCESS_DATABASE_RESTORED', 'Exito: Se ha restaurado la base de datos.');
-define('SUCCESS_BACKUP_DELETED', 'Exito: Se ha borrado el backup.');
-?>
+introduction_restore_local_file = Por favor seleccione la copia de seguridad de la base de datos para restaurar.
+
+introduction_delete_backup_file = Por favor verifique el retiro de esta copia de seguridad de la base de datos.
+
+introduction_batch_delete_backup_files = Por favor verifique el retiro de las siguientes copias de seguridad de la base de datos.
+
+ms_error_backup_directory_not_writable = Error: El directorio de las copias de seguridad de la base de datos no es escribible: %s
+ms_error_backup_directory_non_existant = Error: El directorio de las copias de seguridad de la base de datos no existe: %s
+ms_error_download_link_not_acceptable = Error: El link de descarga no es aceptable.

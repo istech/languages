@@ -1,28 +1,25 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Información del Servidor
 
-  Copyright (c) 2007 osCommerce
+field_server_host = Host del Servidor:
+field_server_operating_system = Sistema Operativo del Servidor:
+field_server_date = Fecha del Servidor:
+field_server_up_time = Tiempo Online del Servidor:
+field_http_server = Servidor HTTP:
+field_php_version = Versión PHP:
+field_database_host = Host de la Base de Datos:
+field_database_version = Base de Datos:
+field_database_date = Fecha de la Base de Datos:
+field_database_up_time = Tiempo Online de la Base de Datos:
 
-  Released under the GNU General Public License
-*/
-
-define('HEADING_TITLE', 'Información del Servidor');
-
-define('TITLE_SERVER_HOST', 'Host del Servidor:');
-define('TITLE_SERVER_OS', 'Sistema Operativo del Servidor:');
-define('TITLE_SERVER_DATE', 'Fecha del servidor:');
-define('TITLE_SERVER_UP_TIME', 'Tiempo Online del Servidor:');
-define('TITLE_HTTP_SERVER', 'Servidor HTTP:');
-define('TITLE_PHP_VERSION', 'Versión PHP:');
-define('TITLE_ZEND_VERSION', 'Zend:');
-define('TITLE_DATABASE_HOST', 'Host de la Base de Datos:');
-define('TITLE_DATABASE', 'Base de Datos:');
-define('TITLE_DATABASE_DATE', 'Fecha de la Base de Datos:');
-define('TITLE_DATABASE_UP_TIME', 'Tiempo Online de la Base de Datos:');
-
-define('TEXT_MORE_INFORMATION', 'más información');
-?>
+more_information = más información

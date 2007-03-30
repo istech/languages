@@ -1,32 +1,35 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Grupos de Imágenes
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_image_group = Nuevo Grupo de Imágenes
+action_heading_batch_delete_image_groups = Borrar A Los Grupos De Imágenes En Grupo
 
-  Released under the GNU General Public License
-*/
+table_heading_image_groups = Grupos de Imágenes
+table_heading_action = Acción
 
-define('HEADING_TITLE', 'Grupos de Imágenes');
+field_title = Título:
+field_code = Código:
+field_width = Anchura:
+field_height = Altura:
+field_force_size = Forzar Tamaño:
+field_set_as_default = ¿Fijar como Predeterminado?
 
-define('TABLE_HEADING_IMAGE_GROUPS', 'Grupos de Imágenes');
-define('TABLE_HEADING_ACTION', 'Acción');
+introduction_new_image_group = Por favor complete la información siguiente para el nuevo grupo de imágenes.
 
-define('TEXT_INFO_INSERT_INTRO', 'Por favor introduzca un nuevo grupo de imágenes con sus datos relacionados');
-define('TEXT_INFO_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro de que quiere borrar este grupo de imágenes? (Las imágenes deben ser borradas manualmente)');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro de que quiere borrar los siguientes grupos de imágenes?');
+introduction_edit_image_group = Por favor realize los cambios necesarios para esta categoría.
 
-define('TEXT_IMAGE_GROUP_TITLE', 'Título:');
-define('TEXT_IMAGE_GROUP_CODE', 'Código:');
-define('TEXT_IMAGE_GROUP_WIDTH', 'Ancho:');
-define('TEXT_IMAGE_GROUP_HEIGHT', 'Alto:');
-define('TEXT_IMAGE_GROUP_FORCE_SIZE', 'Forzar Tamaño:');
+introduction_delete_image_group = Por favor verifique el retiro de este grupo de imágenes.
+delete_error_image_group_prohibited = Error: El grupo de imágenes predeterminado no puede ser quitado. Por favor fijar a otro grupo de imágenes como el grupo predeterminado y intente otra vez.
 
-define('TEXT_INFO_HEADING_NEW_IMAGE_GROUP', 'Nuevo Grupo de Imágenes');
-
-define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: El grupo predeterminado de las imágenes no puede ser borrado. Por favor elija otro grupo como el predeterminado, e inténtelo de nuevo.');
-?>
+introduction_batch_delete_image_groups = Por favor verifique el retiro de los siguientes grupos de imágenes.
+batch_delete_error_image_group_prohibited = Error: El grupo de imágenes predeterminado no puede ser quitado. Por favor fijar a otro grupo de imágenes como el grupo predeterminado y intente otra vez.

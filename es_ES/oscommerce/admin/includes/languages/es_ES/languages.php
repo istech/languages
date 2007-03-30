@@ -1,11 +1,13 @@
-# $Id: $
+﻿# $Id: $
 #
 # osCommerce, Open Source E-Commerce Solutions
 # http://www.oscommerce.com
 #
 # Copyright (c) 2007 osCommerce
 #
-# Released under the GNU General Public License
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
 heading_title = Lenguajes
 
@@ -18,7 +20,7 @@ table_heading_definition_groups = Grupos de Definición
 table_heading_total_definitions = Definiciones Totales
 
 action_heading_import_language = Importar Lenguaje
-action_heading_batch_delete_languages = Borrar a los Lenguajes en Grupo
+action_heading_batch_delete_languages = Borrar A Los Lenguajes En Grupo
 action_heading_new_language_definition = Nueva Definición del Lenguaje
 
 field_name = Nombre:
@@ -51,9 +53,9 @@ introduction_import_language = Por favor seleccione qué lenguaje para importar 
 
 introduction_export_language = Por favor seleccione qué grupo para exportar del lenguaje seleccionado.
 
-introduction_delete_language = Por favor verifice el retiro de este lenguaje.
-introduction_delete_language_invalid = El lenguaje predeterminado no puede ser retirado. Por favor fijar otro lenguaje como predeterminado y inténtelo de nuevo.
-introduction_batch_delete_languages = Por favor verifice el retiro de estos lenguajes.
+introduction_delete_language = Por favor verifique el retiro de este lenguaje.
+introduction_delete_language_invalid = El lenguaje predeterminado no puede ser retirado. Por favor fijar otro lenguaje como predeterminado y intente otra vez.
+introduction_batch_delete_languages = Por favor verifique el retiro de estos lenguajes.
 
 introduction_edit_language_definitions = Por favor realize los cambios necesarios a las definiciones siguientes de este lenguaje.
 

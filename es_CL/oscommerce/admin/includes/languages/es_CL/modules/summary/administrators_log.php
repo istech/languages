@@ -1,18 +1,15 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('MODULE_SUMMARY_ADMINISTRATORS_LOG_TITLE', 'Administradores Log');
-
-define('MODULE_SUMMARY_ADMINISTRATORS_LOG_USER', 'Administrador');
-define('MODULE_SUMMARY_ADMINISTRATORS_LOG_MODULE', 'Módulo');
-define('MODULE_SUMMARY_ADMINISTRATORS_LOG_DATE', 'Fecha');
-?>
+summary_administrators_log_title = Log De Administradores
+summary_administrators_log_table_heading_users = Usuarios
+summary_administrators_log_table_heading_module = Módulo
+summary_administrators_log_table_heading_date = Fecha

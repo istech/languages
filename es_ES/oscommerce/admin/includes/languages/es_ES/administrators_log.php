@@ -1,32 +1,35 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Log De Administradores
 
-  Copyright (c) 2007 osCommerce
+operation_title_filter_modules = Módulos:
+operation_title_filter_users = Usuarios:
 
-  Released under the GNU General Public License
-*/
+action_heading_batch_delete_entries = Borrar A Las Entradas Del Log De Administradores En Grupo
 
-define('HEADING_TITLE', 'Administradores Log');
+table_heading_module = Módulo
+table_heading_id = ID
+table_heading_type = Tipo
+table_heading_user = Usuario
+table_heading_date = Fecha
+table_heading_action = Acción
+table_heading_fields = Campos
+table_heading_value_old = Valor Antiguo
+table_heading_value_new = Valor Nuevo
 
-define('TABLE_HEADING_MODULE', 'Módulo');
-define('TABLE_HEADING_ID', 'ID');
-define('TABLE_HEADING_TYPE', 'Tipo');
-define('TABLE_HEADING_USER', 'Usuario');
-define('TABLE_HEADING_DATE', 'Fecha');
-define('TABLE_HEADING_ACTION', 'Acción');
+field_date = Fecha:
 
-define('TABLE_HEADING_FIELD', 'Campo');
-define('TABLE_HEADING_OLD_VALUE', 'Antiguo');
-define('TABLE_HEADING_NEW_VALUE', 'Nuevo Valor');
+filter_all = -- Todo --
 
-define('TEXT_MODULES', 'Módulos:');
-define('TEXT_USERS', 'Usuarios:');
-define('TEXT_DATE', 'Fecha:');
+introduction_delete_entry = Por favor verifique el retiro de esta entrada del log de administrator.
 
-define('TEXT_DELETE_INTRO', '¿Estas seguro que quiere borrar esta entrada del registro del administrador?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Estas seguro que quiere borrar las siguientes entradas del log del administrador?');
-?>
+introduction_batch_delete_entries = Por favor verifique el retiro de las siguientes entradas del log de administrator.

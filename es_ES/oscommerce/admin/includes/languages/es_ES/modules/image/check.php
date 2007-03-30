@@ -1,17 +1,14 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('MODULE_IMAGE_CHECK', 'Comprobar Imágenes');
-
-define('MODULE_IMAGE_CHECK_GROUPS', 'Grupos');
-define('MODULE_IMAGE_CHECK_RESULTS', 'Imágenes Existentes / Imágenes Totales');
-?>
+images_check_title = Comprobar Imágenes
+images_check_table_heading_groups = Grupos
+images_check_table_heading_results = Imágenes Existentes / Imágenes Totales

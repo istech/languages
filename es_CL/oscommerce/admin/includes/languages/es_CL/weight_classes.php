@@ -1,32 +1,35 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Tipos de Peso
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_weight_class = Nuevo Tipo de Peso
+action_heading_batch_delete_weight_classes = Borrar A Los Tipos De Peso En Grupo
 
-  Released under the GNU General Public License
-*/
+table_heading_weight_classes = Tipos de Peso
+table_heading_unit = Unidad
+table_heading_action = Acción
 
-define('HEADING_TITLE', 'Tipos de Peso');
+field_title_and_code = Título / Código:  
+field_rules = Reglas:
+field_set_as_default = ¿Fijar como Predeterminada?
 
-define('TABLE_HEADING_WEIGHT_CLASSES_TITLE', 'Descripción');
-define('TABLE_HEADING_WEIGHT_CLASSES_UNIT', 'Unidad');
-define('TABLE_HEADING_ACTION', 'Acción');
+introduction_new_weight_class = Por favor complete la información siguiente para el nuevo tipo de peso.
 
-define('TEXT_INFO_INSERT_INTRO', 'Por favor introduzca el nuevo tipo de peso con sus datos relacionados');
-define('TEXT_INFO_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_INFO_DELETE_INTRO', '¿Está seguro de que quiere borrar este tipo de peso?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Estas seguro que quieres borrar las siguientes clases del peso?');
+introduction_edit_weight_class = Por favor realize los cambios necesarios para este tipo de peso.
 
-define('TEXT_INFO_WEIGHT_CLASS_TITLE', 'Tipo de Peso / Unidad:');
-define('TEXT_INFO_CLASS_DESCRIPTION', 'Título:');
+introduction_delete_weight_class = Por favor verifique el retiro de este tipo de peso.
+delete_error_weight_class_prohibited = Error: El tipo de peso predeterminado no puede ser quitado. Por favor fijar otro tipo de peso como el predeterminado y intente otra vez.
+delete_error_weight_class_in_use = Error: Este tipo de peso esta asignada a %s productos y actualmente no puede ser quitada.
 
-define('TEXT_INFO_HEADING_NEW_WEIGHT_CLASS', 'Nuevo Tipo de Peso');
-define('TEXT_INFO_HEADING_EDIT_WEIGHT_RULES', 'Reglas de Conversión');
-
-define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: El tipo de peso predeterminado no puede ser quitado. Por favor elija otro tipo de peso como predeterminado, e inténtelo de nuevo.');
-define('TEXT_INFO_DELETE_PROHIBITED_PRODUCTS', 'Advertencia: Este tipo de peso se usa actualmente en %s productos y no puede ser quitado.');
-?>
+introduction_batch_delete_weight_classes = Por favor verifique el retiro de los siguientes tipos de peso.
+batch_delete_error_weight_class_prohibited = Error: El tipo de peso predeterminado no puede ser quitado. Por favor fijar otro tipo de peso como el predeterminado y intente otra vez.
+batch_delete_error_weight_class_in_use = Error: Uno o más tipos de peso esta asignada a los productos y actualmente no pueden ser quitadas.

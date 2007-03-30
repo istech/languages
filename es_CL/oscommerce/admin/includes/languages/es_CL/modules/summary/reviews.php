@@ -1,19 +1,16 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
-
-  Copyright (c) 2007 osCommerce
-
-  Released under the GNU General Public License
-*/
-
-define('MODULE_SUMMARY_REVIEWS_TITLE', 'Últimos Comentarios');
-
-define('MODULE_SUMMARY_REVIEWS_HEADING_PRODUCTS', 'Productos');
-define('MODULE_SUMMARY_REVIEWS_HEADING_LANGUAGE', 'Lenguaje');
-define('MODULE_SUMMARY_REVIEWS_HEADING_RATING', 'Rating');
-define('MODULE_SUMMARY_REVIEWS_HEADING_DATE', 'Fecha');
-?>
+summary_reviews_title = Comentarios
+summary_reviews_table_heading_products = Productos
+summary_reviews_table_heading_language = Lenguaje
+summary_reviews_table_heading_rating = Valoración
+summary_reviews_table_heading_date = Fecha

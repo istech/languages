@@ -1,45 +1,34 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Comentarios
 
-  Copyright (c) 2007 osCommerce
+table_heading_products = Productos
+table_heading_language = Lenguaje
+table_heading_rating = Valoración
+table_heading_date_added = Fecha Añadida
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+action_heading_batch_delete_reviews = Borrar A Los Comentarios En Grupo
 
-define('HEADING_TITLE', 'Comentarios');
+field_product = Producto:
+field_author = Autor:
+field_date_added = Fecha Añadida:
+field_review = Comentario:
+field_rating = Valoración:
 
-define('TABLE_HEADING_PRODUCTS', 'Productos');
-define('TABLE_HEADING_LANGUAGE', 'Lenguaje');
-define('TABLE_HEADING_RATING', 'Valoración');
-define('TABLE_HEADING_DATE_ADDED', 'Fecha Añadida');
-define('TABLE_HEADING_STATUS', 'Estado');
-define('TABLE_HEADING_ACTION', 'Acción');
+rating_from_5_stars = %s de 5 Estrellas!
+rating_bad = Malo
+rating_good = Bueno
 
-define('ENTRY_PRODUCT', 'Producto:');
-define('ENTRY_FROM', 'De:');
-define('ENTRY_DATE', 'Fecha:');
-define('ENTRY_REVIEW', 'Comentario:');
-define('ENTRY_REVIEW_TEXT', '<small><font color="#ff0000"><b>NOTA:</b></font></small>&nbsp;¡El HTML no se traduce!&nbsp;');
-define('ENTRY_RATING', 'Rating:');
+introduction_delete_review = Por favor verifique el retiro de este comentario de producto.
 
-define('TEXT_INFO_DELETE_REVIEW_INTRO', '¿Esta seguro que quiere borrar este comentario?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguientes comentario?s');
-
-define('TEXT_INFO_DATE_ADDED', 'Fecha Agregada:');
-define('TEXT_INFO_LAST_MODIFIED', 'Última Modificación:');
-define('TEXT_INFO_IMAGE_NONEXISTENT', 'IMÁGEN NO EXISTE');
-define('TEXT_INFO_REVIEW_AUTHOR', 'Autor:');
-define('TEXT_INFO_REVIEW_RATING', 'Valoración:');
-define('TEXT_INFO_REVIEW_READ', 'Leer:');
-define('TEXT_INFO_REVIEW_SIZE', 'Tamaño:');
-define('TEXT_INFO_PRODUCTS_AVERAGE_RATING', 'Valoración Media:');
-
-define('TEXT_OF_5_STARS', '¡%s de 5 Estrellas!');
-define('TEXT_GOOD', '<small><font color="#ff0000"><b>BUENO</b></font></small>');
-define('TEXT_BAD', '<small><font color="#ff0000"><b>MALO</b></font></small>');
-define('TEXT_INFO_HEADING_DELETE_REVIEW', 'Borrar Comentario');
-?>
+introduction_batch_delete_reviews = Por favor verifique el retiro de los siguientes comentarios de producto.

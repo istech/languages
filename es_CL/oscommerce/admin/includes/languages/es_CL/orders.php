@@ -1,86 +1,80 @@
-<?php
-/*
-  $Id: newsletters.php 1367 2007-03-05 22:44:16Z hpdl $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Pedidos
 
-  Copyright (c) 2004 osCommerce
+operation_heading_order_id = Pedido ID:
+operation_heading_customer_id = Cliente ID:
+operation_heading_filter_status = Estado:
 
-  Released under the GNU General Public License
-*/
+action_heading_batch_delete_orders = Borrar A Los Pedidos En Grupo
 
+table_heading_customers = Clientes
+table_heading_order_total = Total del Pedido
+table_heading_date_purchased = Fecha de la Compra
+table_heading_status = Estado
+table_heading_action = Acción
+table_heading_products = Productos
+table_heading_product_model = Modelo
+table_heading_tax = Impuesto
+table_heading_price_net = Precio (Neto)
+table_heading_price_gross = Precio (Bruto)
+table_heading_total_net = Total (Neto)
+table_heading_total_gross = Total (Bruto)
+table_heading_date_added = Fecha Añadido
+table_heading_comments = Comentarios
+table_heading_customer_notified = Cliente Notificado
 
+section_summary = Resumen
+section_products = Productos
+section_transaction_history = Historia de la Transacción
+section_status_history = Historia del Estado
 
-define('HEADING_TITLE', 'Pedidos');
+subsection_customer = Cliente
+subsection_shipping_address = Dirección del Envío
+subsection_billing_address = Dirección de la Facturación
+subsection_payment_method = Forma de Pago
+subsection_status = Estado
+subsection_total = Total
 
-define('SEARCH_ORDER_ID', 'Pedido ID:');
-define('SEARCH_CUSTOMER_ID', 'Cliente ID:');
-define('SEARCH_STATUS', 'Estado:');
+field_post_transaction_actions = Acciones Posteriores de la Transacción
+field_status = Estado:
+field_add_comment = Agregar Commentario:
+field_notify_customer = ¿Notificar al Cliente?
+field_notify_customer_with_comments = ¿Notificar al Cliente con Comentarios?
+field_restock_product_quantity = ¿Devolver la Cantidad del Producto al Stock?
 
-define('TABLE_HEADING_COMMENTS', 'Commentarios');
-define('TABLE_HEADING_CUSTOMERS', 'Clientes');
-define('TABLE_HEADING_ORDER_TOTAL', 'Total del Pedido');
-define('TABLE_HEADING_DATE_PURCHASED', 'Fecha de la Compra');
-define('TABLE_HEADING_STATUS', 'Estado');
-define('TABLE_HEADING_ACTION', 'Acción');
-define('TABLE_HEADING_QUANTITY', 'Cant.');
-define('TABLE_HEADING_PRODUCTS_MODEL', 'Modelo');
-define('TABLE_HEADING_PRODUCTS', 'Productos');
-define('TABLE_HEADING_TAX', 'Impuesto');
-define('TABLE_HEADING_TOTAL', 'Total');
-define('TABLE_HEADING_PRICE_EXCLUDING_TAX', 'Precio (ex)');
-define('TABLE_HEADING_PRICE_INCLUDING_TAX', 'Precio (inc)');
-define('TABLE_HEADING_TOTAL_EXCLUDING_TAX', 'Total (ex)');
-define('TABLE_HEADING_TOTAL_INCLUDING_TAX', 'Total (inc)');
+all_statuses = -- Todos los Estados --
+credit_card_type = Tipo de Tarjeta de Credito:
+credit_card_owner_name = Titular de la Tarjeta de Crédito:
+credit_card_number = Número de la Tarjeta de Crédito:
+credit_card_expiry_date = Vencimiento de la Tarjeta de Crédito:
+number_of_comments = Comentarios:
+number_of_products = Productos:
+number_of_items = Artículos:
 
-define('TABLE_HEADING_CUSTOMER_NOTIFIED', 'Cliente Notificado');
-define('TABLE_HEADING_DATE_ADDED', 'Fecha Añadido');
+introduction_delete_order = Por favor verifique el retiro de este pedido.
 
-define('ENTRY_CUSTOMER', 'Cliente:');
-define('ENTRY_SOLD_TO', 'VENDIDO A:');
-define('ENTRY_DELIVERY_TO', 'Enviar a:');
-define('ENTRY_SHIP_TO', 'ENVIAR A:');
-define('ENTRY_SHIPPING_ADDRESS', 'Dirección del Envío:');
-define('ENTRY_BILLING_ADDRESS', 'Dirección de la Facturación:');
-define('ENTRY_PAYMENT_METHOD', 'Forma de Pago:');
-define('ENTRY_CREDIT_CARD_TYPE', 'Tipo de Tarjeta de Crédito:');
-define('ENTRY_CREDIT_CARD_OWNER', 'Titular de la Tarjeta de Crédito:');
-define('ENTRY_CREDIT_CARD_NUMBER', 'Número de la Tarjeta de Crédito:');
-define('ENTRY_CREDIT_CARD_EXPIRES', 'Vencimiento de la Tarjeta de Crédito:');
-define('ENTRY_SUB_TOTAL', 'Subtotal:');
-define('ENTRY_TAX', 'Impuesto:');
-define('ENTRY_SHIPPING', 'Envío:');
-define('ENTRY_TOTAL', 'Total:');
-define('ENTRY_DATE_PURCHASED', 'Fecha de la Compra:');
-define('ENTRY_STATUS', 'Estatus:');
-define('ENTRY_POST_TRANSACTION_ACTIONS', 'Acciones posteriores de la transacción:');
-define('ENTRY_DATE_LAST_UPDATED', 'Última Fecha al Día:');
-define('ENTRY_NOTIFY_CUSTOMER', 'Notificar Cliente:');
-define('ENTRY_NOTIFY_COMMENTS', 'Agregar Commentario:');
-define('ENTRY_NEW_COMMENT', 'Nuevo Comentario:');
-define('ENTRY_PRINTABLE', 'Imprimir Factura');
+introduction_batch_delete_orders = Por favor verifique el retiro de los siguientes pedidos.
 
-define('TEXT_INFO_HEADING_DELETE_ORDER', 'Borrar Pedido');
-define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar este pedido?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los siguientes pedidos?');
-define('TEXT_INFO_RESTOCK_PRODUCT_QUANTITY', 'Volver a incluir en stock la cantidad del producto');
-define('TEXT_DATE_ORDER_CREATED', 'Fecha Creada:');
-define('TEXT_DATE_ORDER_LAST_MODIFIED', 'Última Modificación:');
-define('TEXT_INFO_PAYMENT_METHOD', 'Forma de Pago:');
-
-define('TEXT_ALL_ORDERS', 'Todos los Pedidos');
-define('TEXT_NO_ORDER_HISTORY', 'Ninguna Historia de Pedido Disponible');
-
-define('EMAIL_SEPARATOR', '------------------------------------------------------');
-define('EMAIL_TEXT_SUBJECT', 'Pedido Actualizado');
-define('EMAIL_TEXT_ORDER_NUMBER', 'Número del Pedido:');
-define('EMAIL_TEXT_INVOICE_URL', 'Factura Detallada:');
-define('EMAIL_TEXT_DATE_ORDERED', 'Fecha del pedido:');
-define('EMAIL_TEXT_STATUS_UPDATE', 'Su pedido se ha cambiado al siguiente estado.' . "\n\n" . 'Nuevo estado: %s' . "\n\n" . 'Por favor conteste a este email si tiene alguna pregunta.' . "\n");
-define('EMAIL_TEXT_COMMENTS_UPDATE', 'Los comentarios para su pedido son' . "\n\n%s\n\n");
-
-define('ERROR_ORDER_DOES_NOT_EXIST', 'Error: El pedido no existe.');
-define('SUCCESS_ORDER_UPDATED', 'Correcto: El pedido se ha actualizado con éxito.');
-define('WARNING_ORDER_NOT_UPDATED', 'Advertencia: Nada para cambiar. El pedido no se ha actualizado.');
-?>
+email_subject = Pedido Actualizado (%s)  
+email_body = %s  
+------------------------------------------------------
+Pedido Numero: %s
+Factura Detallada: %s
+Fecha de la Compra: %s
+email_body_comment = Comentario del Pedido
+------------------------------------------------------
+%s  
+email_body_status = Estado del Pedido
+------------------------------------------------------
+Nuevo Estado: %s
+email_body_contact = Por favor contestar a este e-mail si tiene cualquier pregunta con respecto a este pedido.

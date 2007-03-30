@@ -1,22 +1,27 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Plantillas
 
-  Copyright (c) 2007 osCommerce
+table_heading_templates = Plantillas
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+field_title = Título:
+field_author = Autor:
+field_markup = Markup:
+field_css_based = ¿CSS Basado?
+field_presentation_medium = Medio de la Presentación :
+field_set_as_default = ¿Fijar como Predeterminada?
 
-define('HEADING_TITLE', 'Plantillas');
+introduction_edit_template = Por favor realize los cambios necesarios para esta plantilla.
 
-define('TABLE_HEADING_TEMPLATES', 'Plantillas');
-define('TABLE_HEADING_STATUS', 'Estado');
-define('TABLE_HEADING_ACTION', 'Acción');
-
-define('INFO_TEMPLATE_UNINSTALL_INTRO', '¿Está seguro que quiere desinstalar este módulo?<br /><br />(Todos los parámetros de la plantilla serán borrados)');
-
-define('TEXT_INFO_DELETE_PROHIBITED', 'Advertencia: La plantilla predeterminada no puede ser quitada. Por favor elija otra plantilla como el predeterminada, y inténtelo de nuevo.');
-?>
+introduction_uninstall_template = Por favor verifique la desinstalación de esta plantilla.
+uninstall_error_template_prohibited = Error: La plantilla predeterminada no puede ser quitada. Por favor fijar otra plantilla como predeterminada y intente otra vez.

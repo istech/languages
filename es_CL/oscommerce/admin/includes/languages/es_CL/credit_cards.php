@@ -1,11 +1,13 @@
-# $Id: $
+﻿# $Id: $
 #
 # osCommerce, Open Source E-Commerce Solutions
 # http://www.oscommerce.com
 #
 # Copyright (c) 2007 osCommerce
 #
-# Released under the GNU General Public License
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
 heading_title = Tipos de Tarjetas de Crédito
 
@@ -14,8 +16,8 @@ table_heading_sort_order = Orden
 table_heading_action = Acción
 
 action_heading_new_card = Nueva Tarjeta de Crédito
-action_heading_batch_edit_cards = Editar a las Tarjetas de Crédito en Grupo
-action_heading_batch_delete_cards = Borrar a las Tarjetas de Crédito en Grupo
+action_heading_batch_edit_cards = Editar A Las Tarjetas De Crédito En Grupo
+action_heading_batch_delete_cards = Borrar A Las Tarjetas De Crédito En Grupo
 
 field_name = Nombre de la Tarjeta:
 field_pattern = Patrón del Número de Tarjeta (PREG):
@@ -30,5 +32,5 @@ introduction_new_card = Por favor complete la información siguiente para la nue
 introduction_edit_card = Por favor realize los cambios necesarios para esta tarjeta de crédito.
 introduction_batch_edit_cards = Por favor realize los cambios necesarios para estas tarjetas de crédito.
 
-introduction_delete_card = Por favor verifice el retiro de esta tarjeta de crédito.
-introduction_batch_delete_cards = Por favor verifice el retiro de las siguientes tarjetas de crédito.
+introduction_delete_card = Por favor verifique el retiro de esta tarjeta de crédito.
+introduction_batch_delete_cards = Por favor verifique el retiro de las siguientes tarjetas de crédito.

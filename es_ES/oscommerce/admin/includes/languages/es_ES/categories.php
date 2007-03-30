@@ -1,50 +1,47 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Categorías
 
-  Copyright (c) 2007 osCommerce
+operation_title_search = Buscar:
 
-  Released under the GNU General Public License
-*/
+table_heading_categories = Categorías
+table_heading_action = Acción
 
-define('HEADING_TITLE', 'Categorías');
-define('HEADING_TITLE_SEARCH', 'Buscar:');
-define('HEADING_TITLE_GOTO', 'Ir A:');
+action_heading_new_category = Nueva Categoría
+action_heading_batch_delete_categories = Borrar A Las Categorías En Grupo
+action_heading_batch_move_categories = Mover A Las Categorías En Grupo
 
-define('TABLE_HEADING_CATEGORIES', 'Categorías');
-define('TABLE_HEADING_ACTION', 'Acción');
-define('TABLE_HEADING_STATUS', 'Estado');
+field_parent_category = Categoría Padre:
+field_name = Nombre:
+field_image = Imagen:
+field_sort_order = Orden:
 
-define('TEXT_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
-define('TEXT_EDIT_PARENT_CATEGORY', 'Categoría Padre:');
-define('TEXT_EDIT_CATEGORIES_NAME', 'Nombre de la Categoría:');
-define('TEXT_EDIT_CATEGORIES_IMAGE', 'Imágen de la Categoría:');
-define('TEXT_EDIT_SORT_ORDER', ' Orden:');
+top_category = -- Top --
 
-define('TEXT_INFO_HEADING_NEW_CATEGORY', 'Nueva Categoría');
+introduction_new_category = Por favor complete la información siguiente para la nueva categoría.
 
-define('TEXT_DELETE_CATEGORY_INTRO', '¿Esta seguro que quiere borrar esta categoría?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar las siguientes categorías?');
-define('TEXT_DELETE_WARNING_CHILDS', '<b>ADVERTENCIA:</b> ¡Hay %s subcategorías que todavía están ligadas a esta categoría!');
-define('TEXT_DELETE_WARNING_PRODUCTS', '<b>ADVERTENCIA:</b> ¡Hay %s productos que todavía están ligadas a esta categoría!');
+introduction_edit_category = Por favor realize los cambios necesarios para esta categoría.
 
-define('TEXT_MOVE_CATEGORIES_INTRO', 'Por favor seleccione la categoría que usted desea <b>%s</b> para residir en');
-define('TEXT_MOVE_BATCH_INTRO', 'Por favor seleccione la categoría que usted desea mover las categorías siguientes a');
-define('TEXT_MOVE', 'Mover <b>%s</b> a:');
+introduction_move_category = Por favor seleccione el padre que esta categoría debe ser movida a.
 
-define('TEXT_NEW_CATEGORY_INTRO', 'Por favor complete la información para la nueva categoría');
-define('TEXT_CATEGORIES_NAME', 'Nombre de la Categoría:');
-define('TEXT_CATEGORIES_IMAGE', 'Imágen de la Categoría');
-define('TEXT_SORT_ORDER', 'Orden:');
+introduction_delete_category = Por favor verifique el retiro de esta categoría y sus sub-categorías.
+delete_warning_category_in_use_children = Advertencia: Hay %s sub-categorías asignadas a esta categoría que también será quitada.
+delete_warning_category_in_use_products = Advertencia: Hay %s productos asignados a esta categoría que tendrá esta relación de la categoría quitada.
 
-define('EMPTY_CATEGORY', 'Categoría Vacía');
+introduction_batch_delete_categories = Por favor verifique el retiro de estas categorías y sus sub-categorías.
 
-define('WARNING_CATEGORY_NAME_EMPTY', 'Advertencia: El nombre de la categoría para %s es vacío. Por favor definir un nombre para esta lenguaje.');
+introduction_batch_move_categories = Por favor seleccione el padre que las siguientes categorías deben ser movida a.
 
-define('ERROR_CANNOT_MOVE_CATEGORY_TO_PARENT', 'Error: La categoría no se puede mover a una subcategoría.');
-define('ERROR_CATEGORIES_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de imágenes de las categorias: ' . realpath('../images/categories'));
-define('ERROR_CATEGORIES_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de las imágenes de las categorias no existe: ' . realpath('../images/categories'));
-?>
+ms_warning_category_name_empty = Advertencia: El nombre de la categoría para %s es vacía. Por favor definir un nombre para este lenguaje.
+
+ms_error_image_directory_not_writable = Error: El directorio de la categoría no es escribible: %s
+ms_error_image_directory_non_existant = Error: El directorio de la categoría no existe: %s

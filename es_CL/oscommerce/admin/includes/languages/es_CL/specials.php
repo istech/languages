@@ -1,46 +1,36 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Especiales
 
-  Copyright (c) 2007 osCommerce
+action_heading_new_special = Nuevo Producto En Especial
 
-  Released under the GNU General Public License
-*/
+table_heading_products = Productos
+table_heading_price = Precio
+table_heading_action = Acción
 
-define('HEADING_TITLE', 'Especiales');
+action_heading_batch_delete_specials = Borrar A Los Productos En Especial En Grupo
 
-define('TABLE_HEADING_PRODUCTS', 'Productos');
-define('TABLE_HEADING_PRODUCTS_PRICE', 'Precio de Productos');
-define('TABLE_HEADING_ACTION', 'Acción');
+field_product = Producto:
+field_price_net = Precio Especial (Neto):
+field_price_net_percentage = Precio Especial (Neto) / Porcentaje:
+field_price_gross = Precio Especial (Bruto):
+field_status = Estado:
+field_date_start = Fecha de Inicio:
+field_date_expires = Expira El:
 
-define('TEXT_HEADING_NEW_SPECIAL', 'Nuevo Producto En Especial');
+introduction_new_special = Por favor complete la información siguiente para el nuevo producto en especial.
 
-define('TEXT_NEW_INTRO', 'Por favor completar la información siguiente para el producto nuevo en especial');
-define('TEXT_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
+introduction_edit_special = Por favor realize los cambios necesarios para este producto en especial.
 
-define('TEXT_SPECIALS_PRODUCT', 'Producto:');
-define('TEXT_SPECIALS_SPECIAL_PRICE_NET', 'Precio Especial (Neto):');
-define('TEXT_SPECIALS_SPECIAL_PRICE_GROSS', 'Precio Especial (Bruto):');
-define('TEXT_SPECIALS_STATUS', 'Estado:');
-define('TEXT_SPECIALS_START_DATE', 'Fecha de Inicio:');
-define('TEXT_SPECIALS_EXPIRES_DATE', 'Fecha de Venciemiento:');
-define('TEXT_SPECIALS_PRICE_TIP', '<b>Notas especiales:</b><ul><li>Puede introducir un porcentaje para deducir en el campo de Precio especiales, ejemplo: <b>20%</b></li><li>Si introduce un precio nuevo, el separador decimal debe ser un \'.\' (décimal-punto), ejemplo: <b>49.99</b></li><li>Dejar la fecha de vencimiento vacía para ninguna caducidad</li></ul>');
+introduction_delete_special = Por favor verifique el retiro de este producto en especial.
 
-define('TEXT_INFO_DATE_ADDED', 'Fecha Agregada:');
-define('TEXT_INFO_LAST_MODIFIED', 'Última Modificación:');
-define('TEXT_INFO_NEW_PRICE', 'Precio Nuevo :');
-define('TEXT_INFO_ORIGINAL_PRICE', 'Precio Original:');
-define('TEXT_INFO_PERCENTAGE', 'Porcentaje:');
-define('TEXT_INFO_EXPIRES_DATE', 'Caduca En:');
-define('TEXT_INFO_STATUS_CHANGE', 'Cambiar Estado:');
-
-define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Borrar Especiales');
-define('TEXT_INFO_DELETE_INTRO', '¿Esta seguro que quiere borrar el precio especial de los productos?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar los precios especiales de los productos?');
-
-define('ERROR_SPECIALS_PRICE', 'El precio especial no puede ser negativo o mayor que el precio original');
-define('ERROR_SPECIALS_DATE', 'La fecha de vencimiento es anterior a la fecha del comienzo');
-?>
+introduction_batch_delete_specials = Por favor verifique el retiro de los siguientes productos en especial.

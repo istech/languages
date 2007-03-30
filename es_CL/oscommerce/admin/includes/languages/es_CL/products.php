@@ -1,81 +1,94 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Productos
+heading_title_new_product = Nuevo Producto
 
-  Copyright (c) 2007 osCommerce
+operation_title_search = Buscar:
 
-  Released under the GNU General Public License
-*/
+table_heading_products = Productos
+table_heading_price = Precio
+table_heading_quantity = Cantidad
+table_heading_action = Acción
+table_heading_categories = Categorías
 
-define('HEADING_TITLE', 'Productos');
-define('HEADING_TITLE_SEARCH', 'Buscar:');
-define('HEADING_TITLE_GOTO', 'Ir A:');
+action_heading_delete_image = Borrar Imagen
+action_heading_batch_copy_products = Copiar A Los Productos En Grupo
+action_heading_batch_delete_products = Borrar A Los Productos En Grupo
 
-define('TAB_GENERAL', 'General');
-define('TAB_DATA', 'Datos');
-define('TAB_IMAGES', 'Imágenes');
-define('TAB_ATTRIBUTES', 'Atributos');
-define('TAB_CATEGORIES', 'Categorías');
+section_general = General
+section_data = Datos
+section_images = Imágenes
+section_attributes = Atributos
+section_categories = Categorías
 
-define('FIELDSET_ASSIGNED_ATTRIBUTES', 'Atributos Asignadas');
+subsection_price = Precio
+subsection_data = Datos
+subsection_status = Estado
+subsection_information = Información
+subsection_new_image = Nueva Imagen
+subsection_original_images = Imágenes Originales
+subsection_images = Imágenes
+subsection_assigned_attributes = Atributos Asignados
 
-define('TABLE_HEADING_PRODUCTS', 'Productos');
-define('TABLE_HEADING_PRICE', 'Precio');
-define('TABLE_HEADING_QUANTITY', 'Cantidad');
-define('TABLE_HEADING_STATUS', 'Estado');
-define('TABLE_HEADING_ACTION', 'Acción');
+field_name = Nombre:
+field_description = Descripción:
+field_model = Modelo:
+field_keyword = Palabra Llave:
+field_tags = Tags:
+field_url = URL:
+field_tax_class = Impuesto:
+field_price_net = Precio Neto:
+field_price_gross = Precio Bruto:
+field_manufacturer = Fabricante:
+field_quantity = Cantidad:
+field_weight = Peso:
+field_date_available = Fecha Disponible:
 
-define('TEXT_NEW_PRODUCT', 'Nuevo Producto');
-define('TEXT_CATEGORIES', 'Categorías:');
+field_current_categories = Categorías Actuales:
+field_categories = Categorías:
+field_copy_method = Forma de Copiar:
 
-define('TEXT_EDIT_INTRO', 'Por favor realize cualquier cambio necesario');
+none = -- Ninguno --
+top_category = -- Top Categoría --
+more_product_information = Para más información por favor visitar <a href="http://%s" target="_blank">el sitio web</a> de este producto.
+product_date_added = Este producto fue añadido a nuestro catálogo el %s.
+product_date_available = Este producto estará disponible el %s.
+status_enabled = Activado
+status_disabled = Desactivado
+image_remote_upload = Subiendo Archivo Remoto
+image_local_files = Archivo Local
+image_upload_progress = Subiendo imagen al servidor..
+image_retrieving_local_files = Buscar imágenes locales..
+image_multiple_upload_progress = Subiendo imágenes al servidor..
+images_loading_from_server = Cargando imágenes del servidor..
+copy_method_link = Link Producto
+copy_method_duplicate = Duplicar Producto
 
-define('TEXT_INFO_COPY_TO_INTRO', 'Por favor elija una nueva categoría a la que desee copiar este producto a');
-define('TEXT_INFO_COPY_TO_BATCH_INTRO', 'Por favor elija una nueva categoría a la que desee copiar estos productos a');
-define('TEXT_INFO_CURRENT_CATEGORIES', 'Categorías Actuales:');
+introduction_select_local_images = Las siguientes imágenes estan diponibles en el servidor donde se puede subir imágenes adicionales vía FTP. El listado puede ser restaurado haciendo click en el link de Archivos Locales.<br /><br />Por favor seleccione del listado siguiente que imágenes para asignar a este producto.
 
-define('TEXT_DELETE_PRODUCT_INTRO', '¿Esta seguro que quiere borrar este producto permanentemente?');
-define('TEXT_DELETE_BATCH_INTRO', '¿Esta seguro que quiere borrar estos productos permanentemente?');
+introduction_delete_image = Por favor verifique el retiro de esta imagen de producto.
 
-define('TEXT_MOVE_PRODUCTS_INTRO', 'Por favor seleccione la categoría a la que desea asignar el producto <b>%s</b>');
-define('TEXT_MOVE', 'Mover <b>%s</b> a:');
+introduction_copy_product = Por favor seleccione una categoría que este producto se debe copiar a.
 
-define('TEXT_PRODUCTS_STATUS', 'Estado de los Productos:');
-define('TEXT_PRODUCTS_DATE_AVAILABLE', 'Fecha de Disponibilidad:');
-define('TEXT_PRODUCT_AVAILABLE', 'En Stock');
-define('TEXT_PRODUCT_NOT_AVAILABLE', 'Sin Stock');
-define('TEXT_PRODUCTS_MANUFACTURER', 'Fabricante de Productos:');
-define('TEXT_PRODUCTS_NAME', 'Nombre del Producto:');
-define('TEXT_PRODUCTS_DESCRIPTION', 'Descripción del Producto:');
-define('TEXT_PRODUCTS_QUANTITY', 'Cantidad del Producto:');
-define('TEXT_PRODUCTS_MODEL', 'Modelo del Producto:');
-define('TEXT_PRODUCTS_KEYWORD', 'Palabras Clave del Producto:');
-define('TEXT_PRODUCTS_TAGS', 'Etiquetas del Producto:');
-define('TEXT_PRODUCTS_IMAGE', 'Imágenes del Producto:');
-define('TEXT_PRODUCTS_URL', 'URL del producto');
-define('TEXT_PRODUCTS_URL_WITHOUT_HTTP', '<small>(sin http://)</small>');
-define('TEXT_PRODUCTS_TAX_CLASS', 'Tipo de Impuesto:');
-define('TEXT_PRODUCTS_PRICE_NET', 'Precio del Producto (Neto):');
-define('TEXT_PRODUCTS_PRICE_GROSS', 'Precio del Producto (Bruto):');
-define('TEXT_PRODUCTS_WEIGHT', 'Peso del Producto:');
+introduction_delete_product = Por favor verifique el retiro de este producto.
 
-define('TEXT_PRODUCT_DATE_ADDED', 'Este producto fué añadido al catálogo el %s.');
-define('TEXT_PRODUCT_DATE_AVAILABLE', 'Este producto estará disponible a partir del %s.');
-define('TEXT_PRODUCT_MORE_INFORMATION', 'Para mas información por favor visite la página del producto <a href="http://%s" target="blank"><u>aquí</u></a>.');
-  
-define('TEXT_HOW_TO_COPY', 'Método de Copia:');
-define('TEXT_COPY_AS_LINK', 'Enlace la Producto');
-define('TEXT_COPY_AS_DUPLICATE', 'Duplicar el Producto');
+introduction_batch_copy_products = Por favor seleccione una categoría que los siguientes productos se deben copiar a.
 
-define('WARNING_PRODUCT_KEY_IN_USE', 'Advertencia: Esta palabra clave es ya funcionando: %s. Por favor utilizar otra palabra clave única para este producto.');
-define('WARNING_PRODUCT_KEY_EMPTY', 'Advertencia: Este producto tiene una palabra clave vacía que tiene que ser definida. Por favor utilizar una palabra clave única para identificar público este producto.');
-define('WARNING_PRODUCT_KEY_INVALID', 'Advertencia: Esta palabra clave del producto es inválida: %s. Las palabras claves del producto deben ser una palabra que contiene las letras y los números (a-zA-Z0-9), y se pueden separar por las rayas (_) y los símbolos menos (-).');
+introduction_batch_delete_products = Por favor verifique el retiro de los siguientes productos.
 
-define('ERROR_CANNOT_LINK_TO_SAME_CATEGORY', 'Error: No se puede enlazar el producto en la misma categoría.');
-define('ERROR_CATALOG_IMAGE_DIRECTORY_NOT_WRITEABLE', 'Error: No se puede escribir en el directorio de imágenes: ' . realpath('../images/products'));
-define('ERROR_CATALOG_IMAGE_DIRECTORY_DOES_NOT_EXIST', 'Error: El directorio de imágenes no existe: ' . realpath('../images/products'));
-define('ERROR_IMAGE_PROCESSOR_NOT_AVAILABLE', 'Error: No se pueden procesar las imagenes del producto ya que "convert" que es parte de ImageMagick no está disponible. Este puede ser definido en Configuración -> Localización de programas.');
-?>
+ms_warning_image_processor_not_available = Advertencia: Un procesador de imagen no está disponible. Por favor instalar y comprobar la localización del programa del "convert" de ImageMagicks en la Configuración - > Configuración - > sección de las localizaciones de programa.
+
+ms_error_image_directory_not_writable = Error: El directorio de las imágenes de producto no es escribible: %s
+ms_error_image_directory_non_existant = Error: El directorio de las imágenes de producto no existe: %s
+ms_error_product_keyword_empty = Error: Este producto tiene la llave del producto vacía que tiene que ser definida. Por favor utilize una palabra clave única para identificar en público este producto.
+ms_error_product_keyword_exists = Error: Esta palabra clave del producto es ya esta en uso: %s. Por favor utilize otra palabra clave única para este producto.
+ms_error_product_keyword_invalid = Error: Esta palabra clave del producto es inválida: %s. Las palabras claves del producto deben ser una palabra que contiene letras y números (a-zA-Z0-9), y puede ser separado solamente por las rayas (_) y símbolos menos (-).

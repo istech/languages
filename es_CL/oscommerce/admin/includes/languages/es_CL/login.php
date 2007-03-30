@@ -1,21 +1,22 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Entrar
 
-  Copyright (c) 2007 osCommerce
+action_heading_login = Entrar En La Administración
 
-  Released under the GNU General Public License
-*/
+introduction = Por favor identifíquese para entrar en la administración.
 
-define('HEADING_TITLE', 'Login');
+field_username = Usuario:
+field_password = Contraseña:
 
-define('TEXT_INFO_HEADING_LOGIN', 'Entrar En La Administración');
-
-define('TEXT_INFO_INTRO', 'Por favor use este formulario para entrar en la administración.');
-
-define('TEXT_INFO_USER_NAME', 'Usuario:');
-define('TEXT_INFO_USER_PASSWORD', 'Contraseña:');
-?>
+ms_success_logged_out = Éxito: Se ha salido con éxito de este sistema.
+ms_error_login_invalid = Error: La identificación del administrador de la tienda falló. Por favor intente otra vez si le han autorizado a utilizar este sistema.

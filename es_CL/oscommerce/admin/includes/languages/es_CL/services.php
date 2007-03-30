@@ -1,22 +1,19 @@
-<?php
-/*
-  $Id: $
+﻿# $Id: $
+#
+# osCommerce, Open Source E-Commerce Solutions
+# http://www.oscommerce.com
+#
+# Copyright (c) 2007 osCommerce
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License v2 (1991)
+# as published by the Free Software Foundation.
 
-  osCommerce, Open Source E-Commerce Solutions
-  http://www.oscommerce.com
+heading_title = Servicios
 
-  Copyright (c) 2007 osCommerce
+table_heading_service_modules = Módulos de Servicio
+table_heading_action = Acción
 
-  Released under the GNU General Public License
-*/
+introduction_edit_service_module = Por favor realize los cambios necesarios para este módulo de servicio.
 
-define('HEADING_TITLE', 'Servicios');
-
-define('TABLE_HEADING_SERVICES', 'Servicios');
-define('TABLE_HEADING_STATUS', 'Estado');
-define('TABLE_HEADING_ACTION', 'Acción');
-
-define('TEXT_MODULE_DIRECTORY', 'Directorio del Módulo:');
-
-define('TEXT_UNINSTALL_INTRO', '¿Esta seguro que quiere desinstalar este módulo?<br /><br />(todos los parámetros del módulo serán borrados)');
-?>
+introduction_uninstall_service_module = Por favor verifique la desinstalación de este módulo de servicio.
