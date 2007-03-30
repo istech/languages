@@ -11,7 +11,7 @@
 
 heading_title = Monedas
 
-table_heading_name = Moneda
+table_heading_currencies = Moneda
 table_heading_code = Código
 table_heading_value = Valor
 table_heading_example = Ejemplo

@@ -9,8 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-summary_products_title = Productos
-summary_products_table_heading_products = Productos
-summary_products_table_heading_price = Precio
-summary_products_table_heading_date = Fecha
-summary_products_table_heading_status = Estado
+services_session_title = Sesión
+services_session_description = El encargado de la sesión para los huéspedes, los clientes, y los robot de araña

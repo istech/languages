@@ -18,5 +18,5 @@ table_heading_action = Acción
 
 cache_location = Directorio Caché:
 
-ms_error_cache_directory_not_writable = Error: El directorio del caché no es escribible: %s
 ms_error_cache_directory_non_existant = Error: El directorio del caché no existe: %s
+ms_error_cache_directory_not_writable = Error: El directorio del caché no es escribible: %s

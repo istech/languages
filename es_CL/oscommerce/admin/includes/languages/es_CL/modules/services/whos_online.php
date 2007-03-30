@@ -9,7 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-summary_customers_title = Clientes
-summary_customers_table_heading_customers = Clientes
-summary_customers_table_heading_date = Fecha
-summary_customers_table_heading_status = Estado
+services_whos_online_title = Quién está Online
+services_whos_online_description = Ver quién está actualmente en online

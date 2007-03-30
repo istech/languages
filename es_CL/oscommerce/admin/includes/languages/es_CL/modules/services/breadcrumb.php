@@ -9,5 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-services_reviews_title = Comentarios
-services_reviews_description = Activar comentarios
+services_breadcrumb_title = Migas de Pan
+services_breadcrumb_description = Constructor de la miga de pan para la navegación fácil

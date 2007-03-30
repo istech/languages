@@ -9,5 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-services_reviews_title = Comentarios
-services_reviews_description = Activar comentarios
+services_language_title = Lenguaje
+services_language_description = Incluir el predeterminado o los archivos seleccionados del lenguaje

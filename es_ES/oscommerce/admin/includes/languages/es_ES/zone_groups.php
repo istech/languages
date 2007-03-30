@@ -11,7 +11,7 @@
 
 heading_title = Grupos de la Zona
 
-table_heading_name = Grupos de la Zona
+table_heading_zone_groups = Grupos de la Zona
 table_heading_total_entries = Total Entradas
 table_heading_action = Acción
 

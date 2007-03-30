@@ -11,7 +11,7 @@
 
 heading_title = Lenguajes
 
-table_heading_name = Lenguaje
+table_heading_languages = Lenguajes
 table_heading_total_definitions = Definiciones Totales
 table_heading_code = Código
 table_heading_action = Acción

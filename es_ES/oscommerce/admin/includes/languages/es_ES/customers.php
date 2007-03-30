@@ -10,6 +10,7 @@
 # as published by the Free Software Foundation.
 
 heading_title = Clientes
+
 operation_title_search = Buscar:
 operation_new_address_book_entry = Nueva Entrada del Libro de Dirección
 

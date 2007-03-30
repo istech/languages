@@ -9,5 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-services_reviews_title = Comentarios
-services_reviews_description = Activar comentarios
+services_debug_title = Eliminar Errores
+services_debug_description = Mostrar la información recogido para eliminar errores  

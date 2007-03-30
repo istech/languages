@@ -9,7 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-summary_administrators_log_title = Log De Administradores
-summary_administrators_log_table_heading_users = Usuarios
-summary_administrators_log_table_heading_module = Módulo
-summary_administrators_log_table_heading_date = Fecha
+services_recently_visited_title = Visitado Recientemente
+services_recently_visited_description = Activar el módulo recientemente visitado

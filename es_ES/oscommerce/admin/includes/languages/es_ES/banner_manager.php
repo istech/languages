@@ -10,6 +10,7 @@
 # as published by the Free Software Foundation.
 
 heading_title = Gestor de Banners
+
 action_heading_new_banner = Nueva Banner
 action_heading_batch_delete_banners = Borrar A Las Banners En Grupo
 
@@ -60,5 +61,5 @@ info_banner_fields = <b>Notas De La Banner:</b><ul><li>Use una imagen o texto HT
 <b>Notas De Caducidad:</b><ul><li>Solo uno de los dos campos debe ser enviado.</li><li>Si la banner no debe caducar automáticamente, entonces deje los campos en blanco.</li></ul>
 <b>Notas Sobre Programación:</b><ul><li>Si se ha programado una banner, ésta será activada en la fecha indicada.</li><li>Todas las banners programadas son marcadas como inactivas hasta que llegue su fecha de activación, en la cual serán marcadas como activas.</li></ul>
 
-ms_error_graphs_directory_not_writable = Error: El directorio de los graphs no es escribible: %s
 ms_error_graphs_directory_non_existant = Error: El directorio de los graphs no existe: %s
+ms_error_graphs_directory_not_writable = Error: El directorio de los graphs no es escribible: %s

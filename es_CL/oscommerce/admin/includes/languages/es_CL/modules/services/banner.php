@@ -9,8 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-summary_orders_title = Pedidos
-summary_orders_table_heading_orders = Pedidos
-summary_orders_table_heading_total = Total
-summary_orders_table_heading_date = Fecha
-summary_orders_table_heading_status = Estado
+services_banner_title = Banner
+services_banner_description = Banner funcciones para el catálogo

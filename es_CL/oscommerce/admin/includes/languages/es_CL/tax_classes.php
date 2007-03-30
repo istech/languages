@@ -50,3 +50,5 @@ introduction_new_tax_rate = Por favor complete la información siguiente para el
 introduction_edit_tax_rate = Por favor realize los cambios necesarios para la siguiente entrada de porcentaje:
 
 introduction_delete_tax_rate = Por favor verifique el retiro de esta entrada de porcentaje:
+
+introduction_batch_delete_tax_rates = Por favor verifique el retiro de las siguientes entradas de porcentaje:

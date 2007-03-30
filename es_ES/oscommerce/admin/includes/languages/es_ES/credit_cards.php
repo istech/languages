@@ -11,7 +11,7 @@
 
 heading_title = Tipos de Tarjetas de Crédito
 
-table_heading_name = Nombre
+table_heading_credit_cards = Tarjetas de Credito
 table_heading_sort_order = Orden
 table_heading_action = Acción
 

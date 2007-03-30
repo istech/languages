@@ -9,5 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-services_reviews_title = Comentarios
-services_reviews_description = Activar comentarios
+services_simple_counter_title = Contador Simple
+services_simple_counter_description = Contar cuantos números de las peticiones de página hechas
