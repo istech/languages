@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <language>
   <definitions>
     <definition>
@@ -12,15 +12,9 @@
       <group>modules-boxes</group>
     </definition>
     <definition>
-
       <key>box_shopping_cart_subtotal</key>
-
       <value><![CDATA[Sub-Total:]]></value>
-
       <group>modules-boxes</group>
-
     </definition>
-
   </definitions>
-
 </language>

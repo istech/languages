@@ -34,6 +34,7 @@ field_time_format = Tidsformat:
 field_currency = Standard Valuta:
 field_currency_separator_decimal = Numerisk Decimalavskiljare
 field_currency_separator_thousands = Numerisk Tusendelsavskiljare
+field_parent_language = Förälder Språk:
 field_sort_order = Sorteringsordning:
 field_set_default = Sätt som Förvald?
 
@@ -52,6 +53,7 @@ only_update_existing_records = Uppdatera Endast Existerande Poster
 replace_all = Ersätt Alla
 select_all = Välj Alla
 select_none = Välj Ingen
+none = -- Ingen --
 
 introduction_edit_language = Var vänlig och gör nödvändiga ändringar till det valda språket.
 

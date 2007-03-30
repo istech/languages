@@ -32,7 +32,8 @@ parameter_none = -- Ninguno --
 
 table_action_legend = Leyenda
 batch_results_number_of_entries = Mostrar <b>%d</b> a <b>%d</b> (de <b>%d</b> entradas)
-
+result_set_current_page = Pagina %s de %d
+	
 button_approve = Aprovado
 button_back = Atrás
 button_backup = Respaldar
