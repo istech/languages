@@ -9,5 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-services_debug_title = Felsöka
-services_debug_description = Visa insamlad felsökningsinformation
+services_debug_title = Felsökning
+services_debug_description = Visa vald felsökningsinformation

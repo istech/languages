@@ -10,4 +10,4 @@
 # as published by the Free Software Foundation.
 
 services_session_title = Sessioner
-services_session_description = Session hanterare för gäster, kunder, och spindel robotar
+services_session_description = Sessions hanterare för gäster, kunder, och spindel robotar

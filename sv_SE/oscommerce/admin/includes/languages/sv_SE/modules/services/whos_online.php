@@ -10,4 +10,4 @@
 # as published by the Free Software Foundation.
 
 services_whos_online_title = Vem är Online
-services_whos_online_description = Se vem som för närvarande är online
+services_whos_online_description = Se vem som är online för närvarande

@@ -10,4 +10,4 @@
 # as published by the Free Software Foundation.
 
 services_reviews_title = Kommentarer
-services_reviews_description = Aktivera Produkt Kommentarer
+services_reviews_description = Aktivera produkt kommentarer

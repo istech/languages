@@ -10,4 +10,4 @@
 # as published by the Free Software Foundation.
 
 services_language_title = Språk
-services_language_description = Inkludera den förvalda eller det valda språkfilerna
+services_language_description = Inkludera standard eller valda språk filer

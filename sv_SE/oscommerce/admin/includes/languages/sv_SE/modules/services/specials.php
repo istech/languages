@@ -10,4 +10,4 @@
 # as published by the Free Software Foundation.
 
 services_specials_title = Kampanjer
-services_specials_description = Aktivera Produkt Kampanjer
+services_specials_description = Aktivera produkt kampanjer

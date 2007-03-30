@@ -10,4 +10,4 @@
 # as published by the Free Software Foundation.
 
 services_banner_title = Reklambanderoll
-services_banner_description = Reklambanderoll funktioner för katalogen
+services_banner_description = Reklambanderolls funtioner för katalogen

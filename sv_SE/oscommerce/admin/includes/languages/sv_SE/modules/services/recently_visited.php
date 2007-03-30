@@ -9,5 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-services_recently_visited_title = Senast Besökta
-services_recently_visited_description = Aktivera senast besökta modulen
+services_recently_visited_title = Nyligen Besökta
+services_recently_visited_description = Aktivera nyligen besökta modulen

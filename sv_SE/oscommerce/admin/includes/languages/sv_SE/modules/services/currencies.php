@@ -10,4 +10,4 @@
 # as published by the Free Software Foundation.
 
 services_currencies_title = Valutor
-services_currencies_description = Välj den förvalda eller den valda valutan
+services_currencies_description = Välj standard eller vald valuta

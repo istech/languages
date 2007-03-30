@@ -9,5 +9,5 @@
 # it under the terms of the GNU General Public License v2 (1991)
 # as published by the Free Software Foundation.
 
-services_output_compression_title = Kompression
+services_output_compression_title = Komprimering
 services_output_compression_description = Komprimera innehållet med GZIP
