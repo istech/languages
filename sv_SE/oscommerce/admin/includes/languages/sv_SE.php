@@ -33,7 +33,8 @@ parameter_none = -- Ingen --
 table_action_legend = Lathund
 batch_results_number_of_entries = Visar <b>%d</b> till <b>%d</b> (av <b>%d</b> poster)
 result_set_current_page = Sida %s av %d
-	
+maximum_file_upload_size = Max: %s
+
 button_approve = Godkänn
 button_back = Tillbaka
 button_backup = Säkerhetskopiera
