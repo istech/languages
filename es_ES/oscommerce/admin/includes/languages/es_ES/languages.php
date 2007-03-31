@@ -34,7 +34,7 @@ field_time_format = Formato de Tiempo:
 field_currency = Moneda Predeterminada:
 field_currency_separator_decimal = Separador Numérico Decimal
 field_currency_separator_thousands = Separador Numérico Millares
-field_parent_language = Lenguaje Padre:
+field_parent_language = Pariente del Lenguaje:
 field_sort_order = Orden:
 field_set_default = ¿Fijar como Predeterminada?
 
