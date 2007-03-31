@@ -72,7 +72,7 @@ image_multiple_upload_progress = Subiendo imágenes al servidor..
 images_loading_from_server = Cargando imágenes del servidor..
 copy_method_link = Link Producto
 copy_method_duplicate = Duplicar Producto
-toggle_html_editor = Toggle HTML Editor
+toggle_html_editor = Cambiar Editor HTML
 
 introduction_select_local_images = Las siguientes imágenes estan diponibles en el servidor donde se puede subir imágenes adicionales vía FTP. El listado puede ser restaurado haciendo click en el link de Archivos Locales.<br /><br />Por favor seleccione del listado siguiente que imágenes para asignar a este producto.
 

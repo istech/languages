@@ -72,7 +72,7 @@ image_multiple_upload_progress = Skickar upp bilder till server..
 images_loading_from_server = Hämtar bilder från server..
 copy_method_link = Länka Produkt
 copy_method_duplicate = Duplicera Produkt
-toggle_html_editor = Toggle HTML Editor
+toggle_html_editor = Växla HTML Editor
 
 introduction_select_local_images = Följande bilder finns tillgängliga på servern dit fler bilder kan skickas upp via FTP. Listan kan uppdateras genom att klicka på Lokala Filer länken.<br /><br />Var vänlig och välj från följande lista vilken bild som ska användas till denna produkt.
 
