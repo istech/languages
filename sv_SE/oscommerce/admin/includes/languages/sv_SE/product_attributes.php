@@ -12,7 +12,7 @@
 heading_title = Produktattribut
 
 action_heading_new_attribute_group = Ny Attributgrupp
-action_heading_batch_delete_attribute_groups = Ta Bort Attributgruper I Grupp
+action_heading_batch_delete_attribute_groups = Ta Bort Attributgrupper I Grupp
 action_heading_new_group_entry = Ny Gruppost
 action_heading_batch_delete_group_entries = Ta Bort Grupposter I Grupp
 
