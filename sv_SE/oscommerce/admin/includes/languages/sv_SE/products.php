@@ -32,7 +32,6 @@ section_categories = Kategorier
 
 subsection_price = Pris
 subsection_data = Data
-subsection_status = Status
 subsection_information = Information
 subsection_new_image = Ny Bild
 subsection_original_images = Original Bilder
@@ -48,10 +47,9 @@ field_url = URL:
 field_tax_class = Skatt:
 field_price_net = Netto Pris:
 field_price_gross = Brutto Pris:
-field_manufacturer = Tillverkare:
 field_quantity = Kvantitet:
 field_weight = Vikt:
-field_date_available = Tillgänglighets Datum:
+field_status = Status
 
 field_current_categories = Nuvarande Kategorier:
 field_categories = Kategorier:
